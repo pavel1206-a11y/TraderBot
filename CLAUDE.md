@@ -57,6 +57,23 @@ a stop. So an option position's cost is capped at 10% of the account.
    - Stop-limit can be GTC; stop-market is GFD and regular hours only, so it
      must be re-placed each trading day.
 
+## Current phase: PAPER TRADING
+
+Started 2026-09-29. **No real orders.** For about 2 weeks (10 trading days),
+Claude scores SPY with the playbook and logs every A or B grade setup as a
+paper trade in `journal/paper-trades.md`, with the exact contract, entry,
+stop, target, and result taken from real quotes. No Robinhood write actions
+(orders, alerts, watchlists) during this phase.
+
+**Graduation to real money** (review together with the owner):
+- At least 10 paper trades logged.
+- A-grade trades are profitable overall: average win × win rate beats
+  average loss × loss rate.
+- If passed: real trades start at the current cap ($25–50 premium), A-grade
+  only. Raise the option cap to 15–20% of the account, A-grade only, only
+  after 15–20 real trades confirm the paper results.
+- If not passed: keep paper trading and adjust the playbook first.
+
 ## Strategy
 
 Find and score trades with `strategies/playbook.md`: the daily routine, key
