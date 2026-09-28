@@ -50,11 +50,43 @@ a stop. So an option position's cost is capped at 10% of the account.
 7. **Options:**
    - Single-leg only (long calls / long puts) when a stop is needed; spreads
      accept only limit orders and cannot carry a stop.
-   - No 0DTE (same-day-expiry) contracts. Prefer 7+ days to expiry, and close
-     before the last 2 trading days.
+   - Multi-day contracts: close before the last 2 trading days.
+   - 0DTE (same-day-expiry) contracts are allowed only under the 0DTE rules
+     below.
    - Buy with limit orders, not market.
    - Stop-limit can be GTC; stop-market is GFD and regular hours only, so it
      must be re-placed each trading day.
+
+## 0DTE rules
+
+The owner trades same-day-expiry options when direction is clear. Before
+proposing or placing a 0DTE trade, check every item and show the checklist
+with the trade plan. Any "no" means no trade.
+
+**Entry checklist**
+1. **Direction is clear:** bullish = price holding above VWAP with VWAP
+   sloping up; bearish = holding below a VWAP sloping down. Price chopping
+   back and forth across VWAP = no trade.
+2. **Candles confirm:** on the 5-minute chart, higher highs and higher lows
+   (bullish) or lower highs and lower lows (bearish), plus a confirming candle
+   (a close through the prior high/low, or a VWAP pullback that holds).
+3. **News agrees:** market news and sentiment point the same way, and no
+   scheduled event (CPI, jobs report, FOMC, big earnings) is due before the
+   exit time that could flip the move.
+4. **The trade fits the risk rules:** premium within 5% default / 10% max of
+   account, and a day trade is available under the PDT count.
+
+**Timing and exits**
+- No entries in the first 15 minutes (9:30–9:45 AM ET), when direction is
+  often fake.
+- No new 0DTE entries after 2:30 PM ET, when time decay is fastest.
+- Close every 0DTE position by 3:30 PM ET. Never hold one into expiration:
+  an in-the-money SPY contract that auto-exercises means buying 100 shares
+  (about $76,000), far beyond the account.
+- The stop order sits at the broker from entry; do not rely on check-ins to
+  exit, because 0DTE prices move faster than any check-in schedule.
+- Buying and selling the same day is a day trade, so each 0DTE trade uses
+  one of the 3 allowed per rolling 5 business days.
 
 ## Confirmation
 
