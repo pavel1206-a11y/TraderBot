@@ -57,6 +57,13 @@ a stop. So an option position's cost is capped at 10% of the account.
    - Stop-limit can be GTC; stop-market is GFD and regular hours only, so it
      must be re-placed each trading day.
 
+## Strategy
+
+Find and score trades with `strategies/playbook.md`: the daily routine, key
+levels, the confluence score card (A/B/C grades), the three allowed setups,
+no-trade filters, contract selection, and trade management. Only propose A or
+B grade setups, and show the score card with every proposal.
+
 ## 0DTE rules
 
 The owner trades same-day-expiry options when direction is clear. Before

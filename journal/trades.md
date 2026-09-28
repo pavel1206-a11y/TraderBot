@@ -16,7 +16,9 @@ fill in **Result** when the position is closed. Rules live in `../CLAUDE.md`.
 ### YYYY-MM-DD: SYMBOL (stock / call / put)
 
 **Plan**
-- Setup / reason:
+- Setup: ORB / VWAP pullback / break and retest
+- Confluence score: X/10, grade A/B (list which factors scored)
+- Reason:
 - Entry: price, size, cost
 - Stop: price (risk $ and % of account)
 - Target:
