@@ -56,3 +56,8 @@ on each entry.
 - Score (bearish lean) 4/10, grade C. Scored: EMA stack (price < 9 EMA $765.37 < 21 EMA $765.77), momentum (RSI 42, MACD below signal), news (yields/oil).
 - Missed: VWAP direction unclear, ADX 21 and falling, no lower-high/lower-low structure, sitting on $765 support, no volume breakout, daily trend still above 50-day SMA.
 - Watch: a 5-min close below $764.94 (range low) under VWAP, or above $766.94 over VWAP.
+
+**Spot check (10:39 AM ET): no trade**
+- SPY $765.33, stuck in $764.60–765.75 for 40 minutes; VWAP flat at $765.29; ADX down to 15 (chop).
+- 9:55 bar closed $764.72, below the opening-range low, but reversed straight back: a failed breakdown. The ADX filter (under 20) would have kept us out.
+- QQQ grinding up ($739.70) while SPY is flat: the two disagree, another no-trade filter.
