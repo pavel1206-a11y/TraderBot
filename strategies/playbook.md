@@ -54,9 +54,10 @@ journal entry.
 
 ## 4. Setups
 
-Trade only these three with-trend setups. Counter-trend "catch the reversal"
-trades are left out on purpose: they lose more often, and 0DTE leaves no time
-to be wrong.
+Setups A–C trade with the trend. Setup D trades the reversal after a
+4-hour manipulation move, and only after the sweep, the reclaim, and a shift
+in structure have all happened. Other "catch the reversal" trades are left out
+on purpose: they lose more often, and 0DTE leaves no time to be wrong.
 
 ### A. Opening Range Breakout (ORB)
 - **Setup:** after 9:45, a 5-min candle **closes** outside the opening range,
@@ -82,6 +83,41 @@ to be wrong.
   support (or resistance, for puts).
 - **Entry:** on the confirming candle off the retest.
 - **Invalidation:** a 5-min close back through the level.
+
+### D. 4-Hour Manipulation (Power of 3)
+
+Each 4-hour candle tends to move in three phases: **accumulation** (a range
+near the open), **manipulation** (a fake push to one side that sweeps
+liquidity), then **distribution** (the real move the other way). Wait for the
+manipulation; trade the distribution.
+
+- **4H candles (ET):** 8:00 AM–12:00 PM (includes pre-market) and
+  12:00–4:00 PM, as Robinhood's `4hour` bars with extended bounds.
+- **Manipulation:** price pushes away from the 4H open and **sweeps** a
+  liquidity level: the prior 4H candle's high/low, the pre-market high/low,
+  the previous day's high/low, or the opening range. Then it **fails**: a
+  5-min candle closes back inside the level.
+- **Entry (after all three):**
+  1. Sweep of the level.
+  2. 5-min close back through it (the reclaim).
+  3. **Shift in structure:** after a sweep low, a 5-min close above the last
+     lower high (bullish); after a sweep high, a close below the last higher
+     low (bearish). Enter on that close or the first pullback that holds.
+- **Never enter during the manipulation leg.** A push through a level with no
+  reclaim is either a real breakout (setups A/C) or nothing yet.
+- **Stop:** beyond the sweep extreme, plus about $0.10 on SPY.
+- **Target:** the other side of the 4H range, or the next strong level.
+  Reward/risk at least 1.5.
+- **Score it:** the sweep and reclaim count as the key-level factor. The VWAP
+  requirement is met once price **reclaims VWAP** in the new direction; until
+  then it is not an entry.
+- **Best when:** the distribution direction matches the daily trend, and the
+  sweep happens into a strong level (section 2).
+- **Example (2026-09-29):** the 12–4 PM candle opened $763.25, swept below
+  the morning 4H low ($762.57) to $762.35, reclaimed, and ran to $765.30. A
+  clean bullish Power of 3. Entry on the structure shift (~$763.6, over the
+  $763.56 lower high) with a stop at $762.25 gave only about 1.2:1 to the
+  $765.30 high, so it would have been skipped under the 1.5 rule.
 
 ## 5. No-trade filters
 
