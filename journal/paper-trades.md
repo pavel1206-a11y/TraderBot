@@ -61,3 +61,10 @@ on each entry.
 - SPY $765.33, stuck in $764.60–765.75 for 40 minutes; VWAP flat at $765.29; ADX down to 15 (chop).
 - 9:55 bar closed $764.72, below the opening-range low, but reversed straight back: a failed breakdown. The ADX filter (under 20) would have kept us out.
 - QQQ grinding up ($739.70) while SPY is flat: the two disagree, another no-trade filter.
+
+**Setup check (11:57 AM ET): no trade**
+- SPY sold off 11:00–11:30 from ~$764.9 to $762.57, breaking the $763 support zone, then bounced to $763.90.
+- Score (bearish) 5/10, grade C. Scored: below a falling VWAP ($764.65), selloff volume, momentum (RSI 36, MACD below signal), QQQ agrees, news.
+- Missed: ADX 17.8 (required, under 20), price back above the 9 EMA ($763.69), higher lows since the bounce, bounce came off the 50-day SMA area ($762.01–762.75), daily trend.
+- Note: the move happened between check-ins (11:00–11:30). A setup may have scored higher mid-move; this is a known limit of checking 3 times a day.
+- Watch: a rejection at $764–764.65 (the broken zone and VWAP) would set up a bearish break-and-retest.
