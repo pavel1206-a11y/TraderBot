@@ -126,3 +126,79 @@ Every weekend, from `../journal/trades.md`:
 - Win rate by confluence grade: are A-grade trades actually better?
 - Rule breaks: which rules were broken, and what they cost.
 - Keep what works, cut what doesn't, and update this playbook.
+
+## 9. Fractional share trades (dollar-based)
+
+A second, lower-risk way to trade the same confluence signals: buy a dollar
+amount of an ETF instead of an option. Moves are smaller than 0DTE, but so is
+the risk, and there is no time decay.
+
+### Instruments (all fractional-tradable on the Agentic account)
+
+| Direction | Buy | Tracks |
+|---|---|---|
+| Bullish S&P 500 | **SPY** | S&P 500 |
+| Bearish S&P 500 | **SH** | Inverse (−1x daily) S&P 500 |
+| Bullish Nasdaq | **QQQ** | Nasdaq 100 |
+| Bearish Nasdaq | **PSQ** | Inverse (−1x daily) Nasdaq 100 |
+
+Fractional shares cannot be sold short, so bearish trades buy an inverse ETF.
+Only 1x inverse funds: leveraged 2x/3x inverse funds decay and can move too
+fast for alert-based stops.
+
+### How fractional orders work here
+
+- **Market orders only, regular hours only** (9:30 AM–4:00 PM ET). No limit,
+  stop, or after-hours orders on fractional shares.
+- **No broker stop order.** The stop is a Robinhood **price alert** at the
+  stop level; when it fires, the position is sold at market. Real fills can
+  land below the stop, and a gap overnight can blow straight through it.
+- Buying and selling the same day is a **day trade** (counts toward the 3 per
+  rolling 5 business days).
+
+### Sizing
+
+- **Position size: at most 50% of the account** ($250 at $500).
+- **Risk = position × distance to stop**, and must stay within 5% of the
+  account ($25). With structure-based stops on SPY (usually 0.3–1% away), real
+  risk is often $1–3 per trade.
+- **Reward/risk at least 1.5:** the target (next key level) must be at least
+  1.5× as far as the stop.
+
+### Two modes
+
+| | Intraday | Swing |
+|---|---|---|
+| Candles | 5-min and 15-min | Hourly and daily |
+| Hold | Same day; out by 3:45 PM ET | 1–5 days |
+| Day trade used | Yes | No |
+| Stop | Alert, checked at every check-in | Alert; re-check each morning for gaps |
+| Best for | Strong trend days (ADX over 25) | Daily-chart patterns at key levels |
+
+### Candle patterns
+
+A pattern only counts **at a key level (section 2)** and **after the next
+candle confirms it** (trades through the pattern's high for bullish, low for
+bearish). A pattern in the middle of nowhere is noise.
+
+| Bullish (buy SPY/QQQ) | Bearish (buy SH/PSQ) | What it shows |
+|---|---|---|
+| Hammer | Shooting star | Long wick rejects a level; body closes away from it |
+| Bullish engulfing | Bearish engulfing | Second candle's body swallows the first: control flips |
+| Morning star | Evening star | Three-candle turn: push, pause (small body), reversal |
+| Bull flag breakout | Bear flag breakdown | Sharp move, tight pullback, break in the trend direction |
+| Inside-bar breakout up | Inside-bar breakdown | Tight candle inside the prior one, then a break out of it |
+
+- **Stop:** just beyond the pattern's extreme (below a hammer's low, above a
+  shooting star's high), plus a small buffer (about $0.10 on SPY).
+- **Target:** the next strong key level, or trail the stop under each new
+  higher low (bullish) / above each lower high (bearish). Stops only move in
+  the trade's favor.
+- **Score it:** the pattern must still pass the confluence card (section 3).
+  It counts as the "candle structure" factor; the other factors still apply.
+
+### Paper trading
+
+During the paper phase, log fractional setups next to options setups with the
+instrument, dollar amount, entry, alert-stop, target, and result, so the two
+approaches can be compared.

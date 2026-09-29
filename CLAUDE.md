@@ -56,6 +56,10 @@ a stop. So an option position's cost is capped at 10% of the account.
    - Buy with limit orders, not market.
    - Stop-limit can be GTC; stop-market is GFD and regular hours only, so it
      must be re-placed each trading day.
+8. **Fractional shares** (playbook section 9): SPY/QQQ for bullish, SH/PSQ
+   (1x inverse) for bearish. Market orders, regular hours only. Position at
+   most 50% of the account; risk (position × distance to stop) within the 5%
+   rule. The stop is a Robinhood price alert, sold at market when it fires.
 
 ## Current phase: PAPER TRADING
 
