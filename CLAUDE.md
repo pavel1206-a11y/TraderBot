@@ -60,6 +60,8 @@ a stop. So an option position's cost is capped at 10% of the account.
    (1x inverse) for bearish. Market orders, regular hours only. Position at
    most 50% of the account; risk (position × distance to stop) within the 5%
    rule. The stop is a Robinhood price alert, sold at market when it fires.
+   Same-day only: out by 3:45 PM ET, no overnight holds; each one uses a day
+   trade.
 
 ## Current phase: PAPER TRADING
 

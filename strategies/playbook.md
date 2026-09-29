@@ -152,7 +152,7 @@ fast for alert-based stops.
   stop, or after-hours orders on fractional shares.
 - **No broker stop order.** The stop is a Robinhood **price alert** at the
   stop level; when it fires, the position is sold at market. Real fills can
-  land below the stop, and a gap overnight can blow straight through it.
+  land below the stop in a fast move.
 - Buying and selling the same day is a **day trade** (counts toward the 3 per
   rolling 5 business days).
 
@@ -165,15 +165,22 @@ fast for alert-based stops.
 - **Reward/risk at least 1.5:** the target (next key level) must be at least
   1.5× as far as the stop.
 
-### Two modes
+### Same-day only
 
-| | Intraday | Swing |
-|---|---|---|
-| Candles | 5-min and 15-min | Hourly and daily |
-| Hold | Same day; out by 3:45 PM ET | 1–5 days |
-| Day trade used | Yes | No |
-| Stop | Alert, checked at every check-in | Alert; re-check each morning for gaps |
-| Best for | Strong trend days (ADX over 25) | Daily-chart patterns at key levels |
+The owner exits every candle trade by the end of the day: no overnight holds.
+
+- **Candles:** 5-min for entries, 15-min for context. Hourly and daily charts
+  set direction and key levels only.
+- **Entries:** 9:45 AM–2:30 PM ET, same window as 0DTE.
+- **Exit:** by **3:45 PM ET** at the latest (fractional orders only fill in
+  regular hours, so leave room before the 4:00 close).
+- **Day trades:** every candle trade uses one of the 3 allowed per rolling 5
+  business days, shared with 0DTE trades. Pick the better of the two for each
+  setup; do not take both on the same signal.
+- **Stop:** the price alert, checked at every check-in; if the alert fires,
+  sell at market right away.
+- **Best days:** strong trend days (ADX over 25), where a candle move has room
+  to run before the close.
 
 ### Candle patterns
 
