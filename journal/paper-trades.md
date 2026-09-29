@@ -68,3 +68,9 @@ on each entry.
 - Missed: ADX 17.8 (required, under 20), price back above the 9 EMA ($763.69), higher lows since the bounce, bounce came off the 50-day SMA area ($762.01–762.75), daily trend.
 - Note: the move happened between check-ins (11:00–11:30). A setup may have scored higher mid-move; this is a known limit of checking 3 times a day.
 - Watch: a rejection at $764–764.65 (the broken zone and VWAP) would set up a bearish break-and-retest.
+
+**Setup check (1:58 PM ET): no trade (last entry window)**
+- SPY $763.05, drifting in a tight $762.35–763.56 range for 2 hours, pressing the $762–762.75 support (50-day SMA, pre-market low).
+- Score (bearish) 4/10, grade C. Scored: below falling VWAP ($764.19), ADX 20.6 (just over), QQQ agrees, news.
+- Missed: EMAs tangled (9 EMA $762.99, 21 EMA $763.11), no clean lower-high structure, shorting into support, no volume breakout, MACD crossed above signal, daily trend.
+- No new entries after 2:30 PM, so no paper trades today.
