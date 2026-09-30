@@ -100,3 +100,12 @@ on each entry.
 - Missed: candles choppy inside the range, key level (buying $1 under the $768.4–769.5 resistance zone), weak breakout volume, RSI 75 (overbought), news mixed (PCE/strong jobs).
 - Reward/risk also fails: stop under the range ($765.90) vs target $768.40 is under 1:1.
 - Watch: a pullback to VWAP (~$766.7–766.8) that holds = setup B, stop ~$766.40, target $768.40 (about 4:1). Or a close above $768.40 on strong volume.
+
+**Setup check (11:58 AM ET): no trade**
+- SPY rallied after 10:00 to $769.15, then ranged $767.25–769.41; now $769.18, pressing Monday's high ($769.54).
+- Missed between check-ins: the 10:30–10:40 dip to $767.25–767.37 near VWAP held, then ran to $769.41. That is the VWAP pullback flagged at 9:58. Not logged as a paper trade (no hindsight entries).
+- 4H: the 8 AM–12 PM candle is in distribution up (open $764.91, high $769.41, no manipulation sweep after the open). The 12–4 PM candle starts next.
+- Score (bullish) 6/10, grade B. Scored: above rising VWAP ($767.92), ADX 26, EMA stack (9 EMA $768.48 > 21 EMA $768.12), higher lows, higher timeframe, QQQ agrees (new highs $745.02).
+- Missed: buying into Monday's high ($769.54), average volume, MACD below signal, news neutral.
+- No trade anyway: reward/risk fails. Stop under the range (~$767.70) vs room to $769.54–770 is under 1:1.
+- Watch: a 5-min close above $769.54 on strong volume. Stop ~$768.90, target $772.30 (Sep 25 high), about 3:1.
