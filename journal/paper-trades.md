@@ -79,3 +79,16 @@ on each entry.
 - Paper trades: 0. P&L: $0. Running totals: 0 trades, $0.
 - Day: chop around $765 all morning, a selloff 11:00–11:30 to $762.57 that stalled at the 50-day SMA, a slow drift, then a bounce after 2:00 PM back to ~$765.30 (SPY ~$764.6 at 3:30).
 - Lesson: no setup reached B grade. The fake 9:55 breakdown and the support bounce both show why the ADX filter and "don't sell into support" matter. The one real move (11:00–11:30) fell between check-ins.
+
+### 2026-09-30 (Wed)
+
+**Pre-market brief (9:17 AM ET; scheduled brief was late)**
+- SPY pre-market $767.10 (+0.38%); QQQ +0.44%, IWM +0.45%.
+- Yesterday: high $766.98, low $762.35, close $764.20.
+- Pre-market: high $768.37, low $763.23. Big swing in the 8 AM hour ($763.87–768.37), likely the 8:30 data.
+- Pivots (from yesterday): R2 $769.14, R1 $766.67, P $764.51, S1 $762.04.
+- 20-day SMA $765.02, 50-day SMA $762.45.
+- Strong levels: $768.4–769.5 (pre-market high, R2, Monday's high), $766.7–767.0 (R1 + yesterday's high), $764.2–765.0 (close, pivot, 20-day SMA), $762.0–762.5 (S1 + 50-day SMA).
+- 4H (setup D): the 8 AM–12 PM candle opened $764.91 and pushed up through yesterday's high ($766.98) to $768.37. Watch: a 5-min close back below $766.98 plus a lower-low shift = bearish manipulation (setup D); holding above it = real breakout.
+- News: PCE inflation data due today (release result not confirmed); ADP jobs reported stronger than expected; Micron earnings after the close (can move QQQ tomorrow, not today).
+- **Bias: bullish lean**, only while SPY holds above $766.7–767.0.
