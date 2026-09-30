@@ -109,3 +109,10 @@ on each entry.
 - Missed: buying into Monday's high ($769.54), average volume, MACD below signal, news neutral.
 - No trade anyway: reward/risk fails. Stop under the range (~$767.70) vs room to $769.54–770 is under 1:1.
 - Watch: a 5-min close above $769.54 on strong volume. Stop ~$768.90, target $772.30 (Sep 25 high), about 3:1.
+
+**Setup check (1:57 PM ET): no trade (last entry window)**
+- 4H (setup D, bullish forming): the 12–4 PM candle opened $768.72, dropped at 1:10 PM through the morning range low ($767.25) to $766.26 (sweep), closed back above it (reclaim), and the 1:40 bar closed $767.86 over the last lower high ($767.18) (structure shift). Phase: manipulation done, distribution starting.
+- Not an entry yet: VWAP ($767.91) not reclaimed (price $0.05 under). ADX 17.8 (required, under 20). Reward/risk also short: VWAP entry ~$768.0, stop $766.16, target 4H high $769.10–769.41 is about 1.1–1.4:1.
+- Score (bullish) 4/10, grade C. Scored: key level (sweep + reclaim), higher timeframe, QQQ agrees (same sweep and bounce), candles (shift).
+- Missed: VWAP, ADX, EMAs (9 EMA $767.59 < 21 EMA $767.76), volume, momentum (RSI 49, MACD below signal), news.
+- Useful example for setup D: the pattern formed cleanly, but the room to the target was too small again.
