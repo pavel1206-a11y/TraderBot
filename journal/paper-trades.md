@@ -92,3 +92,11 @@ on each entry.
 - 4H (setup D): the 8 AM–12 PM candle opened $764.91 and pushed up through yesterday's high ($766.98) to $768.37. Watch: a 5-min close back below $766.98 plus a lower-low shift = bearish manipulation (setup D); holding above it = real breakout.
 - News: PCE inflation data due today (release result not confirmed); ADP jobs reported stronger than expected; Micron earnings after the close (can move QQQ tomorrow, not today).
 - **Bias: bullish lean**, only while SPY holds above $766.7–767.0.
+
+**Setup check (9:58 AM ET): no trade**
+- Opening range (9:30–9:45): high $767.28, low $766.00. SPY $767.32, closing just over the range high on the lowest-volume bar of the day.
+- 4H (setup D): the pre-market push to $768.37 took out yesterday's high; the open dipped back below $766.98 (closes $766.66–766.85) but made no lower low and is back above. No bearish shift, so no setup D. Treat as a breakout attempt.
+- Score (bullish) 5/10, grade C. Scored: above rising VWAP ($766.73), ADX 27 rising, EMA stack (price > 9 EMA $766.15 > 21 EMA $765.29), higher timeframe, QQQ agrees.
+- Missed: candles choppy inside the range, key level (buying $1 under the $768.4–769.5 resistance zone), weak breakout volume, RSI 75 (overbought), news mixed (PCE/strong jobs).
+- Reward/risk also fails: stop under the range ($765.90) vs target $768.40 is under 1:1.
+- Watch: a pullback to VWAP (~$766.7–766.8) that holds = setup B, stop ~$766.40, target $768.40 (about 4:1). Or a close above $768.40 on strong volume.
