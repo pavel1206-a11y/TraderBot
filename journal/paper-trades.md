@@ -142,3 +142,24 @@ on each entry.
 - Why no trade: (1) possible 10:00 AM report, playbook waits for the reaction; (2) price just swept and bounced off the $762.2–762.7 support zone (selling into support); (3) QQQ is bouncing hard ($740.39 to $742.32), not confirming.
 - 4H: the 8 AM–12 PM candle swept the opening-range low into support and bounced: possible bullish setup D, not confirmed (needs a close over $763.92 and a VWAP reclaim).
 - Watch after 10:00: (a) bearish: a 5-min close under $762.60 that holds, target $760.1–761.9; (b) bullish D: close over $763.92 + hold above VWAP, stop ~$762.50, target $767.30.
+
+**Setup check (10:58 AM ET): PAPER TRADE OPENED (bearish, grade B)**
+- What happened: the 10:00 data hit, SPY broke the $762.2–762.7 support zone and fell to $759.72. It bounced to $762.18 at 10:40, failed right at VWAP/the broken zone, and turned back down. Setup C: bearish break and retest.
+- Score 7/10, grade B. Scored: below falling VWAP ($762.20), ADX 53, EMAs bearish (price < 9 EMA $761.29 < 21 EMA $762.37), lower high at $762.18, daily trend (below 20- and 50-day SMA), QQQ agrees (rejected $740.8), news (selloff on the 10:00 data).
+- Missed: key level (price near S1 $760.07 / day low $759.72), volume average, MACD just crossed above signal.
+
+### 2026-10-01 10:58 ET: SPY 759 put, 0DTE (paper)
+- Setup: C, break and retest (bearish)
+- Score: 7/10, grade B
+- Contract: bid $0.82 / ask $0.83, entry $0.83 (ask), delta -0.32. Fits cap: **no** ($83 > $50 max).
+- Stop: $0.45 on the option (-46%), or SPY back above $762.28 (retest high + $0.10)
+- Target: $1.25 (+50%) to $1.66 (+100%); SPY $757.50 (S2)
+- Result: open
+
+### 2026-10-01 10:58 ET: SH fractional, $125 (paper, B grade = half size)
+- Setup: C, break and retest (bearish); SPY $760.72 at entry
+- Entry: SH $32.48 (ask), 3.848 shares
+- Alert-stop: SH $32.41 (= SPY $762.28); risk about $0.27
+- Target: SH $32.62 (= SPY $757.50); reward about $0.53; reward/risk 2.1:1
+- Exit by 3:45 PM ET
+- Result: open
