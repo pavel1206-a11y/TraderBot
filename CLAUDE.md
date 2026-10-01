@@ -83,8 +83,9 @@ stop, target, and result taken from real quotes. No Robinhood write actions
 ## Strategy
 
 Find and score trades with `strategies/playbook.md`: the daily routine, key
-levels, the confluence score card (A/B/C grades), the four allowed setups
-(including D, the 4-hour manipulation / Power of 3 reversal),
+levels, the confluence score card (A/B/C grades), the five allowed setups
+(including D, the 4-hour manipulation / Power of 3 reversal, and E, the
+momentum run),
 no-trade filters, contract selection, and trade management. Only propose A or
 B grade setups, and show the score card with every proposal.
 

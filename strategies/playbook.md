@@ -54,7 +54,7 @@ journal entry.
 
 ## 4. Setups
 
-Setups A–C trade with the trend. Setup D trades the reversal after a
+Setups A–C and E trade with the trend. Setup D trades the reversal after a
 4-hour manipulation move, and only after the sweep, the reclaim, and a shift
 in structure have all happened. Other "catch the reversal" trades are left out
 on purpose: they lose more often, and 0DTE leaves no time to be wrong.
@@ -118,6 +118,27 @@ manipulation; trade the distribution.
   clean bullish Power of 3. Entry on the structure shift (~$763.6, over the
   $763.56 lower high) with a stop at $762.25 gave only about 1.2:1 to the
   $765.30 high, so it would have been skipped under the 1.5 rule.
+
+### E. Momentum Run (volume breakout)
+
+For fast run-ups and run-downs that never pull back to VWAP. Catch the start
+of the move, not the middle of it.
+
+- **Trigger:** after 9:45, a 5-min candle **closes through** VWAP or a strong
+  level (section 2) in the trend direction, with volume at least **1.5× the
+  average of the prior 10 bars**, ADX at least 20 and rising, and QQQ moving
+  the same way.
+- **Entry:** the close of the **next** 5-min candle if it holds beyond the
+  level, or the first pullback to the 9 EMA that holds, whichever comes first.
+- **Don't chase:** skip it if price is already more than **$1.50** past the
+  breakout level, or already at the next strong level.
+- **Stop:** beyond the breakout candle's low (bullish) or high (bearish),
+  plus about $0.10.
+- **Target:** the next strong level. Reward/risk at least 1.5, as always.
+- **Example (2026-10-01):** the 1:20 PM candle closed back above the broken
+  $762.2–762.7 zone and VWAP on about 2× volume, QQQ ripping. Entry ~$763.70,
+  stop $762.45, but the next strong level ($764.7–765.1) was only ~1.2R away,
+  so it would have been skipped; price stalled at $765.32, right at that level.
 
 ## 5. No-trade filters
 
