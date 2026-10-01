@@ -7,13 +7,21 @@ quotes for the contract. Rules for graduating to real money are in
 
 ## Scoreboard
 
-| | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
+| Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
-| A grade | 0 | 0 | 0 | – | – | – | $0 |
-| B grade | 0 | 0 | 0 | – | – | – | $0 |
-| **All** | 0 | 0 | 0 | – | – | – | $0 |
+| Options, A grade | 0 | 0 | 0 | – | – | – | $0 |
+| Options, B grade | 1 | 1 | 0 | 100% | +$42 | – | +$42 |
+| Fractional, A grade | 0 | 0 | 0 | – | – | – | $0 |
+| Fractional, B grade | 0 | 0 | 0 | – | – | – | $0 |
+| **All** | 1 | 1 | 0 | 100% | +$42 | – | +$42 |
 
-By setup: ORB 0 · VWAP pullback 0 · Break and retest 0
+Open: 1 (SH fractional, 2026-10-01).
+
+By setup: ORB 0 · VWAP pullback 0 · Break and retest 1 · 4H manipulation 0
+
+Exit rule used for options: sell at the first target (+50%) with a limit order;
+the trailing rules in playbook section 7 apply only if price moves before the
+first target is reached.
 
 Would the $25–50 premium cap have allowed the trade? Track "fits cap: yes/no"
 on each entry.
@@ -154,7 +162,9 @@ on each entry.
 - Contract: bid $0.82 / ask $0.83, entry $0.83 (ask), delta -0.32. Fits cap: **no** ($83 > $50 max).
 - Stop: $0.45 on the option (-46%), or SPY back above $762.28 (retest high + $0.10)
 - Target: $1.25 (+50%) to $1.66 (+100%); SPY $757.50 (S2)
-- Result: open
+- Result: **closed 11:00–11:05 AM at $1.25 (first target, limit sell)**. The option traded up to $1.47–1.66 as SPY hit $759.00. Stop never threatened.
+- P&L per contract: **+$42 (+51%)**
+- Note: fits-cap = no, so this result does not count toward the real-money cap test. With the section 7 trailing stop instead, the exit would have been $1.08 (+$25) after the pullback at 11:10.
 
 ### 2026-10-01 10:58 ET: SH fractional, $125 (paper, B grade = half size)
 - Setup: C, break and retest (bearish); SPY $760.72 at entry
@@ -162,4 +172,11 @@ on each entry.
 - Alert-stop: SH $32.41 (= SPY $762.28); risk about $0.27
 - Target: SH $32.62 (= SPY $757.50); reward about $0.53; reward/risk 2.1:1
 - Exit by 3:45 PM ET
+- 11:58 update: SPY low $759.00 (SH high $32.55), not at target $32.62; SPY high since entry $761.33, stop not hit. SH now $32.485 (+$0.02).
+- Stop trailed (stops only move in favor): to SPY $760.96, above the latest lower high $760.86 = SH about $32.47, roughly break-even.
 - Result: open
+
+**Setup check (11:58 AM ET): updates only, no new trade**
+- SPY $760.64, range $759.00–761.33 for the past hour (chop around S1 $760.07). No new entry while the range holds.
+- 759 put closed at the +50% target (+$42, paper). SH still open with the stop trailed to break-even.
+- 4H: the 8 AM–12 PM candle is in distribution down (open ~$765, low $759.00). The 12–4 PM candle starts next.
