@@ -54,7 +54,7 @@ journal entry.
 
 ## 4. Setups
 
-Setups A–C and E trade with the trend. Setup D trades the reversal after a
+Setups A–C, E and F trade with the trend. Setup D trades the reversal after a
 4-hour manipulation move, and only after the sweep, the reclaim, and a shift
 in structure have all happened. Other "catch the reversal" trades are left out
 on purpose: they lose more often, and 0DTE leaves no time to be wrong.
@@ -139,6 +139,31 @@ of the move, not the middle of it.
   $762.2–762.7 zone and VWAP on about 2× volume, QQQ ripping. Entry ~$763.70,
   stop $762.45, but the next strong level ($764.7–765.1) was only ~1.2R away,
   so it would have been skipped; price stalled at $765.32, right at that level.
+
+### F. Midday Squeeze Breakout
+
+From the missed-move review (journal/missed-moves.md): 4 of 7 sessions had
+this, each worth $2.70–4.60.
+
+- **When:** 11:00 AM–2:30 PM ET.
+- **Squeeze:** SPY stays inside a range no wider than **$2.50** for at least
+  **45 minutes** (tighter is better). Mark the range high and low.
+- **Trigger:** a 5-min candle **closes outside** the range on at least **2×**
+  the prior 10-bar average volume, with QQQ breaking the same way.
+- **Entry:** on the trigger candle's close if it is within **$0.75** of the
+  range edge; otherwise wait for the first pullback toward the edge that
+  holds (do not chase).
+- **Stop:** back inside the range: the range midpoint or the breakout
+  candle's opposite end, whichever is closer, plus about $0.10.
+- **Target:** the **measured move**: range edge + 2× the range height
+  (bullish; minus for bearish). Take it earlier if price stalls at a strong
+  level.
+- **Examples:** 9/24 range $763.39–764.65 → target $767.17, reached $768.95.
+  9/28 range $764.66–765.83 → target $768.17, reached $769.54. 9/29 range
+  $762.35–763.56 → target $765.98, reached $765.30 (fell short; trail the
+  stop under each higher low).
+- **Speed:** these moves finish in 15–30 minutes. Each check reports the
+  current range edges; in the real-money phase, price alerts sit on them.
 
 ## 5. No-trade filters
 
