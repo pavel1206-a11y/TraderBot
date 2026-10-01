@@ -122,3 +122,16 @@ on each entry.
 - Day: bullish open and rally to $769.41 by late morning, a range under Monday's high ($769.54), then a 1:10 PM drop to $766.26 and a fade to ~$766.3 by 3:30.
 - Lesson: the bullish setup D forming at 1:57 failed. SPY touched VWAP (~$767.97) but never held above it, then fell to $766.01, below the sweep low. The VWAP-reclaim requirement kept us out of a loser.
 - Two days, 0 trades: filters and reward/risk blocked every setup. The one clean winner (10:30 VWAP pullback) came between check-ins.
+- Note: SPY kept falling after the 3:30 note and closed at $762.63 (day low $762.18).
+
+### 2026-10-01 (Thu)
+
+**Pre-market brief (8:53 AM ET)**
+- SPY pre-market $765.00 (+0.31%); QQQ +0.46%, IWM +0.23%. MU -1% after earnings.
+- Yesterday: high $769.41, low $762.18, close $762.63 (closed near the low).
+- Pre-market: high $767.87, low $761.93 (both swept in the 4–8 AM 4H candle).
+- Pivots: R2 $771.97, R1 $767.30, P $764.74, S1 $760.07.
+- 20-day SMA $765.06, 50-day SMA $762.74.
+- Strong levels: $767.3–767.9 (R1 + pre-market high), $764.7–765.1 (pivot + 20-day SMA), $762.2–762.7 (yesterday's low/close + 50-day SMA), $760.1–761.9 (S1 + pre-market low). Above: $769.4 (yesterday's high).
+- News: PCE came in benign (core +0.2%) with strong spending (+0.9%); ACN beat; Nike reports after the close. Possible 10:00 AM data (first business day of the month, e.g. ISM manufacturing; unverified): the 9:57 check waits for the reaction.
+- **Bias: none.** Green pre-market, but price sits mid-range after a weak close. Above $765.1 and VWAP leans bullish toward $767.3–767.9; below $762.7 leans bearish toward $760–762.
