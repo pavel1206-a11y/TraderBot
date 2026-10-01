@@ -135,3 +135,10 @@ on each entry.
 - Strong levels: $767.3–767.9 (R1 + pre-market high), $764.7–765.1 (pivot + 20-day SMA), $762.2–762.7 (yesterday's low/close + 50-day SMA), $760.1–761.9 (S1 + pre-market low). Above: $769.4 (yesterday's high).
 - News: PCE came in benign (core +0.2%) with strong spending (+0.9%); ACN beat; Nike reports after the close. Possible 10:00 AM data (first business day of the month, e.g. ISM manufacturing; unverified): the 9:57 check waits for the reaction.
 - **Bias: none.** Green pre-market, but price sits mid-range after a weak close. Above $765.1 and VWAP leans bullish toward $767.3–767.9; below $762.7 leans bearish toward $760–762.
+
+**Setup check (9:58 AM ET): no trade (waiting on 10:00 data)**
+- Opening range (9:30–9:45): high $765.33, low $763.21. The 9:45 bar broke below it to $762.61 (yesterday's close / 50-day SMA support) and the 9:50 bar snapped back to $763.76.
+- Bearish read 6/10 (B on paper): below falling VWAP ($764.01), ADX 45, EMAs bearish (9 EMA $764.10 < 21 EMA $765.09), lower highs, selloff volume, RSI 40 / MACD below signal.
+- Why no trade: (1) possible 10:00 AM report, playbook waits for the reaction; (2) price just swept and bounced off the $762.2–762.7 support zone (selling into support); (3) QQQ is bouncing hard ($740.39 to $742.32), not confirming.
+- 4H: the 8 AM–12 PM candle swept the opening-range low into support and bounced: possible bullish setup D, not confirmed (needs a close over $763.92 and a VWAP reclaim).
+- Watch after 10:00: (a) bearish: a 5-min close under $762.60 that holds, target $760.1–761.9; (b) bullish D: close over $763.92 + hold above VWAP, stop ~$762.50, target $767.30.
