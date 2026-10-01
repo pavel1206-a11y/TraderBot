@@ -12,12 +12,12 @@ quotes for the contract. Rules for graduating to real money are in
 | Options, A grade | 0 | 0 | 0 | – | – | – | $0 |
 | Options, B grade | 1 | 1 | 0 | 100% | +$42 | – | +$42 |
 | Fractional, A grade | 0 | 0 | 0 | – | – | – | $0 |
-| Fractional, B grade | 0 | 0 | 0 | – | – | – | $0 |
-| **All** | 1 | 1 | 0 | 100% | +$42 | – | +$42 |
+| Fractional, B grade | 1 | 0 | 1 | 0% | – | -$0.08 | -$0.08 |
+| **All** | 2 | 1 | 1 | 50% | +$42 | -$0.08 | +$41.92 |
 
-Open: 1 (SH fractional, 2026-10-01).
+Open: none.
 
-By setup: ORB 0 · VWAP pullback 0 · Break and retest 1 · 4H manipulation 0
+By setup: ORB 0 · VWAP pullback 0 · Break and retest 2 · 4H manipulation 0
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -174,9 +174,15 @@ on each entry.
 - Exit by 3:45 PM ET
 - 11:58 update: SPY low $759.00 (SH high $32.55), not at target $32.62; SPY high since entry $761.33, stop not hit. SH now $32.485 (+$0.02).
 - Stop trailed (stops only move in favor): to SPY $760.96, above the latest lower high $760.86 = SH about $32.47, roughly break-even.
-- Result: open
+- Result: **stopped 12:00–12:05 PM** when SPY rose to $761.25 (trailed stop $760.96). Sold at market, SH about $32.46.
+- P&L: **-$0.08** (-0.06%), a scratch. The trail turned a 2:1 trade into break-even; SPY never reached the $757.50 target.
 
 **Setup check (11:58 AM ET): updates only, no new trade**
 - SPY $760.64, range $759.00–761.33 for the past hour (chop around S1 $760.07). No new entry while the range holds.
 - 759 put closed at the +50% target (+$42, paper). SH still open with the stop trailed to break-even.
 - 4H: the 8 AM–12 PM candle is in distribution down (open ~$765, low $759.00). The 12–4 PM candle starts next.
+
+**Setup check (12:57 PM ET): SH stopped (scratch), no new trade**
+- SH trailed stop hit at 12:00 (SPY $761.25 > $760.96): -$0.08.
+- SPY rallied 12:00–12:35 to $762.57 (into the broken $762.2–762.7 zone), above VWAP, then fell back to $760.89, below VWAP ($761.54). Price crossing VWAP back and forth = chop filter, no trade. ADX 24 and falling.
+- 4H: the 12–4 PM candle opened ~$760.7, pushed up into the broken zone and got rejected. If it rolls over below $759.00 (day low), that is bearish distribution; not there yet.
