@@ -186,3 +186,10 @@ on each entry.
 - SH trailed stop hit at 12:00 (SPY $761.25 > $760.96): -$0.08.
 - SPY rallied 12:00–12:35 to $762.57 (into the broken $762.2–762.7 zone), above VWAP, then fell back to $760.89, below VWAP ($761.54). Price crossing VWAP back and forth = chop filter, no trade. ADX 24 and falling.
 - 4H: the 12–4 PM candle opened ~$760.7, pushed up into the broken zone and got rejected. If it rolls over below $759.00 (day low), that is bearish distribution; not there yet.
+
+**Setup check (1:58 PM ET): no trade (last entry window)**
+- Reversal: SPY rallied 1:10–1:50 PM from $760.3 to $765.32 on strong volume (540k+ per 10 min), reclaiming the broken $762.2–762.7 zone and VWAP. Now $764.53, just under the $764.7–765.1 resistance (pivot + 20-day SMA). QQQ ripped too ($737.7 to $744.7).
+- Score (bullish) 7/10, grade B on the card. Scored: above rising VWAP ($762.00), ADX 30 rising, EMA stack (9 EMA $763.72 > 21 EMA $762.81), higher highs/lows, volume, momentum (RSI 59, MACD above signal), QQQ agrees.
+- Missed: key level (at the $764.7–765.1 resistance; $765.32 high already tagged), daily trend (below 20-day SMA), news.
+- Why no trade: no playbook setup has triggered. This is a straight run, not an ORB, VWAP pullback, retest, or 4H sweep (the 12–4 PM candle never swept the $759.00 day low). The entry would be a pullback to the 9 EMA/VWAP ($762.0–763.7) or a retest of $762.7 that holds, and there is no check before the 2:30 cutoff to catch it.
+- 4H: the 12–4 PM candle opened ~$760.7 and is in distribution up (no sweep first).
