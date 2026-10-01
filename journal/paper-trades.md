@@ -193,3 +193,9 @@ on each entry.
 - Missed: key level (at the $764.7–765.1 resistance; $765.32 high already tagged), daily trend (below 20-day SMA), news.
 - Why no trade: no playbook setup has triggered. This is a straight run, not an ORB, VWAP pullback, retest, or 4H sweep (the 12–4 PM candle never swept the $759.00 day low). The entry would be a pullback to the 9 EMA/VWAP ($762.0–763.7) or a retest of $762.7 that holds, and there is no check before the 2:30 cutoff to catch it.
 - 4H: the 12–4 PM candle opened ~$760.7 and is in distribution up (no sweep first).
+
+**End of day (3:48 PM ET)**
+- Paper trades today: 2 (both setup C, bearish break-and-retest, B grade). 759 put +$42 (over cap), SH -$0.08. Day: +$41.92.
+- Running totals: 2 trades, 1 win, 1 loss, +$41.92 after 3 days. Trades counting toward the cap test: 1 (SH).
+- Day: weak open, 10:00 data broke support, selloff to $759.00, two hours of chop, then a 1:10–1:50 PM run to $765.32 that held $763.3–765.2 into the close (~$764.5 at 3:30).
+- Lesson: the bearish retest worked fast for the option (target in minutes) but the fractional target was too far. The afternoon run had no defined entry: added setup E (momentum run) and half-hour checks starting tomorrow.
