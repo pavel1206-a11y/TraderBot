@@ -236,3 +236,12 @@ on each entry.
 - Score: C. Price crossing VWAP for the third time today = chop filter. RSI cooled to 60; 9 EMA $771.53 is above price.
 - Squeeze (F): range **$770.70–772.65** ($1.95 wide) held 10:10–10:55, about 45 min. F window opens 11:00. Long trigger = 5-min close above $772.65 on 2x volume with QQQ breaking its high ($754.53). Short trigger = close below $770.70 on 2x volume, toward the $769.4 gap support and then $767.9.
 - 4H (8 AM–12 PM): opened ~$767.4, high $772.65; upper wick forming. A close of this candle back near $769 would be a bearish distribution signal for the 12–4 PM candle. No setup D yet.
+
+**Setup check (11:28 AM ET): no trade. Bearish momentum run missed between checks; too extended to chase**
+- The squeeze broke **down**. 11:00 bar closed $769.97, below the $770.70 range low, on 341k (1.5x the prior 10-bar average of 223k; F needs 2x). 11:05 bar closed $769.03, below the **$769.4 gap support**, on 355k (1.6x). **That was a valid setup E short trigger** (close through a strong level on 1.5x+ volume, QQQ breaking too, below a falling VWAP), between checks.
+- Selloff continued: 11:10 bar on 399k, now $767.36 (11:20 close). QQQ $747.79, down from $754.5.
+- Why no trade now: price is $1.67 past the $769.03 trigger, beyond E's $1.50 no-chase limit. It is sitting on the $766.8–767.9 support (R1 + pre-market base) and the 4H open (~$767.4). Shorting into support after a $5 drop is a chase.
+- Watch: a bounce back to $769.0–769.4 that fails (5-min close back under) = setup C short toward $765.0–765.65 (gap fill / yesterday's high). A close below $766.8 on volume = continuation toward $765.
+- 4H (8 AM–12 PM): opened ~$767.4, high $772.65, now back at the open. A long upper wick means a bearish rejection. If it closes red, the 12–4 PM candle leans distribution down.
+- Squeeze (F): broken down; no new range.
+- Missed-move note for EOD: E short at 11:05 ($769.03), low so far $767.36 (+$1.67, ~1.0R on a $0.40 stop above $769.4).
