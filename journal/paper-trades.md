@@ -230,3 +230,9 @@ on each entry.
 - Watch: a pullback to $772.0–772.3 that holds on a 5-min close = setup C long toward R3 $773.7 / $774.9–775.1. Losing VWAP again = back to chop.
 - 4H (8 AM–12 PM): opened ~$767.4, in distribution up (new highs, no sweep below the open). No setup D.
 - Squeeze (F): no; the range expanded ($769.07–772.35, $3.28).
+
+**Setup check (10:58 AM ET): no trade (breakout stalled, back under VWAP)**
+- 10:20 breakout above $772.3 never got follow-through: SPY topped at $772.65 (10:40) and rolled over. The 10:50 bar fell to $770.82 and closed $770.91, under VWAP ($771.19) on 280k (about 1.3x the recent 10-bar average). QQQ also slipped back to $751.76, at its VWAP.
+- Score: C. Price crossing VWAP for the third time today = chop filter. RSI cooled to 60; 9 EMA $771.53 is above price.
+- Squeeze (F): range **$770.70–772.65** ($1.95 wide) held 10:10–10:55, about 45 min. F window opens 11:00. Long trigger = 5-min close above $772.65 on 2x volume with QQQ breaking its high ($754.53). Short trigger = close below $770.70 on 2x volume, toward the $769.4 gap support and then $767.9.
+- 4H (8 AM–12 PM): opened ~$767.4, high $772.65; upper wick forming. A close of this candle back near $769 would be a bearish distribution signal for the 12–4 PM candle. No setup D yet.
