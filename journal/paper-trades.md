@@ -15,7 +15,7 @@ quotes for the contract. Rules for graduating to real money are in
 | Fractional, B grade | 1 | 0 | 1 | 0% | – | -$0.08 | -$0.08 |
 | **All** | 2 | 1 | 1 | 50% | +$42 | -$0.08 | +$41.92 |
 
-Open: none.
+Open: 2026-10-02 SPY 767P 0DTE (entry $0.49) and SH fractional $125 (entry $32.16), both setup C bearish, B grade.
 
 By setup: ORB 0 · VWAP pullback 0 · Break and retest 2 · 4H manipulation 0
 
@@ -245,3 +245,34 @@ on each entry.
 - 4H (8 AM–12 PM): opened ~$767.4, high $772.65, now back at the open. A long upper wick means a bearish rejection. If it closes red, the 12–4 PM candle leans distribution down.
 - Squeeze (F): broken down; no new range.
 - Missed-move note for EOD: E short at 11:05 ($769.03), low so far $767.36 (+$1.67, ~1.0R on a $0.40 stop above $769.4).
+
+**Setup check (11:58 AM ET): PAPER TRADE OPENED. Setup C, bearish break and retest of $769.4, B grade**
+- SPY bounced off $767.15 (11:25) back to the broken $769.4 gap support. It tested $769.46–769.50 (11:35–11:40) and was rejected, with lower highs ($769.50, $769.30, $769.29). The 11:50 bar closed $768.68, below the prior bar's low ($768.86): that is the confirming candle. Now $768.95.
+
+| # | Factor | Bearish? | Reading |
+|---|---|---|---|
+| 1 | VWAP (required) | ✅ | $768.95 below VWAP $770.36, VWAP falling since 10:45 |
+| 2 | ADX > 20 (required) | ✅ | 28.3 |
+| 3 | EMA 9/21 | ✅ | 9 EMA $769.06 < 21 EMA $769.32, price under both |
+| 4 | Candles | ✅ | Lower highs/lows from $772.65; close through the prior low off the retest |
+| 5 | Key level | ✅ | Retest of the broken $769.4–769.7 support (R2 + 9/28, 9/30 highs) held as resistance |
+| 6 | Volume | ❌ | Confirming bar 178k vs ~260k prior 10-bar average |
+| 7 | Momentum | ✅ | RSI 46 (room to fall), MACD below signal |
+| 8 | Higher timeframe | ❌ | Daily still bullish (gap up, above the 20/50-day SMAs) |
+| 9 | QQQ agrees | ✅ | $749.34, below its VWAP $751.32, same failed retest |
+| 10 | News | ❌ | Morning data drove a gap up; no confirmed bearish catalyst |
+
+**Score 7/10, grade B.** No-trade filters: none hit (no event before exit, SPY/QQQ agree, 0 losses today).
+
+**Option leg (0DTE):** SPY 2026-10-02 **767 put**, bid/ask $0.48/0.49, entry **$0.49** ($49), **fits cap: yes** (under the $50 max). Delta −0.26, OI 5,049, spread 2%.
+- Stop: $0.25 option (about 50%), or invalidation: a 5-min close above $769.50.
+- Target: $0.74 (+50%), limit. Underlying near $767.15 (today's low); next $765.0–765.65.
+- Time stop: 12:28 PM if not working. Hard exit 3:30 PM.
+
+**Fractional leg:** **SH**, $125 at **$32.16** (3.887 shares).
+- Alert stop SH $32.13 (SPY ~$769.60, above the retest high + $0.10). Risk ≈ $0.12.
+- Target SH $32.23 (SPY ~$767.15). Reward ≈ $0.27, R/R ≈ 2.3.
+- Exit by 3:45 PM.
+
+- 4H (8 AM–12 PM): closing now near $768.9, slightly above its ~$767.4 open, with a long upper wick to $772.65 (bearish rejection). The 12–4 PM candle opens around $769. Watch for a push above the open that fails (manipulation up) for D.
+- Squeeze (F): $767.15–769.50 ($2.35) since 11:20, about 40 min; becomes valid at 12:05.
