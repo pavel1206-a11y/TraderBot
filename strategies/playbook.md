@@ -66,6 +66,9 @@ on purpose: they lose more often, and 0DTE leaves no time to be wrong.
   the range edge that holds.
 - **Invalidation:** price closes back inside the opening range.
 - **Best when:** the pre-market bias and the break point the same way.
+- **Gap days:** on a gap of $4+, the ORB in the gap direction counts only if
+  the breakout candle's volume is at least **1.0×** the prior 10-bar average.
+  (2026-10-02: a $6.5 gap-up broke the ORB high on 0.7× and reversed $5.5.)
 
 ### B. VWAP Pullback (trend continuation)
 - **Setup:** a clear trend (ADX above 20, EMAs stacked). Price pulls back to
@@ -81,8 +84,12 @@ on purpose: they lose more often, and 0DTE leaves no time to be wrong.
 - **Setup:** price breaks a strong level from section 2 (for example the
   previous day's high), comes back to test it, and the level holds as
   support (or resistance, for puts).
-- **Entry:** on the confirming candle off the retest.
-- **Invalidation:** a 5-min close back through the level.
+- **Entry:** on the confirming candle off the retest. The confirming candle's
+  volume must be at least **1.0×** the prior 10-bar average.
+- **Stop:** at least **$0.30 beyond the level**, or **$0.15 beyond the retest
+  extreme**, whichever is farther. A stop inside normal noise is not a stop.
+  (2026-10-02: a $0.10 buffer and 0.7× volume lost.)
+- **Invalidation:** a 5-min close back through the stop level above.
 
 ### D. 4-Hour Manipulation (Power of 3)
 
@@ -148,8 +155,10 @@ this, each worth $2.70–4.60.
 - **When:** 11:00 AM–2:30 PM ET.
 - **Squeeze:** SPY stays inside a range no wider than **$2.50** for at least
   **45 minutes** (tighter is better). Mark the range high and low.
-- **Trigger:** a 5-min candle **closes outside** the range on at least **2×**
+- **Trigger:** a 5-min candle **closes outside** the range on at least **1.5×**
   the prior 10-bar average volume, with QQQ breaking the same way.
+  (Lowered from 2× on 2026-10-02: that day's real breakdown ran $5.5 on
+  1.5–1.6×.)
 - **Entry:** on the trigger candle's close if it is within **$0.75** of the
   range edge; otherwise wait for the first pullback toward the edge that
   holds (do not chase).
@@ -259,6 +268,10 @@ The owner exits every candle trade by the end of the day: no overnight holds.
 - **Day trades:** every candle trade uses one of the 3 allowed per rolling 5
   business days, shared with 0DTE trades. Pick the better of the two for each
   setup; do not take both on the same signal.
+- **Stop level is set on SPY (or QQQ), not on the fund you hold.** For SH/PSQ,
+  put the price alert on SPY/QQQ at the setup's stop and sell the inverse fund
+  when it fires. Inverse-fund prices carry tracking noise that tripped two
+  stops by a cent in week 1.
 - **Stop:** the price alert, checked at every check-in; if the alert fires,
   sell at market right away.
 - **Best days:** strong trend days (ADX over 25), where a candle move has room

@@ -411,3 +411,5 @@ ARMED (last of the day, valid until 2:27 PM):
 2. **Setup C stop buffer:** stop at least $0.30 beyond the level (or $0.15 beyond the retest extreme, whichever is farther), and the confirming candle needs volume ≥ the prior 10-bar average. (10/2 loss: $0.10 buffer, 0.7× volume.)
 3. **Fractional stops on the SPY level, not the inverse fund's price:** set the alert on SPY at the setup's stop, sell SH/PSQ when it fires. SH-price stops were hit by tracking noise twice.
 4. **Gap-and-go only with volume:** the ORB-long-on-gap-days rule requires breakout volume ≥ 1.0× (10/2's 0.7× breakout failed).
+
+**Owner decision (2026-10-02 evening):** all four proposed changes approved and applied to the playbook (F volume 1.5×, setup C stop buffer + volume, fractional stops on the SPY/QQQ level, gap-day ORB volume ≥ 1.0×).
