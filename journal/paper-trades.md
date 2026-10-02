@@ -212,3 +212,12 @@ on each entry.
 - News: risk-off tone in the morning headlines (strong dollar, yields), but futures sharply higher on the 8:30 data. No big earnings.
 - Friday: weekly review at the close.
 - **Bias: bullish** while above $769.4.
+
+**Setup check (9:59 AM ET): no trade (failed ORB, chop at VWAP)**
+- Opening range (9:30–9:45): high $771.65, low $769.49. Held the $769.4 gap support.
+- 9:45 bar broke the ORB high to $772.09 (on 349k, about average) and closed back inside at $771.38. 9:50 bar fell to $770.16, closing below VWAP ($770.82). Now $770.11. Failed breakout, so no ORB long.
+- QQQ $751.8, still above its open-range middle and green; SPY/QQQ diverging.
+- Score (bullish) 4/10, grade C. VWAP fails (price below a flat VWAP); ADX 44 is inflated by the overnight gap. Bearish not scored: the gap support at $769.4 is intact and QQQ disagrees.
+- Watch: $769.4 lost on volume = gap-fill short toward $767.9–767.0 (setup C on a retest). Reclaim $771.65 and hold above VWAP = second-chance ORB long toward $772.3–773.7.
+- 4H (8 AM–12 PM): opened ~$767.4 and ran straight up to $772.09 (distribution up, no sweep first). No setup D.
+- Squeeze (F): only 30 minutes of range ($769.49–772.09, $2.60 wide). Not valid yet.
