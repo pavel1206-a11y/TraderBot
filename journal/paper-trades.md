@@ -221,3 +221,12 @@ on each entry.
 - Watch: $769.4 lost on volume = gap-fill short toward $767.9–767.0 (setup C on a retest). Reclaim $771.65 and hold above VWAP = second-chance ORB long toward $772.3–773.7.
 - 4H (8 AM–12 PM): opened ~$767.4 and ran straight up to $772.09 (distribution up, no sweep first). No setup D.
 - Squeeze (F): only 30 minutes of range ($769.49–772.09, $2.60 wide). Not valid yet.
+
+**Setup check (10:28 AM ET): no trade (breakout on light volume, RSI stretched)**
+- 9:55 bar swept the $769.4 support to $769.07 on 495k, then reclaimed it. SPY has climbed since, with higher lows, back above VWAP ($770.94). The 10:20 bar closed at $772.35, above the ORB/day high ($772.09) and the $772.3 level (9/25 high). Now $772.27. QQQ $754.47, above its VWAP ($751.81) at a new day high.
+- Score (bullish) 7/10, grade B on the card. Scored: VWAP, ADX 41.6, EMA stack (9 EMA $770.95 > 21 EMA $768.89), higher highs/lows plus a close through the day high, higher timeframe (above the 20- and 50-day SMAs on a gap-up day), QQQ agrees, news (gap up on the 8:30 data).
+- Missed: volume (breakout bar 226k = 0.69x the prior 10-bar average of 329k), momentum (RSI 75 is overbought; MACD above signal but histogram shrinking), key level (sitting right at the $772.3 resistance).
+- Why no trade: A (ORB) needs above-average breakout volume and E needs 1.5x; both fail. No retest yet (C). The VWAP reclaim at 10:00 (B) was not caught; no chase now.
+- Watch: a pullback to $772.0–772.3 that holds on a 5-min close = setup C long toward R3 $773.7 / $774.9–775.1. Losing VWAP again = back to chop.
+- 4H (8 AM–12 PM): opened ~$767.4, in distribution up (new highs, no sweep below the open). No setup D.
+- Squeeze (F): no; the range expanded ($769.07–772.35, $3.28).
