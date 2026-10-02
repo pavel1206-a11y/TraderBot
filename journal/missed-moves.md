@@ -42,3 +42,23 @@ A "big move" = $2.50 or more inside about an hour, between 9:45 AM and 2:30 PM E
 - Real-money phase: put Robinhood price alerts on the range edges so the break
   reaches your phone the moment it happens. Checks alone are too slow: these
   moves run in 15–30 minutes.
+
+## 2026-10-02 (Fri)
+
+| Date | Time (ET) | Move | How it started | Our rules? |
+|---|---|---|---|---|
+| Fri 10/2 | 9:55–10:40 AM | **+$3.6** (769.07 → 772.65) | Gap up $6.5; 9:55 bar swept the $769.4 gap support to $769.07 on 495k, then reclaimed VWAP at 10:00 (close $771.63), QQQ agreeing. Faded after the ORB-high break at 10:20 on light volume. | Sweep-and-reclaim of the gap support = setup D/B shape, but it happened 2 min before the 9:57 check could see it. No armed triggers existed yet. |
+| Fri 10/2 | 10:40–11:25 AM | **−$5.5** (772.65 → 767.15) | Failed breakout at $772.65; 10:50 close under VWAP (1.3×); 11:00 close below the $770.70 squeeze low on **1.5×** (F needs 2×); 11:05 close below the **$769.4 gap support on 1.6×**, QQQ breaking too. | **Setup E fired at 11:05** ($769.03), between the 10:58 and 11:28 checks; by 11:28 it was past the $1.50 no-chase limit. Setup F missed by its 2× volume bar. |
+
+Afternoon: 11:30–3:30 stuck in $768.14–770.05; no $2.50 move.
+
+### Patterns this week (added)
+
+5. **Gap days don't always trend.** 10/2 gapped $6.5 and held the first 15
+   minutes, but the ORB break at 10:20 came on 0.7× volume and reversed $5.5.
+   The gap-day rule needs the breakout volume filter, which held up today.
+6. **Breakdowns run on 1.5×, not 2×.** Today's real move broke the squeeze
+   on 1.5× and the gap support on 1.6×. The 2× bar for F filtered it out.
+7. **Fixed today:** checks every 15 min plus armed triggers (playbook section
+   10) went live at noon; no armed trigger fired in the afternoon chop, which
+   is the right answer for a $1.91 range.

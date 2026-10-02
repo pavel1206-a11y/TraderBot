@@ -381,3 +381,33 @@ ARMED (last of the day, valid until 2:27 PM):
 **Setup check (2:28 PM ET): entry window closed; no trade**
 - Replay: neither trigger fired (low $768.51, above $768.14; high $769.35).
 - SPY $768.60, drifting toward the range low, but no new entries after 2:30. No open paper trades. Remaining checks only report until the close.
+
+**End of day (3:48 PM ET)**
+- Paper trades today: 1 signal, 2 legs (setup C bearish retest of $769.4, B grade). 767P −$19, SH −$0.16. Day: **−$19.16**.
+- Running totals: 4 trades, 1 win, 3 losses, **+$22.76** after 4 days.
+- Day: gap up $6.5, failed ORB breakout at $772.65, a $5.5 flush to $767.15 by 11:25, then four hours of chop in $768.14–770.05. Close ~$769.8.
+- Missed: +$3.6 sweep-and-reclaim at 9:55 and −$5.5 setup E short at 11:05 (between checks). See missed-moves.md.
+- Lesson: the retest stop sat $0.10 above the level and was taken out by noise. The confirming candle had low volume.
+
+---
+
+## Weekly review: 2026-09-29 to 2026-10-02 (playbook section 8)
+
+| | Trades | W/L | Net | Notes |
+|---|---|---|---|---|
+| Options (0DTE) | 2 | 1/1 | **+$23** | 759P +$42 (premium $83, **over the $50 cap**); 767P −$19 |
+| Fractional | 2 | 0/2 | −$0.24 | SH stopped both times by about a cent |
+| By setup | C (break & retest) 4 | 1/3 | +$22.76 | A, B, D, E, F: 0 trades |
+| By grade | B 4 | 1/3 | +$22.76 | **A-grade: 0 trades** |
+
+- **Rule breaks:** 1. The 10/1 winner cost $83, above the $50 cap; on cap-fitting contracts it would have been smaller.
+- **Graduation check:** not yet (4 of 10 trades; no A-grade trades to judge).
+- **What worked:** reading direction off a broken level; the option leg captures the move when it comes fast.
+- **What didn't:** the fractional leg (SH stops set on SH's price are too tight, about $0.03 away); retest stops sitting inside noise; moves firing between checks (now addressed with 15-min checks and armed triggers).
+
+### Proposed playbook changes (need the owner's OK; not applied)
+
+1. **Setup F volume: 2× → 1.5×** for the breakout candle, keep the QQQ-agrees rule. (10/2: 1.5–1.6× breakdown ran $5.5.)
+2. **Setup C stop buffer:** stop at least $0.30 beyond the level (or $0.15 beyond the retest extreme, whichever is farther), and the confirming candle needs volume ≥ the prior 10-bar average. (10/2 loss: $0.10 buffer, 0.7× volume.)
+3. **Fractional stops on the SPY level, not the inverse fund's price:** set the alert on SPY at the setup's stop, sell SH/PSQ when it fires. SH-price stops were hit by tracking noise twice.
+4. **Gap-and-go only with volume:** the ORB-long-on-gap-days rule requires breakout volume ≥ 1.0× (10/2's 0.7× breakout failed).
