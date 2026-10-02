@@ -276,3 +276,11 @@ on each entry.
 
 - 4H (8 AM–12 PM): closing now near $768.9, slightly above its ~$767.4 open, with a long upper wick to $772.65 (bearish rejection). The 12–4 PM candle opens around $769. Watch for a push above the open that fails (manipulation up) for D.
 - Squeeze (F): $767.15–769.50 ($2.35) since 11:20, about 40 min; becomes valid at 12:05.
+
+**12:04 PM ET: open trades and process upgrade**
+- Open trades: SPY $769.2 (bounced to $769.28, still under the $769.50 invalidation). 767P bid $0.41 (−$8). SH $32.14 (alert stop $32.13 not hit). Both still open; time stop for the option at 12:28.
+- **New: checks every 15 minutes** (:12, :27, :42, :57) plus **armed triggers** (playbook section 10). Each check writes its triggers in advance; the next check replays the bars and logs any that fired, as of the trigger bar's close.
+
+ARMED (valid until 12:12 PM):
+- ARMED E short: trigger = 5-min close below $767.10 (new day low) on ≥ 1.5× the prior 10-bar volume, QQQ below $747.50; entry = trigger close; stop = $768.10; target = $765.10 (gap fill / 20-day SMA); valid until 12:12.
+- ARMED B long: trigger = 5-min close above VWAP ~$770.45 on ≥ 1.5× volume, QQQ above its VWAP ($751.3); entry = trigger close; stop = $769.60; target = $772.30; valid until 12:12. (A fire here also invalidates the open short.)

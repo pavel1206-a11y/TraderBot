@@ -11,7 +11,7 @@ advice.
 |---|---|
 | 8:30–9:25 | **Pre-market brief:** overnight/pre-market move, news and sentiment, today's scheduled events (CPI, jobs, FOMC, Fed speakers, big earnings), key levels (below). Set a bias: bullish, bearish, or no bias. |
 | 9:30–9:45 | **Watch only.** Mark the 15-minute opening range (high and low). No entries. |
-| 9:45–2:30 | **Hunt:** score setups with the confluence card. Only A-grade or B-grade setups get proposed. |
+| 9:45–2:30 | **Hunt:** score setups with the confluence card. Only A-grade or B-grade setups get proposed. Checks every 15 minutes; each one replays and re-arms its triggers (section 10). |
 | By 3:30 | **Flat:** every 0DTE position closed. |
 | After close | **Journal:** log each trade, update running totals and the day-trade count. |
 
@@ -291,3 +291,44 @@ bearish). A pattern in the middle of nowhere is noise.
 During the paper phase, log fractional setups next to options setups with the
 instrument, dollar amount, entry, alert-stop, target, and result, so the two
 approaches can be compared.
+
+## 10. Armed triggers (catching moves between checks)
+
+Most missed moves (see `../journal/missed-moves.md`) fired between check-ins
+and were already too far to chase by the next check. The fix: every check
+**arms** its triggers in writing before they happen, and the next check
+**replays** the bars to see whether one fired.
+
+### Arming (every check, 9:45 AM–2:15 PM ET)
+
+End each check with an **Armed** list, at most 3 lines, each a complete plan:
+
+`ARMED <setup> <long/short>: trigger = 5-min close <above/below> $X on ≥ N× the prior 10-bar volume [+ QQQ condition]; entry = trigger close; stop = $S; target = $T; valid until HH:MM`
+
+- Only arm what the current score card would grade A or B if the trigger
+  fires (the trigger supplies the candle and, for E and F, the volume factor).
+- Reward/risk must be at least 1.5 at the trigger price, or don't arm it.
+- Valid until: the next check, or 2:30 PM, whichever is sooner. A check
+  re-arms or drops each line.
+
+### Replaying (start of every check)
+
+1. Pull the 5-min bars since the last check.
+2. For each armed line, find the **first** bar that meets the trigger exactly
+   as written. No rewording after the fact, and no partial credit (1.4× is
+   not 1.5×).
+3. If one fired, log the paper trade **as of that bar's close**: SPY entry =
+   that close; option entry = the option's 5-min bar close at the same time
+   (from option historicals) plus half the current bid-ask spread; fractional
+   entry = SH/PSQ/SPY/QQQ 5-min close at the same time.
+4. Then play the trade forward bar by bar: stop, target, invalidation, and
+   time stop, as in section 7. If both the stop and the target sit inside one
+   bar, count the **stop** (worst case).
+5. Mark it `(armed, replayed)` in the journal, so replayed trades can be
+   compared with trades taken live at a check.
+
+### Real-money phase
+
+Each armed line becomes a Robinhood price alert at the trigger level, so the
+owner is pinged the moment it fires. Entries still need the owner's OK and a
+fresh preview (CLAUDE.md rule 4).

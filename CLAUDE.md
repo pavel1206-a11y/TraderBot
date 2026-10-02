@@ -88,6 +88,8 @@ levels, the confluence score card (A/B/C grades), the six allowed setups
 run, and F, the midday squeeze breakout),
 no-trade filters, contract selection, and trade management. Only propose A or
 B grade setups, and show the score card with every proposal.
+Every intraday check replays the triggers the previous check armed and arms
+new ones (playbook section 10), so moves between checks are not missed.
 
 ## 0DTE rules
 
