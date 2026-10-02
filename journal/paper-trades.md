@@ -199,3 +199,16 @@ on each entry.
 - Running totals: 2 trades, 1 win, 1 loss, +$41.92 after 3 days. Trades counting toward the cap test: 1 (SH).
 - Day: weak open, 10:00 data broke support, selloff to $759.00, two hours of chop, then a 1:10–1:50 PM run to $765.32 that held $763.3–765.2 into the close (~$764.5 at 3:30).
 - Lesson: the bearish retest worked fast for the option (target in minutes) but the fractional target was too far. The afternoon run had no defined entry: added setup E (momentum run) and half-hour checks starting tomorrow.
+
+### 2026-10-02 (Fri)
+
+**Pre-market brief (8:54 AM ET)**
+- SPY pre-market $770.49 (**+0.85%, gap up ~$6.50**); QQQ +1.17%, IWM +1.4%. Jumped from ~$767.4 to $770.5 in the 8 AM hour, likely the 8:30 jobs report (result not confirmed).
+- Yesterday: high $765.65, low $758.79, close $763.99.
+- Pivots: R3 $773.69, R2 $769.67, R1 $766.83, P $762.81, S1 $759.97.
+- 20-day SMA $765.00, 50-day SMA $763.07.
+- Strong levels: $774.9–775.1 (9/21–22 highs), $772.3 (9/25 high), **$769.4–769.7** (R2 + 9/28 and 9/30 highs; first support if the gap holds), $766.8–767.9 (R1 + pre-market base), $765.0–765.65 (20-day SMA + yesterday's high).
+- Gap rule (missed-move review): gap days of $4+ that hold the first 15 minutes trended all day (9/21, 9/23). Above $769.5 after 9:45 = gap-and-go ORB long; losing $769.4 = gap-fill risk toward $767–765.
+- News: risk-off tone in the morning headlines (strong dollar, yields), but futures sharply higher on the 8:30 data. No big earnings.
+- Friday: weekly review at the close.
+- **Bias: bullish** while above $769.4.
