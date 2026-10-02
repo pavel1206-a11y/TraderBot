@@ -10,14 +10,14 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade | 0 | 0 | 0 | – | – | – | $0 |
-| Options, B grade | 1 | 1 | 0 | 100% | +$42 | – | +$42 |
+| Options, B grade | 2 | 1 | 1 | 50% | +$42 | -$19 | +$23 |
 | Fractional, A grade | 0 | 0 | 0 | – | – | – | $0 |
-| Fractional, B grade | 1 | 0 | 1 | 0% | – | -$0.08 | -$0.08 |
-| **All** | 2 | 1 | 1 | 50% | +$42 | -$0.08 | +$41.92 |
+| Fractional, B grade | 2 | 0 | 2 | 0% | – | -$0.12 | -$0.24 |
+| **All** | 4 | 1 | 3 | 25% | +$42 | -$6.41 | +$22.76 |
 
-Open: 2026-10-02 SPY 767P 0DTE (entry $0.49) and SH fractional $125 (entry $32.16), both setup C bearish, B grade.
+Open: none.
 
-By setup: ORB 0 · VWAP pullback 0 · Break and retest 2 · 4H manipulation 0
+By setup: ORB 0 · VWAP pullback 0 · Break and retest 4 · 4H manipulation 0
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -284,3 +284,16 @@ on each entry.
 ARMED (valid until 12:12 PM):
 - ARMED E short: trigger = 5-min close below $767.10 (new day low) on ≥ 1.5× the prior 10-bar volume, QQQ below $747.50; entry = trigger close; stop = $768.10; target = $765.10 (gap fill / 20-day SMA); valid until 12:12.
 - ARMED B long: trigger = 5-min close above VWAP ~$770.45 on ≥ 1.5× volume, QQQ above its VWAP ($751.3); entry = trigger close; stop = $769.60; target = $772.30; valid until 12:12. (A fire here also invalidates the open short.)
+
+**Setup check (12:14 PM ET): both paper legs closed for losses; no armed trigger fired**
+- Replay of the 12:04 ARMED list: E short (close < $767.10) did not fire (low $768.52). B long (close > ~$770.45) did not fire (high $769.86).
+- **SH stopped:** the 12:00 bar traded $32.12, through the $32.13 alert. Exit $32.12 → **−$0.16**.
+- **767P invalidated:** the 12:05 bar closed $769.79, above the $769.50 invalidation level. Exit at the bid ≈ **$0.30** (option bar close $0.31) → **−$19 (−39%)**. The $0.25 option stop was never touched (low $0.31).
+- Lesson: the retest high was only $0.10 above the level, so the stop sat inside normal noise. Light volume on the confirming candle (178k vs 260k) was the warning. Counted as **one losing signal** for the "two losses = done" filter, since live trading takes only one of the two legs.
+- Now: SPY $769.79, back above $769.4 but under VWAP ($770.31), which is flat. QQQ $750.71, under its VWAP. Price crossing $769.4 and VWAP repeatedly = chop. **Grade C, no trade.**
+- 4H (12–4 PM): opened ~$769.23; range $769.09–769.86 so far = accumulation.
+- Squeeze (F): **$768.14–769.86** ($1.72) since 11:30, valid. Prior 10-bar average volume ≈ 185k.
+
+ARMED (valid until 12:27 PM):
+- ARMED F short: trigger = 5-min close below $768.14 on ≥ 2× the prior 10-bar volume (≈ 370k), QQQ below $749.20; entry = trigger close; stop = $769.10; target = $764.70 (measured move); valid until 12:27.
+- ARMED B long: trigger = 5-min close above $770.40 (VWAP reclaim) on ≥ 1.5× volume (≈ 280k), QQQ above its VWAP (~$751.2); entry = trigger close; stop = $769.50; target = $772.30; valid until 12:27.
