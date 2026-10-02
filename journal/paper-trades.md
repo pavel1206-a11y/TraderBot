@@ -327,3 +327,13 @@ ARMED (valid until 12:57 PM):
 ARMED (valid until 1:12 PM):
 - ARMED F short: trigger = 5-min close below $768.14 on ≥ 2× the prior 10-bar volume (≈ 185k), QQQ below $748.90; entry = trigger close; stop = $769.12; target = $764.60; valid until 1:12.
 - ARMED B long: trigger = 5-min close above $770.40 on ≥ 1.5× volume (≈ 140k), QQQ above its VWAP (~$751.2); entry = trigger close; stop = $769.50; target = $772.30; valid until 1:12.
+
+**Setup check (1:13 PM ET): no trade; nothing fired**
+- Replay: neither trigger fired (range $768.84–770.05; the 1:00 high of $770.05 stayed under the $770.40 trigger).
+- SPY $769.50, under VWAP ($770.20). Grade C, chop.
+- 4H (12–4 PM): accumulation, $768.72–770.05.
+- Squeeze (F): **$768.14–770.05** ($1.91). Prior 10-bar average volume ≈ 95k.
+
+ARMED (valid until 1:27 PM):
+- ARMED F short: trigger = 5-min close below $768.14 on ≥ 2× the prior 10-bar volume (≈ 190k), QQQ below $748.90; entry = trigger close; stop = $769.20; target = $764.30; valid until 1:27.
+- ARMED B/F long: trigger = 5-min close above $770.40 (above the range and VWAP) on ≥ 2× volume (≈ 190k), QQQ above its VWAP (~$751.2); entry = trigger close; stop = $769.50; target = $772.30; valid until 1:27.
