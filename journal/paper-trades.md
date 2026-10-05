@@ -466,3 +466,12 @@ ARMED (valid until 10:42 AM; prior 10-bar average ≈ 249k):
 ARMED (valid until 10:42 AM; prior 10-bar average ≈ 215k):
 - ARMED E long: trigger = 5-min close above $773.00 on ≥ 1.5× (≈ 323k), QQQ above $753.10; entry = trigger close; stop = $772.10; target = $774.90; valid until 10:42.
 - ARMED C long: trigger = a 5-min bar that tags $771.90 or lower (Friday-high retest) and closes ≥ $772.20 on ≥ 1.0× (≈ 215k), QQQ above its VWAP; entry = trigger close; stop = $771.40; target = $774.20; valid until 10:42.
+
+**Setup check (10:43 AM ET): no trade; nothing fired**
+- Replay, C long: the 10:30 bar tagged $771.67 but closed $771.79 (below $772.20). The 10:35 bar tagged $771.79 and closed $772.40, but on **144k < 215k** (the new 1.0× volume rule). Not fired. E long (close > $773.00): no.
+- SPY $772.40, holding above Friday's high on a light-volume pullback. VWAP $771.31 rising. QQQ $753.13, around its OR high.
+- Squeeze forming: $771.67–772.96 since 10:15 (30 min).
+
+ARMED (valid until 10:57 AM; prior 10-bar average ≈ 205k):
+- ARMED E long: trigger = 5-min close above $773.00 on ≥ 1.5× (≈ 307k), QQQ above $753.94 (today's high); entry = trigger close; stop = $772.10; target = $774.90; valid until 10:57.
+- ARMED C long: trigger = a 5-min bar that tags $771.90 or lower and closes ≥ $772.20 on ≥ 1.0× (≈ 205k), QQQ above its VWAP; entry = trigger close; stop = $771.40; target = $774.20; valid until 10:57.
