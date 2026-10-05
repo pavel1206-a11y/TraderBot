@@ -62,3 +62,14 @@ Afternoon: 11:30–3:30 stuck in $768.14–770.05; no $2.50 move.
 7. **Fixed today:** checks every 15 min plus armed triggers (playbook section
    10) went live at noon; no armed trigger fired in the afternoon chop, which
    is the right answer for a $1.91 range.
+
+## 2026-10-05 (Mon)
+
+| Date | Time (ET) | Move | How it started | Our rules? |
+|---|---|---|---|---|
+| Mon 10/5 | 10:00–10:55 AM | **+$2.9** (769.98 → 772.91) | ISM-time dip to $769.98 held; 10:05 close above the ORB high ($770.97) on 1.1× volume, above VWAP; QQQ above its VWAP but under its own OR high. | **Setup A was armed and should have fired at 10:05.** Blocked by an over-strict QQQ rule I added to the armed line (QQQ above its own OR high). Fixed the same day (QQQ vs its VWAP). The owner took this trade for real: +$22. |
+
+Rest of day: a +$6.2 low-volume trend (open $769.69 → high $776.61) built in $1–2 legs, none ≥ $2.50 within an hour. The afternoon leg 2:30–3:10 (+$1.65) was after the entry window.
+
+### Pattern added
+8. **Quiet trend days** (10/5): steady higher lows above a rising VWAP on below-average volume. Volume-gated E/F triggers miss most of it; the trend-day runner rule (section 7) plus a lower volume bar on trend days (proposal) are the fix to test.

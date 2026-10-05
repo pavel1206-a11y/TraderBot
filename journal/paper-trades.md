@@ -634,3 +634,17 @@ ARMED (last of the day, valid until 2:27 PM; prior 10-bar average ≈ 108k):
 **Setup check (2:28 PM ET): entry window closing; nothing fired**
 - Replay: E long (close > $775.10) did not fire; high $774.98. SPY $774.95, pinned under the $775 resistance on light volume.
 - No open paper trades. Remaining checks only report until the close; the EOD review runs at 3:47.
+
+**End of day (3:48 PM ET)**
+- Paper trades today: 1 (setup F long, armed and replayed, B grade): SPY 776C ×2 → **−$22** (option stop $0.11 at 2:05).
+- Running totals: **5 trades, 1 win, 4 losses, +$0.76** (options +$1, fractional −$0.24). A-grade trades: 0.
+- Day: a trend day. Gap down erased at the open, ORB break at 10:05, steady climb above a rising VWAP all day, close ~$775.8 (+$6.2 from the open). Low-volume grind that our volume-gated triggers mostly filtered out.
+- **Painful detail:** the stopped 776C setup was right. SPY hit the trade's $776.08 target at ~3:05 PM (high $776.61). The 50% option stop was taken out at 2:05 by time decay while SPY held above the $774.06 invalidation. That is evidence for proposal (3) below: use the SPY invalidation as the primary stop on cheap OTM 0DTE.
+- The last armed E long (close > $775.10) closed $775.15 on the 2:25 bar, at 2:30. That's after the 2:27 validity and the 2:30 entry cutoff, so not taken (correct per rules).
+- Owner traded the 10:05 ORB himself: 774C, +$22 (+79%), in his individual account (not on this scoreboard).
+
+**Proposals for Friday's review (not applied):**
+1. E/F on trend days: volume ≥ 1.0× instead of 1.5× when the trend-day check is yes.
+2. No breakout entries within $0.30 of a strong level (enter on the break of the level instead).
+3. Cheap OTM 0DTE (premium < $0.40): primary stop = SPY invalidation level, with a hard premium floor of −70%, instead of −50% of premium.
+4. After 1:30 PM, use the nearest-the-money strike that fits the cap, or skip.
