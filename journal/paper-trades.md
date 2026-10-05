@@ -413,3 +413,16 @@ ARMED (last of the day, valid until 2:27 PM):
 4. **Gap-and-go only with volume:** the ORB-long-on-gap-days rule requires breakout volume ≥ 1.0× (10/2's 0.7× breakout failed).
 
 **Owner decision (2026-10-02 evening):** all four proposed changes approved and applied to the playbook (F volume 1.5×, setup C stop buffer + volume, fractional stops on the SPY/QQQ level, gap-day ORB volume ≥ 1.0×).
+
+### 2026-10-05 (Mon)
+
+**Pre-market brief (8:54 AM ET)**
+- SPY pre-market $768.41 (−0.16%); QQQ $747.50 (−0.28%); IWM flat. Small gap down, inside Friday's range.
+- Friday: high $772.65, low $767.15, close $769.64.
+- Pivots (from Friday): R2 $775.32, R1 $772.48, **P $769.81**, S1 $766.97, S2 $764.31.
+- 20-day SMA $764.83, 50-day SMA $763.70 (price above both; daily uptrend intact).
+- Strong levels: $772.3–772.65 (Fri high + R1 + 9/25 high), **$769.4–769.8** (pivot + gap level, Friday's afternoon ceiling ~$770.05), $767.0–767.15 (S1 + Friday's low), $764.3–765.0 (S2 + 20-day SMA).
+- News: quiet, mixed (analyst calls, J.B. Hunt earnings warning). No big index-moving earnings.
+- Event: **ISM Services PMI likely at 10:00 AM** (3rd business day; not confirmed). Treat 9:45–10:05 entries with caution; a 10:00 data candle can start the day's move (10/1 pattern).
+- **Bias: none (neutral).** Bullish above $770.05 (Friday's range top) with volume; bearish below $767.0.
+- Playbook changes from the week-1 review are live today (F 1.5×, C stop buffer + volume, SPY-level fractional stops, gap-day ORB volume).
