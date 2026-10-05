@@ -564,3 +564,13 @@ ARMED (valid until 1:12 PM; prior 10-bar average ≈ 114k):
 ARMED (valid until 1:27 PM; prior 10-bar average ≈ 110k):
 - ARMED E long: trigger = 5-min close above $774.60 on ≥ 1.5× (≈ 165k), QQQ above $754.60; entry = trigger close; stop = $773.70; target = $776.10; valid until 1:27.
 - ARMED E short: trigger = 5-min close below $773.60 on ≥ 1.5× (≈ 165k), QQQ below $753.60; entry = trigger close; stop = $774.40; target = $772.30 (VWAP); valid until 1:27.
+
+**Owner's own trade (real money, individual account, placed by the owner): SPY 774C 0DTE, +$22.00**
+- Bought 1 × SPY 10/5 $774 call, limit $0.30, **filled $0.28 at 10:09 AM** ($28.04). Sold by **stop-limit at $0.50 (trigger $0.50 / limit $0.49) at 10:23 AM**, +$22.00 (+79%) in 14 minutes.
+- That was exactly the armed **A long (ORB break above $770.97)** that fired on SPY at 10:05 ($771.80 close on 287k ≥ 255k, above VWAP) and that **I blocked** with a QQQ condition stricter than the playbook ("QQQ above its own OR high $753.10"). QQQ was $752.23, above its VWAP (~$752), which is what score-card factor 9 actually asks.
+- Fix (applied to playbook section 10): the default QQQ condition for armed triggers is now "QQQ on the same side of its VWAP." Setup F keeps "QQQ breaking the same way."
+- Under the fixed rule this would have been a replayed paper trade: entry SPY $771.80 at 10:10, target $772.65 hit by 10:15. Not added to the scoreboard (no after-the-fact rule changes), but logged as the reference case.
+- What the owner's trade shows that the playbook should keep:
+  - Contract: ~$2 OTM 0DTE call at $0.28, well inside the $25–50 cap, liquid.
+  - Exit: a resting stop-limit placed above entry to lock the gain (+79%) instead of watching it.
+- Note: it counts as a day trade in that account (PDT: 1 of 3 per rolling 5 business days, if that account is under $25k).

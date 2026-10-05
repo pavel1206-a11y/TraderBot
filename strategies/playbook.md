@@ -318,6 +318,12 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
 
 `ARMED <setup> <long/short>: trigger = 5-min close <above/below> $X on ≥ N× the prior 10-bar volume [+ QQQ condition]; entry = trigger close; stop = $S; target = $T; valid until HH:MM`
 
+- **QQQ condition (default):** QQQ is on the same side of **its own VWAP** as
+  the trade (above for longs, below for shorts), matching score-card factor 9.
+  Do not require QQQ to break its own range or high unless the setup says so
+  (setup F). (2026-10-05: requiring QQQ above its own OR high blocked the
+  10:05 ORB long that the owner traded for +$22 / +79%.)
+
 - Only arm what the current score card would grade A or B if the trigger
   fires (the trigger supplies the candle and, for E and F, the volume factor).
 - Reward/risk must be at least 1.5 at the trigger price, or don't arm it.
