@@ -457,3 +457,12 @@ ARMED (valid until 10:27 AM; average volume since 9:30 ≈ 255k):
 ARMED (valid until 10:42 AM; prior 10-bar average ≈ 249k):
 - ARMED E long: trigger = 5-min close above $772.70 (Friday high) on ≥ 1.5× (≈ 375k), QQQ above $753.10; entry = trigger close; stop = $771.90; target = $774.90 (9/21–22 highs); valid until 10:42.
 - ARMED C long: trigger = a 5-min bar that tags $771.30 or lower (OR high / VWAP retest) and closes ≥ $771.50 on ≥ 1.0× volume, QQQ above its VWAP; entry = trigger close; stop = $770.70; target = $773.69; valid until 10:42.
+
+**Setup check (10:28 AM ET): no trade; nothing fired**
+- Replay: E long needed a close above $772.70 on ≥ 375k. 10:20 closed $772.71 on 215k, so volume failed. C long (tag ≤ $771.30) did not happen (low $771.82).
+- SPY $772.71, grinding up through Friday's high on below-average volume. QQQ now above its OR high ($753.56 > $753.10), above VWAP ($751.99). SPY VWAP $771.12, rising.
+- Steady trend, no volume. No chase: $1.74 above VWAP, at resistance.
+
+ARMED (valid until 10:42 AM; prior 10-bar average ≈ 215k):
+- ARMED E long: trigger = 5-min close above $773.00 on ≥ 1.5× (≈ 323k), QQQ above $753.10; entry = trigger close; stop = $772.10; target = $774.90; valid until 10:42.
+- ARMED C long: trigger = a 5-min bar that tags $771.90 or lower (Friday-high retest) and closes ≥ $772.20 on ≥ 1.0× (≈ 215k), QQQ above its VWAP; entry = trigger close; stop = $771.40; target = $774.20; valid until 10:42.
