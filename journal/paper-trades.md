@@ -10,14 +10,14 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade | 0 | 0 | 0 | – | – | – | $0 |
-| Options, B grade | 2 | 1 | 1 | 50% | +$42 | -$19 | +$23 |
+| Options, B grade | 3 | 1 | 2 | 33% | +$42 | -$20.50 | +$1 |
 | Fractional, A grade | 0 | 0 | 0 | – | – | – | $0 |
 | Fractional, B grade | 2 | 0 | 2 | 0% | – | -$0.12 | -$0.24 |
-| **All** | 4 | 1 | 3 | 25% | +$42 | -$6.41 | +$22.76 |
+| **All** | 5 | 1 | 4 | 20% | +$42 | -$10.31 | +$0.76 |
 
-Open: 2026-10-05 SPY 776C ×2 (armed, replayed, setup F long, B grade), entry $0.22.
+Open: none.
 
-By setup: ORB 0 · VWAP pullback 0 · Break and retest 4 · 4H manipulation 0
+By setup: ORB 0 · VWAP pullback 0 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -620,3 +620,13 @@ ARMED (valid until 1:57 PM; prior 10-bar average ≈ 90k):
 **Fractional leg: not taken.** At the trigger price, R/R to the $776.08 target is 1.48 (< 1.5 rule).
 
 - Since entry: 776C high $0.24, low $0.13; now bid $0.13 / ask $0.14 (**−$0.09 each, −$18 open**). SPY $774.58, low $774.58: well above the $774.06 invalidation. RSI was stretched into resistance (factors 5 and 7). Watch the 2:15 time stop.
+
+**Setup check (2:14 PM ET): 776C ×2 STOPPED, −$22**
+- Replay: the 2:05 bar traded the 776C down to **$0.11 = the 50% option stop**. Exit both at $0.11 → **−$0.11 × 2 × 100 = −$22**. The SPY invalidation ($774.06) was never hit (SPY low $774.37), and target $0.33 never reached (high $0.24).
+- Why: SPY stalled at the $774.9–775.1 resistance (score-card factor 5 was ❌), and a $1+ OTM 0DTE call loses value fast after 1:30 PM while SPY goes sideways. The option-price stop was taken out by time decay, not by the setup failing.
+- Lessons for the Friday review: (1) don't buy a breakout that runs straight into a strong level within $0.30 (the key-level ❌ was a real warning); (2) after ~1:30 PM, prefer the nearest-the-money strike that fits the cap, or skip; (3) consider the SPY invalidation as the primary stop for cheap OTM 0DTE (with a hard premium floor) instead of 50% of a $0.22 premium.
+- Losing trades today: 1 (filter: done after 2).
+- SPY $774.70; trend day still yes. QQQ $755.04, above VWAP.
+
+ARMED (last of the day, valid until 2:27 PM; prior 10-bar average ≈ 108k):
+- ARMED E long: trigger = 5-min close above $775.10 on ≥ 1.5× (≈ 162k), QQQ above its VWAP; entry = trigger close; stop = $774.40; target = $776.30; option = nearest-the-money call that fits the cap; valid until 2:27.
