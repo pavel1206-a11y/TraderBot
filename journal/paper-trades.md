@@ -426,3 +426,12 @@ ARMED (last of the day, valid until 2:27 PM):
 - Event: **ISM Services PMI likely at 10:00 AM** (3rd business day; not confirmed). Treat 9:45–10:05 entries with caution; a 10:00 data candle can start the day's move (10/1 pattern).
 - **Bias: none (neutral).** Bullish above $770.05 (Friday's range top) with volume; bearish below $767.0.
 - Playbook changes from the week-1 review are live today (F 1.5×, C stop buffer + volume, SPY-level fractional stops, gap-day ORB volume).
+
+**9:43 AM ET: opening range forming**
+- SPY opened $769.69 (gap down erased), first bar up to $770.93 on 549k; now $770.59. Range so far $769.65–770.97. QQQ stronger: $752.12, above Friday's close.
+- Above Friday's $770.05 ceiling already. The 9:45 OR is final at the 9:40 bar's close.
+- ISM Services (likely 10:00): a 10:00-candle trigger is valid but gets extra care in the score (news factor).
+
+ARMED (9:45–10:12; ORH/ORL = the final 9:30–9:45 high/low, currently $770.97 / $769.65):
+- ARMED A long: trigger = 5-min close above ORH on ≥ 1.0× the average volume of the bars since 9:30, SPY above VWAP, QQQ above its own OR high; entry = trigger close; stop = $770.30; target = $772.65 (Friday high / R1); valid until 10:12.
+- ARMED A short: trigger = 5-min close below ORL and below $769.4 on ≥ 1.0× that average, QQQ below its OR low; entry = trigger close; stop = $770.40; target = $767.15 (Friday low / S1); valid until 10:12.
