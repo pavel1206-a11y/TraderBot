@@ -547,3 +547,12 @@ ARMED (valid until 12:42 PM; prior 10-bar average ≈ 130k):
 ARMED (valid until 12:57 PM; prior 10-bar average ≈ 121k):
 - ARMED E long: trigger = 5-min close above $774.04 on ≥ 1.5× (≈ 181k), QQQ above $754.15; entry = trigger close; stop = $773.40; target = $775.10 (9/21–22 highs); valid until 12:57.
 - ARMED F short: trigger = 5-min close below $772.85 on ≥ 1.5× (≈ 181k), QQQ below $753.20; entry = trigger close; stop = $773.60; target = $771.00; valid until 12:57.
+
+**Setup check (12:58 PM ET): no trade; nothing fired**
+- Replay, E long (close > $774.04 on ≥ 181k, QQQ > $754.15): 12:40 closed $774.45 with QQQ $754.44 ✓, but **volume 116k < 181k**. Not fired. Short: no.
+- SPY $774.37, new day high $774.54 (+$4.85 from the open). Still on falling volume (85–116k). VWAP $772.24. Next resistance $774.9–775.1 (9/21–22 highs).
+- Volume-gated triggers keep missing this grind. The near misses today (10:05 ORB, 12:40 E) both went on to work. Weekly-review item: on days where SPY trends above a rising VWAP with QQQ agreeing, is a 1.0× volume bar enough for E?
+
+ARMED (valid until 1:12 PM; prior 10-bar average ≈ 114k):
+- ARMED E long: trigger = 5-min close above $775.10 on ≥ 1.5× (≈ 171k), QQQ above $754.60; entry = trigger close; stop = $774.30; target = $776.80; valid until 1:12.
+- ARMED E short: trigger = 5-min close below $773.60 on ≥ 1.5× (≈ 171k), QQQ below $753.80; entry = trigger close; stop = $774.40; target = $772.25 (VWAP); valid until 1:12.
