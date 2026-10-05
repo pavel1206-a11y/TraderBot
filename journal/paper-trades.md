@@ -582,3 +582,11 @@ ARMED (valid until 1:27 PM; prior 10-bar average ≈ 110k):
 ARMED (valid until 1:42 PM; prior 10-bar average ≈ 102k; QQQ condition = same side of its VWAP):
 - ARMED E long: trigger = 5-min close above $774.60 on ≥ 1.5× (≈ 153k), QQQ above its VWAP; entry = trigger close; stop = $773.70; target = $776.10; valid until 1:42.
 - ARMED E short: trigger = 5-min close below $773.60 on ≥ 1.5× (≈ 153k), QQQ below $753.60; entry = trigger close; stop = $774.40; target = $772.40 (VWAP); valid until 1:42.
+
+**Setup check (1:43 PM ET): no trade; nothing fired**
+- Replay: no close > $774.60 or < $773.60 (range $774.15–774.47).
+- **Squeeze (F): $773.77–774.54 ($0.77) since 12:35, ~65 min.** Very tight, very quiet (50–110k). VWAP $772.4; QQQ $754.64 above its VWAP ($752.98), day high $754.87.
+
+ARMED (valid until 1:57 PM; prior 10-bar average ≈ 90k):
+- ARMED F long: trigger = 5-min close above $774.54 on ≥ 1.5× (≈ 135k), QQQ breaking above $754.87; entry = trigger close; stop = $774.06; target = $776.08; valid until 1:57.
+- ARMED F short: trigger = 5-min close below $773.77 on ≥ 1.5× (≈ 135k), QQQ breaking below $754.40; entry = trigger close; stop = $774.26; target = $772.23; valid until 1:57.
