@@ -630,3 +630,7 @@ ARMED (valid until 1:57 PM; prior 10-bar average ≈ 90k):
 
 ARMED (last of the day, valid until 2:27 PM; prior 10-bar average ≈ 108k):
 - ARMED E long: trigger = 5-min close above $775.10 on ≥ 1.5× (≈ 162k), QQQ above its VWAP; entry = trigger close; stop = $774.40; target = $776.30; option = nearest-the-money call that fits the cap; valid until 2:27.
+
+**Setup check (2:28 PM ET): entry window closing; nothing fired**
+- Replay: E long (close > $775.10) did not fire; high $774.98. SPY $774.95, pinned under the $775 resistance on light volume.
+- No open paper trades. Remaining checks only report until the close; the EOD review runs at 3:47.
