@@ -210,6 +210,42 @@ Skip the day or the setup if any of these apply:
   - Target: +50% to +100%, or the next strong key level on the underlying.
 - **Hard exit:** closed by 3:30 PM ET, win or lose.
 
+### Trend days: runner exit
+
+From 2026-10-05: the owner's 774C went $0.28 → $0.50 (sold), back to $0.29
+twice, then to $1.01 as SPY trended all day. A single fixed exit either takes
+the small win or gets shaken out. On trend days, split the exit.
+
+**Trend-day check (every check from 10:30 AM, report "trend day: yes/no"):**
+all of these must be true.
+1. No 5-min close on the wrong side of VWAP since 10:00, and VWAP sloping
+   the trade's way.
+2. Each pullback makes a higher low (longs) or lower high (shorts): at least
+   two in a row.
+3. Pullbacks come on below-average volume.
+4. QQQ is on the same side of its own VWAP.
+5. Price has cleared and held a key level (previous day's high/low, opening
+   range, pivot).
+
+If any is false, it's a normal or chop day: use the standard exits in this
+section (first target, quick profit).
+
+**Runner exit (trend day = yes):**
+- **Size:** 2 contracts, but the **total** premium must still fit the cap
+  (each ≤ $25 at the $25–50 cap). If 2 don't fit, take 1 and use the
+  standard exit.
+- **First half:** sell 1 contract at +50–80% (limit).
+- **Runner:** move its stop to the entry price right away (it can no longer
+  lose), then trail it on **SPY, not the option price**: exit when SPY closes
+  a 5-min bar below the last higher low (longs) or above the last lower high
+  (shorts), or on the wrong side of VWAP.
+- **Re-entry:** if fully out and the day is still a trend day, a pullback to
+  VWAP or a broken level that holds on a 5-min close is a new B/C entry
+  (new plan, new score card, counts as another day trade).
+- **Fractional:** the same idea: sell half at the first target, trail the
+  rest on the SPY level, and exit by 3:45 PM.
+- Time rules still win: no new 0DTE entries after 2:30, all closed by 3:30.
+
 ## 8. Weekly review
 
 Every weekend, from `../journal/trades.md`:

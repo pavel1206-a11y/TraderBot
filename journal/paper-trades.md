@@ -590,3 +590,5 @@ ARMED (valid until 1:42 PM; prior 10-bar average ≈ 102k; QQQ condition = same 
 ARMED (valid until 1:57 PM; prior 10-bar average ≈ 90k):
 - ARMED F long: trigger = 5-min close above $774.54 on ≥ 1.5× (≈ 135k), QQQ breaking above $754.87; entry = trigger close; stop = $774.06; target = $776.08; valid until 1:57.
 - ARMED F short: trigger = 5-min close below $773.77 on ≥ 1.5× (≈ 135k), QQQ breaking below $754.40; entry = trigger close; stop = $774.26; target = $772.23; valid until 1:57.
+
+**Owner decision (2026-10-05 ~1:50 PM):** added playbook section 7 "Trend days: runner exit" (trend-day check reported at each check from 10:30; 2-contract half-out + break-even runner trailed on SPY; re-entry on VWAP/level pullback). Paper trades use it from the next check.
