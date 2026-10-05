@@ -510,3 +510,13 @@ ARMED (valid until 11:42 AM; prior 10-bar average ≈ 162k):
 ARMED (valid until 11:57 AM; prior 10-bar average ≈ 166k):
 - ARMED F long: trigger = 5-min close above $773.13 on ≥ 1.5× (≈ 249k), QQQ above $754.10; entry = trigger close; stop = $772.30; target = $776.05 (edge + 2× range); valid until 11:57.
 - ARMED F short: trigger = 5-min close below $771.67 on ≥ 1.5× (≈ 249k), QQQ below $752.63; entry = trigger close; stop = $772.50; target = $768.75; valid until 11:57.
+
+**Setup check (11:58 AM ET): no trade; nothing fired**
+- Replay: F long needed a close > $773.13 on ≥ 249k. 11:40–11:50 closed $773.29–773.33 on 109–145k; QQQ ≤ $753.82. Not fired.
+- SPY $773.29, slow grind higher (+$3.6 from the open) on falling volume; VWAP $771.90. QQQ $753.82.
+- Squeeze tightened: **$772.28–773.48 ($1.20) since 11:10.** Prior 10-bar average ≈ 159k.
+- 4H (8 AM–12 PM): closing near its high (~$773.3) from a ~$768.4 open; strong bullish candle, no sweep. The 12–4 PM candle opens ~$773.3: watch for a sweep below its open/the range low that recovers (setup D long).
+
+ARMED (valid until 12:12 PM):
+- ARMED F long: trigger = 5-min close above $773.48 on ≥ 1.5× (≈ 238k), QQQ above $754.10; entry = trigger close; stop = $772.78; target = $775.88; valid until 12:12.
+- ARMED F short: trigger = 5-min close below $772.28 on ≥ 1.5× (≈ 238k), QQQ below $753.00; entry = trigger close; stop = $772.98; target = $769.88; valid until 12:12.
