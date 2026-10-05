@@ -15,7 +15,7 @@ quotes for the contract. Rules for graduating to real money are in
 | Fractional, B grade | 2 | 0 | 2 | 0% | – | -$0.12 | -$0.24 |
 | **All** | 4 | 1 | 3 | 25% | +$42 | -$6.41 | +$22.76 |
 
-Open: none.
+Open: 2026-10-05 SPY 776C ×2 (armed, replayed, setup F long, B grade), entry $0.22.
 
 By setup: ORB 0 · VWAP pullback 0 · Break and retest 4 · 4H manipulation 0
 
@@ -592,3 +592,31 @@ ARMED (valid until 1:57 PM; prior 10-bar average ≈ 90k):
 - ARMED F short: trigger = 5-min close below $773.77 on ≥ 1.5× (≈ 135k), QQQ breaking below $754.40; entry = trigger close; stop = $774.26; target = $772.23; valid until 1:57.
 
 **Owner decision (2026-10-05 ~1:50 PM):** added playbook section 7 "Trend days: runner exit" (trend-day check reported at each check from 10:30; 2-contract half-out + break-even runner trailed on SPY; re-entry on VWAP/level pullback). Paper trades use it from the next check.
+
+**Setup check (1:58 PM ET): PAPER TRADE OPENED (armed, replayed). Setup F long, B grade**
+- Replay: **ARMED F long fired on the 1:40 bar**: close $774.875 (> $774.54) on 138k (≥ 135k = 1.5× of 90k), QQQ closed $755.49 (> $754.87). Entry SPY $774.875 at 1:45 PM.
+
+| # | Factor | Long? | Reading (1:40 bar) |
+|---|---|---|---|
+| 1 | VWAP (required) | ✅ | $774.88 vs VWAP ~$772.5, rising all day |
+| 2 | ADX > 20 (required) | ✅ | 40.3 |
+| 3 | EMA 9/21 | ✅ | above the 21 EMA $773.93, stacked up |
+| 4 | Candles | ✅ | higher lows all day; close out of the squeeze |
+| 5 | Key level | ❌ | breakout runs straight into $774.9–775.1 (9/21–22 highs) |
+| 6 | Volume | ✅ | 1.5× |
+| 7 | Momentum | ❌ | RSI 71 (stretched), MACD a hair under signal |
+| 8 | Higher timeframe | ✅ | above the 20/50-day SMAs, new highs |
+| 9 | QQQ agrees | ✅ | broke its day high, above VWAP |
+| 10 | News | ❌ | none |
+
+**Score 7/10, grade B.** Trend day: **yes** (all 5 checks), so the **runner exit** applies.
+
+**Option leg (0DTE):** SPY 10/5 **776 call ×2**. 1:40 bar close $0.21 + half spread → **entry $0.22 each ($44 total), fits cap: yes**. Spread 7%, OI 5,029.
+- Contract 1: sell at +50% = **$0.33** (limit).
+- Contract 2 (runner): stop to entry after contract 1 fills; trail on SPY (5-min close below the last higher low or VWAP).
+- Initial stop on both: $0.11 option (50%) or SPY 5-min close < $774.06 (invalidation). Time stop 2:15 PM if not working. Hard exit 3:30.
+- (The 775 call, ~ATM at $0.52, would have broken the $50 cap.)
+
+**Fractional leg: not taken.** At the trigger price, R/R to the $776.08 target is 1.48 (< 1.5 rule).
+
+- Since entry: 776C high $0.24, low $0.13; now bid $0.13 / ask $0.14 (**−$0.09 each, −$18 open**). SPY $774.58, low $774.58: well above the $774.06 invalidation. RSI was stretched into resistance (factors 5 and 7). Watch the 2:15 time stop.
