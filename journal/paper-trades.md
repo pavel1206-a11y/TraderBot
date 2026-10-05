@@ -556,3 +556,11 @@ ARMED (valid until 12:57 PM; prior 10-bar average ≈ 121k):
 ARMED (valid until 1:12 PM; prior 10-bar average ≈ 114k):
 - ARMED E long: trigger = 5-min close above $775.10 on ≥ 1.5× (≈ 171k), QQQ above $754.60; entry = trigger close; stop = $774.30; target = $776.80; valid until 1:12.
 - ARMED E short: trigger = 5-min close below $773.60 on ≥ 1.5× (≈ 171k), QQQ below $753.80; entry = trigger close; stop = $774.40; target = $772.25 (VWAP); valid until 1:12.
+
+**Setup check (1:13 PM ET): no trade; nothing fired**
+- Replay: no close > $775.10 or < $773.60 (range $773.77–774.54).
+- SPY $773.99, small pullback off the $774.54 high on very light volume (~90k). VWAP $772.31. QQQ $754.13.
+
+ARMED (valid until 1:27 PM; prior 10-bar average ≈ 110k):
+- ARMED E long: trigger = 5-min close above $774.60 on ≥ 1.5× (≈ 165k), QQQ above $754.60; entry = trigger close; stop = $773.70; target = $776.10; valid until 1:27.
+- ARMED E short: trigger = 5-min close below $773.60 on ≥ 1.5× (≈ 165k), QQQ below $753.60; entry = trigger close; stop = $774.40; target = $772.30 (VWAP); valid until 1:27.
