@@ -538,3 +538,12 @@ ARMED (valid until 12:27 PM; prior 10-bar average ≈ 154k):
 ARMED (valid until 12:42 PM; prior 10-bar average ≈ 130k):
 - ARMED F long: trigger = 5-min close above $773.64 on ≥ 1.5× (≈ 195k), QQQ above $754.10; entry = trigger close; stop = $772.86; target = $776.36; valid until 12:42.
 - ARMED F short: trigger = 5-min close below $772.28 on ≥ 1.5× (≈ 195k), QQQ below $752.80; entry = trigger close; stop = $773.06; target = $769.56; valid until 12:42.
+
+**Setup check (12:43 PM ET): no trade; nothing fired**
+- Replay, F long (close > $773.64 on ≥ 195k, QQQ > $754.10): 12:30 closed $773.68 on 100k; 12:35 closed $773.97 on 135k, QQQ $753.95. Volume and QQQ both failed. Short: no.
+- SPY $773.97, day high $774.04. Grinding up in $0.20–0.30 steps on below-average volume. VWAP $772.14. QQQ tagged $754.15 (new day high).
+- Pattern of the day: a slow, quiet trend that never gives a volume breakout or a VWAP pullback. None of setups A–F catches this kind of move by design. Note for the weekly review.
+
+ARMED (valid until 12:57 PM; prior 10-bar average ≈ 121k):
+- ARMED E long: trigger = 5-min close above $774.04 on ≥ 1.5× (≈ 181k), QQQ above $754.15; entry = trigger close; stop = $773.40; target = $775.10 (9/21–22 highs); valid until 12:57.
+- ARMED F short: trigger = 5-min close below $772.85 on ≥ 1.5× (≈ 181k), QQQ below $753.20; entry = trigger close; stop = $773.60; target = $771.00; valid until 12:57.
