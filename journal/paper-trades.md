@@ -435,3 +435,13 @@ ARMED (last of the day, valid until 2:27 PM):
 ARMED (9:45–10:12; ORH/ORL = the final 9:30–9:45 high/low, currently $770.97 / $769.65):
 - ARMED A long: trigger = 5-min close above ORH on ≥ 1.0× the average volume of the bars since 9:30, SPY above VWAP, QQQ above its own OR high; entry = trigger close; stop = $770.30; target = $772.65 (Friday high / R1); valid until 10:12.
 - ARMED A short: trigger = 5-min close below ORL and below $769.4 on ≥ 1.0× that average, QQQ below its OR low; entry = trigger close; stop = $770.40; target = $767.15 (Friday low / S1); valid until 10:12.
+
+**Setup check (9:58 AM ET): no trade; nothing fired**
+- Opening range final: **$769.65–770.97**. Since 9:35 SPY has sat in $770.26–770.97 on a flat VWAP ($770.55), now $770.42. QQQ firmer ($752.17, OR $749.08–753.10). Grade C (VWAP flat, inside the range).
+- Replay: no close above $770.97 or below $769.65.
+- ISM Services due at 10:00 (next bar).
+- 4H (8 AM–12 PM): opened ~$768.4 pre-market; up into Friday's range ceiling. No sweep yet, so no setup D.
+
+ARMED (valid until 10:27 AM; average volume since 9:30 ≈ 255k):
+- ARMED A long: trigger = 5-min close above $770.97 on ≥ 1.0× (≈ 255k), SPY above VWAP, QQQ above $753.10; entry = trigger close; stop = $770.30; target = $772.65; valid until 10:27.
+- ARMED A short: trigger = 5-min close below $769.40 on ≥ 1.0× (≈ 255k), QQQ below $749.08; entry = trigger close; stop = $770.40; target = $767.15; valid until 10:27.
