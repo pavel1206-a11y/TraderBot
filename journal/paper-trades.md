@@ -574,3 +574,11 @@ ARMED (valid until 1:27 PM; prior 10-bar average ≈ 110k):
   - Contract: ~$2 OTM 0DTE call at $0.28, well inside the $25–50 cap, liquid.
   - Exit: a resting stop-limit placed above entry to lock the gain (+79%) instead of watching it.
 - Note: it counts as a day trade in that account (PDT: 1 of 3 per rolling 5 business days, if that account is under $25k).
+
+**Setup check (1:28 PM ET): no trade; nothing fired**
+- Replay: no close > $774.60 or < $773.60 (range $773.77–774.40).
+- SPY $774.39, near the $774.54 high. QQQ $754.70, above its VWAP ($752.91), so the new QQQ condition is met for longs. Volume still thin (~100k).
+
+ARMED (valid until 1:42 PM; prior 10-bar average ≈ 102k; QQQ condition = same side of its VWAP):
+- ARMED E long: trigger = 5-min close above $774.60 on ≥ 1.5× (≈ 153k), QQQ above its VWAP; entry = trigger close; stop = $773.70; target = $776.10; valid until 1:42.
+- ARMED E short: trigger = 5-min close below $773.60 on ≥ 1.5× (≈ 153k), QQQ below $753.60; entry = trigger close; stop = $774.40; target = $772.40 (VWAP); valid until 1:42.
