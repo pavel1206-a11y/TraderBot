@@ -445,3 +445,15 @@ ARMED (9:45–10:12; ORH/ORL = the final 9:30–9:45 high/low, currently $770.97
 ARMED (valid until 10:27 AM; average volume since 9:30 ≈ 255k):
 - ARMED A long: trigger = 5-min close above $770.97 on ≥ 1.0× (≈ 255k), SPY above VWAP, QQQ above $753.10; entry = trigger close; stop = $770.30; target = $772.65; valid until 10:27.
 - ARMED A short: trigger = 5-min close below $769.40 on ≥ 1.0× (≈ 255k), QQQ below $749.08; entry = trigger close; stop = $770.40; target = $767.15; valid until 10:27.
+
+**Setup check (10:22 AM ET; trigger fired 9 min late): no trade; armed long did NOT fire (QQQ condition)**
+- Replay of A long (close > $770.97 on ≥ 255k, above VWAP, QQQ > $753.10): 10:05 bar closed $771.80 on 287k and 10:10 closed $771.94 on 269k. SPY's part met, but **QQQ closed $752.23 / $752.31, below its $753.10 OR high**. Not fired. 10:15 also fails (233k, QQQ $752.89). Strict replay rules: no trade.
+- What it would have done: entry $771.80, target $772.65 hit at 10:15 (+$0.85, ~1.6R). Logged as a **near miss**: SPY led and QQQ lagged. Something to watch: is requiring QQQ's own OR break too strict when QQQ is above its VWAP?
+- A short: did not fire.
+- Now: SPY $772.42, right at the **$772.48–772.65 resistance** (R1 + Friday's high), above a rising VWAP ($770.98). ISM bar (10:00) wicked to $769.98 and closed up. Higher highs and lows since. QQQ $752.89, still under its OR high.
+- Grade: no entry. Price is at resistance, QQQ is lagging, and volume (233k) is under average.
+- 4H (8 AM–12 PM): opened ~$768.4, trending up (distribution up); no sweep, so no setup D.
+
+ARMED (valid until 10:42 AM; prior 10-bar average ≈ 249k):
+- ARMED E long: trigger = 5-min close above $772.70 (Friday high) on ≥ 1.5× (≈ 375k), QQQ above $753.10; entry = trigger close; stop = $771.90; target = $774.90 (9/21–22 highs); valid until 10:42.
+- ARMED C long: trigger = a 5-min bar that tags $771.30 or lower (OR high / VWAP retest) and closes ≥ $771.50 on ≥ 1.0× volume, QQQ above its VWAP; entry = trigger close; stop = $770.70; target = $773.69; valid until 10:42.
