@@ -520,3 +520,13 @@ ARMED (valid until 11:57 AM; prior 10-bar average ≈ 166k):
 ARMED (valid until 12:12 PM):
 - ARMED F long: trigger = 5-min close above $773.48 on ≥ 1.5× (≈ 238k), QQQ above $754.10; entry = trigger close; stop = $772.78; target = $775.88; valid until 12:12.
 - ARMED F short: trigger = 5-min close below $772.28 on ≥ 1.5× (≈ 238k), QQQ below $753.00; entry = trigger close; stop = $772.98; target = $769.88; valid until 12:12.
+
+**Setup check (12:13 PM ET): no trade; nothing fired**
+- Replay: no close outside $772.28–773.48 (range $772.92–773.37).
+- SPY $773.14. Squeeze **$772.28–773.48**, 60 min. VWAP $771.98. QQQ $753.51. Volume ~120–140k. Grade C.
+- 4H (12–4 PM): opened ~$773.3, dipped to $772.92: accumulation. No sweep yet; D long needs a drop through $772.28 (range low) that closes back above it.
+
+ARMED (valid until 12:27 PM; prior 10-bar average ≈ 154k):
+- ARMED F long: trigger = 5-min close above $773.48 on ≥ 1.5× (≈ 231k), QQQ above $754.10; entry = trigger close; stop = $772.78; target = $775.88; valid until 12:27.
+- ARMED F short: trigger = 5-min close below $772.28 on ≥ 1.5× (≈ 231k), QQQ below $753.00; entry = trigger close; stop = $772.98; target = $769.88; valid until 12:27.
+- ARMED D long: trigger = a 5-min bar that trades below $772.28 and then a bar closing back above $772.28 (within 2 bars), QQQ above $752.60; entry = that close; stop = sweep low − $0.15; target = $775.00; valid until 12:27.
