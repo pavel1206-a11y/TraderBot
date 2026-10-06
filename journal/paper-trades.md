@@ -897,3 +897,6 @@ ARMED (valid until 2:12):
 - Replay: F long: closes $780.14 and $780.18, never above $780.19 (2:00 bar 154k, 2:05 bar 83k). F short: no. Neither fired.
 - SPY $780.18 is just above a flat VWAP ($779.93); QQQ $761.39 is back above its VWAP of $761.20. Range $778.90–$780.24.
 - No new ARMED list: a trigger armed now would fire at the earliest on the 2:15 bar, too close to the 2:30 cutoff for new 0DTE entries. No open paper trades. Remaining checks report only; EOD review at 3:47.
+
+**Setup check (2:28 PM ET): entry window closing; nothing armed or open**
+- SPY $779.91, flat around VWAP (≈ $779.93) in a $778.90–$780.35 afternoon range. No triggers were armed. No paper trades are open. Remaining checks report only; EOD review at 3:47.
