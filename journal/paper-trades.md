@@ -717,3 +717,8 @@ ARMED (valid until 10:12):
 
 ARMED (valid until 10:42):
 - ARMED B long (VWAP pullback): trigger = a 5-min bar with low within $0.10 of VWAP that closes above VWAP and no more than VWAP + $0.15 (at + $0.30 the reward/risk would be only 1.3), and above the prior close, QQQ above its VWAP; entry = trigger close; stop = $778.70 (below the OR high $778.78); target = $780.66 (R2 / day high); reward/risk ≥ 1.5 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 10:42.
+
+**Setup check (10:27 AM ET): nothing fired**
+- Replay: the 10:20 bar came within $0.10 of VWAP (low $779.35 vs VWAP $779.25). But it closed at $779.545, above the $779.40 cap and below the prior close of $779.64, so the B long did not fire.
+- SPY is drifting down toward VWAP after the R2 rejection. QQQ $761.11 is still above its VWAP of $760.81. No open trades; no new A/B setup.
+- The 10:23 ARMED B long stays armed unchanged until 10:42.
