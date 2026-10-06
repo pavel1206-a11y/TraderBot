@@ -9,15 +9,17 @@ quotes for the contract. Rules for graduating to real money are in
 
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
-| Options, A grade | 0 | 0 | 0 | – | – | – | $0 |
+| Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
 | Options, B grade | 3 | 1 | 2 | 33% | +$42 | -$20.50 | +$1 |
-| Fractional, A grade | 0 | 0 | 0 | – | – | – | $0 |
+| Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
 | Fractional, B grade | 2 | 0 | 2 | 0% | – | -$0.12 | -$0.24 |
-| **All** | 5 | 1 | 4 | 20% | +$42 | -$10.31 | +$0.76 |
+| **All** | 7 | 3 | 4 | 43% | +$18.60 | -$10.31 | +$14.57 |
 
-Open: 10/6 setup B long (armed, replayed): SPY 782C 10/6 ×1 @ $0.255 + SPY fractional 0.3209 sh @ $779.045.
+\* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-By setup: ORB 0 · VWAP pullback 0 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1
+Open: none.
+
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -703,3 +705,15 @@ ARMED (valid 9:45–10:12 AM; volume reference = average of the three opening-ra
 
 ARMED (valid until 10:12):
 - ARMED B long (VWAP pullback, second entry): trigger = a 5-min bar with low within $0.10 of VWAP that closes above VWAP **and no more than VWAP + $0.30**, and above the prior close, QQQ above its VWAP; entry = trigger close; stop = $778.00; target = $780.66 (R2); reward/risk ≥ 1.5 at any allowed close; option = nearest-the-money 0DTE call ≤ $25 (total open premium stays ≤ $50); valid until 10:12.
+
+**Setup check (10:23 AM ET; the :12 run fired late): 10/6 VWAP pullback CLOSED, both legs winners**
+- **Option 782C ×1:** the journal exit rule is a +50% limit, $0.39. The 782C reached $0.47 in the 9:55 bar, so the limit filled at **$0.39 → +$13.50** (+53%). The 9:58 check reported the trade still open at $0.47; that was wrong under this rule, and this entry corrects it.
+- **Fractional SPY 0.3209 sh:** the target of $780.00 was hit at 10:00 (high $780.19) → **+$0.31**.
+- Day trades used (paper): 1.
+- Replay of the 9:58 ARMED B long (with the VWAP + $0.30 cap): did not fire. The 9:55, 10:00 and 10:05 bars never came within $0.10 of VWAP; the closest low was $779.27 vs VWAP $778.75.
+- Now: SPY tagged **R2 $780.66** (high $780.67 on the 10:10 bar) and was turned back. The 10:15 bar closed at $779.64 on a pullback toward VWAP ($779.23, still rising). QQQ $761.35, above its VWAP of $760.79. ADX was 47 at 9:50. RSI has cooled from 76. No A/B entry at this moment: price is mid-pullback, between R2 resistance and VWAP.
+- 4H (8 AM–12 PM bar): still the expansion leg up, no setup D.
+- F squeeze: n/a; less than 45 minutes in a tight range.
+
+ARMED (valid until 10:42):
+- ARMED B long (VWAP pullback): trigger = a 5-min bar with low within $0.10 of VWAP that closes above VWAP and no more than VWAP + $0.30, and above the prior close, QQQ above its VWAP; entry = trigger close; stop = $778.70 (below the OR high $778.78); target = $780.66 (R2 / day high); reward/risk ≥ 1.5 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 10:42.
