@@ -648,3 +648,15 @@ ARMED (last of the day, valid until 2:27 PM; prior 10-bar average ≈ 108k):
 2. No breakout entries within $0.30 of a strong level (enter on the break of the level instead).
 3. Cheap OTM 0DTE (premium < $0.40): primary stop = SPY invalidation level, with a hard premium floor of −70%, instead of −50% of premium.
 4. After 1:30 PM, use the nearest-the-money strike that fits the cap, or skip.
+
+### 2026-10-06 (Tue)
+
+**Pre-market brief (8:54 AM ET)**
+- SPY pre-market $777.84 (+0.39%, gap up ~$3.0); QQQ $759.89 (+0.49%), IWM +0.47%. Continuation of Monday's trend day; price above the 9/21–22 highs ($774.9–775.1) = highest levels in our records.
+- Monday: high $776.61, low $769.63, close $774.83.
+- Pivots: R2 $780.66, **R1 $777.75**, P $773.69, S1 $770.78, S2 $766.71.
+- 20-day SMA $765.06, 50-day SMA $764.42 (rising; daily uptrend).
+- Strong levels: **$777.75** (R1; pre-market is sitting on it), **$776.6** (Monday high, first support), $774.9–775.1 (old resistance, now support), $773.7 (pivot).
+- News: quiet, mildly positive (no index-moving earnings). No major scheduled release found; treat 10:00 AM as a possible data time anyway.
+- Gap of $3 (< $4), so the gap-day rule does not apply; normal ORB rules (breakout volume ≥ 1.0× for gap-direction ORB).
+- **Bias: bullish** while above $776.6. A drop back below $775 (gap filled into old resistance) = no bias.
