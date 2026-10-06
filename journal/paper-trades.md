@@ -819,3 +819,15 @@ ARMED (valid until 12:27):
 ARMED (valid until 12:42):
 - ARMED D long (sweep and reclaim): trigger = after a 5-min low below $780.125, a 5-min close back above $780.30 and no higher than $780.45, QQQ back above its VWAP; entry = trigger close; stop = $779.70; target = $781.62; reward/risk ≥ 1.5; option = nearest-the-money 0DTE call ≤ $25; valid until 12:42.
 - ARMED B long (VWAP pullback): as at 12:14 (low within $0.10 of VWAP ≈ $779.95, close above VWAP and ≤ VWAP + $0.10, above the prior close, QQQ above its VWAP; stop $779.45; target $781.10); valid until 12:42.
+
+**Setup check (12:43 PM ET): nothing fired**
+- Replay:
+  - D long: the 12:35 bar swept to $780.04 (below $780.125) and closed $780.30. But QQQ closed $761.05, below its VWAP of $761.31, so it did not fire.
+  - B long: the 12:35 low $780.04 was within $0.10 of VWAP ($779.96), but it closed $780.30, above the VWAP + $0.10 cap. Not fired.
+- SPY $780.30 is drifting down toward VWAP ($779.96, flattening). QQQ is still below its VWAP. The F range low ($780.125) has been poked; the range is losing shape.
+- 4H 12–4 PM bar: below its open, in a possible manipulation leg (setup D) if SPY reclaims $780.6+ with QQQ.
+- No live A/B: QQQ disagrees with SPY.
+
+ARMED (valid until 12:57):
+- ARMED B long (VWAP pullback): low within $0.10 of VWAP (≈ $779.97), close above VWAP and ≤ VWAP + $0.10, above the prior close, QQQ above its VWAP; stop $779.45; target $781.10; valid until 12:57.
+- ARMED D long (sweep and reclaim): after a 5-min low below $780.125, a later 5-min close of $780.30–$780.45 with QQQ above its VWAP; stop $779.70; target $781.62; valid until 12:57.
