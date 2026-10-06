@@ -660,3 +660,13 @@ ARMED (last of the day, valid until 2:27 PM; prior 10-bar average ≈ 108k):
 - News: quiet, mildly positive (no index-moving earnings). No major scheduled release found; treat 10:00 AM as a possible data time anyway.
 - Gap of $3 (< $4), so the gap-day rule does not apply; normal ORB rules (breakout volume ≥ 1.0× for gap-direction ORB).
 - **Bias: bullish** while above $776.6. A drop back below $775 (gap filled into old resistance) = no bias.
+
+**Opening check (9:42 AM ET): opening range forming, no entries before 9:45**
+- SPY opened $778.16, above R1 $777.75 and well above $776.6. 9:30–9:40 range so far: **high $778.73, low $777.96**; last $778.41 (9:35 bar), just above VWAP $778.29 (flat). Volume 409k, then 287k.
+- QQQ $760.38, slightly above its VWAP $760.26 after dipping under it at 9:35.
+- Read: gap held so far, sitting on R1. Bias stays bullish above $776.6. The range is final once the 9:40 bar closes; triggers below use its final high/low.
+
+ARMED (valid 9:45–10:12 AM; volume reference = average of the three opening-range bars):
+- ARMED A long (ORB): trigger = 5-min close above the final range high (≈ $778.73) on ≥ 1.0× volume, SPY above VWAP, QQQ above its VWAP; entry = trigger close; stop = $777.80 (below the range low and R1); target = $780.66 (R2); option = nearest-the-money 0DTE call that fits the $25 cap; valid until 10:12.
+- ARMED B long (VWAP pullback): trigger = a 5-min bar whose low comes within $0.10 of VWAP and closes above VWAP and above the prior bar's close, with QQQ above its VWAP; entry = trigger close; stop = $777.60; target = $780.00; option as above; valid until 10:12.
+- ARMED A short (failed gap): trigger = 5-min close below $776.60 (below the range low and Monday's high), QQQ below its VWAP; entry = trigger close; stop = $777.40; target = $775.10; option = nearest-the-money 0DTE put that fits the cap; valid until 10:12.
