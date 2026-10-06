@@ -758,3 +758,14 @@ ARMED (valid until 11:12):
 
 ARMED (valid until 11:27; prior 10-bar average ≈ 191k):
 - ARMED C long (break and retest of R2): trigger = 5-min bar with low between $780.56 and $780.76 (a retest of $780.66), closing above $780.66 and no higher than $780.85, on ≥ 1.0× (≈ 191k), QQQ above its VWAP; entry = trigger close; stop = $780.36 ($0.30 below the level); target = $781.65; reward/risk ≥ 1.6 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 11:27.
+
+**Setup check (11:27 AM ET): nothing fired. SPY grinding higher without us**
+- Replay of the C long (R2 retest): the 11:10 bar's low $780.71 was a valid retest, but it closed $781.14 (above the $780.85 cap) on 90k (0.47×, needed ≥ 1.0×). Not fired.
+- SPY $781.42 (high $781.49): five straight higher closes since 11:00, all on below-average volume. VWAP is $779.59 and rising; QQQ $762.46 is above its VWAP.
+- Missed-move candidate for the EOD review: R2 broke at 11:05 and SPY rose +$0.75 by 11:25, on light volume again (pattern 8).
+- Trend-day check: still no, because of the 10:25 and 10:30 closes below VWAP.
+- 4H (8 AM–12 PM bar): up, new highs. No setup D.
+- No F range: price is trending, not compressing.
+
+ARMED (valid until 11:42; prior 10-bar average ≈ 156k):
+- ARMED C long (R2 retest, second try): trigger = 5-min bar with low between $780.56 and $780.90, closing above $780.66 and no higher than $781.00, on ≥ 1.0× (≈ 156k), QQQ above its VWAP; entry = trigger close; stop = $780.36; target = $782.40; reward/risk ≥ 2.1 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 11:42.
