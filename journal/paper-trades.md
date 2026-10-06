@@ -866,3 +866,16 @@ ARMED (valid until 1:27; prior 10-bar average ≈ 108k):
 ARMED (valid until 1:42; prior 10-bar average ≈ 110k):
 - ARMED B short (VWAP rejection): trigger = 5-min bar with high within $0.10 of VWAP (≈ $779.93) that closes below VWAP and no lower than VWAP − $0.10, below the prior close, QQQ below its VWAP; entry = trigger close; stop = $780.35; target = $778.60; reward/risk ≥ 2.0; option = nearest-the-money 0DTE put ≤ $25, or skip; valid until 1:42.
 - ARMED E short (continuation): trigger = 5-min close below $778.90 and no lower than $778.75 on ≥ 1.5× (≈ 165k), QQQ below its VWAP; entry = trigger close; stop = $779.35; target = $777.80 (just above R1); reward/risk ≥ 1.5; valid until 1:42.
+
+**Setup check (1:43 PM ET): nothing fired; V-bounce back to VWAP**
+- Replay:
+  - B short: 1:25 high $779.76 was $0.17 short of VWAP; 1:30 closed $779.99, *above* VWAP; 1:35 high $780.08 was $0.15 over (outside the $0.10 band). Not fired.
+  - E short: no close below $778.90. Not fired.
+- The 1:20 sweep to $778.90 was bought hard: 1:25 bar +$0.47 on 201k (≈ 1.9×). SPY $779.88 is back on a flat VWAP ($779.93). QQQ $761.00 is recovering toward its VWAP ($761.21).
+- 4H 12–4 PM bar: low $778.90 swept, now reclaiming. A setup D shape is forming, but SPY needs to get back above VWAP with QQQ.
+- No live A/B: SPY is on VWAP.
+- Entry windows: new 0DTE entries until 2:30, arming until 2:15. After 1:30, nearest-the-money strike only or skip.
+
+ARMED (valid until 1:57):
+- ARMED D long (sweep $778.90 → reclaim): trigger = 5-min close above VWAP (≈ $779.95) and no higher than $780.10, QQQ above its VWAP; entry = trigger close; stop = $779.45; target = $781.10; reward/risk ≥ 1.5; option = nearest-the-money 0DTE call ≤ $25, or skip; valid until 1:57.
+- ARMED B short (VWAP rejection): 5-min bar with high within $0.10 of VWAP, closing below VWAP and no lower than VWAP − $0.10, below the prior close, QQQ below its VWAP; stop $780.35; target $778.90; valid until 1:57.
