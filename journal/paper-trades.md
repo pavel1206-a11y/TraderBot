@@ -892,3 +892,8 @@ ARMED (valid until 1:57):
 ARMED (valid until 2:12):
 - ARMED F long: trigger = 5-min close above $780.19 and no higher than $780.30 on ≥ 1.5× (≈ 170k), QQQ above its VWAP; entry = trigger close; stop = $779.80; target = $781.10; reward/risk ≥ 1.6; option = nearest-the-money 0DTE call if ≤ $25, else skip; valid until 2:12.
 - ARMED F short: trigger = 5-min close below $778.90 and no lower than $778.75 on ≥ 1.5× (≈ 170k), QQQ below its range low $759.73; entry = trigger close; stop = $779.35; target = $777.80; reward/risk ≥ 1.5; option = nearest-the-money 0DTE put if ≤ $25, else skip; valid until 2:12.
+
+**Setup check (2:14 PM ET): nothing fired; arming closed for the day**
+- Replay: F long: closes $780.14 and $780.18, never above $780.19 (2:00 bar 154k, 2:05 bar 83k). F short: no. Neither fired.
+- SPY $780.18 is just above a flat VWAP ($779.93); QQQ $761.39 is back above its VWAP of $761.20. Range $778.90–$780.24.
+- No new ARMED list: a trigger armed now would fire at the earliest on the 2:15 bar, too close to the 2:30 cutoff for new 0DTE entries. No open paper trades. Remaining checks report only; EOD review at 3:47.
