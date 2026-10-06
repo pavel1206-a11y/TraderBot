@@ -747,3 +747,14 @@ ARMED (valid until 10:57):
 
 ARMED (valid until 11:12):
 - ARMED F long: trigger = 5-min close above $780.67 and no higher than $780.75 on ≥ 1.5× (≈ 339k), QQQ breaking above its range high $762.19; entry = trigger close; stop = $780.15; target = $781.65; option = nearest-the-money 0DTE call ≤ $25; valid until 11:12.
+
+**Setup check (11:13 AM ET): nothing fired. R2 broke on light volume**
+- Replay: F long. The 11:05 bar closed $780.75, inside the $780.67–$780.75 band, but on 155k vs the ≥ 339k needed (0.69×). **Not fired** (no partial credit). QQQ did break its range high ($762.73).
+- Quiet grind again (pattern 8 in missed-moves): SPY made a new high of $781.00 on falling volume. VWAP $779.46 is rising; QQQ is above its VWAP.
+- Trend-day check: still no, because of the 10:25 and 10:30 closes below VWAP.
+- F squeeze range is no longer valid: price closed above $780.67. R2 $780.66 is now the level to retest. R3 ≈ $784.7 (too far to target); the range-height projection is ≈ $782.8.
+- 4H (8 AM–12 PM bar): up, new high; no setup D.
+- No live A/B entry: $780.75 sits right on the break, and buying a breakout on 0.69× volume fails factor 6.
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 191k):
+- ARMED C long (break and retest of R2): trigger = 5-min bar with low between $780.56 and $780.76 (a retest of $780.66), closing above $780.66 and no higher than $780.85, on ≥ 1.0× (≈ 191k), QQQ above its VWAP; entry = trigger close; stop = $780.36 ($0.30 below the level); target = $781.65; reward/risk ≥ 1.6 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 11:27.
