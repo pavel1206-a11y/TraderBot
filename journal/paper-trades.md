@@ -852,3 +852,17 @@ ARMED (valid until 1:12):
 ARMED (valid until 1:27; prior 10-bar average ≈ 108k):
 - ARMED E short (VWAP breakdown): trigger = 5-min close below $779.70 and no lower than $779.55 on ≥ 1.5× (≈ 162k), QQQ below its VWAP; entry = trigger close; stop = $780.10; target = $778.60 (above the morning low $778.565); reward/risk ≥ 1.7; option = nearest-the-money 0DTE put ≤ $25 (after 1:30 use the nearest-the-money strike or skip); valid until 1:27.
 - ARMED D long (sweep and reclaim): a 5-min close of $780.30–$780.45 with QQQ above its VWAP; stop $779.70; target $781.62; valid until 1:27.
+
+**Setup check (1:28 PM ET): nothing fired. SPY broke below VWAP on light volume**
+- Replay:
+  - E short: the 1:10 bar closed $779.60 (inside the $779.55–$779.70 band) but on 103k vs ≥ 162k (0.64×). The 1:15 bar closed $779.23, below the band. Not fired.
+  - D long: no.
+- **Missed-move candidate:** SPY fell from $779.93 to a $778.90 low (−$1.0) in 15 minutes, again on light volume (pattern 8, this time downward).
+- SPY $779.24 is below VWAP ($779.94, now sloping down slightly). QQQ $760.16 is below its VWAP of $761.24. They agree on bearish for the first time today.
+- Morning low $778.565 is the next support, then R1 $777.75. The daily trend and the bias (bullish above $776.6) are against shorts, so factor 8 is ❌; B grade at best.
+- 4H 12–4 PM bar: low $778.90, below its open. Distribution so far.
+- After 1:30: nearest-the-money strike only, or skip (Friday proposal 4, followed here as a precaution).
+
+ARMED (valid until 1:42; prior 10-bar average ≈ 110k):
+- ARMED B short (VWAP rejection): trigger = 5-min bar with high within $0.10 of VWAP (≈ $779.93) that closes below VWAP and no lower than VWAP − $0.10, below the prior close, QQQ below its VWAP; entry = trigger close; stop = $780.35; target = $778.60; reward/risk ≥ 2.0; option = nearest-the-money 0DTE put ≤ $25, or skip; valid until 1:42.
+- ARMED E short (continuation): trigger = 5-min close below $778.90 and no lower than $778.75 on ≥ 1.5× (≈ 165k), QQQ below its VWAP; entry = trigger close; stop = $779.35; target = $777.80 (just above R1); reward/risk ≥ 1.5; valid until 1:42.
