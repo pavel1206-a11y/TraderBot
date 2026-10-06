@@ -716,4 +716,4 @@ ARMED (valid until 10:12):
 - F squeeze: n/a; less than 45 minutes in a tight range.
 
 ARMED (valid until 10:42):
-- ARMED B long (VWAP pullback): trigger = a 5-min bar with low within $0.10 of VWAP that closes above VWAP and no more than VWAP + $0.30, and above the prior close, QQQ above its VWAP; entry = trigger close; stop = $778.70 (below the OR high $778.78); target = $780.66 (R2 / day high); reward/risk ≥ 1.5 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 10:42.
+- ARMED B long (VWAP pullback): trigger = a 5-min bar with low within $0.10 of VWAP that closes above VWAP and no more than VWAP + $0.15 (at + $0.30 the reward/risk would be only 1.3), and above the prior close, QQQ above its VWAP; entry = trigger close; stop = $778.70 (below the OR high $778.78); target = $780.66 (R2 / day high); reward/risk ≥ 1.5 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 10:42.
