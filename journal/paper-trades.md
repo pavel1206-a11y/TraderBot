@@ -15,7 +15,7 @@ quotes for the contract. Rules for graduating to real money are in
 | Fractional, B grade | 2 | 0 | 2 | 0% | – | -$0.12 | -$0.24 |
 | **All** | 5 | 1 | 4 | 20% | +$42 | -$10.31 | +$0.76 |
 
-Open: none.
+Open: 10/6 setup B long (armed, replayed): SPY 782C 10/6 ×1 @ $0.255 + SPY fractional 0.3209 sh @ $779.045.
 
 By setup: ORB 0 · VWAP pullback 0 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1
 
@@ -670,3 +670,36 @@ ARMED (valid 9:45–10:12 AM; volume reference = average of the three opening-ra
 - ARMED A long (ORB): trigger = 5-min close above the final range high (≈ $778.73) on ≥ 1.0× volume, SPY above VWAP, QQQ above its VWAP; entry = trigger close; stop = $777.80 (below the range low and R1); target = $780.66 (R2); option = nearest-the-money 0DTE call that fits the $25 cap; valid until 10:12.
 - ARMED B long (VWAP pullback): trigger = a 5-min bar whose low comes within $0.10 of VWAP and closes above VWAP and above the prior bar's close, with QQQ above its VWAP; entry = trigger close; stop = $777.60; target = $780.00; option as above; valid until 10:12.
 - ARMED A short (failed gap): trigger = 5-min close below $776.60 (below the range low and Monday's high), QQQ below its VWAP; entry = trigger close; stop = $777.40; target = $775.10; option = nearest-the-money 0DTE put that fits the cap; valid until 10:12.
+
+**Setup check (9:58 AM ET): ARMED B long FIRED (armed, replayed)**
+- Final opening range: high $778.78, low $777.96. Volume of the 3 opening bars averaged ≈ 323k.
+- Replay:
+  - A long (ORB) did not fire. The 9:45 bar closed $779.05 on 201k (0.62×) and the 9:50 bar closed $779.26 on 280k (0.87×), both under 1.0×.
+  - **B long (VWAP pullback) fired on the 9:45 bar.** Low $778.43 vs VWAP $778.45, close $779.045 above VWAP and above the prior close $778.65. QQQ closed $760.41, above its VWAP of $760.28. **Entry is SPY $779.045 at 9:50.**
+  - A short did not fire.
+- **Arming error (mine):** the line had no cap on how far above VWAP the trigger bar could close. At $779.045, stop $777.60 / target $780.00 gives reward/risk of only **0.66**, below the 1.5 minimum. A live preview would have rejected it. The trade is logged exactly as written (replay rule: no rewording). The owner decides at Friday's review whether it counts. Fix from now on: every VWAP-pullback line caps the trigger close at VWAP + $0.30.
+- Score card at the 9:45 bar: **8/10 (A)**.
+  - ✅ 1 VWAP: above, rising.
+  - ✅ 2 ADX: 47.
+  - ✅ 3 EMA stack: $779.05 > 9 EMA $777.29 > 21 EMA $776.36.
+  - ✅ 4 Candles: higher highs and higher lows, with the VWAP hold as the confirming candle.
+  - ✅ 5 Key level: holding above R1 $777.75.
+  - ❌ 6 Volume: 0.62×.
+  - ❌ 7 Momentum: RSI 75.6 is overbought, though MACD is above its signal.
+  - ✅ 8 Higher timeframe: daily above the 50-day; Monday was a trend day.
+  - ✅ 9 QQQ: above its VWAP.
+  - ✅ 10 News: quiet, mildly positive.
+- 0DTE checklist:
+  - Direction: ✅
+  - Candles: ✅
+  - News: ✅
+  - Risk: ✅ $25.50 is within the 10% max, $0.50 over the 5% default.
+  - Time: ✅ after 9:45.
+- **Option:** SPY 782C 10/6 ×1. Entry is $0.25 (5-min close) + $0.005 (half spread) = **$0.255 ($25.50)**. The 782C is the nearest-the-money strike under the cap; the 781C at $0.445 was over. Stop = 50% of premium ($0.13) or a SPY close below $777.60. Target: SPY $780.00. Out by 3:30.
+- **Fractional:** SPY 0.3209 sh @ $779.045 (≈ $250, 50% of the account). The stop is an alert at SPY $777.60 (risk $0.46); target $780.00 (+$0.31). Out by 3:45.
+- Play-forward to 9:57: the stop and target have not been hit. SPY high $779.95, $0.05 under the target; 782C last $0.47 (+84%). **Still open.**
+- 4H (8 AM–12 PM bar): this is the expansion leg up from the pre-market open (~$777.8), with no sweep below the open first, so no setup D.
+- F squeeze: n/a; less than 45 minutes of session.
+
+ARMED (valid until 10:12):
+- ARMED B long (VWAP pullback, second entry): trigger = a 5-min bar with low within $0.10 of VWAP that closes above VWAP **and no more than VWAP + $0.30**, and above the prior close, QQQ above its VWAP; entry = trigger close; stop = $778.00; target = $780.66 (R2); reward/risk ≥ 1.5 at any allowed close; option = nearest-the-money 0DTE call ≤ $25 (total open premium stays ≤ $50); valid until 10:12.
