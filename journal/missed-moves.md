@@ -73,3 +73,14 @@ Rest of day: a +$6.2 low-volume trend (open $769.69 → high $776.61) built in $
 
 ### Pattern added
 8. **Quiet trend days** (10/5): steady higher lows above a rising VWAP on below-average volume. Volume-gated E/F triggers miss most of it; the trend-day runner rule (section 7) plus a lower volume bar on trend days (proposal) are the fix to test.
+
+## 2026-10-06 (Tue)
+
+| Date | Time (ET) | Move | How it started | Our rules? |
+|---|---|---|---|---|
+| Tue 10/6 | 10:30–11:25 AM | **+$3.06** (778.565 → 781.62) | Two closes below VWAP (10:25, 10:30) swept to $778.565, then a reclaim: 10:35 bar touched VWAP and closed $779.69 (0.85×). 10:40 close $780.22; R2 $780.66 broke at 11:05 on 0.69×. QQQ above its VWAP throughout. | **B (VWAP pullback) was armed, but the close cap (VWAP + $0.15, added after the morning arming error) rejected the 10:35 reclaim bar.** No D (sweep and reclaim) line was armed at 10:23. The later F and C lines failed on volume (0.69×, 0.47×). |
+
+Rest of day: 11:25–1:20 fade of −$2.72 over ~2 hours (no ≥ $2.50 hour); afternoon range $778.90–$780.35.
+
+### Pattern added
+9. **Entry caps vs strong reclaims** (10/6): capping the trigger close near VWAP (to keep reward/risk ≥ 1.5) rejects exactly the strongest reclaim bars. Alternative to test: keep the close uncapped but anchor the stop at the sweep low and size the target to the next level; skip only if reward/risk < 1.5 at the actual close. Also arm a D (sweep and reclaim) line whenever price closes back across VWAP after a sweep. Pattern 8 (quiet trends) repeated today on both the 11:05 R2 break and the 1:10 drop.

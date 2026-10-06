@@ -900,3 +900,13 @@ ARMED (valid until 2:12):
 
 **Setup check (2:28 PM ET): entry window closing; nothing armed or open**
 - SPY $779.91, flat around VWAP (≈ $779.93) in a $778.90–$780.35 afternoon range. No triggers were armed. No paper trades are open. Remaining checks report only; EOD review at 3:47.
+
+**End of day (3:48 PM ET)**
+- Paper trades today: 1 setup (B, VWAP pullback, armed and replayed, graded A with a reward/risk arming defect), two legs:
+  - SPY 782C: **+$13.50** (+50% limit filled at 9:55).
+  - SPY fractional: **+$0.31** (target $780 at 10:00).
+- No open positions overnight.
+- Running totals: **7 trades, 3 wins, 4 losses, +$14.57** (options +$14.50, fractional +$0.07). A-grade: 2 legs (asterisked).
+- Day: gap up held, R2 $780.66 broke on light volume (high $781.62 at 11:25), then a slow fade into a flat VWAP (≈ $779.9). Close ≈ $779.6 (+$4.8 vs Monday).
+- **QQQ filter check:** the 12:05 R2-retest trigger blocked by QQQ < VWAP would have been stopped at $780.36 (12:15 low $780.45; the 12:25 low $780.24 went through it). The filter saved a loss.
+- Missed: +$3.06 (10:30–11:25); see missed-moves.md.
