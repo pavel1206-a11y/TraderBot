@@ -879,3 +879,16 @@ ARMED (valid until 1:42; prior 10-bar average ≈ 110k):
 ARMED (valid until 1:57):
 - ARMED D long (sweep $778.90 → reclaim): trigger = 5-min close above VWAP (≈ $779.95) and no higher than $780.10, QQQ above its VWAP; entry = trigger close; stop = $779.45; target = $781.10; reward/risk ≥ 1.5; option = nearest-the-money 0DTE call ≤ $25, or skip; valid until 1:57.
 - ARMED B short (VWAP rejection): 5-min bar with high within $0.10 of VWAP, closing below VWAP and no lower than VWAP − $0.10, below the prior close, QQQ below its VWAP; stop $780.35; target $778.90; valid until 1:57.
+
+**Setup check (1:58 PM ET): nothing fired; flat at VWAP**
+- Replay:
+  - D long: the 1:45 bar closed $779.995 (above VWAP, inside the band), but QQQ was $760.97, below its VWAP of $761.21. Blocked.
+  - B short: the 1:40 bar matched on high and close but closed $779.90, *above* the prior close $779.88. 1:50 high $780.19 was outside the band. Not fired.
+- SPY $779.85 is on a flat VWAP ($779.93). QQQ is just under its VWAP. Dead midday chop.
+- **F squeeze range (1:10–1:55):** $778.90–$780.19 ($1.29 wide). Prior 10-bar average ≈ 113k, so 1.5× ≈ 170k.
+- 4H 12–4 PM bar: swept to $778.90 then reclaimed, flat. No expansion yet.
+- Last arming of the day (arming stops at 2:15; no new 0DTE after 2:30; nearest-the-money strike only).
+
+ARMED (valid until 2:12):
+- ARMED F long: trigger = 5-min close above $780.19 and no higher than $780.30 on ≥ 1.5× (≈ 170k), QQQ above its VWAP; entry = trigger close; stop = $779.80; target = $781.10; reward/risk ≥ 1.6; option = nearest-the-money 0DTE call if ≤ $25, else skip; valid until 2:12.
+- ARMED F short: trigger = 5-min close below $778.90 and no lower than $778.75 on ≥ 1.5× (≈ 170k), QQQ below its range low $759.73; entry = trigger close; stop = $779.35; target = $777.80; reward/risk ≥ 1.5; option = nearest-the-money 0DTE put if ≤ $25, else skip; valid until 2:12.
