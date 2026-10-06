@@ -793,3 +793,16 @@ ARMED (valid until 11:57):
 ARMED (valid until 12:12):
 - ARMED F long: trigger = 5-min close above $781.62 and no higher than $781.75 on ≥ 1.5× (≈ 197k), QQQ breaking above $762.86; entry = trigger close; stop = $781.20; target = $782.60; option = nearest-the-money 0DTE call ≤ $25; valid until 12:12.
 - ARMED C long (R2 retest): low $780.56–$780.90, close $780.66–$781.00 on ≥ 1.0× (≈ 131k), QQQ above its VWAP; entry = trigger close; stop = $780.36; target = $782.40; valid until 12:12.
+
+**Setup check (12:14 PM ET): nothing fired. The QQQ filter blocked the R2 retest**
+- Replay:
+  - F long: no close above $781.62.
+  - **C long:** the 12:05 bar met the price and volume parts: low $780.71 (retest), close $780.80 (inside $780.66–$781.00), 163k (≥ 1.0× ≈ 126k). **But QQQ closed $761.21, below its VWAP of $761.34, so it did not fire.** That is the market-agreement filter working as written. Track this bar in the EOD play-forward (would it have stopped at $780.36 or reached $782.40?).
+- SPY $780.80 is easing within the range; VWAP $779.89 is still rising. **QQQ has slipped below its VWAP** (rolling over from $762.86): SPY and QQQ now disagree.
+- F squeeze range (10:55–12:10): $780.125–$781.62, held 75 min. Prior 10-bar average ≈ 126k.
+- 4H 12–4 PM bar: opened ≈ $781.1 and is trading below its open. A sweep of $780.125 and then a reclaim would be the setup D pattern; watch for it.
+- No live A/B: SPY and QQQ disagree.
+
+ARMED (valid until 12:27):
+- ARMED B long (VWAP pullback): trigger = 5-min bar with low within $0.10 of VWAP (≈ $779.90) that closes above VWAP and no more than VWAP + $0.10, and above the prior close, **QQQ back above its VWAP**; entry = trigger close; stop = $779.45; target = $781.10; reward/risk ≥ 1.9; option = nearest-the-money 0DTE call ≤ $25; valid until 12:27.
+- ARMED C long (R2 retest): as before (low $780.56–$780.90, close $780.66–$781.00, ≥ 1.0× ≈ 126k, QQQ above its VWAP; stop $780.36; target $782.40); valid until 12:27.
