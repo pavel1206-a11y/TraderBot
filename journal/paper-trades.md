@@ -737,3 +737,13 @@ ARMED (valid until 10:42):
 ARMED (valid until 10:57):
 - ARMED F long: trigger = 5-min close above $780.67 and no higher than $780.75 on ≥ 1.5× (≈ 362k), QQQ breaking above its range high $762.09; entry = trigger close; stop = $780.15; target = $781.65; reward/risk ≥ 1.5 for any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
 - (No F short: it is against the bullish bias above $776.6, and R1 $777.75 is too close below the range low for reward/risk ≥ 1.5.)
+
+**Setup check (10:58 AM ET): nothing fired**
+- Replay: F long (close > $780.67) did not fire. The highest close was $780.325 (10:50 bar), on light volume (142k).
+- SPY $780.33 is back above a rising VWAP ($779.34): four closes above it since 10:35. ADX 42. QQQ $762.14 is above its VWAP of $760.88, at its range high.
+- F squeeze range unchanged: $778.565–$780.67 ($2.10 wide, held since 9:55). Prior 10-bar volume average ≈ 226k, so 1.5× ≈ 339k.
+- 4H (8 AM–12 PM bar): up, consolidating under R2; no setup D.
+- No A/B setup now: SPY is mid-range, $0.35 under R2. A VWAP-pullback arm can't reach reward/risk 1.5 with the stop below the 10:30 low.
+
+ARMED (valid until 11:12):
+- ARMED F long: trigger = 5-min close above $780.67 and no higher than $780.75 on ≥ 1.5× (≈ 339k), QQQ breaking above its range high $762.19; entry = trigger close; stop = $780.15; target = $781.65; option = nearest-the-money 0DTE call ≤ $25; valid until 11:12.
