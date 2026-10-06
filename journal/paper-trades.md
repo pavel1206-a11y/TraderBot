@@ -806,3 +806,16 @@ ARMED (valid until 12:12):
 ARMED (valid until 12:27):
 - ARMED B long (VWAP pullback): trigger = 5-min bar with low within $0.10 of VWAP (≈ $779.90) that closes above VWAP and no more than VWAP + $0.10, and above the prior close, **QQQ back above its VWAP**; entry = trigger close; stop = $779.45; target = $781.10; reward/risk ≥ 1.9; option = nearest-the-money 0DTE call ≤ $25; valid until 12:27.
 - ARMED C long (R2 retest): as before (low $780.56–$780.90, close $780.66–$781.00, ≥ 1.0× ≈ 126k, QQQ above its VWAP; stop $780.36; target $782.40); valid until 12:27.
+
+**Setup check (12:28 PM ET): nothing fired**
+- Replay:
+  - B long: lows $780.45–$780.76, never within $0.10 of VWAP ($779.93).
+  - C long: 12:10 bar closed $781.02 (cap $781.00); 12:15 low $780.45 was below the retest band. 12:20 bar matched on price (low $780.565, close $780.69) but had 114k (0.92×, needed 1.0×), and QQQ was below its VWAP. Not fired.
+- SPY $780.69 is slipping back toward R2; VWAP $779.94 is rising. QQQ $761.14 is still below its VWAP of $761.33. The divergence continues.
+- F range ($780.125–$781.62) still holds, now 90 min.
+- 4H 12–4 PM bar: below its ≈ $781.1 open. A sweep of $780.125 followed by a reclaim would be the setup D pattern.
+- No live A/B. Dropping the C retest line: it has failed four times and the level is being worn down.
+
+ARMED (valid until 12:42):
+- ARMED D long (sweep and reclaim): trigger = after a 5-min low below $780.125, a 5-min close back above $780.30 and no higher than $780.45, QQQ back above its VWAP; entry = trigger close; stop = $779.70; target = $781.62; reward/risk ≥ 1.5; option = nearest-the-money 0DTE call ≤ $25; valid until 12:42.
+- ARMED B long (VWAP pullback): as at 12:14 (low within $0.10 of VWAP ≈ $779.95, close above VWAP and ≤ VWAP + $0.10, above the prior close, QQQ above its VWAP; stop $779.45; target $781.10); valid until 12:42.
