@@ -722,3 +722,18 @@ ARMED (valid until 10:42):
 - Replay: the 10:20 bar came within $0.10 of VWAP (low $779.35 vs VWAP $779.25). But it closed at $779.545, above the $779.40 cap and below the prior close of $779.64, so the B long did not fire.
 - SPY is drifting down toward VWAP after the R2 rejection. QQQ $761.11 is still above its VWAP of $760.81. No open trades; no new A/B setup.
 - The 10:23 ARMED B long stays armed unchanged until 10:42.
+
+**Setup check (10:42 AM ET): nothing fired; SPY chopping around VWAP**
+- Replay of the B long (cap VWAP + $0.15):
+  - 10:25 and 10:30 bars closed *below* VWAP (low $778.565), so no.
+  - 10:35 bar: low $779.16, within $0.10 of VWAP $779.24, but it closed $779.69, above the $779.39 cap. Not fired.
+- SPY $779.69 is back above VWAP $779.24 after two closes below it. VWAP is now flat. QQQ $760.95 is above its VWAP of $760.75.
+- **Trend-day check (from 10:30): no.** SPY closed on the wrong side of VWAP at 10:25 and 10:30.
+- The 0DTE "direction is clear" check fails while SPY crosses VWAP back and forth. No VWAP-pullback arm until it holds one side again.
+- 4H (8 AM–12 PM bar): up from the open, now pulling back inside the bar. No setup D.
+- **F squeeze range (9:55–10:40, 45 min):** high $780.67 (= R2), low $778.565; $2.10 wide. Prior 10-bar volume average ≈ 241k, so 1.5× ≈ 362k.
+- No A/B setup now.
+
+ARMED (valid until 10:57):
+- ARMED F long: trigger = 5-min close above $780.67 on ≥ 1.5× (≈ 362k), QQQ breaking above its range high $762.09; entry = trigger close; stop = $780.15; target = $781.60; reward/risk ≥ 1.5 for a close up to $780.75; option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
+- (No F short: it is against the bullish bias above $776.6, and R1 $777.75 is too close below the range low for reward/risk ≥ 1.5.)
