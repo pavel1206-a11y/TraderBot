@@ -735,5 +735,5 @@ ARMED (valid until 10:42):
 - No A/B setup now.
 
 ARMED (valid until 10:57):
-- ARMED F long: trigger = 5-min close above $780.67 on ≥ 1.5× (≈ 362k), QQQ breaking above its range high $762.09; entry = trigger close; stop = $780.15; target = $781.60; reward/risk ≥ 1.5 for a close up to $780.75; option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
+- ARMED F long: trigger = 5-min close above $780.67 and no higher than $780.75 on ≥ 1.5× (≈ 362k), QQQ breaking above its range high $762.09; entry = trigger close; stop = $780.15; target = $781.65; reward/risk ≥ 1.5 for any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
 - (No F short: it is against the bullish bias above $776.6, and R1 $777.75 is too close below the range low for reward/risk ≥ 1.5.)
