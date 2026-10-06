@@ -769,3 +769,14 @@ ARMED (valid until 11:27; prior 10-bar average ≈ 191k):
 
 ARMED (valid until 11:42; prior 10-bar average ≈ 156k):
 - ARMED C long (R2 retest, second try): trigger = 5-min bar with low between $780.56 and $780.90, closing above $780.66 and no higher than $781.00, on ≥ 1.0× (≈ 156k), QQQ above its VWAP; entry = trigger close; stop = $780.36; target = $782.40; reward/risk ≥ 2.1 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 11:42.
+
+**Setup check (11:43 AM ET): nothing fired**
+- Replay: C long (R2 retest) did not fire. The lows were $781.29, $781.01 and $781.07, never down to $780.90.
+- SPY $781.40 is pausing under the $781.62 high. VWAP is $779.73 and rising; QQQ $762.12 is above its VWAP of $761.25, though slightly weaker than SPY.
+- **F squeeze range (10:55–11:40):** $780.125–$781.62, $1.50 wide. Prior 10-bar average ≈ 143k, so 1.5× ≈ 214k.
+- 4H (8 AM–12 PM bar): up; it closes at noon. No setup D.
+- No live A/B: mid-range, volume light.
+
+ARMED (valid until 11:57):
+- ARMED F long: trigger = 5-min close above $781.62 and no higher than $781.75 on ≥ 1.5× (≈ 214k), QQQ breaking above its range high $762.86; entry = trigger close; stop = $781.20; target = $782.60; reward/risk ≥ 1.5 at any allowed close; option = nearest-the-money 0DTE call ≤ $25; valid until 11:57.
+- ARMED C long (R2 retest): unchanged from 11:27 (low $780.56–$780.90, close $780.66–$781.00, ≥ 1.0× ≈ 143k, QQQ above its VWAP; stop $780.36; target $782.40); valid until 11:57.
