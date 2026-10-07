@@ -1036,3 +1036,10 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 117k):
 
 ARMED (valid until 12:27):
 - ARMED C long (retest of $776.15, wider stop): 5-min bar with low $776.05–$776.25, closing $776.15–$776.35, on ≥ 1.0× (≈ 117k), QQQ above its VWAP; entry = trigger close; stop $775.70 (below the 12:00 low); target $777.49; reward/risk ≥ 1.75; option = nearest-the-money 0DTE call ≤ $25; valid until 12:27.
+
+**Setup check (12:28 PM ET): nothing fired; lunch drift up**
+- Replay: C long did not fire (lows $776.35–$776.54, never back to $776.25).
+- SPY $776.76 is at a new day high on very thin volume (45k–58k). QQQ $756.50 is flat above its VWAP. VWAP is rising (≈ $775.2).
+- No A/B: entering here is chasing, with S1 $777.49 only $0.73 away.
+
+ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15–$776.35, ≥ 1.0× ≈ 95k, QQQ above its VWAP; stop $775.70; target $777.49).
