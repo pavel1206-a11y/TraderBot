@@ -992,3 +992,15 @@ ARMED (valid until 11:12):
 ARMED (valid until 11:27; prior 10-bar average ≈ 115k):
 - ARMED B long (VWAP hold): 5-min bar with low within $0.10 of VWAP (≈ $774.7) that closes above VWAP, no more than $0.15 above it, and above the prior close, QQQ above its VWAP; stop $774.25; target $776.15 (opening-range high); reward/risk ≥ 1.5 at the actual close or skip; option = nearest-the-money 0DTE call ≤ $25; valid until 11:27.
 - ARMED E long (opening-range-high break): 5-min close above $776.15 and no higher than $776.25 on ≥ 1.5× (≈ 173k), QQQ above its VWAP; stop $775.70; target $777.49 (S1); reward/risk ≥ 2.2; valid until 11:27.
+
+**Setup check (11:28 AM ET): nothing fired (B long missed the close band by $0.01)**
+- Replay (VWAP ≈ $774.69):
+  - 11:15 bar: low $774.67 (on VWAP) and close $774.8475, above VWAP and the prior close, QQQ above its VWAP. But the close band is VWAP + $0.15 = $774.84, so it was **over by $0.0075. Not fired** (rule as written).
+  - 11:20 bar: closed below the prior close. Not fired.
+  - E long: no close above $776.15.
+- SPY $774.73 is chopping on VWAP; QQQ $754.76 is holding above its VWAP and near its high. Factor 1 (VWAP slope) is still flat, so no live entry.
+- Play-forward of the near-miss for the record: track it in EOD (entry $774.85, stop $774.25, target $776.15).
+
+ARMED (valid until 11:42): same two lines as 11:15.
+- ARMED B long (VWAP hold): low within $0.10 of VWAP, close above VWAP and no more than VWAP + $0.15, above the prior close, QQQ above its VWAP; stop $774.25; target $776.15; reward/risk ≥ 1.5 or skip; valid until 11:42.
+- ARMED E long: 5-min close of $776.15–$776.25 on ≥ 1.5× (≈ 165k), QQQ above its VWAP; stop $775.70; target $777.49; valid until 11:42.
