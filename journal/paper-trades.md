@@ -983,3 +983,12 @@ ARMED (valid until 10:57):
 
 ARMED (valid until 11:12):
 - ARMED B short (VWAP rejection): 5-min bar with high within $0.10 of VWAP (≈ $774.55) that closes below VWAP, no more than $0.15 below it, and below the prior close, QQQ below its VWAP; entry = trigger close; stop $774.95; target $773.61; reward/risk ≥ 1.5 at the actual close or skip; option = nearest-the-money 0DTE put ≤ $25; valid until 11:12.
+
+**Setup check (11:15 AM ET; the :12 run fired late): nothing fired; QQQ breaking out, SPY reclaiming VWAP**
+- Replay: B short did not fire. Highs $774.47/$774.39/$774.47 stayed $0.2+ under VWAP (≈ $774.7), and QQQ was above its VWAP.
+- 11:10 bar: SPY closed **$774.83, back above VWAP ($774.68)** on 162k (1.4×). **QQQ broke its morning high** ($755.56 > $755.09), well above its VWAP ($753.70).
+- Not a live entry: SPY's VWAP is still flat or falling (score-card factor 1, required, is ❌), and the reclaim is one bar old. The morning low $773.61 is now a higher-timeframe sweep. If SPY holds above VWAP, this becomes a setup D (sweep and reclaim) shape on the 8 AM–12 PM 4H bar.
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 115k):
+- ARMED B long (VWAP hold): 5-min bar with low within $0.10 of VWAP (≈ $774.7) that closes above VWAP, no more than $0.15 above it, and above the prior close, QQQ above its VWAP; stop $774.25; target $776.15 (opening-range high); reward/risk ≥ 1.5 at the actual close or skip; option = nearest-the-money 0DTE call ≤ $25; valid until 11:27.
+- ARMED E long (opening-range-high break): 5-min close above $776.15 and no higher than $776.25 on ≥ 1.5× (≈ 173k), QQQ above its VWAP; stop $775.70; target $777.49 (S1); reward/risk ≥ 2.2; valid until 11:27.
