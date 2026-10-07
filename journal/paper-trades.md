@@ -922,3 +922,12 @@ ARMED (valid until 2:12):
 - News and calendar: Alpha Vantage news was rate-limited, so neither could be checked. Treat 10:00 AM and 2:00 PM as possible event times (FOMC minutes may be due this week; not verified).
 - Gap < $4: normal ORB rules.
 - **Bias: bearish below $777.5** (opening under Tuesday's low and S1, QQQ weaker). It flips to none on a reclaim of $777.5 and bullish only above $779.6. Watch S2 $775.9 for a gap-fill bounce.
+
+**Opening check (9:42 AM ET): opening range forming, weak open**
+- SPY opened $775.75 (below S2 $775.90) and dropped: range so far **$774.25–$776.15**; last $774.51. VWAP ≈ $775.35 (computed from the bars; the indicator tool returned an error this morning). Volume is heavy: 522k, then 321k.
+- QQQ $752.50 is below its VWAP (≈ $753.67) and weaker than SPY. **Bias: bearish** (below S2, Tuesday's low and VWAP, QQQ agrees).
+- Supports below: Monday's pivot $773.69 and Monday's 10:55 high $772.9; then Monday's S1 $770.78.
+
+ARMED (valid 9:45–10:12; volume reference = average of the three opening-range bars; final range set at 9:45):
+- ARMED A short (ORB): trigger = 5-min close below the final range low (≈ $774.25) and no more than $0.10 below it, on ≥ 1.0×, SPY below VWAP, QQQ below its VWAP; entry = trigger close; stop = $774.85; target = $772.90; reward/risk ≥ 1.8; option = nearest-the-money 0DTE put ≤ $25; valid until 10:12.
+- ARMED B short (VWAP rejection): trigger = 5-min bar with high within $0.10 of VWAP that closes below VWAP, no more than $0.15 below it, and below the prior close, QQQ below its VWAP; entry = trigger close; stop = VWAP + $0.35; target = the range low ($774.25); reward/risk ≥ 1.5 at the actual close or skip; valid until 10:12.
