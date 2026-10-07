@@ -1099,3 +1099,6 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
 - 4H candle (12–4 PM): expansion phase, pushing up (high $777.78, low $776.12). No setup D.
 - Squeeze range edges (F): $777.78 / $776.92. There is no fresh close through either edge, VWAP (≈ $775.5), or a strong level.
 - No A or B setup. Arming is closed (cutoff 2:15), and no new 0DTE entries are allowed after 2:30. **No paper trades today so far.**
+
+**Setup check (2:43 PM ET): past the 0DTE cutoff; nothing open**
+- No triggers to replay and no open paper trades. SPY $777.28 is still inside the $776.92–$777.78 range. 4H (12–4 PM): expansion, still holding up. No new entries after 2:30.
