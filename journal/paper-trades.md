@@ -964,3 +964,13 @@ ARMED (valid until 10:27):
 
 ARMED (valid until 10:42):
 - ARMED B long (VWAP reclaim after the double bottom): trigger = 5-min close above VWAP (≈ $774.85) and no more than VWAP + $0.15, above the prior close, QQQ above its VWAP; entry = trigger close; stop = $774.45 (below the 10:20 low); target = $776.15 (opening-range high); reward/risk ≥ 1.5 at the actual close or skip; option = nearest-the-money 0DTE call ≤ $25; valid until 10:42.
+
+**Setup check (10:43 AM ET): nothing fired; tight range**
+- Replay: B long did not fire. No close above VWAP (≈ $774.8): closes $774.44, $774.49, $774.63.
+- SPY $774.63 is boxed in $774.03–$774.99 since 10:00 on thin volume (76k–159k). QQQ $754.59 is above its VWAP. SPY is lagging. No A/B setup.
+- **F squeeze range (10:00–10:40):** $774.03–$774.99, $0.96 wide. Prior 10-bar average ≈ 138k, so 1.5× ≈ 207k.
+- 4H (8 AM–12 PM bar): down from ≈ $776, basing at $774.0. A reclaim of $776.15 would make it a setup D reversal.
+
+ARMED (valid until 10:57):
+- ARMED F long: 5-min close above $774.99 and no higher than $775.10 on ≥ 1.5× (≈ 207k), QQQ breaking above its range high $755.09; stop $774.55; target $776.15; reward/risk ≥ 1.9; option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
+- ARMED F short: 5-min close below $774.03 and no lower than $773.93 on ≥ 1.5× (≈ 207k), QQQ breaking below its range low $752.86; stop $774.45; target $772.90; reward/risk ≥ 2.1; option = nearest-the-money 0DTE put ≤ $25; valid until 10:57.
