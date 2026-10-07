@@ -1066,3 +1066,14 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
 **Setup check (1:28 PM ET): nothing armed or open**
 - SPY $777.61 has pushed through S1 $777.49. Tuesday's low $777.96 is the next resistance, $0.35 away. The day's move from the 10:50 low is +$4.1 ($773.61 → $777.70) in about 2.5 hours, a quiet trend up led by QQQ ($757.28, new highs).
 - No long has room (Tuesday's low is $0.35 above, then the pivot $779.56). A short is counter-trend. No arms.
+
+**Setup check (1:43 PM ET): nothing fired; SPY stalling under Tuesday's low**
+- Replay: nothing was armed at 1:28.
+- SPY $777.28 is in a tight $777.16–$777.70 range since 1:15 on thin volume (44k–120k, avg ≈ 83k). It is still under Tuesday's low $777.96 and about $2 above VWAP (≈ $775.5). QQQ $757.00 is flat at its highs, above its VWAP.
+- 4H candle: the 1:30 candle opened at $777.31, so it is in its opening (accumulation) phase. Squeeze range edges (F): $777.70 / $777.16.
+- An F long over $777.70 runs into $777.96 ($0.26 of room), which fails reward/risk. A short is counter-trend.
+- ARMED (valid until 1:57): **E long, reclaim of Tuesday's low.** All of these must hold:
+  - a 5-min close at $777.96–$778.06;
+  - volume ≥ 1.5× (≈ 125k);
+  - QQQ above its VWAP.
+  - Stop $777.56. Target R1 $781.15. If it fires, the contract is picked from live quotes on the next check.
