@@ -1102,3 +1102,15 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
 
 **Setup check (2:43 PM ET): past the 0DTE cutoff; nothing open**
 - No triggers to replay and no open paper trades. SPY $777.28 is still inside the $776.92–$777.78 range. 4H (12–4 PM): expansion, still holding up. No new entries after 2:30.
+
+**End of day (3:47 PM ET)**
+- Paper trades today: **none**. No positions were open, so there was nothing to close.
+- Running totals unchanged: **7 trades, 3 wins, 4 losses, +$14.57** (options +$14.50, fractional +$0.07).
+- Day: gap down to $774.25–776.15. The morning chopped on a flat VWAP, swept to $773.61 at 10:50, then trended up quietly with QQQ leading (S1 $777.49 reclaimed at 1:20). The afternoon stalled under Tuesday's low ($777.96). A 2:50 spike to $779.10 on 1.09M shares (10-min bar) fully reversed, after the entry window. Last price ≈ $776.86.
+- Near-miss play-forwards (not counted; the rules as written did not fire):
+  - 11:15 B long: missed the close band by $0.0075. Target hit at 11:45, **+2.2R**.
+  - 11:45 E long: missed the band by $0.01 and was short on volume. It would have reached S1 $777.49 at 1:20.
+  - 11:55 C long: failed the volume rule. It would have been **stopped by $0.001**, so the filter saved a loss.
+  - 12:55 C long: matched on price, but volume was 0.5× (needed 1.0×). Target $777.49 hit at 1:20 with no stop touch, **+1.75R**.
+  - Net, the filters that blocked these cost about +3.95R today and saved −1R. This goes to Friday's review with the band and volume proposals.
+- Missed: +$3.0 (10:50–11:50); see missed-moves.md.

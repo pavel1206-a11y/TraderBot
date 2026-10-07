@@ -84,3 +84,16 @@ Rest of day: 11:25–1:20 fade of −$2.72 over ~2 hours (no ≥ $2.50 hour); af
 
 ### Pattern added
 9. **Entry caps vs strong reclaims** (10/6): capping the trigger close near VWAP (to keep reward/risk ≥ 1.5) rejects exactly the strongest reclaim bars. Alternative to test: keep the close uncapped but anchor the stop at the sweep low and size the target to the next level; skip only if reward/risk < 1.5 at the actual close. Also arm a D (sweep and reclaim) line whenever price closes back across VWAP after a sweep. Pattern 8 (quiet trends) repeated today on both the 11:05 R2 break and the 1:10 drop.
+
+## 2026-10-07 (Wed)
+
+| Date | Time (ET) | Move | How it started | Our rules? |
+|---|---|---|---|---|
+| Wed 10/7 | 10:50–11:50 AM | **+$3.0** (773.61 → 776.60) | Gap-down morning chopped on a flat VWAP. Sweep of the morning low to $773.61, VWAP reclaim at 11:10 (1.4×), opening-range high $776.15 cleared at 11:45 (149k, 0.89× of the 1.5× bar). QQQ above its VWAP and leading to new highs throughout. | **B (VWAP hold) armed, missed the close band by $0.0075** at 11:15 (would have hit target, +2.2R). **E (ORB-high break) armed, missed the band by $0.01** and the volume bar at 11:45. No D (sweep and reclaim) armed because VWAP slope (factor 1) was still flat. |
+
+Rest of day: 11:50 to 2:30 a slow grind of +$1.1 to $777.70 on thin volume (the 12:55 C retest was blocked by 0.5× volume, then reached its target). A 2:50 spike to $779.10 on ~1M shares fully reversed (after the entry window).
+
+### Patterns repeated
+- **Pattern 9 (entry caps vs strong reclaims)** again: two 1-cent band misses on bars that went on to win.
+- **Pattern 8 (quiet trends)** again: the 12:55 retest failed only on volume, in a low-volume trend that kept going.
+- Counter-evidence: the 11:55 volume-blocked retest would have lost (stopped by $0.001). Supports the backtested volume rule (≥ 1.0×, or ≥ 0.7× with a QQQ same-bar break) over dropping the volume filter.
