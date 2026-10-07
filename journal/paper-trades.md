@@ -955,3 +955,12 @@ ARMED (valid until 10:12):
 
 ARMED (valid until 10:27):
 - ARMED F short: 5-min close below $774.03 and no more than $0.10 below it, on ≥ 1.5× (≈ 355k), QQQ breaking below its range low $751.76; entry = trigger close; stop $774.45; target $772.90; reward/risk ≥ 2.0; option = nearest-the-money 0DTE put ≤ $25; valid until 10:27.
+
+**Setup check (10:28 AM ET): nothing fired; double bottom at $774.03–774.10**
+- Replay: F short did not fire. The 10:10 low $774.03 held, with no close below it.
+- SPY $774.77 is bouncing off a double bottom ($774.10 at 9:45, $774.03 at 10:10), just under VWAP (≈ $774.85). **QQQ is leading up:** $754.74, well above its VWAP (≈ $753.5) and back near its opening high.
+- The bearish bias is weakening: SPY is lagging QQQ. A VWAP reclaim with QQQ strength would be a B-grade long against the morning bias (factor 10/news unknown, factor 8 daily trend ✅).
+- F range: $774.03–$775.55 (since 9:35).
+
+ARMED (valid until 10:42):
+- ARMED B long (VWAP reclaim after the double bottom): trigger = 5-min close above VWAP (≈ $774.85) and no more than VWAP + $0.15, above the prior close, QQQ above its VWAP; entry = trigger close; stop = $774.45 (below the 10:20 low); target = $776.15 (opening-range high); reward/risk ≥ 1.5 at the actual close or skip; option = nearest-the-money 0DTE call ≤ $25; valid until 10:42.
