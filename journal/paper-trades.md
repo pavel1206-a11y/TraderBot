@@ -1062,3 +1062,7 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
   - 1:05: no retest.
 - SPY $777.25 (high $777.39) is now just under **S1 $777.49 / Tuesday's low $777.96**, the resistance band from this morning's brief. QQQ $757.23 is at a new high.
 - A long here fails reward/risk (S1 is $0.24 away). A fade short would be counter-trend. No arms this check.
+
+**Setup check (1:28 PM ET): nothing armed or open**
+- SPY $777.61 has pushed through S1 $777.49. Tuesday's low $777.96 is the next resistance, $0.35 away. The day's move from the 10:50 low is +$4.1 ($773.61 → $777.70) in about 2.5 hours, a quiet trend up led by QQQ ($757.28, new highs).
+- No long has room (Tuesday's low is $0.35 above, then the pivot $779.56). A short is counter-trend. No arms.
