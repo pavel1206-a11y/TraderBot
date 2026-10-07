@@ -931,3 +931,16 @@ ARMED (valid until 2:12):
 ARMED (valid 9:45–10:12; volume reference = average of the three opening-range bars; final range set at 9:45):
 - ARMED A short (ORB): trigger = 5-min close below the final range low (≈ $774.25) and no more than $0.10 below it, on ≥ 1.0×, SPY below VWAP, QQQ below its VWAP; entry = trigger close; stop = $774.85; target = $772.90; reward/risk ≥ 1.8; option = nearest-the-money 0DTE put ≤ $25; valid until 10:12.
 - ARMED B short (VWAP rejection): trigger = 5-min bar with high within $0.10 of VWAP that closes below VWAP, no more than $0.15 below it, and below the prior close, QQQ below its VWAP; entry = trigger close; stop = VWAP + $0.35; target = the range low ($774.25); reward/risk ≥ 1.5 at the actual close or skip; valid until 10:12.
+
+**Setup check (9:58 AM ET): nothing fired; bounce back to VWAP**
+- Final opening range: **$774.25–$776.15**. Average volume of the 3 opening bars ≈ 367k.
+- Replay:
+  - A short: no close below $774.25 (9:45 close $774.31, low $774.10).
+  - B short: the 9:50 bar touched VWAP but closed $775.02, *above* the prior close. Not fired.
+- SPY $775.02 is sitting on VWAP ($775.02, falling). QQQ $753.40 has crept just above its VWAP ($753.30). Volume is fading (217k–219k). Direction is unclear now, so the 0DTE check 1 fails. No entry.
+- 4H (8 AM–12 PM bar): opened ≈ $776 pre-market, low $774.10 so far. A possible manipulation leg down (setup D) if SPY reclaims $776.15 later; too early to call.
+
+ARMED (valid until 10:12):
+- ARMED A short (ORB): 5-min close $774.15–$774.25 (just below the range low) on ≥ 1.0× (≈ 367k), SPY below VWAP, QQQ below its VWAP; stop $774.85; target $772.90; valid until 10:12.
+- ARMED B short (VWAP rejection): 5-min bar with high within $0.10 of VWAP (≈ $775.0) that closes below VWAP, no more than $0.15 below it, and below the prior close, QQQ below its VWAP; stop VWAP + $0.35; target $774.25; skip if reward/risk < 1.5 at the actual close; valid until 10:12.
+- (No long: the bias stays bearish below $777.5.)
