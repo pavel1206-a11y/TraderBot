@@ -910,3 +910,15 @@ ARMED (valid until 2:12):
 - Day: gap up held, R2 $780.66 broke on light volume (high $781.62 at 11:25), then a slow fade into a flat VWAP (≈ $779.9). Close ≈ $779.6 (+$4.8 vs Monday).
 - **QQQ filter check:** the 12:05 R2-retest trigger blocked by QQQ < VWAP would have been stopped at $780.36 (12:15 low $780.45; the 12:25 low $780.24 went through it). The filter saved a loss.
 - Missed: +$3.06 (10:30–11:25); see missed-moves.md.
+
+### 2026-10-07 (Wed)
+
+**Pre-market brief (8:54 AM ET)**
+- SPY pre-market $776.16 (−0.38%, gap down ≈ $2.9); QQQ $754.52 (−0.68%), IWM −0.84%. Tech is leading lower.
+- Tuesday: high $781.62, low $777.96, close $779.09.
+- Pivots: R2 $783.22, R1 $781.15, **P $779.56**, **S1 $777.49**, **S2 $775.90**.
+- 20/50-day SMA: indicator call failed this morning. Last known values (10/6): ≈ $765 / $764.4, both rising, so the daily uptrend is intact.
+- Strong levels: **$777.5–778.0** (S1 and Tuesday's low; first resistance from below), **$779.1–779.6** (Tuesday's close, pivot, Tuesday's VWAP area), **$775.9** (S2), $776.6 (Monday's high).
+- News and calendar: Alpha Vantage news was rate-limited, so neither could be checked. Treat 10:00 AM and 2:00 PM as possible event times (FOMC minutes may be due this week; not verified).
+- Gap < $4: normal ORB rules.
+- **Bias: bearish below $777.5** (opening under Tuesday's low and S1, QQQ weaker). It flips to none on a reclaim of $777.5 and bullish only above $779.6. Watch S2 $775.9 for a gap-fill bounce.
