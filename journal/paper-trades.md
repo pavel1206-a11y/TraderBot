@@ -1015,3 +1015,12 @@ ARMED (valid until 11:42): same two lines as 11:15.
 
 ARMED (valid until 11:57; prior 10-bar average ≈ 111k):
 - ARMED E long (opening-range-high break): 5-min close of $776.15–$776.25 on ≥ 1.5× (≈ 167k), QQQ above its VWAP; stop $775.70; target $777.49; reward/risk ≥ 2.2; option = nearest-the-money 0DTE call ≤ $25; valid until 11:57.
+
+**Setup check (11:58 AM ET): nothing fired. Rally from the low; E long missed the band by $0.01**
+- Replay: E long. The 11:45 bar closed **$776.26** (band $776.15–$776.25, over by $0.01) on 149k (needed ≥ 167k, 0.89× of 1.5×). **Not fired.**
+- **Missed-move candidate:** 10:50 low $773.61 → 11:50 high $776.60 = **+$3.0 in about an hour.** Sweep of the morning low, VWAP reclaim at 11:10 (1.4×), QQQ leading to new highs. For the EOD review.
+- **Unfilled 11:15 near-miss** (B long, entry $774.85, stop $774.25, target $776.15): **target hit at 11:45** (high $776.45). It would have been +$1.30 (+2.2R). Not counted (it did not fire as written), but noted for the band-rule review.
+- SPY $776.28 is above the opening-range high and VWAP (now turning up). QQQ $756.73 is near its highs.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 117k):
+- ARMED C long (retest of the opening-range high $776.15): 5-min bar with low $776.05–$776.25, closing $776.15–$776.35, on ≥ 1.0× (≈ 117k), QQQ above its VWAP; entry = trigger close; stop $775.80; target $777.49 (S1 / Tuesday's low area); reward/risk ≥ 2.0; option = nearest-the-money 0DTE call ≤ $25; valid until 12:12.
