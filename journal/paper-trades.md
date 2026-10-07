@@ -1043,3 +1043,8 @@ ARMED (valid until 12:27):
 - No A/B: entering here is chasing, with S1 $777.49 only $0.73 away.
 
 ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15–$776.35, ≥ 1.0× ≈ 95k, QQQ above its VWAP; stop $775.70; target $777.49).
+
+**Setup check (12:43 PM ET): nothing fired**
+- Replay: C long did not fire (lows $776.49 and $776.32, not back to $776.25).
+- SPY $776.32 is easing toward the $776.15 retest zone on very thin volume (37k–67k). QQQ $755.99 is easing too but is still above its VWAP.
+- ARMED (valid until 12:57): the same C long (low $776.05–$776.25, close $776.15–$776.35, ≥ 1.0× ≈ 76k, QQQ above its VWAP; stop $775.70; target $777.49).
