@@ -1089,3 +1089,13 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
   - volume ≥ 1.5× (≈ 91k);
   - QQQ above its VWAP.
   - Stop $777.56. Target the pivot $779.56.
+
+**Setup check (2:13 PM ET): skipped, no data**
+- Bar requests failed three times on a tool permission-check error, and the journal commit failed too. This entry was written at 2:28.
+
+**Setup check (2:28 PM ET): nothing fired; last check before the 2:30 0DTE cutoff**
+- Replay of the E long armed at 1:58 (valid until 2:12): did not fire. Closes from 1:55 to 2:10 topped out at $777.48, and the 2:05 high of $777.78 stayed under $777.96.
+- SPY $777.45 is still in a $776.92–$777.78 range since 1:15 (about $0.86 wide) on 70k–90k volume. QQQ $757.38 is above its VWAP, near its highs.
+- 4H candle (12–4 PM): expansion phase, pushing up (high $777.78, low $776.12). No setup D.
+- Squeeze range edges (F): $777.78 / $776.92. There is no fresh close through either edge, VWAP (≈ $775.5), or a strong level.
+- No A or B setup. Arming is closed (cutoff 2:15), and no new 0DTE entries are allowed after 2:30. **No paper trades today so far.**
