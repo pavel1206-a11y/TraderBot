@@ -1004,3 +1004,14 @@ ARMED (valid until 11:27; prior 10-bar average ≈ 115k):
 ARMED (valid until 11:42): same two lines as 11:15.
 - ARMED B long (VWAP hold): low within $0.10 of VWAP, close above VWAP and no more than VWAP + $0.15, above the prior close, QQQ above its VWAP; stop $774.25; target $776.15; reward/risk ≥ 1.5 or skip; valid until 11:42.
 - ARMED E long: 5-min close of $776.15–$776.25 on ≥ 1.5× (≈ 165k), QQQ above its VWAP; stop $775.70; target $777.49; valid until 11:42.
+
+**Setup check (11:43 AM ET): nothing fired; SPY pushing up with QQQ**
+- Replay (VWAP ≈ $774.70):
+  - B long: the 11:25 low $774.59 was $0.11 under VWAP (outside the band); the 11:30 bar touched VWAP but closed $775.04, $0.34 above it (over the $0.15 band); 11:35 never touched. Not fired.
+  - E long: no close above $776.15.
+- SPY $775.78 (11:35 bar +$0.74 on 173k, 1.5×). QQQ $756.03 is at a new day high. The morning low ($773.61) sweep and reclaim is now a setup D shape on the 8 AM–12 PM 4H bar.
+- Unfilled 11:15 near-miss (B long $774.85, stop $774.25, target $776.15): still alive (low $774.42, high $775.94).
+- Next level: the opening-range high $776.15, then S1 $777.49.
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 111k):
+- ARMED E long (opening-range-high break): 5-min close of $776.15–$776.25 on ≥ 1.5× (≈ 167k), QQQ above its VWAP; stop $775.70; target $777.49; reward/risk ≥ 2.2; option = nearest-the-money 0DTE call ≤ $25; valid until 11:57.
