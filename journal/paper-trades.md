@@ -1077,3 +1077,15 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
   - volume ≥ 1.5× (≈ 125k);
   - QQQ above its VWAP.
   - Stop $777.56. Target the pivot $779.56, the nearest level (reward/risk ≈ 3.5). If it fires, the contract is picked from live quotes on the next check.
+
+**Setup check (1:58 PM ET): nothing fired; very quiet range**
+- Replay of the E long from 1:43: did not fire. The highest close was $777.44, and the 1:45 high of $777.74 stayed under $777.96.
+- SPY $777.21 has held $777.01–$777.74 since 1:15 ($0.73 wide) on very thin volume (12k–46k, 10-bar avg ≈ 61k). QQQ $756.63 eased but is still above its VWAP.
+- 4H candle (12–4 PM): opened at $776.34, high $777.74, low $776.12. It is in its expansion phase, pushing up. There is no sweep for setup D.
+- Squeeze range edges (F): $777.74 / $777.01.
+- An F long has no room under $777.96. An F short toward VWAP (≈ $775.5) is counter-trend while QQQ is above its VWAP. Not armed.
+- ARMED (valid until 2:12): **the same E long.** All of these must hold:
+  - a 5-min close at $777.96–$778.06;
+  - volume ≥ 1.5× (≈ 91k);
+  - QQQ above its VWAP.
+  - Stop $777.56. Target the pivot $779.56.
