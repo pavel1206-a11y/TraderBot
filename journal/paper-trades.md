@@ -1054,3 +1054,11 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
 - SPY $776.34 is in a $775.80–$776.90 range since 12:00 ($1.10 wide) on very thin volume (avg ≈ 65k). QQQ is flat above its VWAP.
 - F breakouts either way fail reward/risk inside this range (S1 $777.49 above, VWAP ≈ $775.4 below). Not armed.
 - ARMED (valid until 1:12): the same C long (low $776.05–$776.25, close $776.15–$776.35, ≥ 1.0× ≈ 65k, QQQ above its VWAP; stop $775.70; target $777.49).
+
+**Setup check (1:13 PM ET): nothing fired; the 1:00 pop ran without us**
+- Replay of the C long:
+  - 12:55 bar matched on price (low $776.21, close $776.35) but had 33k (≈ 0.5×). Not fired.
+  - 1:00 bar: low $776.12, then a spike to $777.20 on 218k (≈ 3×), closing $776.63, above the close band.
+  - 1:05: no retest.
+- SPY $777.25 (high $777.39) is now just under **S1 $777.49 / Tuesday's low $777.96**, the resistance band from this morning's brief. QQQ $757.23 is at a new high.
+- A long here fails reward/risk (S1 is $0.24 away). A fade short would be counter-trend. No arms this check.
