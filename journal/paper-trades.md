@@ -1076,4 +1076,4 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
   - a 5-min close at $777.96–$778.06;
   - volume ≥ 1.5× (≈ 125k);
   - QQQ above its VWAP.
-  - Stop $777.56. Target R1 $781.15. If it fires, the contract is picked from live quotes on the next check.
+  - Stop $777.56. Target the pivot $779.56, the nearest level (reward/risk ≈ 3.5). If it fires, the contract is picked from live quotes on the next check.
