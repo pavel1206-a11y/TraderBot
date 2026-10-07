@@ -1024,3 +1024,15 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 111k):
 
 ARMED (valid until 12:12; prior 10-bar average ≈ 117k):
 - ARMED C long (retest of the opening-range high $776.15): 5-min bar with low $776.05–$776.25, closing $776.15–$776.35, on ≥ 1.0× (≈ 117k), QQQ above its VWAP; entry = trigger close; stop $775.80; target $777.49 (S1 / Tuesday's low area); reward/risk ≥ 2.0; option = nearest-the-money 0DTE call ≤ $25; valid until 12:12.
+
+**Setup check (12:13 PM ET): nothing fired; the volume filter saved a loss**
+- Replay of the C long (retest of $776.15):
+  - 11:55 bar matched on price (low $776.17, close $776.34) but had 94k (0.80×, needed ≥ 1.0×). **Not fired.**
+  - 12:00 low $775.80 was below the band. 12:05 close $776.485 was above the band.
+- Play-forward of the 11:55 near-miss: entry $776.34, stop $775.80. **The 12:00 low $775.799 would have stopped it by $0.001.** The filter saved a loss.
+- SPY $776.49 is holding above the opening-range high and VWAP. QQQ $756.66 is above its VWAP. Day high $776.65; next level S1 $777.49.
+- A continuation long above $776.65 fails reward/risk (S1 is only $0.84 away).
+- 4H 12–4 PM bar: just opened ≈ $776.3.
+
+ARMED (valid until 12:27):
+- ARMED C long (retest of $776.15, wider stop): 5-min bar with low $776.05–$776.25, closing $776.15–$776.35, on ≥ 1.0× (≈ 117k), QQQ above its VWAP; entry = trigger close; stop $775.70 (below the 12:00 low); target $777.49; reward/risk ≥ 1.75; option = nearest-the-money 0DTE call ≤ $25; valid until 12:27.
