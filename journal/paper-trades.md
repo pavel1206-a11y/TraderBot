@@ -1252,3 +1252,13 @@ ARMED (valid until 12:42; the prior 10-bar average ≈ 113k includes the spike b
 
 ARMED (valid until 12:57; prior 10-bar average ≈ 112k, inflated by the spike):
 - ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 112k), or ≥ 0.7× (≈ 78k) if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $25; valid until 12:57.
+
+**Setup check (12:58 PM ET): selloff blew through Wednesday's low; armed short missed its band**
+- Replay of the E short (band $773.51–773.61): **the 12:45 bar closed $773.255** on 263k (≈ 2.4×, QQQ below its VWAP). That is $0.255 past the band, a gap-through, so **not fired.** The 12:50 bar closed $773.10, also outside the band.
+  - Play-forward for the record (not counted): entry $773.255, stop $774.20 (cap), risk $0.945, 1.5R target $771.84. Low so far $772.485, open.
+- **The move: $775.51 (12:40 high) → $772.485 (12:50 low) = −$3.0 in 15 min**, led by QQQ (−$5.8, $753.96 → $748.19, 888k on the 12:50 bar). The cause was not checked (news feed down). Missed-move candidate.
+- Live E check: the 12:50 bar held below the level (E entry rule), but the stop beyond the breakout candle's high ($775.10) is $2.00 away, and S2 $771.15 is only 1R. **No trade (reward/risk).** Score: factor 1 ❌ (VWAP ≈ $775.3 is still flat).
+- 4H (12–4 PM): the $777.09 wick top, then a sweep below Wednesday's low. Expansion down. A reclaim of $773.61 would be a setup D long shape.
+
+ARMED (valid until 13:12; prior 10-bar average ≈ 179k):
+- ARMED C short (retest of $773.61 from below): trigger = 5-min bar with high $773.51–773.81 that closes below $773.61 and below the prior close, on ≥ 1.0× (≈ 179k) or ≥ 0.7× if QQQ makes a new low on the same bar; QQQ below its VWAP; entry = trigger close; stop = the farther of $773.91 (level + $0.30) and bar high + $0.15; target = entry − 1.5R (room to S2 $771.15); option = nearest-the-money 0DTE put ≤ $25; valid until 13:12.
