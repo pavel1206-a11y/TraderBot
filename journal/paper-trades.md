@@ -1164,3 +1164,12 @@ ARMED (valid until 10:27; prior 10-bar average ≈ 195k, inflated by the opening
 ARMED (valid until 10:42; prior 10-bar average ≈ 144k):
 - ARMED E long (pivot break): trigger = 5-min close **$776.64–776.74** on ≥ 1.0× (≈ 144k), or ≥ 0.7× (≈ 101k) if QQQ closes above $756.02 on the same bar; QQQ above its VWAP; entry = trigger close; stop = $776.24; target = entry + 1.5R (≈ $777.35, under Tuesday's low $777.96); option = nearest-the-money 0DTE call ≤ $25; valid until 10:42.
 - ARMED B long (VWAP pullback): trigger = 5-min bar with low within $0.10 of VWAP (≈ $775.3–775.4) closing above VWAP and above the prior close, QQQ above its VWAP; entry = trigger close; stop = min(bar low, VWAP) − $0.30; target = entry + 1.5R, fired only if that is ≤ $776.64; option = nearest-the-money 0DTE call ≤ $25; valid until 10:42.
+
+**Setup check (10:43 AM ET): nothing fired; stalling just under the pivot**
+- Replay: E long did not fire (high $776.555, never closed ≥ $776.64). B long did not fire (lowest $775.94, VWAP ≈ $775.5).
+- SPY $776.16 has been capped at $776.55 three bars in a row. QQQ $755.99 is off its $757.18 high but still above its VWAP.
+- 4H (8 AM–12 PM): expansion up, stalling at the pivot. No squeeze range yet (the range since 10:05 is $775.47–776.55).
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 137k):
+- ARMED E long (pivot break): trigger = 5-min close **$776.64–776.74** on ≥ 1.0× (≈ 137k), or ≥ 0.7× (≈ 96k) if QQQ closes above $757.18 on the same bar; QQQ above its VWAP; entry = trigger close; stop = $776.24; target = entry + 1.5R (≈ $777.35); option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
+- ARMED B long (VWAP pullback): trigger = 5-min bar with low within $0.10 of VWAP (≈ $775.4–775.6) closing above VWAP and above the prior close, QQQ above its VWAP; entry = trigger close; stop = min(bar low, VWAP) − $0.30; target = entry + 1.5R, only if ≤ $776.64; option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
