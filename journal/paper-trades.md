@@ -1204,3 +1204,11 @@ ARMED (valid until 11:27; prior 10-bar average ≈ 131k):
 
 ARMED (valid until 11:42; prior 10-bar average ≈ 130k):
 - ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 130k), or ≥ 0.7× (≈ 91k) if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $25; valid until 11:42.
+
+**Setup check (11:43 AM ET): nothing fired; pinned on S1**
+- Replay: E short did not fire (lowest $774.18, $0.01 under S1; Wednesday's low $773.61 was not reached).
+- SPY $774.28 has held $774.18–774.83 since 11:15. QQQ $753.05 is sliding toward its day low $752.11, below its VWAP.
+- 4H (8 AM–12 PM): distribution leg; the candle closes at 12:00. Squeeze (F): $774.18–774.83 is forming (35 min, not yet 45).
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 110k):
+- ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 110k), or ≥ 0.7× (≈ 77k) if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $25; valid until 11:57.
