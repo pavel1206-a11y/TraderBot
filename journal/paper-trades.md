@@ -1173,3 +1173,17 @@ ARMED (valid until 10:42; prior 10-bar average ≈ 144k):
 ARMED (valid until 10:57; prior 10-bar average ≈ 137k):
 - ARMED E long (pivot break): trigger = 5-min close **$776.64–776.74** on ≥ 1.0× (≈ 137k), or ≥ 0.7× (≈ 96k) if QQQ closes above $757.18 on the same bar; QQQ above its VWAP; entry = trigger close; stop = $776.24; target = entry + 1.5R (≈ $777.35); option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
 - ARMED B long (VWAP pullback): trigger = 5-min bar with low within $0.10 of VWAP (≈ $775.4–775.6) closing above VWAP and above the prior close, QQQ above its VWAP; entry = trigger close; stop = min(bar low, VWAP) − $0.30; target = entry + 1.5R, only if ≤ $776.64; option = nearest-the-money 0DTE call ≤ $25; valid until 10:57.
+
+**Setup check (10:58 AM ET): nothing fired; rejected at the pivot, back to VWAP**
+- Replay (VWAP computed from bars):
+  - B long, 10:45 bar: low $775.60 within $0.10 of VWAP ($775.50) and close $775.605 above VWAP, **but below the prior close ($775.92). Not fired.**
+  - B long, 10:50 bar: low $774.82, $0.67 under VWAP; closed below it. Not fired.
+  - E long: no close ≥ $776.64 (the pivot capped it at $776.555).
+  - Play-forward of the 10:45 near-miss: the 10:50 low $774.82 would have stopped it (stop $775.20). The rule saved a loss.
+- SPY $775.04 is back under VWAP ($775.49); QQQ $754.44 is falling. Factor 1 is ❌ again, so it is a chop day so far: rejected at the pivot twice.
+- 4H (8 AM–12 PM): expansion up failed at the pivot. A wick top is forming.
+- Squeeze range (F) since 9:55: **$774.82–776.555** ($1.74 wide, ~60 min).
+- A short under $774.82 has < 1.5R of room to S1 $774.19 / the opening-range low $774.45. Not armed.
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 134k):
+- ARMED E/F long (pivot and range-top break): trigger = 5-min close **$776.64–776.74** on ≥ 1.0× (≈ 134k), or ≥ 0.7× (≈ 94k) if QQQ closes above $757.18 on the same bar; QQQ above its VWAP; entry = trigger close; stop = $776.24; target = entry + 1.5R (≈ $777.35); option = nearest-the-money 0DTE call ≤ $25; valid until 11:12.
