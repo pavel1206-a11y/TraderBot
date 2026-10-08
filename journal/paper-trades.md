@@ -1275,3 +1275,11 @@ ARMED (valid until 13:12; prior 10-bar average ≈ 179k):
 ARMED (valid until 1:27; prior 10-bar average ≈ 210k):
 - ARMED E short (S2 break): trigger = 5-min close **$771.05–771.15** on ≥ 1.0× (≈ 210k), or ≥ 0.7× (≈ 147k) if QQQ closes at a new day low on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10 (max risk $1.00 or skip); target = entry − 1.5R (room to S3 ≈ $768.69); option = nearest-the-money 0DTE put ≤ $25; valid until 1:27.
 - ARMED C short (retest of $773.61 from below): trigger = 5-min bar with high $773.51–773.81 closing below $773.61, on ≥ 1.0× (≈ 210k) or ≥ 0.7× with a QQQ new low; QQQ below its VWAP; entry = trigger close; stop = the farther of $773.91 and bar high + $0.15; target = entry − 1.5R; valid until 1:27. (The "below the prior close" condition is dropped: it is not in setup C's playbook text.)
+
+**Setup check (1:28 PM ET): nothing fired; grinding toward S2**
+- Replay: E short (S2) did not fire (lowest close $771.83). C short did not fire (bounce highs $773.34 and $773.47 stayed under the $773.51 band).
+- SPY $771.83 (low $771.64) is making lower highs ($773.47) under a falling VWAP. QQQ $745.46 is at a new day low. Day range $777.09 → $771.64.
+- 4H (12–4 PM): expansion down continues. No squeeze.
+
+ARMED (valid until 1:42; prior 10-bar average ≈ 250k):
+- ARMED E short (S2 break): trigger = 5-min close **$771.05–771.15** on ≥ 1.0× (≈ 250k), or ≥ 0.7× (≈ 175k) if QQQ closes at a new day low on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10 (skip if risk > $1.00); target = entry − 1.5R (room to S3 ≈ $768.69); option = nearest-the-money 0DTE put ≤ $25; valid until 1:42.
