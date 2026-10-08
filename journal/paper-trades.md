@@ -1114,3 +1114,16 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
   - 12:55 C long: matched on price, but volume was 0.5× (needed 1.0×). Target $777.49 hit at 1:20 with no stop touch, **+1.75R**.
   - Net, the filters that blocked these cost about +3.95R today and saved −1R. This goes to Friday's review with the band and volume proposals.
 - Missed: +$3.0 (10:50–11:50); see missed-moves.md.
+
+### 2026-10-08 (Thu)
+
+**Pre-market brief (8:55 AM ET)**
+- SPY pre-market $774.07 (8:40 bar; gap down ≈ $3.15 / −0.4% vs Wednesday's $777.22 close). QQQ $752.72, also weaker. The quote tool was denied by a permission check, so prices come from extended-hours bars.
+- Wednesday: high $779.10, low $773.61, close $777.22.
+- Pivots: R2 $782.14, **R1 $779.68**, **P $776.64**, **S1 $774.19**, S2 $771.15.
+- 20/50-day SMA (computed from daily closes): ≈ $766.5 / $765.9, both below price, so the daily uptrend is intact.
+- Strong levels: **$773.6–774.2** (Wednesday's low/sweep and S1, where SPY is sitting now), **$776.6** (pivot and Wednesday's afternoon range), $777.96 (Tuesday's low, capped Wednesday), $779.1–779.7 (Wednesday's high and R1), $771.15 (S2).
+- News: Alpha Vantage was rate-limited again, so news is unverified. Thursday 8:30 jobless claims are already out. Treat 10:00 AM and 2:00 PM as possible event times.
+- Gap < $4: normal ORB rules.
+- **Bias: none at the open, bearish below $773.6.** A hold below Wednesday's low opens S2 $771.15. A reclaim of the pivot $776.64 turns it bullish (with the daily trend). Watch for a sweep of $773.6 and a reclaim (setup D shape, like Wednesday 10:50).
+- **New rules in effect today** (playbook, 10/8): E/F volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ break); first target +1.5R on SPY or +50% on the option; B pullbacks have no VWAP close cap (reward/risk ≥ 1.5 at the actual close).
