@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 3 | 1 | 2 | 33% | +$42 | -$20.50 | +$1 |
+| Options, B grade | 4 | 1 | 3 | 25% | +$42 | -$17.00 | -$9 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 2 | 0 | 2 | 0% | – | -$0.12 | -$0.24 |
-| **All** | 7 | 3 | 4 | 43% | +$18.60 | -$10.31 | +$14.57 |
+| Fractional, B grade | 3 | 0 | 3 | 0% | – | -$0.17 | -$0.51 |
+| **All** | 9 | 3 | 6 | 33% | +$18.60 | -$8.59 | +$4.30 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
 Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1 · Momentum E 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -1283,3 +1283,14 @@ ARMED (valid until 1:27; prior 10-bar average ≈ 210k):
 
 ARMED (valid until 1:42; prior 10-bar average ≈ 250k):
 - ARMED E short (S2 break): trigger = 5-min close **$771.05–771.15** on ≥ 1.0× (≈ 250k), or ≥ 0.7× (≈ 175k) if QQQ closes at a new day low on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10 (skip if risk > $1.00); target = entry − 1.5R (room to S3 ≈ $768.69); option = nearest-the-money 0DTE put ≤ $25; valid until 1:42.
+
+**Setup check (1:43 PM ET): armed E short FIRED at 1:25 and was stopped at 1:30 (armed, replayed)**
+- Trigger: the 1:25 bar closed **$771.08** (band $771.05–771.15) on 339k = 1.39× the prior 10-bar average (244k); QQQ $744.39 was far below its VWAP. Fired as written.
+- Score card (B, as armed): 1 VWAP side/slope ✅ (below, turning down) · 2 ADX > 20 ⚠️ unverified (indicator tool down) · 3 level break (S2) ✅ · 4 volume ≥ 1.0× ✅ · 5 QQQ agrees ✅ · 6 4H expansion down ✅ · 7 room to S3 ≈ $768.69 ✅ · 8 not chasing (in band) ✅ · 9 trend-day check: no (morning chop) ❌ · 10 time (before 2:30) ✅. Graded B (≈ 7) with the ADX caveat.
+- Plan: SPY entry $771.08, stop $772.00 (candle high $771.90 + $0.10; risk $0.92), target $769.70 (−1.5R).
+- **Result: the 1:30 bar ran to $772.03 → stopped.** Its low was $770.87; the target was never close. SPY then bounced to $772.55.
+  - **0DTE leg: SPY 10/8 767P** (nearest-the-money put ≤ $25; the 771P at $1.13 and 768P at $0.32 were over the cap). Entry $0.22 (bar close $0.21 + half spread), exit $0.12 on the invalidation stop → **−$10 (−45%).**
+  - **Fractional leg: SH** 7.79 sh (≈ $250, 50% cap) at $32.08, exit $32.045 when the SPY stop hit → **−$0.27.**
+- Lesson: an S2 break after a −$5.5 leg on climax volume (QQQ 783k) = a capitulation bar; the next bar reversed. Note for Friday: E breaks late in an extended move (> 2× ATR from VWAP) may need a "no climax bar" filter. No rule change now.
+- Running totals: **9 trades, 3 wins, 6 losses, +$4.30.** Daily loss so far: −$10.27 (well under the $50 daily limit).
+- SPY $772.55, QQQ $746.64 bouncing. No revenge entry. ARMED (valid until 1:57): none. One loss today; next check reassesses with fresh structure.
