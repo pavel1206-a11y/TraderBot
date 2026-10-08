@@ -1127,3 +1127,11 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
 - Gap < $4: normal ORB rules.
 - **Bias: none at the open, bearish below $773.6.** A hold below Wednesday's low opens S2 $771.15. A reclaim of the pivot $776.64 turns it bullish (with the daily trend). Watch for a sweep of $773.6 and a reclaim (setup D shape, like Wednesday 10:50).
 - **New rules in effect today** (playbook, 10/8): E/F volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ break); first target +1.5R on SPY or +50% on the option; B pullbacks have no VWAP close cap (reward/risk ≥ 1.5 at the actual close).
+
+**Setup check (9:43 AM ET): opening range forming**
+- SPY opened $774.85 (gap down $2.37). The range so far is **$774.49–775.33**; the 9:40 bar is still open. Volume: 674k, then 163k. SPY $774.96. QQQ $753.97 dipped back after a $754.95 high.
+- The opening range sits between S1 $774.19 (and Wednesday's low $773.61) below and the pivot $776.64 above.
+- A short off the range low has no room: S1 is $0.30 under it, so reward/risk is < 1.5. Not armed. Watch for a sweep of $773.6–774.2 and a reclaim (setup D).
+
+ARMED (9:45–10:12; uses the final 9:30–9:45 range):
+- ARMED A long (ORB): trigger = 5-min close above the range high (now $775.33), no more than $0.10 above it, on ≥ 1.0× the opening-range average bar volume, QQQ above its VWAP; entry = trigger close; stop = range low − $0.10 (now $774.39); target = entry + 1.5R (≈ $776.75 at the current range, at or just past the pivot $776.64, so cap the target at the pivot and require reward/risk ≥ 1.5 there, or skip); option = nearest-the-money 0DTE call ≤ $25; valid until 10:12.
