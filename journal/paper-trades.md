@@ -1196,3 +1196,11 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 134k):
 
 ARMED (valid until 11:27; prior 10-bar average ≈ 131k):
 - ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 131k), or ≥ 0.7× (≈ 92k) if QQQ closes below its day low $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R (room to S2 $771.15); option = nearest-the-money 0DTE put ≤ $25; valid until 11:27.
+
+**Setup check (11:28 AM ET): nothing fired; holding on S1**
+- Replay: the E short did not fire. The lowest bar was $774.26, so Wednesday's low $773.61 was never reached.
+- SPY $774.40 is sitting on S1 $774.19 / the opening-range low $774.45. The 11:15 bar traded 221k (1.7×) without breaking S1, so buyers are absorbing. QQQ $753.90 is flat, below its VWAP.
+- 4H (8 AM–12 PM): distribution down from the pivot wick. A sweep of $773.6 and a reclaim would be the setup D shape into the 12:00 candle. No squeeze range (the 9:55–11:05 range broke at 11:10).
+
+ARMED (valid until 11:42; prior 10-bar average ≈ 130k):
+- ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 130k), or ≥ 0.7× (≈ 91k) if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $25; valid until 11:42.
