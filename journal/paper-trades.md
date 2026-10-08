@@ -1311,3 +1311,8 @@ ARMED (valid until 2:12; prior 10-bar average ≈ 230k):
 
 ARMED (valid until 2:27, the final window before the 2:30 cutoff; prior 10-bar average ≈ 200k):
 - ARMED E/F short (day-low and squeeze-low break): trigger = 5-min close **$770.34–770.44** on ≥ 1.0× (≈ 200k), or ≥ 0.7× (≈ 140k) if QQQ closes below $743.23 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of the trigger candle high + $0.10 and the range midpoint + $0.10 ($771.74) (skip if risk > $1.00); target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $25; valid until 2:27.
+
+**Setup check (2:28 PM ET): nothing fired; squeeze broke up instead**
+- Replay: the E/F short did not fire (no close under $771.95).
+- SPY broke the $772.83 range top at 2:15 (close $773.19, 188k ≈ 0.9×, QQQ breaking up too) and is at $773.45, back near Wednesday's low $773.61. The long side was not armed: reward/risk failed under VWAP ≈ $774.4.
+- 0DTE cutoff 2:30: no new entries. No open paper trades. Remaining checks report only; EOD at 3:47.
