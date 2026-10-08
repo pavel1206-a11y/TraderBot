@@ -1222,3 +1222,12 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 110k):
 ARMED (valid until 12:12; prior 10-bar average ≈ 108k):
 - ARMED F short (squeeze break): trigger = 5-min close **$774.08–774.18** on ≥ 1.0× (≈ 108k), or ≥ 0.7× (≈ 76k) if QQQ closes below $752.83 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of the range midpoint + $0.10 ($774.61) and the trigger candle high + $0.10; target = entry − 1.5R, **fired only if that target is at or above Wednesday's low $773.61** (room check); option = nearest-the-money 0DTE put ≤ $25; valid until 12:12.
 - ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 108k), or ≥ 0.7× if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; valid until 12:12.
+
+**Setup check (12:13 PM ET): nothing fired; lunch squeeze, volume drying up**
+- Replay: F short did not fire (lowest close $774.29; the 11:55 low $774.15 poked $0.03 under the range but closed back inside). E short did not fire (no trade near $773.61).
+- SPY $774.62. Range since 11:15 is **$774.15–774.83** (60 min, $0.68 wide). Volume is 36k–59k, under half the morning's. QQQ $753.04 bounced off $752.29, just above its day low, and is still below its VWAP.
+- 4H (12–4 PM): just opened ≈ $774.3. The 8 AM–12 PM candle closed as distribution. A sweep of $773.6 and a reclaim this afternoon would be setup D.
+
+ARMED (valid until 12:27; prior 10-bar average ≈ 80k):
+- ARMED F short (squeeze break): trigger = 5-min close **$774.05–774.15** on ≥ 1.0× (≈ 80k), or ≥ 0.7× (≈ 56k) if QQQ closes below $752.29 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of the range midpoint + $0.10 ($774.59) and the trigger candle high + $0.10; target = entry − 1.5R, only if ≥ $773.61; option = nearest-the-money 0DTE put ≤ $25; valid until 12:27.
+- ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 80k), or ≥ 0.7× if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; valid until 12:27.
