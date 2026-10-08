@@ -1316,3 +1316,5 @@ ARMED (valid until 2:27, the final window before the 2:30 cutoff; prior 10-bar a
 - Replay: the E/F short did not fire (no close under $771.95).
 - SPY broke the $772.83 range top at 2:15 (close $773.19, 188k ≈ 0.9×, QQQ breaking up too) and is at $773.45, back near Wednesday's low $773.61. The long side was not armed: reward/risk failed under VWAP ≈ $774.4.
 - 0DTE cutoff 2:30: no new entries. No open paper trades. Remaining checks report only; EOD at 3:47.
+
+**Setup check (2:43 PM ET):** past the 2:30 0DTE cutoff; nothing armed, no open paper trades. Report only; EOD at 3:47.
