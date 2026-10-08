@@ -1145,3 +1145,13 @@ ARMED (9:45–10:12; uses the final 9:30–9:45 range):
 
 ARMED (valid until 10:12; prior 5-bar average ≈ 261k; the 10:00 bar may carry data):
 - ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 261k), or ≥ 0.7× (≈ 183k) if QQQ closes below $753.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle's high + $0.10, capped at $774.20 (S1); target = entry − 1.5R (S2 $771.15 is the room check); option = nearest-the-money 0DTE put ≤ $25; valid until 10:12. ADX can't be checked (indicator tool down); noted as unverified.
+
+**Setup check (10:17 AM ET): nothing fired; SPY turning up**
+- Replay: the E short did not fire. The lowest bar since 9:55 was $774.86, and Wednesday's low $773.61 was never tested.
+- SPY $775.86 has made four higher lows ($774.86 → 775.14 → 775.47 → 775.68) and is now above a VWAP turning up (≈ $775.15) and above the opening-range high $775.33 (cleared at 10:00 on 111k, below average). QQQ $754.43 recovered back above its VWAP.
+- Score card: factor 1 is just turning ✅ (above VWAP, slope turning up). ADX can't be checked (tool down). The pivot $776.64 is $0.78 overhead. No A or B grade at this check: a chase entry here has < 1.5R to the pivot.
+- 4H (8 AM–12 PM): opened ≈ $774 pre-market, low $774.45, no sweep of $773.61. It is moving into expansion up. No squeeze range (F) yet.
+
+ARMED (valid until 10:27; prior 10-bar average ≈ 195k, inflated by the opening bar):
+- ARMED B long (VWAP pullback): trigger = 5-min bar with low within $0.10 of VWAP (≈ $775.15–775.30) that closes above VWAP and above the prior close, QQQ above its VWAP; entry = trigger close (no close cap); stop = min(bar low, VWAP) − $0.30; target = entry + 1.5R, fired only if that is ≤ the pivot $776.64; option = nearest-the-money 0DTE call ≤ $25; valid until 10:27.
+- ARMED E long (pivot break): trigger = 5-min close **$776.64–776.74** on ≥ 1.0× (≈ 195k), or ≥ 0.7× (≈ 137k) if QQQ closes above $754.95 (its day high) on the same bar; QQQ above its VWAP; entry = trigger close; stop = $776.24; target = entry + 1.5R (≈ $777.35, under Tuesday's low $777.96); option = nearest-the-money 0DTE call ≤ $25; valid until 10:27.
