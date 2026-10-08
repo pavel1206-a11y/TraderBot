@@ -1135,3 +1135,4 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
 
 ARMED (9:45–10:12; uses the final 9:30–9:45 range):
 - ARMED A long (ORB): trigger = 5-min close above the range high (now $775.33), no more than $0.10 above it, on ≥ 1.0× the opening-range average bar volume, QQQ above its VWAP; entry = trigger close; stop = range low − $0.10 (now $774.39); target = entry + 1.5R (≈ $776.75 at the current range, at or just past the pivot $776.64, so cap the target at the pivot and require reward/risk ≥ 1.5 there, or skip); option = nearest-the-money 0DTE call ≤ $25; valid until 10:12.
+- Correction (9:44): at the current range the A long fails its own check. Entry ≈ $775.40, stop $774.39 (risk $1.01), and the pivot $776.64 is only $1.24 away (reward/risk 1.23). **It fires only if the final range is narrower** (range low ≥ $774.65 or so). Otherwise nothing is armed for 9:45–10:12; the next check reassesses.
