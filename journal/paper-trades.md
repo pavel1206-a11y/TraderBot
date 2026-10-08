@@ -1212,3 +1212,13 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 130k):
 
 ARMED (valid until 11:57; prior 10-bar average ≈ 110k):
 - ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 110k), or ≥ 0.7× (≈ 77k) if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $25; valid until 11:57.
+
+**Setup check (11:58 AM ET): nothing fired; tight squeeze on S1**
+- Replay: E short did not fire (lowest $774.20).
+- **Squeeze range (F): $774.18–774.83** ($0.65 wide, 45 min since 11:15), sitting on S1 $774.19 under a VWAP of ≈ $775.4. QQQ $752.84 is near its day low ($752.11), below its VWAP.
+- 4H: the 8 AM–12 PM candle closes as a distribution bar (top at the pivot, close near the low). The 12–4 PM candle opens next; a sweep of $773.6 and a reclaim would be setup D.
+- An F long over $774.83 fails reward/risk (stop at the range midpoint − $0.10 ≈ $774.40, and VWAP ≈ $775.4 caps it). Not armed.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 108k):
+- ARMED F short (squeeze break): trigger = 5-min close **$774.08–774.18** on ≥ 1.0× (≈ 108k), or ≥ 0.7× (≈ 76k) if QQQ closes below $752.83 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of the range midpoint + $0.10 ($774.61) and the trigger candle high + $0.10; target = entry − 1.5R, **fired only if that target is at or above Wednesday's low $773.61** (room check); option = nearest-the-money 0DTE put ≤ $25; valid until 12:12.
+- ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 108k), or ≥ 0.7× if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; valid until 12:12.
