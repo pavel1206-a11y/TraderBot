@@ -1318,3 +1318,12 @@ ARMED (valid until 2:27, the final window before the 2:30 cutoff; prior 10-bar a
 - 0DTE cutoff 2:30: no new entries. No open paper trades. Remaining checks report only; EOD at 3:47.
 
 **Setup check (2:43 PM ET):** past the 2:30 0DTE cutoff; nothing armed, no open paper trades. Report only; EOD at 3:47.
+
+**End of day (3:47 PM ET)**
+- Paper trades today: **1 setup (E short, S2 break, armed, replayed), two legs, both stopped:** SPY 767P −$10 (−45%), SH fractional −$0.27. No positions open overnight.
+- Running totals: **9 trades, 3 wins, 6 losses, +$4.30** (options +$4.50, fractional −$0.20). Daily loss −$10.27 (limit $50).
+- Day: gap down, then morning chop on a flat VWAP (rejected twice at the pivot $776.64). Lunch squeeze on S1, a 12:15 spike to $777.09 that fully faded, then a **−$5.1 selloff 12:40–1:25** ($775.51 → $770.44) led by QQQ (−$13, $757.18 → $743.23). Afternoon base $770.4–773.9. Last ≈ $773.3 (−$3.9 vs Wednesday).
+- Rule notes for Friday:
+  - Three short entries today missed winners on wording: the 12:45 band gap-through (+1.5R), and the 12:55 "below the prior close" filter (+1.5R; that filter was my addition, not playbook text).
+  - The one that did fire (1:25) was a climax bar and reversed.
+- Missed: −$5.1 (12:40–1:25); see missed-moves.md.

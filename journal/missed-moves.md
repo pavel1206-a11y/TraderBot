@@ -97,3 +97,15 @@ Rest of day: 11:50 to 2:30 a slow grind of +$1.1 to $777.70 on thin volume (the 
 - **Pattern 9 (entry caps vs strong reclaims)** again: two 1-cent band misses on bars that went on to win.
 - **Pattern 8 (quiet trends)** again: the 12:55 retest failed only on volume, in a low-volume trend that kept going.
 - Counter-evidence: the 11:55 volume-blocked retest would have lost (stopped by $0.001). Supports the backtested volume rule (≥ 1.0×, or ≥ 0.7× with a QQQ same-bar break) over dropping the volume filter.
+
+## 2026-10-08 (Thu)
+
+| Date | Time (ET) | Move | How it started | Our rules? |
+|---|---|---|---|---|
+| Thu 10/8 | 12:40–1:25 PM | **−$5.1** (775.51 → 770.44) | After the 12:15 spike to $777.09 faded back under VWAP (failed breakout), the 12:45 bar broke Wednesday's low $773.61 on 263k (2.4×), closing $773.255. QQQ led ($753.96 → $743.23, 888k on the 12:50 bar). The cause was unknown (news feed down). | **E short armed (band $773.51–773.61); the 12:45 close gapped $0.255 through the band → not fired.** C retest short re-armed at 12:58: the 12:55 bar matched but closed $0.04 above the prior close (my added filter) → not fired. Both would have hit +1.5R. The S2 E short did fire at 1:25 but on the capitulation bar → stopped (−1R). |
+
+Rest of day: the 12:15 spike +$2.47 intrabar (774.62 → 777.09, fully reversed, just under the $2.50 bar); morning chop $774.45–776.55; afternoon base $770.4–773.9.
+
+### Patterns added
+10. **Gap-through on breakdown bars** (10/8): strong breakouts often close well past a $0.10 band. Option to test: if the bar closes past the band but within ~0.5R of the level, enter on the next bar's retest of the level (C) rather than drop the line. Balance against the 10/6 replay result that wider bands lost money.
+11. **Climax-bar entries** (10/8): an E break that comes after a > $5 leg on the session's biggest volume reversed immediately. Test a "no E entries > 2× ATR(5-min) from VWAP" filter.
