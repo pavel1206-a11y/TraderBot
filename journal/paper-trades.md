@@ -1187,3 +1187,12 @@ ARMED (valid until 10:57; prior 10-bar average ≈ 137k):
 
 ARMED (valid until 11:12; prior 10-bar average ≈ 134k):
 - ARMED E/F long (pivot and range-top break): trigger = 5-min close **$776.64–776.74** on ≥ 1.0× (≈ 134k), or ≥ 0.7× (≈ 94k) if QQQ closes above $757.18 on the same bar; QQQ above its VWAP; entry = trigger close; stop = $776.24; target = entry + 1.5R (≈ $777.35); option = nearest-the-money 0DTE call ≤ $25; valid until 11:12.
+
+**Setup check (11:15 AM ET): nothing fired; range broke down into support**
+- Replay: the E/F long did not fire (highest close $775.35).
+- **11:10 bar closed $774.48, below the squeeze range low $774.82**, on 118k = 0.90× the prior 10-bar average (≈ 131k). QQQ closed $753.68 below its own 45-min low ($753.88) on the same bar, so under the new volume rule (≥ 0.7× with a QQQ break) **the F short's volume test passes**. It was not armed: the 10:58 check rejected it for room.
+- Live F check now: entry $774.48 (within $0.75 of the edge); stop = the closer of the range midpoint ($775.69) and the breakout candle's high + $0.10 ($775.23), so $775.23 (risk $0.75). The 1.5R target is $773.36. But the opening-range low $774.45, S1 $774.19 and Wednesday's low $773.61 all sit before it, and the first strong level (S1) is only 0.4R away. **No trade (no room).** Score: factor 1 (below a flat VWAP ≈ $775.4) ✅ weak; the support cluster ❌.
+- 4H (8 AM–12 PM): wick top at the pivot, now driving down. If $773.6 is swept and reclaimed into the 12:00 candle, that is a setup D shape.
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 131k):
+- ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 131k), or ≥ 0.7× (≈ 92k) if QQQ closes below its day low $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R (room to S2 $771.15); option = nearest-the-money 0DTE put ≤ $25; valid until 11:27.
