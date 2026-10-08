@@ -1231,3 +1231,14 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 108k):
 ARMED (valid until 12:27; prior 10-bar average ≈ 80k):
 - ARMED F short (squeeze break): trigger = 5-min close **$774.05–774.15** on ≥ 1.0× (≈ 80k), or ≥ 0.7× (≈ 56k) if QQQ closes below $752.29 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of the range midpoint + $0.10 ($774.59) and the trigger candle high + $0.10; target = entry − 1.5R, only if ≥ $773.61; option = nearest-the-money 0DTE put ≤ $25; valid until 12:27.
 - ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 80k), or ≥ 0.7× if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; valid until 12:27.
+
+**Setup check (12:28 PM ET): nothing fired; the squeeze broke UP on a spike**
+- Replay: neither short fired (no close ≤ $774.15).
+- **12:15 bar: spike from $774.62 to $777.09 on 477k (≈ 6×), closing $775.42.** It broke the $774.15–774.83 squeeze to the upside; QQQ spiked to $755.55 with it. The long side was not armed (10:58 and 11:58 checks: VWAP ≈ $775.4 capped the room). The big upper wick ($1.67) shows sellers at $777. The cause was not checked (news feed down).
+- SPY $775.79 is above VWAP (≈ $775.45). QQQ $754.34 is around its VWAP.
+- Live F long: price is $0.96 past the range edge, more than the $0.75 no-chase limit. Wait for a pullback that holds. No entry now.
+- 4H (12–4 PM): opened ≈ $774.3 and spiked up. The candle is in its expansion phase; no setup D sweep.
+
+ARMED (valid until 12:42; the prior 10-bar average ≈ 113k includes the spike bar):
+- ARMED B long (VWAP hold after breakout): trigger = 5-min bar with low within $0.10 of VWAP (≈ $775.35–775.55) closing above VWAP and above the prior close, QQQ above its VWAP; entry = trigger close; stop = min(bar low, VWAP) − $0.30; target = entry + 1.5R, only if ≤ the pivot $776.64; option = nearest-the-money 0DTE call ≤ $25; valid until 12:42.
+- ARMED F long (range-edge retest): trigger = 5-min bar with low $774.83–775.10 closing ≥ $775.00 and above the prior close, QQQ above its VWAP; entry = trigger close; stop = $774.39 (range midpoint − $0.10); target = entry + 1.5R (≤ $776.64 or skip); valid until 12:42.
