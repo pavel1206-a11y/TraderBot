@@ -1136,3 +1136,12 @@ ARMED (valid until 12:42): the same C long (low $776.05–$776.25, close $776.15
 ARMED (9:45–10:12; uses the final 9:30–9:45 range):
 - ARMED A long (ORB): trigger = 5-min close above the range high (now $775.33), no more than $0.10 above it, on ≥ 1.0× the opening-range average bar volume, QQQ above its VWAP; entry = trigger close; stop = range low − $0.10 (now $774.39); target = entry + 1.5R (≈ $776.75 at the current range, at or just past the pivot $776.64, so cap the target at the pivot and require reward/risk ≥ 1.5 there, or skip); option = nearest-the-money 0DTE call ≤ $25; valid until 10:12.
 - Correction (9:44): at the current range the A long fails its own check. Entry ≈ $775.40, stop $774.39 (risk $1.01), and the pivot $776.64 is only $1.24 away (reward/risk 1.23). **It fires only if the final range is narrower** (range low ≥ $774.65 or so). Otherwise nothing is armed for 9:45–10:12; the next check reassesses.
+
+**Setup check (9:58 AM ET): nothing fired; SPY chopping on VWAP, QQQ weakening**
+- Final opening range: **$774.45–775.33**. The range low is below $774.65, so the A long stayed disqualified (reward/risk 1.2 to the pivot).
+  - Replay for the record: the 9:45 bar closed $775.43 (inside the band). But it had 146k against the opening-range average of 336k (0.43×), and QQQ was below its VWAP. It would not have fired anyway.
+- SPY $774.93 sits on a flat VWAP (≈ $775.0). The 9:50 push to $775.74 failed. QQQ $752.42 has made a new low below its opening range ($753.11), with SPY not following yet.
+- Score card: factor 1 (VWAP side and slope) ❌, flat and chopping. No A or B setup. 4H (8 AM–12 PM): its accumulation phase is forming, with Wednesday's low $773.61 as the sweep level to watch. No squeeze range yet.
+
+ARMED (valid until 10:12; prior 5-bar average ≈ 261k; the 10:00 bar may carry data):
+- ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 261k), or ≥ 0.7× (≈ 183k) if QQQ closes below $753.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle's high + $0.10, capped at $774.20 (S1); target = entry − 1.5R (S2 $771.15 is the room check); option = nearest-the-money 0DTE put ≤ $25; valid until 10:12. ADX can't be checked (indicator tool down); noted as unverified.
