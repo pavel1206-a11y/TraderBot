@@ -1302,3 +1302,12 @@ ARMED (valid until 1:42; prior 10-bar average ≈ 250k):
 
 ARMED (valid until 2:12; prior 10-bar average ≈ 230k):
 - ARMED E short (day-low break): trigger = 5-min close **$770.33–770.43** on ≥ 1.0× (≈ 230k), or ≥ 0.7× (≈ 161k) if QQQ closes below $743.23 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10 (skip if risk > $1.00); target = entry − 1.5R (room to S3 ≈ $768.69); option = nearest-the-money 0DTE put ≤ $25; valid until 2:12. (Not a revenge trade: a fresh level, a new plan, and within the daily limit.)
+
+**Setup check (2:13 PM ET): nothing fired; last arming of the day**
+- Replay: the E short did not fire (lowest $771.41).
+- SPY $772.02. **Squeeze range (F) since 1:25: $770.44–772.83** (50 min, $2.39 wide) under a falling VWAP (≈ $774.5). QQQ $745.86 is flat near its lows.
+- An F long over $772.83 fails reward/risk (stop at the midpoint ≈ $771.64; the 1.5R target ≈ $774.6 is above VWAP). Not armed.
+- 4H (12–4 PM): expansion down, now basing.
+
+ARMED (valid until 2:27, the final window before the 2:30 cutoff; prior 10-bar average ≈ 200k):
+- ARMED E/F short (day-low and squeeze-low break): trigger = 5-min close **$770.34–770.44** on ≥ 1.0× (≈ 200k), or ≥ 0.7× (≈ 140k) if QQQ closes below $743.23 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of the trigger candle high + $0.10 and the range midpoint + $0.10 ($771.74) (skip if risk > $1.00); target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $25; valid until 2:27.
