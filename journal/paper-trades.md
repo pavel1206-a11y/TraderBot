@@ -1262,3 +1262,16 @@ ARMED (valid until 12:57; prior 10-bar average ≈ 112k, inflated by the spike):
 
 ARMED (valid until 13:12; prior 10-bar average ≈ 179k):
 - ARMED C short (retest of $773.61 from below): trigger = 5-min bar with high $773.51–773.81 that closes below $773.61 and below the prior close, on ≥ 1.0× (≈ 179k) or ≥ 0.7× if QQQ makes a new low on the same bar; QQQ below its VWAP; entry = trigger close; stop = the farther of $773.91 (level + $0.30) and bar high + $0.15; target = entry − 1.5R (room to S2 $771.15); option = nearest-the-money 0DTE put ≤ $25; valid until 13:12.
+
+**Setup check (1:13 PM ET): nothing fired, missed by a rule detail; selloff extending**
+- Replay of the C short: the 12:55 bar had high $773.51 (in band) and closed $773.14 (below $773.61) on 318k (1.8×) with QQQ below its VWAP. **But it closed $0.04 above the prior close ($773.10), so it did not fire.** Later bars stayed out of the band.
+- Play-forwards for the record (not counted):
+  - 12:55 C near-miss: entry $773.14, stop $773.91, 1.5R target $771.985 → **hit at 1:00 (low $771.93), +1.5R.**
+  - 12:45 E gap-through (from the last check): entry $773.255, 1.5R target $771.84 → **hit at 1:05 (low $771.80), +1.5R.**
+  - Two winners missed today on entry-wording details (a band gap-through and a "below the prior close" filter). For Friday's review.
+- SPY $772.46 (low $771.80) is $0.65 above S2 $771.15. QQQ $746.96 (−$11 from its high) is driving it. VWAP ≈ $774.9 is now turning down. Score: factor 1 ✅ (below a VWAP turning down); ADX unverified.
+- 4H (12–4 PM): expansion down after the $777.09 wick (Power-of-3 distribution shape). S3 ≈ $768.69.
+
+ARMED (valid until 1:27; prior 10-bar average ≈ 210k):
+- ARMED E short (S2 break): trigger = 5-min close **$771.05–771.15** on ≥ 1.0× (≈ 210k), or ≥ 0.7× (≈ 147k) if QQQ closes at a new day low on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10 (max risk $1.00 or skip); target = entry − 1.5R (room to S3 ≈ $768.69); option = nearest-the-money 0DTE put ≤ $25; valid until 1:27.
+- ARMED C short (retest of $773.61 from below): trigger = 5-min bar with high $773.51–773.81 closing below $773.61, on ≥ 1.0× (≈ 210k) or ≥ 0.7× with a QQQ new low; QQQ below its VWAP; entry = trigger close; stop = the farther of $773.91 and bar high + $0.15; target = entry − 1.5R; valid until 1:27. (The "below the prior close" condition is dropped: it is not in setup C's playbook text.)
