@@ -27,3 +27,14 @@ Owner asked (10/6): "Need to get better and not miss things. Run it."
 3. **Reject: removing the narrow entry band.** It was my idea after today's misses, and the data says it is wrong. Chasing closes even $0.20 past the level erased the gain. Keep the tight band; it is the no-chase rule working.
 4. **Reject for now:** a mechanical D sweep-and-reclaim, range-height targets, and wider stops.
 5. **Not fixed by any variant:** the 10/6 10:30–11:25 rally and the 10/5 10:05 ORB. Some moves will be missed; the rules should not be loosened to chase them.
+
+## Follow-up test (2026-10-08), before applying changes
+Owner (10/8): "Adjust to hit target next time." Same script and data, volume rule on:
+
+| Variant | Exit at level | +1R | +1.5R |
+|---|---|---|---|
+| B close cap VWAP + $0.15 kept, E/F band $0.10 | +2.58R | +3.00R | +3.03R |
+| B close cap removed, E/F band $0.10 | +2.58R (no change) | +3.00R | +3.03R |
+| B close cap removed, E/F band $0.11 | +0.59R | +1.01R | +1.04R |
+
+Applied to the playbook (owner-approved): volume ≥ 1.0× (≥ 0.7× with a same-bar QQQ break) for E/F; first target +1.5R; no VWAP close cap on B (reward/risk ≥ 1.5 at the actual close instead). Kept: the $0.10 band on E/F/C. On 10/7 the new B rule would have fired the 11:15 near-miss (entry $774.85, stop $774.25, +1.5R = $775.75, hit at 11:35). The 11:45 E miss ($0.01 over the band) would still be a miss.

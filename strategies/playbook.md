@@ -77,6 +77,12 @@ on purpose: they lose more often, and 0DTE leaves no time to be wrong.
 - **Entry:** above the high (calls) or below the low (puts) of that holding
   candle.
 - **Invalidation:** a 5-min close on the wrong side of VWAP.
+- **No close cap (2026-10-08):** the holding candle may close any distance
+  past VWAP, as long as reward/risk is at least 1.5 **at its actual close**.
+  The old "no more than VWAP + $0.15" cap rejected the strongest reclaim bars
+  (10/6 10:35 and 10/7 11:15, which missed by $0.0075 and then hit its target).
+  In the replay, removing the cap changed nothing; reward/risk does the
+  filtering.
 - **Best when:** it's the first or second pullback of the day. Later
   pullbacks fail more often.
 
@@ -132,9 +138,12 @@ For fast run-ups and run-downs that never pull back to VWAP. Catch the start
 of the move, not the middle of it.
 
 - **Trigger:** after 9:45, a 5-min candle **closes through** VWAP or a strong
-  level (section 2) in the trend direction, with volume at least **1.5× the
-  average of the prior 10 bars**, ADX at least 20 and rising, and QQQ moving
-  the same way.
+  level (section 2) in the trend direction, with volume at least **1.0× the
+  average of the prior 10 bars** (or at least **0.7×** when QQQ closes through
+  its own 45-min range edge on the same bar), ADX at least 20 and rising, and
+  QQQ moving the same way. (Lowered from 1.5× on 2026-10-08, owner-approved:
+  the 9/29–10/6 replay went from −1.99R to +2.58R, and quiet trend days kept
+  failing the 1.5× bar. See `journal/backtests/2026-10-06-rules-replay.md`.)
 - **Entry:** the close of the **next** 5-min candle if it holds beyond the
   level, or the first pullback to the 9 EMA that holds, whichever comes first.
 - **Don't chase:** skip it if price is already more than **$1.50** past the
@@ -155,10 +164,11 @@ this, each worth $2.70–4.60.
 - **When:** 11:00 AM–2:30 PM ET.
 - **Squeeze:** SPY stays inside a range no wider than **$2.50** for at least
   **45 minutes** (tighter is better). Mark the range high and low.
-- **Trigger:** a 5-min candle **closes outside** the range on at least **1.5×**
-  the prior 10-bar average volume, with QQQ breaking the same way.
+- **Trigger:** a 5-min candle **closes outside** the range on at least **1.0×**
+  the prior 10-bar average volume (or at least **0.7×** when QQQ breaks its
+  own range on the same bar), with QQQ breaking the same way.
   (Lowered from 2× on 2026-10-02: that day's real breakdown ran $5.5 on
-  1.5–1.6×.)
+  1.5–1.6×. Lowered from 1.5× on 2026-10-08 with setup E.)
 - **Entry:** on the trigger candle's close if it is within **$0.75** of the
   range edge; otherwise wait for the first pullback toward the edge that
   holds (do not chase).
@@ -207,7 +217,11 @@ Skip the day or the setup if any of these apply:
 - **Protecting profit** (stops only move up):
   - Option up 30%: raise the stop to break-even.
   - Option up 60%: raise the stop to lock in about +30%.
-  - Target: +50% to +100%, or the next strong key level on the underlying.
+  - **First target (2026-10-08): +1.5R on SPY** (1.5× the distance from
+    entry to the SPY stop) **or +50% on the option, whichever comes first.**
+    Sell the whole position there on a normal day. Holding for the next
+    level turned replay winners into stop-outs (1.5R exit: +3.03R vs +2.58R
+    holding for the level). On a trend day, the second contract runs (below).
 - **Hard exit:** closed by 3:30 PM ET, win or lose.
 
 ### Trend days: runner exit
@@ -289,8 +303,11 @@ fast for alert-based stops.
 - **Risk = position × distance to stop**, and must stay within 5% of the
   account ($25). With structure-based stops on SPY (usually 0.3–1% away), real
   risk is often $1–3 per trade.
-- **Reward/risk at least 1.5:** the target (next key level) must be at least
-  1.5× as far as the stop.
+- **Reward/risk at least 1.5:** the next key level must be at least 1.5× as
+  far as the stop, or skip the trade.
+- **Target: +1.5R** (2026-10-08): sell at 1.5× the stop distance, which by
+  the line above is never past the next level. On a trend day, sell half
+  there and trail the rest (section 7).
 
 ### Same-day only
 
@@ -363,6 +380,12 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
 - Only arm what the current score card would grade A or B if the trigger
   fires (the trigger supplies the candle and, for E and F, the volume factor).
 - Reward/risk must be at least 1.5 at the trigger price, or don't arm it.
+- **Close bands** (2026-10-08): E, F and C lines keep a tight **$0.10** band
+  past the level (no chasing). In the replay, widening it by even $0.01 cut
+  the result from +3.00R to +1.01R, so a 1-cent miss stays a miss. B (VWAP
+  pullback) lines have **no** close cap; instead, write the line so that it
+  fires only if reward/risk at the actual close is ≥ 1.5.
+- **Target on every line:** +1.5R on SPY (section 7), and write it as a price.
 - Valid until: the next check, or 2:30 PM, whichever is sooner. A check
   re-arms or drops each line.
 
