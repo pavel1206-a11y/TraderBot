@@ -1242,3 +1242,13 @@ ARMED (valid until 12:27; prior 10-bar average ≈ 80k):
 ARMED (valid until 12:42; the prior 10-bar average ≈ 113k includes the spike bar):
 - ARMED B long (VWAP hold after breakout): trigger = 5-min bar with low within $0.10 of VWAP (≈ $775.35–775.55) closing above VWAP and above the prior close, QQQ above its VWAP; entry = trigger close; stop = min(bar low, VWAP) − $0.30; target = entry + 1.5R, only if ≤ the pivot $776.64; option = nearest-the-money 0DTE call ≤ $25; valid until 12:42.
 - ARMED F long (range-edge retest): trigger = 5-min bar with low $774.83–775.10 closing ≥ $775.00 and above the prior close, QQQ above its VWAP; entry = trigger close; stop = $774.39 (range midpoint − $0.10); target = entry + 1.5R (≤ $776.64 or skip); valid until 12:42.
+
+**Setup check (12:43 PM ET): nothing fired; spike fully faded**
+- Replay (VWAP ≈ $775.47):
+  - B long: the 12:25 bar touched VWAP (low $775.37) but closed $775.44, under VWAP and the prior close. 12:30 low $775.28 was outside the band. 12:35 closed under VWAP. Not fired.
+  - F long: the 12:35 low $774.78 went under the $774.83 band, and it closed $774.975 < $775.00. Not fired.
+- SPY $774.98 has given back the whole 12:15 spike and sits under VWAP. QQQ $753.51 is under its VWAP. The trap shape (failed breakout) points to chop or a fade. Score: factor 1 ❌ (VWAP flat, price chopping across it).
+- 4H (12–4 PM): a long upper wick to $777.09 with the body back near the open. Distribution-looking, no sweep. No squeeze range (the spike widened it to $2.94).
+
+ARMED (valid until 12:57; prior 10-bar average ≈ 112k, inflated by the spike):
+- ARMED E short (Wednesday's-low break): trigger = 5-min close **$773.51–773.61** on ≥ 1.0× (≈ 112k), or ≥ 0.7× (≈ 78k) if QQQ closes below $752.11 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10, capped at $774.20; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $25; valid until 12:57.
