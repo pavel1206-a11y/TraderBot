@@ -1294,3 +1294,11 @@ ARMED (valid until 1:42; prior 10-bar average ≈ 250k):
 - Lesson: an S2 break after a −$5.5 leg on climax volume (QQQ 783k) = a capitulation bar; the next bar reversed. Note for Friday: E breaks late in an extended move (> 2× ATR from VWAP) may need a "no climax bar" filter. No rule change now.
 - Running totals: **9 trades, 3 wins, 6 losses, +$4.30.** Daily loss so far: −$10.27 (well under the $50 daily limit).
 - SPY $772.55, QQQ $746.64 bouncing. No revenge entry. ARMED (valid until 1:57): none. One loss today; next check reassesses with fresh structure.
+
+**Setup check (1:58 PM ET): nothing armed, no open trades; chop after the flush**
+- SPY $771.67 has been in $770.44–772.83 since 1:25 (35 min, $2.39 wide), back under S2 $771.15–772 on and off. QQQ $745.55 is near its lows. VWAP ≈ $774.6 is falling.
+- 4H (12–4 PM): expansion down; the bounce off $770.44 so far is shallow.
+- No A/B setup now: mid-range, no fresh close through a level.
+
+ARMED (valid until 2:12; prior 10-bar average ≈ 230k):
+- ARMED E short (day-low break): trigger = 5-min close **$770.33–770.43** on ≥ 1.0× (≈ 230k), or ≥ 0.7× (≈ 161k) if QQQ closes below $743.23 on the same bar; QQQ below its VWAP; entry = trigger close; stop = trigger candle high + $0.10 (skip if risk > $1.00); target = entry − 1.5R (room to S3 ≈ $768.69); option = nearest-the-money 0DTE put ≤ $25; valid until 2:12. (Not a revenge trade: a fresh level, a new plan, and within the daily limit.)
