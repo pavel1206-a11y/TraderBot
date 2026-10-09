@@ -10,22 +10,22 @@ ask the owner before doing anything; do not quietly bend it.
 
 - Trade only in the **Agentic** account (the one `get_accounts` marks as
   tradable by the agent). The default account is read-only to Claude.
-- Starting balance for the plan: **$500**. Goal: grow steadily; avoiding large
+- Starting balance for the plan: **$1,000** (raised from $500 by the owner on 2026-10-09). Goal: grow steadily; avoiding large
   losses comes before chasing returns.
 - Before any trade, pull fresh numbers with `get_portfolio` and size from the
   **current** account value, not the starting balance.
 
 ## Risk rules
 
-| Rule | Limit (at $500) |
+| Rule | Limit (at $1,000) |
 |---|---|
-| Risk per trade: default | 5% of account value ($25) |
-| Risk per trade: hard max | 10% of account value ($50) |
-| Total open risk across all positions | 20% ($100) |
+| Risk per trade: default | 5% of account value ($50) |
+| Risk per trade: hard max | 10% of account value ($100) |
+| Total open risk across all positions | 20% ($200) |
 | Open positions at once | 3 |
-| Daily loss limit: stop trading for the day | 10% ($50) |
-| Weekly loss limit: stop trading until next week | 15% ($75) |
-| Drawdown circuit breaker: no new trades, full review with owner | Account 30% below its high ($350 from $500) |
+| Daily loss limit: stop trading for the day | 10% ($100) |
+| Weekly loss limit: stop trading until next week | 15% ($150) |
+| Drawdown circuit breaker: no new trades, full review with owner | Account 30% below its high ($700 from $1,000) |
 
 "Risk" means what is lost if the stop is hit. For **options**, count the
 **full premium paid** as the risk, because option prices can gap straight past
@@ -75,7 +75,7 @@ stop, target, and result taken from real quotes. No Robinhood write actions
 - At least 10 paper trades logged.
 - A-grade trades are profitable overall: average win × win rate beats
   average loss × loss rate.
-- If passed: real trades start at the current cap ($25–50 premium), A-grade
+- If passed: real trades start at the current cap ($50–100 premium), A-grade
   only. Raise the option cap to 15–20% of the account, A-grade only, only
   after 15–20 real trades confirm the paper results.
 - If not passed: keep paper trading and adjust the playbook first.

@@ -41,3 +41,17 @@ F variants (train / test avg R): exit +1.0R +0.12/+0.32 · **exit +1.5R +0.18/+0
 1. Trade only setup F (plus B as a watch-only candidate) for the rest of paper trading; drop A, C and E from arming.
 2. Arm triggers from code (`bt.py` logic run live) instead of by hand, to stop the wording errors seen this week.
 3. Re-test with option prices before any real money.
+
+## Addendum: $1,000 → $10,000? (owner goal, 10/9)
+Monte Carlo: resample setup F's backtest trades 4,000 times and compound at a fixed risk per trade. Option losses can run to −1.3R on gaps. "Cost" subtracts 0.15R per trade for option spread and decay, which this backtest doesn't model yet.
+
+| Edge assumed | Risk/trade | P(10× within ~4 yrs) | P(a 50% drawdown on the way) | Median time to 10× |
+|---|---|---|---|---|
+| All 6 months (+0.32R), no option cost | 5% | 100% | 7% | 1.3 yr |
+| same | 10% | 99% | 47% | 0.7 yr |
+| same | 20% | 87% | 81% | 0.4 yr |
+| Train half only (+0.18R) − 0.15R option cost | 5% | 8% | 95% | 3.0 yr |
+| same | 10% | 17% | 97% | 1.5 yr |
+| same | 20% | 13% | 97% | 0.4 yr |
+
+Read: 10× is plausible over 1–2+ years at the current 5–10% risk **only if** the edge is real and survives option costs. Raising risk to 20–30% barely speeds it up and makes a 50%+ drawdown near-certain. If the edge is closer to the honest train-half number after option costs, no risk level gets there reliably. These numbers rest on 66 backtest trades; the option-price replay and live paper trades are what will tell us which row we are in.
