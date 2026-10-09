@@ -12,12 +12,12 @@ quotes for the contract. Rules for graduating to real money are in
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
 | Options, B grade | 5 | 1 | 4 | 20% | +$42 | -$13.25 | -$11 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 3 | 0 | 3 | 0% | – | -$0.17 | -$0.51 |
-| **All** | 10 | 3 | 7 | 30% | +$18.60 | -$7.65 | +$2.30 |
+| Fractional, B grade | 4 | 0 | 4 | 0% | – | -$0.19 | -$0.77 |
+| **All** | 11 | 3 | 8 | 27% | +$18.60 | -$6.73 | +$2.04 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: 10/9 E/F long, fractional leg only (SPY 0.6425 sh at $778.25, entered 12:50 PM); the 778C leg was closed at 12:55 for −$2.
+Open: none.
 
 By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1 · Momentum E 2 · E/F (10/9) 1
 
@@ -1449,3 +1449,13 @@ ARMED (valid until 12:57; prior 10-bar average ≈ 75k):
 - 4H (12–4 PM): small up candle ≈ $777.4 → $778.0, no D. Squeeze (F) since 10:50 is now $776.54–778.70 ($2.16).
 - Running totals: **10 trades closed, 3 wins, 7 losses, +$2.30** (fractional leg pending).
 - ARMED (valid until 1:27): none; one position open.
+
+**Setup check (1:28 PM ET): fractional leg stopped; trade closed**
+- The 1:15 bar traded down to $777.72, through the $777.84 alert-stop → **SPY fractional sold ≈ $777.84 → −$0.26.** SPY now $777.88; QQQ $750.42 just above its VWAP ($750.13).
+- **10/9 E/F long result, both legs stopped:** 778C −$2 (break-even stop after +38%), SPY fractional −$0.26. Note for Friday: the 12:50 bar hit $778.70, $0.17 short of the +1.5R target, and the option got +38% (the +50% target needed $1.16). Same pattern as earlier this week: near-misses on the first target.
+- Running totals: **11 trades closed, 3 wins, 8 losses, +$2.04.** Daily loss −$2.26 (well under the $100 limit).
+- 4H (12–4 PM): up candle fading back to its open ≈ $777.4–777.9; no D. Squeeze (F) since 10:50: **$776.54–778.70** ($2.16).
+- Score: no fresh close through a level; mid-range. An F long over $778.70 has no room (Wednesday's high $779.10 is $0.40 above, under 1.5R). Not armed.
+
+ARMED (valid until 1:42; prior 10-bar average ≈ 76k):
+- ARMED F short (squeeze break): trigger = 5-min close **$776.44–776.54** on ≥ 1.0× (≈ 76k), or ≥ 0.7× if QQQ closes below $749.13 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of the range midpoint + $0.10 ($777.72) and the trigger candle high + $0.10; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $100; valid until 1:42. (Opposite side and a new plan, not a revenge trade.)
