@@ -1408,3 +1408,11 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 100k):
 ARMED (valid until 12:12; prior 10-bar average ≈ 90k):
 - ARMED F short (squeeze break): trigger = 5-min close **$776.44–776.54** on ≥ 1.0× (≈ 90k), or ≥ 0.7× if QQQ closes below $749.13 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of $777.27 and the trigger candle high + $0.10; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $100; valid until 12:12.
 - ARMED E long (Tuesday's-low reclaim, also the F top break): trigger = 5-min close **$777.96–778.06** on ≥ 1.0× (≈ 90k), or ≥ 0.7× with a same-bar QQQ high above $750.84; QQQ above its VWAP; entry = trigger close; stop $777.56; target = entry + 1.5R (room to $779.10); option = nearest-the-money 0DTE call ≤ $100; valid until 12:12.
+
+**Setup check (12:13 PM ET): nothing fired; squeeze holds**
+- Replay: neither line fired (closes $777.27–777.58; no close ≤ $776.54 or ≥ $777.96).
+- SPY $777.58. Squeeze still **$776.54–777.80** (85 min). QQQ $750.79 is above its VWAP, pushing its highs. 4H (12–4 PM): just opened ≈ $777.4.
+
+ARMED (valid until 12:27; prior 10-bar average ≈ 85k): the same two lines.
+- E long: close **$777.96–778.06**, ≥ 1.0× (≈ 85k) or ≥ 0.7× with a same-bar QQQ high above $750.93, QQQ above its VWAP; stop $777.56; target entry + 1.5R (room to $779.10); 0DTE call ≤ $100.
+- F short: close **$776.44–776.54**, ≥ 1.0× (≈ 85k) or ≥ 0.7× if QQQ closes below $749.13, QQQ below its VWAP; stop the closer of $777.27 and candle high + $0.10; target entry − 1.5R; 0DTE put ≤ $100.
