@@ -29,7 +29,8 @@ def vwap(bs):
         pv += (b["h"] + b["l"] + b["c"]) / 3 * b["v"]; vv += max(b["v"], 1); out.append(pv / vv)
     return out
 
-DEFAULT = dict(setups="ABCEF", vol="new", bcap=False, band=0.10, exit=1.5, climax=None, qqq=True, room=1.5)
+DEFAULT = dict(setups="ABCEF", vol="new", bcap=False, band=0.10, exit=1.5, climax=None, qqq=True, room=1.5,
+               sqz=9, sqzw=2.5, last="14:25", first_f="11:00")
 
 def sim_day(S, Q, prev, F):
     if len(S) < 70 or len(Q) != len(S):
@@ -60,7 +61,7 @@ def sim_day(S, Q, prev, F):
         atr = sum(x["h"] - x["l"] for x in S[max(0, i - 14):i]) / min(14, i)
         dayhi = max(x["h"] for x in S[:i]); daylo = min(x["l"] for x in S[:i])
         keys = base + [orh, orl]
-        win = S[i - 9:i] if i >= 9 else None
+        win = S[i - F["sqz"]:i] if i >= F["sqz"] else None
         rng = (max(x["h"] for x in win), min(x["l"] for x in win)) if win else None
         qwin = Q[i - 9:i] if i >= 9 else None
         qrng = (max(x["h"] for x in qwin), min(x["l"] for x in qwin)) if qwin else None
@@ -70,7 +71,7 @@ def sim_day(S, Q, prev, F):
                 if (b["c"] - k) * dr > 0 and (p["c"] - k) * dr <= 0:
                     broken.append((k, dr, i))
         broken = [x for x in broken if i - x[2] <= 12]
-        if not ("09:45" <= b["t"] <= "14:25") or len(trades) >= 3 or losses >= 2:
+        if not ("09:45" <= b["t"] <= F["last"]) or len(trades) >= 3 or losses >= 2:
             continue
         cands = []
         for dr in (1, -1):
@@ -111,7 +112,7 @@ def sim_day(S, Q, prev, F):
                 tests = []
                 if "E" in F["setups"]:
                     tests += [(k, "E") for k in keys + [sv[i]]]
-                if "F" in F["setups"] and b["t"] >= "11:00" and rng and rng[0] - rng[1] < 2.5:
+                if "F" in F["setups"] and b["t"] >= F["first_f"] and rng and rng[0] - rng[1] < F["sqzw"]:
                     tests.append((rng[0] if dr > 0 else rng[1], "F"))
                 for k, nm in tests:
                     if above(b["c"], k) and not above(p["c"], k) and abs(b["c"] - k) <= F["band"]:
