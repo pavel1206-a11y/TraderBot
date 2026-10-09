@@ -17,7 +17,7 @@ quotes for the contract. Rules for graduating to real money are in
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: none.
+Open: 10/9 E/F long (SPY 778C at $0.77 + SPY fractional 0.6425 sh at $778.25), entered 12:50 PM.
 
 By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1 · Momentum E 2
 
@@ -1432,3 +1432,12 @@ ARMED (valid until 12:42; prior 10-bar average ≈ 80k):
 ARMED (valid until 12:57; prior 10-bar average ≈ 75k):
 - E/F long: close **$778.24–778.34** (above today's high), ≥ 1.0× (≈ 75k) or ≥ 0.7× with a same-bar QQQ high above $751.08; QQQ above its VWAP; stop $777.84; target entry + 1.5R (≤ $779.10 or skip); 0DTE call ≤ $100; valid until 12:57.
 - F short: close **$776.44–776.54**, same terms; valid until 12:57.
+
+**Setup check (12:58 PM ET): armed E/F long FIRED at 12:45 (armed, replayed); open**
+- Trigger: the 12:45 bar closed **$778.25** (band $778.24–778.34) on 124.5k = 1.71× the prior 10-bar average (72.8k); QQQ $750.88 above its VWAP ($750.13). Fired as written. (The F short did not fire.)
+- Score card (B, as armed): 1 above a rising VWAP ($776.83) ✅ · 2 ADX ⚠️ not checked · 3 close through today's high / squeeze top ✅ · 4 volume ≥ 1.0× ✅ · 5 QQQ agrees ✅ · 6 4H (12–4 PM) building up ✅ · 7 room to Wednesday's high $779.10 ≥ 1.5R ✅ · 8 in band, not chasing ✅ · 9 trend day: no (range morning) ❌ · 10 time before 2:30 ✅. Graded B.
+- Plan: SPY entry $778.25, stop $777.84 (risk $0.41), target **$778.87** (+1.5R, under $779.10). Time stop 1:20 (30 min).
+  - **0DTE leg: SPY 10/9 778C** (nearest the money; 779C was $0.32). Entry **$0.77** (bar close $0.75 + half spread) = $77, fits the $100 cap. Option target +50% = $1.16; option stop −45% ≈ $0.42, or the SPY stop first.
+  - **Fractional leg: SPY** 0.6425 sh (≈ $500, 50% cap) at $778.25, alert-stop $777.84 (risk ≈ $0.26), target $778.87, out by 3:45.
+- Since entry (12:50 bar): SPY high $778.70 (target not hit), low $778.26; 778C high $1.06 (+38%), close $0.78. Up 30% touched → option stop raised to break-even $0.77 (stops only move up).
+- ARMED (valid until 1:12): none new; one position at a time. Manage the open long at the next check.
