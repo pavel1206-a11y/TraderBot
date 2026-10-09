@@ -1348,3 +1348,11 @@ ARMED (valid until 2:27, the final window before the 2:30 cutoff; prior 10-bar a
 
 ARMED (9:45–10:12; uses the final 9:30–9:45 range):
 - ARMED A short (ORB): trigger = 5-min close below the range low (now $775.88), no more than $0.10 below it, on ≥ 1.0× the opening-range average bar volume, SPY below its VWAP, QQQ below its VWAP; entry = trigger close; stop = range high + $0.10 (now $776.94); target = entry − 1.5R (≈ $774.2), only if the pivot $773.82 leaves ≥ 1.5R; option = nearest-the-money 0DTE put ≤ $100 (new $1,000 cap); valid until 10:12.
+
+**Setup check (9:58 AM ET): nothing fired**
+- Final opening range: **$775.35–776.84** ($1.49 wide). The A short had to close $775.25–775.35. Closes were $775.78 and $775.735 → **not fired.** Its stop would be $776.94 (risk $1.64, over the $1.50 max), and the pivot $773.82 is only 0.9R away, so it would have been skipped anyway.
+- SPY $775.74 sits on a flat VWAP (≈ $775.9). **QQQ is selling hard** ($748.78, −$3.8 from the open) while SPY holds, a divergence. Score: factor 1 ❌ (flat, chopping). No A or B setup.
+- 4H (8 AM–12 PM): opened ≈ $777 pre-market, fading. No squeeze yet.
+
+ARMED (valid until 10:12):
+- ARMED B short (VWAP rejection): trigger = 5-min bar whose high comes within $0.10 of VWAP and closes below VWAP and below the prior close, after 3 closes below VWAP, QQQ below its VWAP; entry = trigger close; stop = max(bar high, VWAP) + $0.30; target = entry − 1.5R, only if the pivot $773.82 leaves ≥ 1.5R; option = nearest-the-money 0DTE put ≤ $100; valid until 10:12.
