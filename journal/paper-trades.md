@@ -1475,3 +1475,11 @@ ARMED (valid until 1:57; prior 10-bar average ≈ 65k):
 
 ARMED (valid until 2:12; prior 10-bar average ≈ 43k):
 - ARMED F short: close **$776.44–776.54**, ≥ 1.0× (≈ 43k) or ≥ 0.7× if QQQ closes below $749.13; QQQ below its VWAP; stop the closer of $777.72 and candle high + $0.10; target entry − 1.5R; nearest-the-money 0DTE put ≤ $100; valid until 2:12.
+
+**Setup check (2:14 PM ET): nothing fired; last arming window**
+- Replay: F short did not fire (lowest close $778.11).
+- SPY $778.49 creeping up toward the $778.70 squeeze top on light volume (48k). QQQ $750.97 above its VWAP. 4H (12–4 PM): small up candle, no D. Squeeze (F) since 10:50: $776.54–778.70.
+- No fresh close through a level. A long over $778.70 still lacks 1.5R room to Wednesday's high $779.10.
+
+ARMED (final window; entries only on bar closes through 2:25, then no new 0DTE after 2:30; prior 10-bar average ≈ 40k):
+- ARMED F short: close **$776.44–776.54**, ≥ 1.0× (≈ 40k) or ≥ 0.7× if QQQ closes below $749.13; QQQ below its VWAP; stop the closer of $777.72 and candle high + $0.10; target entry − 1.5R; nearest-the-money 0DTE put ≤ $100; valid until 2:27.
