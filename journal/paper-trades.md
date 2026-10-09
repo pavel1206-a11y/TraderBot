@@ -1424,3 +1424,11 @@ ARMED (valid until 12:27; prior 10-bar average ≈ 85k): the same two lines.
 ARMED (valid until 12:42; prior 10-bar average ≈ 80k):
 - E long: close **$778.11–778.21** (above Tuesday's low and today's high), ≥ 1.0× (≈ 80k) or ≥ 0.7× with a same-bar QQQ high above $751.08; QQQ above its VWAP; stop $777.70; target entry + 1.5R (≤ $779.10 or skip); 0DTE call ≤ $100; valid until 12:42.
 - F short: close **$776.44–776.54**, same terms as before; valid until 12:42.
+
+**Setup check (12:43 PM ET): nothing fired; coiling at Tuesday's low**
+- Replay: E long did not fire (closes $777.94–777.99; the high of $778.23 never closed ≥ $778.11). F short did not fire.
+- SPY $777.94 sits in a very tight $777.74–778.23 band since 12:15, just under Wednesday's high $779.10. QQQ $750.46 is flat above its VWAP. Wider squeeze since 10:50: $776.54–778.23.
+
+ARMED (valid until 12:57; prior 10-bar average ≈ 75k):
+- E/F long: close **$778.24–778.34** (above today's high), ≥ 1.0× (≈ 75k) or ≥ 0.7× with a same-bar QQQ high above $751.08; QQQ above its VWAP; stop $777.84; target entry + 1.5R (≤ $779.10 or skip); 0DTE call ≤ $100; valid until 12:57.
+- F short: close **$776.44–776.54**, same terms; valid until 12:57.
