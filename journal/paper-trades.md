@@ -1340,3 +1340,11 @@ ARMED (valid until 2:27, the final window before the 2:30 cutoff; prior 10-bar a
 - Gap < $4: normal ORB rules.
 - **Bias: none.** The gap opens into R1 resistance after Thursday's −$5 selloff. Bullish only on acceptance above $777.96; bearish below the pivot $773.8.
 - Today is Friday: weekly review at EOD (backtest and option-replay findings, the F-only proposal, graduation check). The playbook is unchanged until the owner OKs the F-only proposal.
+
+**Setup check (9:43 AM ET): opening range forming**
+- SPY opened $776.24. The range so far is **$775.88–776.84** (9:40 bar still open); first bars 256k and 169k. SPY $776.65 is holding. **QQQ is weak** ($751.57, new lows at $750.20), so the two diverge.
+- An ORB long has no room: R1 $777.20 is $0.36 above the range high. Not armed.
+- An ORB short has room to the pivot $773.82 (about 1.8R at the current range).
+
+ARMED (9:45–10:12; uses the final 9:30–9:45 range):
+- ARMED A short (ORB): trigger = 5-min close below the range low (now $775.88), no more than $0.10 below it, on ≥ 1.0× the opening-range average bar volume, SPY below its VWAP, QQQ below its VWAP; entry = trigger close; stop = range high + $0.10 (now $776.94); target = entry − 1.5R (≈ $774.2), only if the pivot $773.82 leaves ≥ 1.5R; option = nearest-the-money 0DTE put ≤ $100 (new $1,000 cap); valid until 10:12.
