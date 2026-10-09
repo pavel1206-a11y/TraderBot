@@ -1356,3 +1356,9 @@ ARMED (9:45–10:12; uses the final 9:30–9:45 range):
 
 ARMED (valid until 10:12):
 - ARMED B short (VWAP rejection): trigger = 5-min bar whose high comes within $0.10 of VWAP and closes below VWAP and below the prior close, after 3 closes below VWAP, QQQ below its VWAP; entry = trigger close; stop = max(bar high, VWAP) + $0.30; target = entry − 1.5R, only if the pivot $773.82 leaves ≥ 1.5R; option = nearest-the-money 0DTE put ≤ $100; valid until 10:12.
+
+**Setup check (10:22 AM ET): nothing fired; chop**
+- Replay: the B short did not fire. The 9:55 bar closed $776.06, above VWAP (≈ $775.95), and after that the "3 closes below VWAP" condition no longer held.
+- SPY $776.42 is back above a flat VWAP, inside $775.14–776.84 since 9:40. QQQ $749.66 is flat at its lows. SPY/QQQ divergence; factor 1 ❌.
+- 4H (8 AM–12 PM): sideways. Squeeze forming: $775.14–776.84 ($1.70, about 45 min); F is valid from 11:00.
+- ARMED (until 10:42): none. A long over $776.84 has no room to R1 $777.20, and a short has no strong break level inside the range.
