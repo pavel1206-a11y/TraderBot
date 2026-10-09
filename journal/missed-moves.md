@@ -109,3 +109,7 @@ Rest of day: the 12:15 spike +$2.47 intrabar (774.62 → 777.09, fully reversed,
 ### Patterns added
 10. **Gap-through on breakdown bars** (10/8): strong breakouts often close well past a $0.10 band. Option to test: if the bar closes past the band but within ~0.5R of the level, enter on the next bar's retest of the level (C) rather than drop the line. Balance against the 10/6 replay result that wider bands lost money.
 11. **Climax-bar entries** (10/8): an E break that comes after a > $5 leg on the session's biggest volume reversed immediately. Test a "no E entries > 2× ATR(5-min) from VWAP" filter.
+
+## 2026-10-09 (Fri)
+
+No qualifying move. Window range $775.14–778.78 ($3.64 over ~4 hours, never $2.50 inside an hour). The 12:45 squeeze break was traded (E/F long, stopped). After the 2:30 cutoff SPY broke $778.70 on 211k (2:50 bar) to $779.42, only +$0.7 and out of window.
