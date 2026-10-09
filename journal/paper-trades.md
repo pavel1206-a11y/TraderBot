@@ -1364,3 +1364,5 @@ ARMED (valid until 10:12):
 - ARMED (until 10:42): none. A long over $776.84 has no room to R1 $777.20, and a short has no strong break level inside the range.
 
 **Setup check (10:28 AM ET): nothing armed, nothing open.** SPY $776.62 is drifting up inside $775.14–776.84 under R1 $777.20. QQQ $749.69 is flat at its lows. No A/B setup; no arms (same reasons as 10:22).
+
+**Setup check (10:43 AM ET): nothing armed, nothing open.** SPY $776.35 has held $775.14–776.84 for ~1 hour ($1.70 wide), the squeeze range for F (valid from 11:00). QQQ $749.82 is just off its lows. 4H (8 AM–12 PM): range-bound. The F short under $775.14 has room to the pivot $773.82 and will be armed at the 10:57 check (for bars from 11:00). An F long over $776.84 has no room to R1 $777.20.
