@@ -1391,3 +1391,11 @@ ARMED (valid until 11:27; prior 10-bar average ≈ 105k):
 
 ARMED (valid until 11:42; prior 10-bar average ≈ 112k):
 - ARMED E long (Tuesday's-low reclaim): trigger = 5-min close **$777.96–778.06** on ≥ 1.0× (≈ 112k), or ≥ 0.7× with a same-bar QQQ high above $750.84; QQQ above its VWAP; entry = trigger close; stop $777.56; target = entry + 1.5R (room to $779.10); option = nearest-the-money 0DTE call ≤ $100; valid until 11:42.
+
+**Setup check (11:43 AM ET): nothing fired; squeeze under R1**
+- Replay: the Tuesday's-low long did not fire (highest close since 11:25 was $777.20).
+- SPY $777.20. **Squeeze range (F) since 10:50: $776.54–777.80** (55 min, $1.26 wide), capped by R1 and Tuesday's low. QQQ $750.28 is around its VWAP, chopping.
+- An F long over $777.80 has no room ($777.96 is $0.16 above). Not armed.
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 100k):
+- ARMED F short (squeeze break): trigger = 5-min close **$776.44–776.54** on ≥ 1.0× (≈ 100k), or ≥ 0.7× if QQQ closes below $749.13 on the same bar; QQQ below its VWAP; entry = trigger close; stop = the closer of the range midpoint + $0.10 ($777.27) and the trigger candle high + $0.10; target = entry − 1.5R; option = nearest-the-money 0DTE put ≤ $100; valid until 11:57.
