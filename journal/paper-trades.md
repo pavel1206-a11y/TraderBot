@@ -1488,3 +1488,6 @@ ARMED (final window; entries only on bar closes through 2:25, then no new 0DTE a
 - Replay: F short did not fire (closes $778.47–778.66, nowhere near $776.54; the 2:25 bar is checked at the next check).
 - SPY $778.66 pressing the squeeze top (high $778.74 vs $778.70) with QQQ at a new day high $751.66. No close through $778.70 yet; even if one comes it has no 1.5R room under Wednesday's high $779.10, and no new 0DTE after 2:30.
 - No more arming today (past 2:15). Open: none.
+
+**Setup check (2:43 PM ET): entry window closed; nothing open**
+- Replay: the 2:25 bar closed $778.62; the F short did not fire. SPY $778.57, holding just under the $778.70–778.78 top. No new 0DTE after 2:30, no open trades. Next: 3:47 EOD and the Friday weekly review.
