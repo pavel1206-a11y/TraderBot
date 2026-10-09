@@ -1376,3 +1376,11 @@ ARMED (valid until 10:12):
 ARMED (valid until 11:12; prior 10-bar average ≈ 100k):
 - ARMED E long (R1 break): trigger = 5-min close **$777.20–777.30** on ≥ 1.0× (≈ 100k), or ≥ 0.7× if QQQ closes above $750.57 on the same bar; QQQ above its VWAP; entry = trigger close; stop $776.80; target = entry + 1.5R, only if ≤ $777.96 (room check); option = nearest-the-money 0DTE call ≤ $100; valid until 11:12.
 - ARMED E long (Tuesday's-low reclaim): trigger = 5-min close **$777.96–778.06** on ≥ 1.0× (≈ 100k), or ≥ 0.7× with a QQQ same-bar new high; QQQ above its VWAP; entry = trigger close; stop $777.56; target = entry + 1.5R (room to Wednesday's high $779.10); option = nearest-the-money 0DTE call ≤ $100; valid until 11:12.
+
+**Setup check (11:18 AM ET): nothing fired; stalling at R1**
+- Replay of the R1 long: the 10:55 bar closed $777.32, $0.02 over the band, on 96k (0.96×; QQQ did not make a same-bar high). Not fired, two reasons. It would have failed the room check anyway (1.5R target $778.10 > $777.96), and the 11:05 low $776.535 would have stopped it. The Tuesday's-low long: no trade near $777.96.
+- SPY $777.15 is chopping at R1 ($776.54–777.57 since 10:50). QQQ $749.51 is soft again. Range since 9:40: $775.14–777.57 ($2.43, F-eligible). Its edges sit at R1 above and near the morning low below.
+- 4H (8 AM–12 PM): range-bound with an upside poke.
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 105k):
+- ARMED E long (Tuesday's-low reclaim): trigger = 5-min close **$777.96–778.06** on ≥ 1.0× (≈ 105k), or ≥ 0.7× with a same-bar QQQ high above $750.84; QQQ above its VWAP; entry = trigger close; stop $777.56; target = entry + 1.5R (room to $779.10); option = nearest-the-money 0DTE call ≤ $100; valid until 11:27.
