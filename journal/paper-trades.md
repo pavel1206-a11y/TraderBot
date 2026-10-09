@@ -1327,3 +1327,16 @@ ARMED (valid until 2:27, the final window before the 2:30 cutoff; prior 10-bar a
   - Three short entries today missed winners on wording: the 12:45 band gap-through (+1.5R), and the 12:55 "below the prior close" filter (+1.5R; that filter was my addition, not playbook text).
   - The one that did fire (1:25) was a climax bar and reversed.
 - Missed: −$5.1 (12:40–1:25); see missed-moves.md.
+
+### 2026-10-09 (Fri)
+
+**Pre-market brief (8:55 AM ET)**
+- SPY pre-market $776.33 (8:40 bar; gap up ≈ $2.40 / +0.3% vs Thursday's $773.93 close), fading from $777.78. QQQ $752.51 is softer.
+- Thursday: high $777.09, low $770.44, close $773.93.
+- Pivots: R2 $780.47, **R1 $777.20**, **P $773.82**, **S1 $770.55**, S2 $767.16.
+- 20/50-day SMA ≈ $767 / $766 (from daily closes), so the daily uptrend is intact.
+- Strong levels: **$777.1–777.96** (R1, Thursday's spike high, Tuesday's low), **$773.6–773.9** (pivot, Wednesday's low, Thursday's close), $770.4–770.6 (Thursday's low and S1), $779.1 (Wednesday's high).
+- News and calendar: not checked (Alpha Vantage rate-limited). Treat 10:00 AM as a possible data time.
+- Gap < $4: normal ORB rules.
+- **Bias: none.** The gap opens into R1 resistance after Thursday's −$5 selloff. Bullish only on acceptance above $777.96; bearish below the pivot $773.8.
+- Today is Friday: weekly review at EOD (backtest and option-replay findings, the F-only proposal, graduation check). The playbook is unchanged until the owner OKs the F-only proposal.
