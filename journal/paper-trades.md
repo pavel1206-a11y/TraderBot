@@ -1362,3 +1362,5 @@ ARMED (valid until 10:12):
 - SPY $776.42 is back above a flat VWAP, inside $775.14–776.84 since 9:40. QQQ $749.66 is flat at its lows. SPY/QQQ divergence; factor 1 ❌.
 - 4H (8 AM–12 PM): sideways. Squeeze forming: $775.14–776.84 ($1.70, about 45 min); F is valid from 11:00.
 - ARMED (until 10:42): none. A long over $776.84 has no room to R1 $777.20, and a short has no strong break level inside the range.
+
+**Setup check (10:28 AM ET): nothing armed, nothing open.** SPY $776.62 is drifting up inside $775.14–776.84 under R1 $777.20. QQQ $749.69 is flat at its lows. No A/B setup; no arms (same reasons as 10:22).
