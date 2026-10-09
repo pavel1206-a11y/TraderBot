@@ -1384,3 +1384,10 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 100k):
 
 ARMED (valid until 11:27; prior 10-bar average ≈ 105k):
 - ARMED E long (Tuesday's-low reclaim): trigger = 5-min close **$777.96–778.06** on ≥ 1.0× (≈ 105k), or ≥ 0.7× with a same-bar QQQ high above $750.84; QQQ above its VWAP; entry = trigger close; stop $777.56; target = entry + 1.5R (room to $779.10); option = nearest-the-money 0DTE call ≤ $100; valid until 11:27.
+
+**Setup check (11:28 AM ET): nothing fired**
+- Replay: the Tuesday's-low long did not fire (high $777.80, highest close $777.61, under $777.96).
+- SPY $777.48 is grinding up under $777.96 on ≈ 1.1× volume. QQQ $750.26 is recovering toward its VWAP. Range since 10:50: $776.54–777.80.
+
+ARMED (valid until 11:42; prior 10-bar average ≈ 112k):
+- ARMED E long (Tuesday's-low reclaim): trigger = 5-min close **$777.96–778.06** on ≥ 1.0× (≈ 112k), or ≥ 0.7× with a same-bar QQQ high above $750.84; QQQ above its VWAP; entry = trigger close; stop $777.56; target = entry + 1.5R (room to $779.10); option = nearest-the-money 0DTE call ≤ $100; valid until 11:42.
