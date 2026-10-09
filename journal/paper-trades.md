@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 4 | 1 | 3 | 25% | +$42 | -$17.00 | -$9 |
+| Options, B grade | 5 | 1 | 4 | 20% | +$42 | -$13.25 | -$11 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
 | Fractional, B grade | 3 | 0 | 3 | 0% | – | -$0.17 | -$0.51 |
-| **All** | 9 | 3 | 6 | 33% | +$18.60 | -$8.59 | +$4.30 |
+| **All** | 10 | 3 | 7 | 30% | +$18.60 | -$7.65 | +$2.30 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: 10/9 E/F long (SPY 778C at $0.77 + SPY fractional 0.6425 sh at $778.25), entered 12:50 PM.
+Open: 10/9 E/F long, fractional leg only (SPY 0.6425 sh at $778.25, entered 12:50 PM); the 778C leg was closed at 12:55 for −$2.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1 · Momentum E 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1 · Momentum E 2 · E/F (10/9) 1
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -1441,3 +1441,11 @@ ARMED (valid until 12:57; prior 10-bar average ≈ 75k):
   - **Fractional leg: SPY** 0.6425 sh (≈ $500, 50% cap) at $778.25, alert-stop $777.84 (risk ≈ $0.26), target $778.87, out by 3:45.
 - Since entry (12:50 bar): SPY high $778.70 (target not hit), low $778.26; 778C high $1.06 (+38%), close $0.78. Up 30% touched → option stop raised to break-even $0.77 (stops only move up).
 - ARMED (valid until 1:12): none new; one position at a time. Manage the open long at the next check.
+
+**Setup check (1:13 PM ET): option leg stopped at break-even; fractional leg open**
+- Since 12:55: SPY $778.22 → $778.35 → **$778.02** (high $778.44; target $778.87 not hit; stop $777.84 not hit). QQQ $750.38, still above its VWAP.
+- **0DTE leg closed:** the 778C fell to $0.70 on the 12:55 bar, hitting the break-even stop ($0.77, raised after the +38% touch). Fill $0.75 (stop less half spread) → **−$2 (−3%).** It is now $0.59.
+- **Fractional leg open:** SPY 0.6425 sh at $778.25, now $778.02 (−$0.15). Alert-stop $777.84, target $778.87; time stop 1:20 (30 min with no progress) is reviewed at the next check.
+- 4H (12–4 PM): small up candle ≈ $777.4 → $778.0, no D. Squeeze (F) since 10:50 is now $776.54–778.70 ($2.16).
+- Running totals: **10 trades closed, 3 wins, 7 losses, +$2.30** (fractional leg pending).
+- ARMED (valid until 1:27): none; one position open.
