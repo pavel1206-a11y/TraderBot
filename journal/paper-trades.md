@@ -1366,3 +1366,13 @@ ARMED (valid until 10:12):
 **Setup check (10:28 AM ET): nothing armed, nothing open.** SPY $776.62 is drifting up inside $775.14–776.84 under R1 $777.20. QQQ $749.69 is flat at its lows. No A/B setup; no arms (same reasons as 10:22).
 
 **Setup check (10:43 AM ET): nothing armed, nothing open.** SPY $776.35 has held $775.14–776.84 for ~1 hour ($1.70 wide), the squeeze range for F (valid from 11:00). QQQ $749.82 is just off its lows. 4H (8 AM–12 PM): range-bound. The F short under $775.14 has room to the pivot $773.82 and will be armed at the 10:57 check (for bars from 11:00). An F long over $776.84 has no room to R1 $777.20.
+
+**Setup check (10:58 AM ET): range broke UP at 10:50; no entry (before the F window, outside the band)**
+- No triggers were armed. The 10:50 bar closed **$777.08**, above the $776.84 range top, on 162k (≈ 1.6×), with QQQ turning up ($750.50, back above its VWAP).
+  - F starts at 11:00, so F does not apply. As an E break of $776.84 the close was $0.24 past (band $0.10), and R1 $777.20 is just overhead. Not a trade.
+- SPY $777.08 sits under R1 $777.20 / Tuesday's low $777.96 (resistance band). Above it: Wednesday's high $779.10, then R2 $780.47.
+- 4H (8 AM–12 PM): breaking up out of the morning range. The F short line is dropped (the range broke the other way).
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 100k):
+- ARMED E long (R1 break): trigger = 5-min close **$777.20–777.30** on ≥ 1.0× (≈ 100k), or ≥ 0.7× if QQQ closes above $750.57 on the same bar; QQQ above its VWAP; entry = trigger close; stop $776.80; target = entry + 1.5R, only if ≤ $777.96 (room check); option = nearest-the-money 0DTE call ≤ $100; valid until 11:12.
+- ARMED E long (Tuesday's-low reclaim): trigger = 5-min close **$777.96–778.06** on ≥ 1.0× (≈ 100k), or ≥ 0.7× with a QQQ same-bar new high; QQQ above its VWAP; entry = trigger close; stop $777.56; target = entry + 1.5R (room to Wednesday's high $779.10); option = nearest-the-money 0DTE call ≤ $100; valid until 11:12.
