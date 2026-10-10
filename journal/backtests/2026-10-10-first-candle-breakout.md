@@ -20,3 +20,11 @@ All stopped versions lost in both halves (1R: 45% / 44% winners, about −0.13R 
 
 ## Read
 A break of the first candle is close to a coin flip on SPY. The only positive month-long result (no stop, hold to close) breaks the "every trade has a stop" rule, and it lost over March–June. Not a candidate for the playbook as is.
+
+## Follow-up: "make it 80–90%" (owner, 2026-10-10)
+Search: 640 combinations (`orb_search.py`): entry on touch or 5-min close; target 0.25–1.5R; stop at the other side or the midpoint; filters for gap direction, QQQ also breaking its first candle, VWAP side, candle width ≤ $1, cutoff 10:30 or 3:00. Ranked on Mar–Jun, checked on Jul–Oct 8.
+
+- **No combination reached 80% on Mar–Jun with 20+ trades, and none above 73% made money there.**
+- Highest win rate: touch entry, QQQ must also break its first candle, stop at the other side, **target 0.25R**. Win rate 73% (Mar–Jun) and 86% (Jul–Oct). Over all 6 months: 68 trades, **79% wins, avg win $0.36, avg loss −$1.37, net +$0.21/share** (≈ breakeven). By month: Mar −$2.41, Apr −$2.54, May +$0.73, Jun +$0.89, Jul −$1.59, Aug +$3.90 (12/12), Sep +$0.77, Oct +$0.46.
+- Why: a high win rate here comes from a tiny target and a wide stop. At 80% wins the break-even payoff is avg win ≥ 0.25 × avg loss; this rule sits right at that line (0.26×), so one extra loss a month wipes it out. 0DTE option spread and decay on a $0.25–0.40 SPY target would push it negative.
+- Verdict: an 80–90% win rate is reachable, but only by trading a small, frequent win for a rare large loss, and it does not make money. Not recommended for the playbook.
