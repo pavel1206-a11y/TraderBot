@@ -16,7 +16,7 @@ Same 66 F entries as the 10/9 backtest (current rules), each re-managed with 10 
 | Half at +0.25R, rest BE, target 1.5R | +0.05 / −0.10 | −4.12 / −9.22 | 24 / 21 |
 
 Checks on the trailing plan:
-- Neighbors (trail 0.3–0.75R, starting at +0.3/+0.5/+0.75R): SPY R positive everywhere (+0.18 to +0.53R). In options, starting the trail at +0.5R or +0.75R was positive in both halves in 5 of 6 neighbors (exception: 0.75R trail after +0.75R, train −$0.59); starting at +0.3R tended to lose on valid. So "start trailing after +0.5–0.75R, trail 0.4–0.6R" is a stable region, not a single lucky point.
+- Neighbors (trail 0.3–0.75R, starting at +0.3/+0.5/+0.75R): SPY R positive everywhere (+0.18 to +0.53R). In options, starting the trail at +0.5R or +0.75R was positive in both halves in 9 of 10 combinations (exception: 0.75R trail after +0.75R, train −$0.59); starting at +0.3R tended to lose on valid. So "start trailing after +0.5–0.75R, trail 0.4–0.6R" is a stable region, not a single lucky point.
 - Last month (9/10–10/8, 10 trades): trail −1.58R / −$44 options vs current +1.36R / +$2. Worse.
 - Lockbox (2/23–3/20, 6 trades; opened before for the entries, never for exits): trail −2.73R / −$70 vs current −1.52R / −$55. Both lose.
 - Option slippage: $0.01/side +$3.04 / +$4.02 per trade; $0.02 +$1.04 / +$2.02; $0.03 −$1.05 / +$0.02.
