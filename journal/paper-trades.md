@@ -1563,3 +1563,11 @@ ARMED (valid until 10:12; volume baseline ≈ 150k, the average since 9:30):
 
 ARMED (valid until 10:42; prior 10-bar average ≈ 93k):
 - ARMED E short (day-low / pivot break): trigger = 5-min close **$777.50–777.60** on ≥ 1.0× (≈ 93k), or ≥ 0.7× with a same-bar QQQ low below $745.19; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to S1 $776.00); option = nearest-the-money 0DTE put ≤ $100; valid until 10:42.
+
+**Setup check (10:43 AM ET): nothing fired; tight base on the pivot**
+- Replay: E short did not fire (closes $777.87–777.89; low $777.61, never closed ≤ $777.60).
+- SPY $777.87 has held **$777.60–778.27** since 10:05 (40 min, $0.67 wide) on fading volume (50–56k). QQQ $745.99, flat near its lows, well below VWAP. 4H (8–12): small down drift, no D.
+- A squeeze is forming; setup F is valid from 11:00 once it has 45 minutes.
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 81k):
+- ARMED E short: close **$777.50–777.60**, same terms (≥ 1.0× ≈ 81k, or ≥ 0.7× with a same-bar QQQ low below $745.19; SPY and QQQ below their VWAPs; stop entry + $0.40; target −1.5R, room to $776.00; 0DTE put ≤ $100).
