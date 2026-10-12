@@ -1665,3 +1665,11 @@ ARMED (valid until 1:27; prior 10-bar average ≈ 63k): the same two lines.
 ARMED (valid until 1:42; prior 10-bar average ≈ 50k): the same two lines.
 - E short: close **$777.30–777.40** (≥ 1.0× ≈ 50k or ≥ 0.7× with a QQQ low below $745.19; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $776.00).
 - E long: close **$779.43–779.53** (same terms as before).
+
+**Setup check (1:43 PM ET): nothing fired; afternoon squeeze set**
+- Replay: E short did not fire (lowest close $777.48 at 1:30; low $777.42, day low $777.40 held). E long did not fire.
+- **Squeeze (F) since 12:50: $777.40–777.96** (55 min, $0.56; midpoint $777.68). SPY $777.70; QQQ $745.86 below its VWAP near its lows. 4H (12–4): red, no D.
+
+ARMED (valid until 1:57; prior 10-bar average ≈ 52k):
+- ARMED F short (squeeze + day-low break): close **$777.30–777.40** on ≥ 1.0× (≈ 52k), or ≥ 0.7× with a same-bar QQQ low below $745.19; QQQ below its VWAP; stop = the closer of $777.78 and candle high + $0.10; target = entry − 1.5R (room to $776.00); 0DTE put ≤ $100.
+- ARMED F long: close **$777.97–778.07** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $746.27; QQQ above its VWAP; stop = the closer of $777.58 and candle low − $0.10; target = entry + 1.5R (room to $779.14); 0DTE call ≤ $100.
