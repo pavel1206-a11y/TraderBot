@@ -1697,3 +1697,9 @@ ARMED (last window; entries only on bar closes through 2:25; prior 10-bar averag
 
 **Setup check (2:43 PM ET): entry window closed; nothing open**
 - Replay: the 2:25 bar closed $777.38 (band $777.24–777.34); the F short did not fire. SPY $777.45 holding $777.28–777.48; QQQ $745.55. No new 0DTE after 2:30. Next: 3:47 EOD.
+
+**End of day (3:48 PM ET)**
+- Nothing open; no close-out needed. SPY dipped to $777.05 at 2:50 (after the entry cutoff), then bounced to $777.92 into 3:35, ≈ $777.77 at 3:45.
+- Today: **1 setup (F long squeeze break at 11:40, armed, replayed), both legs hit target:** 779C +$18 (+50%), SPY fractional +$0.34. Day **+$18.34.**
+- Note: a tight, low-volume holiday session ($777.05–779.40). The QQQ-above-VWAP filter blocked a weak 11:00 attempt and the 11:40 break worked. The three afternoon short near-misses ($0.02–0.11 outside the band) would not have won: from any of them the low was $777.05 (under 1R) before a bounce through the stops. The $0.10 band did its job today.
+- Running totals: **13 trades, 5 wins, 8 losses, +$20.38** (options +$20.50, fractional −$0.12).

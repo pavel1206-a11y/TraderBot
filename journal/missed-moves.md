@@ -113,3 +113,7 @@ Rest of day: the 12:15 spike +$2.47 intrabar (774.62 → 777.09, fully reversed,
 ## 2026-10-09 (Fri)
 
 No qualifying move. Window range $775.14–778.78 ($3.64 over ~4 hours, never $2.50 inside an hour). The 12:45 squeeze break was traded (E/F long, stopped). After the 2:30 cutoff SPY broke $778.70 on 211k (2:50 bar) to $779.42, only +$0.7 and out of window.
+
+## 2026-10-12 (Mon, Columbus Day)
+
+No qualifying move. Window range $777.28–779.40 ($2.12 all day). The one directional move (11:40 squeeze break +$0.59 to $779.14) was traded (F long, both legs hit target). Afternoon drift lower to $777.05 came after 2:30 and was under $1.
