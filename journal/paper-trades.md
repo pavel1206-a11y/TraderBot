@@ -1624,3 +1624,12 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 53k): the same two lines.
 
 ARMED (valid until 12:27; prior 10-bar average ≈ 57k):
 - ARMED E long (OR high / Friday high break): trigger = 5-min close **$779.43–779.53** on ≥ 1.0× (≈ 57k), or ≥ 0.7× with a same-bar QQQ high above $748.09; SPY and QQQ above their VWAPs; entry = trigger close; stop = entry − $0.40; target = entry + 1.5R (room to R1 $780.28); 0DTE call ≤ $100; valid until 12:27. (Same direction as the winner, a new level and plan: not a chase.)
+
+**Setup check (12:28 PM ET): nothing fired; give-back after the target**
+- Replay: E long did not fire (closes $778.10–778.81).
+- The 12:20 bar dropped to **$778.10** on 84k (1.3×); QQQ $746.80 slipped back under its VWAP (≈ $747.0). SPY is back under its own VWAP (≈ $778.4). Chop between $777.60 (day low) and $779.14 (day high).
+- 4H (12–4): small red so far, no D.
+
+ARMED (valid until 12:42; prior 10-bar average ≈ 65k):
+- E long: close **$779.43–779.53**, same terms (≥ 1.0× ≈ 65k or ≥ 0.7× with a same-bar QQQ high above $748.09; SPY and QQQ above VWAP; stop entry − $0.40; target +1.5R, room to $780.28).
+- E short (day-low break): close **$777.50–777.60**, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ low below $745.19; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R (room to $776.00); 0DTE put ≤ $100.
