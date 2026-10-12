@@ -1525,3 +1525,16 @@ ARMED (final window; entries only on bar closes through 2:25, then no new 0DTE a
 2. **Decide whether the 10/6 A* trades count** toward graduation (I recommend: no).
 3. **Track, don't adopt yet:** no F entries after 2:00 PM (lost in every backtest window); patterns 10 (gap-through retest entry) and 11 (no E entries > 2× ATR from VWAP).
 4. **Keep the +1.5R first target.** Two near-misses this week, but the backtest found +1.5R beat +1.0R and next-level exits; changing it on two trades would be curve-fitting.
+
+### 2026-10-12 (Mon)
+
+**Pre-market brief (8:55 AM ET)**
+- Columbus Day: **stock market open**, bond market closed. Expect thin volume.
+- SPY pre-market **$778.58** (flat vs Friday's $778.57; overnight range $778.28–781.00). QQQ $750.05 (−0.16%).
+- Friday: high $779.42, low $775.14, close $778.57.
+- Pivots: R2 $781.99, **R1 $780.28**, **P $777.71**, S1 $776.00, S2 $773.43.
+- 20-day SMA $767.98, 50-day SMA $767.57 (price ≈ $10.6 above both; daily uptrend intact).
+- Strong levels: **$781.62** (10/6 high) · **$779.10–779.42** (Wed + Fri highs) · $777.7 (pivot) · $775.14–776.00 (Fri low + S1) · $773.43–773.61 (S2 + Wed low).
+- News: Alpha Vantage news feed unavailable (premium limit). No scheduled US data today that I can confirm. Q3 bank earnings and September CPI are likely later this week (dates not confirmed) — check before Tuesday–Thursday trades.
+- **Bias: none (neutral, slight bullish lean).** Bullish above $779.42 with volume (room to R1 $780.28 / $781.62); bearish below the pivot $777.7 (room to $776.0 / $775.14). Holiday volume: the volume rules need extra care.
+- Playbook unchanged (F-only, trailing-exit and limit-at-mid proposals await the owner).
