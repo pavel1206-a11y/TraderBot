@@ -1538,3 +1538,11 @@ ARMED (final window; entries only on bar closes through 2:25, then no new 0DTE a
 - News: Alpha Vantage news feed unavailable (premium limit). No scheduled US data today that I can confirm. Q3 bank earnings and September CPI are likely later this week (dates not confirmed) — check before Tuesday–Thursday trades.
 - **Bias: none (neutral, slight bullish lean).** Bullish above $779.42 with volume (room to R1 $780.28 / $781.62); bearish below the pivot $777.7 (room to $776.0 / $775.14). Holiday volume: the volume rules need extra care.
 - Playbook unchanged (F-only, trailing-exit and limit-at-mid proposals await the owner).
+
+**9:43 AM ET: opening range forming**
+- SPY opened $778.78; range so far **$778.68–779.40** ($0.72, tight), right at Friday's high $779.42. Now $779.25. QQQ weaker: flushed to $747.10 on the first bar, back to $749.43 (still below Friday's close $751.27).
+- The A (ORB) lines fail the room check today: a long over ~$779.42 has only $0.86 to R1 $780.28 against a ~$0.85 stop; a short under ~$778.67 has $0.96 to the pivot $777.71. Not armed.
+
+ARMED (9:45–10:12; volume baseline = average of the bars since 9:30, ≈ 225k):
+- ARMED E long (R1 break): trigger = 5-min close **$780.28–780.38** on ≥ 1.0× (≈ 225k), or ≥ 0.7× with a same-bar QQQ high above its OR high; SPY and QQQ above their VWAPs; entry = trigger close; stop = entry − $0.40; target = entry + 1.5R (room to $781.62); option = nearest-the-money 0DTE call ≤ $100; valid until 10:12.
+- ARMED E short (pivot break): trigger = 5-min close **$777.61–777.71** on ≥ 1.0× (≈ 225k), or ≥ 0.7× with a same-bar QQQ low below its OR low; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to $776.00); option = nearest-the-money 0DTE put ≤ $100; valid until 10:12.
