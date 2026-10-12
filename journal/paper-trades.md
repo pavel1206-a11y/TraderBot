@@ -17,7 +17,7 @@ quotes for the contract. Rules for graduating to real money are in
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: none.
+Open: 10/12 F long (SPY 779C at $0.36 + SPY fractional 0.6422 sh at $778.55), entered 11:40 AM.
 
 By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1 · Momentum E 2 · E/F (10/9) 2
 
@@ -1604,3 +1604,13 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 74k):
 ARMED (valid until 11:57; prior 10-bar average ≈ 53k): the same two lines.
 - F long: close **$778.46–778.56**, ≥ 1.0× (≈ 53k) or ≥ 0.7× with a same-bar QQQ high above $746.82; QQQ above its VWAP; stop the closer of $777.93 and candle low − $0.10; target +1.5R (room to $779.40).
 - F short: close **$777.50–777.60**, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ low below $745.19; QQQ below its VWAP; stop the closer of $778.13 and candle high + $0.10; target −1.5R (room to $776.00).
+
+**Setup check (11:58 AM ET): armed F long FIRED at 11:40 (armed, replayed); open**
+- Trigger: the 11:40 bar closed **$778.55** (band $778.46–778.56) on 93k = 1.76× the prior 10-bar average (≈ 53k); QQQ $747.05 above its VWAP ($746.95, computed). Fired as written. (F short did not fire.)
+- Score card (B): 1 VWAP side ✅ (SPY above, VWAP flat-rising) · 2 ADX ⚠️ not checked · 3 range-edge break after a 95-min squeeze ✅ · 4 volume 1.76× ✅ · 5 QQQ agrees (reclaimed VWAP) ✅ · 6 4H inside/neutral ⚠️ · 7 room to day high $779.40 ≈ 2.4R ✅ · 8 in band ✅ · 9 trend day: no ❌ · 10 time ✅. Graded B.
+- Plan: SPY entry $778.55, stop **$778.19** (candle low $778.29 − $0.10, closer than $777.93; risk $0.36), target **$779.08** (+1.5R). Time stop 12:10 (30 min).
+  - **0DTE leg: SPY 10/12 779C** (nearest the money). Entry **$0.36** (bar close $0.35 + half spread) = $36, fits the $100 cap. Option target +50% = $0.54; option stop −45% ≈ $0.20, or the SPY stop first.
+  - **Fractional leg: SPY** 0.6422 sh (≈ $500, 50% cap) at $778.55, alert-stop $778.19 (risk ≈ $0.23), target $779.08, out by 3:45.
+- Since entry: 11:45 bar high $778.81, 11:50 bar high $778.92 (low $778.71); stop and target not hit. 779C high $0.51 (+42%), now $0.48. Up 30% touched → option stop raised to break-even $0.36.
+- QQQ now $747.64, above its VWAP. 4H (8–12): closing as a small inside candle, no D.
+- ARMED (valid until 12:12): none new; managing the open long.
