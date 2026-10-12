@@ -1657,3 +1657,11 @@ ARMED (valid until 1:12; prior 10-bar average ≈ 64k):
 ARMED (valid until 1:27; prior 10-bar average ≈ 63k): the same two lines.
 - E short: close **$777.30–777.40** (≥ 1.0× ≈ 63k or ≥ 0.7× with a QQQ low below $745.19; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $776.00).
 - E long: close **$779.43–779.53** (same terms as before).
+
+**Setup check (1:28 PM ET): nothing fired; quiet base above the day low**
+- Replay: neither line fired (closes $777.65–777.84).
+- SPY $777.65 in a $777.40–777.96 base since 12:50 (35 min) on drying volume (24–38k). QQQ $745.76 below its VWAP, near its lows. 4H (12–4): red, no D. A squeeze is forming (needs 45 min, valid from ~1:35).
+
+ARMED (valid until 1:42; prior 10-bar average ≈ 50k): the same two lines.
+- E short: close **$777.30–777.40** (≥ 1.0× ≈ 50k or ≥ 0.7× with a QQQ low below $745.19; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $776.00).
+- E long: close **$779.43–779.53** (same terms as before).
