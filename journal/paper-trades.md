@@ -1694,3 +1694,6 @@ ARMED (last window; entries only on bar closes through 2:25; prior 10-bar averag
 - Replay: F short did not fire — the 2:15 bar closed **$777.36** and the 2:20 bar **$777.37**, $0.02–0.03 above the $777.24–777.34 band (lows $777.32 / $777.28, new day low; volume 46k / 57k ≈ 0.8–1.0×; QQQ $745.53 below VWAP but above $745.19). The 2:25 bar is checked at the next check.
 - SPY $777.37 grinding along the day low; QQQ $745.53 near its lows. No new 0DTE after 2:30; no more arming. Open: none.
 - Note for the EOD: third near-miss today on a close band ($0.05, $0.11, $0.02) as SPY bled lower in small steps (pattern 9 again).
+
+**Setup check (2:43 PM ET): entry window closed; nothing open**
+- Replay: the 2:25 bar closed $777.38 (band $777.24–777.34); the F short did not fire. SPY $777.45 holding $777.28–777.48; QQQ $745.55. No new 0DTE after 2:30. Next: 3:47 EOD.
