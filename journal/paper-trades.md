@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 5 | 1 | 4 | 20% | +$42 | -$13.25 | -$11 |
+| Options, B grade | 6 | 2 | 4 | 33% | +$30 | -$13.25 | +$7 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 4 | 0 | 4 | 0% | – | -$0.19 | -$0.77 |
-| **All** | 11 | 3 | 8 | 27% | +$18.60 | -$6.73 | +$2.04 |
+| Fractional, B grade | 5 | 1 | 4 | 20% | +$0.34 | -$0.19 | -$0.43 |
+| **All** | 13 | 5 | 8 | 38% | +$14.83 | -$6.73 | +$20.38 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: 10/12 F long (SPY 779C at $0.36 + SPY fractional 0.6422 sh at $778.55), entered 11:40 AM.
+Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 1 · Momentum E 2 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 3 · Momentum E 2 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -1614,3 +1614,13 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 53k): the same two lines.
 - Since entry: 11:45 bar high $778.81, 11:50 bar high $778.92 (low $778.71); stop and target not hit. 779C high $0.51 (+42%), now $0.48. Up 30% touched → option stop raised to break-even $0.36.
 - QQQ now $747.64, above its VWAP. 4H (8–12): closing as a small inside candle, no D.
 - ARMED (valid until 12:12): none new; managing the open long.
+
+**Setup check (12:15 PM ET): F long closed at target, both legs (+$18.34)**
+- **0DTE leg: 779C hit the +50% target $0.54** on the 12:00 bar (high $0.55; low $0.38 stayed above the $0.36 break-even stop). **+$18 (+50%).**
+- **Fractional leg: SPY hit $779.08 (+1.5R)** on the 12:05 bar (high $779.14; lows never near $778.19). 0.6422 sh × $0.53 = **+$0.34.**
+- Lesson: a squeeze break that waited for QQQ to reclaim VWAP (the filter blocked the 11:00 attempt on weak volume and QQQ below VWAP) worked. First target hit this time.
+- Running totals: **13 trades, 5 wins, 8 losses, +$20.38.** Day +$18.34.
+- Now: SPY $778.74 after tagging $779.14; QQQ $747.47 above its VWAP. 4H (12–4): opened ≈ $778.8, no D.
+
+ARMED (valid until 12:27; prior 10-bar average ≈ 57k):
+- ARMED E long (OR high / Friday high break): trigger = 5-min close **$779.43–779.53** on ≥ 1.0× (≈ 57k), or ≥ 0.7× with a same-bar QQQ high above $748.09; SPY and QQQ above their VWAPs; entry = trigger close; stop = entry − $0.40; target = entry + 1.5R (room to R1 $780.28); 0DTE call ≤ $100; valid until 12:27. (Same direction as the winner, a new level and plan: not a chase.)
