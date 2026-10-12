@@ -1689,3 +1689,8 @@ ARMED (final window, valid until 2:12; prior 10-bar average ≈ 45k): the same t
 
 ARMED (last window; entries only on bar closes through 2:25; prior 10-bar average ≈ 57k):
 - ARMED F short: close **$777.24–777.34** on ≥ 1.0× (≈ 57k), or ≥ 0.7× with a same-bar QQQ low below $745.19; QQQ below its VWAP; stop = the closer of $777.76 and candle high + $0.10; target = entry − 1.5R (room to $776.00); 0DTE put ≤ $100; valid until 2:27.
+
+**Setup check (2:28 PM ET): nothing fired so far; entry window closing**
+- Replay: F short did not fire — the 2:15 bar closed **$777.36** and the 2:20 bar **$777.37**, $0.02–0.03 above the $777.24–777.34 band (lows $777.32 / $777.28, new day low; volume 46k / 57k ≈ 0.8–1.0×; QQQ $745.53 below VWAP but above $745.19). The 2:25 bar is checked at the next check.
+- SPY $777.37 grinding along the day low; QQQ $745.53 near its lows. No new 0DTE after 2:30; no more arming. Open: none.
+- Note for the EOD: third near-miss today on a close band ($0.05, $0.11, $0.02) as SPY bled lower in small steps (pattern 9 again).
