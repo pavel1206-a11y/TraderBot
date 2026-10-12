@@ -1641,3 +1641,11 @@ ARMED (valid until 12:42; prior 10-bar average ≈ 65k):
 ARMED (valid until 12:57; prior 10-bar average ≈ 61k): the same two lines.
 - E long: close **$779.43–779.53** (≥ 1.0× ≈ 61k or ≥ 0.7× with a QQQ high above $748.09; SPY and QQQ above VWAP; stop entry − $0.40; target +1.5R, room to $780.28).
 - E short: close **$777.50–777.60** (≥ 1.0× or ≥ 0.7× with a QQQ low below $745.19; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $776.00).
+
+**Setup check (12:58 PM ET): nothing fired; new day low**
+- Replay: E short did not fire — the 12:50 bar closed **$777.71**, $0.11 above the $777.50–777.60 band (low $777.40, a new day low; 89k = 1.4×; QQQ below VWAP). E long did not fire.
+- SPY $777.71 below its VWAP; QQQ $746.23 below its VWAP (≈ $747.0) and fading. 4H (12–4): red, testing the morning low; D needs a sweep and reclaim, not there.
+
+ARMED (valid until 1:12; prior 10-bar average ≈ 64k):
+- ARMED E short (new day-low break): trigger = 5-min close **$777.30–777.40** on ≥ 1.0× (≈ 64k), or ≥ 0.7× with a same-bar QQQ low below $745.19; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to S1 $776.00); 0DTE put ≤ $100; valid until 1:12.
+- E long: close **$779.43–779.53**, same terms as before; valid until 1:12.
