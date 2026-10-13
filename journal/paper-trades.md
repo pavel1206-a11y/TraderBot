@@ -1873,3 +1873,10 @@ ARMED (valid until 14:12; prior 10-bar average ≈ 58k):
 
 ARMED (valid until 14:15, last entries on bar closes through 2:25; prior 10-bar average ≈ 54k):
 - ARMED E short (day-low break): close **$775.84–775.94** on ≥ 1.0× (≈ 54k), or ≥ 0.7× with a same-bar QQQ low below $739.83; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $775.14 ≥ $0.60 required); 0DTE put ≤ $100.
+
+**Setup check (2:13 PM ET): nothing fired; the breakdown failed and SPY ripped up**
+- Replay: E short did not fire (lowest close $776.84; low $776.83). The 1:50 "volume-backed" breakdown failed: no follow-through, then the **2:05 bar ran $777.03 → $778.00 on 358k (≈ 6×)**, QQQ to $743.11 (back above its VWAP).
+- Missed-move check: that 2:05 close ($778.00) sits in the F long band I dropped at 1:58 ($777.97–778.07). Had it stayed armed, it would still have been **skipped**: stop $777.34 (risk $0.66) needs $0.99 room, only $0.75 to the day high $778.75. So nothing lost to the drop.
+- Correction to the 1:58 note: the 1:50 break, at 1.6×, also failed; volume alone didn't separate fake from real breaks today. Both sides of this midday range whipsawed.
+- SPY $778.00 just under the pivot $778.18; 4H (12–4): back to flat/green. No squeeze (range broken both ways).
+- ARMED: none. A long through the pivot has no 1.5R room before $778.75; arming window closes at 2:15.
