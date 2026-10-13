@@ -1769,3 +1769,9 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 95k):
 - Since entry: SPY lows $776.82 / $776.75 / $776.64 (target $776.29 not reached), highs ≤ $777.20 (stop not hit). Now $777.17. 777P high $0.90, now $0.62 (−25%). SH $31.869.
 - If no progress by the 11:25 bar, the time stop applies at the next check.
 - ARMED: none new; one position open.
+
+**Setup check (11:28 AM ET): E short still open**
+- SPY since 11:15: $777.05 → **$776.71** (low $776.64 at 11:10); stop $777.29 and target $776.29 not hit. QQQ $741.10, weakening.
+- Time stop (11:25): the trade **did move in its favor** (SPY up to 0.6R in favor at $776.64, now 0.45R in favor), so it is not triggered. Note for the owner: the 777P is only flat ($0.81 vs $0.83) because of decay; I read section 7's time stop on the SPY move, not the option price. Flag if you read it differently.
+- 777P $0.81 (−2%); SH $31.875 (flat). Option stop ≈ $0.46; target $1.25.
+- 4H (8–12): red. ARMED: none new; one position open.
