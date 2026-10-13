@@ -17,7 +17,7 @@ quotes for the contract. Rules for graduating to real money are in
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: none.
+Open: 10/13 F long (SPY 777C at $0.71 + SPY 0.6433 sh at $777.22), entered 12:20 PM.
 
 By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 3 · Momentum E 4 · E/F (10/9) 2
 
@@ -1801,3 +1801,11 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 82k):
 ARMED (valid until 12:42; prior 10-bar average ≈ 84k):
 - ARMED F long: close **$777.14–777.24** on ≥ 1.0× (≈ 84k), or ≥ 0.7× with a same-bar QQQ high above $742.47; QQQ above its VWAP; stop = the closer of $776.44 and candle low − $0.10; target = entry + 1.5R (room to the pivot $778.18); 0DTE call ≤ $100.
 - ARMED F short: close **$775.85–775.95** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $739.83; QQQ below its VWAP; stop = the closer of $776.64 and candle high + $0.10; target = entry − 1.5R (only if ≥ 1.5R room to $775.14, else skip); 0DTE put ≤ $100.
+
+**Setup check (12:28 PM ET): armed F long FIRED at 12:20 (armed, replayed); open**
+- Replay: the 12:15 bar closed $777.08 (no). **The 12:20 bar closed $777.22** (band $777.14–777.24) on 114k = 1.36× the prior 10-bar average (84k); QQQ $743.02 above its VWAP ($742.03, computed). Fired as written. F short did not fire.
+- Score card (B): 1 SPY back above its falling VWAP? ⚠️ (SPY VWAP ≈ $777.3, entry just under it) · 2 ADX ⚠️ · 3 squeeze-top break after 55 min ✅ · 4 volume 1.36× ✅ · 5 QQQ above VWAP ✅ · 6 4H (12–4) green so far ✅ · 7 room to the pivot $778.18 ≈ 3R ✅ · 8 in band ✅ · 9 trend day: no ❌ · 10 time ✅. Graded B (VWAP not cleared is a caveat; the F rule requires QQQ, not SPY, above VWAP).
+- Plan: SPY entry $777.22, stop **$776.93** (candle low $777.03 − $0.10; closer than $776.44; risk $0.29), target **$777.66** (+1.5R). Time stop 12:50.
+  - **0DTE leg: SPY 10/13 777C** (nearest the money). Entry **$0.71** (bar close $0.70 + half spread) = $71, fits the $100 cap. Target +50% = $1.07; option stop ≈ $0.39 or the SPY stop first.
+  - **Fractional leg: SPY** 0.6433 sh (≈ $500) at $777.22, alert-stop $776.93 (risk ≈ $0.19), target $777.66.
+- No bars closed since entry yet. ARMED: none new; one position open. Day so far +$42.39 (one win), no loss limits near.
