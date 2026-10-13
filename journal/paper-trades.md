@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 7 | 3 | 4 | 43% | +$34 | -$13.25 | +$49 |
+| Options, B grade | 8 | 4 | 4 | 50% | +$34.50 | -$13.25 | +$85 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 6 | 2 | 4 | 33% | +$0.37 | -$0.19 | -$0.04 |
-| **All** | 15 | 7 | 8 | 47% | +$16.65 | -$6.73 | +$62.77 |
+| Fractional, B grade | 7 | 3 | 4 | 43% | +$0.34 | -$0.19 | +$0.24 |
+| **All** | 17 | 9 | 8 | 53% | +$16.98 | -$6.73 | +$99.05 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: 10/13 F long (SPY 777C at $0.71 + SPY 0.6433 sh at $777.22), entered 12:20 PM.
+Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 3 · Momentum E 4 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 4 · Momentum E 4 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -1809,3 +1809,14 @@ ARMED (valid until 12:42; prior 10-bar average ≈ 84k):
   - **0DTE leg: SPY 10/13 777C** (nearest the money). Entry **$0.71** (bar close $0.70 + half spread) = $71, fits the $100 cap. Target +50% = $1.07; option stop ≈ $0.39 or the SPY stop first.
   - **Fractional leg: SPY** 0.6433 sh (≈ $500) at $777.22, alert-stop $776.93 (risk ≈ $0.19), target $777.66.
 - No bars closed since entry yet. ARMED: none new; one position open. Day so far +$42.39 (one win), no loss limits near.
+
+**Setup check (12:43 PM ET): F long closed at target, both legs (+$36.28)**
+- The 12:30 bar ran SPY to **$777.75**, through the $777.66 target (low $777.33; stop $776.93 never touched). Closed $777.63 on 190k (2.3×).
+  - **0DTE leg: 777C hit the +50% target $1.07** on the same bar (high $1.08). **+$36 (+51%).**
+  - **Fractional leg: SPY** sold when the $777.66 alert fired: 0.6433 sh × $0.44 = **+$0.28.**
+- Running totals: **17 trades, 9 wins, 8 losses, +$99.05.** Day +$78.67 (two wins).
+- Now: SPY $777.68, above its VWAP (≈ $777.3); QQQ $743.45, above its VWAP. 4H (12–4): green. Squeeze broken upward; next levels: pivot $778.18, day high $778.75.
+- A long through the pivot has no room (risk $0.40 needs $0.60 to the day high $778.75; only ≈ $0.47–0.57). Not arming it.
+
+ARMED (valid until 12:57; prior 10-bar average ≈ 92k):
+- E long: close **$779.43–779.53** (same terms as before; ≥ 1.0× ≈ 92k or ≥ 0.7× with a same-bar QQQ high above the day high $744.20; SPY and QQQ above VWAP; stop entry − $0.40; target +1.5R; 0DTE call ≤ $100).
