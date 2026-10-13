@@ -17,7 +17,7 @@ quotes for the contract. Rules for graduating to real money are in
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: none.
+Open: 10/13 E short (SPY 777P at $0.83 + SH 15.69 sh at $31.875), entered 10:55 AM.
 
 By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 3 · Momentum E 2 · E/F (10/9) 2
 
@@ -1759,3 +1759,13 @@ ARMED (valid until 10:57; prior 10-bar average ≈ 113k): the same two E lines.
 ARMED (valid until 11:12; prior 10-bar average ≈ 95k):
 - ARMED E short (S1 / day-low break): close **$776.81–776.91** on ≥ 1.0× (≈ 95k), or ≥ 0.7× with a same-bar QQQ low below $738.84; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $775.14); 0DTE put ≤ $100; valid until 11:12.
 - E long: close **$779.43–779.53** (same terms as before).
+
+**Setup check (11:17 AM ET; ran late): armed E short FIRED at 10:55 (armed, replayed); open**
+- Trigger: the 10:55 bar closed **$776.89** (band $776.81–776.91) on 114k = 1.20× the prior 10-bar average (95k); SPY and QQQ ($741.51) below their VWAPs. Fired as written.
+- Score card (B): 1 below a falling VWAP ✅ · 2 ADX ⚠️ not checked · 3 close through S1 / Monday's low ✅ · 4 volume 1.2× ✅ · 5 QQQ agrees (below VWAP, fading) ✅ · 6 4H red ✅ · 7 room to $775.14 ≈ 4R ✅ · 8 in band ✅ · 9 trend day: no (morning reversal) ❌ · 10 time ✅. Graded B.
+- Plan: SPY entry $776.89, stop **$777.29** (risk $0.40), target **$776.29** (−1.5R). Time stop 11:25.
+  - **0DTE leg: SPY 10/13 777P** (nearest the money). Entry **$0.83** (bar close $0.82 + half spread) = $83, fits the $100 cap. Target +50% = $1.25; option stop −45% ≈ $0.46 or the SPY stop first.
+  - **Fractional leg: SH** 15.69 sh (≈ $500) at $31.875; alert on SPY $777.29 (stop) / $776.29 (target).
+- Since entry: SPY lows $776.82 / $776.75 / $776.64 (target $776.29 not reached), highs ≤ $777.20 (stop not hit). Now $777.17. 777P high $0.90, now $0.62 (−25%). SH $31.869.
+- If no progress by the 11:25 bar, the time stop applies at the next check.
+- ARMED: none new; one position open.
