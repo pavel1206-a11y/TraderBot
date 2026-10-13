@@ -1820,3 +1820,10 @@ ARMED (valid until 12:42; prior 10-bar average ≈ 84k):
 
 ARMED (valid until 12:57; prior 10-bar average ≈ 92k):
 - E long: close **$779.43–779.53** (same terms as before; ≥ 1.0× ≈ 92k or ≥ 0.7× with a same-bar QQQ high above the day high $744.20; SPY and QQQ above VWAP; stop entry − $0.40; target +1.5R; 0DTE call ≤ $100).
+
+**Setup check (12:58 PM ET): nothing fired**
+- Replay: the E long did not fire (highest close $777.90).
+- SPY $777.66 drifting under the pivot ($777.57–777.96 since 12:35); QQQ $743.09 fading but above its VWAP. 4H (12–4): green so far. No new squeeze (the range since 12:30 is only 25 minutes). The 12:35 bar's 1.6k volume looks like a data glitch; I left it in the average as reported.
+
+ARMED (valid until 13:12; prior 10-bar average ≈ 74k):
+- E long: close **$779.43–779.53** (same terms as before).
