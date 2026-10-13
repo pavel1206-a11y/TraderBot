@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 8 | 4 | 4 | 50% | +$34.50 | -$13.25 | +$85 |
+| Options, B grade | 9 | 4 | 5 | 44% | +$34.50 | -$14 | +$68 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 7 | 3 | 4 | 43% | +$0.34 | -$0.19 | +$0.24 |
-| **All** | 17 | 9 | 8 | 53% | +$16.98 | -$6.73 | +$99.05 |
+| Fractional, B grade | 8 | 3 | 5 | 38% | +$0.34 | -$0.18 | +$0.08 |
+| **All** | 19 | 9 | 10 | 47% | +$16.98 | -$7.10 | +$81.89 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
 Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 4 · Momentum E 4 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 5 · Momentum E 4 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -1846,4 +1846,22 @@ ARMED (valid until 13:42; prior 10-bar average ≈ 85k):
 ARMED (valid until 13:57; prior 10-bar average ≈ 56k, low because the 12:35 glitch bar is included as reported):
 - ARMED F short: close **$776.91–777.00** on ≥ 1.0× (≈ 56k), or ≥ 0.7× with a same-bar QQQ low below $741.78; QQQ below its VWAP; stop = the closer of $777.59 and candle high + $0.10; target = entry − 1.5R (room to the day low $775.95); 0DTE put ≤ $100.
 - ARMED F long: close **$777.97–778.07**, same terms as before (QQQ high above $744.01 for the 0.7× case; skip unless ≥ 1.5R room to $778.75).
+- E long: close **$779.43–779.53** (same terms as before).
+
+**Setup check (1:43 PM ET): armed F short FIRED at 1:25 (armed, replayed); stopped out at 1:36 (−$17.16)**
+- Trigger: the 1:25 bar closed **$777.00** (band $776.91–777.00) on 45k = **0.80×** the prior 10-bar average (56k), with a same-bar QQQ low **$741.49** (below $741.78), QQQ $741.50 below its VWAP ($742.14, computed). The 0.7× alternative was met; fired as written.
+- Score card (B): 1 SPY at/below its VWAP ✅ · 2 ADX ⚠️ not checked · 3 squeeze-bottom break after 65 min ✅ · 4 volume 0.8× with QQQ break ⚠️ (allowed alternative) · 5 QQQ below VWAP, leading ✅ · 6 4H (12–4) red so far ✅ · 7 room to the day low $775.95 ≈ 3R ✅ · 8 in band ✅ · 9 trend day: no ❌ · 10 time ✅. Graded B.
+- Plan: SPY entry $777.00, stop **$777.31** (candle high $777.21 + $0.10; closer than $777.59; risk $0.31), target **$776.53** (−1.5R).
+  - **0DTE leg: SPY 10/13 777P.** Entry **$0.49** (bar close $0.48 + half spread) = $49, fits the $50 cap. Target +50% = $0.74; option stop ≈ $0.27 or the SPY stop first.
+  - **Fractional leg: SH** 15.69 sh (≈ $500) at $31.870; alert on SPY $777.31 (stop) / $776.53 (target).
+- Play-forward: the 1:30 bar dipped only to $776.93 (target not reached; the 777P peaked $0.52). SPY then lifted through **$777.31 at 1:36** (1-min high $777.375) → stop.
+  - **0DTE leg:** sold ≈ **$0.32** on the SPY stop (1-min bar 1:36) → **−$17 (−35%).**
+  - **Fractional leg:** SH sold when the SPY $777.31 alert fired, ≈ $31.860 → 15.69 × −$0.01 = **−$0.16.**
+- Lesson: the low-volume version (0.8× with the QQQ alternative) broke the range by $0.01–0.09 and reversed; the 1:15 attempt at 0.65× had already failed. Third test of the same floor; a low-volume break of a range that has been tested twice is weak. Worth noting for the F rules review, not a rule change.
+- Running totals: **19 trades, 9 wins, 10 losses, +$81.89.** Day **+$61.51** (2 wins, 1 loss); far from the $100 daily limit.
+- Now: SPY $777.55; QQQ $742.34, back above its VWAP. 4H (12–4): flat. Squeeze $776.91–777.96 (85 min).
+- No re-arm of the F short today (same floor just failed; avoid a revenge re-entry).
+
+ARMED (valid until 14:12; prior 10-bar average ≈ 58k):
+- ARMED F long: close **$777.97–778.07** on ≥ 1.0× (≈ 58k), or ≥ 0.7× with a same-bar QQQ high above $744.01; QQQ above its VWAP; stop = the closer of $777.34 and candle low − $0.10; target = entry + 1.5R, only if ≥ 1.5R room to the day high $778.75 (else skip); 0DTE call ≤ $100.
 - E long: close **$779.43–779.53** (same terms as before).
