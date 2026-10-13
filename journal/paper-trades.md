@@ -1786,3 +1786,10 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 95k):
 
 ARMED (valid until 11:57; prior 10-bar average ≈ 87k):
 - ARMED E short (S2 break): trigger = 5-min close **$775.74–775.84** on ≥ 1.0× (≈ 87k), or ≥ 0.7× with a same-bar QQQ low below $738.84; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to $775.14); 0DTE put ≤ $100; valid until 11:57. (Continuation after a win, new level: not a chase; check the climax filter idea: the move from VWAP is ≈ $1.7, under 2× ATR.)
+
+**Setup check (11:58 AM ET): nothing fired; bounce off the low**
+- Replay: E short did not fire (lowest close $776.15; low $775.95, never closed ≤ $775.84).
+- SPY $776.61 bouncing from $775.95; QQQ $741.20 bouncing too, still below its VWAP. 4H (8–12) closes red with a lower wick; 12–4 opens next. No squeeze.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 82k):
+- E short (S2 break): close **$775.74–775.84**, same terms (≥ 1.0× ≈ 82k or ≥ 0.7× with a QQQ low below $738.84; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $775.14).
