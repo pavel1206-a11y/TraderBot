@@ -1723,3 +1723,11 @@ ARMED (last window; entries only on bar closes through 2:25; prior 10-bar averag
 ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 243k):
 - ARMED E long (R1 / Mon–Fri highs break): trigger = 5-min close **$779.43–779.53** on ≥ 1.0× (≈ 243k), or ≥ 0.7× with a same-bar QQQ high above its OR high; SPY and QQQ above their VWAPs; entry = trigger close; stop = entry − $0.40; target = entry + 1.5R (room to R2 $780.53); 0DTE call ≤ $100; valid until 10:12.
 - ARMED E short (S1 / Monday low break): trigger = 5-min close **$776.87–776.97** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below its OR low; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to $775.14); 0DTE put ≤ $100; valid until 10:12.
+
+**Setup check (9:58 AM ET): nothing fired**
+- Replay: neither E line fired (closes $778.39–778.46).
+- Final OR (9:30–9:45): **$777.17–778.75**. SPY $778.46 above the pivot, flat since 9:40. QQQ $743.66 still grinding up (+$4.8 from its low), above its VWAP. 4H (8–12): inside Monday's range. No squeeze yet.
+
+ARMED (valid until 10:12; volume baseline ≈ 204k, the average since 9:30): the same two lines.
+- E long: close **$779.43–779.53** (≥ 1.0× ≈ 204k or ≥ 0.7× with a same-bar QQQ high above $743.97; SPY and QQQ above VWAP; stop entry − $0.40; target +1.5R, room to $780.53).
+- E short: close **$776.87–776.97** (≥ 1.0× or ≥ 0.7× with a same-bar QQQ low below $738.84; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $775.14).
