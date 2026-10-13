@@ -1703,3 +1703,15 @@ ARMED (last window; entries only on bar closes through 2:25; prior 10-bar averag
 - Today: **1 setup (F long squeeze break at 11:40, armed, replayed), both legs hit target:** 779C +$18 (+50%), SPY fractional +$0.34. Day **+$18.34.**
 - Note: a tight, low-volume holiday session ($777.05–779.40). The QQQ-above-VWAP filter blocked a weak 11:00 attempt and the 11:40 break worked. The three afternoon short near-misses ($0.02–0.11 outside the band) would not have won: from any of them the low was $777.05 (under 1R) before a bounce through the stops. The $0.10 band did its job today.
 - Running totals: **13 trades, 5 wins, 8 losses, +$20.38** (options +$20.50, fractional −$0.12).
+
+### 2026-10-13 (Tue)
+
+**Pre-market brief (8:55 AM ET)**
+- Market open (regular session).
+- SPY pre-market **$777.51** (−0.08% vs $778.10); range $777.06–778.03. **QQQ $740.63 (−0.73%)**, tech notably weaker (low $740.01).
+- Monday: high $779.40, low $777.05, close $778.10.
+- Pivots: R2 $780.53, **R1 $779.31**, **P $778.18**, **S1 $776.97**, S2 $775.84.
+- 20-day SMA $768.84, 50-day SMA $768.20 (price ≈ $9 above both; uptrend intact).
+- Strong levels: $781.62 (10/6 high) · **$779.31–779.42** (R1 + Mon/Fri highs) · $778.18 (pivot) · **$776.97–777.05** (S1 + Monday low) · $775.14 (Fri low) · $773.4–773.6 (S2 zone/Wed low).
+- News/events: big-bank earnings this morning (JPM EPS miss $5.75 vs $5.94; GS big beat $17.01 vs $13.05; C, WFC, UNH, JNJ beat). Tomorrow AM: ASML, MS, BAC, BLK. Alpha Vantage news feed unavailable; CPI/other macro dates not confirmed — check before trading Wed–Thu.
+- **Bias: none, slight bearish lean** (QQQ −0.7% pre-market, SPY holding). Bearish below $776.97 with volume (room to $775.14); bullish only above $779.42. Watch SPY/QQQ divergence (as Monday): the QQQ filter decides direction.
