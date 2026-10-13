@@ -1880,3 +1880,6 @@ ARMED (valid until 14:15, last entries on bar closes through 2:25; prior 10-bar 
 - Correction to the 1:58 note: the 1:50 break, at 1.6×, also failed; volume alone didn't separate fake from real breaks today. Both sides of this midday range whipsawed.
 - SPY $778.00 just under the pivot $778.18; 4H (12–4): back to flat/green. No squeeze (range broken both ways).
 - ARMED: none. A long through the pivot has no 1.5R room before $778.75; arming window closes at 2:15.
+
+**Setup check (2:28 PM ET): nothing armed, nothing open; entries done for the day**
+- SPY $777.71, stalled under the pivot (high $778.14) and fading; QQQ $742.83. 4H (12–4): flat. No new 0DTE entries after 2:30; next is the 3:47 EOD close-out.
