@@ -1827,3 +1827,13 @@ ARMED (valid until 12:57; prior 10-bar average ≈ 92k):
 
 ARMED (valid until 13:12; prior 10-bar average ≈ 74k):
 - E long: close **$779.43–779.53** (same terms as before).
+
+**Setup check (1:13 PM ET): nothing fired; new midday squeeze**
+- Replay: the E long did not fire (highest close $777.90).
+- SPY $777.30 back at its VWAP (≈ $777.3); QQQ $742.24, at its VWAP. 4H (12–4): small green, giving back. 
+- **Squeeze (F) since 12:20: $777.03–777.96** (50 min, $0.93; midpoint $777.50).
+
+ARMED (valid until 13:42; prior 10-bar average ≈ 85k):
+- ARMED F long: close **$777.97–778.07** on ≥ 1.0× (≈ 85k), or ≥ 0.7× with a same-bar QQQ high above $744.01; QQQ above its VWAP; stop = the closer of $777.40 and candle low − $0.10; target = entry + 1.5R, only if ≥ 1.5R room to the day high $778.75 (else skip); 0DTE call ≤ $100.
+- ARMED F short: close **$776.92–777.02** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $741.82; QQQ below its VWAP; stop = the closer of $777.60 and candle high + $0.10; target = entry − 1.5R (room to the day low $775.95); 0DTE put ≤ $100.
+- E long: close **$779.43–779.53** (same terms as before).
