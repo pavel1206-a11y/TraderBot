@@ -1715,3 +1715,11 @@ ARMED (last window; entries only on bar closes through 2:25; prior 10-bar averag
 - Strong levels: $781.62 (10/6 high) · **$779.31–779.42** (R1 + Mon/Fri highs) · $778.18 (pivot) · **$776.97–777.05** (S1 + Monday low) · $775.14 (Fri low) · $773.4–773.6 (S2 zone/Wed low).
 - News/events: big-bank earnings this morning (JPM EPS miss $5.75 vs $5.94; GS big beat $17.01 vs $13.05; C, WFC, UNH, JNJ beat). Tomorrow AM: ASML, MS, BAC, BLK. Alpha Vantage news feed unavailable; CPI/other macro dates not confirmed — check before trading Wed–Thu.
 - **Bias: none, slight bearish lean** (QQQ −0.7% pre-market, SPY holding). Bearish below $776.97 with volume (room to $775.14); bullish only above $779.42. Watch SPY/QQQ divergence (as Monday): the QQQ filter decides direction.
+
+**9:43 AM ET: opening range forming**
+- SPY opened $777.34, dipped to $777.17, then ripped to **$778.67** (now $778.57, back above the pivot $778.18). OR so far **$777.17–778.67** ($1.50). QQQ reversed hard: $738.84 → $742.84 (+$4) on heavy volume; the pre-market tech weakness is being bought.
+- A (ORB) long fails: ~$1.6 risk to the OR low (over the $1.50 cap) and only ≈ $0.6 to R1 $779.31. Not armed.
+
+ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 243k):
+- ARMED E long (R1 / Mon–Fri highs break): trigger = 5-min close **$779.43–779.53** on ≥ 1.0× (≈ 243k), or ≥ 0.7× with a same-bar QQQ high above its OR high; SPY and QQQ above their VWAPs; entry = trigger close; stop = entry − $0.40; target = entry + 1.5R (room to R2 $780.53); 0DTE call ≤ $100; valid until 10:12.
+- ARMED E short (S1 / Monday low break): trigger = 5-min close **$776.87–776.97** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below its OR low; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to $775.14); 0DTE put ≤ $100; valid until 10:12.
