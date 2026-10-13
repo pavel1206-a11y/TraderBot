@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 6 | 2 | 4 | 33% | +$30 | -$13.25 | +$7 |
+| Options, B grade | 7 | 3 | 4 | 43% | +$34 | -$13.25 | +$49 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 5 | 1 | 4 | 20% | +$0.34 | -$0.19 | -$0.43 |
-| **All** | 13 | 5 | 8 | 38% | +$14.83 | -$6.73 | +$20.38 |
+| Fractional, B grade | 6 | 2 | 4 | 33% | +$0.37 | -$0.19 | -$0.04 |
+| **All** | 15 | 7 | 8 | 47% | +$16.65 | -$6.73 | +$62.77 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: 10/13 E short (SPY 777P at $0.83 + SH 15.69 sh at $31.875), entered 10:55 AM.
+Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 3 · Momentum E 2 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 3 · Momentum E 4 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -1775,3 +1775,14 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 95k):
 - Time stop (11:25): the trade **did move in its favor** (SPY up to 0.6R in favor at $776.64, now 0.45R in favor), so it is not triggered. Note for the owner: the 777P is only flat ($0.81 vs $0.83) because of decay; I read section 7's time stop on the SPY move, not the option price. Flag if you read it differently.
 - 777P $0.81 (−2%); SH $31.875 (flat). Option stop ≈ $0.46; target $1.25.
 - 4H (8–12): red. ARMED: none new; one position open.
+
+**Setup check (11:43 AM ET): E short closed at target, both legs (+$42.39)**
+- The 11:25 bar ran SPY to **$776.08**, through the $776.29 target (high $776.76, stop $777.29 never touched).
+  - **0DTE leg: 777P hit +50% target $1.25** on the same bar (high $1.27). **+$42 (+51%).**
+  - **Fractional leg: SH** sold when the SPY $776.29 alert fired, ≈ $31.90 → 15.69 sh × $0.025 = **+$0.39.**
+- Lesson: the 10:50 near-miss ($0.02 outside the band) re-armed one level lower and fired on the next bar; the band discipline cost nothing here. The time-stop question (SPY vs option price) did not end up mattering.
+- Running totals: **15 trades, 7 wins, 8 losses, +$62.77.** Day +$42.39.
+- Now: SPY $776.15, QQQ $740.13 (below VWAP, near its lows). 4H (8–12): red expansion. Next levels: S2 $775.84, Friday's low $775.14.
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 87k):
+- ARMED E short (S2 break): trigger = 5-min close **$775.74–775.84** on ≥ 1.0× (≈ 87k), or ≥ 0.7× with a same-bar QQQ low below $738.84; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to $775.14); 0DTE put ≤ $100; valid until 11:57. (Continuation after a win, new level: not a chase; check the climax filter idea: the move from VWAP is ≈ $1.7, under 2× ATR.)
