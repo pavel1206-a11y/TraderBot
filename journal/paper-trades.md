@@ -1743,3 +1743,11 @@ ARMED (valid until 10:42; prior 10-bar average ≈ 159k):
 **Setup check (10:28 AM ET): nothing fired**
 - Replay: neither line fired (closes $777.44–777.78).
 - SPY $777.78 chopping $777.19–778.75; QQQ $743.48. Valid lines unchanged (prior 10-bar average ≈ 148k); same two E lines armed until 10:42.
+
+**Setup check (10:43 AM ET): nothing fired**
+- Replay: neither line fired (closes $777.16–777.78; new day low $777.10, still above the S1 band).
+- SPY $777.52 basing $777.10–778.09 since 10:00 (40 min); QQQ $742.90 below its VWAP. 4H (8–12): small red, no D.
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 113k): the same two E lines.
+- E short: close **$776.87–776.97** (≥ 1.0× ≈ 113k or ≥ 0.7× with a QQQ low below $738.84; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $775.14).
+- E long: close **$779.43–779.53** (same terms as before).
