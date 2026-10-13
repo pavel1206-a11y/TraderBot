@@ -1865,3 +1865,11 @@ ARMED (valid until 13:57; prior 10-bar average ≈ 56k, low because the 12:35 gl
 ARMED (valid until 14:12; prior 10-bar average ≈ 58k):
 - ARMED F long: close **$777.97–778.07** on ≥ 1.0× (≈ 58k), or ≥ 0.7× with a same-bar QQQ high above $744.01; QQQ above its VWAP; stop = the closer of $777.34 and candle low − $0.10; target = entry + 1.5R, only if ≥ 1.5R room to the day high $778.75 (else skip); 0DTE call ≤ $100.
 - E long: close **$779.43–779.53** (same terms as before).
+
+**Setup check (1:58 PM ET): nothing fired; squeeze broke down without an armed line**
+- Replay: F long and E long did not fire (highest close $777.53).
+- **The 1:50 bar closed $776.84 on 92k = 1.6×** the prior 10-bar average (57k), below the squeeze floor $776.91, with QQQ ($741.59, low $741.16) below its VWAP. This is the volume-backed break the 1:25 trade lacked. **Not logged:** no F short was armed (I declined the re-arm at 1:43 to avoid a revenge re-entry), and replays only count armed lines. Recorded as a missed-move candidate for the EOD review; the 1:25 vs 1:50 contrast (0.8× fake vs 1.6× real) is useful for the F volume rule.
+- SPY $776.84 below its VWAP; QQQ below its VWAP. 4H (12–4): red. Squeeze $776.91–777.96 broken down; next levels: day low $775.95, Friday's low $775.14.
+
+ARMED (valid until 14:15, last entries on bar closes through 2:25; prior 10-bar average ≈ 54k):
+- ARMED E short (day-low break): close **$775.84–775.94** on ≥ 1.0× (≈ 54k), or ≥ 0.7× with a same-bar QQQ low below $739.83; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $775.14 ≥ $0.60 required); 0DTE put ≤ $100.
