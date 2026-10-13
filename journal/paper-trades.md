@@ -1739,3 +1739,7 @@ ARMED (valid until 10:12; volume baseline ≈ 204k, the average since 9:30): the
 ARMED (valid until 10:42; prior 10-bar average ≈ 159k):
 - E short: close **$776.87–776.97** (≥ 1.0× ≈ 159k or ≥ 0.7× with a same-bar QQQ low below $738.84; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $775.14; 0DTE put ≤ $100).
 - E long: close **$779.43–779.53** (same terms as before).
+
+**Setup check (10:28 AM ET): nothing fired**
+- Replay: neither line fired (closes $777.44–777.78).
+- SPY $777.78 chopping $777.19–778.75; QQQ $743.48. Valid lines unchanged (prior 10-bar average ≈ 148k); same two E lines armed until 10:42.
