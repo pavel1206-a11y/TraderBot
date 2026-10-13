@@ -1883,3 +1883,8 @@ ARMED (valid until 14:15, last entries on bar closes through 2:25; prior 10-bar 
 
 **Setup check (2:28 PM ET): nothing armed, nothing open; entries done for the day**
 - SPY $777.71, stalled under the pivot (high $778.14) and fading; QQQ $742.83. 4H (12–4): flat. No new 0DTE entries after 2:30; next is the 3:47 EOD close-out.
+
+**EOD 10/13: 3 trades (6 legs), 2 wins / 1 loss, day +$61.51**
+- E short (10:55, S1 break): 777P +$42, SH +$0.39 · F long (12:20, squeeze top): 777C +$36, SPY +$0.28 · F short (1:25, squeeze floor, 0.8× + QQQ alt): 777P −$17, SH −$0.16. No positions open; nothing carried overnight.
+- What the day did: morning leg down from the open high, then a 2-hour midday range that broke both ways. The level-break E short and the first squeeze break worked; the third test of the same floor on light volume failed, and the 1.6× floor break that followed failed too (volume did not separate them today).
+- Running totals: **19 trades, 9 wins, 10 losses, +$81.89** (options 9 trades +$68; fractional 8 trades +$0.08; A* rows unchanged). Day trades used today (if real): 3, the PDT maximum for the rolling 5 days.

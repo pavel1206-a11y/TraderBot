@@ -117,3 +117,7 @@ No qualifying move. Window range $775.14–778.78 ($3.64 over ~4 hours, never $2
 ## 2026-10-12 (Mon, Columbus Day)
 
 No qualifying move. Window range $777.28–779.40 ($2.12 all day). The one directional move (11:40 squeeze break +$0.59 to $779.14) was traded (F long, both legs hit target). Afternoon drift lower to $777.05 came after 2:30 and was under $1.
+
+## 2026-10-13 (Tue)
+
+No qualifying move. Window range $775.95–778.53 ($2.58, but over ~1h50m from the 9:50 high to the 11:35 low; no 60-minute window moved more than ≈ $1.6). The morning leg down was traded (E short at S1, target hit); the midday squeeze breaks were traded (F long win, F short loss). The untraded 1:50 squeeze-floor break (1.6×) failed and the 2:05 rip (+$0.97 on ≈ 6×) had no 1.5R room under the day high; neither was a $2.50 move.
