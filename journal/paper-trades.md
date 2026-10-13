@@ -1731,3 +1731,11 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 243k):
 ARMED (valid until 10:12; volume baseline ≈ 204k, the average since 9:30): the same two lines.
 - E long: close **$779.43–779.53** (≥ 1.0× ≈ 204k or ≥ 0.7× with a same-bar QQQ high above $743.97; SPY and QQQ above VWAP; stop entry − $0.40; target +1.5R, room to $780.53).
 - E short: close **$776.87–776.97** (≥ 1.0× or ≥ 0.7× with a same-bar QQQ low below $738.84; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $775.14).
+
+**Setup check (10:20 AM ET; ran late): nothing fired**
+- Replay: neither E line fired (lowest close $777.26 at 10:05; low $777.19, held above the $776.87–776.97 band; highest close $778.46).
+- SPY $777.44 faded back below the pivot ($778.18) and its VWAP; QQQ $742.78 slipping off $744.20. Morning range $777.17–778.75. 4H (8–12): inside, no D.
+
+ARMED (valid until 10:42; prior 10-bar average ≈ 159k):
+- E short: close **$776.87–776.97** (≥ 1.0× ≈ 159k or ≥ 0.7× with a same-bar QQQ low below $738.84; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $775.14; 0DTE put ≤ $100).
+- E long: close **$779.43–779.53** (same terms as before).
