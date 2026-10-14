@@ -1958,3 +1958,10 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 177k):
 
 ARMED (valid until 11:57; prior 10-bar average ≈ 175k):
 - ARMED E short (new day-low break): close **$771.07–771.16** on ≥ 1.0× (≈ 175k), or ≥ 0.7× with a same-bar QQQ low below $733.36; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $770.44 ≈ 1.6–1.8R); 0DTE put ≤ $100; trigger-bar range ≤ $1.00.
+
+**Setup check (11:43 AM ET): nothing fired (band missed by $0.02, fifth time today)**
+- Replay: E short did not fire: the 11:35 bar closed **$771.05**, $0.02 below the $771.07–771.16 band (182k = 1.04×; QQQ low $732.55 below $733.36). Every other condition met.
+- SPY $771.05 (low $770.77), QQQ $732.94 at new lows. 4H (8–12): red, closes at noon near its low. Down $5.5 from the 9:45 high in a staircase.
+- No room left for a short: the 10/8 low $770.44 is ≈ $0.3–0.6 below any new trigger (needs $0.60), and below it the 20-day SMA $769.87 is only $0.57 further. A break-of-$770.44 line also lacks room to $769.87. Not arming shorts. No long setup (no reversal signal; below falling VWAP).
+- ARMED: none.
+- Five band misses today (9:55, 10:35, 10:50, 11:05, 11:35) on a clean −$5.5 trend day: zero trades. This is the strongest case yet for the band-width proposal (Friday review).
