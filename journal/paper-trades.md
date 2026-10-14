@@ -1898,3 +1898,11 @@ ARMED (valid until 14:15, last entries on bar closes through 2:25; prior 10-bar 
 - Events: **September CPI out at 8:30: 3.7% y/y vs 3.6% expected, +0.6% m/m (hot, energy-driven).** Already released, so it does not rule out trading, but expect wide early swings. ASML raised guidance but flagged supply limits (weighing on Nasdaq/semis). Earnings pre-market: MS, BAC, BLK, PGR, STT. Brent above $105. Alpha Vantage news sentiment unavailable (rate limit); news from web search.
 - **Bias: bearish lean intraday** (gap below Tuesday's low and S1, QQQ weaker, hot CPI, Nasdaq down three days), against a bullish daily trend. Wait for 9:45 confirmation; a reclaim of $775.95–776.39 flips it to none.
 - Watch: S2 $774.77 / Friday's low $775.14 below; $775.95 (Tue low) and S1 $776.39 overhead; pivot $777.57 above that. The prior evening's lines (call breakout $779.43, put break $775.84–775.94) are void or stale after the gap; levels will be re-armed at 9:42.
+
+**9:43 AM ET: opening range forming**
+- SPY opened $774.93 (gap down $3.08), dipped to $774.47 (under S2 $774.77), now $775.54, back above Friday's low $775.14. OR so far **$774.47–775.68** ($1.21). QQQ $738.55, OR $736.67–739.03, bouncing with SPY.
+- A (ORB): not armed yet; the OR isn't final until 9:45 and a long from here has only ≈ $0.3 to Tuesday's low $775.95.
+
+ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 407k):
+- ARMED E long (S1 reclaim): trigger = 5-min close **$776.40–776.50** on ≥ 1.0× (≈ 407k), or ≥ 0.7× with a same-bar QQQ high above $739.03; SPY and QQQ above their VWAPs; entry = trigger close; stop = entry − $0.40; target = entry + 1.5R (room to the pivot $777.57); 0DTE call ≤ $100; valid until 10:12.
+- ARMED E short (OR low / S2 break): trigger = 5-min close **$774.37–774.46** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $736.67; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to the 10/7 low $773.61); 0DTE put ≤ $100; valid until 10:12.
