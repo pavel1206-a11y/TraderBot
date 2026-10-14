@@ -1906,3 +1906,12 @@ ARMED (valid until 14:15, last entries on bar closes through 2:25; prior 10-bar 
 ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 407k):
 - ARMED E long (S1 reclaim): trigger = 5-min close **$776.40–776.50** on ≥ 1.0× (≈ 407k), or ≥ 0.7× with a same-bar QQQ high above $739.03; SPY and QQQ above their VWAPs; entry = trigger close; stop = entry − $0.40; target = entry + 1.5R (room to the pivot $777.57); 0DTE call ≤ $100; valid until 10:12.
 - ARMED E short (OR low / S2 break): trigger = 5-min close **$774.37–774.46** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $736.67; SPY and QQQ below their VWAPs; entry = trigger close; stop = entry + $0.40; target = entry − 1.5R (room to the 10/7 low $773.61); 0DTE put ≤ $100; valid until 10:12.
+
+**Setup check (9:58 AM ET): nothing fired; whipsaw**
+- Replay: E long did not fire (9:45 bar closed $776.15, high $776.30, under the $776.40 band); E short did not fire (9:50 bar closed $774.71, low $774.53, above the band).
+- Final OR (9:30–9:45): **$774.47–775.94**. SPY reclaimed Tuesday's low on the 9:45 bar, then gave it all back on the 9:50 bar ($776.14 → $774.71). QQQ $738.29, same round trip. Direction unclear; chop around VWAP (≈ $775.3).
+- 4H (8–12): red, gap-down candle. No squeeze.
+
+ARMED (valid until 10:12; volume baseline ≈ 303k, the average since 9:30): the same two lines.
+- E long: close **$776.40–776.50** (≥ 1.0× ≈ 303k or ≥ 0.7× with a same-bar QQQ high above $740.53; SPY and QQQ above VWAP; stop entry − $0.40; target +1.5R, room to $777.57).
+- E short: close **$774.37–774.46** (≥ 1.0× or ≥ 0.7× with a same-bar QQQ low below $736.67; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $773.61).
