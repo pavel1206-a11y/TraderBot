@@ -1983,3 +1983,7 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 175k):
 **Setup check (12:43 PM ET): nothing armed; small bounce**
 - SPY $769.90, held $769.06 (above the 50-day SMA $768.60), back to the 20-day SMA; QQQ $730.92 off $729.25. Base $769.06–770.12 for 30 min. 4H (12–4): red, small lower wick.
 - ARMED: none (no room either way: 50-day SMA $0.5 below, falling VWAP ≈ $773 above; longs need SPY over VWAP).
+
+**Setup check (12:58 PM ET): nothing armed; forming a squeeze**
+- SPY $769.69 in **$769.06–770.52 since 12:15** (40 min, $1.46; a squeeze from ~1:00). QQQ $730.75. 4H (12–4): red, inside.
+- F long would need QQQ above its VWAP (it is ≈ $5 below). F short below $769.06 has only ≈ $0.4 to the 50-day SMA $768.60, under 1.5R. ARMED: none.
