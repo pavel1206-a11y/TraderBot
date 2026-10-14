@@ -1991,3 +1991,7 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 175k):
 **Setup check (1:13 PM ET): nothing armed; squeeze holding**
 - **Squeeze (F) since 12:15: $769.06–770.62** (55 min, $1.56; midpoint $769.84). SPY $769.57; QQQ $730.77, far below its VWAP. 4H (12–4): small red inside bar.
 - F long blocked (QQQ below VWAP); F short below $769.06 has ≈ $0.46 to the 50-day SMA $768.60 against ≥ $0.3 risk (under 1.5R). ARMED: none.
+
+**Setup check (1:28 PM ET): nothing armed; drifting to the squeeze floor**
+- SPY $769.12, low $768.86 (wicked under the $769.06 floor, closed back inside); QQQ $730.04. Squeeze $768.86–770.62 (70 min). 50-day SMA $768.60 just below. 4H (12–4): red.
+- ARMED: none (same constraints: short has < 1.5R to the 50-day SMA; long blocked by QQQ below VWAP).
