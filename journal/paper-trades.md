@@ -1929,3 +1929,10 @@ ARMED (valid until 10:42; volume baseline ≈ 298k, the average since 9:30):
 - SPY $773.05 basing $772.58–773.40 since 10:05; QQQ $736.55 holding $735.61. 4H (8–12): red. Base only 25 min, no squeeze yet.
 
 ARMED (valid until 10:42; volume baseline ≈ 284k, the average since 9:30): the same E short line (close **$772.47–772.57**, same terms and chase check).
+
+**Setup check (10:43 AM ET): nothing fired (band skipped again)**
+- Replay: E short did not fire: the 10:35 bar closed **$772.24**, $0.23 below the $772.47–772.57 band (197k = 0.69× the 284k baseline, also short of the 0.7× alternative even with QQQ's $735.58 low). Second time today a close jumped past the band.
+- SPY $772.24, new low $772.16; QQQ $735.70 at its low. 4H (8–12): red. Base $772.16–773.46 since 10:05 (40 min).
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 237k):
+- ARMED E short (new day-low break): close **$772.06–772.15** on ≥ 1.0× (≈ 237k), or ≥ 0.7× with a same-bar QQQ low below $735.58; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $770.44); 0DTE put ≤ $100; trigger-bar range ≤ $1.00.
