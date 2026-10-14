@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 9 | 4 | 5 | 44% | +$34.50 | -$14 | +$68 |
+| Options, B grade | 10 | 5 | 5 | 50% | +$37.20 | -$14 | +$116 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 8 | 3 | 5 | 38% | +$0.34 | -$0.18 | +$0.08 |
-| **All** | 19 | 9 | 10 | 47% | +$16.98 | -$7.10 | +$81.89 |
+| Fractional, B grade | 9 | 4 | 5 | 44% | +$0.37 | -$0.18 | +$0.55 |
+| **All** | 21 | 11 | 10 | 52% | +$18.30 | -$7.10 | +$130.36 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
 Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 5 · Momentum E 4 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 5 · Momentum E 5 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -2002,3 +2002,19 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 175k):
 
 ARMED (valid until 2:15, last entries on bar closes through 2:25; prior 10-bar average ≈ 148k):
 - ARMED E short (day-low break): close **$767.97–768.06** on ≥ 1.0× (≈ 148k), or ≥ 0.7× with a same-bar QQQ low below $728.58; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $767.15: ≈ 2.1–2.3R); 0DTE put ≤ $100; trigger-bar range ≤ $1.00.
+
+**Setup check (1:58 PM ET): armed E short FIRED at 1:45 (armed, replayed); closed at target 1:57 (+$48.47)**
+- Trigger: the 1:45 bar closed **$768.05** (band $767.97–768.06) on 147k = 0.90× the prior 10-bar average (163k; 0.99× of the 148k written at arming), with a same-bar QQQ low **$728.48** below $728.58, so the 0.7× alternative was met. SPY and QQQ far below their VWAPs; trigger-bar range $0.39 (≤ $1.00). Fired as written.
+- Score card (B): 1 below a falling VWAP ✅ · 2 ADX ⚠️ not checked · 3 close through the day low after a 50-day SMA break ✅ · 4 volume 0.9× with QQQ break ⚠️ (allowed alternative) · 5 QQQ below VWAP, new lows ✅ · 6 4H (12–4) red, expanding ✅ · 7 room to the 10/2 low $767.15 ≈ 2.2R ✅ · 8 in band ✅ · 9 trend day: yes ✅ · 10 time ✅. Graded B.
+- Plan: SPY entry $768.05, stop **$768.45** (+$0.40), target **$767.45** (−1.5R). Time stop 2:15.
+  - **0DTE leg: SPY 10/14 768P.** Entry **$0.95** (1-min close $0.94 + half spread) = $95: fits the $100 cap, **not** the $50 default. Target +50% = $1.43; option stop ≈ $0.52.
+  - **Fractional leg: SH** 15.51 sh (≈ $500) at $32.235; alert on SPY $768.45 / $767.45.
+  - **PDT flag:** with real money this would be the 4th day trade in 5 business days (3 used on 10/13), so it would be **blocked** by rule 6. Logged as paper for the playbook record only.
+- Play-forward: the 1:50 bar ran to $767.50 (target missed by $0.05; 768P to $1.31). The **1:57 1-min bar hit $767.27**, through the $767.45 target; stop never threatened (high $768.05).
+  - **0DTE leg: 768P hit the +50% limit $1.43** (high $1.45) → **+$48 (+51%).**
+  - **Fractional leg:** SH sold on the SPY $767.45 alert ≈ $32.265 → 15.51 × $0.03 = **+$0.47.**
+- Running totals: **21 trades, 11 wins, 10 losses, +$130.36.** Day +$48.47 (1 win).
+- First fill after five band misses; the band finally caught a close because the trend slowed to small bars near support.
+
+ARMED (valid until 2:15, last entries on bar closes through 2:25; prior 10-bar average ≈ 177k):
+- ARMED E short (10/2 low break): close **$767.05–767.14** on ≥ 1.0× (≈ 177k), or ≥ 0.7× with a same-bar QQQ low below $727.83; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to the 9/30 low $762.18); 0DTE put ≤ $100; trigger-bar range ≤ $1.00. Continuation after a win at a new level, not a re-entry. PDT flag applies.
