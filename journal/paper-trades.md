@@ -2029,3 +2029,6 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 20
 **Setup check (2:28 PM ET): nothing fired; entries done for the day**
 - Replay: E short did not fire (closes $767.96–768.32 through the 2:20 bar; SPY bounced off the 10/2 low). The 2:25 bar is the last eligible close; checked at EOD.
 - SPY $767.96; QQQ $728.57. No new 0DTE after 2:30. Next: 3:47 EOD.
+
+**Setup check (2:43 PM ET): last armed line expired unfired**
+- The 2:25 bar closed $768.15 (band $767.05–767.14): no fill. Nothing open; no entries after 2:30. SPY $767.70. Next: 3:47 EOD.
