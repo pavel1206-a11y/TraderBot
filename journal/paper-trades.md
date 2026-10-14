@@ -1995,3 +1995,10 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 175k):
 **Setup check (1:28 PM ET): nothing armed; drifting to the squeeze floor**
 - SPY $769.12, low $768.86 (wicked under the $769.06 floor, closed back inside); QQQ $730.04. Squeeze $768.86–770.62 (70 min). 50-day SMA $768.60 just below. 4H (12–4): red.
 - ARMED: none (same constraints: short has < 1.5R to the 50-day SMA; long blocked by QQQ below VWAP).
+
+**Setup check (1:43 PM ET): nothing fired; the squeeze broke down through the 50-day SMA**
+- The 1:25 bar closed **$768.24** (205k = 1.6×, QQQ $728.81) below the squeeze floor $768.86 and the 50-day SMA $768.60. No line was armed (no 1.5R room to the 50-day SMA at 1:28). Now $768.23, low $768.07; QQQ $728.74. **−$8.23 from the 9:45 high.**
+- Next support below: the 10/2 low **$767.15** (then the 10/1 low $758.79). 4H (12–4): red, expanding.
+
+ARMED (valid until 2:15, last entries on bar closes through 2:25; prior 10-bar average ≈ 148k):
+- ARMED E short (day-low break): close **$767.97–768.06** on ≥ 1.0× (≈ 148k), or ≥ 0.7× with a same-bar QQQ low below $728.58; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $767.15: ≈ 2.1–2.3R); 0DTE put ≤ $100; trigger-bar range ≤ $1.00.
