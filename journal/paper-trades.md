@@ -1979,3 +1979,7 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 175k):
 - The 12:10 bar dropped $770.64 → **$769.36** on 289k (≈ 1.8×), through the 10/8 low $770.44 and the 20-day SMA $769.87; QQQ to $729.71. SPY now $769.14 (low $769.09), **−$7.21 from the 9:45 high**. No line was armed (no room under the 20-day SMA at 11:58), so nothing to replay.
 - Next level: the 50-day SMA $768.60, only ≈ $0.5 away; a short from here has no 1.5R room. Longs: far below a falling VWAP. 4H (12–4): red.
 - ARMED: none.
+
+**Setup check (12:43 PM ET): nothing armed; small bounce**
+- SPY $769.90, held $769.06 (above the 50-day SMA $768.60), back to the 20-day SMA; QQQ $730.92 off $729.25. Base $769.06–770.12 for 30 min. 4H (12–4): red, small lower wick.
+- ARMED: none (no room either way: 50-day SMA $0.5 below, falling VWAP ≈ $773 above; longs need SPY over VWAP).
