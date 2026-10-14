@@ -1936,3 +1936,11 @@ ARMED (valid until 10:42; volume baseline ≈ 284k, the average since 9:30): the
 
 ARMED (valid until 11:12; prior 10-bar average ≈ 237k):
 - ARMED E short (new day-low break): close **$772.06–772.15** on ≥ 1.0× (≈ 237k), or ≥ 0.7× with a same-bar QQQ low below $735.58; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $770.44); 0DTE put ≤ $100; trigger-bar range ≤ $1.00.
+
+**Setup check (10:58 AM ET): nothing fired (band missed by $0.08, third time today)**
+- Replay: E short did not fire: the 10:50 bar closed **$771.98**, $0.08 below the $772.06–772.15 band (174k = 0.86× the 202k average; QQQ low $734.68 below $735.58, so the 0.7× alternative was met). Only the close band failed.
+- Pattern for the owner (not a rule change): in a grinding trend, each new-low bar closes $0.08–1.04 past a $0.10 band set just under the prior low (9:55, 10:35, 10:50). A wider band (e.g. $0.30) or "close at or below" for continuation lines would have caught all three. Proposal for the Friday review.
+- SPY $771.98 (low $771.78), QQQ $735.18 (new low). 4H (8–12): red. Base $771.78–773.46 since 10:05 now broken lower.
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 202k):
+- ARMED E short (new day-low break): close **$771.68–771.77** on ≥ 1.0× (≈ 202k), or ≥ 0.7× with a same-bar QQQ low below $734.68; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $770.44); 0DTE put ≤ $100; trigger-bar range ≤ $1.00.
