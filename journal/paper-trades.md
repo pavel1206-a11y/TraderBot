@@ -1965,3 +1965,8 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 175k):
 - No room left for a short: the 10/8 low $770.44 is ≈ $0.3–0.6 below any new trigger (needs $0.60), and below it the 20-day SMA $769.87 is only $0.57 further. A break-of-$770.44 line also lacks room to $769.87. Not arming shorts. No long setup (no reversal signal; below falling VWAP).
 - ARMED: none.
 - Five band misses today (9:55, 10:35, 10:50, 11:05, 11:35) on a clean −$5.5 trend day: zero trades. This is the strongest case yet for the band-width proposal (Friday review).
+
+**Setup check (11:58 AM ET): nothing armed; tagged the 10/8 low and bounced**
+- SPY low **$770.36** (11:40 bar, $0.08 under the 10/8 low $770.44), held, now $771.28; QQQ $733.23 off its $732.03 low. Day range $770.36–776.30 ($5.94).
+- 4H (8–12) closes red near its low; 12–4 opens next (watch for a D reversal if the noon candle sweeps $770.36 and reclaims).
+- ARMED: none. Longs fail the VWAP rule (SPY ≈ $2 under a falling VWAP); shorts lack room above the 20-day SMA $769.87.
