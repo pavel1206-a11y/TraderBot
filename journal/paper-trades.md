@@ -1915,3 +1915,11 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 407k):
 ARMED (valid until 10:12; volume baseline ≈ 303k, the average since 9:30): the same two lines.
 - E long: close **$776.40–776.50** (≥ 1.0× ≈ 303k or ≥ 0.7× with a same-bar QQQ high above $740.53; SPY and QQQ above VWAP; stop entry − $0.40; target +1.5R, room to $777.57).
 - E short: close **$774.37–774.46** (≥ 1.0× or ≥ 0.7× with a same-bar QQQ low below $736.67; SPY and QQQ below VWAP; stop entry + $0.40; target −1.5R, room to $773.61).
+
+**Setup check (10:17 AM ET; ran late): nothing fired; the breakdown skipped the band**
+- Replay: E short did **not** fire: the 9:55 bar went straight from $774.71 to a **$773.33 close** (low $773.21, 424k = 1.4×, QQQ low $735.90 below $736.67), closing **$1.04 below** the $774.37–774.46 band. As written (close inside the band), it doesn't count. E long did not fire.
+- SPY has since ground lower: $773.33 → **$772.89** (low $772.58), below the 10/7 low $773.61. QQQ $736.42 near its lows. Move since 9:45: **$776.30 → $772.58 = −$3.72 in 25 min**, a missed move for the EOD review (cause: one-bar flush through a $0.10 band).
+- 4H (8–12): red, expanding lower. No squeeze. Next level below: the 10/8 low $770.44.
+
+ARMED (valid until 10:42; volume baseline ≈ 298k, the average since 9:30):
+- ARMED E short (day-low break): close **$772.47–772.57** on ≥ 1.0× (≈ 298k), or ≥ 0.7× with a same-bar QQQ low below $735.61; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to $770.44); 0DTE put ≤ $100. Chase check: ≈ $2 below VWAP, so only valid if the trigger bar's range is ≤ $1.00 (no climax bar).
