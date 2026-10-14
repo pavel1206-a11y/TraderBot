@@ -2025,3 +2025,7 @@ ARMED (valid until 2:15, last entries on bar closes through 2:25; prior 10-bar a
 
 ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 209k):
 - E short (10/2 low break): close **$767.05–767.14**, same terms (≥ 1.0× ≈ 209k, or ≥ 0.7× with a same-bar QQQ low below $727.00; stop +$0.40; target −1.5R; bar range ≤ $1.00; PDT flag).
+
+**Setup check (2:28 PM ET): nothing fired; entries done for the day**
+- Replay: E short did not fire (closes $767.96–768.32 through the 2:20 bar; SPY bounced off the 10/2 low). The 2:25 bar is the last eligible close; checked at EOD.
+- SPY $767.96; QQQ $728.57. No new 0DTE after 2:30. Next: 3:47 EOD.
