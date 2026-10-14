@@ -1970,3 +1970,7 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 175k):
 - SPY low **$770.36** (11:40 bar, $0.08 under the 10/8 low $770.44), held, now $771.28; QQQ $733.23 off its $732.03 low. Day range $770.36–776.30 ($5.94).
 - 4H (8–12) closes red near its low; 12–4 opens next (watch for a D reversal if the noon candle sweeps $770.36 and reclaims).
 - ARMED: none. Longs fail the VWAP rule (SPY ≈ $2 under a falling VWAP); shorts lack room above the 20-day SMA $769.87.
+
+**Setup check (12:13 PM ET): nothing armed; basing on the 10/8 low**
+- SPY $770.67, holding $770.36–771.33 since 11:40 (35 min, not yet a squeeze); QQQ $732.13, still printing new lows ($731.85). 4H (12–4) opened ≈ $770.8, small red.
+- ARMED: none (shorts: no 1.5R room to the 20-day SMA $769.87; longs: under a falling VWAP).
