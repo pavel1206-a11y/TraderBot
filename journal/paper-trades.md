@@ -2032,3 +2032,8 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 20
 
 **Setup check (2:43 PM ET): last armed line expired unfired**
 - The 2:25 bar closed $768.15 (band $767.05–767.14): no fill. Nothing open; no entries after 2:30. SPY $767.70. Next: 3:47 EOD.
+
+**EOD 10/14: 1 trade (2 legs), 1 win, day +$48.47**
+- E short (1:45, day-low break after the 50-day SMA break): 768P +$48, SH +$0.47. PDT flag: with real money this would have been the 4th day trade in 5 days (blocked). No positions open; nothing carried overnight.
+- What the day did: hot CPI gap-down, then a clean trend day lower (−$9.59 from the 9:45 high, below the 20- and 50-day SMAs). Five E-short lines skipped their $0.10 bands by $0.02–1.04, and stacked support levels blocked two more legs on the room rule; the one fill came late and hit target. Details and proposals in missed-moves.md.
+- Running totals: **21 trades, 11 wins, 10 losses, +$130.36** (options 10 trades +$116; fractional 9 trades +$0.55; A* rows unchanged).

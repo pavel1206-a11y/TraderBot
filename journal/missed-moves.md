@@ -121,3 +121,16 @@ No qualifying move. Window range $777.28–779.40 ($2.12 all day). The one direc
 ## 2026-10-13 (Tue)
 
 No qualifying move. Window range $775.95–778.53 ($2.58, but over ~1h50m from the 9:50 high to the 11:35 low; no 60-minute window moved more than ≈ $1.6). The morning leg down was traded (E short at S1, target hit); the midday squeeze breaks were traded (F long win, F short loss). The untraded 1:50 squeeze-floor break (1.6×) failed and the 2:05 rip (+$0.97 on ≈ 6×) had no 1.5R room under the day high; neither was a $2.50 move.
+
+## 2026-10-14 (Wed, hot-CPI trend day down)
+
+Trend day: $776.30 (9:45 high) → $766.71 (2:00 low), −$9.59, a staircase of new lows. Qualifying moves:
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:45–10:10 | −$3.72 in 25 min | Reclaim of Tue low failed; 9:55 bar flushed $774.71 → $773.33 (1.4×), through the OR low/S2, QQQ below its OR low | E short (armed $774.37–774.46) | **Band skipped:** closed $1.04 past the $0.10 band in one bar |
+| 10:30–11:40 | −$3.10 in 70 min | Grind of new lows from $773.46 to $770.36; each break 0.9–1.2× with QQQ at new lows | E short (re-armed each check) | **Band skipped four times** (10:35 −$0.23, 10:50 −$0.08, 11:05 −$0.16, 11:35 −$0.02) |
+| 12:05–13:25 | −$2.73 in 80 min | 12:10 break of the 10/8 low and 20-day SMA (1.8×), then the 1:25 squeeze-floor and 50-day SMA break (1.6×) | E/F short | **No room rule:** stacked levels (10/8 low, 20-day, 50-day) each < 1.5R apart, so no line could be armed |
+| 13:00–14:00 | −$3.91 in 60 min | Same leg, continuation through $768.07 | E short | **Traded:** 1:45 E short, +$48.47 |
+
+Pattern for the Friday review: on a trend day, the $0.10 close band and the per-level 1.5R room rule together blocked 3 of 4 legs. Proposals: (a) continuation lines use "close at or below the band top" instead of a two-sided band; (b) on a confirmed trend day (price below a falling VWAP all day, 4H expanding), measure room to the next level beyond tightly stacked ones, or use a fixed 1.5R target. Not changed; for the owner.
