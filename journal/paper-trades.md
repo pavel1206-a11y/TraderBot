@@ -2018,3 +2018,10 @@ ARMED (valid until 2:15, last entries on bar closes through 2:25; prior 10-bar a
 
 ARMED (valid until 2:15, last entries on bar closes through 2:25; prior 10-bar average ≈ 177k):
 - ARMED E short (10/2 low break): close **$767.05–767.14** on ≥ 1.0× (≈ 177k), or ≥ 0.7× with a same-bar QQQ low below $727.83; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to the 9/30 low $762.18); 0DTE put ≤ $100; trigger-bar range ≤ $1.00. Continuation after a win at a new level, not a re-entry. PDT flag applies.
+
+**Setup check (2:13 PM ET): nothing fired; holding the 10/2 low**
+- Replay: E short did not fire (closes $767.52–767.55; the 2:00 bar wicked to $766.71 but closed $767.55, above the band).
+- SPY $767.54 basing at the 10/2 low $767.15; QQQ $728.01 (low $727.00). 4H (12–4): red. Day low $766.71, **−$9.59 from the 9:45 high**.
+
+ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 209k):
+- E short (10/2 low break): close **$767.05–767.14**, same terms (≥ 1.0× ≈ 209k, or ≥ 0.7× with a same-bar QQQ low below $727.00; stop +$0.40; target −1.5R; bar range ≤ $1.00; PDT flag).
