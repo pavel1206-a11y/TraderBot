@@ -1888,3 +1888,13 @@ ARMED (valid until 14:15, last entries on bar closes through 2:25; prior 10-bar 
 - E short (10:55, S1 break): 777P +$42, SH +$0.39 · F long (12:20, squeeze top): 777C +$36, SPY +$0.28 · F short (1:25, squeeze floor, 0.8× + QQQ alt): 777P −$17, SH −$0.16. No positions open; nothing carried overnight.
 - What the day did: morning leg down from the open high, then a 2-hour midday range that broke both ways. The level-break E short and the first squeeze break worked; the third test of the same floor on light volume failed, and the 1.6× floor break that followed failed too (volume did not separate them today).
 - Running totals: **19 trades, 9 wins, 10 losses, +$81.89** (options 9 trades +$68; fractional 8 trades +$0.08; A* rows unchanged). Day trades used today (if real): 3, the PDT maximum for the rolling 5 days.
+
+### 2026-10-14 (Wed): pre-market brief (8:53 AM ET)
+
+- Market open. Pre-market: **SPY $775.67 (−$2.34, −0.30%)**, **QQQ $739.17 (−0.59%)**, gapping below Tuesday's low.
+- Prior day (10/13): H $778.75 · L $775.95 · C $778.01. Multi-day ceiling $779.40–779.42 (10/9, 10/12 highs). Friday's low $775.14.
+- Pivots: **P $777.57 · R1 $779.19 · R2 $780.37 · S1 $776.39 · S2 $774.77.**
+- SMAs: 20-day $769.87, 50-day $768.60; daily trend still up (price ≈ $6 above both).
+- Events: **September CPI out at 8:30: 3.7% y/y vs 3.6% expected, +0.6% m/m (hot, energy-driven).** Already released, so it does not rule out trading, but expect wide early swings. ASML raised guidance but flagged supply limits (weighing on Nasdaq/semis). Earnings pre-market: MS, BAC, BLK, PGR, STT. Brent above $105. Alpha Vantage news sentiment unavailable (rate limit); news from web search.
+- **Bias: bearish lean intraday** (gap below Tuesday's low and S1, QQQ weaker, hot CPI, Nasdaq down three days), against a bullish daily trend. Wait for 9:45 confirmation; a reclaim of $775.95–776.39 flips it to none.
+- Watch: S2 $774.77 / Friday's low $775.14 below; $775.95 (Tue low) and S1 $776.39 overhead; pivot $777.57 above that. The prior evening's lines (call breakout $779.43, put break $775.84–775.94) are void or stale after the gap; levels will be re-armed at 9:42.
