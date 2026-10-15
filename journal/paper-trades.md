@@ -2056,3 +2056,10 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 20
 ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 492k):
 - ARMED E long (50-day SMA reclaim): close **$768.58–768.68** on ≥ 1.0× (≈ 492k), or ≥ 0.7× with a same-bar QQQ high above $720.59; SPY and QQQ above their VWAPs; stop = entry − $0.40; target = entry + 1.5R (room to the 20-day SMA $770.65); 0DTE call ≤ $100; valid until 10:12. PDT flag (real money).
 - ARMED E short (OR low / S1 break): close **$765.15–765.24** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $717.01; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to S2 $761.25); 0DTE put ≤ $100; trigger-bar range ≤ $1.00; valid until 10:12. PDT flag.
+
+**Setup check (9:58 AM ET): nothing fired (band skipped again)**
+- Replay: E short did not fire: the 9:50 bar closed **$764.64**, $0.51 below the $765.15–765.24 band (286k = 0.74× the 389k baseline; QQQ low $715.83 below $717.01, so the 0.7× alternative was met). Sixth band skip in two days. E long did not fire (high close $767.16).
+- Final OR (9:30–9:45): **$765.25–767.44**. SPY $764.64 (low $764.62), below the OR and S1; QQQ $715.84 at new lows. 4H (8–12): red.
+
+ARMED (valid until 10:12; volume baseline ≈ 389k):
+- ARMED E short (new day-low break): close **$764.52–764.61** on ≥ 1.0× (≈ 389k), or ≥ 0.7× with a same-bar QQQ low below $715.83; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to S2 $761.25); 0DTE put ≤ $100; trigger-bar range ≤ $1.00. PDT flag.
