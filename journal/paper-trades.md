@@ -2208,3 +2208,8 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 99
 
 **Setup check (2:43 PM ET): past the 2:30 cutoff; nothing open**
 - Final replay: the 2:25 bar closed $769.56, so the E long continuation ($771.92–772.01) did not fire. No open paper trades. SPY $769.87, holding the $769.05 box low. Day: 1 trade, +$9.11.
+
+**End of day 10/15 (3:47 PM ET)**
+- Open paper trades: none to close. Day: **1 trade (F long, both legs), +$9.11**: 771C +$9, SPY fractional +$0.11. PDT-flagged (real money would have been blocked).
+- Running totals: **23 trades, 13W/10L (57%), +$139.47.** Options 12 (A* 1, B 11), fractional 11 (A* 1, B 10).
+- Day note: gap down to $764.44, then a V-reversal over VWAP to $771.07 by 11:15 that no armed line caught (bearish bias, no reclaim line). Then a midday squeeze, a 1:40 break that faded, and a late run to $772.87 (3:20) after the entry cutoff. Close ≈ $772.2. The owner asked for a standing VWAP-reclaim call line; it was added to playbook section 10.

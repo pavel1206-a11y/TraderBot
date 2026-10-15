@@ -139,6 +139,9 @@ Pattern for the Friday review: on a trend day, the $0.10 close band and the per-
 
 | Time | Size | How it started | Should have caught it | Why it didn't |
 |---|---|---|---|---|
+| 9:45–9:55 | −$2.82 in 15 min | OR-high rejection $767.26 → flush through the OR low/S1 to $764.44; 9:50 bar 0.74× with QQQ at new lows below its OR low | E short (armed $765.15–765.24) | **Band skipped:** the 9:50 bar closed $764.64, $0.51 past the band; the low came 5 min later and reversed |
 | 10:00–11:15 | +$6.63 in 75 min | Flush to $764.44 (9:55), then the 10:00 bar reclaimed VWAP ($765.47 → $766.92, QQQ also reclaimed); higher lows above VWAP all morning | VWAP reclaim call (no such line existed) | **Not armed:** bearish bias, so 9:58 armed only shorts; setup B needs an existing trend. The later E long lines failed on volume (10:15, 0.40×) and band skips (10:40 +$0.31, 10:55 +$0.23) |
 
 Owner flagged this move (screenshot, "set a call for the upside next time"). Added a standing **VWAP reclaim call** line to playbook section 10. Replayed under it: entry on the 10:05 pullback bar at $767.32, target $768.25 hit at 10:35, 769C ≈ +$17 on the standard exit (≈ +$160 if held to 11:15). The 766C that went $2.34 → $5.06 (+$272) cost $234, over the $100 cap.
+
+After the window: SPY ran $769.57 → $772.87 from 2:40 to 3:20 (+$3.30, 0.9–1.4× volume). This was after the 2:30 entry cutoff, so not counted.
