@@ -2115,4 +2115,4 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 206k):
 
 ARMED (valid until 12:12; prior 10-bar average ≈ 177k):
 - E long (pivot break): close **$770.90–771.00**, same terms (≥ 1.0× ≈ 177k, or ≥ 0.7× with a same-bar QQQ high above $726.10). PDT flag.
-- ARMED F short (squeeze floor): close **$769.11–769.20** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $723.31; QQQ below its VWAP; stop = the closer of $770.24 and candle high + $0.10; target = entry − 1.5R (room to the 50-day SMA $768.57); 0DTE put ≤ $100. Valid only if the range has held 45+ min at the trigger. PDT flag.
+- ARMED F short (squeeze floor): close **$769.11–769.20** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $723.31; QQQ below its VWAP; stop = the closer of $770.24 and candle high + $0.10; target = entry − 1.5R, only if ≥ 1.5R room to the 50-day SMA $768.57 (else skip); 0DTE put ≤ $100. Valid only if the range has held 45+ min at the trigger. PDT flag.
