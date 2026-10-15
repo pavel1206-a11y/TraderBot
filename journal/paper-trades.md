@@ -2165,3 +2165,11 @@ ARMED (valid until 13:42; prior 10-bar average ≈ 76k): the same two lines (E s
 - Replay: neither line fired (closes $770.25–770.50). SPY $770.46; QQQ $724.63. Squeeze $769.05–771.07 (145 min). 4H (12–4): inside, slightly green.
 
 ARMED (valid until 13:57; prior 10-bar average ≈ 71k): the same two lines (E short $768.47–768.56; F long $771.08–771.17; same terms; PDT flag).
+
+**Setup check (1:43 PM ET): nothing fired; F long missed by $0.035**
+- Replay: E short did not fire. The F long did not fire: the 1:35 bar closed at **$771.045**, below the $771.08–771.17 band (high $771.19, volume 102k ≈ 1.4×). Close outside the band, so no fill. 1:30 bar closed at $770.67.
+- Squeeze high now **$771.19** (range $769.05–771.19, 155 min; the close stayed inside). SPY $771.05; QQQ $725.89 (QQQ is leading, at a new session high). 4H (12–4): green, pushing the top of the range.
+
+ARMED (valid until 14:12; prior 10-bar average ≈ 65k):
+- F long (squeeze break): close **$771.20–771.29** on ≥ 1.0× (≈ 65k), or ≥ 0.7× with a same-bar QQQ high above $725.97; SPY and QQQ above their VWAPs; stop = the closer of $770.02 (midpoint − $0.10) and candle low − $0.10; target = entry + 1.5R (room to R1 $775.07); 0DTE call ≤ $100; bar range ≤ $1.00. PDT flag.
+- E short (50-day SMA loss): close **$768.47–768.56**, same terms as before (QQQ low below $722.44 for the 0.7× case). PDT flag.
