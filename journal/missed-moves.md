@@ -134,3 +134,11 @@ Trend day: $776.30 (9:45 high) → $766.71 (2:00 low), −$9.59, a staircase of 
 | 13:00–14:00 | −$3.91 in 60 min | Same leg, continuation through $768.07 | E short | **Traded:** 1:45 E short, +$48.47 |
 
 Pattern for the Friday review: on a trend day, the $0.10 close band and the per-level 1.5R room rule together blocked 3 of 4 legs. Proposals: (a) continuation lines use "close at or below the band top" instead of a two-sided band; (b) on a confirmed trend day (price below a falling VWAP all day, 4H expanding), measure room to the next level beyond tightly stacked ones, or use a fixed 1.5R target. Not changed; for the owner.
+
+## 2026-10-15 (Thu, V-reversal day)
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:00–11:15 | +$6.63 in 75 min | Flush to $764.44 (9:55), then the 10:00 bar reclaimed VWAP ($765.47 → $766.92, QQQ also reclaimed); higher lows above VWAP all morning | VWAP reclaim call (no such line existed) | **Not armed:** bearish bias, so 9:58 armed only shorts; setup B needs an existing trend. The later E long lines failed on volume (10:15, 0.40×) and band skips (10:40 +$0.31, 10:55 +$0.23) |
+
+Owner flagged this move (screenshot, "set a call for the upside next time"). Added a standing **VWAP reclaim call** line to playbook section 10. Replayed under it: entry on the 10:05 pullback bar at $767.32, target $768.25 hit at 10:35, 769C ≈ +$17 on the standard exit (≈ +$160 if held to 11:15). The 766C that went $2.34 → $5.06 (+$272) cost $234, over the $100 cap.

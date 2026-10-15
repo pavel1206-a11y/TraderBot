@@ -389,6 +389,33 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
 - Valid until: the next check, or 2:30 PM, whichever is sooner. A check
   re-arms or drops each line.
 
+### Standing line: VWAP reclaim call (owner request, 2026-10-15)
+
+On 10/15 SPY flushed to $764.44, reclaimed VWAP on the 10:00 bar and ran
++$6.6 to $771.07 by 11:15. No call line was armed, because the morning bias was
+bearish and setup B needs an existing trend. From now on, **whenever SPY is
+below VWAP after making a new day low (9:45 AM–2:15 PM), every check also
+arms this call line**, whatever the bias:
+
+`ARMED VWAP reclaim long: (1) a 5-min close above VWAP + $0.10 with QQQ also closing above its own VWAP, then (2) the first later bar (within 30 min) whose low holds at or above VWAP − $0.05 and closes green; entry = bar (2)'s close; stop = bar (2)'s low − $0.10; target = entry + 1.5R; valid until the next check`
+
+- Bar (1) is the reclaim and is **not** the entry. It is usually a big bar
+  (10/15: $1.82 range), which breaks the $1.00 no-chase limit, and it comes
+  right after VWAP chop, which fails 0DTE checklist item 1. Bar (2) is the
+  first higher low that holds VWAP: the checklist's "VWAP pullback that holds".
+- Volume: bar (1) ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with QQQ
+  reclaiming its VWAP in the same bar). Bar (2) has no volume rule.
+- Room: at least 1.5R to the next key level above, as usual.
+- Contract: the nearest 0DTE call with a premium of $100 or less (usually 2–3
+  strikes out of the money). The risk rules do not change.
+- The mirror (a put after a new day high and a VWAP loss) is armed the same way.
+- 10/15 replay: bar (1) 10:00 (close $766.92, 366k ≈ 0.9× with QQQ reclaiming
+  its VWAP); bar (2) 10:05 (low $766.80, close $767.32). Stop $766.70,
+  target $768.25, hit on the 10:35 bar; the stop was never touched. The 769C
+  was ≈ $1.03 at entry and ≈ $1.20 at the SPY target: **+$17 on the standard
+  exit**. Holding into 11:15 ($2.64) would have made about +$160; that is
+  the trend-day runner question (section 7), not a different entry.
+
 ### Replaying (start of every check)
 
 1. Pull the 5-min bars since the last check.
