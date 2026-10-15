@@ -2160,3 +2160,8 @@ ARMED (valid until 13:27; prior 10-bar average ≈ 99k): the same two lines (E s
 - Squeeze $769.05–771.07 (130 min). SPY $770.25; QQQ $724.41. 4H (12–4): inside.
 
 ARMED (valid until 13:42; prior 10-bar average ≈ 76k): the same two lines (E short $768.47–768.56; F long $771.08–771.17; same terms; PDT flag).
+
+**Setup check (1:28 PM ET): nothing fired; quiet**
+- Replay: neither line fired (closes $770.25–770.50). SPY $770.46; QQQ $724.63. Squeeze $769.05–771.07 (145 min). 4H (12–4): inside, slightly green.
+
+ARMED (valid until 13:57; prior 10-bar average ≈ 71k): the same two lines (E short $768.47–768.56; F long $771.08–771.17; same terms; PDT flag).
