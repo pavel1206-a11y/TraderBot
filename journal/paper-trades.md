@@ -2048,3 +2048,11 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 20
 - Events: 8:30 AM PPI, retail sales and jobless claims (already out; web reports conflict on the PPI print, treat as unverified). TSMC earnings (semis). Banks: PNC, USB. Brent ≈ $104. Alpha Vantage news not used (rate-limited yesterday); web search only.
 - **Bias: bearish** (below both SMAs, QQQ −1.2% pre-market, follow-through from Wednesday's trend day). Invalidated by a reclaim of the 50-day SMA $768.57 and VWAP.
 - Day-trade note: real-money PDT count is used up (3 on 10/13); paper logging continues as normal.
+
+**9:43 AM ET: opening range forming**
+- SPY opened $766.24 (gap down $3.36), dipped to **$765.25** (just under S1 $765.43), bounced to $767.16. OR so far **$765.25–767.22** ($1.97). QQQ $720.47, OR $717.01–720.59, same V-bounce.
+- A (ORB): not armed (OR not final; a long has only ≈ $1.4 to the 50-day SMA $768.57 against an OR-low stop > $1.5).
+
+ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 492k):
+- ARMED E long (50-day SMA reclaim): close **$768.58–768.68** on ≥ 1.0× (≈ 492k), or ≥ 0.7× with a same-bar QQQ high above $720.59; SPY and QQQ above their VWAPs; stop = entry − $0.40; target = entry + 1.5R (room to the 20-day SMA $770.65); 0DTE call ≤ $100; valid until 10:12. PDT flag (real money).
+- ARMED E short (OR low / S1 break): close **$765.15–765.24** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $717.01; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to S2 $761.25); 0DTE put ≤ $100; trigger-bar range ≤ $1.00; valid until 10:12. PDT flag.
