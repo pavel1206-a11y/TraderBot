@@ -2124,3 +2124,11 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 177k):
 ARMED (valid until 12:27; prior 10-bar average ≈ 144k):
 - ARMED F long: close **$771.08–771.17** on ≥ 1.0× (≈ 144k), or ≥ 0.7× with a same-bar QQQ high above $726.10; QQQ above its VWAP; stop = the closer of $770.04 and candle low − $0.10; target = entry + 1.5R (room to R1 $775.07); 0DTE call ≤ $100. PDT flag.
 - ARMED F short: close **$769.11–769.20**, same terms as 11:43 (only if ≥ 1.5R room to the 50-day SMA $768.57, else skip). PDT flag.
+
+**Setup check (12:13 PM ET): nothing fired; squeeze tightening**
+- Replay: F long / F short did not fire (closes $769.75–770.41).
+- **Squeeze (F) since 11:00: $769.21–771.07** (75 min; last 30 min only $769.40–770.74). SPY $770.02; QQQ $724.61. Volume drying up (63k last bar). 4H (12–4): opened ≈ $769.9, inside.
+
+ARMED (valid until 12:42; prior 10-bar average ≈ 125k): the same two F lines.
+- F long: close **$771.08–771.17** (≥ 1.0× ≈ 125k, or ≥ 0.7× with a same-bar QQQ high above $726.10; QQQ above VWAP; stop closer of $770.04 / candle low − $0.10; target +1.5R). PDT flag.
+- F short: close **$769.11–769.20** (only if ≥ 1.5R room to $768.57, else skip). PDT flag.
