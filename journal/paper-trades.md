@@ -2101,3 +2101,10 @@ ARMED (valid until 11:27; prior 10-bar average ≈ 197k):
 
 ARMED (valid until 11:42; prior 10-bar average ≈ 189k):
 - ARMED E long (pivot / 20-day SMA break): close **$770.90–771.00** on ≥ 1.0× (≈ 189k), or ≥ 0.7× with a same-bar QQQ high above $724.85; SPY and QQQ above their VWAPs; stop = entry − $0.40; target = entry + 1.5R (room to R1 $775.07); 0DTE call ≤ $100. PDT flag.
+
+**Setup check (11:28 AM ET): nothing fired; stalling at the pivot**
+- Replay: E long did not fire (closes $770.64, $770.86, $770.63; high $771.07, never closed in $770.90–771.00).
+- SPY $770.63 pausing at the 20-day SMA / pivot ($770.65–770.89); QQQ $725.12. 4H (8–12): green.
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 206k):
+- E long (pivot break): close **$770.90–771.00**, same terms (≥ 1.0× ≈ 206k, or ≥ 0.7× with a same-bar QQQ high above $726.10; above VWAPs; stop −$0.40; target +1.5R, room to R1 $775.07). PDT flag.
