@@ -159,3 +159,11 @@ Script: `tools/backtest_vwap_reclaim.py` (SPY/QQQ 5-min bars, VWAP computed from
 - As written, the call side fires about every other day but loses: 9 of 13 stopped out, often by a few cents before the run (10/7 stopped, then +$4.25; 10/9 stopped, then +$2.10). The tight stop is the problem, not the entry.
 - A $0.40 buffer (matching the E-setup stop) flips the calls to +3.2R, but that is 13 trades over one month, so it could be curve-fitting. Proposal for the owner: paper-trade the $0.40 version for 2 more weeks before it counts.
 - The room filter in the script is crude (it counts the intraday high as a level), so its results are not quoted.
+
+### Backtest: previous-day high/low sweep and reverse, 9/16–10/15 (owner's entry idea)
+
+Mechanical version: price trades through the PDH or PDL, then a 5-min bar closes back inside within 3 bars; entry at that close; stop $0.10 beyond the sweep extreme; target 1.5R; first sweep of each level only; entries until 2:25. Script: `tools/backtest_pdh_pdl_sweep.py`.
+
+- PDH sweeps (short): 5 trades, 1 win, −2.1R. PDL sweeps (long): 4 trades, 0 wins, −4.0R.
+- Most losers swept again after the "reclaim" (10/15: PDL $766.71 swept at the open, reclaimed at 9:35, then flushed to $764.44 before the real reversal). The first close back inside is too early; the 10/15 winner came from waiting for the VWAP reclaim and a higher low.
+- Starting 10/16, the pre-market brief opens with the PDH/PDL lines and sends a push.
