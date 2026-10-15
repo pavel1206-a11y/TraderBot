@@ -2148,3 +2148,9 @@ ARMED (valid until 12:57; prior 10-bar average ≈ 104k, includes the 11:45 glit
 ARMED (valid until 13:12; prior 10-bar average ≈ 110k): the same two lines.
 - E short (50-day SMA loss): close **$768.47–768.56**, same terms (QQQ low below $722.44 for the 0.7× case). PDT flag.
 - F long: close **$771.08–771.17**, same terms. PDT flag.
+
+**Setup check (12:58 PM ET): nothing fired; quiet range**
+- Replay: neither line fired (closes $769.40–770.09). Thin prints again (12:45 bar 12.6k).
+- Squeeze $769.05–771.07 (115 min). SPY $769.40; QQQ $723.29. 4H (12–4): inside, small.
+
+ARMED (valid until 13:27; prior 10-bar average ≈ 99k): the same two lines (E short $768.47–768.56; F long $771.08–771.17; same terms; PDT flag).
