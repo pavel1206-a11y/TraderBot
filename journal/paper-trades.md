@@ -2063,3 +2063,11 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 492k):
 
 ARMED (valid until 10:12; volume baseline ≈ 389k):
 - ARMED E short (new day-low break): close **$764.52–764.61** on ≥ 1.0× (≈ 389k), or ≥ 0.7× with a same-bar QQQ low below $715.83; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to S2 $761.25); 0DTE put ≤ $100; trigger-bar range ≤ $1.00. PDT flag.
+
+**Setup check (10:14 AM ET): nothing fired; V-reversal off $764.44**
+- Replay: E short did not fire (9:55 bar low $764.44 but closed $765.45; later closes higher).
+- SPY ripped $764.44 → **$767.32**, back above VWAP (≈ $766.2) and testing the OR high $767.44 / 10/2 low $767.15; QQQ $720.30, back above its VWAP. 4H (8–12): long lower wick forming.
+
+ARMED (valid until 10:42; volume baseline ≈ 376k):
+- ARMED E long (OR high break): close **$767.45–767.54** on ≥ 1.0× (≈ 376k), or ≥ 0.7× with a same-bar QQQ high above $721.15; SPY and QQQ above their VWAPs; stop = entry − $0.40; target = entry + 1.5R (room to the 50-day SMA $768.57); 0DTE call ≤ $100. PDT flag.
+- ARMED E short (new day-low break): close **$764.34–764.43** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $715.43; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to S2 $761.25); 0DTE put ≤ $100; bar range ≤ $1.00. PDT flag.
