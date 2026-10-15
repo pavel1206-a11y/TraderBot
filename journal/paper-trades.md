@@ -2079,3 +2079,11 @@ ARMED (valid until 10:42; volume baseline ≈ 376k):
 ARMED (valid until 10:57; prior 10-bar average ≈ 308k):
 - E long (OR high break): close **$767.45–767.54**, same terms (≥ 1.0× ≈ 308k, or ≥ 0.7× with a same-bar QQQ high above $721.45; above VWAPs; stop −$0.40; target +1.5R to the 50-day SMA $768.57). PDT flag.
 - E short (new day-low break): close **$764.34–764.43**, same terms (QQQ low below $715.43; bar range ≤ $1.00). PDT flag.
+
+**Setup check (10:43 AM ET): nothing fired (band skipped upward)**
+- Replay: E long did not fire: closes $767.37 → **$767.80** → $768.20, jumping over the $767.45–767.54 band (and on 0.4–0.5× volume anyway). E short did not fire.
+- SPY $768.20 grinding up toward the 50-day SMA $768.57; QQQ $721.10. 4H (8–12): hammer-like, recovering. Range since 10:00 $765.33–768.27 (not tight enough for F).
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 238k):
+- ARMED E long (50-day SMA reclaim): close **$768.58–768.68** on ≥ 1.0× (≈ 238k), or ≥ 0.7× with a same-bar QQQ high above $721.45; SPY and QQQ above their VWAPs; stop = entry − $0.40; target = entry + 1.5R (room to the 20-day SMA $770.65); 0DTE call ≤ $100. PDT flag.
+- E short (new day-low break): close **$764.34–764.43**, same terms as before. PDT flag.
