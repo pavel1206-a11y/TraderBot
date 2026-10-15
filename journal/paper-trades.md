@@ -2037,3 +2037,14 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 20
 - E short (1:45, day-low break after the 50-day SMA break): 768P +$48, SH +$0.47. PDT flag: with real money this would have been the 4th day trade in 5 days (blocked). No positions open; nothing carried overnight.
 - What the day did: hot CPI gap-down, then a clean trend day lower (−$9.59 from the 9:45 high, below the 20- and 50-day SMAs). Five E-short lines skipped their $0.10 bands by $0.02–1.04, and stacked support levels blocked two more legs on the room rule; the one fill came late and hit target. Details and proposals in missed-moves.md.
 - Running totals: **21 trades, 11 wins, 10 losses, +$130.36** (options 10 trades +$116; fractional 9 trades +$0.55; A* rows unchanged).
+
+### 2026-10-15 (Thu): pre-market brief (8:54 AM ET)
+
+- Market open. Pre-market: **SPY $767.43 (−$2.17, −0.28%)**, **QQQ $720.20 (−1.2%)**: tech leading lower again.
+- Prior day (10/14): H $776.35 · L $766.71 · C $769.60 (trend day down, −$9.6 intraday).
+- Pivots: **P $770.89 · R1 $775.07 · R2 $780.53 · S1 $765.43 · S2 $761.25.**
+- SMAs: 20-day $770.65, 50-day $768.57. SPY pre-market is **below both** (first time this cycle).
+- Other levels: 10/2 low $767.15 and Wed low $766.71 just under the open; 10/1 low $758.79 below S2.
+- Events: 8:30 AM PPI, retail sales and jobless claims (already out; web reports conflict on the PPI print, treat as unverified). TSMC earnings (semis). Banks: PNC, USB. Brent ≈ $104. Alpha Vantage news not used (rate-limited yesterday); web search only.
+- **Bias: bearish** (below both SMAs, QQQ −1.2% pre-market, follow-through from Wednesday's trend day). Invalidated by a reclaim of the 50-day SMA $768.57 and VWAP.
+- Day-trade note: real-money PDT count is used up (3 on 10/13); paper logging continues as normal.
