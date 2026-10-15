@@ -2192,3 +2192,12 @@ ARMED (valid until 14:12; prior 10-bar average ≈ 65k):
 
 ARMED (valid until 2:15, last entries on bar closes through 2:25; prior 10-bar average ≈ 84k):
 - E long continuation (breakout high): close **$771.92–772.01** on ≥ 1.0× (≈ 84k), or ≥ 0.7× with a same-bar QQQ high above $727.05; SPY and QQQ above their VWAPs; stop = entry − $0.40; target = entry + 1.5R (room to R1 $775.07); 0DTE call ≤ $100; trigger-bar range ≤ $1.00. Continuation after a win, at a new level, not a re-entry. PDT flag.
+
+**Setup check (2:13 PM ET): nothing fired; breakout faded**
+- Replay: E long continuation did not fire (closes $771.32, $770.19, $770.15; no close near $771.92–772.01).
+- The 1:40 breakout failed: the 2:00 bar dropped $1.13 (771.31 → 770.19) on 146k ≈ 1.5×, and QQQ gave back $726 → $724.39. SPY $770.15; QQQ $724.51. The 1:50 F long had already closed at target at 1:57, before the drop.
+- Squeeze: back inside the old $769.05–771.19 box; the last 45 minutes span $770.00–771.91. 4H (12–4): small green, upper wick forming.
+- No short line: SPY is still above its VWAP and the 769 range low is only about $0.45 above the 50-day SMA $768.57 (room rule fails).
+
+ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 99k):
+- E long continuation: close **$771.92–772.01**, same terms (≥ 1.0× ≈ 99k, or ≥ 0.7× with a same-bar QQQ high above $727.05; stop −$0.40; target +1.5R; bar range ≤ $1.00; PDT flag).
