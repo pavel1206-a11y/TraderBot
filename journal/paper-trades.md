@@ -2205,3 +2205,6 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 99
 **Setup check (2:28 PM ET): nothing fired; entries done for the day**
 - Replay: E long continuation did not fire (closes $769.66, $769.78, $769.37). The 2:25 bar is the last eligible close; checked at EOD.
 - SPY $769.37, drifting back toward the bottom of the midday box ($769.05); QQQ $723.59. 4H (12–4): flat, near its open, with a long upper wick from the 1:40 high $771.91. No fresh setup: closes stay inside the box with no level break. No new 0DTE after 2:30.
+
+**Setup check (2:43 PM ET): past the 2:30 cutoff; nothing open**
+- Final replay: the 2:25 bar closed $769.56, so the E long continuation ($771.92–772.01) did not fire. No open paper trades. SPY $769.87, holding the $769.05 box low. Day: 1 trade, +$9.11.
