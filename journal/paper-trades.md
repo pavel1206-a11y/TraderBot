@@ -2132,3 +2132,11 @@ ARMED (valid until 12:27; prior 10-bar average ≈ 144k):
 ARMED (valid until 12:42; prior 10-bar average ≈ 125k): the same two F lines.
 - F long: close **$771.08–771.17** (≥ 1.0× ≈ 125k, or ≥ 0.7× with a same-bar QQQ high above $726.10; QQQ above VWAP; stop closer of $770.04 / candle low − $0.10; target +1.5R). PDT flag.
 - F short: close **$769.11–769.20** (only if ≥ 1.5R room to $768.57, else skip). PDT flag.
+
+**Setup check (12:28 PM ET): nothing fired; squeeze floor broken**
+- Replay: F short did not fire: the 12:20 bar closed **$769.08**, $0.03 below the $769.11–769.20 band (202k = 1.6×). It would have been skipped anyway: stop $769.61 (candle high + $0.10, risk $0.53) needs $0.80 room, only $0.51 to the 50-day SMA $768.57. F long did not fire.
+- SPY $769.08 below the $769.21 floor; QQQ $723.12 fading. 4H (12–4): red so far.
+
+ARMED (valid until 12:57; prior 10-bar average ≈ 104k, includes the 11:45 glitch bar):
+- ARMED E short (50-day SMA loss): close **$768.47–768.56** on ≥ 1.0× (≈ 104k), or ≥ 0.7× with a same-bar QQQ low below $723.09; SPY and QQQ below their VWAPs; stop = entry + $0.40; target = entry − 1.5R (room to the 10/2 low $767.15); 0DTE put ≤ $100; bar range ≤ $1.00. PDT flag.
+- F long: close **$771.08–771.17**, same terms. PDT flag.
