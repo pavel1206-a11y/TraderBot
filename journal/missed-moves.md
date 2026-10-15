@@ -145,3 +145,17 @@ Pattern for the Friday review: on a trend day, the $0.10 close band and the per-
 Owner flagged this move (screenshot, "set a call for the upside next time"). Added a standing **VWAP reclaim call** line to playbook section 10. Replayed under it: entry on the 10:05 pullback bar at $767.32, target $768.25 hit at 10:35, 769C ≈ +$17 on the standard exit (≈ +$160 if held to 11:15). The 766C that went $2.34 → $5.06 (+$272) cost $234, over the $100 cap.
 
 After the window: SPY ran $769.57 → $772.87 from 2:40 to 3:20 (+$3.30, 0.9–1.4× volume). This was after the 2:30 entry cutoff, so not counted.
+
+### Backtest: VWAP-reclaim line, 9/16–10/15 (22 sessions), for the Friday review
+
+Script: `tools/backtest_vwap_reclaim.py` (SPY/QQQ 5-min bars, VWAP computed from the bars, the rule exactly as written in playbook section 10; worst case when the stop and target fall in one bar; 30-min time stop; out by 3:30).
+
+| Variant | Calls (long) | Wins | Net | Puts (mirror) | Wins | Net |
+|---|---|---|---|---|---|---|
+| Stop = bar (2) low − $0.10 (as written) | 13 | 4 (31%) | −2.4R (+$0.06/sh) | 9 | 5 (56%) | +4.1R |
+| Stop buffer $0.25 | 13 | 4 | −1.9R | 9 | 5 | +4.2R |
+| Stop buffer $0.40 | 13 | 6 (46%) | +3.2R | 9 | 5 | +4.3R |
+
+- As written, the call side fires about every other day but loses: 9 of 13 stopped out, often by a few cents before the run (10/7 stopped, then +$4.25; 10/9 stopped, then +$2.10). The tight stop is the problem, not the entry.
+- A $0.40 buffer (matching the E-setup stop) flips the calls to +3.2R, but that is 13 trades over one month, so it could be curve-fitting. Proposal for the owner: paper-trade the $0.40 version for 2 more weeks before it counts.
+- The room filter in the script is crude (it counts the intraday high as a level), so its results are not quoted.
