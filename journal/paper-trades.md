@@ -2229,3 +2229,12 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 320k; PDT flag on 
 - ARMED E short (OR-low break): close **$0.01–0.10 below the final 9:30–9:45 OR low** (now $771.40) on ≥ 1.0×, or ≥ 0.7× with QQQ at a new low; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to P $769.70); 0DTE put; trigger-bar range ≤ $1.00.
 - ARMED VWAP reclaim long (section 10 standing line): (1) a close above VWAP + $0.10 with QQQ above its VWAP, then (2) a VWAP-holding green bar within 30 min; entry = bar (2) close; stop = its low − $0.10; target +1.5R (room to PDH $772.87 / R1 $774.96).
 - **Candidate G (shadow, not scored):** PDH-sweep put: first 5-min candle from 9:45 (sweep at 9:30, so valid through 10:30) that closes below $772.87, below VWAP and red; stop = candle high + $0.25; target 1R. Logged separately for the review, not in the scoreboard.
+
+**Setup check (9:58 AM ET): nothing fired; candidate G (shadow) opened**
+- Final OR (9:30–9:45): **$771.07–773.24**. Replay: E short (band $770.97–771.06) did not fire: the 9:50 bar wicked to $771.00 but closed $771.61. VWAP reclaim did not fire: the 9:45 close $772.26 was above SPY VWAP + $0.10 (≈ $772.21), but QQQ ($722.38) was below its VWAP (≈ $723.4), so step (1) failed.
+- SPY $771.61, VWAP ≈ $772.04; QQQ $721.45, new low $720.19 (weaker). 4H (8–12): red, forming.
+- **Candidate G (PDH-sweep put, shadow, not scored):** fired on the **9:50 bar**: close $771.61 below PDH $772.87, below VWAP, red. Entry $771.61, stop $772.58 (high $772.33 + $0.25), R = $0.97, target **$770.64** (1R). Open.
+
+ARMED (valid until 10:27; volume baseline ≈ 263k; PDT flag):
+- ARMED E short (day-low break): close **$770.90–770.99** on ≥ 1.0× (≈ 263k), or ≥ 0.7× with a same-bar QQQ low below $720.19; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to P $769.70); trigger-bar range ≤ $1.00.
+- ARMED VWAP reclaim long (standing line): (1) a close above SPY VWAP + $0.10 with QQQ above its own VWAP, then (2) a VWAP-holding green bar within 30 min; entry = bar (2) close; stop = its low − $0.10; target +1.5R (room to PDH $772.87).
