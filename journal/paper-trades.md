@@ -2213,3 +2213,10 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 99
 - Open paper trades: none to close. Day: **1 trade (F long, both legs), +$9.11**: 771C +$9, SPY fractional +$0.11. PDT-flagged (real money would have been blocked).
 - Running totals: **23 trades, 13W/10L (57%), +$139.47.** Options 12 (A* 1, B 11), fractional 11 (A* 1, B 10).
 - Day note: gap down to $764.44, then a V-reversal over VWAP to $771.07 by 11:15 that no armed line caught (bearish bias, no reclaim line). Then a midday squeeze, a 1:40 break that faded, and a late run to $772.87 (3:20) after the entry cutoff. Close ≈ $772.2. The owner asked for a standing VWAP-reclaim call line; it was added to playbook section 10.
+
+### 2026-10-16 (Fri): pre-market brief (8:54 AM ET)
+- **SPY PDH $772.87 · PDL $764.43** (10/15 regular session, official daily bar). Pre-market **$772.90**, right at the PDH (+$0.03): the first sweep test is likely at or near the open.
+- Close 10/15 $771.79. Pivots: **P $769.70 · R1 $774.96 · R2 $778.14 · S1 $766.52 · S2 $761.26.** SMAs: 20-day $771.11, 50-day $768.61; SPY closed above both again (reclaimed after Thursday's V-reversal).
+- QQQ pre-market $726.15 (−0.25% vs $728.00 close) while SPY is +0.14%: mixed, tech lagging.
+- Events: monthly options expiration (third Friday). PPI is listed for 10/16 on one calendar, but Thursday's reports put it on 10/15; unverified. No major earnings found.
+- **Bias: none / slight bullish** (above both SMAs after a reversal day, but sitting right at the PDH with QQQ red). Watch for a PDH sweep and failure (owner's setup; puts backtested 64%) or acceptance above $772.87 toward R1 $774.96. Day-trade note: real-money PDT count is still used up; paper only.
