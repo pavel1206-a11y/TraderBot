@@ -2273,3 +2273,12 @@ ARMED (valid until 11:27; prior 10-bar average ≈ 149k; PDT flag):
 - ARMED F/E short (squeeze floor and day low): close **$770.38–770.47** on ≥ 1.0× (≈ 149k), or ≥ 0.7× with a same-bar QQQ low below $719.77; SPY and QQQ below VWAP; stop = the closer of the squeeze midpoint + $0.10 ($771.65) and candle high + $0.10; target −1.5R (room to P $769.70).
 - F long (squeeze top $772.62): **not armed**: only $0.25 of room to the PDH $772.87.
 - VWAP reclaim long: re-arms only after a new day low (none since 10:10).
+
+**Setup check (11:15 AM ET): band skipped again on the breakdown; nothing fired**
+- Replay: F/E short ($770.38–770.47) did not fire: the **11:05 bar closed $769.74**, $0.64 past the band (197k ≈ 1.3×, QQQ $717.75), and its $1.39 range broke the $1.00 no-chase limit anyway. 11:00 bar closed $770.99 (above the band).
+- ORB-runner shadow: the 11:05 close met the breakout, VWAP, QQQ and volume conditions (197k ≥ 1.2× of 139k), but the stop (2-bar high $771.43 + $0.05) was $1.74 away, over the $1.50 cap, so it was skipped as written.
+- SPY $769.86 at the pivot P $769.70, new day low $769.39 (−$3.23 from the 10:50 high in 25 min). QQQ $718.06 (low $717.23), weaker. Squeeze broke down. 4H (8–12): red, expanding.
+
+ARMED (valid until 11:42; prior 10-bar average ≈ 159k; PDT flag):
+- ARMED E short (new day-low break): close **$769.29–769.38** on ≥ 1.0× (≈ 159k), or ≥ 0.7× with a same-bar QQQ low below $717.23; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to S1 $766.52); bar range ≤ $1.00.
+- ARMED VWAP reclaim long (standing line, re-armed by the new day low): VWAP ≈ $771.5.
