@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 11 | 6 | 5 | 55% | +$32.50 | -$14 | +$125 |
+| Options, B grade | 12 | 6 | 6 | 50% | +$32.50 | -$14.17 | +$110 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 10 | 5 | 5 | 50% | +$0.32 | -$0.18 | +$0.66 |
-| **All** | 23 | 13 | 10 | 57% | +$16.18 | -$7.09 | +$139.47 |
+| Fractional, B grade | 11 | 5 | 6 | 45% | +$0.32 | -$0.18 | +$0.51 |
+| **All** | 25 | 13 | 12 | 52% | +$16.18 | -$7.17 | +$124.32 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
 Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 5 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 6 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -2377,3 +2377,16 @@ ARMED (final; bar closes through 2:25; prior 10-bar average ≈ 228k; PDT flag):
 **Setup check (2:28 PM ET): nothing fired; entries done for the day**
 - Replay: E short ($762.13–762.22) did not fire (closes $763.10, $762.50, $762.44; low $761.97). The 2:25 bar is the last eligible close; checked at EOD.
 - SPY $762.44, day low $761.97 (−$11.27 from the open); QQQ $710.80. No new 0DTE after 2:30. Day: no scored trades; candidate G shadow +1R.
+
+**Setup check (2:43 PM ET): final E short FIRED on the 2:25 bar (armed, replayed); stopped out 2:32 (−$15.15)**
+- Trigger: the **2:25 bar closed $762.16** (band $762.13–762.22) on 199k = 0.91× the prior 10-bar average (219k), with a same-bar QQQ low **$710.10** below $710.23, so the 0.7× case was met. SPY and QQQ below VWAP; bar range $0.96 (≤ $1.00). Fired as written (last eligible close of the day).
+- Score card (B): 1 below a falling VWAP ✅ · 3 new day low on a trend day ✅ · 4 volume 0.91× with the QQQ clause ⚠️ · 5 QQQ new low ✅ · 6 4H red ✅ · 7 room to S2 $761.26 ≥ 1.5R ✅ · 9 trend day: yes ✅ · 10 time: last eligible bar ⚠️.
+- Plan: SPY entry $762.16, stop $762.56, target $761.56.
+  - **0DTE leg: SPY 10/16 761P** (the 762P was $1.12, over the $100 cap). Entry **$0.72** ($72).
+  - **Fractional leg: SH** 15.38 sh (≈ $500) at $32.51; alert on SPY $762.56 / $761.56.
+  - PDT flag: real money would be blocked.
+- Play-forward: the 2:30 1-min bar dipped to $761.69 ($0.13 short of the target), then **SPY hit $762.61 at 2:32, through the $762.56 stop.**
+  - **0DTE leg:** 761P out at ≈ $0.57 → **−$15.**
+  - **Fractional leg:** SH out on the SPY $762.56 alert ≈ $32.50 → **−$0.15.**
+- Running totals: **25 trades, 13 wins, 12 losses, +$124.32.** Day −$15.15 (1 loss; the candidate G shadow +1R is not scored).
+- Note: on a $11 trend day down, the only line that filled was the last one, at the low, after five band skips earlier. The band rule kept us out of the trend and let in the exhaustion bar. For the review.
