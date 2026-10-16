@@ -2296,3 +2296,11 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 171k; PDT flag):
 - SPY $769.45; QQQ $718.53. 4H (8–12): red. No squeeze yet (range since 11:05 is $768.45–771.11, too wide and too short).
 
 ARMED (valid until 12:12; prior 10-bar average ≈ 164k; PDT flag): the same two lines (E short $768.35–768.44 with QQQ low below $716.34 for the 0.7× case; VWAP reclaim long).
+
+**Setup check (11:58 AM ET): nothing fired (band skipped and volume short)**
+- Replay: E short ($768.35–768.44) did not fire: the **11:50 bar closed $768.17**, $0.18 past the band, on 119k = 0.79× (the 0.7× case needed a QQQ low below $716.34; QQQ low was $717.18). It failed on both counts.
+- SPY $768.17, new day low $768.14, now below the 50-day SMA $768.61; QQQ $717.24. Slow grind lower on light volume. 4H (8–12): red, closing near its low; the 12–4 candle starts next.
+
+ARMED (valid until 12:27; prior 10-bar average ≈ 150k; PDT flag):
+- ARMED E short (day-low break): close **$768.04–768.13** on ≥ 1.0× (≈ 150k), or ≥ 0.7× with a same-bar QQQ low below $716.34; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to S1 $766.52); bar range ≤ $1.00.
+- VWAP reclaim long (standing line): VWAP ≈ $770.9.
