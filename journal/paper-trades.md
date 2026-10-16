@@ -2290,3 +2290,9 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 159k; PDT flag):
 ARMED (valid until 11:57; prior 10-bar average ≈ 171k; PDT flag):
 - ARMED E short (day-low / 50-day SMA break): close **$768.35–768.44** on ≥ 1.0× (≈ 171k), or ≥ 0.7× with a same-bar QQQ low below $716.34; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to S1 $766.52); bar range ≤ $1.00.
 - VWAP reclaim long (standing line): VWAP ≈ $771.3.
+
+**Setup check (11:43 AM ET): nothing fired; small bounce off the 50-day SMA**
+- Replay: E short ($768.35–768.44) did not fire (closes $768.75, $769.27, $769.45; low held $768.45 at the 50-day SMA $768.61). No VWAP reclaim (VWAP ≈ $771.1).
+- SPY $769.45; QQQ $718.53. 4H (8–12): red. No squeeze yet (range since 11:05 is $768.45–771.11, too wide and too short).
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 164k; PDT flag): the same two lines (E short $768.35–768.44 with QQQ low below $716.34 for the 0.7× case; VWAP reclaim long).
