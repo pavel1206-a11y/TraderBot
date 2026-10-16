@@ -2304,3 +2304,11 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 164k; PDT flag): the same two
 ARMED (valid until 12:27; prior 10-bar average ≈ 150k; PDT flag):
 - ARMED E short (day-low break): close **$768.04–768.13** on ≥ 1.0× (≈ 150k), or ≥ 0.7× with a same-bar QQQ low below $716.34; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to S1 $766.52); bar range ≤ $1.00.
 - VWAP reclaim long (standing line): VWAP ≈ $770.9.
+
+**Setup check (12:13 PM ET): nothing fired (band skipped again)**
+- Replay: E short ($768.04–768.13) did not fire: the **11:55 bar closed $767.51**, $0.53 past the band, on 124k ≈ 0.83× with no QQQ new low below $716.34 (low $716.59), so it failed volume too. **Fifth breakdown leg today with no fill** (10:25 ORB volume, 11:05, 11:20, 11:50, 11:55).
+- SPY $767.17, day low **$766.58** (12:00 bar on 368k ≈ 2.4×), at S1 $766.52; **−$6.66 from the $773.24 open**. QQQ $716.18 (low $715.48). Trend day down below a falling VWAP (≈ $770.6). 4H (12–4): opened red.
+
+ARMED (valid until 12:42; prior 10-bar average ≈ 154k; PDT flag):
+- ARMED E short (S1 / day-low break): close **$766.48–766.57** on ≥ 1.0× (≈ 154k), or ≥ 0.7× with a same-bar QQQ low below $715.48; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to PDL $764.43); bar range ≤ $1.00.
+- VWAP reclaim long (standing line): VWAP ≈ $770.6 (far; unlikely).
