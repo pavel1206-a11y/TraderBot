@@ -2254,3 +2254,12 @@ ARMED (valid until 10:42; prior 9-bar average ≈ 227k; PDT flag):
 - SPY $771.17 holding $770.48–771.60 under VWAP (≈ $771.7); QQQ $721.02. 4H (8–12): red, small.
 
 ARMED (valid until 10:57; prior 10-bar average ≈ 195k; PDT flag): the same three lines (E short $770.38–770.47 with QQQ low below $719.77 for the 0.7× case; VWAP reclaim long; ORB-runner shadow below $771.00).
+
+**Setup check (10:43 AM ET): VWAP reclaim step (1) fired at 10:35; waiting for step (2)**
+- Replay: E short did not fire (low close $770.91). ORB-runner shadow: the 10:25 bar closed $770.91 below $771.00 with SPY/QQQ below VWAP but on 103k ≈ 0.5×, under the 1.2× volume rule, so it did not fire.
+- **VWAP reclaim long, step (1): the 10:35 bar closed $772.13** above SPY VWAP + $0.10 (VWAP ≈ $771.67) on 168k ≈ 1.04× the prior 10-bar average (162k), with QQQ $722.87 above its VWAP (≈ $722.26). Step (2) is now armed: the first bar through 11:05 whose low holds ≥ VWAP − $0.05 and closes green.
+- SPY $772.13, back near the $772.87 PDH; QQQ bouncing ($722.87). 4H (8–12): red but recovering.
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 162k; PDT flag):
+- ARMED VWAP reclaim long, step (2): first bar from 10:40 to 11:05 with low ≥ VWAP − $0.05 (≈ $771.65) that closes green; entry = its close; stop = its low − $0.10; target = entry + 1.5R, only if ≥ 1.5R of room to the PDH $772.87 (or R1 $774.96 once above the PDH).
+- E short (day-low break): close $770.38–770.47, same terms. ORB-runner shadow: unchanged (OR $771.00–773.24, both directions).
