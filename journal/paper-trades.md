@@ -2220,3 +2220,12 @@ ARMED (last one of the day; bar closes through 2:25; prior 10-bar average ≈ 99
 - QQQ pre-market $726.15 (−0.25% vs $728.00 close) while SPY is +0.14%: mixed, tech lagging.
 - Events: monthly options expiration (third Friday). PPI is listed for 10/16 on one calendar, but Thursday's reports put it on 10/15; unverified. No major earnings found.
 - **Bias: none / slight bullish** (above both SMAs after a reversal day, but sitting right at the PDH with QQQ red). Watch for a PDH sweep and failure (owner's setup; puts backtested 64%) or acceptance above $772.87 toward R1 $774.96. Day-trade note: real-money PDT count is still used up; paper only.
+
+**9:43 AM ET: opening range forming; PDH swept at the open**
+- SPY opened **$773.24**, $0.37 above the PDH $772.87 (a sweep), and sold off at once: 9:30 bar closed $772.31 (back below PDH, red), 9:35 bar $771.67 (low $771.40). OR so far **$771.40–773.24**. QQQ weaker: $722.44 (low $721.82, from a $725.49 open).
+- Below VWAP (≈ $772.3) on both. The owner's PDH-sweep put has its sweep already; the backtested rule waits for the first qualifying candle at 9:45 or later.
+
+ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 320k; PDT flag on all real-money lines):
+- ARMED E short (OR-low break): close **$0.01–0.10 below the final 9:30–9:45 OR low** (now $771.40) on ≥ 1.0×, or ≥ 0.7× with QQQ at a new low; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to P $769.70); 0DTE put; trigger-bar range ≤ $1.00.
+- ARMED VWAP reclaim long (section 10 standing line): (1) a close above VWAP + $0.10 with QQQ above its VWAP, then (2) a VWAP-holding green bar within 30 min; entry = bar (2) close; stop = its low − $0.10; target +1.5R (room to PDH $772.87 / R1 $774.96).
+- **Candidate G (shadow, not scored):** PDH-sweep put: first 5-min candle from 9:45 (sweep at 9:30, so valid through 10:30) that closes below $772.87, below VWAP and red; stop = candle high + $0.25; target 1R. Logged separately for the review, not in the scoreboard.
