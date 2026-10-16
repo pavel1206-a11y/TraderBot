@@ -2334,3 +2334,12 @@ ARMED (valid until 13:12; prior 10-bar average ≈ 134k; PDT flag):
 ARMED (valid until 13:27; prior 10-bar average ≈ 116k; PDT flag):
 - ARMED E short (day-low break): close **$765.62–765.71** on ≥ 1.0× (≈ 116k), or ≥ 0.7× with a same-bar QQQ low below $715.06; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to PDL $764.43); bar range ≤ $1.00.
 - VWAP reclaim long (standing line): VWAP ≈ $769.9.
+
+**Setup check (1:13 PM ET): band skipped again; PDL broken**
+- Replay: E short ($765.62–765.71) did not fire: the **1:00 bar closed $764.63**, about $1.00 past the band, range $1.76 (over the $1.00 limit). 12:55 closed $766.29 (above).
+- **SPY broke the PDL $764.43**: low $763.60, now $763.94; QQQ $713.13 (low $712.57). **−$9.64 from the open**, a full trend day down. Owner's PDL-sweep call setup needs a close back above $764.43 and above VWAP (≈ $769.6), so it is not close.
+- 4H (12–4): red, expanding.
+
+ARMED (valid until 13:42; prior 10-bar average ≈ 160k; PDT flag):
+- ARMED E short (day-low break): close **$763.50–763.59** on ≥ 1.0× (≈ 160k), or ≥ 0.7× with a same-bar QQQ low below $712.57; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to S2 $761.26); bar range ≤ $1.00.
+- VWAP reclaim long (standing line): VWAP ≈ $769.6.
