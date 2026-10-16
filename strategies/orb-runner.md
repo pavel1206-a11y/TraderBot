@@ -37,7 +37,7 @@ Settings chosen on Feb–Jun; Jul–Oct was not seen by the search.
 
 ## Search log
 
-About 20,000 variants across 4 families (ORB, PDH/PDL breakout, flush + VWAP reclaim,
+About 11,000 variants across 4 families (ORB, PDH/PDL breakout, flush + VWAP reclaim,
 squeeze breakout) × 7 exit styles (fixed 2/3/4R, VWAP-close exit, trailing stop,
 hold to close) with and without a break-even stop. Discovery filter: ≥ 25 trades,
 avg win ≥ 2.5× avg loss, ≥ +0.15R per trade, profit factor ≥ 1.4. 1,692 passed in
