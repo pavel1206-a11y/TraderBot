@@ -37,7 +37,7 @@ Aiming the target fully at VWAP makes more per win but drops the win rate to
 
 ## Search log
 
-About 13,000 rule variants across four families (PDH/PDL sweep + VWAP reclaim,
+Over 10,000 rule variants across four families (PDH/PDL sweep + VWAP reclaim,
 gap fade, VWAP snap-back, PDH/PDL breakout-retest), on 198 sessions
 (1/2–10/15/2026). 59 variants hit ≥ 80% with ≥ 20 trades in discovery; 12 held
 ≥ 80% on the held-out months, all of them VWAP snap-back longs. No PDH/PDL
