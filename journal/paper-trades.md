@@ -2351,3 +2351,11 @@ ARMED (valid until 13:42; prior 10-bar average ≈ 160k; PDT flag):
 ARMED (valid until 13:57; prior 10-bar average ≈ 208k; PDT flag):
 - ARMED E short (day-low break): close **$762.48–762.57** on ≥ 1.0× (≈ 208k), or ≥ 0.7× with a same-bar QQQ low below $711.01; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to S2 $761.26); bar range ≤ $1.00.
 - VWAP reclaim long (standing line): VWAP ≈ $769.2.
+
+**Setup check (1:43 PM ET): nothing fired; bounce back over the PDL**
+- Replay: E short ($762.48–762.57) did not fire (closes $764.11, $764.75, $764.29; low held $762.58).
+- SPY $764.29, bouncing +$2.59 off the $762.58 low and back above the PDL $764.43 (1:30 close $764.75). **Owner's PDL-sweep call: not valid as backtested.** The 1:30 candle closed back above the PDL and green, but far below VWAP (≈ $769.0), so the VWAP condition fails. QQQ $712.65. 4H (12–4): red with a lower wick forming.
+
+ARMED (valid until 14:12, the last arming window; prior 10-bar average ≈ 242k; PDT flag):
+- ARMED E short (day-low break): close **$762.48–762.57** on ≥ 1.0× (≈ 242k), or ≥ 0.7× with a same-bar QQQ low below $711.01; same terms as before.
+- VWAP reclaim long (standing line): VWAP ≈ $769.0.
