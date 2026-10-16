@@ -2263,3 +2263,13 @@ ARMED (valid until 10:57; prior 10-bar average ≈ 195k; PDT flag): the same thr
 ARMED (valid until 11:12; prior 10-bar average ≈ 162k; PDT flag):
 - ARMED VWAP reclaim long, step (2): first bar from 10:40 to 11:05 with low ≥ VWAP − $0.05 (≈ $771.65) that closes green; entry = its close; stop = its low − $0.10; target = entry + 1.5R, only if ≥ 1.5R of room to the PDH $772.87 (or R1 $774.96 once above the PDH).
 - E short (day-low break): close $770.38–770.47, same terms. ORB-runner shadow: unchanged (OR $771.00–773.24, both directions).
+
+**Setup check (10:58 AM ET): VWAP reclaim step (2) appeared but was skipped on the room rule**
+- Replay: step (2) candidates: 10:40 bar red (no). **10:45 bar**: low $771.80 ≥ VWAP − $0.05 ($771.67), green, close $772.49, so it qualified. Entry $772.49, stop $771.70, R $0.79, target $773.67, but room to the PDH $772.87 was only $0.38 < 1.5R ($1.18). **Skipped as written.** The 10:50 bar then fell to $771.13, through the would-be stop. The rule saved a loss.
+- E short (day-low $770.38–770.47) did not fire. ORB-runner shadow: no qualifying close.
+- SPY $771.25, back under VWAP ($771.72); QQQ $721.05. **Squeeze (F): $770.48–772.62 since 10:05** (≈ 50 min, $2.14 wide). 4H (8–12): red, inside.
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 149k; PDT flag):
+- ARMED F/E short (squeeze floor and day low): close **$770.38–770.47** on ≥ 1.0× (≈ 149k), or ≥ 0.7× with a same-bar QQQ low below $719.77; SPY and QQQ below VWAP; stop = the closer of the squeeze midpoint + $0.10 ($771.65) and candle high + $0.10; target −1.5R (room to P $769.70).
+- F long (squeeze top $772.62): **not armed**: only $0.25 of room to the PDH $772.87.
+- VWAP reclaim long: re-arms only after a new day low (none since 10:10).
