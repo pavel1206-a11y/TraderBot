@@ -167,3 +167,15 @@ Mechanical version: price trades through the PDH or PDL, then a 5-min bar closes
 - PDH sweeps (short): 5 trades, 1 win, −2.1R. PDL sweeps (long): 4 trades, 0 wins, −4.0R.
 - Most losers swept again after the "reclaim" (10/15: PDL $766.71 swept at the open, reclaimed at 9:35, then flushed to $764.44 before the real reversal). The first close back inside is too early; the 10/15 winner came from waiting for the VWAP reclaim and a higher low.
 - Starting 10/16, the pre-market brief opens with the PDH/PDL lines and sends a push.
+
+## 2026-10-16 (Fri, monthly opex, trend day down)
+
+Open $773.24 (PDH sweep) → low $761.69 at 2:30, −$11.55. Qualifying moves:
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:50–11:20 | −$4.17 in 30 min | Squeeze top $772.62 failed at the PDH; 11:05 bar broke the squeeze floor $770.48 (1.3×, QQQ new low), 11:20 broke the day low (1.2×) | F/E short (armed $770.38–770.47, then $769.29–769.38) | **Band skipped** ($0.64, $0.37 past) and **bar range > $1.00** ($1.39, $1.54) |
+| 11:45–12:05 | −$3.12 in 20 min | 50-day SMA break, then S1; 12:00 bar 2.4× | E short ($768.35–768.44, then $768.04–768.13) | **Band skipped** ($0.18, $0.53 past) and volume < 1.0× on the 11:50/11:55 closes |
+| 12:40–1:20 | −$4.28 in 40 min | PDL $764.43 break; 1:00 bar 1.4×, QQQ new lows | E short ($765.62–765.71, then $763.50–763.59) | **Band skipped** ($1.00, $0.65 past) and **bar range > $1.00** ($1.76, $1.18) |
+
+Pattern: the same as 10/14 but worse. On trend days each breakdown closes well past the level on a large bar, so the $0.10 band and the $1.00 range cap together reject every leg; the only fill was the final, smaller bar at the low (stopped). Proposal 1 in the weekly review.

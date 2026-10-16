@@ -2390,3 +2390,39 @@ ARMED (final; bar closes through 2:25; prior 10-bar average ≈ 228k; PDT flag):
   - **Fractional leg:** SH out on the SPY $762.56 alert ≈ $32.50 → **−$0.15.**
 - Running totals: **25 trades, 13 wins, 12 losses, +$124.32.** Day −$15.15 (1 loss; the candidate G shadow +1R is not scored).
 - Note: on a $11 trend day down, the only line that filled was the last one, at the low, after five band skips earlier. The band rule kept us out of the trend and let in the exhaustion bar. For the review.
+
+**End of day 10/16 (3:47 PM ET)**
+- Open paper trades: none. Day: **1 scored trade (E short at 2:25), −$15.15** (761P −$15, SH −$0.15). Shadow candidates (not scored): PDH-sweep put (G) +1R (+$0.97/sh); ORB-runner skipped (stop $1.74 > $1.50 cap).
+- Running totals: **25 trades, 13W/12L (52%), +$124.32.**
+- Day note: monthly-opex trend day down. Opened above the PDH ($773.24), swept it and failed; then a staircase of lower lows to $761.69 (−$11.55), closing near the lows. Six breakdown legs closed past the $0.10 entry band (or broke the $1.00 bar-range limit); the one line that filled was the last eligible bar, near the low, and it was stopped.
+
+## Weekly review: 2026-10-12 to 2026-10-16 (playbook section 8)
+
+| | Trades | W/L | Net | Notes |
+|---|---|---|---|---|
+| Options (0DTE) | 7 | 5/2 | **+$121** | 10/12 F long · 10/13 E short, F long, F short (L) · 10/14 E short · 10/15 F long · 10/16 E short (L) |
+| Fractional | 7 | 5/2 | +$1.28 | same trades, SPY/SH legs |
+| By setup | F 4 setups: 3W/1L, **+$46.57** · E 3 setups: 2W/1L, **+$75.71** | | | |
+| By grade | all B (no A-grade trades this week) | | | |
+| By day | Mon +$18.34 · Tue +$61.51 · Wed +$48.47 · Thu +$9.11 · Fri −$15.15 | | | max daily loss −$15 (limit $100) |
+| **Week** | **14 legs (7 setups)** | **10/4** | **+$122.28** | |
+
+**Since start (3 weeks): 25 trades, 13/12, +$124.32.** Options +$123.50, fractional +$0.82.
+
+- **What worked:** armed-and-replayed E and F lines (5 of 7 hit +1.5R); risk stayed small (largest loss −$17); the room rule saved a loss on 10/16 (10:45 VWAP-reclaim step 2 skipped, then fell through the stop).
+- **What didn't:** the **$0.10 close band** on trend days. 10/14: 3 of 4 legs skipped. 10/16: 6 legs skipped, and the only fill came at the exhaustion low. Plus missed V-reversals (10/15) that had no armed line until the owner asked for one.
+- **Rule breaks / my errors:** 10/15 F long filled via the literal "same-bar QQQ high above X" clause, although QQQ had broken X 10 minutes earlier (flagged). No risk-limit breaches. Real money would have been PDT-blocked from 10/14 on (3 day trades used 10/13).
+
+**Graduation check (CLAUDE.md):**
+- ≥ 10 paper trades: **yes** (25).
+- A-grade trades profitable overall: **no real sample.** The only A-grade trade is the 10/6 A* (two legs, +$13.81), which was an arming error. All 23 other legs were B-grade.
+- **Verdict: not passed. Keep paper trading.** B-grade trades are positive (+$110.51 over 23 legs), but the rule is A-grade only. Owner's call.
+
+### Proposals for the owner (none applied)
+1. **Close band on continuation lines:** replace the two-sided $0.10 band with "close at or beyond the level, up to $0.50 past, bar range ≤ $1.25." It would have caught 10/14's three skipped legs and 10/16's 11:05/11:20/12:45 legs (needs a replay before adopting).
+2. **Trend-day room rule:** on a confirmed trend day, measure room to the next level beyond tightly stacked ones.
+3. **VWAP-reclaim line stop:** $0.40 below the hold bar instead of $0.10 (backtest: 13 calls, 4W → 6W, −2.4R → +3.2R; small sample).
+4. **Candidate G (owner's PDH-sweep put):** 64% / +4R over 90 days; first live shadow trade 10/16 won +1R. Keep shadow-tracking for 2 weeks.
+5. **ORB runner and VWAP snap-back candidates:** shadow-track; do not score yet.
+6. **F minimum stop distance** ($0.25) and **QQQ clause = a fresh break in the same bar** (from 10/15).
+7. Earlier open items: F-only/code-armed triggers; whether the A* trades count (recommend: no).
