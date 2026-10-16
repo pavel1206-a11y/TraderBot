@@ -2284,7 +2284,7 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 159k; PDT flag):
 - ARMED VWAP reclaim long (standing line, re-armed by the new day low): VWAP ≈ $771.5.
 
 **Setup check (11:28 AM ET): band skipped again; nothing fired**
-- Replay: E short ($769.29–769.38) did not fire: 11:15 closed $769.61 (above), **11:20 closed $768.92**, $0.37 past the band (202k ≈ 1.2×, QQQ new low $716.34), and its $1.54 range broke the $1.00 no-chase limit anyway. That is the third skipped breakdown leg today (9:50 on 10/15 style, 11:05, 11:20).
+- Replay: E short ($769.29–769.38) did not fire: 11:15 closed $769.61 (above), **11:20 closed $768.92**, $0.37 past the band (202k ≈ 1.2×, QQQ new low $716.34), and its $1.54 range broke the $1.00 no-chase limit anyway. That is the second skipped breakdown leg today (11:05, 11:20).
 - SPY $768.92, day low $768.45 (tested the 50-day SMA $768.61); QQQ $717.14. A staircase down from the 10:50 high $772.62 (−$4.17), below a falling VWAP (≈ $771.3). 4H (8–12): red, expanding.
 
 ARMED (valid until 11:57; prior 10-bar average ≈ 171k; PDT flag):
