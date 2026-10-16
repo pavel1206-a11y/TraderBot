@@ -1,13 +1,15 @@
 import json
 from datetime import datetime,timedelta
-raw=json.load(open(__import__('sys').argv[1] if len(__import__('sys').argv)>1 else 'data/bars.json'))
+from zoneinfo import ZoneInfo
+NY=ZoneInfo("America/New_York")
+raw=json.load(open('data/bars.json'))
 def load():
     days={}
     for sym in ('SPY','QQQ'):
         for k,v in raw[sym].items():
             t=datetime.fromisoformat(k.replace('Z','+00:00'))
             # DST: EDT until Nov 1 2026; all data Jun-Oct -> UTC-4
-            t=t-timedelta(hours=4)
+            t=t.astimezone(NY).replace(tzinfo=None)
             days.setdefault(t.date(),{}).setdefault(sym,[]).append(dict(t=t,m=t.hour*60+t.minute,o=v[0],h=v[1],l=v[2],c=v[3],v=v[4]))
     out=[]
     for d in sorted(days):
@@ -16,7 +18,7 @@ def load():
         for B in (S,Q):
             pv=vv=0
             for b in B:
-                pv+=(b['h']+b['l']+b['c'])/3*b['v'];vv+=b['v'];b['vw']=pv/vv
+                pv+=(b['h']+b['l']+b['c'])/3*b['v'];vv+=b['v'];b['vw']=pv/vv if vv else b['c']
         out.append((d,S,{b['m']:b for b in Q}))
     return out
 DAYS=load()
