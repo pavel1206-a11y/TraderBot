@@ -2558,3 +2558,10 @@ ARMED (valid until 13:12; prior 10-bar average ≈ 136k; PDT flag):
 ARMED (valid until 13:27; prior 10-bar average ≈ 90k; PDT flag):
 - ARMED E short (12:55 low break): close **$767.38–767.47** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $720.00; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to the pivot $765.71 ✓); bar range ≤ $1.00.
 - ARMED E long (VWAP reclaim): close **$768.32–768.41** (VWAP + $0.10) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $721.69; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to $769.51 ✓); bar range ≤ $1.00.
+
+**Setup check (13:13 PM ET): nothing fired yet; the 13:10 bar is still open inside the short band**
+- Replay: E short ($767.38–767.47): 12:55 closed $767.53 and **13:00 closed $767.48** ($0.01 above the band); **13:05 closed $767.09**, past the band. Not fired. E long (VWAP reclaim $768.32–768.41) did not fire (high $767.75).
+- The **13:10 bar is still open** at $767.45 (in the band, 48k so far; QQQ low $719.31 below $720.00, so 0.7× ≈ 55k is the bar to clear). The next check replays its final close.
+- SPY $767.45 below VWAP (≈ $768.1); QQQ $719.90 below its VWAP. Day low still $765.82. 4H (12–4): red. Drift lower since 12:00 ($767.04–769.51), very light volume. No setup.
+
+ARMED (valid until 13:42; prior 10-bar average ≈ 79k; PDT flag): the same two lines (E short close $767.38–767.47, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ low below $720.00, includes the 13:10 bar; E long close $768.32–768.41 with QQQ above $721.69), same stops, targets and room checks.
