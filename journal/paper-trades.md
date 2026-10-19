@@ -2449,4 +2449,4 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 398k; real-money P
 ARMED (valid until 10:27; prior 5-bar average ≈ 284k; PDT flag):
 - ARMED E short (day-low break): close **$766.19–766.29** on ≥ 1.0× (≈ 284k), or ≥ 0.7× with a same-bar QQQ low below $718.17; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to Friday's close $763.25); bar range ≤ $1.00.
 - ARMED E long (50-day SMA reclaim): close **$768.51–768.60**, same terms as before.
-- Shadow: 9 EMA/VWAP cross call; VWAP-reclaim long (standing line; new day low below VWAP).
+- ARMED VWAP-reclaim long (standing line, playbook section 10; new day low below VWAP). Shadow, not scored: 9 EMA/VWAP cross call.
