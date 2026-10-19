@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 12 | 6 | 6 | 50% | +$32.50 | -$14.17 | +$110 |
+| Options, B grade | 13 | 6 | 7 | 46% | +$32.50 | -$13.57 | +$100 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 11 | 5 | 6 | 45% | +$0.32 | -$0.18 | +$0.51 |
-| **All** | 25 | 13 | 12 | 52% | +$16.18 | -$7.17 | +$124.32 |
+| Fractional, B grade | 12 | 5 | 7 | 42% | +$0.32 | -$0.18 | +$0.28 |
+| **All** | 27 | 13 | 14 | 48% | +$16.18 | -$6.88 | +$114.09 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
 Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 6 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 7 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -2450,3 +2450,15 @@ ARMED (valid until 10:27; prior 5-bar average ≈ 284k; PDT flag):
 - ARMED E short (day-low break): close **$766.19–766.29** on ≥ 1.0× (≈ 284k), or ≥ 0.7× with a same-bar QQQ low below $718.17; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to Friday's close $763.25); bar range ≤ $1.00.
 - ARMED E long (50-day SMA reclaim): close **$768.51–768.60**, same terms as before.
 - ARMED VWAP-reclaim long (standing line, playbook section 10; new day low below VWAP). Shadow, not scored: 9 EMA/VWAP cross call.
+
+**Setup check (10:17 AM ET): E short FIRED at 10:00 (armed, replayed); stopped 10:06 (−$10.23). Then a sharp reversal up through VWAP**
+- Trigger: the **10:00 bar closed $766.28** (band $766.19–766.29) on 194k = 0.73× the prior 10-bar average (265k, all 6 prior bars; 0.68× of the 284k written at arming), with a same-bar QQQ low **$716.57** below $718.17, so the 0.7× case was met on the playbook's prior-10-bar measure. SPY and QQQ below VWAP; bar range $0.93. Fired.
+- Plan: entry $766.28, stop $766.68, target $765.68. **0DTE: 764P** at $0.74 ($74; the 766P $1.38 and 765P $1.02 were over the $100 cap). **SH** 15.46 sh at $32.345.
+- Play-forward: low after entry $766.19 (target never close); **SPY hit $766.72 at 10:06, through the stop.** 764P out ≈ $0.64 → **−$10**; SH out ≈ $32.33 → **−$0.23**. PDT flag (real money blocked today).
+- Running totals: **27 trades, 13W/14L, +$114.09.** Day −$10.23.
+- Then the **10:10 bar ripped $766.64 → $768.34** (range $1.77, 209k, QQQ $717.91 → $720.27). That is **step (1) of the VWAP-reclaim line**: close above SPY VWAP (≈ $767.0) + $0.10, QQQ back above its VWAP the same bar (0.7× case, 0.88×).
+- SPY $768.34, just under the 50-day SMA $768.50. 4H (8–12): flipped green. Shadow 9 EMA/VWAP cross: the EMA crossed above VWAP on the 10:10 bar with QQQ above VWAP; logged as a shadow signal at $768.34 (stop $766.27, exit on a close below VWAP).
+
+ARMED (valid until 10:42; prior 10-bar average ≈ 241k; PDT flag):
+- ARMED VWAP reclaim long, step (2): first bar through 10:40 whose low holds ≥ VWAP − $0.05 and closes green; entry = its close; stop = its low − $0.10; target = entry + 1.5R, only if ≥ 1.5R of room to the next level (50-day SMA $768.50 if below it, else R1 $770.79).
+- ARMED E long (50-day SMA reclaim): close **$768.51–768.60** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $720.27; stop −$0.40; target +1.5R (room to R1 $770.79); bar range ≤ $1.00.
