@@ -2526,3 +2526,13 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 177k; PDT flag): E long (20-d
 - Squeeze range (setup F), 11:15–11:59 (45 min): **$768.65–770.46** ($1.81). Neither edge is tradeable yet: a break up has only $0.33 of room to R1 $770.79; a break down runs into VWAP. No fresh close through a level on 1.5–2× volume: no new setup.
 
 ARMED (valid until 12:27; prior 10-bar average ≈ 175k; PDT flag): E long (20-day SMA break) close **$771.19–771.28**, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $724.55; stop −$0.40; target +1.5R (room to PDH $773.25); bar range ≤ $1.00. Shadow: PDH-sweep put at $773.25.
+
+**Setup check (12:13 PM ET): nothing fired; squeeze broke down into VWAP**
+- Replay: E long ($771.19–771.28) did not fire (closes $769.45–768.29; high $770.03).
+- The **12:00 bar broke the squeeze low $768.65** on 393k (2.2×), but its range was $1.61 (over the $1.00 limit), it was not armed, and it closed $768.50, still above VWAP. No trade (no-chase).
+- SPY $768.62, on VWAP ($768.22; 12:05 low $767.83 dipped under it). QQQ $722.40, near its VWAP. Chop across VWAP: no 0DTE direction. 4H (12–4): opened $769.48, red so far.
+- Squeeze range: broken; new range since 12:00 $767.83–769.51, too young.
+
+ARMED (valid until 12:42; prior 10-bar average ≈ 177k; PDT flag):
+- ARMED E short (VWAP loss, below the 12:05 low): close **$767.73–767.82** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $721.64; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to the pivot $765.71 ✓); bar range ≤ $1.00.
+- ARMED E long (back above VWAP, over the 12:10 high): close **$768.84–768.93** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $722.73; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to the day high $770.46 ✓); bar range ≤ $1.00.
