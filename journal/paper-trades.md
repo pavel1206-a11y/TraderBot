@@ -2462,3 +2462,14 @@ ARMED (valid until 10:27; prior 5-bar average ≈ 284k; PDT flag):
 ARMED (valid until 10:42; prior 10-bar average ≈ 241k; PDT flag):
 - ARMED VWAP reclaim long, step (2): first bar through 10:40 whose low holds ≥ VWAP − $0.05 and closes green; entry = its close; stop = its low − $0.10; target = entry + 1.5R, only if ≥ 1.5R of room to the next level (50-day SMA $768.50 if below it, else R1 $770.79).
 - ARMED E long (50-day SMA reclaim): close **$768.51–768.60** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $720.27; stop −$0.40; target +1.5R (room to R1 $770.79); bar range ≤ $1.00.
+
+**Setup check (10:28 AM ET): VWAP reclaim long FIRED at 10:15 (armed, replayed); open**
+- Replay: step (2) on the **10:15 bar**: low $768.28 held above VWAP (≈ $767.1), green ($768.35 → $768.64). Entry **$768.64**, stop **$768.18** (low − $0.10), R $0.46, target **$769.33** (+1.5R). Room: above the 50-day SMA $768.50, so the next level is R1 $770.79, which is $2.15 ≥ 1.5R. Fired as written.
+- E long ($768.51–768.60) did not fire: the 10:15 close $768.64 was $0.04 past the band (and the VWAP line took the trade anyway).
+- Score card (B): 1 reclaimed VWAP, QQQ above its VWAP ✅ · 3 back above the 50-day SMA ✅ · 4 reclaim bar 0.88× with QQQ reclaim ⚠️ · 6 4H flipped green ✅ · 7 room to R1 ✅ · 9 trend day: no ⚠️ · 10 time ✅.
+  - **0DTE leg: SPY 10/19 770C** at **$0.75** ($75; the 769C at $1.17 was over the $100 cap). +50% = $1.13; option stop ≈ $0.41.
+  - **Fractional leg: SPY** 0.6505 sh (≈ $500) at $768.64; alert on $768.18 / $769.33.
+  - PDT flag: real money blocked today.
+- Play-forward so far: high $769.04 (10:15 bar), low since entry $768.23 ($0.05 above the stop). SPY $768.34 at 10:27; 770C ≈ $0.62. **Open.** Time stop: 10:45 if not in profit.
+
+ARMED (valid until 10:57): no new lines; manage the open trade (stop $768.18, target $769.33).
