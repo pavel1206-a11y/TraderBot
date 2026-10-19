@@ -2605,3 +2605,8 @@ ARMED (last list of the day; bars closing by 14:30 only, since no new 0DTE after
 - Replay: E/F short ($766.64–766.73): 14:10 closed $767.75, 14:15 $767.89, 14:20 $767.37 (the 5-min feed returned a short 14:20 bar again; rebuilt from 1-min: O $767.88, H $767.91, L $767.34, C $767.37, ≈ 43k). Not fired. The **14:25 bar is still open** at $766.97 (low $766.94); it closes at 14:30, the last allowed entry time, and the EOD check replays it.
 - SPY $766.97 below VWAP (≈ $767.9); QQQ $718.11 (new afternoon low, below $718.33). 4H (12–4): red. Squeeze $766.74–768.01 since 13:05.
 - No new arming: past 14:15. No new 0DTE after 14:30.
+
+**Setup check (14:43 PM ET): last line expired unfired; done for new entries**
+- Replay: the 14:25 bar closed **$767.25** (low $766.88), above the $766.64–766.73 band. The E/F short line expired at 14:30 without firing.
+- SPY $767.41 below VWAP (≈ $767.9); QQQ $719.14. 4H (12–4): red, small. Squeeze $766.71–768.01 since 13:05 (the 14:35 low $766.71 poked $0.03 under it and closed back inside).
+- No new 0DTE entries after 14:30; no open trades. Day: **+$13.32** (4 trades, 2W/2L). EOD close-out and missed moves at 15:47.
