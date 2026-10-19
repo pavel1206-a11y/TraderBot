@@ -2457,7 +2457,7 @@ ARMED (valid until 10:27; prior 5-bar average ≈ 284k; PDT flag):
 - Play-forward: low after entry $766.19 (target never close); **SPY hit $766.72 at 10:06, through the stop.** 764P out ≈ $0.64 → **−$10**; SH out ≈ $32.33 → **−$0.23**. PDT flag (real money blocked today).
 - Running totals: **27 trades, 13W/14L, +$114.09.** Day −$10.23.
 - Then the **10:10 bar ripped $766.64 → $768.34** (range $1.77, 209k, QQQ $717.91 → $720.27). That is **step (1) of the VWAP-reclaim line**: close above SPY VWAP (≈ $767.0) + $0.10, QQQ back above its VWAP the same bar (0.7× case, 0.88×).
-- SPY $768.34, just under the 50-day SMA $768.50. 4H (8–12): flipped green. Shadow 9 EMA/VWAP cross: the EMA crossed above VWAP on the 10:10 bar with QQQ above VWAP; logged as a shadow signal at $768.34 (stop $766.27, exit on a close below VWAP).
+- SPY $768.34, just under the 50-day SMA $768.50. 4H (8–12): flipped green. Shadow 9 EMA/VWAP cross: possible signal on the 10:10 bar (not yet verified with the EMA calculation; checked at EOD).
 
 ARMED (valid until 10:42; prior 10-bar average ≈ 241k; PDT flag):
 - ARMED VWAP reclaim long, step (2): first bar through 10:40 whose low holds ≥ VWAP − $0.05 and closes green; entry = its close; stop = its low − $0.10; target = entry + 1.5R, only if ≥ 1.5R of room to the next level (50-day SMA $768.50 if below it, else R1 $770.79).
