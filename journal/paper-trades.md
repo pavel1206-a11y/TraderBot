@@ -2513,3 +2513,9 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 160k; PDT flag):
 - No short line: the day low $765.82 is $4.25 away. Shadow (not scored): PDH-sweep put if SPY tags $773.25 and closes back below it.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:43 AM ET): nothing fired; holding under R1**
+- Replay: E long ($771.19–771.28) did not fire (closes $769.90, $769.92, $770.07; high $770.46). The 11:25 bar's final close was $769.90 on 248k (it was $770.07 when the last check read it while the bar was still open).
+- SPY $770.10, above VWAP and the 50-day SMA, $0.69 under R1 $770.79; QQQ $724.19 (day high $724.55). 4H (8–12): green. Tight range since 11:25: $769.47–770.46 (20 min, $0.99), too short to count as a squeeze yet. No fresh close through a level on 1.5–2× volume: no new setup.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 177k; PDT flag): E long (20-day SMA break) close **$771.19–771.28**, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $724.55; stop −$0.40; target +1.5R (room to PDH $773.25); bar range ≤ $1.00. Shadow: PDH-sweep put at $773.25.
