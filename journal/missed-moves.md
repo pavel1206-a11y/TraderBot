@@ -179,3 +179,14 @@ Open $773.24 (PDH sweep) → low $761.69 at 2:30, −$11.55. Qualifying moves:
 | 12:40–1:20 | −$4.28 in 40 min | PDL $764.43 break; 1:00 bar 1.4×, QQQ new lows | E short ($765.62–765.71, then $763.50–763.59) | **Band skipped** ($1.00, $0.65 past) and **bar range > $1.00** ($1.76, $1.18) |
 
 Pattern: the same as 10/14 but worse. On trend days each breakdown closes well past the level on a large bar, so the $0.10 band and the $1.00 range cap together reject every leg; the only fill was the final, smaller bar at the low (stopped). Proposal 1 in the weekly review.
+
+## 2026-10-19 (Mon, chop day around VWAP)
+
+Open $767.22 (gap up $3.97) → range $765.82–770.46, close ≈ $767.86. Qualifying moves:
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:00–10:15 | +$3.22 in 20 min (765.82 → 769.04) | Day low at 10:00 (E short stopped there), then the 10:10 bar ripped $766.64 → $768.34 through VWAP (range $1.77, 0.88×, QQQ reclaimed its VWAP the same bar) | VWAP-reclaim long (step 2 filled at 10:15, $768.64) | **Caught late:** the reclaim needs a hold bar after the break, so it entered near the top of the move and was stopped at 10:28 ($0.02 under its stop). The breakout bar itself was over the $1.00 range cap. |
+| 11:35–12:05 | −$2.63 in 30 min (770.46 → 767.83) | Rejected under R1 $770.79 after a 45-min squeeze ($768.65–770.46); 12:00 bar broke the squeeze low on **2.2× volume** | F short (squeeze-low break) | **No line armed** (only the 20-day break long was armed at 11:58), and the breakout bar's range ($1.61) was over the $1.00 cap; it also closed still above VWAP. |
+
+Pattern: the second row repeats 10/14 and 10/16: a decisive range break on a big bar is rejected by the $1.00 range cap. It also shows the arming gap: when a squeeze has formed, arm both edges, not only the side with a level. Both go to the Friday review (proposal: arm both squeeze edges once a 45-min range exists; the range cap is already proposal 1).

@@ -2610,3 +2610,15 @@ ARMED (last list of the day; bars closing by 14:30 only, since no new 0DTE after
 - Replay: the 14:25 bar closed **$767.25** (low $766.88), above the $766.64–766.73 band. The E/F short line expired at 14:30 without firing.
 - SPY $767.41 below VWAP (≈ $767.9); QQQ $719.14. 4H (12–4): red, small. Squeeze $766.71–768.01 since 13:05 (the 14:35 low $766.71 poked $0.03 under it and closed back inside).
 - No new 0DTE entries after 14:30; no open trades. Day: **+$13.32** (4 trades, 2W/2L). EOD close-out and missed moves at 15:47.
+
+**End of day (3:47 PM ET): 10/19 close-out**
+- Open paper trades: none (all four closed intraday). SPY closed ≈ $767.86 (day $765.82–770.46; −0.0% vs open $767.22, +$4.61 vs Friday).
+- Today: **4 trades (2 setups × option + fractional), 2W/2L, +$13.32.**
+  - 10:00 E short: stopped −$10.23 · 10:15 VWAP reclaim long: stopped −$16.30 · 11:15 E long: target +$21.39 · 13:10 E short: target +$18.46.
+- Running totals: **33 trades, 17W/16L (52%), +$137.64.** Options B 16 trades +$123; fractional B 15 trades +$0.83.
+- Note: a two-sided chop day around VWAP after a gap up into resistance. The early lines lost in the 10:00–10:30 whipsaw; the later E lines (day-high break, then the 12:55-low break) worked once the range was defined. Both winners came from the 0.7× QQQ-break case on light volume.
+- Shadow (not scored): **9 EMA/VWAP cross call verified:** EMA crossed above VWAP on the 10:10 bar (EMA $767.09 vs VWAP $767.06, close $768.34, QQQ above its VWAP). Entry $768.34, stop $766.27; exit on the first close below VWAP, the 10:30 bar at $767.24 → **−$1.10/share**. VWAP snap-back, ORB runner and PDH-sweep put: no signals (PDH $773.25 never reached).
+- Missed moves: 2 rows in journal/missed-moves.md.
+- PDT: the three real 10/13 day trades roll off tomorrow (10/20); paper only regardless.
+
+Market data and analysis only, not investment advice.
