@@ -2426,3 +2426,10 @@ ARMED (final; bar closes through 2:25; prior 10-bar average ≈ 228k; PDT flag):
 5. **ORB runner and VWAP snap-back candidates:** shadow-track; do not score yet.
 6. **F minimum stop distance** ($0.25) and **QQQ clause = a fresh break in the same bar** (from 10/15).
 7. Earlier open items: F-only/code-armed triggers; whether the A* trades count (recommend: no).
+
+### 2026-10-19 (Mon): pre-market brief (8:54 AM ET)
+- **SPY PDH $773.25 · PDL $760.64** (10/16). Pre-market **$766.89**, inside the range: $6.36 below the PDH and $6.25 above the PDL.
+- Close 10/16 $763.25. Pivots: **P $765.71 · R1 $770.79 · R2 $778.32 · S1 $758.18 · S2 $753.10.** SMAs: 20-day $771.18, 50-day $768.50 (SPY below both).
+- QQQ pre-market $719.02 (+1.3% vs $709.80), stronger than SPY (+0.5%): bounce after Friday's trend day down.
+- Events: no major economic release found for today (web search returned nothing current; unverified). Earnings: regional banks after the close (ZION, WAL, FITB reported AM); no mega-caps today.
+- **Bias: none.** Gap up into a resistance stack (50-day $768.50, R1 $770.79, 20-day $771.18, PDH $773.25) after a −$10 trend day. Watch the gap-fill to $763.25 and the $770.8–773.25 zone for a PDH-sweep failure. Day-trade note: real-money PDT window resets as the 10/13 trades roll off (paper only regardless).
