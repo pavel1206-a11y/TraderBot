@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 13 | 6 | 7 | 46% | +$32.50 | -$13.57 | +$100 |
+| Options, B grade | 14 | 6 | 8 | 43% | +$32.50 | -$13.88 | +$84 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 12 | 5 | 7 | 42% | +$0.32 | -$0.18 | +$0.28 |
-| **All** | 27 | 13 | 14 | 48% | +$16.18 | -$6.88 | +$114.09 |
+| Fractional, B grade | 13 | 5 | 8 | 38% | +$0.32 | -$0.20 | -$0.02 |
+| **All** | 29 | 13 | 16 | 45% | +$16.18 | -$7.04 | +$97.79 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
 Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 7 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 7 · VWAP reclaim 1 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -2473,3 +2473,13 @@ ARMED (valid until 10:42; prior 10-bar average ≈ 241k; PDT flag):
 - Play-forward so far: high $769.04 (10:15 bar), low since entry $768.23 ($0.05 above the stop). SPY $768.34 at 10:27; 770C ≈ $0.62. **Open.** Time stop: 10:45 if not in profit.
 
 ARMED (valid until 10:57): no new lines; manage the open trade (stop $768.18, target $769.33).
+
+**Setup check (10:43 AM ET): VWAP reclaim long stopped at 10:28 (−$16.30)**
+- Play-forward: SPY hit **$768.16 at 10:28**, through the $768.18 stop (high after entry $769.04, $0.29 short of the target). 770C out ≈ $0.59 → **−$16**; SPY fractional 0.6505 × −$0.46 → **−$0.30**.
+- Running totals: **29 trades, 13W/16L, +$97.79.** Day −$26.53 (2 losses). Daily loss limit $100: fine.
+- Note: the stop was $0.10 under the hold bar, as written. The 10/15 backtest suggested $0.40; with that, this trade (low $767.00 at 10:34) would also have been stopped. Today was chop around VWAP.
+- SPY $767.72 around VWAP (≈ $767.4); day range $765.82–769.04. QQQ ≈ $720.5. 4H (8–12): green but fading.
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 210k; PDT flag):
+- ARMED E long (day-high break): close **$769.05–769.14** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $721.73; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to R1 $770.79); bar range ≤ $1.00.
+- ARMED E short (day-low break): close **$765.72–765.81** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $716.57; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to Friday's close $763.25); bar range ≤ $1.00.
