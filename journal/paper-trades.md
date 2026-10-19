@@ -2519,3 +2519,10 @@ Market data and analysis only, not investment advice.
 - SPY $770.10, above VWAP and the 50-day SMA, $0.69 under R1 $770.79; QQQ $724.19 (day high $724.55). 4H (8–12): green. Tight range since 11:25: $769.47–770.46 (20 min, $0.99), too short to count as a squeeze yet. No fresh close through a level on 1.5–2× volume: no new setup.
 
 ARMED (valid until 12:12; prior 10-bar average ≈ 177k; PDT flag): E long (20-day SMA break) close **$771.19–771.28**, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $724.55; stop −$0.40; target +1.5R (room to PDH $773.25); bar range ≤ $1.00. Shadow: PDH-sweep put at $773.25.
+
+**Setup check (11:58 AM ET): nothing fired; drifting lower under R1, volume fading**
+- Replay: E long ($771.19–771.28) did not fire (closes $769.96, $769.87, $769.75, $769.66; high $770.25).
+- SPY $769.66 above VWAP and the 50-day SMA; QQQ $723.66. Volume fading (80–135k vs ≈ 175k average). 4H (8–12): green, closing near its high.
+- Squeeze range (setup F), 11:15–11:59 (45 min): **$768.65–770.46** ($1.81). Neither edge is tradeable yet: a break up has only $0.33 of room to R1 $770.79; a break down runs into VWAP. No fresh close through a level on 1.5–2× volume: no new setup.
+
+ARMED (valid until 12:27; prior 10-bar average ≈ 175k; PDT flag): E long (20-day SMA break) close **$771.19–771.28**, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $724.55; stop −$0.40; target +1.5R (room to PDH $773.25); bar range ≤ $1.00. Shadow: PDH-sweep put at $773.25.
