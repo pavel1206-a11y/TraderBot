@@ -2483,3 +2483,9 @@ ARMED (valid until 10:57): no new lines; manage the open trade (stop $768.18, ta
 ARMED (valid until 11:12; prior 10-bar average ≈ 210k; PDT flag):
 - ARMED E long (day-high break): close **$769.05–769.14** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $721.73; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to R1 $770.79); bar range ≤ $1.00.
 - ARMED E short (day-low break): close **$765.72–765.81** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $716.57; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to Friday's close $763.25); bar range ≤ $1.00.
+
+**Setup check (10:58 AM ET): nothing fired; chop around VWAP**
+- Replay: neither line fired (closes $767.40, $767.66, $767.97; range $767.21–768.19). Volume fading (≈ 100–160k).
+- SPY $767.97 on VWAP (≈ $767.5); QQQ $721.13. Day range $765.82–769.04. 4H (8–12): small green. No squeeze yet (range since 10:10 is $766.57–769.04, about 50 min, $2.47 wide, too loose to trade).
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 175k; PDT flag): the same two lines (E long $769.05–769.14 with QQQ high above $721.73; E short $765.72–765.81 with QQQ low below $716.57).
