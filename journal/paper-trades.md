@@ -2576,3 +2576,10 @@ ARMED (valid until 13:42; prior 10-bar average ≈ 79k; PDT flag): the same two 
 - Play-forward so far: low after entry $767.10 (13:20), high $767.77 (13:15); neither stop nor target hit. SPY $767.64 at 13:28; 767P ≈ $0.57; SH $32.29. **Open.**
 
 ARMED (valid until 13:57; PDT flag): no new lines; manage the open short (stop $767.87, target $766.87, time stop 13:45 if not in profit).
+
+**Setup check (13:43 PM ET): E short still open; time stop due 13:45**
+- Play-forward (1-min): low $767.02 at 13:41 (+$0.45, 0.75R in favor; target $766.87 not reached), high $767.77 at 13:43 (stop $767.87 not hit). SPY $767.47 at 13:43, back to the entry. 767P $0.60 (entry $0.68; high $0.77); SH $32.29.
+- **Time stop (13:45, 30 min after entry):** if SPY is not below $767.47 at 13:45, the trade closes there. The next check records the exit from the 13:45 prices.
+- SPY below VWAP (≈ $768.0); QQQ $719.57 below its VWAP. 4H (12–4): red. Range since 13:05: $767.02–767.77. No new setup.
+
+ARMED (valid until 13:57; PDT flag): no new lines; manage the open short (stop $767.87, target $766.87, time stop 13:45).
