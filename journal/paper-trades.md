@@ -2441,3 +2441,12 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 398k; real-money P
 - ARMED E long (50-day SMA reclaim, above the OR high): close **$768.51–768.60** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $720.22; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to R1 $770.79); 0DTE call ≤ $100; bar range ≤ $1.00.
 - ARMED E short (OR-low break toward the gap fill): close **$0.01–0.10 below the final 9:30–9:45 OR low** (now $766.82) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $718.17; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to Friday's close $763.25); 0DTE put ≤ $100; bar range ≤ $1.00.
 - Shadow (not scored): 9 EMA/VWAP cross call (strategies/ema9-vwap-cross.md), 9:45–11:30.
+
+**Setup check (9:58 AM ET): nothing fired (volume failed)**
+- Final OR (9:30–9:45): **$766.82–768.06**. Replay: E short: the **9:45 bar closed $766.80**, in the $766.72–766.81 band, but on 213k = 0.62× the 343k average since 9:30, and QQQ (low $718.49) did not break $718.17. It fails both volume tests, so no fill. The 9:50 close $766.53 was past the band. E long did not fire (high close $767.41).
+- SPY $766.53 (low $766.30), below VWAP (≈ $767.1); QQQ $718.46. Fading the gap toward the pivot $765.71. 4H (8–12): red, small.
+
+ARMED (valid until 10:27; prior 5-bar average ≈ 284k; PDT flag):
+- ARMED E short (day-low break): close **$766.19–766.29** on ≥ 1.0× (≈ 284k), or ≥ 0.7× with a same-bar QQQ low below $718.17; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to Friday's close $763.25); bar range ≤ $1.00.
+- ARMED E long (50-day SMA reclaim): close **$768.51–768.60**, same terms as before.
+- Shadow: 9 EMA/VWAP cross call; VWAP-reclaim long (standing line; new day low below VWAP).
