@@ -2433,3 +2433,11 @@ ARMED (final; bar closes through 2:25; prior 10-bar average ≈ 228k; PDT flag):
 - QQQ pre-market $719.02 (+1.3% vs $709.80), stronger than SPY (+0.5%): bounce after Friday's trend day down.
 - Events: no major economic release found for today (web search returned nothing current; unverified). Earnings: regional banks after the close (ZION, WAL, FITB reported AM); no mega-caps today.
 - **Bias: none.** Gap up into a resistance stack (50-day $768.50, R1 $770.79, 20-day $771.18, PDH $773.25) after a −$10 trend day. Watch the gap-fill to $763.25 and the $770.8–773.25 zone for a PDH-sweep failure. Day-trade note: the 3 real day trades from 10/13 are still inside the rolling 5-day window today; they roll off on 10/20 (paper only regardless).
+
+**9:43 AM ET: opening range forming**
+- SPY opened $767.22 (gap up $3.97), OR so far **$766.82–768.06**, tight; SPY $767.23 around VWAP (≈ $767.4). QQQ $718.86 (OR $718.17–720.22). Between the pivot $765.71 and the 50-day SMA $768.50; PDH/PDL far ($773.25 / $760.64).
+
+ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 398k; real-money PDT still blocked today):
+- ARMED E long (50-day SMA reclaim, above the OR high): close **$768.51–768.60** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $720.22; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to R1 $770.79); 0DTE call ≤ $100; bar range ≤ $1.00.
+- ARMED E short (OR-low break toward the gap fill): close **$0.01–0.10 below the final 9:30–9:45 OR low** (now $766.82) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $718.17; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to Friday's close $763.25); 0DTE put ≤ $100; bar range ≤ $1.00.
+- Shadow (not scored): 9 EMA/VWAP cross call (strategies/ema9-vwap-cross.md), 9:45–11:30.
