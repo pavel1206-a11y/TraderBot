@@ -2593,3 +2593,10 @@ ARMED (valid until 13:57; PDT flag): no new lines; manage the open short (stop $
 ARMED (valid until 14:27; prior 10-bar average ≈ 84k; PDT flag; no new 0DTE after 14:30):
 - ARMED E/F short (range-low break): close **$766.64–766.73** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $718.33; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to the pivot $765.71 ✓); bar range ≤ $1.00.
 - No long line: SPY is below VWAP, so a range-high break would fail the VWAP condition.
+
+**Setup check (14:13 PM ET): nothing fired; tight afternoon squeeze**
+- Replay: E/F short ($766.64–766.73) did not fire (closes $767.62, $767.41, $767.58; low $766.93).
+- SPY $767.75, just under VWAP (≈ $767.95); QQQ $719.40 below its VWAP. 4H (12–4): red, small body. **Squeeze range (setup F) since 13:05, 68 min: $766.74–767.79** ($1.05). Volume ≈ 70–150k. No fresh close through a level on 1.5–2× volume: no setup.
+
+ARMED (last list of the day; bars closing by 14:30 only, since no new 0DTE after 14:30; prior 10-bar average ≈ 87k; PDT flag):
+- ARMED E/F short (squeeze-low break): close **$766.64–766.73** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $718.33; SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to the pivot $765.71 ✓); bar range ≤ $1.00.
