@@ -17,7 +17,7 @@ quotes for the contract. Rules for graduating to real money are in
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: none.
+Open: 10/19 E short (767P at $0.68 + SH 15.48 sh at $32.29), entry SPY $767.47, stop $767.87, target $766.87.
 
 By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 8 · VWAP reclaim 1 · E/F (10/9) 2
 
@@ -2565,3 +2565,14 @@ ARMED (valid until 13:27; prior 10-bar average ≈ 90k; PDT flag):
 - SPY $767.45 below VWAP (≈ $768.1); QQQ $719.90 below its VWAP. Day low still $765.82. 4H (12–4): red. Drift lower since 12:00 ($767.04–769.51), very light volume. No setup.
 
 ARMED (valid until 13:42; prior 10-bar average ≈ 79k; PDT flag): the same two lines (E short close $767.38–767.47, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ low below $720.00, includes the 13:10 bar; E long close $768.32–768.41 with QQQ above $721.69), same stops, targets and room checks.
+
+**Setup check (13:28 PM ET): E short FIRED at 13:10 (armed, replayed); open**
+- Trigger: the **13:10 bar closed $767.47** (band $767.38–767.47) on 68.0k = 0.87× the prior 10-bar average (≈ 79k, 12:20–13:05), with a same-bar QQQ low **$719.31** below $720.00, so the 0.7× case was met. SPY and QQQ below VWAP ($768.1 / ≈ $721); bar range $0.52. Fired as written.
+- Plan: entry **$767.47**, stop **$767.87**, target **$766.87** (−1.5R). Room to the pivot $765.71 ✓. Time stop: 13:45 if not in profit.
+- Score card (B): 1 below VWAP, QQQ below its VWAP ✅ · 2 breaks the 12:55 low, lower lows since 12:00 ✅ · 4 volume 0.87× with QQQ break ⚠️ (lunch volume) · 6 4H (12–4) red ✅ · 7 room to the pivot ✅ · 9 trend day: no ⚠️ · 10 time ✅.
+  - **0DTE leg: SPY 10/19 767P** (id caf1e6b1-2a32-40d8-93d9-818c589a3748). Entry **$0.68** (1-min close $0.67 + half spread) = $68: fits the $100 cap, not the $50 default.
+  - **Fractional leg: SH** 15.48 sh (≈ $500) at $32.29; alerts on SPY $767.87 / $766.87.
+  - PDT flag: real money blocked today.
+- Play-forward so far: low after entry $767.10 (13:20), high $767.77 (13:15); neither stop nor target hit. SPY $767.64 at 13:28; 767P ≈ $0.57; SH $32.29. **Open.**
+
+ARMED (valid until 13:57; PDT flag): no new lines; manage the open short (stop $767.87, target $766.87, time stop 13:45 if not in profit).
