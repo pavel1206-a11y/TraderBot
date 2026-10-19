@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 14 | 6 | 8 | 43% | +$32.50 | -$13.88 | +$84 |
+| Options, B grade | 15 | 7 | 8 | 47% | +$30.86 | -$13.88 | +$105 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 13 | 5 | 8 | 38% | +$0.32 | -$0.20 | -$0.02 |
-| **All** | 29 | 13 | 16 | 45% | +$16.18 | -$7.04 | +$97.79 |
+| Fractional, B grade | 14 | 6 | 8 | 43% | +$0.33 | -$0.20 | +$0.37 |
+| **All** | 31 | 15 | 16 | 48% | +$15.45 | -$7.04 | +$119.18 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
 Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 7 · VWAP reclaim 1 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 8 · VWAP reclaim 1 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -2495,3 +2495,21 @@ ARMED (valid until 11:27; prior 10-bar average ≈ 175k; PDT flag): the same two
 - SPY $768.65 above VWAP (≈ $767.6) and the 50-day SMA $768.50; QQQ $721.87 (high $722.50, above its morning high $721.73). 4H (8–12): green. Range since 10:10: $766.57–769.04.
 
 ARMED (valid until 11:42; prior 10-bar average ≈ 150k; PDT flag): the same two lines (E long $769.05–769.14 with QQQ high above $722.50 for the 0.7× case; E short $765.72–765.81 with QQQ low below $716.57).
+
+**Setup check (11:28 AM ET): E long FIRED at 11:15 (armed, replayed); target hit 11:24 (+$21.39)**
+- Trigger: the **11:15 bar closed $769.13** (band $769.05–769.14) on 152.5k = 0.96× the prior 10-bar average (159k, 10:25–11:10; ≈ 150k written at arming), with a same-bar QQQ high **$722.80** above $722.50, so the 0.7× case was met. SPY and QQQ above VWAP; bar range $0.71. Fired as written.
+- Plan: entry **$769.13**, stop **$768.73**, target **$769.73** (+1.5R). Room to R1 $770.79 is $1.66 ≥ 1.5R ✓.
+- Score card (B): 1 above VWAP, QQQ above its VWAP ✅ · 2 day-high break after a double top at $769.04 ✅ · 3 above the 50-day SMA ✅ · 4 volume 0.96× with QQQ break ⚠️ · 6 4H green ✅ · 7 room to R1 ✅ · 9 trend day: no ⚠️ · 10 time ✅.
+  - **0DTE leg: SPY 10/19 770C** (id 8786b545-5a2c-4bd2-afeb-fde589158e96). Entry **$0.74** (1-min close $0.73 + half spread) = $74: fits the $100 cap, not the $50 default.
+  - **Fractional leg: SPY** 0.6501 sh (≈ $500) at $769.13; alert on $768.73 / $769.73.
+  - PDT flag: real money blocked today.
+- Play-forward (1-min): low after entry $769.08 (stop never close); **SPY hit $769.80 at 11:24**, through the target. 770C out ≈ $0.95 (1-min close $0.96 − half spread) → **+$21 (+28%)**; SPY fractional 0.6501 × $0.60 → **+$0.39**.
+- Running totals: **31 trades, 15W/16L, +$119.18.** Day −$5.14 (1 win, 2 losses).
+- SPY $770.07 at 11:29, new day high $770.27; QQQ $724.03. Resistance overhead: R1 $770.79, 20-day SMA $771.18, PDH $773.25.
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 160k; PDT flag):
+- No R1 line: a break of $770.79 has only $0.39 of room to the 20-day SMA, short of 1.5R ($0.60).
+- ARMED E long (20-day SMA break): close **$771.19–771.28** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $724.15; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to PDH $773.25 ✓); bar range ≤ $1.00.
+- No short line: the day low $765.82 is $4.25 away. Shadow (not scored): PDH-sweep put if SPY tags $773.25 and closes back below it.
+
+Market data and analysis only, not investment advice.
