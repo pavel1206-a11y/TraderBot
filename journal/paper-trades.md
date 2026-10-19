@@ -2489,3 +2489,9 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 210k; PDT flag):
 - SPY $767.97 on VWAP (≈ $767.5); QQQ $721.13. Day range $765.82–769.04. 4H (8–12): small green. No squeeze yet (range since 10:10 is $766.57–769.04, about 50 min, $2.47 wide, too loose to trade).
 
 ARMED (valid until 11:27; prior 10-bar average ≈ 175k; PDT flag): the same two lines (E long $769.05–769.14 with QQQ high above $721.73; E short $765.72–765.81 with QQQ low below $716.57).
+
+**Setup check (11:15 AM ET): nothing fired; second test of the day high**
+- Replay: neither line fired (closes $768.13–768.65). The 11:10 bar tagged **$769.04** again (a double top with 10:15) on 339k but closed $768.65, below the band.
+- SPY $768.65 above VWAP (≈ $767.6) and the 50-day SMA $768.50; QQQ $721.87 (high $722.50, above its morning high $721.73). 4H (8–12): green. Range since 10:10: $766.57–769.04.
+
+ARMED (valid until 11:42; prior 10-bar average ≈ 150k; PDT flag): the same two lines (E long $769.05–769.14 with QQQ high above $722.50 for the 0.7× case; E short $765.72–765.81 with QQQ low below $716.57).
