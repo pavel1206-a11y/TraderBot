@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 16 | 8 | 8 | 50% | +$29.25 | -$13.88 | +$123 |
+| Options, B grade | 17 | 9 | 8 | 53% | +$30.89 | -$13.88 | +$167 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 15 | 7 | 8 | 47% | +$0.35 | -$0.20 | +$0.83 |
-| **All** | 33 | 17 | 16 | 52% | +$14.72 | -$7.04 | +$137.64 |
+| Fractional, B grade | 16 | 8 | 8 | 50% | +$0.39 | -$0.20 | +$1.51 |
+| **All** | 35 | 19 | 16 | 54% | +$15.52 | -$7.04 | +$182.32 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: 10/20 VWAP reclaim long (768C at $0.88 + SPY 0.6523 sh at $766.48), stop $765.79, target $767.52.
+Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 9 · VWAP reclaim 1 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 9 · VWAP reclaim 2 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -2652,3 +2652,15 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 249k; close band $
 - QQQ $714.85, back above its VWAP. 4H (8–12): green after the PDL sweep, a possible setup-D reversal shape.
 
 ARMED (valid until 10:27): manage the open long (stop $765.79, option stop at break-even, target $767.52, time stop 10:25 if not in profit). No new lines while it is open.
+
+**Setup check (10:28 AM ET): VWAP reclaim long hit its target at 9:58 (+$44.68); SPY then ran through the PDH**
+- 10:15 check note: that run had no data (tool errors); replayed here.
+- Play-forward (1-min): **9:58 high $767.70 hit the $767.52 target**; the 768C also touched its +50% limit ($1.32; high $1.35) in the same minute. Exits per section 7: 768C sold at **$1.32 → +$44 (+50%)**; SPY fractional 0.6523 × $1.04 → **+$0.68**. Stop never threatened (low after entry $766.46).
+- Running totals: **35 trades, 19W/16L (54%), +$182.32.** Day +$44.68.
+- What it left: SPY kept going to **$771.19** by 10:29 (+$4.71 from entry, ≈ 6.8R); the 768C reached $3.64 (+314%). The fixed 1.5R / +50% exit is what the playbook says; a runner rule is an open question for Friday (the ORB-runner candidate is the shadow-tracked version).
+- Live scan: the **10:20 bar closed $770.68 through the PDH $770.46** on 1.20× (≈ 271k average) with QQQ breaking its morning high, close $0.22 past the level (inside the new $0.30 band), but its range was **$1.10, over the $1.00 trigger-bar cap**. No E entry (the cap the owner kept on 10/20). The 20-day SMA $770.83 also broken.
+- SPY $771.11 above VWAP (≈ $767.6); QQQ $721.24 (+0.4%, recovered the −1.0% open). 4H (8–12): strong green from the PDL sweep: the owner's sweep-and-reverse pattern (setup D shape) played out fully.
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 271k; close band $0.30; bar range ≤ $1.00):
+- ARMED E long (day-high continuation): close **$771.20–771.49** (above today's high $771.19) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $721.50; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to R2 $772.23 ✓ up to $771.63); 0DTE call ≤ $100.
+- Shadow (not scored): G PDH-sweep put if a 5-min bar closes back below $770.46.
