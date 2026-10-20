@@ -2678,3 +2678,13 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 321k; close band $0.30; bar r
 - SPY $772.06 just under R2 $772.23; QQQ $722.42. Volume fading (115–230k). 4H (8–12): strong green, closing near its high. Range since 10:25: $770.41–772.28 (35 min, $1.87): F range forms at 11:10.
 
 ARMED (valid until 11:27; prior 10-bar average ≈ 289k; close band $0.30; bar range ≤ $1.00): the same E long R2-break line (close $772.29–772.58, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $722.75), same stop/target. Shadow G unchanged.
+
+**Setup check (11:17 AM ET): nothing fired; 11:10 flush back through the PDH and VWAP**
+- Replay: E long R2 break ($772.29–772.58) did not fire (high $772.22 at 10:55; closes $771.69, $771.01, $770.98).
+- The **11:10 bar dumped $771.02 → $767.95** (close $768.93) on **613k (2.1×)**, QQQ −$3.86 the same bar (cause not identified). Range $3.07, far over the $1.00 cap, so no E short; it also closed only $0.12 under VWAP ($769.05).
+- **Shadow G (not scored) FIRED:** PDH $770.46 swept (high $772.28, 10:30), 11:10 bar closed back below it, below VWAP, red, 40 min after the sweep. Entry $768.93, stop $771.27 (bar high + $0.25, risk $2.34), target 1R $766.59. 11:15 bar: high $769.72 / low $768.73. Open (tracked at EOD).
+- SPY $769.66, back above VWAP ($769.14); QQQ $719.69. 4H (8–12): long upper wick forming after the R2 rejection (watch for setup D distribution in the 12–4 candle). No squeeze (range broken).
+
+ARMED (valid until 11:42; prior 10-bar average ≈ 297k; close band $0.30; bar range ≤ $1.00):
+- ARMED E long (PDH reclaim): close **$770.47–770.76** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $721.52; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to R2 $772.23 ✓).
+- No short line: a break of the 11:10 low ($767.95) has only $0.36 of room to the pivot $767.59.
