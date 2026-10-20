@@ -2419,7 +2419,7 @@ ARMED (final; bar closes through 2:25; prior 10-bar average ≈ 228k; PDT flag):
 - **Verdict: not passed. Keep paper trading.** B-grade trades are positive (+$110.51 over 23 legs), but the rule is A-grade only. Owner's call.
 
 ### Proposals for the owner (none applied)
-1. **Close band on continuation lines:** replace the two-sided $0.10 band with "close at or beyond the level, up to $0.50 past, bar range ≤ $1.25." It would have caught 10/14's three skipped legs and 10/16's 11:05/11:20/12:45 legs (needs a replay before adopting).
+1. **Close band on continuation lines:** replace the two-sided $0.10 band with "close at or beyond the level, up to $0.50 past, bar range ≤ $1.25." It would have caught 10/14's three skipped legs and 10/16's 11:05/11:20/12:45 legs (needs a replay before adopting). **Decided 2026-10-20:** E/F band widened to $0.30, $1.00 bar-range cap kept (owner chose this after the 198-session backtest, journal/backtests/2026-10-20-bar-range-cap.md).
 2. **Trend-day room rule:** on a confirmed trend day, measure room to the next level beyond tightly stacked ones.
 3. **VWAP-reclaim line stop:** $0.40 below the hold bar instead of $0.10 (backtest: 13 calls, 4W → 6W, −2.4R → +3.2R; small sample).
 4. **Candidate G (owner's PDH-sweep put):** 64% / +4R over 90 days; first live shadow trade 10/16 won +1R. Keep shadow-tracking for 2 weeks.

@@ -380,11 +380,18 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
 - Only arm what the current score card would grade A or B if the trigger
   fires (the trigger supplies the candle and, for E and F, the volume factor).
 - Reward/risk must be at least 1.5 at the trigger price, or don't arm it.
-- **Close bands** (2026-10-08): E, F and C lines keep a tight **$0.10** band
-  past the level (no chasing). In the replay, widening it by even $0.01 cut
-  the result from +3.00R to +1.01R, so a 1-cent miss stays a miss. B (VWAP
-  pullback) lines have **no** close cap; instead, write the line so that it
-  fires only if reward/risk at the actual close is ≥ 1.5.
+- **Close bands** (widened 2026-10-20, owner-approved): E and F lines fire on
+  a close from the level up to **$0.30** past it; C lines keep **$0.10**.
+  The 2026-10-08 replay (6 days) favored $0.10, but the 198-session backtest
+  (`../journal/backtests/2026-10-20-bar-range-cap.md`) gave +18.2R at $0.30
+  vs +10.8R at $0.10, positive in both halves of the year, and trend days
+  (10/14, 10/16) kept closing past the $0.10 band. A close past the band is
+  still a miss. B (VWAP pullback) lines have **no** close cap; instead, write
+  the line so that it fires only if reward/risk at the actual close is ≥ 1.5.
+- **Trigger-bar range:** E and F lines skip a trigger bar whose high–low range
+  is over **$1.00** (no chasing big bars). Kept on 2026-10-20: in the same
+  backtest every higher cap lowered the result (no cap: the extra big-bar
+  trades won 5 of 22, −9.5R).
 - **Target on every line:** +1.5R on SPY (section 7), and write it as a price.
 - Valid until: the next check, or 2:30 PM, whichever is sooner. A check
   re-arms or drops each line.
