@@ -2777,3 +2777,10 @@ ARMED (valid until 14:27, last list of the day; prior 10-bar average ≈ 65k): t
 - One check (10:15) was lost to tool errors; noted in the log.
 
 Market data and analysis only, not investment advice.
+
+**Owner's own trades, 10/20 (Individual account, real money; from the owner's screenshots; for comparison, not part of the paper scoreboard)**
+- SPY 769C 10/20: sold 9:55 at $0.54 (limit), realized **+$17** (implied buy ≈ $0.37).
+- SPY 770C 10/20: sold 10:32 at $2.35 on a **stop-limit trailing the run**, realized **+$193** (implied buy ≈ $0.42, about +460%). It exited 2 minutes after the R2 rejection bar (10:30, high $772.28).
+- QQQ 720C 10/20: sold 1:24 PM at $0.73 (stop-limit), realized **+$16** (implied buy ≈ $0.57).
+- Total **+$226** vs the bot's paper +$44.68 on the same PDL sweep-and-reclaim idea. The difference is the exit: the owner trailed a stop under the run instead of selling at 1.5R / +50%. Supports the Friday runner proposal (half off at the target, trail the rest).
+- PDT note: 3 day trades on 10/20. If the Individual account is a margin account under $25k, a 4th day trade before they roll off on 10/27 would trigger the pattern-day-trader flag.
