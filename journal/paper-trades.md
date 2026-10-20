@@ -2694,3 +2694,9 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 297k; close band $0.30; bar r
 - SPY $769.19 at VWAP (≈ $769.2); QQQ $719.20. Range since 11:10: $767.95–770.07. 4H (8–12): upper wick. No setup.
 
 ARMED (valid until 11:57; prior 10-bar average ≈ 290k): the same E long PDH-reclaim line (close $770.47–770.76, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $721.52), same stop/target.
+
+**Setup check (11:43 AM ET): nothing fired; range after the flush**
+- Replay: E long PDH reclaim ($770.47–770.76) did not fire (closes $769.22–769.72; high $769.80). Shadow G put: open (range since entry $768.57–770.07).
+- SPY $769.72 on VWAP; QQQ $719.57. Range since 11:10: **$767.95–770.07** ($2.12, 35 min; an F range at 11:55). 4H (8–12): closing with a long upper wick. No setup.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 260k): the same E long PDH-reclaim line (close $770.47–770.76), which is also above the range high. No short line (a range-low break has $0.36 of room to the pivot $767.59).
