@@ -2763,3 +2763,7 @@ ARMED (valid until 14:27, last list of the day; prior 10-bar average ≈ 65k): t
 **Setup check (14:28 PM ET): nothing fired; entries closed**
 - Replay: E long PDH reclaim did not fire (closes $769.69, $769.47, $769.23; the 14:25 bar is at $769.26, $1.21 under the band, with 2 minutes left). No new 0DTE after 14:30. Shadow G put: open, tracked to EOD.
 - SPY $769.26 near VWAP; squeeze $767.95–770.08 since 11:10. Day: +$44.68 (1 trade). EOD close-out at 15:47.
+
+**Setup check (14:43 PM ET): last line expired unfired; no new entries**
+- The 14:25 bar closed $769.23, under the PDH-reclaim band; the line expired at 14:30. No open scored trades.
+- SPY $768.15, sliding toward the squeeze low ($767.95); shadow G put (entry $768.93) now in profit, target $766.59. EOD at 15:47.
