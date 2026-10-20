@@ -2664,3 +2664,11 @@ ARMED (valid until 10:27): manage the open long (stop $765.79, option stop at br
 ARMED (valid until 10:57; prior 10-bar average ≈ 271k; close band $0.30; bar range ≤ $1.00):
 - ARMED E long (day-high continuation): close **$771.20–771.49** (above today's high $771.19) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $721.50; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to R2 $772.23 ✓ up to $771.63); 0DTE call ≤ $100.
 - Shadow (not scored): G PDH-sweep put if a 5-min bar closes back below $770.46.
+
+**Setup check (10:43 AM ET): nothing fired; R2 tagged and rejected**
+- Replay: E long ($771.20–771.49): the 10:25 bar's final close was **$771.68**, $0.19 past the band (and its range $1.33 was over the cap); 10:30 closed $771.09, 10:35 $771.01. Not fired. Shadow G: no close back below the PDH $770.46 (low $770.80).
+- The **10:30 bar tagged R2 $772.23 (high $772.28) on 709k (2.6×)** and closed $771.09: a rejection at R2. SPY $771.64, QQQ $721.75; both well above VWAP. 4H (8–12): strong green. Range since 10:25: $770.41–772.28 (too young for F).
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 321k; close band $0.30; bar range ≤ $1.00):
+- ARMED E long (R2 break): close **$772.29–772.58** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $722.75; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (no mapped level within 1.5R above R2); 0DTE call ≤ $100.
+- Shadow (not scored): G PDH-sweep put if a 5-min bar closes back below $770.46.
