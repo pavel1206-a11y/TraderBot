@@ -2622,3 +2622,12 @@ ARMED (last list of the day; bars closing by 14:30 only, since no new 0DTE after
 - PDT: the three real 10/13 day trades roll off tomorrow (10/20); paper only regardless.
 
 Market data and analysis only, not investment advice.
+
+### 2026-10-20 (Tue): pre-market brief (8:54 AM ET)
+- **SPY PDH $770.46 · PDL $765.82** (10/19). Pre-market **$765.65**, $0.17 **below the PDL** (already sweeping it).
+- Close 10/19 **$766.48** (official; sold off into the bell from $768.10 at 3:45 on heavy closing volume). Pivots: **P $767.59 · R1 $769.35 · R2 $772.23 · S1 $764.71 · S2 $762.95.** SMAs: 20-day $770.83, 50-day $768.37 (SPY below both).
+- QQQ pre-market $715.42 (−0.41% vs $718.36), weaker than SPY (−0.10%).
+- Events: no major US economic release found for today (web search returned nothing current; unverified). Earnings: GE, RTX, MMM, GM, NOC, HAL beat this morning; **NFLX, ISRG, COF, UAL after the close** (after our exit time).
+- **Bias: mild bearish.** Below both SMAs and the PDL, weak close, QQQ leading lower. Owner's PDL setup is live at the open: a sweep under $765.82 that reverses and reclaims it (ideally with VWAP) = long idea; acceptance below it opens S1 $764.71. Rules today: E/F close band $0.30 (new), bar range ≤ $1.00. PDT: the 10/13 day trades have rolled off (paper only regardless).
+
+Market data and analysis only, not investment advice.
