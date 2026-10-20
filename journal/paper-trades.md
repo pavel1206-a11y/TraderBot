@@ -17,7 +17,7 @@ quotes for the contract. Rules for graduating to real money are in
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: none.
+Open: 10/20 VWAP reclaim long (768C at $0.88 + SPY 0.6523 sh at $766.48), stop $765.79, target $767.52.
 
 By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 9 · VWAP reclaim 1 · E/F (10/9) 2
 
@@ -2640,3 +2640,15 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 249k; close band $
 - ARMED E short (OR-low / S1 break): close **$0.01–0.30 below the final 9:30–9:45 OR low** (now $764.32 → $764.02–764.31) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below its OR low ($710.75); SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to S2 $762.95 ✓); 0DTE put ≤ $100.
 - ARMED E long (owner's PDL sweep-and-reclaim): close **$765.83–766.12** (back above the PDL) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.52; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to P $767.59 ✓); 0DTE call ≤ $100.
 - ARMED VWAP reclaim long (standing line, playbook section 10): SPY below VWAP after a new day low.
+
+**Setup check (9:58 AM ET): VWAP reclaim long FIRED at 9:50 (armed, replayed); open, in profit**
+- Final OR (9:30–9:45): **$764.32–766.15**. E short ($764.02–764.31) did not fire (no close below $764.50).
+- E long (PDL reclaim, $765.83–766.12): the **9:45 bar closed $766.135, $0.015 above the band**. Not fired (no partial credit), even with the new $0.30 band.
+- **VWAP reclaim (standing line):** step (1) = the 9:45 bar: close $766.135 > VWAP $765.42 + $0.10, QQQ $713.57 above its VWAP $712.90, volume 312k = 1.16× the prior bars. Step (2) = the **9:50 bar**: low $765.89 held above VWAP − $0.05 ($765.57), green ($766.13 → $766.48). Entry **$766.48**, stop **$765.79** (low − $0.10), R $0.69, target **$767.52** (+1.5R). Room to P $767.59 = $1.11 ≥ 1.5R ✓ (tight). Fired as written.
+- Score card (B): 1 reclaimed VWAP, QQQ above its VWAP ✅ · 2 PDL $765.82 swept and reclaimed (owner's setup) ✅ · 3 below the 20/50-day SMAs ⚠️ · 4 reclaim bar 1.16× ✅ · 6 4H (8–12) flipped green ✅ · 7 room to P only just 1.5R ⚠️ · 10 time (after 9:45) ✅.
+  - **0DTE leg: SPY 10/20 768C** (id 27f7989e-52fd-4e48-b787-f604ff68bc67). Entry **$0.88** (1-min close $0.87 + half spread) = $88: fits the $100 cap, not the $50 default (the 767C at $1.31 was over the cap).
+  - **Fractional leg: SPY** 0.6523 sh (≈ $500) at $766.48; alert on $765.79 / $767.52.
+- Play-forward so far: low after entry $766.46, high $767.38 (9:57), $0.14 short of the target. SPY $767.36; 768C ≈ $1.17 (+33%, so the option stop moves to break-even $0.88 per section 7). **Open.**
+- QQQ $714.85, back above its VWAP. 4H (8–12): green after the PDL sweep, a possible setup-D reversal shape.
+
+ARMED (valid until 10:27): manage the open long (stop $765.79, option stop at break-even, target $767.52, time stop 10:25 if not in profit). No new lines while it is open.
