@@ -2631,3 +2631,12 @@ Market data and analysis only, not investment advice.
 - **Bias: mild bearish.** Below both SMAs and the PDL, weak close, QQQ leading lower. Owner's PDL setup is live at the open: a sweep under $765.82 that reverses and reclaims it (ideally with VWAP) = long idea; acceptance below it opens S1 $764.71. Rules today: E/F close band $0.30 (new), bar range ≤ $1.00. PDT: the 10/13 day trades have rolled off (paper only regardless).
 
 Market data and analysis only, not investment advice.
+
+**9:43 AM ET: opening range forming; PDL swept, S1 tagged**
+- SPY opened $765.87 (at the PDL $765.82), OR so far **$764.32–766.15**; the 9:40 bar is pushing lower: $764.71, at **S1 $764.71**. VWAP ≈ $765.3. The PDL is swept and not reclaimed (yet).
+- QQQ much weaker: $711.49, OR $710.75–715.52, −1.0% on the day. Pre-market levels: PDH $770.46, P $767.59, 50-day $768.37, S2 $762.95.
+
+ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 249k; close band $0.30 per the 10/20 rule; bar range ≤ $1.00):
+- ARMED E short (OR-low / S1 break): close **$0.01–0.30 below the final 9:30–9:45 OR low** (now $764.32 → $764.02–764.31) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below its OR low ($710.75); SPY and QQQ below VWAP; stop = entry + $0.40; target = entry − 1.5R (room to S2 $762.95 ✓); 0DTE put ≤ $100.
+- ARMED E long (owner's PDL sweep-and-reclaim): close **$765.83–766.12** (back above the PDL) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.52; SPY and QQQ above VWAP; stop = entry − $0.40; target = entry + 1.5R (room to P $767.59 ✓); 0DTE call ≤ $100.
+- ARMED VWAP reclaim long (standing line, playbook section 10): SPY below VWAP after a new day low.
