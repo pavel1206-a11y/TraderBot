@@ -190,3 +190,14 @@ Open $767.22 (gap up $3.97) → range $765.82–770.46, close ≈ $767.86. Quali
 | 11:35–12:05 | −$2.63 in 30 min (770.46 → 767.83) | Rejected under R1 $770.79 after a 45-min squeeze ($768.65–770.46); 12:00 bar broke the squeeze low on **2.2× volume** | F short (squeeze-low break) | **No line armed** (only the 20-day break long was armed at 11:58), and the breakout bar's range ($1.61) was over the $1.00 cap; it also closed still above VWAP. |
 
 Pattern: the second row repeats 10/14 and 10/16: a decisive range break on a big bar is rejected by the $1.00 range cap. It also shows the arming gap: when a squeeze has formed, arm both edges, not only the side with a level. Both go to the Friday review (proposal: arm both squeeze edges once a 45-min range exists; the range cap is already proposal 1).
+
+## 2026-10-20 (Tue, PDL sweep then run to R2)
+
+Open $765.87 → low $764.26 (9:45) → high $772.28 (10:30) → close ≈ $768.6. Qualifying moves:
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:45–10:30 | +$8.02 in 45 min (764.26 → 772.28) | PDL $765.82 swept to $764.26, reclaimed with VWAP on the 9:45 bar (1.16×, QQQ back above its VWAP), then a staircase of green bars through P, the 50-day, PDH and 20-day to R2 | VWAP-reclaim long (filled 9:50, +1.5R) | **Partly caught:** the fixed 1.5R / +50% exit sold at $767.52; the remaining $4.76 ran without us. The PDH-break bars (10:20, 10:25) were over the $1.00 range cap, no line was armed while the trade was open, and the 10:15 check was lost to tool errors. |
+| 10:55–11:10 | −$4.27 in 20 min (772.22 → 767.95) | R2 rejection (10:30, 2.6× volume), lower highs under $772.2, then one $3.07 bar on 2.1× with QQQ −$3.9 | E short / shadow G | **No short line armed** (SPY was above VWAP until that bar, so the VWAP condition blocked it), and the bar was 3× the range cap. Shadow G caught the tail (+0.35R). |
+
+Pattern: the owner's PDL sweep-and-reverse worked exactly as described, and our VWAP-reclaim line is the mechanical version of it. The open question for Friday is the exit: on 10/15 and 10/20 the reclaim led to $6–8 runs, but the fixed 1.5R exit captured about 1.5R. A partial runner (e.g. half off at 1.5R, the rest trailed under VWAP or the 9 EMA) is the candidate to test.

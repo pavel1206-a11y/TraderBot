@@ -2767,3 +2767,13 @@ ARMED (valid until 14:27, last list of the day; prior 10-bar average ≈ 65k): t
 **Setup check (14:43 PM ET): last line expired unfired; no new entries**
 - The 14:25 bar closed $769.23, under the PDH-reclaim band; the line expired at 14:30. No open scored trades.
 - SPY $768.15, sliding toward the squeeze low ($767.95); shadow G put (entry $768.93) now in profit, target $766.59. EOD at 15:47.
+
+**End of day (3:47 PM ET): 10/20 close-out**
+- Open scored trades: none. SPY ≈ $768.57 at 3:45 (day $764.26–772.28).
+- Today: **1 setup (option + fractional), 2W/0L, +$44.68:** 9:50 VWAP reclaim long after the owner's PDL sweep, 768C +$44 (+50%) and SPY +$0.68, target hit at 9:58.
+- Running totals: **35 trades, 19W/16L (54%), +$182.32.** Options B 17 trades +$167; fractional B 16 trades +$1.51.
+- Note: a textbook sweep-and-reverse of the PDL ($765.82 → low $764.26 → reclaim at 9:45), then an $8 run through the PDH to R2 ($772.28) by 10:30, a one-bar $3 flush at 11:10, and 4 hours of squeeze ($767.95–770.08). The fixed 1.5R exit banked +50% but left ~5R of the run; the first day on the $0.30 band (no extra fills; the PDH-break bars were over the $1.00 cap).
+- Shadow (not scored): **G PDH-sweep put** entry $768.93 (11:10), stop $771.27; target $766.59 never reached (low $767.83); out at 15:30 ≈ $768.12 → **+$0.81/share (+0.35R)**. PDH-sweep record on live shadow: 10/16 +1R, 10/20 +0.35R. EMA9/VWAP cross: the 9:45 bar (EMA crossing above VWAP during the reclaim) would have been the signal; not computed bar by bar today.
+- One check (10:15) was lost to tool errors; noted in the log.
+
+Market data and analysis only, not investment advice.
