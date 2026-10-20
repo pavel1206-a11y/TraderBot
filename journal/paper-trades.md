@@ -2749,3 +2749,9 @@ ARMED (valid until 13:57; prior 10-bar average ≈ 80k): the same E long PDH-rec
 - SPY $769.72 just above VWAP; QQQ $719.43. Squeeze since 11:10: $767.95–770.08 (2.5 h). Volume 32–113k. No setup.
 
 ARMED (valid until 14:12; prior 10-bar average ≈ 75k): the same E long PDH-reclaim line (close $770.47–770.76).
+
+**Setup check (13:58 PM ET): nothing fired; flat inside the squeeze**
+- Replay: E long PDH reclaim did not fire (closes $769.62–769.96; high $770.03). Shadow G put: open.
+- SPY $769.57 near VWAP; QQQ $719.49. Squeeze $767.95–770.08 since 11:10. 4H (12–4): flat. No setup.
+
+ARMED (valid until 14:27, last list of the day; prior 10-bar average ≈ 65k): the same E long PDH-reclaim line (close $770.47–770.76, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $721.52; stop −$0.40; target +1.5R).
