@@ -2700,3 +2700,10 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 290k): the same E long PDH-re
 - SPY $769.72 on VWAP; QQQ $719.57. Range since 11:10: **$767.95–770.07** ($2.12, 35 min; an F range at 11:55). 4H (8–12): closing with a long upper wick. No setup.
 
 ARMED (valid until 12:12; prior 10-bar average ≈ 260k): the same E long PDH-reclaim line (close $770.47–770.76), which is also above the range high. No short line (a range-low break has $0.36 of room to the pivot $767.59).
+
+**Setup check (11:58 AM ET): nothing fired; squeeze under the PDH**
+- Replay: E long PDH reclaim ($770.47–770.76) did not fire (closes $769.34–769.98; high $770.06). Shadow G put: open (range since entry $768.57–770.07; stop $771.27, target $766.59).
+- **Squeeze range (setup F), 11:10–11:59, 50 min: $767.95–770.07** ($2.12). An F long break above $770.07 has only $0.39 of room to the PDH, so the PDH reclaim line is the long trigger. A break below has $0.36 to the pivot: no line.
+- SPY $769.85 just above VWAP; QQQ $719.78. 4H (8–12) closed with a long upper wick after the R2 rejection; the 12–4 candle opens now (setup D watch: a sweep above the morning high that fails would be the distribution signal).
+
+ARMED (valid until 12:27; prior 10-bar average ≈ 189k): the same E long PDH-reclaim line (close $770.47–770.76, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $721.52; stop −$0.40; target +1.5R, room to R2 ✓).
