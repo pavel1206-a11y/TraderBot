@@ -10,16 +10,16 @@ quotes for the contract. Rules for graduating to real money are in
 | Closed trades | Trades | Wins | Losses | Win rate | Avg win | Avg loss | Net P&L |
 |---|---|---|---|---|---|---|---|
 | Options, A grade* | 1 | 1 | 0 | 100% | +$13.50 | – | +$13.50 |
-| Options, B grade | 18 | 9 | 9 | 50% | +$30.89 | -$14.67 | +$146 |
+| Options, B grade | 19 | 9 | 10 | 47% | +$30.89 | -$15.50 | +$123 |
 | Fractional, A grade* | 1 | 1 | 0 | 100% | +$0.31 | – | +$0.31 |
-| Fractional, B grade | 17 | 8 | 9 | 47% | +$0.39 | -$0.21 | +$1.25 |
-| **All** | 37 | 19 | 18 | 51% | +$15.52 | -$7.44 | +$161.06 |
+| Fractional, B grade | 18 | 8 | 10 | 44% | +$0.39 | -$0.21 | +$0.99 |
+| **All** | 39 | 19 | 20 | 49% | +$15.52 | -$7.86 | +$137.80 |
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: 10/21 E long R1 break (773C at $0.97 + SPY 0.6470 sh at $772.83), stop $772.43, trail trigger $773.43.
+Open: none.
 
-By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 10 · VWAP reclaim 2 · E/F (10/9) 2
+By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 11 · VWAP reclaim 2 · E/F (10/9) 2
 
 Exit rule used for options: sell at the first target (+50%) with a limit order;
 the trailing rules in playbook section 7 apply only if price moves before the
@@ -2876,3 +2876,10 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 100k; trailing exit): the sam
 - So far: high $772.93 (11:50), low $772.56; SPY $772.72, 773C ≈ $0.87. **Open.**
 
 ARMED (valid until 12:27): no new lines; manage the open long (stop $772.43, trail trigger $773.43, time stop 12:20). Shadow G: a close back below the PDH $772.28.
+
+**Setup check (12:14 PM ET): R1-break long stopped at 12:06 (−$23.26); two losses: done for the day**
+- Play-forward (1-min): high after entry $772.93 (11:50), never near the $773.43 trail trigger; **SPY $772.40 at 12:06, through the $772.43 stop**. 773C out ≈ $0.74 (1-min close $0.75 − half spread) → **−$23**; SPY 0.6470 × −$0.40 → **−$0.26**.
+- **Two losing trades today: done for the day** (playbook no-trade filter: "Two losing trades already today"). Day **−$44.52**, inside the $100 daily loss limit. No more lines today; checks continue for the log and shadows only.
+- Running totals: **39 trades, 19W/20L (49%), +$137.80.**
+- Pattern: both stops were $0.40 below the entry on a slow, light-volume grind to new highs (SPY made $772.93 and then sagged $0.50). On drift days a $0.40 stop sits inside the noise (also the 11:10 trade, which would have run). For the Friday review, with the earlier VWAP-reclaim stop finding.
+- SPY $772.59 above VWAP and the PDH; QQQ ≈ $726. Shadow G: still no close back below $772.28.
