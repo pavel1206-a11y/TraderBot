@@ -2838,3 +2838,9 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 165k): the same E short line 
 ARMED (valid until 11:27; prior 10-bar average ≈ 140k; close band $0.30; bar range ≤ $1.00; trailing exit):
 - ARMED E long (day-high break): close **$771.35–771.64** (above $771.34) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $723.81; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the PDH $772.28 ✓ at $0.64+).
 - Shadow G: PDH $772.28 sweep and close back below.
+
+**Setup check (11:14 AM ET): nothing fired yet; the 11:10 bar is open inside the long band**
+- Replay: E long ($771.35–771.64): 10:55 closed $770.90, 11:00 $770.98, 11:05 $771.02. Not fired. The **11:10 bar is still open at $771.43** (high $771.50), in the band, with 83k so far ≥ 0.7× of the ≈ 112k average and a same-bar QQQ high $724.64 above $723.81, so it fires if it closes in the band; the 11:27 check replays its final close.
+- SPY $771.43 above VWAP; QQQ $724.62 (new high, leading). Grinding up on light volume toward the PDH $772.28. 4H (8–12): green.
+
+ARMED (valid until 11:42; prior 10-bar average ≈ 112k; trailing exit): the same E long line (close $771.35–771.64, includes the 11:10 bar; stop = entry − $0.40; trail trigger = entry + 1.5R; room to the PDH ✓). Shadow G: PDH $772.28 sweep and close back below.
