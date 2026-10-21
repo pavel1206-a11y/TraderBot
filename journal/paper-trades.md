@@ -2808,3 +2808,12 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 262k; close band $
 - SPY $770.70 on VWAP (≈ $770.6); QQQ $722.45, whipping $719.72–723.20. Chop across VWAP: no 0DTE direction (checklist item 1). 4H (8–12): small, inside yesterday's range.
 
 ARMED (valid until 10:27; volume baseline ≈ 243k; close band $0.30; bar range ≤ $1.00; trailing exit): the same two lines (E long close $771.24–771.53 with QQQ high above $723.20 for the 0.7× case; E short close $769.43–769.72 with QQQ low below $719.72), same stops and trail triggers. Shadow G unchanged.
+
+**Setup check (10:14 AM ET): nothing fired; the OR-low break skipped the band**
+- Replay: E long did not fire (high $770.92). E short ($769.43–769.72): the 10:00 bar closed $769.90 ($0.18 above the band), then the **10:05 bar closed $768.78, $0.65 past it** (on 250k ≈ 1.1×, range $1.17, also over the $1.00 cap). Not fired.
+- SPY $768.98 below VWAP (≈ $770.2), new day low $768.40, sitting on the P $768.53 / 50-day $768.29 support. QQQ $720.65 below its VWAP. 4H (8–12): red, inside. No live setup (price is on support, room below to S1 but the trigger bar is past the band).
+
+ARMED (valid until 10:42; prior bars average ≈ 215k; close band $0.30; bar range ≤ $1.00; trailing exit):
+- ARMED E short (50-day / pivot break): close **$767.99–768.28** (below the 50-day $768.29) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $720.09; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to S1 $764.78 ✓); 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line, section 10): SPY below VWAP after a new day low.
+- Shadow G: PDH $772.28 sweep (not near).
