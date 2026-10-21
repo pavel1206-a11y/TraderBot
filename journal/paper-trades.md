@@ -2794,3 +2794,11 @@ Market data and analysis only, not investment advice.
 - Rules in force today: E/F close band $0.30, trigger-bar range ≤ $1.00, **trailing exit** (at +1.5R the stop trails 1R behind the best price; section 7), no day-trade count (buying power check instead).
 
 Market data and analysis only, not investment advice.
+
+**9:43 AM ET: opening range forming; tight, just under the PDH**
+- SPY opened $771.16, OR so far **$769.73–771.23** ($1.50), $770.44 at VWAP (≈ $770.4). QQQ $721.00, OR $720.76–723.07. PDH $772.28 / R1 $772.80 above; 20-day $770.62 inside the range; P $768.53 / 50-day $768.29 below.
+
+ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 262k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (OR-high break): close **$0.01–0.30 above the final OR high** (now $771.23 → $771.24–771.53) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above its OR high ($723.07); SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the PDH $772.28 ✓); 0DTE call ≤ $100.
+- ARMED E short (OR-low break): close **$0.01–0.30 below the final OR low** (now $769.73 → $769.43–769.72) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $720.76; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to P $768.53 ✓); 0DTE put ≤ $100.
+- Shadow (not scored): G PDH-sweep put if SPY trades above $772.38 and a bar closes back below $772.28.
