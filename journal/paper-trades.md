@@ -2830,3 +2830,11 @@ ARMED (valid until 10:57; prior 10-bar average ≈ 176k): the same E short line 
 
 ARMED (valid until 11:12; prior 10-bar average ≈ 165k): the same E short line (close $767.99–768.28) and the standing VWAP reclaim long; plus
 - ARMED E/F long (range-high break, above VWAP): close **$770.14–770.43** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $723.57; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the PDH $772.28 ✓).
+
+**Setup check (10:58 AM ET): nothing fired (volume); SPY drifted back above VWAP on light volume**
+- Replay: E/F long ($770.14–770.43): the **10:40 bar closed $770.27 in the band but on 83k = 0.50×** the prior 10-bar average (≈ 165k); the 0.7× case needs 0.7×. Not fired. VWAP reclaim: 10:40 (0.50×), 10:45 (close $770.94, 0.78× but no fresh QQQ reclaim that bar) and 10:50 (0.74×, no fresh QQQ reclaim) all fail the volume rule. E short: no.
+- SPY $770.96 above VWAP (≈ $770.0); QQQ $723.24 above its VWAP. Day range $768.40–771.34; volume drying up (40–120k). 4H (8–12): small green, inside yesterday's range.
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 140k; close band $0.30; bar range ≤ $1.00; trailing exit):
+- ARMED E long (day-high break): close **$771.35–771.64** (above $771.34) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $723.81; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the PDH $772.28 ✓ at $0.64+).
+- Shadow G: PDH $772.28 sweep and close back below.
