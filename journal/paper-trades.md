@@ -2859,3 +2859,10 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 95k; close band $0.30; bar ra
 - No line at the day high or the PDH: a break of $771.92 has $0.36 of room to the PDH, and a PDH break has $0.52 to R1 (both under 1.5R).
 - ARMED E long (R1 break): close **$772.81–773.10** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $724.73; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to R2 $776.55 ✓).
 - Shadow G: PDH-sweep put if SPY trades above $772.38 and closes back below $772.28.
+
+**Setup check (11:43 AM ET): nothing fired; SPY through the PDH, under R1**
+- Replay: E long R1 break ($772.81–773.10) did not fire (high $772.79 at 11:35, $0.01 under R1; closes $771.98–772.64). Shadow G: SPY traded above $772.38 but no close back below the PDH $772.28 (low since $771.95 was before the sweep; 11:40 low $772.41).
+- The stopped 11:10 long would have reached its $772.03 trail trigger at 11:30 had the stop held: one more case of a $0.40 stop inside light-volume noise (for the Friday review).
+- SPY $772.58 above the PDH and VWAP; QQQ $725.95 (new highs, leading). 4H (8–12): green, closing near its high.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 100k; trailing exit): the same E long R1-break line (close $772.81–773.10, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $726.20; stop −$0.40; room to R2 $776.55 ✓). Shadow G: a close back below $772.28.
