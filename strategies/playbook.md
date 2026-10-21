@@ -255,7 +255,7 @@ section (first target, quick profit).
   (shorts), or on the wrong side of VWAP.
 - **Re-entry:** if fully out and the day is still a trend day, a pullback to
   VWAP or a broken level that holds on a 5-min close is a new B/C entry
-  (new plan, new score card, counts as another day trade).
+  (new plan, new score card).
 - **Fractional:** the same idea: sell half at the first target, trail the
   rest on the SPY level, and exit by 3:45 PM.
 - Time rules still win: no new 0DTE entries after 2:30, all closed by 3:30.
@@ -294,8 +294,6 @@ fast for alert-based stops.
 - **No broker stop order.** The stop is a Robinhood **price alert** at the
   stop level; when it fires, the position is sold at market. Real fills can
   land below the stop in a fast move.
-- Buying and selling the same day is a **day trade** (counts toward the 3 per
-  rolling 5 business days).
 
 ### Sizing
 
@@ -318,9 +316,8 @@ The owner exits every candle trade by the end of the day: no overnight holds.
 - **Entries:** 9:45 AM–2:30 PM ET, same window as 0DTE.
 - **Exit:** by **3:45 PM ET** at the latest (fractional orders only fill in
   regular hours, so leave room before the 4:00 close).
-- **Day trades:** every candle trade uses one of the 3 allowed per rolling 5
-  business days, shared with 0DTE trades. Pick the better of the two for each
-  setup; do not take both on the same signal.
+- **One approach per signal:** pick the better of the fractional or 0DTE
+  version for each setup; do not take both on the same signal.
 - **Stop level is set on SPY (or QQQ), not on the fund you hold.** For SH/PSQ,
   put the price alert on SPY/QQQ at the setup's stop and sell the inverse fund
   when it fires. Inverse-fund prices carry tracking noise that tripped two

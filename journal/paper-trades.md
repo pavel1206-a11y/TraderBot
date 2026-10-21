@@ -2783,4 +2783,4 @@ Market data and analysis only, not investment advice.
 - SPY 770C 10/20: sold 10:32 at $2.35 on a **stop-limit trailing the run**, realized **+$193** (implied buy ≈ $0.42, about +460%). It exited 2 minutes after the R2 rejection bar (10:30, high $772.28).
 - QQQ 720C 10/20: sold 1:24 PM at $0.73 (stop-limit), realized **+$16** (implied buy ≈ $0.57).
 - Total **+$226** vs the bot's paper +$44.68 on the same PDL sweep-and-reclaim idea. The difference is the exit: the owner trailed a stop under the run instead of selling at 1.5R / +50%. Supports the Friday runner proposal (half off at the target, trail the rest).
-- PDT note: 3 day trades on 10/20. If the Individual account is a margin account under $25k, a 4th day trade before they roll off on 10/27 would trigger the pattern-day-trader flag.
+- (Correction 10/21: an earlier PDT warning here was wrong. The pattern day trader rule ended on 2026-06-04; the owner removed it from CLAUDE.md on 10/21.)

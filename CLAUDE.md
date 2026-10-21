@@ -45,8 +45,11 @@ a stop. So an option position's cost is capped at 10% of the account.
    verbatim, and wait for the owner's explicit OK before placing.
 5. **No averaging down** into a losing position and **no revenge trades**
    after a loss.
-6. **Pattern day trader rule:** the account is under $25k. Count day trades
-   and allow at most 3 in any rolling 5 business days.
+6. **Buying power:** check it before every trade: settled cash in a cash
+   account, intraday margin excess in a margin account. (The pattern day
+   trader rule and its $25k minimum ended on 2026-06-04 with FINRA's Rule
+   4210 amendments; removed here by the owner on 2026-10-21. Day trades are
+   no longer counted.)
 7. **Options:**
    - Single-leg only (long calls / long puts) when a stop is needed; spreads
      accept only limit orders and cannot carry a stop.
@@ -60,8 +63,7 @@ a stop. So an option position's cost is capped at 10% of the account.
    (1x inverse) for bearish. Market orders, regular hours only. Position at
    most 50% of the account; risk (position × distance to stop) within the 5%
    rule. The stop is a Robinhood price alert, sold at market when it fires.
-   Same-day only: out by 3:45 PM ET, no overnight holds; each one uses a day
-   trade.
+   Same-day only: out by 3:45 PM ET, no overnight holds.
 
 ## Current phase: PAPER TRADING
 
@@ -108,7 +110,7 @@ with the trade plan. Any "no" means no trade.
    scheduled event (CPI, jobs report, FOMC, big earnings) is due before the
    exit time that could flip the move.
 4. **The trade fits the risk rules:** premium within 5% default / 10% max of
-   account, and a day trade is available under the PDT count.
+   account, and buying power covers it (settled cash or intraday margin).
 
 **Timing and exits**
 - No entries in the first 15 minutes (9:30–9:45 AM ET), when direction is
@@ -119,8 +121,6 @@ with the trade plan. Any "no" means no trade.
   (about $76,000), far beyond the account.
 - The stop order sits at the broker from entry; do not rely on check-ins to
   exit, because 0DTE prices move faster than any check-in schedule.
-- Buying and selling the same day is a day trade, so each 0DTE trade uses
-  one of the 3 allowed per rolling 5 business days.
 
 ## Confirmation
 
