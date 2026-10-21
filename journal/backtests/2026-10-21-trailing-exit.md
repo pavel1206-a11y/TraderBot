@@ -21,3 +21,22 @@ Exits compared: **fixed** = sell all at +1.5R (current rule); **trail 1R** = at 
 - Caveats: SPY points, not option prices (a 0DTE call held longer also decays); simplified simulators; 10/16–10/20 not in the data.
 
 Decision (owner, 2026-10-21): adopt the 1R trailing exit on all lines (playbook section 7).
+
+## Check on 10/16–10/20 (owner request, 2026-10-21)
+
+Added the 10/16, 10/19 and 10/20 bars and replayed the six real paper trades with the trailing exit (5-min bars):
+
+| Trade | R | Fixed 1.5R | Trail 1R | Trail 1.5R | Trail 2R |
+|---|---|---|---|---|---|
+| 10/16 2:25 E short | $0.40 | −1.0R | −1.0R | −1.0R | −1.0R |
+| 10/19 10:00 E short | $0.40 | −1.0R | −1.0R | −1.0R | −1.0R |
+| 10/19 10:15 VWAP reclaim long | $0.46 | −1.0R | −1.0R | −1.0R | −1.0R |
+| 10/19 11:15 E long | $0.40 | +1.5R | +1.85R (out 11:30) | +1.35R | +0.85R |
+| 10/19 1:10 E short | $0.40 | +1.5R | +0.83R (out 1:50) | +0.33R | 0.0R |
+| 10/20 9:50 VWAP reclaim long | $0.69 | +1.5R | +1.81R (out 10:05, by $0.03) | **+6.9R** | +6.4R |
+| **Total** | | **+1.50R** | **+1.49R** | +5.58R | +4.25R |
+
+- With the adopted 1R trail, these four days come out the same as the fixed exit. On 10/20 the 1R trail ($0.69) was hit at 10:05 by 3 cents (peak $768.42, stop $767.73, low $767.70), so it would not have caught the run the owner caught; the owner's option stop was wider.
+- A 1.5R trail catches 10/20 (+6.9R) but over the full Jan–Oct 20 data it is weaker than 1R in Jul–Oct (E lines +9.3R vs +20.0R; VWAP reclaim +20.0R vs +27.1R). A 2R trail scores highest on E lines (+67.9R) but wins only 36% of trades and does worse on the VWAP reclaim (+19.1R).
+- Full-period totals including 10/16–10/20: E lines fixed +18.7R vs trail 1R +45.6R; VWAP reclaim (long + short) fixed +18.7R vs trail 1R +27.1R.
+- Conclusion: keep the 1R trail; it is the most consistent across lines and periods. Do not widen it to fit one day. Revisit at the Friday review with more live trades.
