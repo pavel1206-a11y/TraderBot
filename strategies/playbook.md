@@ -217,11 +217,20 @@ Skip the day or the setup if any of these apply:
 - **Protecting profit** (stops only move up):
   - Option up 30%: raise the stop to break-even.
   - Option up 60%: raise the stop to lock in about +30%.
-  - **First target (2026-10-08): +1.5R on SPY** (1.5× the distance from
-    entry to the SPY stop) **or +50% on the option, whichever comes first.**
-    Sell the whole position there on a normal day. Holding for the next
-    level turned replay winners into stop-outs (1.5R exit: +3.03R vs +2.58R
-    holding for the level). On a trend day, the second contract runs (below).
+  - **Trailing exit (owner's method, 2026-10-21; replaces the fixed 1.5R /
+    +50% sale of 2026-10-08):** do **not** sell at +1.5R on SPY. When SPY
+    first reaches +1.5R, the stop jumps to **1R behind the best SPY price
+    since entry** (so at least +0.5R is locked), then follows that best
+    price up (longs) or down (shorts), never moving back. Exit when SPY
+    trades through the trailing stop, or at the hard exit. Before +1.5R the
+    normal stop and the 30-minute time stop apply. For a real option, keep a
+    broker stop-limit on the option and raise it each time the SPY trail
+    moves, as the owner did on 10/20 (770C bought ≈ $0.42, trailed out at
+    $2.35, +$193, vs the bot's fixed exit +$44 on the same signal).
+    Backtest (`../journal/backtests/2026-10-21-trailing-exit.md`): E lines
+    +18.2R → +44.8R, VWAP-reclaim longs +14.9R → +20.0R, VWAP-reclaim
+    shorts +6.8R → +10.1R, with the same win rates and both halves of the
+    year better.
 - **Hard exit:** closed by 3:30 PM ET, win or lose.
 
 ### Trend days: runner exit
@@ -303,9 +312,9 @@ fast for alert-based stops.
   risk is often $1–3 per trade.
 - **Reward/risk at least 1.5:** the next key level must be at least 1.5× as
   far as the stop, or skip the trade.
-- **Target: +1.5R** (2026-10-08): sell at 1.5× the stop distance, which by
-  the line above is never past the next level. On a trend day, sell half
-  there and trail the rest (section 7).
+- **Exit: the trailing exit** (section 7, 2026-10-21): at +1.5R the alert
+  stop moves to 1R behind the best SPY price and follows it; out on the
+  trail, or by 3:45 PM.
 
 ### Same-day only
 
@@ -389,7 +398,8 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
   is over **$1.00** (no chasing big bars). Kept on 2026-10-20: in the same
   backtest every higher cap lowered the result (no cap: the extra big-bar
   trades won 5 of 22, −9.5R).
-- **Target on every line:** +1.5R on SPY (section 7), and write it as a price.
+- **Trail trigger on every line:** +1.5R on SPY, written as a price. Reaching
+  it starts the trailing exit (section 7); it is not a sale.
 - Valid until: the next check, or 2:30 PM, whichever is sooner. A check
   re-arms or drops each line.
 
@@ -401,7 +411,7 @@ bearish and setup B needs an existing trend. From now on, **whenever SPY is
 below VWAP after making a new day low (9:45 AM–2:15 PM), every check also
 arms this call line**, whatever the bias:
 
-`ARMED VWAP reclaim long: (1) a 5-min close above VWAP + $0.10 with QQQ also closing above its own VWAP, then (2) the first later bar (within 30 min) whose low holds at or above VWAP − $0.05 and closes green; entry = bar (2)'s close; stop = bar (2)'s low − $0.10; target = entry + 1.5R; valid until the next check`
+`ARMED VWAP reclaim long: (1) a 5-min close above VWAP + $0.10 with QQQ also closing above its own VWAP, then (2) the first later bar (within 30 min) whose low holds at or above VWAP − $0.05 and closes green; entry = bar (2)'s close; stop = bar (2)'s low − $0.10; trail trigger = entry + 1.5R, then the section 7 trailing exit; valid until the next check`
 
 - Bar (1) is the reclaim and is **not** the entry. It is usually a big bar
   (10/15: $1.82 range), which breaks the $1.00 no-chase limit, and it comes
