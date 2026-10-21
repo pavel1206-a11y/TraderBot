@@ -2823,3 +2823,10 @@ ARMED (valid until 10:42; prior bars average ≈ 215k; close band $0.30; bar ran
 - SPY $769.49 below VWAP, bouncing off the P/50-day zone ($768.3–768.5); QQQ $722.07, back above its VWAP (≈ $721.7). Day range $768.40–771.34. 4H (8–12): small red. No setup.
 
 ARMED (valid until 10:57; prior 10-bar average ≈ 176k): the same E short line (close $767.99–768.28, QQQ low below $720.09 for the 0.7× case) and the standing VWAP reclaim long (step 1: close above VWAP + $0.10 with QQQ above its VWAP; step 2: a hold bar within 30 min; trailing exit).
+
+**Setup check (10:43 AM ET): nothing fired; pinned to VWAP**
+- Replay: E short did not fire (low $768.86). VWAP reclaim long: the 10:30 bar closed $769.93 against VWAP $769.94: no reclaim (needs VWAP + $0.10).
+- SPY $769.86 on VWAP; QQQ $721.97 around its VWAP. Range since 10:05: $768.40–770.13 (40 min, $1.73; F range at 10:50). 4H (8–12): small, inside. Chop: no 0DTE direction.
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 165k): the same E short line (close $767.99–768.28) and the standing VWAP reclaim long; plus
+- ARMED E/F long (range-high break, above VWAP): close **$770.14–770.43** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $723.57; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the PDH $772.28 ✓).
