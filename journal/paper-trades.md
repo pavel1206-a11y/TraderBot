@@ -2802,3 +2802,9 @@ ARMED (9:45–10:12; volume baseline = average since 9:30 ≈ 262k; close band $
 - ARMED E long (OR-high break): close **$0.01–0.30 above the final OR high** (now $771.23 → $771.24–771.53) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above its OR high ($723.07); SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the PDH $772.28 ✓); 0DTE call ≤ $100.
 - ARMED E short (OR-low break): close **$0.01–0.30 below the final OR low** (now $769.73 → $769.43–769.72) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $720.76; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to P $768.53 ✓); 0DTE put ≤ $100.
 - Shadow (not scored): G PDH-sweep put if SPY trades above $772.38 and a bar closes back below $772.28.
+
+**Setup check (9:58 AM ET): nothing fired; chop inside the opening range**
+- Final OR (9:30–9:45): **$769.73–771.23**. Replay: E long ($771.24–771.53): the 9:45 bar closed $771.14 (high $771.34), $0.10 short of the band; E short ($769.43–769.72): no close below $770.16. Not fired. Shadow G: PDH $772.28 not reached.
+- SPY $770.70 on VWAP (≈ $770.6); QQQ $722.45, whipping $719.72–723.20. Chop across VWAP: no 0DTE direction (checklist item 1). 4H (8–12): small, inside yesterday's range.
+
+ARMED (valid until 10:27; volume baseline ≈ 243k; close band $0.30; bar range ≤ $1.00; trailing exit): the same two lines (E long close $771.24–771.53 with QQQ high above $723.20 for the 0.7× case; E short close $769.43–769.72 with QQQ low below $719.72), same stops and trail triggers. Shadow G unchanged.
