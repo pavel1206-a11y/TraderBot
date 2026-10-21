@@ -2784,3 +2784,13 @@ Market data and analysis only, not investment advice.
 - QQQ 720C 10/20: sold 1:24 PM at $0.73 (stop-limit), realized **+$16** (implied buy ≈ $0.57).
 - Total **+$226** vs the bot's paper +$44.68 on the same PDL sweep-and-reclaim idea. The difference is the exit: the owner trailed a stop under the run instead of selling at 1.5R / +50%. Supports the Friday runner proposal (half off at the target, trail the rest).
 - (Correction 10/21: an earlier PDT warning here was wrong. The pattern day trader rule ended on 2026-06-04; the owner removed it from CLAUDE.md on 10/21.)
+
+### 2026-10-21 (Wed): pre-market brief (8:55 AM ET)
+- **SPY PDH $772.28 · PDL $764.26** (10/20). Pre-market **$771.11**, between them: $1.17 below the PDH, $6.85 above the PDL.
+- Close 10/20 **$769.05** (official). Pivots: **P $768.53 · R1 $772.80 · R2 $776.55 · S1 $764.78 · S2 $760.51.** SMAs: 20-day $770.62, 50-day $768.29 (pre-market above both).
+- QQQ pre-market $721.64 (+0.56% vs $717.63), leading SPY (+0.27%).
+- Events: no major US economic release found (unverified). Earnings this morning mostly beats (TMO, NEE, PM, T, ELV, DHR). **After the close: TSLA, META, IBM, TXN, LRCX** (after our exit time; can make the afternoon cautious).
+- **Bias: mild bullish.** Above P and both SMAs, QQQ leading. Resistance stack overhead: PDH $772.28 / R1 $772.80 (owner's PDH sweep-and-fail = put idea; acceptance above = calls toward R2). Support: 20-day $770.62, P $768.53, 50-day $768.29.
+- Rules in force today: E/F close band $0.30, trigger-bar range ≤ $1.00, **trailing exit** (at +1.5R the stop trails 1R behind the best price; section 7), no day-trade count (buying power check instead).
+
+Market data and analysis only, not investment advice.
