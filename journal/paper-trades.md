@@ -2886,3 +2886,12 @@ ARMED (valid until 12:27): no new lines; manage the open long (stop $772.43, tra
 
 **Setup check (12:28 PM ET): done for the day (two losses); log only**
 - SPY $772.24, slipping back to the PDH $772.28 on light volume (35–69k); range since 11:35 $772.21–772.93. Shadow G would need a close below the PDH **and below VWAP** (≈ $771.0), so it is not live. No new lines (two-loss rule).
+
+**End of day (3:47 PM ET): 10/21 close-out**
+- Open trades: none. SPY ≈ $773.34 at 3:45 (day $768.40–774.43).
+- Today: **2 setups (option + fractional), 0W/4L, −$44.52:** 11:10 E long (day-high break) −$21.26; 11:45 E long (R1 break) −$23.26. Both stopped by $0.40 stops on a light-volume grind; stopped for the day after the second loss (two-loss rule).
+- Running totals: **39 trades, 19W/20L (49%), +$137.80.** Options B 19 trades +$123; fractional B 18 trades +$0.99.
+- Note: a slow grind up from the 50-day ($768.40, 10:10) through the PDH and R1 to $774.43 by 2:10 on falling volume, then a −$3.99 flush (2:40–3:05, 893k on the 3:00 bar) and a bounce into the close. The direction was right both times; the $0.40 stop was not. With the 11:45 entry, a stop under the 11:35 pullback low ($771.95) would have held all day.
+- Shadow G: never live (no close back below the PDH while below VWAP). Pre-earnings (TSLA/META/IBM/TXN after the close) may explain the late flush.
+
+Market data and analysis only, not investment advice.

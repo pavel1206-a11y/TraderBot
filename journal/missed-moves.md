@@ -201,3 +201,15 @@ Open $765.87 → low $764.26 (9:45) → high $772.28 (10:30) → close ≈ $768.
 | 10:55–11:10 | −$4.27 in 20 min (772.22 → 767.95) | R2 rejection (10:30, 2.6× volume), lower highs under $772.2, then one $3.07 bar on 2.1× with QQQ −$3.9 | E short / shadow G | **No short line armed** (SPY was above VWAP until that bar, so the VWAP condition blocked it), and the bar was 3× the range cap. Shadow G caught the tail (+0.35R). |
 
 Pattern: the owner's PDL sweep-and-reverse worked exactly as described, and our VWAP-reclaim line is the mechanical version of it. The open question for Friday is the exit: on 10/15 and 10/20 the reclaim led to $6–8 runs, but the fixed 1.5R exit captured about 1.5R. A partial runner (e.g. half off at 1.5R, the rest trailed under VWAP or the 9 EMA) is the candidate to test.
+
+## 2026-10-21 (Wed, light-volume grind up, late flush)
+
+Open $771.16 → low $768.40 (10:10) → high $774.43 (2:10) → flush to $770.44 (3:05) → ≈ $773.3. Qualifying moves:
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:30–11:35 | +$3.48 in 60 min (769.31 → 772.79), continuing to $774.43 by 2:10 | Bounce off the pivot/50-day zone, back over VWAP on 0.5–0.8× volume, QQQ leading to new highs | E long (traded twice: 11:10 day-high break, 11:45 R1 break) | **Traded, stopped twice:** both $0.40 stops were hit by $0.40–0.50 dips inside the grind (11:19, 12:06); the move then continued $1.6–3.0 higher. The two-loss rule ended the day before the 12:30 leg. Earlier, the 10:40–10:50 VWAP reclaim was rejected on volume (0.5–0.78×). |
+
+Outside the window: the 2:40–3:05 flush (−$3.99, 893k on the 3:00 bar) came after the 2:30 entry cutoff.
+
+Pattern for the Friday review: on light-volume trend days a fixed $0.40 stop is inside the normal pullback (10/19 10:15, 10/20 trail exit, 10/21 twice). Candidate: stop under the last 5-min swing low (or the breakout bar's low − $0.10) with a $0.40 minimum, sizing the option to keep risk inside the cap. Needs a backtest before proposing.
