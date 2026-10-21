@@ -17,7 +17,7 @@ quotes for the contract. Rules for graduating to real money are in
 
 \* The only A-grade trades so far (10/6 VWAP pullback) were armed with reward/risk 0.66 at the trigger close, an arming error. Whether they count toward graduation is for the owner to decide at the Friday review.
 
-Open: none.
+Open: 10/21 E long R1 break (773C at $0.97 + SPY 0.6470 sh at $772.83), stop $772.43, trail trigger $773.43.
 
 By setup: ORB 0 · VWAP pullback 2 · Break and retest 4 · 4H manipulation 0 · Squeeze F 6 · Momentum E 10 · VWAP reclaim 2 · E/F (10/9) 2
 
@@ -2866,3 +2866,13 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 95k; close band $0.30; bar ra
 - SPY $772.58 above the PDH and VWAP; QQQ $725.95 (new highs, leading). 4H (8–12): green, closing near its high.
 
 ARMED (valid until 12:12; prior 10-bar average ≈ 100k; trailing exit): the same E long R1-break line (close $772.81–773.10, ≥ 1.0× or ≥ 0.7× with a same-bar QQQ high above $726.20; stop −$0.40; room to R2 $776.55 ✓). Shadow G: a close back below $772.28.
+
+**Setup check (11:58 AM ET): E long (R1 break) FIRED at 11:45 (armed, replayed); open**
+- Trigger: the **11:45 bar closed $772.83** (band $772.81–773.10) on 95.6k = 0.93× the prior 10-bar average (≈ 103k), with a same-bar QQQ high **$726.44** above $726.20, so the 0.7× case was met. SPY and QQQ above VWAP; bar range $0.32. Fired as written.
+- Plan: entry **$772.83**, stop **$772.43**, trail trigger **$773.43** (+1.5R; then the 1R trail), room to R2 $776.55 ✓. Time stop 12:20 if not in profit.
+- Score card (B): above VWAP, QQQ leading at new highs ✅ · through the PDH and R1 ✅ · above the 20/50-day ✅ · volume 0.93× with QQQ break ⚠️ · 4H green ✅ · room to R2 ✅ · time ✅. Not a revenge trade: a separately armed level, after a stop at a different level.
+  - **0DTE leg: SPY 10/21 773C** (id ca8c249f-5de0-44c2-8652-e51599f2458e). Entry **$0.97** (1-min close $0.96 + half spread) = $97, under the $100 cap.
+  - **Fractional leg: SPY** 0.6470 sh (≈ $500) at $772.83; alert on $772.43.
+- So far: high $772.93 (11:50), low $772.56; SPY $772.72, 773C ≈ $0.87. **Open.**
+
+ARMED (valid until 12:27): no new lines; manage the open long (stop $772.43, trail trigger $773.43, time stop 12:20). Shadow G: a close back below the PDH $772.28.
