@@ -2817,3 +2817,9 @@ ARMED (valid until 10:42; prior bars average ≈ 215k; close band $0.30; bar ran
 - ARMED E short (50-day / pivot break): close **$767.99–768.28** (below the 50-day $768.29) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $720.09; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to S1 $764.78 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line, section 10): SPY below VWAP after a new day low.
 - Shadow G: PDH $772.28 sweep (not near).
+
+**Setup check (10:28 AM ET): nothing fired; holding the 50-day**
+- Replay: E short ($767.99–768.28) did not fire (low $768.40; closes $768.75–769.49). VWAP reclaim long: no close above VWAP (≈ $769.9) + $0.10 yet.
+- SPY $769.49 below VWAP, bouncing off the P/50-day zone ($768.3–768.5); QQQ $722.07, back above its VWAP (≈ $721.7). Day range $768.40–771.34. 4H (8–12): small red. No setup.
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 176k): the same E short line (close $767.99–768.28, QQQ low below $720.09 for the 0.7× case) and the standing VWAP reclaim long (step 1: close above VWAP + $0.10 with QQQ above its VWAP; step 2: a hold bar within 30 min; trailing exit).
