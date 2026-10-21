@@ -2883,3 +2883,6 @@ ARMED (valid until 12:27): no new lines; manage the open long (stop $772.43, tra
 - Running totals: **39 trades, 19W/20L (49%), +$137.80.**
 - Pattern: both stops were $0.40 below the entry on a slow, light-volume grind to new highs (SPY made $772.93 and then sagged $0.50). On drift days a $0.40 stop sits inside the noise (also the 11:10 trade, which would have run). For the Friday review, with the earlier VWAP-reclaim stop finding.
 - SPY $772.59 above VWAP and the PDH; QQQ ≈ $726. Shadow G: still no close back below $772.28.
+
+**Setup check (12:28 PM ET): done for the day (two losses); log only**
+- SPY $772.24, slipping back to the PDH $772.28 on light volume (35–69k); range since 11:35 $772.21–772.93. Shadow G would need a close below the PDH **and below VWAP** (≈ $771.0), so it is not live. No new lines (two-loss rule).
