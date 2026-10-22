@@ -3006,3 +3006,14 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 250k; trailing exit at +1.5R)
 ARMED (valid until 11:57; prior 10-bar average ≈ 205k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.63; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $764.76) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
+
+**Setup check (11:58 AM ET): nothing fired; a quiet range**
+- Replay: E short ($761.80–762.09): low $762.41 (11:40). Not fired. VWAP reclaim (> $764.76): best close $764.08. Not fired.
+- SPY $764.08, VWAP ≈ $764.60; QQQ $708.59, below its VWAP. Volume is drying up (112–229k).
+- F: the range since 11:25 is **$762.41–764.74 ($2.33)**; it becomes a valid 45-minute squeeze at 12:10 if it holds. The range since 10:35 is $2.64 (too wide).
+- 4H: the 12–4 PM candle opens now (≈ $764.1). D watch: a sweep of $764.74 / $762.41 that reclaims, then a structure shift.
+- Score: no A/B.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 192k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.63; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $764.70) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
