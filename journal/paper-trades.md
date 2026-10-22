@@ -3045,3 +3045,15 @@ ARMED (valid until 12:57; prior 10-bar average ≈ 136k): the same VWAP reclaim 
 ARMED (valid until 12:57; prior 10-bar average ≈ 126k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.63; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 SPY close > VWAP + $0.10 (≈ $764.75) and QQQ close > its VWAP (≈ $710.38) on the same bar, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ✓.
+
+**Setup check (12:58 PM ET): nothing fired; SPY double-bottoms on the day low while QQQ breaks down**
+- Replay: E short ($761.80–762.09): SPY low $762.19 (12:50), closes $763.06 / $762.57 / $763.07. Not fired. VWAP reclaim: not reached.
+- SPY $763.07: a retest of the day low (10:35 $762.10, now $762.19) held, closing well off the low on 256k (1.8×). **QQQ broke its morning low** ($706.63 → $704.47) and closed $705.81. SPY is stronger than QQQ; they don't agree on a breakdown.
+- 4H (12–4): opened $764.78, now in the manipulation leg down. SPY has not swept the morning low (so no D yet). QQQ swept it but has not reclaimed $706.63.
+- F: no squeeze ($762.19–765.84 since 12:00, $3.65).
+- Score: no A/B.
+
+ARMED (valid until 13:12; prior 10-bar average ≈ 141k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $704.47; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 SPY close > VWAP + $0.10 (≈ $764.65) and QQQ close > its VWAP (≈ $710.2) on the same bar, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10.
+- Watch (not armed; D needs VWAP): SPY sweeps below $762.10 and closes back above it, then closes above the $763.24 lower high.
