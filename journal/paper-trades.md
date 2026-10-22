@@ -2926,3 +2926,18 @@ ARMED (valid until 10:27; volume baseline ≈ 358k; close band $0.30; bar range 
 - ARMED E long: close **$767.46–767.74** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $714.74; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to $768.34 ≥ $0.60); 0DTE call ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $766.68 now), QQQ above its VWAP, volume rule; step 2 hold bar within 30 min (low ≥ VWAP − $0.05, green); stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
 - Shadow (not scored): PDL-rejection put unchanged.
+
+**Setup check (10:23 AM ET; the :12 run fired late): nothing fired; the VWAP reclaim failed the room rule, and the OR-low break missed the band by $0.03**
+- Replay of the 9:57 lines:
+  - VWAP reclaim long: step 1 met on the 9:55 bar (close $767.12 > VWAP $766.61 + $0.10; 342k = 0.95× the prior average with QQQ reclaiming its VWAP in the same bar). Step 2 met on the 10:00 bar (low $766.81 ≥ VWAP − $0.05 = $766.63, green, close $767.41). Entry would be $767.41, stop $766.71 (R = $0.70), so 1.5R = $1.06. **Room to the 50-day / PDL $768.34 is only $0.93 → not fired** (room rule). Not traded: the 10:05 bar's low of $766.05 would have hit the stop.
+  - E long ($767.46–767.74): best close $767.41 (10:00). Not fired.
+  - E short ($765.65–765.94): the 10:10 bar closed $765.675, in the band, but on 203k = 0.62× (needs 1.0×, or 0.7× with a QQQ low below $711.75; QQQ low was $712.16). The 10:15 bar closed **$765.62, $0.03 past the band** (286k, 0.92×, QQQ low $711.535 ✓). Not fired.
+  - Shadow PDL rejection: high $767.71; $768.34 not reached.
+- Now: SPY $765.62, new day low $765.06, below VWAP ($766.51) with lower highs since 10:00 ($767.71 → $767.45 → $766.36 → $765.96). QQQ $712.18, below its VWAP ($713.49), day low $711.54. Bearish, and the opening-range break is $0.33 past the band (no chase).
+- 4H (8–12): second hour, pushing lower to $765.06; the pre-market low $764.55 is not swept yet, so D is not live. F: range since 9:35 is $765.06–767.71 ($2.65 > $2.50), no squeeze.
+- Score: no A/B. The OR-low break is past the band. A short off the new day low has no room: 1.5R = $0.60, but $764.55 is only $0.51 below.
+
+ARMED (valid until 10:42; prior 10-bar average ≈ 308k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (10/20 PDL / pre-market low break): close **$763.96–764.25** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $711.535; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to S3 $763.48 ✓); 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line; new day low and below VWAP): step 1 close > VWAP + $0.10 (≈ $766.61 now) with QQQ closing above its VWAP (≈ $713.49), volume rule; step 2 hold bar within 30 min (low ≥ VWAP − $0.05, green); stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
+- Shadow (not scored): PDL-rejection put unchanged.
