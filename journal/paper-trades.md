@@ -3101,3 +3101,8 @@ ARMED (valid until 14:12, the last arming window; prior 10-bar average ≈ 107k)
 ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar average ≈ 124k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E short (new day-low break): close **$761.24–761.40** (room to $760.64 ≥ 1.5R) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $703.37; SPY and QQQ below VWAP; stop = entry + $0.40; 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 SPY close > VWAP + $0.10 and QQQ close > its VWAP on the same bar; step 2 hold bar by 2:30.
+
+**Setup check (2:28 PM ET): nothing fired; entry window closing**
+- Replay: E short ($761.24–761.40): low $762.32. VWAP reclaim: high $763.76 < VWAP. Not fired.
+- SPY $763.36, QQQ $705.48. The D sequence finished its structure shift (2:15 close $763.45 > $763.10 lower high), but VWAP (≈ $764.2) was never reclaimed, so it is not an entry under the D rules. Noted for EOD.
+- No new 0DTE entries after 2:30; no lines armed. Open paper trades: none.
