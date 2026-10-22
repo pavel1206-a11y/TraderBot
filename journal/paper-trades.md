@@ -3085,3 +3085,9 @@ ARMED (valid until 13:42; prior 10-bar average ≈ 161k; close band $0.30; bar r
 - SPY $763.41, QQQ $706.34, both below VWAP. Volume is very light (56–142k). F range $762.16–764.32 (now 70 min old; since 12:55 it has tightened to $762.16–763.98). 4H (12–4): no SPY sweep, so D is not live. No A/B.
 
 ARMED (valid until 13:57; prior 10-bar average ≈ 139k): the same three lines. F long close **$764.33–764.62** (QQQ above $708.36 for the 0.7× case; stop = max(midpoint $763.24, bar low) − $0.10; target $768.64); F short close **$761.86–762.15** (QQQ below $704.47 for the 0.7× case; stop = min(midpoint, bar high) + $0.10; target $757.84; room to $760.64 ≥ 1.5R); VWAP reclaim long (SPY > VWAP + $0.10 and QQQ > its VWAP on the same bar, then a hold bar). Close band $0.30, bar range ≤ $1.00, trailing exit at +1.5R. No new 0DTE entries after 2:30.
+
+**Setup check (1:58 PM ET): nothing fired; still inside the squeeze**
+- Replay: F long (high $763.975), F short (low $762.56), VWAP reclaim: not reached. Not fired.
+- SPY $762.91, QQQ $705.48, both below VWAP, drifting toward the range low on very light volume (73–101k). F range $762.16–764.32 (85 min). 4H (12–4): no SPY sweep, so D is not live. No A/B.
+
+ARMED (valid until 14:12, the last arming window; prior 10-bar average ≈ 107k): the same lines. F long close **$764.33–764.62** (QQQ above $708.36 for 0.7×; stop = max(midpoint $763.24, bar low) − $0.10; target $768.64); F short close **$761.86–762.15** (QQQ below $704.47 for 0.7×; stop = min(midpoint, bar high) + $0.10; target $757.84; room to $760.64 ≥ 1.5R); VWAP reclaim long (SPY > VWAP + $0.10 and QQQ > its VWAP on the same bar, then a hold bar). Close band $0.30, bar range ≤ $1.00, trailing exit. No new 0DTE after 2:30.
