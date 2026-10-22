@@ -2941,3 +2941,14 @@ ARMED (valid until 10:42; prior 10-bar average ≈ 308k; close band $0.30; bar r
 - ARMED E short (10/20 PDL / pre-market low break): close **$763.96–764.25** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $711.535; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to S3 $763.48 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line; new day low and below VWAP): step 1 close > VWAP + $0.10 (≈ $766.61 now) with QQQ closing above its VWAP (≈ $713.49), volume rule; step 2 hold bar within 30 min (low ≥ VWAP − $0.05, green); stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
 - Shadow (not scored): PDL-rejection put unchanged.
+
+**Setup check (10:30 AM ET): nothing fired; the $764.26 break skipped the band**
+- Replay: E short ($763.96–764.25): the 10:20 bar closed $764.42 ($0.17 above the band); the **10:25 bar closed $763.36, $0.60 past it**, on a $1.52 range (over the $1.00 cap; 355k = 1.26×). Not fired. VWAP reclaim long: no close above VWAP. Shadow PDL rejection: not reached.
+- SPY $763.36 (day low $763.16), through the pre-market low, the 10/20 PDL and S3 ($763.48), and now sitting on the **10/16 close $763.25**. VWAP ≈ $766.14. QQQ $709.85 (day low $709.54), below VWAP. A trend day down: lower highs on every bar since 10:00, −$4.55 from the 10:00 high.
+- Levels below: 10/16 low **$760.64**, 10/1 low $758.79.
+- 4H (8–12): expanding lower; the pre-market low $764.55 is swept with no reclaim, so D (reversal) is not live. F: no squeeze (range $4.55).
+- Score: no A/B now. The breaks keep running past the $0.30 band in one bar (no chase). A missed move for EOD: 10:05–10:25, −$4.3.
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 282k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (day-low / 10/16-close break): close **$762.86–763.15** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $709.54; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $766.24 now) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
