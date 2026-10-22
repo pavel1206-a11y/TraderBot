@@ -2962,3 +2962,13 @@ ARMED (valid until 10:57; prior 10-bar average ≈ 282k; close band $0.30; bar r
 ARMED (valid until 10:57; prior 10-bar average ≈ 291k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $707.98; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to the 10/16 low $760.64 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $765.62 now) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
+
+**Setup check (10:57 AM ET): nothing fired; SPY basing above the day low**
+- Replay: E short ($761.80–762.09): lows $762.33 / $762.16 / $762.25, closes $762.57–762.94. Not fired. VWAP reclaim long: no close above VWAP (≈ $765.14).
+- SPY $762.94: a tight base at **$762.10–762.94** since 10:35 on falling volume (370k → 165k). QQQ made a lower low ($707.24) while SPY held its low, so SPY is diverging up slightly. Both still well below VWAP.
+- 4H (8–12): the last hour opens with the low in; no reclaim of the pre-market low $764.55, so D is not live. F: the base is 20 minutes old (needs 45+).
+- Score: no A/B (no fresh close through a level).
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 277k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $707.24; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $765.24 now) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
