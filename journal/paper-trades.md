@@ -2952,3 +2952,13 @@ ARMED (valid until 10:42; prior 10-bar average ≈ 308k; close band $0.30; bar r
 ARMED (valid until 10:57; prior 10-bar average ≈ 282k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E short (day-low / 10/16-close break): close **$762.86–763.15** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $709.54; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $766.24 now) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
+
+**Setup check (10:42 AM ET): nothing fired; the third break in a row jumped the band**
+- Replay: E short ($762.86–763.15): the 10:30 bar closed **$762.52, $0.64 past the level** (range $1.18, over the $1.00 cap; 417k = 1.5×). The 10:35 bar closed $762.525 (below the band). Not fired. VWAP reclaim long: no close above VWAP.
+- SPY $762.52, day low $762.10; VWAP ≈ $765.52 (−$3.00 away). QQQ $708.28, day low $707.98. Still a one-way trend down, now pausing (the 10:35 bar was an inside-ish doji).
+- 4H (8–12): expanding lower, no reversal sign, so D is not live. F: no squeeze.
+- Score: no A/B. **Pattern for Friday:** on today's trend down, all three level breaks (OR low 10:15, $764.26 at 10:25, $763.16 at 10:30) closed $0.33–0.64 past the level in one bar. The $0.30 band and $1.00 cap filtered out every continuation. Logged as a pattern only; no rule change.
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 291k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $707.98; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to the 10/16 low $760.64 ✓); 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $765.62 now) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
