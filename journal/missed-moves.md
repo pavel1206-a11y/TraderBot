@@ -213,3 +213,18 @@ Open $771.16 → low $768.40 (10:10) → high $774.43 (2:10) → flush to $770.4
 Outside the window: the 2:40–3:05 flush (−$3.99, 893k on the 3:00 bar) came after the 2:30 entry cutoff.
 
 Pattern for the Friday review: on light-volume trend days a fixed $0.40 stop is inside the normal pullback (10/19 10:15, 10/20 trail exit, 10/21 twice). Candidate: stop under the last 5-min swing low (or the breakout bar's low − $0.10) with a $0.40 minimum, sizing the option to keep risk inside the cap. Needs a backtest before proposing.
+
+## 2026-10-22 (Thu, earnings gap down, morning trend, midday chop)
+
+Gap open $766.37 (PDL $768.40 above) → high $767.71 (10:00) → low $762.10 (10:35) → $764.74 (11:25) → $762.41 (11:40) → $765.84 (12:20) → $761.41 (2:00) → ≈ $761.8 at 3:48. Qualifying moves:
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:00–10:35 | −$5.61 in 35 min (767.71 → 762.10) | Failed VWAP reclaim at 10:00, then lower highs each bar; OR low broken 10:15 (0.92×, QQQ lower), $764.26 broken 10:25 (1.26×), $763.16 broken 10:30 (1.5×) | E short (armed at every check) | **Band skip ×3:** the breaks closed $0.33, $0.60 and $0.64 past their levels (bars $0.90–1.52, two over the $1.00 cap). The one in-band close (10:10, $765.675) had 0.62× volume. The VWAP reclaim long at 10:00 was correctly skipped by the room rule. |
+| 10:35–11:25 | +$2.64 in 50 min (762.10 → 764.74) | Base on falling volume, then the 11:15–11:20 push through the base top on 0.78× / 1.04× | F long (armed at 11:21) | The breakout closed $0.42 past the band and then failed at 11:25 (the stop would have hit). Correct skip. |
+| 11:40–12:20 | +$3.43 in 40 min (762.41 → 765.84) | SPY over VWAP from 11:55 on 0.5–1.0× volume, but QQQ stayed under its VWAP | VWAP reclaim long | QQQ never confirmed (SPY/QQQ split, a no-trade filter). The move faded back to $762.19 by 12:50. Correct skip. |
+| 12:20–13:05 | −$3.65 in 45 min (765.84 → 762.19) | Failed bounce under the 4H open, VWAP lost on the 12:30 bar ($1.16 range, 1.4×) | E short at the day low | Stopped at the day low (held 4 times); no level break in reach of a band. |
+
+Outside the window: the 2:00 squeeze-low break (−$0.75 past the edge, then reclaimed) and the 3:00–3:35 retest of $761.17.
+
+Pattern for the Friday review: on 10/22 all five level breaks closed past the $0.30 band in one bar. A pullback entry (the first bar that retests the broken level and holds, like playbook F's "first pullback toward the edge that holds") would have caught the morning trend (10:15–10:35 had no retest though: −$1.9 with no pullback bar) and rejected the two midday fakes. Needs a backtest before proposing.

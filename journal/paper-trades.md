@@ -3106,3 +3106,11 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar 
 - Replay: E short ($761.24–761.40): low $762.32. VWAP reclaim: high $763.76 < VWAP. Not fired.
 - SPY $763.36, QQQ $705.48. The D sequence finished its structure shift (2:15 close $763.45 > $763.10 lower high), but VWAP (≈ $764.2) was never reclaimed, so it is not an entry under the D rules. Noted for EOD.
 - No new 0DTE entries after 2:30; no lines armed. Open paper trades: none.
+
+### 2026-10-22 (Thu): end of day
+- **Trades: none.** No armed line fired all day; no open paper positions.
+- SPY ≈ $761.81 at 3:48 (−1.46%), day range $761.17–767.71; QQQ ≈ $702.31 (−3.2%). A gap-and-trend day down after the TSLA/META/IBM/LRCX earnings, then a choppy midday base above $762, then new lows into the close.
+- Running totals: **39 trades, 19W/20L (49%), +$137.80.** Options B 19 trades +$123; fractional B 18 trades +$0.99. (Unchanged.)
+- Note: every level break today (OR low 10:15, $764.26 10:25, $763.16 10:30, squeeze high 11:20, squeeze low 2:00) closed $0.33–0.72 past its level in one bar, so the $0.30 band skipped all five. Three of the five continued (the morning trend), two failed back into the range (11:20, 2:00). The band was neutral to helpful at midday and costly in the morning trend. Logged in missed-moves for Friday.
+
+Market data and analysis only, not investment advice.
