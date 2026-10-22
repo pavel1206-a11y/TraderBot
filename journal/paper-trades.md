@@ -3057,3 +3057,13 @@ ARMED (valid until 13:12; prior 10-bar average ≈ 141k; close band $0.30; bar r
 - ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $704.47; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 SPY close > VWAP + $0.10 (≈ $764.65) and QQQ close > its VWAP (≈ $710.2) on the same bar, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10.
 - Watch (not armed; D needs VWAP): SPY sweeps below $762.10 and closes back above it, then closes above the $763.24 lower high.
+
+**Setup check (1:13 PM ET): nothing fired; SPY pinned just above the day low**
+- Replay: E short ($761.80–762.09): low $762.31, closes $763.74 / $762.67 / $762.44. Not fired. VWAP reclaim: not reached (high $763.86).
+- SPY $762.44, three tests of $762.10–762.31 (10:35, 12:50, 13:05). QQQ $705.47, holding above its $704.47 low. Volume is fading (92k).
+- F: range since 12:35 is **$762.19–764.32 ($2.13)**, 35 minutes old; it becomes a valid squeeze at 1:20 if it holds. 4H (12–4): still in the manipulation leg down; no sweep/reclaim on SPY.
+- Score: no A/B.
+
+ARMED (valid until 13:27; prior 10-bar average ≈ 156k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (day-low break; also the F range low): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $704.47; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 SPY close > VWAP + $0.10 (≈ $764.6) and QQQ close > its VWAP (≈ $710.0) on the same bar, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10.
