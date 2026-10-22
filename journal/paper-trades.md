@@ -2895,3 +2895,14 @@ ARMED (valid until 12:27): no new lines; manage the open long (stop $772.43, tra
 - Shadow G: never live (no close back below the PDH while below VWAP). Pre-earnings (TSLA/META/IBM/TXN after the close) may explain the late flush.
 
 Market data and analysis only, not investment advice.
+
+### 2026-10-22 (Thu): pre-market brief (8:56 AM ET)
+- **SPY PDH $774.43 · PDL $768.40** (10/21). Pre-market **$765.94**: gapping down **$2.46 below the PDL** (−0.92% vs the close).
+- Close 10/21 **$773.09** (official). Pivots: **P $771.97 · R1 $775.55 · R2 $778.00 · S1 $769.52 · S2 $765.94.** SMAs: 20-day $770.88, 50-day $768.34 (pre-market below both).
+- Pre-market range (4 AM on): $764.55–768.56. After hours yesterday: low $769.33. 10/20 PDL $764.26 sits just under the pre-market low.
+- QQQ pre-market $713.45 (**−1.62%** vs $725.20), leading lower. After-close earnings drove it: LRCX −9.6%, IBM −7.7%, TSLA −3.2%, META −2.9%, TXN −2.0%; NVDA −2.4% in sympathy.
+- Events: weekly jobless claims 8:30 (normal Thursday; not verified). Earnings this morning were mostly beats (HON, PG, LMT, UNP, CMCSA, BX). After the close: WDC, NEM, DECK (after our exit time).
+- **Bias: bearish.** Gap below the PDL and both SMAs, with tech leading lower. Overhead resistance: PDL / 50-day / pre-market high $768.34–768.56, then S1 $769.52. Support: S2 $765.94 (≈ pre-market), pre-market low $764.55, 10/20 PDL $764.26. Gap-fill risk: a reclaim of $768.40 with QQQ above VWAP turns it into a gap-fill long toward S1/P.
+- Rules in force today: E/F close band $0.30, trigger-bar range ≤ $1.00, trailing exit (at +1.5R the stop trails 1R behind the best price; section 7), two losses = done, no day-trade count (buying power check instead).
+
+Market data and analysis only, not investment advice.
