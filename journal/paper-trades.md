@@ -3067,3 +3067,15 @@ ARMED (valid until 13:12; prior 10-bar average ≈ 141k; close band $0.30; bar r
 ARMED (valid until 13:27; prior 10-bar average ≈ 156k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E short (day-low break; also the F range low): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $704.47; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 SPY close > VWAP + $0.10 (≈ $764.6) and QQQ close > its VWAP (≈ $710.0) on the same bar, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10.
+
+**Setup check (1:27 PM ET): nothing fired; the F squeeze is now valid**
+- Replay: E short ($761.80–762.09): low $762.16 (13:10), closes $762.77–763.12. Not fired (a fourth hold of the day low). VWAP reclaim: not reached.
+- SPY $763.12, QQQ $706.40, both grinding up off the lows on light volume; both below VWAP (SPY ≈ $764.5).
+- **F squeeze (12:35–13:25, 50 min): $762.16–764.32 ($2.16)**, midpoint $763.24. QQQ range $704.47–708.36.
+- 4H (12–4): opened $764.78; SPY has held the morning low (no sweep), so D is not live.
+- Score: no A/B.
+
+ARMED (valid until 13:42; prior 10-bar average ≈ 161k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED F long: close **$764.33–764.62** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $708.36; QQQ breaking up too; stop = the higher of the midpoint ($763.24) and the trigger bar's low, − $0.10; measured target $768.64; room to $768.34 ✓; 0DTE call ≤ $100. (VWAP ≈ $764.5 sits at the edge.)
+- ARMED F short (also the day-low break): close **$761.86–762.15** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $704.47; QQQ breaking down too; stop = the lower of the midpoint and the trigger bar's high, + $0.10; measured target $757.84; room to $760.64 ≥ 1.5R; 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 SPY close > VWAP + $0.10 and QQQ close > its VWAP (≈ $709.9) on the same bar; step 2 hold bar within 30 min.
