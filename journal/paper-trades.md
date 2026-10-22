@@ -3017,3 +3017,14 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 205k; close band $0.30; bar r
 ARMED (valid until 12:12; prior 10-bar average ≈ 192k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E short (day-low break): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.63; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $760.64 ✓); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $764.70) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
+
+**Setup check (12:18 PM ET; the :12 run fired late): nothing fired; SPY reclaimed VWAP but QQQ did not**
+- Replay: VWAP reclaim long, step 1 (SPY close > VWAP + $0.10 **with QQQ closing above its VWAP**): SPY closed $764.77 / $764.95 / $765.23 / $765.09 above VWAP ($764.58–764.60) + $0.10 from 11:55, but QQQ closed $709.40–709.76, **under its VWAP ($710.41–710.45)** every bar. Not fired. E short ($761.80–762.09): not reached.
+- SPY $765.09 above VWAP ($764.60) with higher lows since 11:40 ($762.41 → $763.12 → $763.43 → $764.04 → $764.35). QQQ $709.70 is still below its VWAP. **SPY/QQQ disagree** (no-trade filter). Volume is very light (84–91k in the last two bars, about 0.5× the average).
+- F: the range since 11:25 grew to $762.41–765.41 ($3.00), so no squeeze.
+- 4H (12–4 PM): opened $764.78, accumulation so far ($764.35–765.41).
+- Score: no A/B (SPY/QQQ disagree, no volume).
+
+ARMED (valid until 12:42; prior 10-bar average ≈ 162k; trailing exit at +1.5R):
+- ARMED VWAP reclaim long (standing line): step 1 a 5-min close > SPY VWAP + $0.10 (≈ $764.70) **with QQQ also closing above its VWAP (≈ $710.40)** on the same bar, volume rule (≥ 1.0×, or ≥ 0.7× with QQQ reclaiming its VWAP on that bar); step 2 the first later bar within 30 min with low ≥ VWAP − $0.05, green; entry = its close; stop = its low − $0.10; trail trigger = entry + 1.5R (room to $768.34 ✓); 0DTE call ≤ $100.
+- E short dropped (the day low is $3 away; no level break in reach).
