@@ -3091,3 +3091,13 @@ ARMED (valid until 13:57; prior 10-bar average ≈ 139k): the same three lines. 
 - SPY $762.91, QQQ $705.48, both below VWAP, drifting toward the range low on very light volume (73–101k). F range $762.16–764.32 (85 min). 4H (12–4): no SPY sweep, so D is not live. No A/B.
 
 ARMED (valid until 14:12, the last arming window; prior 10-bar average ≈ 107k): the same lines. F long close **$764.33–764.62** (QQQ above $708.36 for 0.7×; stop = max(midpoint $763.24, bar low) − $0.10; target $768.64); F short close **$761.86–762.15** (QQQ below $704.47 for 0.7×; stop = min(midpoint, bar high) + $0.10; target $757.84; room to $760.64 ≥ 1.5R); VWAP reclaim long (SPY > VWAP + $0.10 and QQQ > its VWAP on the same bar, then a hold bar). Close band $0.30, bar range ≤ $1.00, trailing exit. No new 0DTE after 2:30.
+
+**Setup check (2:13 PM ET): nothing fired; the squeeze low broke past the band, then reclaimed**
+- Replay: F short ($761.86–762.15): the **2:00 bar closed $761.56, $0.60 past the range low** (282k = 2.6×, QQQ low $703.37 ✓, but range $1.35 > $1.00 cap) → not fired (fifth band-skip today). The 2:05 bar closed back inside at $762.41, so it would have been a loser anyway. F long, VWAP reclaim: not reached.
+- SPY $762.41, new day low $761.41, reclaimed. QQQ $704.37 (low $703.37). Both below VWAP (SPY ≈ $764.3).
+- 4H (12–4) D check: the morning low $762.10 was swept ($761.41) and reclaimed on the 2:05 close. The structure shift needs a close above the $763.10 lower high, and D needs VWAP (~$764.3) before entry. That's not reachable before the 2:30 0DTE cutoff in a normal move, so D is noted, not armed.
+- F: the range broke; no squeeze. Score: no A/B.
+
+ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar average ≈ 124k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (new day-low break): close **$761.24–761.40** (room to $760.64 ≥ 1.5R) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $703.37; SPY and QQQ below VWAP; stop = entry + $0.40; 0DTE put ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 SPY close > VWAP + $0.10 and QQQ close > its VWAP on the same bar; step 2 hold bar by 2:30.
