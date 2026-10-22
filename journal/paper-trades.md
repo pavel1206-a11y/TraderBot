@@ -2984,3 +2984,15 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 265k; close band $0.30; bar r
 - ARMED F long (squeeze break up): close **$763.86–764.15** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $709.07; QQQ breaking up too; stop = the higher of the range midpoint ($762.98) and the trigger bar's low, − $0.10; measured target $767.35; trail trigger = entry + 1.5R. Note: VWAP ($764.78) and the pre-market low ($764.55) sit about $0.70 above; room needs ≥ 1.5R; 0DTE call ≤ $100.
 - ARMED F short (squeeze break down): close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.63; QQQ breaking down too; stop = the lower of the range midpoint ($762.98) and the trigger bar's high, + $0.10; measured target $758.60; trail trigger = entry − 1.5R (room to $760.64 must be ≥ 1.5R); 0DTE put ≤ $100.
 - ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $764.88) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
+
+**Setup check (11:29 AM ET): nothing fired; the F long broke out and closed $0.42 past the band**
+- Replay: F long ($763.86–764.15): the **11:20 bar closed $764.57**, $0.72 above the range high (259k = 1.04×, QQQ high $709.87 above its range high ✓, range $0.89), **past the $0.30 band → not fired.** F short and VWAP reclaim (close $764.57 < VWAP + $0.10 = $764.86): not fired.
+- **Fourth one-bar break today that jumped the band** (OR low 10:15, $764.26 10:25, $763.16 10:30, squeeze high 11:20). Pattern noted for Friday.
+- SPY $764.57, back on the pre-market low ($764.55), just under VWAP (≈ $764.76). QQQ $709.76, reversing off $706.63.
+- 4H (8–12) D check: the pre-market low $764.55 was swept (low $762.10) and reclaimed on the 11:20 close; structure shifted (close above the $763.64 lower high). VWAP is not yet reclaimed, so it is not an entry. Even with VWAP: entry ≈ $764.9, stop $762.00 (R $2.90); the 4H high $767.71 gives 0.97R < 1.5 → **D fails reward/risk**, and the candle ends at noon. Not live.
+- Score: no A/B.
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 250k; trailing exit at +1.5R):
+- ARMED F long pullback (playbook F "first pullback toward the edge that holds"): the first bar whose low is **$763.85–764.15** (tags the edge, holds it), closes green, and closes ≤ $764.60 (within $0.75 of the edge); entry = that close; stop = $763.71 (breakout bar's low − $0.10, closer than the midpoint); measured target $767.35; trail trigger = entry + 1.5R; 0DTE call ≤ $100.
+- ARMED VWAP reclaim long (standing line): step 1 close > VWAP + $0.10 (≈ $764.86) with QQQ closing above its VWAP, volume rule; step 2 hold bar within 30 min; stop = hold-bar low − $0.10; room to $768.34 ≥ 1.5R.
+- ARMED F short: close **$761.80–762.09** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.63; stop = the lower of the midpoint ($762.98) and the trigger bar's high, + $0.10; target $758.60.
