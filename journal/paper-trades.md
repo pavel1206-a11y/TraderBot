@@ -2906,3 +2906,11 @@ Market data and analysis only, not investment advice.
 - Rules in force today: E/F close band $0.30, trigger-bar range ≤ $1.00, trailing exit (at +1.5R the stop trails 1R behind the best price; section 7), two losses = done, no day-trade count (buying power check instead).
 
 Market data and analysis only, not investment advice.
+
+**9:42 AM ET: opening range forming; gap held, inside the gap**
+- SPY opened $766.37 (gap −$6.72), OR so far **$765.95–767.45** ($1.50), now $766.81 near VWAP (≈ $766.85). QQQ $713.25, OR $712.45–714.74, near its VWAP (≈ $713.5). The open held S2 ($765.94) to the cent; no test of the PDL / 50-day ($768.34–768.40) yet.
+
+ARMED (9:45–10:12; volume baseline ≈ 400k per 5-min bar; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (OR-high break): close **$0.01–0.30 above the final OR high** (now $767.45 → $767.46–767.75) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above its OR high ($714.74); SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R; room to $768.34 must be ≥ $0.60 (entry ≤ $767.74); 0DTE call ≤ $100. Counter to the bearish bias.
+- ARMED E short (OR-low break): close **$0.01–0.30 below the final OR low** (now $765.95 → $765.65–765.94) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $712.45; SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to $764.55 ✓); 0DTE put ≤ $100.
+- Shadow (not scored): PDL-rejection put if SPY tags $768.34–768.40 and a bar closes back below $768.00, red, below VWAP.
