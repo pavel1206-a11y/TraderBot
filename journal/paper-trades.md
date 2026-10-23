@@ -3196,3 +3196,14 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 203k; close band $0.30; bar r
 - ARMED E long (pre-market-high break): close **$764.96–765.25**, volume rule (0.7× needs a same-bar QQQ high above $709.30); SPY and QQQ above VWAP; stop = entry − $0.40; room to R1 $767.39 ✓.
 - ARMED E short (PDL loss): close **$760.87–761.16** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.86; **SPY and QQQ below VWAP**; stop = entry + $0.40; room to $758.68 ✓; 0DTE put ≤ $100.
 - Watch (not armed): a PDL retest that holds (low ≥ $761.07, green close) would be the pullback-entry pattern collected for Friday.
+
+**Setup check (11:29 AM ET): nothing fired; a squeeze above the PDL**
+- Replay: E long ($764.96–765.25): high $762.96. E short PDL loss ($760.87–761.16): low $761.745. Not fired. The PDL-retest watch did not reach $761.17 (low $761.745).
+- SPY $762.76 above VWAP (≈ $761.0); QQQ $707.45. Volume is drying up (68k on the last bar).
+- **F squeeze (10:45–11:25, 45 min): $761.27–763.11 ($1.84)**, midpoint $762.19. 4H (8–12): ending; it holds the upper half after the double sweep.
+- Score: no A/B.
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 175k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED F short (squeeze low + PDL loss): close **$760.97–761.26** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.72; QQQ breaking down too; stop = the lower of the midpoint ($762.19) and the trigger bar's high, + $0.10; measured target $757.59; room to the $758.68 day low ≥ 1.5R required; 0DTE put ≤ $100.
+- F long (close $763.12–763.41) **not armed**: only $0.55–0.84 of room to the 10/22 close $763.96, less than 1.5R on an F stop.
+- ARMED E long (pre-market-high break): close **$764.96–765.25**, volume rule; stop = entry − $0.40; room to R1 $767.39 ✓.
