@@ -3228,3 +3228,9 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 115k): the same lines. F shor
 - SPY $762.92, QQQ $708.30; volume 69–98k (≈ 0.7×). F range $761.27–763.47 (90 min; since 11:40 even tighter: $761.90–763.12). 4H (12–4): accumulation around the $762.8 open. No A/B.
 
 ARMED (valid until 12:42; prior 10-bar average ≈ 101k): the same lines. F short close **$760.97–761.26** (QQQ below $706.66 for 0.7×; stop = min(midpoint $762.37, bar high) + $0.10; target $756.87; room to $758.68 ≥ 1.5R); E long close **$764.96–765.25** (stop entry − $0.40). F long not armed (room).
+
+**Setup check (12:28 PM ET): nothing fired; SPY drifting to the squeeze low, QQQ leading down**
+- Replay: F short ($760.97–761.26): low $761.49, close $761.68. E long: high $763.05. Not fired.
+- SPY $761.68, $0.41 above the range low $761.27 and near VWAP (≈ $761.3); QQQ $706.65 dipped under its 11:40 low ($706.66 → $706.40). Volume still thin (56–82k). 4H (12–4): drifting below its $762.8 open. No A/B.
+
+ARMED (valid until 12:57; prior 10-bar average ≈ 85k): F short close **$760.97–761.26** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.40; QQQ breaking down too; stop = min(midpoint $762.37, bar high) + $0.10; target $756.87; room to $758.68 ≥ 1.5R); E long close **$764.96–765.25** (stop entry − $0.40).
