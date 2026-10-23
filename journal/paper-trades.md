@@ -3246,3 +3246,12 @@ ARMED (valid until 13:12; prior 10-bar average ≈ 82k): the same lines. F short
 - SPY $761.47; QQQ $706.36 made a new afternoon low ($706.13) while SPY held, so SPY is stronger. Volume 37–84k. F range $761.27–763.47 (2h 15m). 4H (12–4): a second push under the open. No A/B.
 
 ARMED (valid until 13:27; prior 10-bar average ≈ 78k): the same lines. F short close **$760.97–761.26** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.13; QQQ breaking down; stop = min(midpoint $762.37, bar high) + $0.10; target $756.87; room to $758.68 ≥ 1.5R); E long close **$764.96–765.25** (stop entry − $0.40).
+
+**Setup check (1:13 PM ET): nothing fired; the squeeze broke down $0.49 past the edge (band skip)**
+- Replay: F short ($760.97–761.26): the 1:00 bar closed $761.28 ($0.01 inside the range). The **1:05 bar closed $760.785, $0.485 below the $761.27 range low** (98k = 1.32× the 74k average ✓, QQQ low $705.60 < $706.13 ✓, range $0.72 ✓). **The close is past the $0.30 band → not fired.** E long: not reached.
+- Note for today's review: playbook F says "enter on the trigger close if within **$0.75** of the edge", but the section 10 armed-line band for E/F is **$0.30** (2026-10-20). This close ($0.485) is inside the F text and outside the armed band. I followed the armed line as written.
+- SPY $760.79, below VWAP (≈ $761.6) and below the PDL ($761.17); QQQ $705.84 at a new afternoon low. 4H (12–4): breaking down out of the midday range. Score: no A/B (the trigger close is past the band; no chase).
+
+ARMED (valid until 13:42; prior 10-bar average ≈ 76k; trailing exit at +1.5R):
+- ARMED F short pullback (playbook F "first pullback toward the edge that holds"): the first bar whose high is **$760.97–761.37** (retests the $761.27 edge without closing back inside) and closes red **below $761.17**; entry = that close; stop = $761.43 (breakout bar high $761.33 + $0.10, closer than the midpoint); measured target $756.87; trail trigger = entry − 1.5R; room to the $758.68 day low ≥ 1.5R; QQQ below VWAP; 0DTE put ≤ $100.
+- ARMED E long: dropped (the pre-market high is $4 away).
