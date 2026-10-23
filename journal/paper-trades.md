@@ -3296,12 +3296,12 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar 
 
 | Day | Trades | Result | Notes |
 |---|---|---|---|
-| Mon 10/19 | 4 (2 signals) | +$13.32 | E long +, E short + (fractional splits) |
+| Mon 10/19 | 4 | +$13.32 | 2W/2L: E long 11:15 and E short 13:10 options won (+$21.39, +$18.46) |
 | Tue 10/20 | 2 (1 signal) | +$44.68 | VWAP reclaim long 768C target hit; owner +$226 real (trail exit) |
 | Wed 10/21 | 4 (2 signals) | −$44.52 | E long ×2, both $0.40 stops hit in the grind; two-loss rule ended the day |
 | Thu 10/22 | 0 | $0 | 5 level breaks all skipped the $0.30 band |
 | Fri 10/23 | 2 (1 signal) | −$17.46 | F short pullback stopped in 3 min |
-| **Week** | **12 (6 signals)** | **−$3.98** | 4W/8L; all B grade |
+| **Week** | **12** | **−$3.98** | 4W/8L; all B grade |
 
 - **Per setup (all-time):** Momentum E carries the record (11 signals logged), VWAP reclaim 2 (both winners), F and pullback entries small samples. Average win +$15.5 vs average loss −$7.9 overall; the options side alone is +≈$106 over 20 trades.
 - **By grade:** every paper trade so far is B grade. There is no A-grade sample, so "are A trades better?" cannot be answered yet.
