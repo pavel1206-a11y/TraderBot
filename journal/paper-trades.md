@@ -3114,3 +3114,14 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar 
 - Note: every level break today (OR low 10:15, $764.26 10:25, $763.16 10:30, squeeze high 11:20, squeeze low 2:00) closed $0.33–0.72 past its level in one bar, so the $0.30 band skipped all five. Three of the five continued (the morning trend), two failed back into the range (11:20, 2:00). The band was neutral to helpful at midday and costly in the morning trend. Logged in missed-moves for Friday.
 
 Market data and analysis only, not investment advice.
+
+### 2026-10-23 (Fri): pre-market brief (8:55 AM ET)
+- **SPY PDH $767.71 · PDL $761.17** (10/22). Pre-market **$760.12**: **$1.05 below the PDL** (−0.50% vs the close).
+- Close 10/22 **$763.96** (official; a late bounce of +$2.8 off the $761.17 low). Pivots: **P $764.28 · R1 $767.39 · R2 $770.82 · S1 $760.85 · S2 $757.73.** SMAs: 20-day $770.72, 50-day $768.17 (pre-market below both).
+- Overnight: after hours $763.39–765.03; pre-market drifted from $764.95 (4 AM) to about $760.1 now. QQQ $702.20 (−0.32% vs $704.47), lagging less than SPY this morning.
+- Levels below: S1 $760.85 (just above), the 10/16 low $760.64, the 10/1 low $758.79, S2 $757.73.
+- Events: this morning's earnings mostly beats (AXP, SLB, FCNCA, BAH). Friday data (flash PMI 9:45 / UMich sentiment 10:00 typical; not verified). No FOMC/CPI/jobs today.
+- **Bias: bearish.** Below the PDL, S1 area, and both SMAs; three red days of lower highs. Watch the owner's setup: a sweep of the PDL from below that fails (reclaim and rejection) = put idea; a reclaim of $761.17 that holds with QQQ above VWAP = gap-fill long toward P $764.28.
+- Rules in force: E/F close band $0.30, trigger bar ≤ $1.00, trailing exit at +1.5R (1R trail), two losses = done, no day-trade count. **Friday: weekly review + graduation check at EOD.**
+
+Market data and analysis only, not investment advice.
