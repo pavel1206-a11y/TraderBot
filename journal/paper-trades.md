@@ -3186,3 +3186,13 @@ ARMED (valid until 11:12; prior 10-bar average ≈ 205k; close band $0.30; bar r
 
 ARMED (valid until 11:12; prior 10-bar average ≈ 214k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E long (pre-market-high break): close **$764.96–765.25** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ new day high; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to R1 $767.39 ✓); 0DTE call ≤ $100. (A $763.96/$764.28 break has < 1.5R of room to the $764.95 pre-market high, so it is not armed.)
+
+**Setup check (11:13 AM ET): nothing fired; pulling back toward the PDL**
+- Replay: E long ($764.96–765.25): high $763.11. Not fired.
+- SPY $761.85, fading from $763.11 toward the PDL $761.17 on lighter volume (114–122k ≈ 0.55×). VWAP ≈ $760.9. QQQ $706.93, off its $709.30 high. 4H (8–12): last hour; the distribution leg stalled under the 10/22 close $763.96. F: no squeeze (range $758.68–763.11).
+- Score: no A/B.
+
+ARMED (valid until 11:42; prior 10-bar average ≈ 203k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (pre-market-high break): close **$764.96–765.25**, volume rule (0.7× needs a same-bar QQQ high above $709.30); SPY and QQQ above VWAP; stop = entry − $0.40; room to R1 $767.39 ✓.
+- ARMED E short (PDL loss): close **$760.87–761.16** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.86; **SPY and QQQ below VWAP**; stop = entry + $0.40; room to $758.68 ✓; 0DTE put ≤ $100.
+- Watch (not armed): a PDL retest that holds (low ≥ $761.07, green close) would be the pullback-entry pattern collected for Friday.
