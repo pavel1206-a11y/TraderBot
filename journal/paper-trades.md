@@ -3177,3 +3177,12 @@ ARMED (valid until 10:57; prior 10-bar average ≈ 227k; close band $0.30; bar r
 ARMED (valid until 11:12; prior 10-bar average ≈ 205k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E long (PDL reclaim; continues the D reversal): close **$761.18–761.47** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $707.00; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to $763.96 ✓); 0DTE call ≤ $100.
 - ARMED E short (day-low break): close **$758.38–758.67** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $703.29; SPY and QQQ below VWAP; stop = entry + $0.40; room to S2 $757.73 ✓; 0DTE put ≤ $100.
+
+**Setup check (10:58 AM ET): nothing fired; the PDL reclaim jumped the band (sixth time this week)**
+- Replay: E long PDL reclaim ($761.18–761.47): the **10:40 bar closed $761.64, $0.47 past the PDL** (261k = 1.27×, QQQ high $707.97 ✓), on a $1.38 range (over the $1.00 cap). **Not fired.** It ran on: $762.33 → $762.63 (high $762.98), +$1.0 past the would-be entry. E short: not reached.
+- SPY $762.63, well above VWAP (≈ $760.6); QQQ $708.48, new highs. The D reversal (sweep of $758.68 at 10:25) played out: +$4.3 from the low, through the PDL. Logged for the missed-moves review.
+- 4H (8–12): distribution up after the double sweep (PDL above, 10/1 low below). F: no squeeze.
+- Score: no A/B now (no fresh level close; price is $1.46 above the PDL, a chase).
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 214k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (pre-market-high break): close **$764.96–765.25** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ new day high; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to R1 $767.39 ✓); 0DTE call ≤ $100. (A $763.96/$764.28 break has < 1.5R of room to the $764.95 pre-market high, so it is not armed.)
