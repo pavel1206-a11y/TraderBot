@@ -3281,3 +3281,7 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar 
 - ARMED E short (day-low break): close **$758.38–758.67**, volume rule (0.7× needs a same-bar QQQ low below $704.86); SPY and QQQ below VWAP; stop = entry + $0.40; room to S2 $757.73 ✓; 0DTE put ≤ $100.
 
 **Scoreboard after 10/23 1:58 PM:** Options B 20 trades, 9W/11L, **≈ +$106**. Fractional B 19 trades, 8W/11L, **+$0.53**. All: **41 trades, 19W/22L (46%), +$120.34.** Day so far −$17.46.
+
+**Setup check (2:13 PM ET): nothing fired**
+- Replay: E short ($758.38–758.67): low $760.52. Not fired. No open paper trades.
+- SPY $760.93, chopping $760.46–761.54 around the old squeeze edge, below VWAP. No A/B. No new lines armed (2:15 cutoff; entries end at 2:30).
