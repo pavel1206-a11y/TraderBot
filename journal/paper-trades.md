@@ -3125,3 +3125,12 @@ Market data and analysis only, not investment advice.
 - Rules in force: E/F close band $0.30, trigger bar ≤ $1.00, trailing exit at +1.5R (1R trail), two losses = done, no day-trade count. **Friday: weekly review + graduation check at EOD.**
 
 Market data and analysis only, not investment advice.
+
+**9:43 AM ET: opening range forming; SPY under the PDL, QQQ firmer**
+- SPY opened $759.90 (gap −$4.06), OR so far **$759.14–760.73** ($1.59), now $760.14 near VWAP (≈ $759.9). QQQ $703.80, OR $701.16–704.29, making new OR highs (stronger than SPY). PDL $761.17 is $1.03 overhead; S1 $760.85 is in between.
+- Room check: an OR-high break at $760.74 has only $0.43 to the PDL (< 1.5R $0.60), and an OR-low break at $759.13 has only $0.34 to $758.79, so the plain OR lines fail the room rule. The lines below use the next levels instead.
+
+ARMED (9:45–10:12; volume baseline ≈ 290k per 5-min bar; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (PDL reclaim): close **$761.18–761.47** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above its OR high (now $704.29); SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the close $763.96 ✓); 0DTE call ≤ $100.
+- ARMED E short (10/1 low break): close **$758.49–758.78** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below its OR low (now $701.16); SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to S2 $757.73 ✓); 0DTE put ≤ $100.
+- Shadow (not scored; owner's PDL setup): SPY trades ≥ $761.27, then a red bar closes back below $761.17 while below VWAP within 60 min → put, stop = bar high + $0.25, target 1R.
