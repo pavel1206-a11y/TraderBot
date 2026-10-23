@@ -3269,3 +3269,15 @@ ARMED (valid until 13:57; prior 10-bar average ≈ 92k; close band $0.30; bar ra
 - SPY $760.47 basing at $760.00–760.60 for 20 min; QQQ $705.35. Volume light (62–86k). Below VWAP (≈ $761.3). 4H (12–4): stalled after the drop. F: a new base is forming (too young). No A/B.
 
 ARMED (valid until 14:12; prior 10-bar average ≈ 92k): F short pullback (high **$760.97–761.37**, red close below $761.17; stop $761.43; target $756.87); E short day-low break (close **$758.38–758.67**, volume rule, stop entry + $0.40, room to $757.73 ✓). Close band $0.30, bar range ≤ $1.00, trailing exit at +1.5R.
+
+**Setup check (1:58 PM ET): F short pullback fired (armed, replayed) and was stopped out**
+- Replay: F short pullback (first bar with high $760.97–761.37 and a red close below $761.17). The 1:45 bar tagged $761.08 but closed green ($760.87), so it did not qualify. **The 1:50 bar: high $761.04, red ($760.85 → $760.61), close below $761.17 → fired.** QQQ $705.56 < its VWAP $705.72 ✓; SPY below VWAP ✓. Room: entry $760.61 to the $758.68 day low = $1.93 ≥ 1.5R ($1.23) ✓.
+- **Paper trade #40 (F short pullback, B, armed, replayed), 0DTE:** SPY 10/23 **759P** at **$0.46** (≈ ask; bar close $0.45) at 1:55 = $46 (within the $50 default). SPY plan: entry $760.61, stop $761.43 (R $0.82), trail trigger $759.38 (1.5R), measured target $756.87. **Stopped 1:58**: SPY ran to $761.54 (61k-share 1-min bar); the put traded $0.28–0.30 at the stop → exit **$0.29**. **−$17.00 (−1R on the premium side ≈ −0.37 of premium).**
+- **Paper trade #41 (same signal), fractional:** SH (1x inverse) $500 = 15.33 sh at $32.62 (1:55). Alert stop at SPY $761.43 → sold at $32.59 (1:58). **−$0.46.**
+- Lesson (for the review): the pullback entry retested the edge and failed within 3 minutes; the edge itself ($761.27) and the PDL ($761.17) were reclaimed on a single 1-min burst. Same theme as the stop-width item: a stop $0.16 above the edge sat inside the noise.
+- SPY $761.20, back at the edge; QQQ ≈ $705.9. Day: 1 loss (two-loss rule not reached).
+
+ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar average ≈ 76k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (day-low break): close **$758.38–758.67**, volume rule (0.7× needs a same-bar QQQ low below $704.86); SPY and QQQ below VWAP; stop = entry + $0.40; room to S2 $757.73 ✓; 0DTE put ≤ $100.
+
+**Scoreboard after 10/23 1:58 PM:** Options B 20 trades, 9W/11L, **≈ +$106**. Fractional B 19 trades, 8W/11L, **+$0.53**. All: **41 trades, 19W/22L (46%), +$120.34.** Day so far −$17.46.
