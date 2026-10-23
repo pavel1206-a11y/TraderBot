@@ -3145,3 +3145,15 @@ ARMED (valid until 10:27; volume baseline ≈ 282k; close band $0.30; bar range 
 - ARMED E long (PDL reclaim): close **$761.18–761.47** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $705.20; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to $763.96 ✓); 0DTE call ≤ $100.
 - ARMED E short (10/1 low break): close **$758.49–758.78** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $701.16; SPY and QQQ below VWAP; stop = entry + $0.40; room to S2 $757.73 ✓; 0DTE put ≤ $100.
 - Shadow (not scored): PDL sweep-and-fail put, unchanged (trade ≥ $761.27, then a red close back below $761.17 under VWAP within 60 min).
+
+**Setup check (10:15 AM ET; the :12 run fired late): no scored trade; the owner's PDL sweep-and-fail shadow fired**
+- Replay: E long PDL reclaim ($761.18–761.47): closes $760.96 / $760.65 / $760.60 / $760.28. Not fired. E short ($758.49–758.78): low $759.89. Not fired.
+- **Shadow PDL put (not scored): fired, armed, replayed.** Sweep: the 10:00 bar traded $761.32 (≥ $761.27). Fail: the 10:00 and 10:05 bars closed red below the PDL but above VWAP ($760.34 / $760.36). The **10:10 bar closed red at $760.28, below VWAP ($760.35)** → entry $760.28 at 10:15, stop $760.84 (bar high $760.59 + $0.25), R $0.56, target (1R) $759.72. Open, tracked only.
+- SPY $760.28 on VWAP; QQQ $705.51, above its VWAP and near its high ($706.10). SPY/QQQ still disagree (QQQ strong, SPY capped by the PDL).
+- 4H (8–12): SPY swept the PDL by $0.15 and rejected it; the pre-market high is untested. F: range since 9:30 is $759.14–761.32 ($2.18), 45 min at 10:15. Mark it: **F range $759.14–761.32**.
+- Score: no A/B (SPY/QQQ disagree).
+
+ARMED (valid until 10:42; prior 10-bar average ≈ 237k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED F long / PDL reclaim: close **$761.33–761.62** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $706.10; QQQ breaking up too; stop = the higher of the range midpoint ($760.23) and the trigger bar's low, − $0.10; trail trigger = entry + 1.5R (room to $763.96 ✓); 0DTE call ≤ $100.
+- ARMED F short: close **$758.84–759.13** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $703.55; QQQ breaking down too; stop = the lower of the midpoint and the trigger bar's high, + $0.10; room to $758.79 is too small, so the trail trigger runs toward S2 $757.73 (room ✓ only if entry ≥ $758.95 with R ≤ $0.70); 0DTE put ≤ $100.
+- Shadow PDL put: open, stop $760.84, target $759.72 (tracked).
