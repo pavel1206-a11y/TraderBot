@@ -3167,3 +3167,13 @@ ARMED (valid until 10:42; prior 10-bar average ≈ 237k; close band $0.30; bar r
 ARMED (valid until 10:57; prior 10-bar average ≈ 227k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED F short / 10/1-low break: close **$758.49–758.78** (below the new range low $758.84 and the 10/1 low $758.79) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $703.44; QQQ breaking down too; stop = the lower of the midpoint ($760.08) and the trigger bar's high, + $0.10; room to S2 $757.73 ≥ 1.5R required; 0DTE put ≤ $100.
 - ARMED F long / PDL reclaim: close **$761.33–761.62** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $706.10; stop = the higher of the midpoint and the trigger bar's low, − $0.10; room to $763.96 ✓; 0DTE call ≤ $100.
+
+**Setup check (10:43 AM ET): nothing fired; SPY swept the 10/1 low and turned up; D failed reward/risk**
+- Replay: F short ($758.49–758.78): the 10:25 bar wicked to **$758.68** (under the 10/1 low $758.79) and closed $759.65, back in the range. Not fired. F long / PDL reclaim: high $760.55. Not fired.
+- SPY $760.43, back above VWAP (≈ $760.1). **QQQ $706.88, a new day high** (above $706.10); SPY and QQQ now agree up.
+- **D check (4H 8–12):** sweep of the 10/1 low ($758.68), reclaim (10:25 close $759.65), structure shift (10:35 close $760.43 > the $760.41 lower high), VWAP reclaimed. All three steps are met. Entry ≈ $760.43, stop $758.58 (sweep − $0.10), R $1.85. **The next strong level is the PDL at $761.17 = 0.4R** (< 1.5) → **not taken (reward/risk)**. Above the PDL the target would be the pre-market high ~$764.95 (2.4R).
+- F: range now $758.68–761.32 ($2.64 > $2.50), so no squeeze. Score: no A/B.
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 205k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (PDL reclaim; continues the D reversal): close **$761.18–761.47** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $707.00; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to $763.96 ✓); 0DTE call ≤ $100.
+- ARMED E short (day-low break): close **$758.38–758.67** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $703.29; SPY and QQQ below VWAP; stop = entry + $0.40; room to S2 $757.73 ✓; 0DTE put ≤ $100.
