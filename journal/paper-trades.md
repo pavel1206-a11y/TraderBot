@@ -3263,3 +3263,9 @@ ARMED (valid until 13:42; prior 10-bar average ≈ 76k; trailing exit at +1.5R):
 ARMED (valid until 13:57; prior 10-bar average ≈ 92k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED F short pullback (unchanged): first bar with high **$760.97–761.37** and a red close below $761.17; stop $761.43; target $756.87; room to $758.68 ≥ 1.5R.
 - ARMED E short (day-low break): close **$758.38–758.67** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below its day low $701.16 (or a new afternoon low below $704.95); SPY and QQQ below VWAP; stop = entry + $0.40; room to S2 $757.73 ✓; 0DTE put ≤ $100.
+
+**Setup check (1:43 PM ET): nothing fired; basing at $760**
+- Replay: F short pullback (high $760.97–761.37): highs ≤ $760.60. E short ($758.38–758.67): low $760.00. Not fired.
+- SPY $760.47 basing at $760.00–760.60 for 20 min; QQQ $705.35. Volume light (62–86k). Below VWAP (≈ $761.3). 4H (12–4): stalled after the drop. F: a new base is forming (too young). No A/B.
+
+ARMED (valid until 14:12; prior 10-bar average ≈ 92k): F short pullback (high **$760.97–761.37**, red close below $761.17; stop $761.43; target $756.87); E short day-low break (close **$758.38–758.67**, volume rule, stop entry + $0.40, room to $757.73 ✓). Close band $0.30, bar range ≤ $1.00, trailing exit at +1.5R.
