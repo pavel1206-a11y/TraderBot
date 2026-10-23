@@ -3255,3 +3255,11 @@ ARMED (valid until 13:27; prior 10-bar average ≈ 78k): the same lines. F short
 ARMED (valid until 13:42; prior 10-bar average ≈ 76k; trailing exit at +1.5R):
 - ARMED F short pullback (playbook F "first pullback toward the edge that holds"): the first bar whose high is **$760.97–761.37** (retests the $761.27 edge without closing back inside) and closes red **below $761.17**; entry = that close; stop = $761.43 (breakout bar high $761.33 + $0.10, closer than the midpoint); measured target $756.87; trail trigger = entry − 1.5R; room to the $758.68 day low ≥ 1.5R; QQQ below VWAP; 0DTE put ≤ $100.
 - ARMED E long: dropped (the pre-market high is $4 away).
+
+**Setup check (1:28 PM ET): nothing fired; the pullback stalled $0.002 short of the zone**
+- Replay: F short pullback (high $760.97–761.37, red close below $761.17): highs $760.77 / $760.94 / **$760.968** (the 1:20 bar, red, close $760.105) → $0.002 short of $760.97. Not fired as written.
+- SPY $760.11, below VWAP (≈ $761.4), lower highs since 12:45; low $759.99. QQQ $705.06 near its afternoon low ($704.95). Volume picked up (86–163k). 4H (12–4): distribution down from the midday range. No A/B (no fresh level close; $1.16 below the edge = chase).
+
+ARMED (valid until 13:57; prior 10-bar average ≈ 92k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED F short pullback (unchanged): first bar with high **$760.97–761.37** and a red close below $761.17; stop $761.43; target $756.87; room to $758.68 ≥ 1.5R.
+- ARMED E short (day-low break): close **$758.38–758.67** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below its day low $701.16 (or a new afternoon low below $704.95); SPY and QQQ below VWAP; stop = entry + $0.40; room to S2 $757.73 ✓; 0DTE put ≤ $100.
