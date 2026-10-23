@@ -3134,3 +3134,14 @@ ARMED (9:45–10:12; volume baseline ≈ 290k per 5-min bar; close band $0.30; b
 - ARMED E long (PDL reclaim): close **$761.18–761.47** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above its OR high (now $704.29); SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the close $763.96 ✓); 0DTE call ≤ $100.
 - ARMED E short (10/1 low break): close **$758.49–758.78** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below its OR low (now $701.16); SPY and QQQ below VWAP; stop = entry + $0.40; trail trigger = entry − 1.5R (room to S2 $757.73 ✓); 0DTE put ≤ $100.
 - Shadow (not scored; owner's PDL setup): SPY trades ≥ $761.27, then a red bar closes back below $761.17 while below VWAP within 60 min → put, stop = bar high + $0.25, target 1R.
+
+**Setup check (9:58 AM ET): nothing fired; SPY wicked to the PDL and backed off**
+- Final OR (9:30–9:45): **$759.14–760.77**. Replay: E long PDL reclaim ($761.18–761.47): the 9:50 bar's high was **$761.20 (a $0.03 tag of the PDL)**, closed $760.39. Not fired. E short ($758.49–758.78): low $760.17. Not fired. Shadow PDL put: needed a trade ≥ $761.27; high $761.20, not live.
+- SPY $760.39, just above VWAP (≈ $760.2). QQQ $704.35 is stronger: it broke its OR high ($704.50 → $705.20) and holds above VWAP. SPY is lagging under its PDL, so they disagree.
+- 4H (8–12): accumulation; the pre-market high (~$764.95) and low are untested. F: no 45-min range yet.
+- Score: no A/B.
+
+ARMED (valid until 10:27; volume baseline ≈ 282k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (PDL reclaim): close **$761.18–761.47** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $705.20; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to $763.96 ✓); 0DTE call ≤ $100.
+- ARMED E short (10/1 low break): close **$758.49–758.78** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $701.16; SPY and QQQ below VWAP; stop = entry + $0.40; room to S2 $757.73 ✓; 0DTE put ≤ $100.
+- Shadow (not scored): PDL sweep-and-fail put, unchanged (trade ≥ $761.27, then a red close back below $761.17 under VWAP within 60 min).
