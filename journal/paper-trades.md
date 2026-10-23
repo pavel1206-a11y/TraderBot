@@ -3216,3 +3216,9 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 147k; close band $0.30; bar r
 - ARMED F short (squeeze low + PDL loss): close **$760.97–761.26**, volume rule (0.7× needs a same-bar QQQ low below $706.72), QQQ breaking down too; stop = the lower of the midpoint ($762.37) and the trigger bar's high, + $0.10; measured target $756.87 (edge − 2× $2.20); room to $758.68 ≥ 1.5R required.
 - ARMED E long (pre-market-high break): close **$764.96–765.25**, volume rule; stop = entry − $0.40; room to R1 ✓.
 - F long still not armed (room to $763.96 < 1.5R).
+
+**Setup check (11:58 AM ET): nothing fired; a quiet squeeze**
+- Replay: F short ($760.97–761.26): low $761.90. E long: high $762.91. Not fired.
+- SPY $762.76, QQQ $708.00; volume ≈ 90–120k (very light). F range $761.27–763.47 (75 min). 4H (8–12) closes at noon near its upper half; the 12–4 candle opens about $762.8. No A/B.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 115k): the same lines. F short close **$760.97–761.26** (QQQ below $706.66 for 0.7×; stop = min(midpoint $762.37, bar high) + $0.10; measured target $756.87; room to $758.68 ≥ 1.5R); E long close **$764.96–765.25** (stop entry − $0.40). F long still not armed (room to $763.96 < 1.5R).
