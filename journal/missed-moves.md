@@ -228,3 +228,15 @@ Gap open $766.37 (PDL $768.40 above) → high $767.71 (10:00) → low $762.10 (1
 Outside the window: the 2:00 squeeze-low break (−$0.75 past the edge, then reclaimed) and the 3:00–3:35 retest of $761.17.
 
 Pattern for the Friday review: on 10/22 all five level breaks closed past the $0.30 band in one bar. A pullback entry (the first bar that retests the broken level and holds, like playbook F's "first pullback toward the edge that holds") would have rejected the two midday fakes, but it would **not** have caught the morning trend either: 10:15–10:35 never retested a broken level. So the band costs trend days and a pullback rule doesn't fix that. Candidate to test: allow closes up to $0.75 past the level when volume ≥ 1.2× and QQQ breaks the same bar. Needs a backtest before proposing.
+
+## 2026-10-23 (Fri, two-way: PDL sweep, low sweep, squeeze, breakdown)
+
+Open $759.90 → $761.32 (10:00, PDL sweep) → $758.68 (10:25) → $763.11 (10:55) → squeeze $761.27–763.47 (10:45–1:00) → $759.99 (1:15) → ≈ $760.1 at 3:48. Qualifying moves:
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:00–10:25 | −$2.64 in 25 min (761.32 → 758.68) | PDL swept by $0.15 then red closes below VWAP; QQQ broke its 9:50 low | Owner's PDL sweep-and-fail (shadow) | **Caught by the shadow line (+1R, not scored).** The F short close at 10:15 was $0.055 inside the range; the 10/1-low break only wicked. |
+| 10:25–10:55 | +$4.43 in 30 min (758.68 → 763.11) | Sweep of the 10/1 low and reclaim, structure shift at 10:35, VWAP reclaim; QQQ to new highs | D long, then E long PDL reclaim | D: reward to the PDL only 0.4R (skipped). E: the 10:40 close was $0.47 past the band on a $1.38 bar (over the cap). |
+| 12:00–1:15 | −$3.13 in 75 min (763.12 → 759.99) | Squeeze low $761.27 broke on the 1:05 bar (1.32×, QQQ new low) | F short | Close $0.485 past the band (not fired). The pullback entry (1:55) fired after most of the move and was stopped. |
+
+Pattern: the same as 10/22, the band skips the real breaks; and the PDL sweep-and-fail worked again. Both go to the Friday proposals above.

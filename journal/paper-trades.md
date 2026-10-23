@@ -3285,3 +3285,35 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar 
 **Setup check (2:13 PM ET): nothing fired**
 - Replay: E short ($758.38–758.67): low $760.52. Not fired. No open paper trades.
 - SPY $760.93, chopping $760.46–761.54 around the old squeeze edge, below VWAP. No A/B. No new lines armed (2:15 cutoff; entries end at 2:30).
+
+### 2026-10-23 (Fri): end of day
+- **Trades: 2 (one signal), both closed.** #40 F short pullback 759P $0.46 → $0.29 (stop), **−$17.00**; #41 SH $500, **−$0.46**. Day **−$17.46** (1 loss). No open positions.
+- SPY ≈ $760.09 at 3:48 (−0.51%), range $758.68–763.47; QQQ $704.33 (flat). Shadow PDL sweep-and-fail put (owner's setup, not scored): **+1R**.
+- Note: a two-way day. A PDL sweep-and-fail at 10:00 (the owner's setup worked), a sweep of the 10/1 low at 10:25 and a +$4.4 reversal to $763.11 that we skipped (D reward/risk to the PDL; the PDL-reclaim close at 10:40 was $0.47 past the band), a 2-hour squeeze, then a breakdown at 1:05 ($0.485 past the band) and a pullback entry that was stopped in 3 minutes.
+- Running totals: **41 trades, 19W/22L (46%), +$120.34.** Options B 20 trades, 9W/11L, ≈ +$106; fractional B 19 trades, 8W/11L, +$0.53.
+
+## Weekly review: 2026-10-19 to 10-23 (playbook section 8)
+
+| Day | Trades | Result | Notes |
+|---|---|---|---|
+| Mon 10/19 | 4 (2 signals) | +$13.32 | E long +, E short + (fractional splits) |
+| Tue 10/20 | 2 (1 signal) | +$44.68 | VWAP reclaim long 768C target hit; owner +$226 real (trail exit) |
+| Wed 10/21 | 4 (2 signals) | −$44.52 | E long ×2, both $0.40 stops hit in the grind; two-loss rule ended the day |
+| Thu 10/22 | 0 | $0 | 5 level breaks all skipped the $0.30 band |
+| Fri 10/23 | 2 (1 signal) | −$17.46 | F short pullback stopped in 3 min |
+| **Week** | **12 (6 signals)** | **−$3.98** | 4W/8L; all B grade |
+
+- **Per setup (all-time):** Momentum E carries the record (11 signals logged), VWAP reclaim 2 (both winners), F and pullback entries small samples. Average win +$15.5 vs average loss −$7.9 overall; the options side alone is +≈$106 over 20 trades.
+- **By grade:** every paper trade so far is B grade. There is no A-grade sample, so "are A trades better?" cannot be answered yet.
+- **Rule breaks:** none found. All entries came from armed lines replayed as written; two-loss and daily-limit rules were respected (10/21).
+- **Shadow (not scored) PDH/PDL sweep-and-fail:** 10/20 +0.35R, 10/23 +1R (plus the earlier G record). Positive, small sample; keep tracking.
+
+**Graduation check (CLAUDE.md):** at least 10 paper trades ✓ (41). A-grade trades profitable ✗: **no A-grade trades exist**, so the criterion is not met. **Not passed**: keep paper trading.
+
+**Proposals for the owner (no playbook change without an OK):**
+1. **Close band vs no-chase.** This week 7 armed breaks closed $0.33–0.72 past the level in one bar and were skipped (10/22 ×5, 10/23 ×2). Three were real moves (10/22 morning, 10/23 10:40 PDL reclaim +$1.5 more), two were fakes. Also a conflict to settle: playbook F allows a trigger close up to **$0.75** past the edge; the section 10 armed band is **$0.30**. Candidate to backtest: allow up to $0.75 past the level only when volume ≥ 1.2× and QQQ breaks on the same bar.
+2. **Stop width.** $0.40 / edge-plus-$0.16 stops were hit by noise on 10/21 (×2) and 10/23. Candidate: stop under the last 5-min swing (or the breakout bar's far end), minimum $0.40, size the option to keep risk in the cap. Needs a backtest.
+3. **Trail width:** 1R (in force) vs 1.5R (better on 10/16–10/20 only). Owner's choice; I recommend keeping 1R until more data.
+4. **D reward/risk:** today's D long (10:43) was skipped at 0.4R to the PDL and ran +$4.3 through it. Candidate: if the next level is within 0.5R, measure reward to the level after it, and require a close through the first level as the entry. Needs a backtest.
+
+Market data and analysis only, not investment advice.
