@@ -3240,3 +3240,9 @@ ARMED (valid until 12:57; prior 10-bar average ≈ 85k): F short close **$760.97
 - SPY $762.40, bounced off $761.43 (the range low $761.27 holds, 2 hours now); QQQ $707.30. Volume ≈ 70–117k. 4H (12–4): a small push below the open was bought; accumulation. No A/B.
 
 ARMED (valid until 13:12; prior 10-bar average ≈ 82k): the same lines. F short close **$760.97–761.26** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.40; QQQ breaking down; stop = min(midpoint $762.37, bar high) + $0.10; target $756.87; room to $758.68 ≥ 1.5R); E long close **$764.96–765.25** (stop entry − $0.40).
+
+**Setup check (12:58 PM ET): nothing fired; a third test of the squeeze low**
+- Replay: F short ($760.97–761.26): the 12:50 bar's low was **$761.29 ($0.02 above the range low)**, close $761.47. Not fired. E long: high $762.80. Not fired.
+- SPY $761.47; QQQ $706.36 made a new afternoon low ($706.13) while SPY held, so SPY is stronger. Volume 37–84k. F range $761.27–763.47 (2h 15m). 4H (12–4): a second push under the open. No A/B.
+
+ARMED (valid until 13:27; prior 10-bar average ≈ 78k): the same lines. F short close **$760.97–761.26** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $706.13; QQQ breaking down; stop = min(midpoint $762.37, bar high) + $0.10; target $756.87; room to $758.68 ≥ 1.5R); E long close **$764.96–765.25** (stop entry − $0.40).
