@@ -3157,3 +3157,13 @@ ARMED (valid until 10:42; prior 10-bar average ≈ 237k; close band $0.30; bar r
 - ARMED F long / PDL reclaim: close **$761.33–761.62** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $706.10; QQQ breaking up too; stop = the higher of the range midpoint ($760.23) and the trigger bar's low, − $0.10; trail trigger = entry + 1.5R (room to $763.96 ✓); 0DTE call ≤ $100.
 - ARMED F short: close **$758.84–759.13** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $703.55; QQQ breaking down too; stop = the lower of the midpoint and the trigger bar's high, + $0.10; room to $758.79 is too small, so the trail trigger runs toward S2 $757.73 (room ✓ only if entry ≥ $758.95 with R ≤ $0.70); 0DTE put ≤ $100.
 - Shadow PDL put: open, stop $760.84, target $759.72 (tracked).
+
+**Setup check (10:28 AM ET): no scored trade; the shadow PDL put hit its target**
+- **Shadow PDL put (not scored): closed +1R.** The 10:15 bar ran to $758.835 (high $760.41 < stop $760.84), so the $759.72 target was hit: entry $760.28 → $759.72, **+$0.56 on SPY (+1R)**. Shadow record (PDH/PDL sweep-and-fail): 10/20 +0.35R, 10/23 +1R.
+- Replay: F short ($758.84–759.13): the 10:15 bar closed **$759.195, $0.055 above the range low** (inside the range; it wicked to $758.835). 10:20 closed $759.19. Not fired. F long / PDL reclaim: high $760.41. Not fired.
+- SPY $759.19, below VWAP (≈ $760.2), sitting on the range low; QQQ $704.44, which dipped under its 9:50 low ($703.44) and bounced. F range $758.84–761.32 (now $2.48, still < $2.50). 4H (8–12): manipulation up (PDL sweep) then down; no reversal setup.
+- Score: no A/B.
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 227k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED F short / 10/1-low break: close **$758.49–758.78** (below the new range low $758.84 and the 10/1 low $758.79) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $703.44; QQQ breaking down too; stop = the lower of the midpoint ($760.08) and the trigger bar's high, + $0.10; room to S2 $757.73 ≥ 1.5R required; 0DTE put ≤ $100.
+- ARMED F long / PDL reclaim: close **$761.33–761.62** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $706.10; stop = the higher of the midpoint and the trigger bar's low, − $0.10; room to $763.96 ✓; 0DTE call ≤ $100.
