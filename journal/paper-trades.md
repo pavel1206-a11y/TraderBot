@@ -3403,3 +3403,9 @@ ARMED (valid until 12:27; prior 10-bar average ≈ 140k; close band $0.30; bar r
 - SPY $765.31, holding $764.93–765.78 just above VWAP; QQQ $712.80. A pullback in an up day; no level break. 4H (12–4): opened ≈ $765.2, accumulation. F: no squeeze yet (new range since 11:55). No A/B.
 
 ARMED (valid until 12:42; prior 10-bar average ≈ 140k): E short close **$765.20–765.49** with SPY and QQQ below VWAP (stop entry + $0.40; room to the OR high $764.00 ✓); E long close **$767.82–768.11** (stop entry − $0.40). Volume rule and $1.00 bar cap as usual; trailing exit at +1.5R.
+
+**Setup check (12:28 PM ET): nothing fired; quiet lunch**
+- Replay: E short (closes $765.31–765.67, all above VWAP; not fired), E long (high $765.71; not fired).
+- SPY $765.67, range $764.93–766.13 since 11:55 (35 min) on very light volume (34–75k). QQQ $713.17. 4H (12–4): accumulation. No A/B.
+
+ARMED (valid until 12:57; prior 10-bar average ≈ 125k): the same two lines (E short close $765.20–765.49 with SPY and QQQ below VWAP; E long close $767.82–768.11). F range $764.93–766.13 becomes valid at 12:40 if it holds.
