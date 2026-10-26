@@ -3453,3 +3453,6 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30): F long close
 **Setup check (2:16 PM ET; the :12 run fired late): nothing fired**
 - Replay: F long ($766.57–766.86): high $766.31. E long: not reached. Not fired. No open paper trades.
 - SPY $765.63, QQQ $713.78, still inside the $764.14–766.56 squeeze. The armed lines stay valid until 2:27 (entries by 2:30); no new lines after 2:15.
+
+**Setup check (2:28 PM ET): nothing fired; entry window closed**
+- Replay: F long / E long: high $766.13. Not fired. SPY $765.44, QQQ $713.46. No new 0DTE entries after 2:30; no lines armed; no open paper trades. Day: 0 scored trades (shadow PDH put −1R, not scored).
