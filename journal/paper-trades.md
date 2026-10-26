@@ -3430,3 +3430,8 @@ ARMED (valid until 13:27; prior 10-bar average ≈ 85k): E long 50-day break clo
 - SPY $766.22, bounced from $764.14 (VWAP / OR-high area) with higher lows; QQQ $714.33, back near its highs. Light volume (61–76k). 4H (12–4): the dip under the $765.2 open was bought (no listed level swept, so not a D). No A/B.
 
 ARMED (valid until 13:42; prior 10-bar average ≈ 75k): E long 50-day break close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; stop entry − $0.40; room to $770.15 ✓).
+
+**Setup check (1:29 PM ET): nothing fired**
+- Replay: E long ($767.82–768.11): high $766.56. Not fired. SPY $766.24, QQQ $714.27; light volume. No A/B.
+
+ARMED (valid until 13:57; prior 10-bar average ≈ 70k): E long 50-day break close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; stop entry − $0.40; room to $770.15 ✓).
