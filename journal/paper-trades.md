@@ -3424,3 +3424,9 @@ ARMED (valid until 13:12; prior 10-bar average ≈ 95k; close band $0.30; bar ra
 - SPY $764.80 on VWAP (≈ $764.7), low $764.14 just above the OR high $764.00; QQQ $712.05. Light volume. 4H (12–4): a push down from the $765.2 open; no level swept. No A/B.
 
 ARMED (valid until 13:27; prior 10-bar average ≈ 85k): E long 50-day break close **$767.82–768.11** (stop entry − $0.40). No short line: an OR-high loss ($763.70–763.99) has < 1.5R of room to the PDH $763.47.
+
+**Setup check (1:17 PM ET; the :12 run fired late): nothing fired; bounced off VWAP**
+- Replay: E long ($767.82–768.11): high $766.28. Not fired.
+- SPY $766.22, bounced from $764.14 (VWAP / OR-high area) with higher lows; QQQ $714.33, back near its highs. Light volume (61–76k). 4H (12–4): the dip under the $765.2 open was bought (no listed level swept, so not a D). No A/B.
+
+ARMED (valid until 13:42; prior 10-bar average ≈ 75k): E long 50-day break close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; stop entry − $0.40; room to $770.15 ✓).
