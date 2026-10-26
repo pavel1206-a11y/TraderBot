@@ -3435,3 +3435,11 @@ ARMED (valid until 13:42; prior 10-bar average ≈ 75k): E long 50-day break clo
 - Replay: E long ($767.82–768.11): high $766.56. Not fired. SPY $766.24, QQQ $714.27; light volume. No A/B.
 
 ARMED (valid until 13:57; prior 10-bar average ≈ 70k): E long 50-day break close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; stop entry − $0.40; room to $770.15 ✓).
+
+**Setup check (1:43 PM ET): nothing fired**
+- Replay: E long: high $766.56. Not fired. SPY $765.38 drifting back toward VWAP (≈ $764.9); QQQ $713.02. Range since 12:40: $764.14–766.56 ($2.42, 60 min) — an F squeeze, edges $764.14 / $766.56. No A/B.
+
+ARMED (valid until 14:12; prior 10-bar average ≈ 65k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED F long: close **$766.57–766.86** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $714.91; QQQ breaking up too; stop = the higher of the midpoint ($765.35) and the trigger bar's low, − $0.10; room to the 50-day $767.81 ≥ 1.5R required; 0DTE call ≤ $100.
+- F short not armed (the OR high $764.00 / PDH $763.47 sit < 1.5R below $764.14).
+- E long 50-day break close **$767.82–768.11** (stop entry − $0.40).
