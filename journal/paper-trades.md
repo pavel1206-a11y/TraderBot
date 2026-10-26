@@ -3317,3 +3317,13 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30; prior 10-bar 
 4. **D reward/risk:** today's D long (10:43) was skipped at 0.4R to the PDL and ran +$4.3 through it. Candidate: if the next level is within 0.5R, measure reward to the level after it, and require a close through the first level as the entry. Needs a backtest.
 
 Market data and analysis only, not investment advice.
+
+### 2026-10-26 (Mon): pre-market brief (8:55 AM ET)
+- **SPY PDH $763.47 · PDL $758.68** (10/23). Pre-market **$762.24**: between them, **$1.23 below the PDH**, $3.56 above the PDL (+0.30% vs the close).
+- Close 10/23 **$759.97** (official). Pivots: **P $760.71 · R1 $762.73 · R2 $765.50 · S1 $757.94 · S2 $755.92.** SMAs: 20-day $770.15, 50-day $767.81 (pre-market below both).
+- Pre-market range $760.00–762.88 (4 AM on). QQQ $708.62 (+0.60% vs $704.40), leading.
+- Events: VZ reports this morning. **Big week:** Tue UPS/BA/KO/PYPL (AM), V/HOOD (PM); **Wed MSFT, GOOGL, NOW, KLAC (PM) and the FOMC decision (Oct 27–28 meeting, 2 PM Wed; not verified)**; Thu AMZN/INTC/COIN (PM), LLY/MA/CAT/MRK (AM); Fri XOM/CVX/ABBV. Nothing scheduled today that rules out trading.
+- **Bias: mild bullish / none.** A gap up toward the PDH with QQQ leading, but under both SMAs after three down days. Watch the owner's setup at the PDH: a sweep above $763.47 that fails (close back below, below VWAP) = put idea; acceptance above = calls toward R2 $765.50. Below: P $760.71 and the PDL $758.68.
+- Rules in force (unchanged; the four Friday proposals await the owner): E/F close band $0.30, trigger bar ≤ $1.00, trailing exit at +1.5R (1R trail), two losses = done, no day-trade count.
+
+Market data and analysis only, not investment advice.
