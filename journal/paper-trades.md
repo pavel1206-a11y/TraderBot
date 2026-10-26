@@ -3409,3 +3409,12 @@ ARMED (valid until 12:42; prior 10-bar average ≈ 140k): E short close **$765.2
 - SPY $765.67, range $764.93–766.13 since 11:55 (35 min) on very light volume (34–75k). QQQ $713.17. 4H (12–4): accumulation. No A/B.
 
 ARMED (valid until 12:57; prior 10-bar average ≈ 125k): the same two lines (E short close $765.20–765.49 with SPY and QQQ below VWAP; E long close $767.82–768.11). F range $764.93–766.13 becomes valid at 12:40 if it holds.
+
+**Setup check (12:43 PM ET): nothing fired; F squeeze valid**
+- Replay: E short ($765.20–765.49 with SPY and QQQ below VWAP): the 12:30 close $765.40 was in the band but above VWAP (≈ $764.75) and on 49k (0.44×). Not fired. E long: not reached.
+- SPY $765.08, QQQ $712.50; volume very light (34–55k). **F squeeze (11:55–12:40, 45 min): $764.93–766.13 ($1.20)**, midpoint $765.53. VWAP ≈ $764.75 sits just under the range. 4H (12–4): accumulation. No A/B.
+
+ARMED (valid until 13:12; prior 10-bar average ≈ 95k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED F long: close **$766.14–766.43** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $713.79; QQQ breaking up too; stop = the higher of the midpoint ($765.53) and the trigger bar's low, − $0.10; measured target $768.53 (the 50-day $767.81 is the first level; room ≥ 1.5R required); 0DTE call ≤ $100.
+- F short not armed: the OR high $764.00 is < 1.5R below the range low.
+- E long (50-day break, close $767.82–768.11) still armed.
