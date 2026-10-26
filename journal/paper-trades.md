@@ -3352,3 +3352,9 @@ ARMED (valid until 10:27; prior 10-bar average ≈ 216k; close band $0.30; bar r
 ARMED (valid until 10:42; prior 10-bar average ≈ 200k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E long (50-day SMA break): close **$767.82–768.11** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ new day high; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the 20-day $770.15 ✓); 0DTE call ≤ $100.
 - ARMED E short (back below the OR high / PDH): close **$763.17–763.46** (below the PDH $763.47) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $705.70; SPY and QQQ below VWAP; stop = entry + $0.40; room to P $760.71 ✓; 0DTE put ≤ $100.
+
+**Setup check (10:29 AM ET): nothing fired**
+- Replay: E long ($767.82–768.11): high $765.70. E short ($763.17–763.46): low $764.87. Not fired.
+- SPY $764.87, pulling back from $765.70 toward the OR high ($764.00); QQQ $709.71. The SPY 5-min feed shows thin volume on the 10:15–10:20 bars (61k / 71k vs QQQ 103k / 252k), possibly short bars; noted, not relied on. No A/B.
+
+ARMED (valid until 10:57; prior 10-bar average ≈ 190k): the same two lines. E long close **$767.82–768.11** (stop entry − $0.40, room to $770.15 ✓); E short close **$763.17–763.46** (below the PDH; SPY and QQQ below VWAP; stop entry + $0.40, room to P ✓).
