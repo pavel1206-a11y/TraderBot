@@ -3327,3 +3327,12 @@ Market data and analysis only, not investment advice.
 - Rules in force (unchanged; the four Friday proposals await the owner): E/F close band $0.30, trigger bar ≤ $1.00, trailing exit at +1.5R (1R trail), two losses = done, no day-trade count.
 
 Market data and analysis only, not investment advice.
+
+**9:49 AM ET (the :42 run fired late): opening range set; the PDH was swept and rejected**
+- **OR (9:30–9:45): $761.64–764.00.** SPY swept the PDH ($763.47) to $764.00 at 9:35, then the 9:40 bar closed **$762.37**, red, back below the PDH and below VWAP (≈ $762.85). Now $763.12. QQQ $707.64, OR $705.58–709.57.
+- **Shadow PDH sweep-and-fail put (owner's setup, not scored): fired** at the 9:45 close: entry $762.37, stop $763.91 (bar high $763.66 + $0.25), R $1.54, target 1R $760.83. The 9:45 bar (H $763.51 / L $762.36) hit neither. Open, tracked.
+
+ARMED (9:50–10:12; volume baseline ≈ 229k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (OR-high break): close **$764.01–764.30** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $709.57; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to R2 $765.50 ✓); 0DTE call ≤ $100.
+- ARMED E short (OR-low break): close **$761.34–761.63** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $705.58; SPY and QQQ below VWAP; stop = entry + $0.40; room to P $760.71 ≥ $0.60 only if entry ≥ $761.31 ✓; 0DTE put ≤ $100.
+- Shadow PDH put: open (stop $763.91, target $760.83).
