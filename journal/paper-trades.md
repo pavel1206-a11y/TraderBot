@@ -3343,3 +3343,12 @@ ARMED (9:50–10:12; volume baseline ≈ 229k; close band $0.30; bar range ≤ $
 - SPY $763.76, chopping around the PDH ($763.47) and VWAP (≈ $763.1); QQQ $707.44. Price crossing VWAP back and forth = a no-trade filter. 4H (8–12): accumulation near the PDH. No A/B.
 
 ARMED (valid until 10:27; prior 10-bar average ≈ 216k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R): the same two lines. E long close **$764.01–764.30** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $709.57; stop entry − $0.40; room to R2 ✓). E short close **$761.34–761.63** (QQQ below $705.58 for 0.7×; stop entry + $0.40).
+
+**Setup check (10:22 AM ET; the :12 run fired late): nothing fired; the OR-high break skipped the band again**
+- Replay: E long ($764.01–764.30): the **10:10 bar closed $764.67, $0.67 past the OR high** (297k = 1.4×, QQQ high $709.05 < $709.57, range $1.39 over the $1.00 cap). **Not fired.** SPY gapped to $765.32 at 10:15 and trades $765.65 (through R2 $765.50). E short: not reached.
+- QQQ $710.52, a new day high. Both above VWAP; the morning chop resolved up. 4H (8–12): distribution up after the PDH sweep fake-out (the sweep-and-fail failed).
+- Score: no A/B now (price is $1.65 above the OR high; a chase).
+
+ARMED (valid until 10:42; prior 10-bar average ≈ 200k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E long (50-day SMA break): close **$767.82–768.11** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ new day high; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to the 20-day $770.15 ✓); 0DTE call ≤ $100.
+- ARMED E short (back below the OR high / PDH): close **$763.17–763.46** (below the PDH $763.47) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $705.70; SPY and QQQ below VWAP; stop = entry + $0.40; room to P $760.71 ✓; 0DTE put ≤ $100.
