@@ -3397,3 +3397,9 @@ ARMED (valid until 12:12; prior 10-bar average ≈ 150k; close band $0.30; bar r
 ARMED (valid until 12:27; prior 10-bar average ≈ 140k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED E short (R2 / morning-high loss): close **$765.20–765.49** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $712.80; **SPY and QQQ below VWAP**; stop = entry + $0.40; room to the OR high $764.00 ✓; 0DTE put ≤ $100.
 - ARMED E long (50-day break): close **$767.82–768.11**, volume rule; stop = entry − $0.40; room to $770.15 ✓.
+
+**Setup check (12:17 PM ET; the :12 run fired late): nothing fired; the R2-loss close came while still above VWAP**
+- Replay: E short ($765.20–765.49, **SPY and QQQ below VWAP**): the 11:55 bar closed $765.22 in the band (167k = 1.17×, range $0.97 ✓), but SPY was above its VWAP (≈ $764.7) and QQQ ($712.65) above its VWAP (≈ $710.5) → **not fired**. 12:00 closed $765.19 ($0.01 below the band), 12:05 $765.58. E long: high $766.13. Not fired.
+- SPY $765.31, holding $764.93–765.78 just above VWAP; QQQ $712.80. A pullback in an up day; no level break. 4H (12–4): opened ≈ $765.2, accumulation. F: no squeeze yet (new range since 11:55). No A/B.
+
+ARMED (valid until 12:42; prior 10-bar average ≈ 140k): E short close **$765.20–765.49** with SPY and QQQ below VWAP (stop entry + $0.40; room to the OR high $764.00 ✓); E long close **$767.82–768.11** (stop entry − $0.40). Volume rule and $1.00 bar cap as usual; trailing exit at +1.5R.
