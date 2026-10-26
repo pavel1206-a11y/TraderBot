@@ -240,3 +240,14 @@ Open $759.90 → $761.32 (10:00, PDL sweep) → $758.68 (10:25) → $763.11 (10:
 | 12:00–1:15 | −$3.13 in 75 min (763.12 → 759.99) | Squeeze low $761.27 broke on the 1:05 bar (1.32×, QQQ new low) | F short | Close $0.485 past the band (not fired). The pullback entry (1:55) fired after most of the move and was stopped. |
 
 Pattern: the same as 10/22, the band skips the real breaks; and the PDL sweep-and-fail worked again. Both go to the Friday proposals above.
+
+## 2026-10-26 (Mon, PDH fake-out then trend up)
+
+Open $762.26 → $764.00 (9:35 PDH sweep) → $762.36 (9:45) → $765.70 (10:15) → $764.16 (10:30) → $767.73 (11:00) → midday range $764.14–766.56 → ≈ $765.4. Qualifying moves:
+
+| Time | Size | How it started | Should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:45–10:15 | +$3.34 in 30 min (762.36 → 765.70) | Chop across the PDH, then the 10:10 bar closed $764.67 through the OR high (1.4×; QQQ high $709.05 below its OR high $709.57) | E long (OR-high break) | Close $0.67 past the $0.30 band and bar range $1.39 over the $1.00 cap. Also the QQQ same-bar break was missing (volume clause passed anyway at 1.4×). |
+| 10:30–11:00 | +$3.57 in 30 min (764.16 → 767.73) | Pullback held the OR high ($764.16 vs $764.00) and turned up with QQQ to new highs | No armed setup (a pullback-to-broken-level entry is not a rule) | Only the 50-day break ($767.82+) was armed; price stopped at $767.73. |
+
+Pattern for the review: proposal 1 (band) again, plus a candidate "retest of a broken OR high that holds" entry (10:30 here; the 10/23 1:55 version failed). Collect more before proposing.

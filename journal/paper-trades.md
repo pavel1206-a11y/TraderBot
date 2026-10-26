@@ -3456,3 +3456,11 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30): F long close
 
 **Setup check (2:28 PM ET): nothing fired; entry window closed**
 - Replay: F long / E long: high $766.13. Not fired. SPY $765.44, QQQ $713.46. No new 0DTE entries after 2:30; no lines armed; no open paper trades. Day: 0 scored trades (shadow PDH put −1R, not scored).
+
+### 2026-10-26 (Mon): end of day
+- **Trades: none.** No armed line fired; no open positions. Shadow PDH sweep-and-fail put (not scored): −1R (the sweep-and-fail failed; SPY reclaimed the PDH and trended up).
+- SPY ≈ $765.39 at 3:49 (+0.71%), range $761.64–767.73; QQQ $713.01 (+1.2%). A PDH fake-out at the open, then a trend up 9:55–11:00 to just under the 50-day ($767.81), then a wide midday range above VWAP.
+- Note: the trend-start break (10:10 OR-high close $0.67 past the band on a $1.39 bar) again skipped the $0.30 band and the $1.00 cap; every later armed level (50-day, squeeze edges) was never reached with a close. Second straight day for proposal 1.
+- Running totals: **41 trades, 19W/22L (46%), +$120.34.** Options B 20 trades ≈ +$106; fractional B 19 trades +$0.53. (Unchanged.)
+
+Market data and analysis only, not investment advice.
