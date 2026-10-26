@@ -3381,3 +3381,11 @@ ARMED (valid until 11:42; prior 10-bar average ≈ 150k): E long 50-day break cl
 - Replay: E long ($767.82–768.11): high $767.44. Not fired. SPY $767.19 in a $766.74–767.73 range since 10:55 (35 min); QQQ $714.99. No A/B.
 
 ARMED (valid until 11:57; prior 10-bar average ≈ 155k): E long 50-day break, close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; stop entry − $0.40; room to $770.15 ✓). F squeeze range becomes valid at 11:40 if $766.74–767.73 holds.
+
+**Setup check (11:43 AM ET): nothing fired; F squeeze now valid under the 50-day**
+- Replay: E long ($767.82–768.11): high $767.34. Not fired.
+- SPY $766.95; **F squeeze (10:55–11:40, 45 min): $766.48–767.73 ($1.25)**, midpoint $767.11, sitting right under the 50-day $767.81. QQQ $714.92 (high $715.25). Above VWAP. 4H (8–12): ends at noon near its highs. No A/B.
+
+ARMED (valid until 12:12; prior 10-bar average ≈ 150k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED F long (squeeze + 50-day break): close **$767.82–768.03** (above both the range high $767.73 and the 50-day $767.81) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; QQQ breaking up too; stop = the higher of the midpoint ($767.11) and the trigger bar's low, − $0.10; measured target $770.23 (room to the 20-day $770.15 ✓); 0DTE call ≤ $100.
+- F short not armed: below the range, R2 $765.50 / the morning high $765.70 is < 1.5R away.
