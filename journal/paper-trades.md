@@ -3449,3 +3449,7 @@ ARMED (valid until 14:12; prior 10-bar average ≈ 65k; close band $0.30; bar ra
 - SPY $765.61 after a dip to $764.46 at VWAP; QQQ $713.57. Squeeze range $764.14–766.56 (80 min). The 1:50 SPY bar shows only 16k shares (likely a partial feed bar). No A/B.
 
 ARMED (last arming of the day; valid until 14:27, entries by 2:30): F long close **$766.57–766.86** (volume rule, QQQ above $714.91 for 0.7×, QQQ breaking up; stop = max(midpoint $765.35, bar low) − $0.10; room to $767.81 ≥ 1.5R); E long close **$767.82–768.11** (stop entry − $0.40).
+
+**Setup check (2:16 PM ET; the :12 run fired late): nothing fired**
+- Replay: F long ($766.57–766.86): high $766.31. E long: not reached. Not fired. No open paper trades.
+- SPY $765.63, QQQ $713.78, still inside the $764.14–766.56 squeeze. The armed lines stay valid until 2:27 (entries by 2:30); no new lines after 2:15.
