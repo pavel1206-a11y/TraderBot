@@ -3389,3 +3389,11 @@ ARMED (valid until 11:57; prior 10-bar average ≈ 155k): E long 50-day break, c
 ARMED (valid until 12:12; prior 10-bar average ≈ 150k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
 - ARMED F long (squeeze + 50-day break): close **$767.82–768.03** (above both the range high $767.73 and the 50-day $767.81) on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; QQQ breaking up too; stop = the higher of the midpoint ($767.11) and the trigger bar's low, − $0.10; measured target $770.23 (room to the 20-day $770.15 ✓); 0DTE call ≤ $100.
 - F short not armed: below the range, R2 $765.50 / the morning high $765.70 is < 1.5R away.
+
+**Setup check (11:58 AM ET): nothing fired; the squeeze broke down instead (F short was not armed)**
+- Replay: F long ($767.82–768.03): high $767.09. Not fired. The 11:45 bar closed **$766.03, $0.45 below the squeeze low** ($766.48); F short had not been armed (room to R2 / the morning high was < 1.5R). SPY then tagged $765.47 at R2 ($765.50).
+- SPY $765.97; QQQ $713.54 off its $715.25 high. Both still above VWAP (≈ $765.0 / $711). 4H (8–12) closes at noon well up on the day; the 12–4 candle opens next. No A/B.
+
+ARMED (valid until 12:27; prior 10-bar average ≈ 140k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R):
+- ARMED E short (R2 / morning-high loss): close **$765.20–765.49** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $712.80; **SPY and QQQ below VWAP**; stop = entry + $0.40; room to the OR high $764.00 ✓; 0DTE put ≤ $100.
+- ARMED E long (50-day break): close **$767.82–768.11**, volume rule; stop = entry − $0.40; room to $770.15 ✓.
