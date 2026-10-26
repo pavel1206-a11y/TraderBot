@@ -3364,3 +3364,9 @@ ARMED (valid until 10:57; prior 10-bar average ≈ 190k): the same two lines. E 
 - SPY $765.58: the pullback held $764.16 (above the OR high $764.00) and turned up; QQQ $711.17, a new day high. Above VWAP, trend up. 4H (8–12): distribution up. F: no squeeze. No A/B (no fresh level close in reach; the next level is the 50-day $767.81).
 
 ARMED (valid until 11:12; prior 10-bar average ≈ 150k): E long close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ new day high; stop entry − $0.40; room to $770.15 ✓); E short close **$763.17–763.46** (below the PDH; SPY and QQQ below VWAP; stop entry + $0.40).
+
+**Setup check (10:58 AM ET): nothing fired; steady trend up**
+- Replay: E long ($767.82–768.11): high $767.03. E short: not reached. Not fired.
+- SPY $766.92 (+0.9% on the day), higher lows every bar; QQQ $713.62 (+1.3%), leading. Both well above VWAP. The 50-day SMA $767.81 is $0.89 away. 4H (8–12): distribution up. No A/B (no fresh level close; grinding between levels).
+
+ARMED (valid until 11:27; prior 10-bar average ≈ 150k): E long close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ new day high; stop entry − $0.40; trail trigger +1.5R; room to the 20-day $770.15 ✓). E short dropped (the PDH is $3.4 below).
