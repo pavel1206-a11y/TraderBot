@@ -3358,3 +3358,9 @@ ARMED (valid until 10:42; prior 10-bar average ≈ 200k; close band $0.30; bar r
 - SPY $764.87, pulling back from $765.70 toward the OR high ($764.00); QQQ $709.71. The SPY 5-min feed shows thin volume on the 10:15–10:20 bars (61k / 71k vs QQQ 103k / 252k), possibly short bars; noted, not relied on. No A/B.
 
 ARMED (valid until 10:57; prior 10-bar average ≈ 190k): the same two lines. E long close **$767.82–768.11** (stop entry − $0.40, room to $770.15 ✓); E short close **$763.17–763.46** (below the PDH; SPY and QQQ below VWAP; stop entry + $0.40, room to P ✓).
+
+**Setup check (10:43 AM ET): nothing fired; pullback held above the OR high**
+- Replay: E long (high $765.58), E short (low $764.16). Not fired.
+- SPY $765.58: the pullback held $764.16 (above the OR high $764.00) and turned up; QQQ $711.17, a new day high. Above VWAP, trend up. 4H (8–12): distribution up. F: no squeeze. No A/B (no fresh level close in reach; the next level is the 50-day $767.81).
+
+ARMED (valid until 11:12; prior 10-bar average ≈ 150k): E long close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ new day high; stop entry − $0.40; room to $770.15 ✓); E short close **$763.17–763.46** (below the PDH; SPY and QQQ below VWAP; stop entry + $0.40).
