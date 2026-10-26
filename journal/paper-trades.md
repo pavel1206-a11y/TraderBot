@@ -3376,3 +3376,8 @@ ARMED (valid until 11:27; prior 10-bar average ≈ 150k): E long close **$767.82
 - SPY $767.14, holding just under the 50-day SMA $767.81 since 10:55 (range $766.74–767.73); QQQ $714.34 (high $715.25). Above VWAP. 4H (8–12): last 40 minutes, near its highs. F: tight range forming ($766.74–767.73, 30 min). No A/B.
 
 ARMED (valid until 11:42; prior 10-bar average ≈ 150k): E long 50-day break close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; stop entry − $0.40; trail trigger +1.5R; room to $770.15 ✓).
+
+**Setup check (11:29 AM ET): nothing fired**
+- Replay: E long ($767.82–768.11): high $767.44. Not fired. SPY $767.19 in a $766.74–767.73 range since 10:55 (35 min); QQQ $714.99. No A/B.
+
+ARMED (valid until 11:57; prior 10-bar average ≈ 155k): E long 50-day break, close **$767.82–768.11** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $715.25; stop entry − $0.40; room to $770.15 ✓). F squeeze range becomes valid at 11:40 if $766.74–767.73 holds.
