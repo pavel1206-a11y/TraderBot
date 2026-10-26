@@ -3336,3 +3336,10 @@ ARMED (9:50–10:12; volume baseline ≈ 229k; close band $0.30; bar range ≤ $
 - ARMED E long (OR-high break): close **$764.01–764.30** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $709.57; SPY and QQQ above VWAP; stop = entry − $0.40; trail trigger = entry + 1.5R (room to R2 $765.50 ✓); 0DTE call ≤ $100.
 - ARMED E short (OR-low break): close **$761.34–761.63** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ low below $705.58; SPY and QQQ below VWAP; stop = entry + $0.40; room to P $760.71 ≥ $0.60 only if entry ≥ $761.31 ✓; 0DTE put ≤ $100.
 - Shadow PDH put: open (stop $763.91, target $760.83).
+
+**Setup check (10:09 AM ET; the :57 run fired late): nothing fired; the shadow PDH put was stopped**
+- **Shadow PDH put (not scored): stopped −1R.** The 9:50 bar's high was $763.96 (≥ the $763.91 stop); the 9:55 bar ran to $764.30. Shadow record now: 10/20 +0.35R, 10/23 +1R, 10/26 −1R.
+- Replay: E long ($764.01–764.30): closes $763.87 / $762.85 / $763.76 (the 9:55 bar wicked to $764.30 and closed $762.85). Not fired. E short ($761.34–761.63): low $762.75. Not fired.
+- SPY $763.76, chopping around the PDH ($763.47) and VWAP (≈ $763.1); QQQ $707.44. Price crossing VWAP back and forth = a no-trade filter. 4H (8–12): accumulation near the PDH. No A/B.
+
+ARMED (valid until 10:27; prior 10-bar average ≈ 216k; close band $0.30; bar range ≤ $1.00; trailing exit at +1.5R): the same two lines. E long close **$764.01–764.30** (≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $709.57; stop entry − $0.40; room to R2 ✓). E short close **$761.34–761.63** (QQQ below $705.58 for 0.7×; stop entry + $0.40).
