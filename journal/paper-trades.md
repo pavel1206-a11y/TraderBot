@@ -3418,3 +3418,9 @@ ARMED (valid until 13:12; prior 10-bar average ≈ 95k; close band $0.30; bar ra
 - ARMED F long: close **$766.14–766.43** on ≥ 1.0×, or ≥ 0.7× with a same-bar QQQ high above $713.79; QQQ breaking up too; stop = the higher of the midpoint ($765.53) and the trigger bar's low, − $0.10; measured target $768.53 (the 50-day $767.81 is the first level; room ≥ 1.5R required); 0DTE call ≤ $100.
 - F short not armed: the OR high $764.00 is < 1.5R below the range low.
 - E long (50-day break, close $767.82–768.11) still armed.
+
+**Setup check (12:58 PM ET): nothing fired; drifting down to VWAP**
+- Replay: F long (high $765.10), E short ($765.20–765.49; closes $765.08 / $764.74 / $764.36 / $764.80, none in the band), E long: not fired. The squeeze low $764.93 broke on the 12:40 close ($764.74); F short was not armed (room).
+- SPY $764.80 on VWAP (≈ $764.7), low $764.14 just above the OR high $764.00; QQQ $712.05. Light volume. 4H (12–4): a push down from the $765.2 open; no level swept. No A/B.
+
+ARMED (valid until 13:27; prior 10-bar average ≈ 85k): E long 50-day break close **$767.82–768.11** (stop entry − $0.40). No short line: an OR-high loss ($763.70–763.99) has < 1.5R of room to the PDH $763.47.
