@@ -3600,3 +3600,38 @@ ARMED (valid 11:42–12:12; one long across SPY/QQQ, first to fire):
 Running totals: **43 trades, 21W/22L (49%), +$140.74.** Options B 21 trades ≈ +$126; fractional B 20 trades +$0.93. SPY 43 trades; QQQ 0.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:55 AM ET; the :27 run fired at 11:54): SPY E long above the 20-day fired at 11:49 (armed, replayed); #44 and #45 opened**
+- Data note: the 5-minute feed's 11:40 bar was partial (24.8k). Rebuilt from 1-minute bars: SPY 11:40–11:44 open $769.67, high $770.36, low $769.66, close $770.34, volume 82.6k; QQQ close $721.30, range $1.21, volume 95.8k.
+- **Replay, ARMED E SPY long ($770.15–770.41):**
+  - 11:40 bar: close $770.34 in the band, but volume 0.69× the prior 10-bar average (82.6k / 119.4k). That is under 1.0×, and under the 0.7× QQQ-break allowance too. **Not fired.**
+  - **11:45 bar: close $770.26**, range $0.38, volume 120.0k = **1.07×** (prior 10-bar average 111.7k). QQQ above its VWAP. Room to R2 $771.01: $0.75 against $0.60 needed. **Fired.**
+- **Replay, ARMED E QQQ long ($720.69–720.98):** the 11:40 bar closed at $721.30, $0.62 above R2, past the $0.30 band, and its $1.21 range is over the $1.00 cap. **Not fired** (a band-skip). Blocked anyway by the SPY long from 11:49.
+- **Score card (E, SPY long): B.**
+  - For it: trend day up (higher lows all morning, above VWAP); reclaimed the 20-day ($770.14) after the pre-market high; volume 1.07×; QQQ leading (above R2).
+  - Against: R2 $771.01 only 1.9R away; lunch hour; FOMC tomorrow.
+  - Filters clear. Second long of the day; the day is green (+$20.40).
+- **#44 (options, B, E long, armed, replayed):**
+
+  | Item | Value |
+  |---|---|
+  | Contract | SPY 10/27 771C (0DTE, 1 strike OTM) |
+  | Entry | $0.55 (11:49 bar close $0.54 + $0.01 spread) = **$55** |
+  | Liquidity | OI 5,077, volume 194k |
+  | Stop | SPY $769.86 (entry − $0.40) |
+  | Trail trigger | SPY $770.86 (+1.5R), then a 1R trail |
+  | Time stop | 30 minutes before +1.5R; out by 3:30 |
+
+- **#45 (fractional, B, E long, armed, replayed):** 0.64 SPY at $770.26 ($492.97).
+  - Alert stop $769.86 (risk $0.26). Trail trigger $770.86, then the 1R trail. Out by 3:45.
+- **Play forward to 11:54:** SPY high $770.40, low $770.23, last $770.38. Neither the stop nor the trail trigger hit. The 771C is $0.62/0.63 (+$7.50). #45 is +$0.08.
+- **D:** the 8 AM–12 PM 4-hour candle closes at the high of the day ($770.40) after taking the pre-market high: bullish acceptance. The 12–4 PM candle opens next.
+- **F:** SPY and QQQ have left their 10:55–11:40 ranges upward (SPY $768.28–769.84, QQQ $718.19–720.39). No squeeze now.
+
+ARMED (valid 11:55–12:27):
+- **Manage #44/#45:** stop SPY $769.86. At SPY ≥ $770.86, the stop moves to the 1R trail (best − $0.40). If +1.5R isn't reached by 12:19, the 30-minute time stop applies.
+- No new long lines (one long at a time across SPY/QQQ). No short lines into a trend-up day.
+
+Running totals (closed): **43 trades, 21W/22L, +$140.74.** Open: #44, #45 (SPY). QQQ 0.
+
+Market data and analysis only, not investment advice.
