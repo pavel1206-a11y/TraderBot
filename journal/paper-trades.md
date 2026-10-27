@@ -3681,3 +3681,38 @@ Market data and analysis only, not investment advice.
   - The 12:40 bar (forming) is at $769.65, already past the $0.30 band.
 - F SPY long / F QQQ long / F QQQ short: not reached. QQQ is at $721.13, just above its $721.00 squeeze low (the 12:40 bar is forming on rising volume).
 - No paper trades open. ARMED list as at 12:35, valid to 13:12. If the SPY close lands below $769.72, it is a band-skip (no entry).
+
+**Setup check (12:59 PM ET): QQQ F short fired at 12:44 (armed, replayed); #46 and #47 opened (first QQQ trades)**
+- **Replay, ARMED F QQQ short ($720.70–720.99):** the 12:40–12:44 five-minute bar closed at **$720.88**, $0.12 below the squeeze low ($721.00).
+  - Range $720.715–721.48 ($0.77 ≤ $1.00).
+  - Volume 161.6k against a 113.4k prior 10-bar average = **1.43×**. **Fired.**
+- Same bar, SPY: close $769.34, $0.68 under its squeeze low, past the band (band-skip; no SPY short). SPY F long / QQQ F long: not reached.
+- **Score card (F, QQQ short): B.**
+  - For it: 45+ minute squeeze ($721.00–722.72) breaking down on 1.43× volume; SPY breaking its own squeeze low in the same bar (confirmation); a lower high at 12:35.
+  - Against: counter-trend on a trend-up day (QQQ still well above VWAP and its ORB high); FOMC tomorrow.
+  - Filters clear (before 2:30). First short of the day; day +$32.66.
+- **Plan:**
+  - Stop = the closer of the midpoint ($721.86) / trigger-bar high ($721.48), + $0.10 = **$721.58** (risk $0.70).
+  - Measured target $717.56 (reward/risk 4.7). Trail trigger QQQ $719.83 (−1.5R), then a 1R trail. Time stop 13:14 if −1.5R isn't reached.
+- **#46 (options, B, F short, armed, replayed):**
+
+  | Item | Value |
+  |---|---|
+  | Contract | QQQ 10/27 720P (0DTE, 1 strike OTM) |
+  | Entry | $0.73 (12:44 bar close $0.72 + $0.01) = **$73** |
+  | Liquidity | OI 1,073, volume 173k, spread $0.01 |
+  | Stop | QQQ $721.58 |
+
+- **#47 (fractional, B, F short via PSQ, armed, replayed):** 19.5 PSQ at $25.52 ($497.64).
+  - Alert stop $25.50 (≈ QQQ $721.58). Risk ≈ $0.49. Out by 3:45.
+- **Play forward to 12:58:** QQQ low $720.34 (12:49), so the −1.5R trigger ($719.83) was not reached. It bounced to $721.13, under the stop.
+  - Last QQQ $721.03. 720P $0.55/0.56 (−$17.50). PSQ $25.52 (flat).
+
+ARMED (valid 12:59–13:27):
+- **Manage #46/#47:** stop QQQ $721.58 (PSQ alert $25.50). At QQQ ≤ $719.83, the stop moves to the 1R trail (best low + $0.70). Time stop 13:14 if not reached.
+- `ARMED F SPY long: 5-min close $771.08–771.37, volume ≥ 1.0× the prior 10-bar average; stop = the closer of midpoint $770.55 / trigger-bar low − $0.10; trail trigger = entry + 1.5R` (QQQ F long cancelled: QQQ broke its range low)
+- No new shorts (one short at a time across SPY/QQQ).
+
+Running totals (closed): **45 trades, 23W/22L, +$153.00.** Open: #46, #47 (QQQ).
+
+Market data and analysis only, not investment advice.
