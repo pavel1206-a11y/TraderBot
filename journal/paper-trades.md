@@ -3494,3 +3494,26 @@ ARMED/WATCH (valid 9:47–10:12):
 - No E or VWAP-reclaim line: price sits inside both ORB ranges, around VWAP (chop, so the 0DTE checklist item 1 fails).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:01 AM ET; the :57 run fired at 9:59): SPY ORB break down, flag fails reward/risk, no trade**
+- **SPY ORB short, stage 1 (break):** the 9:49 one-minute bar closed at $766.36, below the ORB low $767.11, on 89.8k. That is at least 1.5× the prior bars' average (67.1k; only 19 bars exist since 9:30). No entry on this bar.
+- **Stage 2 (flag), 9:50–9:59 (10 bars):** high $766.55, low $765.78. Every bar closed outside the ORB. Volume faded from 150k (9:50) to about 11k.
+- **Stage 3 (trigger):** 9:53 closed $0.01 below the then-flag low ($766.04) on 41k, under the flag average (74k), so not a trigger. Nothing since.
+- **The ORB short is not armed:**
+  - Plan: entry about $765.70 (a close below $765.78), stop $766.65 (flag high + $0.10), risk about $0.95.
+  - Reference target $764.45 (flag low minus the $1.33 pole) gives reward/risk **1.3, under the 1.5 minimum** (rule 7). The pivot P $764.91 is also only 0.8R away.
+  - SPY's short side is done for today. Tracked as a shadow for the review.
+- **Shadow PDH sweep-and-fail (not scored):** the 9:46 put at $767.48 reached its 1R target ($766.77) at 9:49. **+1R** (record 10/20 +0.35R, 10/23 +1R, 10/26 −1R, 10/27 +1R).
+- **QQQ:** no ORB break. Low $714.28 at 9:53, but no 1-minute close below $714.61. Last $715.49, under VWAP (≈ $716.0). The 9:59 bar printed 161k, inside the range.
+- **D (4-hour, 8 AM–12 PM candle):** SPY range $763.96–769.00 so far, price in the middle ($766.19). No sweep and reclaim yet; still accumulating.
+- **F:** no squeeze. SPY 9:30–10:00 range $765.78–768.36 ($2.58, too wide and too young).
+- **Score card:** no A or B setup fired. SPY is bearish intraday (below VWAP, lower highs), but the obvious entries are either used (ORB) or short of room. No paper trades open.
+
+ARMED/WATCH (valid 10:01–10:27):
+- `WATCH ORB SPY: long side only: break = 1-min close above $768.36 on ≥ 1.5× the prior 20-bar volume, by 11:00` (short side spent)
+- `WATCH ORB QQQ: break = 1-min close above $718.19 / below $714.61 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `ARMED E SPY short: 5-min close $764.61–764.90 ($0.01–0.30 below P $764.91), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $714.28); entry = close; stop = entry + $0.40; trail trigger = entry − 1.5R; room to the pre-market low $763.96 ≥ 1.5R`
+
+Running totals unchanged: **41 trades, 19W/22L, +$120.34** (SPY only; QQQ 0 trades).
+
+Market data and analysis only, not investment advice.
