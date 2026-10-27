@@ -68,7 +68,8 @@ a stop. So an option position's cost is capped at 10% of the account.
 ## Current phase: PAPER TRADING
 
 Started 2026-09-29. **No real orders.** For about 2 weeks (10 trading days),
-Claude scores SPY with the playbook and logs every A or B grade setup as a
+Claude scores SPY and QQQ (QQQ added 2026-10-27) with the playbook and logs
+every A or B grade setup as a
 paper trade in `journal/paper-trades.md`, with the exact contract, entry,
 stop, target, and result taken from real quotes. No Robinhood write actions
 (orders, alerts, watchlists) during this phase.
@@ -86,7 +87,8 @@ stop, target, and result taken from real quotes. No Robinhood write actions
 
 Find and score trades with `strategies/playbook.md`: the daily routine, key
 levels, the confluence score card (A/B/C grades), the six allowed setups
-(including D, the 4-hour manipulation / Power of 3 reversal, E, the momentum
+(including A, the first-15-minute-candle opening range breakout, formalized
+2026-10-27; D, the 4-hour manipulation / Power of 3 reversal, E, the momentum
 run, and F, the midday squeeze breakout),
 no-trade filters, contract selection, and trade management. Only propose A or
 B grade setups, and show the score card with every proposal.
@@ -117,8 +119,8 @@ with the trade plan. Any "no" means no trade.
   often fake.
 - No new 0DTE entries after 2:30 PM ET, when time decay is fastest.
 - Close every 0DTE position by 3:30 PM ET. Never hold one into expiration:
-  an in-the-money SPY contract that auto-exercises means buying 100 shares
-  (about $76,000), far beyond the account.
+  an in-the-money SPY or QQQ contract that auto-exercises means buying 100
+  shares (about $76,000 or $71,000), far beyond the account.
 - The stop order sits at the broker from entry; do not rely on check-ins to
   exit, because 0DTE prices move faster than any check-in schedule.
 
