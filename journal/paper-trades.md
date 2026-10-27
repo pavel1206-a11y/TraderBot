@@ -3752,3 +3752,7 @@ ARMED (valid 13:28–13:57; one trade per direction across SPY/QQQ):
 Running totals unchanged: **47 trades, 24W/23L, +$130.10** (day +$9.76).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (13:43 PM ET): nothing fired**
+- Replay 13:28–13:39: SPY $769.42–769.82, QQQ $720.64–721.30. All of them stayed inside: the F short edges ($768.95 / $720.34), the F long above the high of day ($771.08), and the squeezes themselves. Volume is fading (SPY 5-minute bars 39–46k).
+- Squeezes unchanged: SPY $768.95–769.85, QQQ $720.34–721.48. No paper trades open. Same ARMED list, re-armed to 13:57–14:12 (last arming window 2:15).
