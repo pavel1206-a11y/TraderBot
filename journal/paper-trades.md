@@ -3479,3 +3479,18 @@ Market data and analysis only, not investment advice.
 - **QQQ PDH $715.25 · PDL $705.58** (10/26). Pre-market **$714.80**, $0.45 under the PDH after a sweep to $716.60 (8:25). Close $712.20. Pivots: P $711.01 · R1 $716.44 · R2 $720.68 · S1 $706.77 · S2 $701.34. SMAs: 20-day $734.02, 50-day $725.43 (well below both). Pre-market range $708.65–716.60.
 - Bias: mild bullish, same as SPY; the PDH/R1/pre-market-high zone $715.25–716.60 is the line.
 - **ORB (setup A) today:** range = the 9:30–9:45 candle for SPY and QQQ; triggers 9:45–11:00 (playbook section 4A and section 10 "ORB lines").
+
+**Setup check (9:47 AM ET; the 9:42 run fired at 9:46): ORB ranges set, no break yet**
+- **SPY ORB (9:30–9:45): high $768.36 · low $767.11** ($1.25). VWAP ≈ $767.62. Open $767.43; pushed through the PDH ($767.73) to $768.36 at 9:38 (just past R1 $768.19), then faded. Last $767.48 (9:46), back under the PDH and VWAP.
+- **QQQ ORB (9:30–9:45): high $718.19 · low $714.61** ($3.58). VWAP ≈ $716.56. Swept the PDH ($715.25) and the pre-market high ($716.60) and held above both; last $716.41 (9:46), just under VWAP.
+- Since 9:45 (two 1-minute bars): no 1-minute close outside either range. No break, no flag.
+- Shadow PDH sweep-and-fail (SPY, not scored): sweep to $768.36 (9:38, $0.63 past the PDH); 9:46 red close at $767.48, back under the PDH and under VWAP. Shadow put: entry $767.48, stop $768.19 (bar high + $0.25), 1R target $766.77. Tracked to EOD.
+- Volume: the prior-20-bar average includes the opening bars (SPY ≈ 46k, QQQ ≈ 65k), so the 1.5× bar is about **69k SPY / 98k QQQ** for now. It eases as the opening bars roll off.
+
+ARMED/WATCH (valid 9:47–10:12):
+- `WATCH ORB SPY: break = 1-min close above $768.36 / below $767.11 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `WATCH ORB QQQ: break = 1-min close above $718.19 / below $714.61 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- After a break: the flag is 3–10 one-minute bars outside the range, then an ARMED ORB-FLAG line (section 10). One trade per direction across SPY and QQQ.
+- No E or VWAP-reclaim line: price sits inside both ORB ranges, around VWAP (chop, so the 0DTE checklist item 1 fails).
+
+Market data and analysis only, not investment advice.
