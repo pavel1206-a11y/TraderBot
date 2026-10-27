@@ -3765,3 +3765,7 @@ Market data and analysis only, not investment advice.
 **Setup check (2:15 PM ET): nothing fired**
 - Replay 13:58–14:14: SPY $769.21–769.89, QQQ $720.25–721.21. QQQ poked $0.09 under its squeeze low at 14:10, but the closes were $720.43 / $720.71 (none in the $720.04–720.33 band). Not fired. SPY edges not reached.
 - No paper trades open. No new lines (past 2:15); the existing F lines run to 14:27, with entries by 2:30.
+
+**Setup check (2:28 PM ET): nothing fired; entry window closed**
+- Replay 14:15–14:27 (the 14:15 five-minute bar was partial and was rebuilt from 1-minute bars): SPY $769.32–769.57, QQQ $720.48–720.89. No edge reached. The F lines expire; no new 0DTE entries after 2:30.
+- No paper trades open. **Day: 3 setups (6 entries), +$9.76.** Squeezes held into the afternoon: SPY $768.95–769.97, QQQ $720.25–721.48.
