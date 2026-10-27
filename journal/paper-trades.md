@@ -3734,3 +3734,21 @@ ARMED (valid 13:14–13:42):
 Running totals: **47 trades, 24W/23L (51%), +$130.10.** Options B 23 trades ≈ +$115; fractional B 22 trades +$1.29. **SPY 45 trades, +$153.00; QQQ 2 trades, 1W/1L, −$22.90.**
 
 Market data and analysis only, not investment advice.
+
+**Setup check (13:28 PM ET): nothing fired; new midday squeezes**
+- Replay, F SPY long ($771.08–771.37): high $769.83. Not fired. No paper trades open.
+- **F squeezes (since 12:40, 45+ minutes):**
+  - SPY $768.95–769.85 ($0.90, midpoint $769.40).
+  - QQQ $720.34–721.48 ($1.14, midpoint $720.91).
+  - Last: SPY $769.63, QQQ $720.90.
+- **D:** the 12–4 PM candle ($768.95–771.07) is inside the morning range. No sweep.
+- **Score card:** no A or B setup. The trend has stalled (lower highs since 12:00), so both F edges are armed. The SPY long edge has no room under the 20-day ($770.14), so only the high-of-day line stays.
+
+ARMED (valid 13:28–13:57; one trade per direction across SPY/QQQ):
+- `ARMED F SPY short: 5-min close $768.65–768.94 (below $768.95), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $720.34); entry = close; stop = the closer of midpoint $769.40 / trigger-bar high, + $0.10; measured target $767.15; room to the PDH $767.73 ≥ 1.5R`
+- `ARMED F QQQ short: 5-min close $720.04–720.33 (below $720.34), same volume rule (allowance: a same-bar SPY close below $768.95); stop = the closer of midpoint $720.91 / trigger-bar high, + $0.10; measured target $718.06`
+- `ARMED F SPY long: 5-min close $771.08–771.37 (above the high of day), volume ≥ 1.0×; stop = trigger-bar low − $0.10; trail trigger = entry + 1.5R`
+
+Running totals unchanged: **47 trades, 24W/23L, +$130.10** (day +$9.76).
+
+Market data and analysis only, not investment advice.
