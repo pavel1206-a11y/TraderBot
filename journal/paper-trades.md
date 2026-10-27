@@ -3517,3 +3517,23 @@ ARMED/WATCH (valid 10:01–10:27):
 Running totals unchanged: **41 trades, 19W/22L, +$120.34** (SPY only; QQQ 0 trades).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:43 AM ET; the :27 run fired at 10:42, and no :12 run arrived): nothing fired**
+- Replay (10:01–10:42):
+  - E SPY short ($764.61–764.90 close): SPY's low was $765.21 (10:20 bar) and its lowest 5-minute close $765.44. Not fired.
+  - SPY ORB long: high $767.79, under $768.36. Not fired.
+  - QQQ ORB long: high $717.85, under $718.19. Not fired.
+- **QQQ ORB short, no break by the rule:** QQQ closed 1-minute bars below $714.61 from 10:01 to 10:21 (low $713.59 at 10:17). None had the volume: the best was 42.7k against a 1.5× bar of 85k, and most were 10–35k. Back inside the range at 10:22 ($714.76). No flag watch.
+- Since 10:25 both symbols rallied on rising volume: SPY $767.44, QQQ $717.30, back near the top of their ORB ranges and above VWAP.
+- **D (8 AM–12 PM 4-hour candle):** SPY range $763.96–769.00, at $767.44. No sweep of either edge yet; no D.
+- **F:** no squeeze. SPY 9:49–10:42 $765.21–767.79 ($2.58); QQQ $713.59–717.85.
+- **Score card:** no A or B setup. No paper trades open.
+
+ARMED/WATCH (valid 10:43–11:12; ORB breaks by 11:00):
+- `WATCH ORB SPY: long side only: break = 1-min close above $768.36 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `WATCH ORB QQQ: break = 1-min close above $718.19 / below $714.61 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `ARMED E SPY long: 5-min close $768.20–768.49 ($0.01–0.30 above R1 $768.19), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close above $718.19), QQQ above its VWAP; entry = close; stop = entry − $0.40; trail trigger = entry + 1.5R; room to the pre-market high $769.00 ≥ 1.5R` (a PDH close alone fails room: R1 is $0.46 away)
+
+Running totals unchanged: **41 trades, 19W/22L, +$120.34** (QQQ 0 trades).
+
+Market data and analysis only, not investment advice.
