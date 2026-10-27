@@ -3716,3 +3716,21 @@ ARMED (valid 12:59–13:27):
 Running totals (closed): **45 trades, 23W/22L, +$153.00.** Open: #46, #47 (QQQ).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (13:14 PM ET): #46 and #47 closed on the 30-minute time stop**
+- **#46/#47 played forward (12:44–13:14):**
+  - QQQ range $720.39–721.30. Neither the stop ($721.58) nor the −1.5R trigger ($719.83) was hit. The 30-minute time stop (no +1.5R by 13:14) closed both at QQQ $721.00.
+  - **#46 (720P):** exit $0.50 (13:13 bar $0.51 minus the $0.01 spread). **−$23.00** on $73 (−32%). Theta on a 0DTE put that went nowhere.
+  - **#47 (19.5 PSQ):** $25.52 → $25.525. **+$0.10** (flat).
+- Lesson for the review: a counter-trend F short on a trend-up day stalled at once. The 1.43× volume was the selling climax, not the start. This is one data point; the rule itself was followed.
+- SPY $769.58, QQQ $721.00, both back inside the lower part of their midday ranges. No D (12–4 PM candle inside the morning range).
+- **Score card:** no fresh A or B setup. No paper trades open.
+- **Day:** 3 trade pairs (6 entries): options +$20.00, +$12.00, −$23.00; fractional +$0.40, +$0.26, +$0.10. **+$9.76.** One option loss (the two-loss stop is not hit).
+
+ARMED (valid 13:14–13:42):
+- `ARMED F SPY long: 5-min close $771.08–771.37 (above the high of day $771.07), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average; entry = close; stop = the closer of midpoint $770.55 / trigger-bar low, − $0.10; trail trigger = entry + 1.5R`
+- No shorts armed (the trend-up day; the first counter-trend short just failed).
+
+Running totals: **47 trades, 24W/23L (51%), +$130.10.** Options B 23 trades ≈ +$115; fractional B 22 trades +$1.29. **SPY 45 trades, +$153.00; QQQ 2 trades, 1W/1L, −$22.90.**
+
+Market data and analysis only, not investment advice.
