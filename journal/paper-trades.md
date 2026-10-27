@@ -3657,3 +3657,19 @@ ARMED (valid 12:17–12:42):
 Running totals: **45 trades, 23W/22L (51%), +$153.00.** Options B 22 trades ≈ +$138; fractional B 21 trades +$1.19. SPY 45; QQQ 0.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:35 PM ET; the :27 run fired at 12:34): nothing fired; SPY squeeze formed and is testing its low**
+- **Replay, E SPY long ($771.08–771.37):** high $770.43. Not fired.
+- **F squeeze, SPY $770.02–771.07 ($1.05):** held 11:43–12:28 (45 minutes), so it qualifies at 12:28. The 12:30 bar (still forming at 12:34) is trading $769.93–770.24, a few cents under the low. Last $769.95, volume 74k so far against an 89.9k prior 10-bar average (the 11:40 bar rebuilt from 1-minute bars). It has not closed, so no trigger yet.
+- **F squeeze, QQQ $721.00–722.72 ($1.72, since 11:45).** Last $721.66, mid-range.
+- **D:** the 12–4 PM candle ($769.93–771.07) is inside the morning range. No sweep.
+- **Score card:** no A or B setup closed. No paper trades open. Day +$32.66.
+
+ARMED (valid 12:35–13:12; one trade per direction across SPY/QQQ):
+- `ARMED F SPY short: 5-min close $769.72–770.01 ($0.01–0.30 below the squeeze low $770.02), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $721.00); entry = close; stop = the closer of midpoint $770.55 / trigger-bar high, + $0.10; measured target $767.92; trail trigger = entry − 1.5R`
+- `ARMED F SPY long: 5-min close $771.08–771.37 (above the squeeze high / high of day $771.07), same volume rule (QQQ allowance: a same-bar close above $722.72); entry = close; stop = the closer of midpoint $770.55 / trigger-bar low, − $0.10; measured target $773.17; trail trigger = entry + 1.5R` (replaces the E long line at the same prices)
+- `ARMED F QQQ short / long: 5-min close $720.70–720.99 / $722.73–723.02, same volume rule; stop = the closer of midpoint $721.86 / trigger-bar far end, ± $0.10; measured targets $717.56 / $726.16`
+
+Running totals unchanged: **45 trades, 23W/22L, +$153.00.**
+
+Market data and analysis only, not investment advice.
