@@ -10,7 +10,7 @@ advice.
 | When | What |
 |---|---|
 | 8:30–9:25 | **Pre-market brief (SPY and QQQ):** overnight/pre-market move, news and sentiment, today's scheduled events (CPI, jobs, FOMC, Fed speakers, big earnings), key levels (below). Set a bias: bullish, bearish, or no bias. |
-| 9:30–9:45 | **Watch only.** Mark the first 15-minute candle (high and low) for SPY and QQQ: the ORB range (setup A). No entries. |
+| 9:30–9:45 | **Watch only.** Mark the first 15-minute candle (high and low) for SPY and QQQ: the ORB range (setup A: break on high volume, then trade the flag break). No entries. |
 | 9:45–2:30 | **Hunt:** score setups with the confluence card. Only A-grade or B-grade setups get proposed. Checks every 15 minutes; each one replays and re-arms its triggers (section 10). |
 | By 3:30 | **Flat:** every 0DTE position closed. |
 | After close | **Journal:** log each trade, update running totals and the day-trade count. |
@@ -61,35 +61,32 @@ Setups A–C, E and F trade with the trend. Setup D trades the reversal after a
 in structure have all happened. Other "catch the reversal" trades are left out
 on purpose: they lose more often, and 0DTE leaves no time to be wrong.
 
-### A. Opening Range Breakout: first 15-minute candle (ORB)
+### A. ORB break, then flag break (first 15-minute candle)
 
-Formalized 2026-10-27 at the owner's request. Runs on SPY and QQQ separately.
+Owner's method (2026-10-27). Runs on SPY and QQQ separately. The ORB break
+itself is **not** the entry; it only tells us which way to look.
 
-- **Range:** the high and low of the **first 15-minute candle** (9:30–9:45).
-  Marked at 9:45; it does not change after that.
-- **Window:** triggers from 9:45 to **11:00 AM** only. One long and one short
-  attempt per symbol per day; once a side is stopped, that side is done.
-- **Trigger:** a 5-min candle **closes** outside the range, on the same side
-  of VWAP as the break, with volume at least **1.0×** the average of the prior
-  bars since 9:30 (prior 10 bars once there are 10), and the partner index
-  (QQQ for an SPY trade, SPY for a QQQ trade) on the same side of its own VWAP.
-- **No chase:** the trigger close may be up to **$0.75** past the range edge,
-  and the trigger bar's range may be up to **$1.50** (wider than E/F on
-  purpose: ORB breaks are fast; see the 10/22–10/26 band skips). If the close
-  is further out, wait for the **first retest** of the edge that holds (low
-  within $0.30 of the edge for a long, no close back inside, closing in the
-  break direction) before 11:00; entry = that bar's close.
-- **Stop:** back inside the range: the range **midpoint** − $0.10 for a long
-  (+ $0.10 for a short), but never closer than **$0.40** to the entry. A
-  5-min close back inside the range is also an exit (invalidation).
-- **Target:** trail trigger at **+1.5R**, then the section 7 trailing exit.
-  Reference target: the edge ± one range height (measured move).
-- **Room and grade:** reward/risk ≥ 1.5 to the next strong level, and a B or
-  better on the score card, as for every setup.
-- **Gap days:** on a gap of $4+, the ORB in the gap direction needs volume of
-  at least **1.0×** (2026-10-02: a $6.5 gap-up broke the ORB high on 0.7× and
-  reversed $5.5).
-- **Best when:** the pre-market bias and the break point the same way.
+1. **Mark the range:** the high and low of the **first 15-minute candle**
+   (9:30–9:45). Fixed at 9:45.
+2. **Watch for the break (9:45–11:00):** a 5-min candle **closes** outside
+   the range on **high volume**: at least **1.5×** the average of the prior
+   bars since 9:30 (prior 10 bars once there are 10). No entry on this bar.
+3. **Wait for the flag:** after the break, price pauses for **2–6 five-minute
+   bars** in a tight range or a small drift against the break, on lighter
+   volume, and **stays outside the ORB range** (a close back inside the range
+   cancels the setup for that side). Flag high/low = the high/low of those
+   pause bars.
+4. **Enter on the flag break:** a 5-min close beyond the flag's high (long)
+   or low (short), on volume above the flag bars' average, by **11:30**.
+   Entry = that close. Skip it if the close is more than **$0.50** past the
+   flag edge (no chase).
+5. **Stop:** the other side of the flag ($0.10 beyond the flag low for a
+   long, flag high for a short), never closer than $0.40 to the entry.
+6. **Target:** trail trigger at **+1.5R**, then the section 7 trailing exit.
+   Reference target: the flag break + the height of the pole (the move from
+   the ORB edge to the flag's extreme).
+7. One long and one short setup per symbol per day. Reward/risk ≥ 1.5 to the
+   next strong level and a B or better on the score card, as for every setup.
 
 ### B. VWAP Pullback (trend continuation)
 - **Setup:** a clear trend (ADX above 20, EMAs stacked). Price pulls back to
@@ -424,16 +421,16 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
 - Valid until: the next check, or 2:30 PM, whichever is sooner. A check
   re-arms or drops each line.
 
-### ORB lines (setup A, from 2026-10-27)
+### ORB flag lines (setup A, from 2026-10-27)
 
-At 9:42 (opening range still forming) and 9:57, arm the ORB long and short
-for **both SPY and QQQ** once the first 15-minute candle is final:
+Each check tracks the ORB setup for SPY and QQQ in stages, and arms only the
+stage that comes next:
 
-`ARMED ORB <SPY|QQQ> <long/short>: trigger = 5-min close $0.01–0.75 beyond the 9:30–9:45 high/low, bar range ≤ $1.50, volume ≥ 1.0×, same side of VWAP, partner index on the same side of its VWAP; else the first retest that holds (before 11:00); stop = range midpoint ∓ $0.10 (≥ $0.40 from entry); trail trigger = entry ± 1.5R; valid until 11:00`
+- **Before the break:** `WATCH ORB <SPY|QQQ>: break = 5-min close above $H / below $L (the 9:30–9:45 high/low) on ≥ 1.5× volume, by 11:00` (no entry; it starts the flag watch).
+- **After the break, while the flag forms:** `ARMED ORB-FLAG <SPY|QQQ> <long/short>: trigger = 5-min close $0.01–0.50 beyond the flag high/low $F on volume above the flag bars' average, by 11:30; entry = trigger close; stop = other side of the flag ∓ $0.10 (≥ $0.40); trail trigger = entry ± 1.5R; cancel if a 5-min bar closes back inside the ORB range`. The flag edge is re-measured at every check until it breaks.
 
-ORB lines use their own close band and bar cap (above), not the E/F $0.30 /
-$1.00. They are tracked as **setup A** in the scoreboard, so the result also
-tests the wider band (Friday proposal 1) without changing E and F.
+Replays follow the same rules as other lines: the first bar that meets the
+trigger exactly as written, no partial credit.
 
 ### SPY and QQQ together (from 2026-10-27)
 

@@ -87,8 +87,8 @@ stop, target, and result taken from real quotes. No Robinhood write actions
 
 Find and score trades with `strategies/playbook.md`: the daily routine, key
 levels, the confluence score card (A/B/C grades), the six allowed setups
-(including A, the first-15-minute-candle opening range breakout, formalized
-2026-10-27; D, the 4-hour manipulation / Power of 3 reversal, E, the momentum
+(including A, the owner's ORB flag: a high-volume break of the first
+15-minute candle, then entry on the flag break, 2026-10-27; D, the 4-hour manipulation / Power of 3 reversal, E, the momentum
 run, and F, the midday squeeze breakout),
 no-trade filters, contract selection, and trade management. Only propose A or
 B grade setups, and show the score card with every proposal.
