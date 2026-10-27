@@ -3635,3 +3635,6 @@ ARMED (valid 11:55–12:27):
 Running totals (closed): **43 trades, 21W/22L, +$140.74.** Open: #44, #45 (SPY). QQQ 0.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:58 AM ET): #44/#45 open, no change**
+- SPY high $770.54 (11:55), low $770.19, last $770.51. Stop $769.86 and trail trigger $770.86 both untouched. Time stop 12:19 if +1.5R isn't reached. No new lines (one long at a time); same ARMED list as 11:55.
