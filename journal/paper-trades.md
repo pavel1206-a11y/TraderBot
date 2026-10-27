@@ -3575,3 +3575,28 @@ ARMED/WATCH (valid 10:59–11:27):
 Running totals (closed trades): **41 trades, 19W/22L, +$120.34.** Open: #42, #43 (SPY). QQQ 0 trades.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:42 AM ET; the :12 run fired at 11:41, and no :27 run arrived): #42 and #43 closed on the trail, both winners**
+- **#42/#43 played forward:**
+  - The 11:00 bar reached SPY $769.26, past the +1.5R trigger ($768.95). The stop jumped to the 1R trail (best − $0.40): best $769.26 at 11:00 → $769.32 → $769.36 at 11:02, so the trail stood at **$768.96**.
+  - The 11:05 bar traded down to $768.85, through the trail. **Exit at SPY $768.96 (11:05).**
+  - **#42 (769C):** exit $0.96 (the 11:05 bar: low $0.95, close $0.96). **+$20.00** on $76 (+26%). Best was $1.25 at 11:01.
+  - **#43 (0.65 SPY):** $768.35 → $768.96. **+$0.40** (+1.5R).
+  - After the exit SPY kept grinding to $769.84 (11:40) with no pullback deep enough for a fresh setup.
+- **QQQ ORB flag long (shadow, blocked by one trade per direction because #42/#43 were open):**
+  - Flag 10:56–10:59: high $718.82, low $718.41, average 24.1k.
+  - Trigger 11:00: close $719.04 ($0.22 above the flag) on 46.8k. Entry $719.04, stop $718.31 (risk $0.73).
+  - +1.5R ($720.13) was reached at 11:24. The trail followed the best price ($720.31 at 11:29) to $719.58, and the 11:30 bar (low $719.55) hit it. **Shadow +0.74R.**
+  - First full ORB-flag sequence of the new setup A: break 10:55 → flag 4 bars → trigger 11:00, a winner.
+- **D:** the 8 AM–12 PM 4-hour candle ($763.96–769.84) swept the pre-market high ($769.00) and is **holding above it** (acceptance, no reversal). The next candle starts at 12 PM.
+- **F squeezes (45+ minutes):** SPY $768.28–769.84 ($1.56, since 10:55). QQQ $718.19–720.39 ($2.20, since 10:55). Both sit right under strong levels (SPY 20-day $770.14, QQQ R2 $720.68), so an F break at the edge has no room. The lines below use the level beyond.
+- **Score card:** no fresh A or B setup at 11:42 (no ORB entries after 11:30; trend up, but no new close through a level). No paper trades open.
+
+ARMED (valid 11:42–12:12; one long across SPY/QQQ, first to fire):
+- `ARMED E SPY long: 5-min close $770.15–770.41 (above the 20-day $770.14), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close above $720.68), QQQ above its VWAP; entry = close; stop = entry − $0.40; trail trigger = entry + 1.5R; room to R2 $771.01 ≥ 1.5R`
+- `ARMED E QQQ long: 5-min close $720.69–720.98 (above R2 $720.68), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar SPY close above $770.14), SPY above its VWAP; entry = close; stop = entry − $0.40; trail trigger = entry + 1.5R`
+- `WATCH F SPY short / QQQ short: a 5-min close below $768.28 / $718.19 on ≥ 1.0× volume = range failure (note only; no short line armed into a trend-up day)`
+
+Running totals: **43 trades, 21W/22L (49%), +$140.74.** Options B 21 trades ≈ +$126; fractional B 20 trades +$0.93. SPY 43 trades; QQQ 0.
+
+Market data and analysis only, not investment advice.
