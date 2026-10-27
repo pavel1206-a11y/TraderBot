@@ -3474,3 +3474,8 @@ Market data and analysis only, not investment advice.
 - Rules in force (unchanged; the four Friday proposals still await the owner).
 
 Market data and analysis only, not investment advice.
+
+**QQQ added to the brief (9:20 AM ET, owner request; QQQ and the ORB setup A start today)**
+- **QQQ PDH $715.25 · PDL $705.58** (10/26). Pre-market **$714.80**, $0.45 under the PDH after a sweep to $716.60 (8:25). Close $712.20. Pivots: P $711.01 · R1 $716.44 · R2 $720.68 · S1 $706.77 · S2 $701.34. SMAs: 20-day $734.02, 50-day $725.43 (well below both). Pre-market range $708.65–716.60.
+- Bias: mild bullish, same as SPY; the PDH/R1/pre-market-high zone $715.25–716.60 is the line.
+- **ORB (setup A) today:** range = the 9:30–9:45 candle for SPY and QQQ; triggers 9:45–11:00 (playbook section 4A and section 10 "ORB lines").
