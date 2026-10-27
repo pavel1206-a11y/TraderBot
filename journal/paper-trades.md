@@ -3537,3 +3537,41 @@ ARMED/WATCH (valid 10:43–11:12; ORB breaks by 11:00):
 Running totals unchanged: **41 trades, 19W/22L, +$120.34** (QQQ 0 trades).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:59 AM ET): SPY E long fired at 10:54 (armed, replayed); paper trades #42 and #43 opened**
+- **Replay, ARMED E SPY long:** the 10:50–10:54 five-minute bar closed at **$768.35**, $0.16 above R1 ($768.19), inside the $0.01–0.30 band.
+  - Bar range $767.76–768.38 ($0.62 ≤ $1.00).
+  - Volume 159.9k against a 156.2k prior 10-bar average (1.02×).
+  - QQQ above its VWAP ($718.31).
+  - Room to the pre-market high $769.00: $0.65 against $0.60 needed (1.5R). **Fired.**
+- **Score card (E, SPY long): B.**
+  - For it: trend up (above VWAP, higher lows since 10:20); level reclaimed (PDH $767.73, 50-day $767.59, R1 $768.19); volume ≥ 1.0×; QQQ confirming (it broke its ORB high at 10:55).
+  - Against: thin room (1.6R to $769.00) with the 20-day ($770.14) overhead; FOMC tomorrow.
+  - No-trade filters clear (after 9:45, before 2:30, no event before the exit).
+- **#42 (options, B, E long, armed, replayed):**
+
+  | Item | Value |
+  |---|---|
+  | Contract | SPY 10/27 769C (0DTE, 1 strike OTM) |
+  | Entry | $0.76 (ask; 10:54 bar close $0.75, spread $0.01) = **$76 premium** (under the $100 cap) |
+  | Liquidity | OI 3,899, volume 220k |
+  | Stop | SPY $767.95 (entry − $0.40) |
+  | Trail trigger | SPY $768.95 (+1.5R), then a 1R trail |
+  | Time stop | 3:30 PM |
+
+- **#43 (fractional, B, E long, armed, replayed):** 0.65 SPY at $768.35 ($499.43).
+  - Alert stop $767.95 (risk $0.26). Target $768.95 (1.5R), then the 1R trail. Out by 3:45.
+- **Play forward to 10:58:** SPY high $768.62, last $768.58. The trail trigger ($768.95) has not been hit, and neither has the stop. The 769C is at $0.94 bid/$0.95 ask (+$18 per contract). #43 is +$0.15.
+- **QQQ ORB long, stage 1:** the 10:55 one-minute bar closed at $718.57, above $718.19, on 51.6k (1.5× bar 37.0k). That is a qualifying break, so the flag watch starts at 10:56.
+  - A QQQ long entry is **blocked** while #42/#43 are open (one trade per direction across SPY and QQQ). Tracked as a shadow.
+- SPY ORB long: closes above $768.36 at 10:55–10:57 had no volume (33k max against about 42k needed). No break by 11:00, so the line expires.
+- **D:** SPY is pushing the top of the 8 AM–12 PM 4-hour candle (pre-market high $769.00); no sweep yet.
+- **F:** no squeeze (both ranges are over $2.50).
+
+ARMED/WATCH (valid 10:59–11:27):
+- **Manage #42/#43:** stop SPY $767.95; at SPY ≥ $768.95 move the stop to the 1R trail (high − $0.40), trailed on 1-minute closes.
+- `QQQ ORB-FLAG long (shadow while #42/#43 open): find the 3–10 bar flag from 10:56; trigger = 1-min close $0.01–0.30 above the flag high on volume above the flag bars' average, by 11:30; stop = flag low − $0.10 (≥ $0.30); cancel on a 1-min close below $718.19`
+
+Running totals (closed trades): **41 trades, 19W/22L, +$120.34.** Open: #42, #43 (SPY). QQQ 0 trades.
+
+Market data and analysis only, not investment advice.
