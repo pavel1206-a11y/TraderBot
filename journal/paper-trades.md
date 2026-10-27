@@ -3769,3 +3769,21 @@ Market data and analysis only, not investment advice.
 **Setup check (2:28 PM ET): nothing fired; entry window closed**
 - Replay 14:15–14:27 (the 14:15 five-minute bar was partial and was rebuilt from 1-minute bars): SPY $769.32–769.57, QQQ $720.48–720.89. No edge reached. The F lines expire; no new 0DTE entries after 2:30.
 - No paper trades open. **Day: 3 setups (6 entries), +$9.76.** Squeezes held into the afternoon: SPY $768.95–769.97, QQQ $720.25–721.48.
+
+### 2026-10-27 (Tue): end of day
+- **Trades (all armed, replayed; all closed intraday, none open):**
+
+  | Pair | Setup | Options | Fractional |
+  |---|---|---|---|
+  | #42/#43 | SPY E long above R1 (10:54) | 769C +$20.00 | +$0.40 |
+  | #44/#45 | SPY E long above the 20-day (11:49) | 771C +$12.00 | +$0.26 |
+  | #46/#47 | QQQ F short (12:44), time stop | 720P −$23.00 | PSQ +$0.10 |
+
+  **Day +$9.76** (options +$9.00, fractional +$0.76). 5W/1L by entry.
+- **Shadows (not scored):** PDH sweep-and-fail put +1R; QQQ ORB-flag long +0.74R (blocked by one trade per direction); SPY ORB flag short skipped on reward/risk 1.3.
+- **The day:** a trend day up. A PDH fake-out at the open (−$3 to $765.21 by 10:20), then a steady climb through the PDH, R1, the 20-day and R2 to $771.07 at noon. A midday squeeze, then a late push back to $771.12 into 3:30. SPY ≈ $770.74 at 3:40 (+0.70%), QQQ ≈ $722.28 (+1.4%).
+- **What worked:** the trail locked +1.5R and +1.0R on the E longs. **What didn't:** the counter-trend F short on a trend day (time-stopped −32% on the option).
+- **New setup A (ORB flag), day 1:** one full sequence on each symbol. SPY short failed the reward/risk gate; QQQ long worked (+0.74R) but was blocked. Track more days before judging.
+- **Running totals: 47 trades, 24W/23L (51%), +$130.10.** Options B 23 trades ≈ +$115; fractional B 22 trades +$1.29. **By symbol: SPY 45 trades, +$153.00; QQQ 2 trades (1W/1L), −$22.90.** Still no A-grade trades (graduation needs A-grade results).
+
+Market data and analysis only, not investment advice.

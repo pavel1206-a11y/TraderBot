@@ -251,3 +251,12 @@ Open $762.26 → $764.00 (9:35 PDH sweep) → $762.36 (9:45) → $765.70 (10:15)
 | 10:30–11:00 | +$3.57 in 30 min (764.16 → 767.73) | Pullback held the OR high ($764.16 vs $764.00) and turned up with QQQ to new highs | No armed setup (a pullback-to-broken-level entry is not a rule) | Only the 50-day break ($767.82+) was armed; price stopped at $767.73. |
 
 Pattern for the review: proposal 1 (band) again, plus a candidate "retest of a broken OR high that holds" entry (10:30 here; the 10/23 1:55 version failed). Collect more before proposing.
+
+### 2026-10-27 (Tue)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:38–10:20 | −$3.15 in 42 min (768.36 → 765.21) | A sweep of the PDH ($767.73) to $768.36 failed; a 1-min close below the ORB low ($767.11) at 9:49 on 89.8k (1.34× the bar needed); QQQ followed but lagged (no ORB-low break on volume) | A (ORB flag short): break at 9:49, flag 9:50–9:59 | The flag gave reward/risk 1.3 (stop at the flag high $766.65, pivot $764.91 0.8R away), under 1.5. The shadow PDH sweep-and-fail put made +1R on the same move. |
+| 10:20–10:55 | +$3.17 in 35 min (765.21 → 768.38) | A higher low off $765.21, QQQ reclaiming its VWAP and ORB range (10:25–10:30, 5-min volume 1.2–2× average), then the PDH/50-day | VWAP reclaim long, or E above the PDH | No VWAP-reclaim line was armed (the :12 check never arrived; the 10:43 check armed only above R1). The E long above R1 then caught the next leg (10:54, #42). Partly traded. |
+
+Pattern: the first entry on 10/27 came from the second level (R1), not the first reclaim. The ORB flag worked on QQQ (shadow +0.74R) but was blocked by the one-trade-per-direction rule. Note for Friday: that rule cost a winner today.
