@@ -3673,3 +3673,11 @@ ARMED (valid 12:35–13:12; one trade per direction across SPY/QQQ):
 Running totals unchanged: **45 trades, 23W/22L, +$153.00.**
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:43 PM ET): nothing fired; SPY slipping under its squeeze low on light volume**
+- **Replay, F SPY short ($769.72–770.01):**
+  - 12:30 bar: close $769.95, volume 74.2k = 0.83× (prior 10-bar average 89.9k). QQQ closed $721.65, not below $721.00. Not fired.
+  - 12:35 bar: close $769.79, 85.7k = 0.96× (average 89.1k). QQQ $721.48. Not fired.
+  - The 12:40 bar (forming) is at $769.65, already past the $0.30 band.
+- F SPY long / F QQQ long / F QQQ short: not reached. QQQ is at $721.13, just above its $721.00 squeeze low (the 12:40 bar is forming on rising volume).
+- No paper trades open. ARMED list as at 12:35, valid to 13:12. If the SPY close lands below $769.72, it is a band-skip (no entry).
