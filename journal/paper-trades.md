@@ -3464,3 +3464,13 @@ ARMED (last arming of the day; valid until 14:27, entries by 2:30): F long close
 - Running totals: **41 trades, 19W/22L (46%), +$120.34.** Options B 20 trades ≈ +$106; fractional B 19 trades +$0.53. (Unchanged.)
 
 Market data and analysis only, not investment advice.
+
+### 2026-10-27 (Tue): pre-market brief (9:03 AM ET; the 8:52 routine did not fire, done on the owner's request)
+- **SPY PDH $767.73 · PDL $761.63** (10/26). Pre-market **$767.54**: between them, **$0.19 under the PDH** (+0.28%). The pre-market already traded above the PDH (high $769.00 at 8 AM) and came back under it.
+- Close 10/26 **$765.37** (official). Pivots: **P $764.91 · R1 $768.19 · R2 $771.01 · S1 $762.09 · S2 $758.81.** SMAs: 20-day $770.14, 50-day $767.59 (pre-market sits on the 50-day). Pre-market range $763.96–769.00.
+- QQQ $715.51 (+0.47% vs $712.20).
+- Events: earnings this morning UPS, BA, KO, PYPL, SPGI; after the close V, HOOD. **FOMC decision Wednesday 2 PM** (not verified); MSFT/GOOGL Wed after the close. Nothing today rules out trading, but expect pre-Fed caution in the afternoon.
+- **Bias: mild bullish.** Higher low and higher close yesterday, QQQ leading, pre-market pressing the PDH / 50-day. Resistance stack: PDH $767.73 / 50-day $767.59, R1 $768.19, pre-market high $769.00, 20-day $770.14. Owner's setup: the pre-market already swept the PDH once; a second sweep above $769.00 that fails (red close back below $767.73, under VWAP) = put idea; acceptance above $769 = calls toward the 20-day / R2. Support: P $764.91, pre-market low $763.96.
+- Rules in force (unchanged; the four Friday proposals still await the owner).
+
+Market data and analysis only, not investment advice.
