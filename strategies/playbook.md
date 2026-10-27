@@ -61,30 +61,32 @@ Setups A–C, E and F trade with the trend. Setup D trades the reversal after a
 in structure have all happened. Other "catch the reversal" trades are left out
 on purpose: they lose more often, and 0DTE leaves no time to be wrong.
 
-### A. ORB break, then flag break (first 15-minute candle)
+### A. ORB break, then flag break (first 15-minute candle, 1-minute execution)
 
-Owner's method (2026-10-27). Runs on SPY and QQQ separately. The ORB break
+Owner's method (2026-10-27; switched to 1-minute bars the same day). Runs on
+SPY and QQQ separately. The 15-minute candle only sets the levels; the break,
+the flag and the entry are all read on **1-minute** bars. The ORB break
 itself is **not** the entry; it only tells us which way to look.
 
 1. **Mark the range:** the high and low of the **first 15-minute candle**
    (9:30–9:45). Fixed at 9:45.
-2. **Watch for the break (9:45–11:00):** a 5-min candle **closes** outside
-   the range on **high volume**: at least **1.5×** the average of the prior
-   bars since 9:30 (prior 10 bars once there are 10). No entry on this bar.
-3. **Wait for the flag:** after the break, price pauses for **2–6 five-minute
+2. **Watch for the break (9:45–11:00):** a **1-min** candle closes outside the
+   range on **high volume**: at least **1.5×** the average of the prior 20
+   one-minute bars. No entry on this bar.
+3. **Wait for the flag:** after the break, price pauses for **3–10 one-minute
    bars** in a tight range or a small drift against the break, on lighter
-   volume, and **stays outside the ORB range** (a close back inside the range
-   cancels the setup for that side). Flag high/low = the high/low of those
-   pause bars.
-4. **Enter on the flag break:** a 5-min close beyond the flag's high (long)
-   or low (short), on volume above the flag bars' average, by **11:30**.
-   Entry = that close. Skip it if the close is more than **$0.50** past the
-   flag edge (no chase).
+   volume, and **stays outside the ORB range** (a 1-min close back inside the
+   range cancels the setup for that side). Flag high/low = the high/low of
+   those pause bars.
+4. **Enter on the flag break:** a **1-min** close beyond the flag's high
+   (long) or low (short), on volume above the flag bars' average, by
+   **11:30**. Entry = that close. Skip it if the close is more than **$0.30**
+   past the flag edge (no chase).
 5. **Stop:** the other side of the flag ($0.10 beyond the flag low for a
-   long, flag high for a short), never closer than $0.40 to the entry.
-6. **Target:** trail trigger at **+1.5R**, then the section 7 trailing exit.
-   Reference target: the flag break + the height of the pole (the move from
-   the ORB edge to the flag's extreme).
+   long, flag high for a short), never closer than **$0.30** to the entry.
+6. **Target:** trail trigger at **+1.5R**, then the section 7 trailing exit
+   (trail on 1-min closes for this setup). Reference target: the flag break +
+   the height of the pole (the move from the ORB edge to the flag's extreme).
 7. One long and one short setup per symbol per day. Reward/risk ≥ 1.5 to the
    next strong level and a B or better on the score card, as for every setup.
 
@@ -421,16 +423,17 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
 - Valid until: the next check, or 2:30 PM, whichever is sooner. A check
   re-arms or drops each line.
 
-### ORB flag lines (setup A, from 2026-10-27)
+### ORB flag lines (setup A, from 2026-10-27; 1-minute bars)
 
-Each check tracks the ORB setup for SPY and QQQ in stages, and arms only the
-stage that comes next:
+Each check replays **1-minute** bars (`get_equity_historicals`
+interval=minute) for setup A and tracks it for SPY and QQQ in stages:
 
-- **Before the break:** `WATCH ORB <SPY|QQQ>: break = 5-min close above $H / below $L (the 9:30–9:45 high/low) on ≥ 1.5× volume, by 11:00` (no entry; it starts the flag watch).
-- **After the break, while the flag forms:** `ARMED ORB-FLAG <SPY|QQQ> <long/short>: trigger = 5-min close $0.01–0.50 beyond the flag high/low $F on volume above the flag bars' average, by 11:30; entry = trigger close; stop = other side of the flag ∓ $0.10 (≥ $0.40); trail trigger = entry ± 1.5R; cancel if a 5-min bar closes back inside the ORB range`. The flag edge is re-measured at every check until it breaks.
+- **Before the break:** `WATCH ORB <SPY|QQQ>: break = 1-min close above $H / below $L (the 9:30–9:45 high/low) on ≥ 1.5× the prior 20-bar volume, by 11:00` (no entry; it starts the flag watch).
+- **After the break:** find the flag (3–10 one-minute bars outside the range), then `ARMED ORB-FLAG <SPY|QQQ> <long/short>: trigger = 1-min close $0.01–0.30 beyond the flag high/low $F on volume above the flag bars' average, by 11:30; entry = trigger close; stop = other side of the flag ∓ $0.10 (≥ $0.30); trail trigger = entry ± 1.5R; cancel if a 1-min bar closes back inside the ORB range`.
 
-Replays follow the same rules as other lines: the first bar that meets the
-trigger exactly as written, no partial credit.
+Because the whole sequence can happen between two checks, the replay walks
+the 1-minute bars in order (break → flag → flag break → stop/trail) and logs
+the first complete sequence exactly as written, no partial credit.
 
 ### SPY and QQQ together (from 2026-10-27)
 
