@@ -3891,3 +3891,7 @@ ARMED (valid 11:23–11:57): E SPY short (unchanged). `ARMED E SPY long: 5-min c
 - Replay 11:59–12:09: SPY $770.99–771.60, QQQ $721.86–722.65. No line reached. No paper trades open.
 - The 12–4 PM 4-hour candle has opened at SPY $771.34; FOMC at 2 PM (unverified) lands inside it. Squeezes unchanged.
 - ARMED (valid 12:15–12:42; entries only to 1:30 because of FOMC): E SPY long $772.14–772.43, E SPY short $768.37–768.66, F QQQ long $722.86–723.15 (as at 11:44).
+
+**Setup check (12:28 PM ET): nothing fired**
+- Replay 12:15–12:24: SPY $770.85–771.63, QQQ $721.77–722.65. No line reached. No paper trades open. Volume is light (SPY 5-minute bars 26–43k) ahead of FOMC.
+- ARMED (valid 12:28–12:57): the same three lines. Entries stop at 1:30.
