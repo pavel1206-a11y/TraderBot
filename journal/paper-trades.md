@@ -3850,3 +3850,16 @@ Market data and analysis only, not investment advice.
 - Both are chopping mid-ORB: SPY $770.50 (range $770.41–771.70), QQQ $721.65 (range $722.51–724.73, just under it). No direction, so the 0DTE checklist item 1 fails. No paper trades open.
 
 ARMED/WATCH (valid 10:26–10:42): unchanged. ORB long-side watches to 11:00; E SPY short below P $768.67.
+
+**Setup check (10:47 AM ET; the :42 run fired at 10:47): nothing fired; squeeze forming**
+- Replay 10:26–10:46: SPY $770.26–771.13, QQQ $721.26–722.62. No line reached (ORB long sides, E SPY short). No paper trades open.
+- **F squeezes (since 9:53, 54 minutes):** SPY $769.74–771.13 ($1.39), QQQ $720.92–722.85 ($1.93). Both edges sit next to strong levels:
+  - SPY top = PDH $771.14 with the ORB high $771.70 above it.
+  - SPY bottom: P $768.67 is 1.2R below.
+  - So F edge entries fail the 1.5R room rule. Only the level-beyond lines stay.
+- **D:** SPY's 8 AM–12 PM candle ($769.25–771.76) is inside; no reclaim. Volume is drying up ahead of FOMC (2 PM, unverified).
+
+ARMED/WATCH (valid 10:47–11:12):
+- `WATCH ORB SPY / QQQ long side: break = 1-min close above $771.70 / $724.73 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `ARMED E SPY short: 5-min close $768.37–768.66 (below P $768.67), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average; stop = entry + $0.40; room to S1 $766.20 ≥ 1.5R`
+- `ARMED E SPY long: 5-min close $771.71–772.00 (above the ORB high / pre-market high), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ close above $722.85), QQQ above its VWAP; stop = entry − $0.40; room to R1 $772.13`: **fails room (R1 is $0.13–0.42 away), so watch only.**
