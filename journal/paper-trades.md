@@ -3844,3 +3844,9 @@ ARMED/WATCH (valid 10:02–10:27):
 - `ARMED E SPY short: 5-min close $768.37–768.66 (below P $768.67), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $719.24); stop = entry + $0.40; room to S1 $766.20 ≥ 1.5R` (E is a separate setup, not the spent ORB short)
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:26 AM ET; the :12 run fired at 10:26): nothing fired**
+- Replay 10:02–10:25: SPY $770.13–771.10, QQQ $720.92–722.85. ORB long sides ($771.70 / $724.73): not reached. E SPY short ($768.37–768.66): not reached.
+- Both are chopping mid-ORB: SPY $770.50 (range $770.41–771.70), QQQ $721.65 (range $722.51–724.73, just under it). No direction, so the 0DTE checklist item 1 fails. No paper trades open.
+
+ARMED/WATCH (valid 10:26–10:42): unchanged. ORB long-side watches to 11:00; E SPY short below P $768.67.
