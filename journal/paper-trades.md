@@ -3915,3 +3915,8 @@ ARMED (valid 12:59–13:27; entries by 1:30; time stop = the earlier of 30 minut
 - `ARMED E QQQ long: 5-min close $725.27–725.56 (above the 50-day $725.26 / R1 $724.89), same volume rule (SPY allowance: a same-bar close above $772.69); stop = entry − $0.40; room to R2 $728.52 ≥ 1.5R`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:16 PM ET): nothing fired; the 12:50 spike faded**
+- Replay 12:59–13:14: SPY high $772.66, QQQ high $723.85. The E SPY long ($772.70+) and E QQQ long ($725.27+) were not reached. The spike retraced: SPY $771.24, QQQ $722.32, back in the morning ranges.
+- Had the 12:50 SPY close been taken (at $772.69, stop $772.29), it would have stopped out at 12:55 (low $771.48). The band-skip saved a loss here, so it counts against proposal 1.
+- No paper trades open. One line window left (entries end at 1:30 for FOMC); same two lines, valid to 13:27.
