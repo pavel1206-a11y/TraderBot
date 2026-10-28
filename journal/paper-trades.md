@@ -3882,3 +3882,7 @@ ARMED (valid 11:23–11:57): E SPY short (unchanged). `ARMED E SPY long: 5-min c
 - ARMED (valid 11:44–12:12): the same two E SPY lines, plus:
   - `ARMED F QQQ long: 5-min close $722.86–723.15 (above the squeeze high $722.85), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar SPY close above $771.51); stop = the closer of midpoint $721.77 / trigger-bar low, − $0.10; room to R1 $724.89 ≥ 1.5R; measured target $726.17`
   - (Correction: a first draft said this edge had no room. R1 is about $2.00 above, enough for risk up to about $1.35.)
+
+**Setup check (11:59 AM ET): nothing fired**
+- Replay 11:44–11:54: SPY $770.94–771.64, QQQ $721.71–722.75. No line reached: E SPY long $772.14+, E SPY short ≤ $768.66, F QQQ long $722.86+ (high $722.75). No paper trades open.
+- Squeezes: SPY $769.74–771.64, QQQ $720.69–722.85. The 8 AM–12 PM 4-hour candle closes inside its range (no D). Same ARMED lines, valid to 12:27.
