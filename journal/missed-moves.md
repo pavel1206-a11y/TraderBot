@@ -260,3 +260,12 @@ Pattern for the review: proposal 1 (band) again, plus a candidate "retest of a b
 | 10:20–10:55 | +$3.17 in 35 min (765.21 → 768.38) | A higher low off $765.21, QQQ reclaiming its VWAP and ORB range (10:25–10:30, 5-min volume 1.2–2× average), then the PDH/50-day | VWAP reclaim long, or E above the PDH | No VWAP-reclaim line was armed (the :12 check never arrived; the 10:43 check armed only above R1). The E long above R1 then caught the next leg (10:54, #42). Partly traded. |
 
 Pattern: the first entry on 10/27 came from the second level (R1), not the first reclaim. The ORB flag worked on QQQ (shadow +0.74R) but was blocked by the one-trade-per-direction rule. Note for Friday: that rule cost a winner today.
+
+### 2026-10-28 (Wed, FOMC day)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 2:00–2:15 | −$2.92 (772.72 → 769.80) | FOMC release (2 PM): a spike to $772.72 then a reversal; 10-min volume 2–3× | None by design | Rule 3 (scheduled event before exit) and the 1:30 cutoff blocked entries. Correct behavior. |
+| 2:15–2:35 | +$3.55 (769.80 → 773.35) | Post-FOMC whipsaw / press conference; 10-min volume about 6× (679k), QQQ to $726.02 | None by design | Same as above, plus no new 0DTE after 2:30. |
+
+Note: the 12:50 pre-FOMC spike (+$1.49, then faded) was band-skipped and would have stopped out. The morning ORB drop (771.70 → 769.25, −$2.45) was just under the $2.50 threshold, and both ORB flags were cancelled when price closed back inside. Nothing tradeable was missed under the rules today.

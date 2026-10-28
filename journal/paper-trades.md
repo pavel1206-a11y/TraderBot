@@ -3923,3 +3923,19 @@ Market data and analysis only, not investment advice.
 
 **Setup check (1:28 PM ET): nothing fired; the entry window closes at 1:30 (FOMC)**
 - Replay 13:16–13:24: SPY $770.94–771.36, QQQ $721.88–722.58. Neither long line was reached. **No trades today**; no paper trades open. No new lines (FOMC at 2 PM, unverified, and the 0DTE window ends at 1:30). EOD close-out at 3:47.
+
+### 2026-10-28 (Wed): end of day
+- **Trades: none.** No armed line fired; no open positions. Shadow PDH sweep-and-fail put (SPY) +1R (not scored). Both ORB flag shorts (SPY, QQQ) were cancelled by a close back inside the range before triggering (0R).
+- **The day:**
+  - Both opened above their PDH and faded through it at 9:48 (ORB breaks down), then V-turned back into the range by 9:58.
+  - A tight pre-FOMC range from 10:00 to 12:50 (SPY $769.74–771.64).
+  - A 12:50 spike (+$1.49) faded.
+  - FOMC at 2 PM: whipsaw $769.80–773.35.
+  - SPY ≈ $770.86 at 3:40 (+0.16%), QQQ ≈ $723.12 (+0.26%).
+- **Lessons:**
+  - (1) The ORB flags on both symbols were cancelled within 8–10 minutes. The opening fade into the PDH was a fake move both ways.
+  - (2) The band-skip on the 12:50 spike avoided a loss (a data point against proposal 1).
+  - (3) The FOMC-day 1:30 cutoff kept us out of a $3+ whipsaw.
+- **Running totals (unchanged): 47 trades, 24W/23L (51%), +$130.10.** Options B 23 trades ≈ +$115; fractional B 22 trades +$1.29. **SPY 45 trades +$153.00; QQQ 2 trades −$22.90.** Still no A-grade trades.
+
+Market data and analysis only, not investment advice.
