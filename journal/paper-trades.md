@@ -3920,3 +3920,6 @@ Market data and analysis only, not investment advice.
 - Replay 12:59–13:14: SPY high $772.66, QQQ high $723.85. The E SPY long ($772.70+) and E QQQ long ($725.27+) were not reached. The spike retraced: SPY $771.24, QQQ $722.32, back in the morning ranges.
 - Had the 12:50 SPY close been taken (at $772.69, stop $772.29), it would have stopped out at 12:55 (low $771.48). The band-skip saved a loss here, so it counts against proposal 1.
 - No paper trades open. One line window left (entries end at 1:30 for FOMC); same two lines, valid to 13:27.
+
+**Setup check (1:28 PM ET): nothing fired; the entry window closes at 1:30 (FOMC)**
+- Replay 13:16–13:24: SPY $770.94–771.36, QQQ $721.88–722.58. Neither long line was reached. **No trades today**; no paper trades open. No new lines (FOMC at 2 PM, unverified, and the 0DTE window ends at 1:30). EOD close-out at 3:47.
