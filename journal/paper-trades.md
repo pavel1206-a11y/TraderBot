@@ -3875,3 +3875,8 @@ ARMED (valid 10:59–11:27): `E SPY short: 5-min close $768.37–768.66 (below P
 - Squeezes (90 minutes now): SPY $769.74–771.25, QQQ $720.69–722.85. No paper trades open. Pre-FOMC drift; the 0DTE window ends 1:30 (FOMC 2 PM, unverified).
 
 ARMED (valid 11:23–11:57): E SPY short (unchanged). `ARMED E SPY long: 5-min close $772.14–772.43 (above R1 $772.13), volume ≥ 1.0×, QQQ above its VWAP; stop = entry − $0.40; room to R2 $774.60 ≥ 1.5R` (room is 5R+).
+
+**Setup check (11:44 AM ET; covers the 11:31 and :42 runs): nothing fired**
+- Replay 11:23–11:39: SPY $770.77–771.51, QQQ $721.76–722.61. E SPY long ($772.14+) and E SPY short ($768.37–768.66) were not reached. No paper trades open.
+- Squeezes (about 2 hours): SPY $769.74–771.51, QQQ $720.69–722.85. The 8 AM–12 PM 4-hour candle is inside its range (no D).
+- ARMED (valid 11:44–12:12): the same two E SPY lines. The QQQ long edge ($722.86+) is only 2 points under R1/50-day ($724.89 / $725.26), so there is no room.
