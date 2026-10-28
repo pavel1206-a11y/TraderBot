@@ -3787,3 +3787,23 @@ Market data and analysis only, not investment advice.
 - **Running totals: 47 trades, 24W/23L (51%), +$130.10.** Options B 23 trades ≈ +$115; fractional B 22 trades +$1.29. **By symbol: SPY 45 trades, +$153.00; QQQ 2 trades (1W/1L), −$22.90.** Still no A-grade trades (graduation needs A-grade results).
 
 Market data and analysis only, not investment advice.
+
+### 2026-10-28 (Wed): pre-market brief (8:43 AM ET; the 8:35 routine fired at 8:42)
+- **SPY PDH $771.14 · PDL $765.21** (10/27). Pre-market **$771.33**: **above the PDH by $0.19.**
+- **QQQ PDH $722.87 · PDL $713.59** (10/27). Pre-market **$723.77**: **above the PDH by $0.90.**
+- **SPY:**
+  - Close $769.66 (official). Pivots: **P $768.67 · R1 $772.13 · R2 $774.60 · S1 $766.20 · S2 $762.74.**
+  - SMAs: 20-day $770.41, 50-day $767.53.
+  - Pre-market range $769.69–771.76 (high at 8:20).
+- **QQQ:**
+  - Close $721.25 (official). Pivots: **P $719.24 · R1 $724.89 · R2 $728.52 · S1 $715.61 · S2 $709.96.**
+  - SMAs: 20-day $733.18, 50-day $725.26.
+  - Pre-market range $723.14–725.57. (A single $720.71 print at 8:2x looks like a bad tick; ignored.)
+- **Events:** **FOMC decision today at 2 PM ET, from my earlier notes. A web search did not confirm it, so check before trusting.** MSFT/GOOGL report after the close (earlier note, not verified).
+  - Under the 0DTE rule 3, no 0DTE entry may be held into 2 PM, so the practical window is 9:45 AM–1:30 PM. A 2 PM print can flip the move.
+- **Bias: mild bullish.** Both are above their PDH pre-market after a trend day up. SPY is above the 20-day; QQQ is under R1 / the 50-day ($724.89 / $725.26).
+  - The owner's setup: a sweep above the pre-market high ($771.76 SPY / $725.57 QQQ) that fails back under the PDH ($771.14 / $722.87) = a put idea. Acceptance above SPY R1 $772.13 = calls toward R2.
+  - Support: SPY 20-day $770.41, then P $768.67.
+- **ORB (setup A):** the 9:30–9:45 candle sets the range for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
+
+Market data and analysis only, not investment advice.
