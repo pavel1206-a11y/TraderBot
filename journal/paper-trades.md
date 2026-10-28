@@ -3807,3 +3807,26 @@ Market data and analysis only, not investment advice.
 - **ORB (setup A):** the 9:30–9:45 candle sets the range for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:52 AM ET; the 9:42 run fired at 9:51): ORB ranges set; both broke down at 9:48 and are flagging**
+- **ORB (9:30–9:45):** SPY **$771.70 / $770.41**. QQQ **$724.73 / $722.51**. Both opened above their PDH (SPY $771.14, QQQ $722.87) and faded through it.
+- **Shadow PDH sweep-and-fail (SPY, not scored):** sweep to $771.70 ($0.56 past the PDH). The 9:37 red close at $770.905 was back under the PDH and under VWAP. Put: entry $770.905, stop $771.75, 1R target $770.06, **hit at 9:46: +1R.**
+- **SPY ORB short, stage 1:**
+  - 9:46 ($770.17, 42.2k) and 9:47 ($770.10, 33.5k) closed below the low without the volume (needed 51.8–52.4k).
+  - **The 9:48 close at $769.29 on 62.0k** (1.5× bar 52.4k; only 18 bars exist) is the break.
+- **SPY stage 2, flag 9:49–9:51 (3 bars):** high $769.90, low $769.25, average 43.4k, drifting up, below the ORB low.
+  - Plan if it breaks: entry about $769.10, stop $770.00 (flag high + $0.10), risk about $0.90.
+  - Reference target $768.09 (flag low − the $1.16 pole) = **reward/risk 1.1**. Pivot P $768.67 is 0.5R away. **Fails rule 7 (1.5), so not armed.** Shadow.
+- **QQQ ORB short, stage 1:** 9:45–9:47 closes below $722.51 lacked the volume (needed about 70k). **The 9:48 close at $720.46 on 98.8k** (1.5× bar 68.7k) is the break.
+- **QQQ stage 2, flag 9:49–9:51 (3 bars):** high $721.32, low $720.30, average 61.3k (lighter than the break).
+  - Plan: entry about $720.20, stop $721.42, risk about $1.22. Reference target $718.09 (pole $2.21) = reward/risk 1.7.
+  - **But pivot P $719.24 sits 0.8R away**, under the 1.5R room rule. **Not armed.** Shadow.
+- Context: FOMC 2 PM (unverified). A fade from the open on both, back under VWAP and the PDH. SPY $769.81, QQQ $721.08 (last).
+
+ARMED/WATCH (valid 9:52–10:12):
+- `WATCH ORB-FLAG SPY short (shadow, fails R/R): trigger = 1-min close $768.95–769.24 on volume > the flag average, by 11:30; stop $770.00; cancel on a 1-min close above $770.41`
+- `WATCH ORB-FLAG QQQ short (shadow, fails room to P $719.24): trigger = 1-min close $720.00–720.29 on volume > the flag average, by 11:30; stop $721.42; cancel on a close above $722.51`
+- `WATCH ORB SPY / QQQ long side: break = 1-min close above $771.70 / $724.73 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `ARMED E SPY short: 5-min close $768.37–768.66 ($0.01–0.30 below P $768.67), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $719.24); entry = close; stop = entry + $0.40; trail trigger = entry − 1.5R; room to S1 $766.20 ≥ 1.5R`
+
+Market data and analysis only, not investment advice.
