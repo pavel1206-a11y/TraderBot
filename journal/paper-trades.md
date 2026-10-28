@@ -3863,3 +3863,9 @@ ARMED/WATCH (valid 10:47–11:12):
 - `WATCH ORB SPY / QQQ long side: break = 1-min close above $771.70 / $724.73 on ≥ 1.5× the prior 20-bar volume, by 11:00`
 - `ARMED E SPY short: 5-min close $768.37–768.66 (below P $768.67), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average; stop = entry + $0.40; room to S1 $766.20 ≥ 1.5R`
 - `ARMED E SPY long: 5-min close $771.71–772.00 (above the ORB high / pre-market high), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ close above $722.85), QQQ above its VWAP; stop = entry − $0.40; room to R1 $772.13`: **fails room (R1 is $0.13–0.42 away), so watch only.**
+
+**Setup check (10:59 AM ET): nothing fired**
+- Replay 10:47–10:58: SPY $770.12–770.75, QQQ $720.90–721.94. The E SPY short ($768.37–768.66) was not reached; no ORB long break (the watch expires at 11:00, so setup A is done for the day with no trade).
+- Squeezes: SPY $769.74–771.13, QQQ $720.90–722.85 (QQQ ticked $0.02 under its low, close $721.08). No paper trades open.
+
+ARMED (valid 10:59–11:27): `E SPY short: 5-min close $768.37–768.66 (below P $768.67), volume ≥ 1.0×; stop = entry + $0.40; room to S1 $766.20 ≥ 1.5R` (unchanged). No long lines (no room under R1 $772.13).
