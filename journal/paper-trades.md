@@ -3895,3 +3895,6 @@ ARMED (valid 11:23–11:57): E SPY short (unchanged). `ARMED E SPY long: 5-min c
 **Setup check (12:28 PM ET): nothing fired**
 - Replay 12:15–12:24: SPY $770.85–771.63, QQQ $721.77–722.65. No line reached. No paper trades open. Volume is light (SPY 5-minute bars 26–43k) ahead of FOMC.
 - ARMED (valid 12:28–12:57): the same three lines. Entries stop at 1:30.
+
+**Setup check (12:44 PM ET): nothing fired**
+- Replay 12:28–12:39: SPY $770.85–771.48, QQQ $721.77–722.54. No line reached. No paper trades open. Same three lines, valid to 13:12; entries end at 1:30 (FOMC 2 PM, unverified).
