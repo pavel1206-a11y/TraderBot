@@ -3898,3 +3898,20 @@ ARMED (valid 11:23–11:57): E SPY short (unchanged). `ARMED E SPY long: 5-min c
 
 **Setup check (12:44 PM ET): nothing fired**
 - Replay 12:28–12:39: SPY $770.85–771.48, QQQ $721.77–722.54. No line reached. No paper trades open. Same three lines, valid to 13:12; entries end at 1:30 (FOMC 2 PM, unverified).
+
+**Setup check (12:59 PM ET): a breakout at 12:50, but both lines band-skipped; nothing fired**
+- **12:50–12:54 five-minute bar, a sudden push on about 5× volume:**
+  - SPY $771.20 → **close $772.69** (high $772.69), 144k (about 5× the 30k average).
+  - QQQ $721.89 → **close $723.83**, 156k.
+- E SPY long ($772.14–772.43): the close was $0.26 past the band and the bar range $1.49 > $1.00. **Not fired (band-skip).**
+- F QQQ long ($722.86–723.15): the close was $0.68 past the band and the range $2.04 > $1.00. **Not fired (band-skip).**
+- E SPY short: not reached. No paper trades open.
+- The cause isn't known from here (no news feed checked). It came an hour before the FOMC (2 PM, unverified).
+- Fourth band-skip pattern on a real breakout this month (proposal 1 for Friday).
+- Last arming before the 1:30 cutoff (FOMC). An exit must happen by 2:00, so any entry has under 30 minutes to work.
+
+ARMED (valid 12:59–13:27; entries by 1:30; time stop = the earlier of 30 minutes or 1:55):
+- `ARMED E SPY long: 5-min close $772.70–772.99 (above the 12:50 high $772.69), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close above $723.93), QQQ above its VWAP; entry = close; stop = entry − $0.40; trail trigger = entry + 1.5R; room to R2 $774.60 ≥ 1.5R`
+- `ARMED E QQQ long: 5-min close $725.27–725.56 (above the 50-day $725.26 / R1 $724.89), same volume rule (SPY allowance: a same-bar close above $772.69); stop = entry − $0.40; room to R2 $728.52 ≥ 1.5R`
+
+Market data and analysis only, not investment advice.
