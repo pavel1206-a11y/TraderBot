@@ -4028,3 +4028,7 @@ ARMED (valid 11:44–12:12): E SPY long $770.91–771.03 (room to P $771.64); E 
 - **D:** the 8 AM–12 PM candle closed with a sweep of the low and a reclaim (bullish wick). The 12–4 PM candle opened at $770.18.
 
 ARMED (valid 12:11–12:42): the same two E SPY lines (long $770.91–771.03, short $766.97–767.26).
+
+**Setup check (12:30 PM ET; covers the :12 and :27 runs): nothing fired**
+- Replay 12:11–12:29: SPY $768.81–769.58, QQQ $714.78–717.01. Neither E SPY line was reached. No paper trades open. A slow, low-volume midday (SPY 36–113k per 5 minutes).
+- Squeeze: SPY $768.68–770.76 (90 minutes); the edges still fail room. Same two E lines, valid to 12:57.
