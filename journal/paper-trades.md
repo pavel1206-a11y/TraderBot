@@ -3939,3 +3939,22 @@ Market data and analysis only, not investment advice.
 - **Running totals (unchanged): 47 trades, 24W/23L (51%), +$130.10.** Options B 23 trades ≈ +$115; fractional B 22 trades +$1.29. **SPY 45 trades +$153.00; QQQ 2 trades −$22.90.** Still no A-grade trades.
 
 Market data and analysis only, not investment advice.
+
+### 2026-10-29 (Thu): pre-market brief (8:52 AM ET; the 8:35 routine fired at 8:52)
+- **SPY PDH $773.36 · PDL $769.24** (10/28). Pre-market **$769.38**: **between them, $0.14 above the PDL** (−0.38%). The pre-market already traded under the PDL (low $768.48).
+- **QQQ PDH $726.14 · PDL $720.30** (10/28). Pre-market **$716.99**: **below the PDL by $3.31** (−1.2%). Tech is leading lower (MSFT/GOOGL reported last night; not verified).
+- **SPY:**
+  - Close $772.31 (official). Pivots: **P $771.64 · R1 $774.04 · R2 $775.76 · S1 $769.92 · S2 $767.52.**
+  - SMAs: 20-day $770.90, 50-day $767.63.
+  - Pre-market range $768.48–771.24. SPY sits below S1 and the 20-day; the 50-day is just under S2.
+- **QQQ:**
+  - Close $725.61. Pivots: **P $724.02 · R1 $727.74 · R2 $729.86 · S1 $721.90 · S2 $718.18.**
+  - SMAs: 20-day $732.48, 50-day $725.42.
+  - Pre-market range $714.98–720.18. (A $726.15 print at 8:0x looks like a bad tick; ignored.) It sits below S2 and well below both SMAs.
+- **Events:** likely the Q3 GDP advance (8:30, already out if so), AAPL/AMZN after the close. Not verified. Nothing scheduled during the session is known.
+- **Bias: bearish, tech-led.** QQQ is gapping under its PDL and S2; SPY is at its PDL.
+  - Owner's setup: a sweep of the SPY PDL ($769.24) / the pre-market low ($768.48) that reclaims = a long idea (counter-gap). A failure under $768.48 = puts toward the 50-day ($767.63) / S2 ($767.52).
+  - QQQ: a gap-fill bounce into the PDL ($720.30) that fails = a put idea.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
+
+Market data and analysis only, not investment advice.
