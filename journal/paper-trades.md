@@ -3985,3 +3985,9 @@ ARMED/WATCH (valid 10:03–10:27):
 - `WATCH ORB QQQ: break = 1-min close above $716.99 / below $711.62 on ≥ 1.5× the prior 20-bar volume, by 11:00` (then the flag per section 10; QQQ long room: the PDL $720.30 is about 3 points up)
 - `WATCH ORB SPY: short side only: close below $767.27 on ≥ 1.5× volume, by 11:00`
 - `ARMED E SPY long: 5-min close $770.91–771.03 (above the 20-day $770.90), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close above $716.99), QQQ above its VWAP; stop = entry − $0.40; room to P $771.64 ≥ 1.5R` (the band is cut to $771.03 by the room rule)
+
+**Setup check (10:26 AM ET; the :12 run fired at 10:26): nothing fired**
+- Replay 10:03–10:25: SPY $767.91–769.92, QQQ $713.78–716.905. No ORB break: QQQ stayed under $716.99 (high $716.905), and SPY's low held above $767.27. E SPY long ($770.91+): not reached.
+- Both are chopping mid-ORB around VWAP: SPY $769.26, QQQ $715.74. Direction unclear (0DTE checklist item 1 fails). No paper trades open.
+
+ARMED/WATCH (valid 10:26–10:42): unchanged. QQQ ORB both sides and SPY ORB short to 11:00; E SPY long above the 20-day.
