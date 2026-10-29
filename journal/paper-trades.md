@@ -3958,3 +3958,20 @@ Market data and analysis only, not investment advice.
 - **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:50 AM ET; the 9:42 run fired at 9:50): ORB ranges set; SPY long break cancelled at once**
+- **ORB (9:30–9:45):** SPY **$769.17 / $767.27** ($1.90). QQQ **$716.99 / $711.62** ($5.37).
+  - QQQ opened at $716.55 (gap down −1.2%, under its PDL $720.30) and dropped to $711.62, then bounced to $715.44.
+  - SPY opened at $768.79 (under its PDL $769.24) and held a $767.27 low.
+- **SPY ORB long:** the 9:45 close at $769.175 was $0.005 above the high, on 138.6k (1.5× bar 129.2k), so it counts as a break.
+  - Flag bar 1 (9:46) closed $769.35; **the 9:47 close at $768.66 was back inside, so it is cancelled.** SPY's long side is spent.
+  - The 9:45 bar also tagged the PDL ($769.24 vs high $769.23) and failed; SPY is back at $767.68.
+- **QQQ:** no 1-minute close outside the range yet. Last $712.79, sliding toward the low.
+- No paper trades open.
+
+ARMED/WATCH (valid 9:50–10:12):
+- `WATCH ORB SPY: short side only: break = 1-min close below $767.27 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `WATCH ORB QQQ: break = 1-min close above $716.99 / below $711.62 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- After a break: the 3–10 bar flag, then `ARMED ORB-FLAG` per section 10 (reward/risk ≥ 1.5, room ≥ 1.5R). SPY short room: the 50-day $767.63 is already above; S2 $767.52 is just above the ORB low; next is S3 ≈ $765.4.
+
+Market data and analysis only, not investment advice.
