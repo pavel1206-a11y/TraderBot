@@ -3975,3 +3975,13 @@ ARMED/WATCH (valid 9:50–10:12):
 - After a break: the 3–10 bar flag, then `ARMED ORB-FLAG` per section 10 (reward/risk ≥ 1.5, room ≥ 1.5R). SPY short room: the 50-day $767.63 is already above; S2 $767.52 is just above the ORB low; next is S3 $765.80.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:03 AM ET; the :57 run fired at 10:03): nothing fired; V-turn up off the lows**
+- Replay 9:50–10:02: SPY low $767.40 (9:57), no close below $767.27, so no short break. QQQ low $712.50, no close below $711.62.
+- Then a sharp turn up from 9:58: SPY $769.67 (back above the PDL $769.24 and its ORB high; the long side is already spent), QQQ $716.73 (just under its ORB high $716.99) on rising volume (88–108k).
+- No paper trades open.
+
+ARMED/WATCH (valid 10:03–10:27):
+- `WATCH ORB QQQ: break = 1-min close above $716.99 / below $711.62 on ≥ 1.5× the prior 20-bar volume, by 11:00` (then the flag per section 10; QQQ long room: the PDL $720.30 is about 3 points up)
+- `WATCH ORB SPY: short side only: close below $767.27 on ≥ 1.5× volume, by 11:00`
+- `ARMED E SPY long: 5-min close $770.91–771.03 (above the 20-day $770.90), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close above $716.99), QQQ above its VWAP; stop = entry − $0.40; room to P $771.64 ≥ 1.5R` (the band is cut to $771.03 by the room rule)
