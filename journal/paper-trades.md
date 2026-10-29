@@ -4064,3 +4064,6 @@ ARMED (valid 1:58–2:27; last arming, entries by 2:30):
 - Replay 13:58–14:14: SPY low $766.62 (13:50 bar), then a bounce to $767.79. QQQ low $712.29, no close below $711.62. Neither short line (SPY ≤ $765.79, QQQ ≤ $711.61) was reached. No paper trades open.
 - The skipped 13:50 SPY short (close $766.78, stop $767.18) would have stopped at 13:55 (high $767.31). The band-skip saved a loss again (two days running: 10/28 12:50 and 10/29 13:50). That counts against proposal 1.
 - No new lines (past 2:15). The existing shorts run to 2:27, with entries by 2:30.
+
+**Setup check (2:28 PM ET): nothing fired; entry window closed**
+- Replay 14:16–14:24: SPY $767.31–767.88, QQQ $713.01–713.70. Neither short line was reached. **No trades today**; no paper trades open. No new 0DTE entries after 2:30. EOD at 3:47.
