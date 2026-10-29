@@ -3972,6 +3972,6 @@ Market data and analysis only, not investment advice.
 ARMED/WATCH (valid 9:50–10:12):
 - `WATCH ORB SPY: short side only: break = 1-min close below $767.27 on ≥ 1.5× the prior 20-bar volume, by 11:00`
 - `WATCH ORB QQQ: break = 1-min close above $716.99 / below $711.62 on ≥ 1.5× the prior 20-bar volume, by 11:00`
-- After a break: the 3–10 bar flag, then `ARMED ORB-FLAG` per section 10 (reward/risk ≥ 1.5, room ≥ 1.5R). SPY short room: the 50-day $767.63 is already above; S2 $767.52 is just above the ORB low; next is S3 ≈ $765.4.
+- After a break: the 3–10 bar flag, then `ARMED ORB-FLAG` per section 10 (reward/risk ≥ 1.5, room ≥ 1.5R). SPY short room: the 50-day $767.63 is already above; S2 $767.52 is just above the ORB low; next is S3 $765.80.
 
 Market data and analysis only, not investment advice.
