@@ -4021,3 +4021,10 @@ ARMED (valid 11:13–11:42):
 - **D (SPY, 8 AM–12 PM candle):** sweep of the PDL / pre-market low ($767.27), then reclaim, then a structure shift above the $770.23 swing high at 11:30 (above VWAP). It was not pre-armed, and its target (the 20-day $770.90 / P $771.64) is under 1.5R from a $770.47 entry with a stop under $769.83. Logged as a phase-3 note only.
 
 ARMED (valid 11:44–12:12): E SPY long $770.91–771.03 (room to P $771.64); E SPY short ≤ $767.26. Unchanged.
+
+**Setup check (12:11 PM ET; the :57 run fired at 12:10): nothing fired**
+- Replay 11:44–12:09: SPY $768.97–770.22, QQQ $715.76–717.63. Neither E SPY line was reached (long $770.91+, short ≤ $767.26). No paper trades open.
+- **F squeeze, SPY $768.68–770.76 ($2.08, since 11:00).** Both edges sit next to levels (20-day $770.90 / P $771.64 above; S2 $767.52 / ORB low $767.27 below), so edge entries fail the 1.5R room rule. QQQ $714.45–718.07 is too wide.
+- **D:** the 8 AM–12 PM candle closed with a sweep of the low and a reclaim (bullish wick). The 12–4 PM candle opened at $770.18.
+
+ARMED (valid 12:11–12:42): the same two E SPY lines (long $770.91–771.03, short $766.97–767.26).
