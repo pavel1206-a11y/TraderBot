@@ -4015,3 +4015,9 @@ ARMED (valid 10:59–11:27): `E SPY short: 5-min close $766.97–767.26 (below t
 ARMED (valid 11:13–11:42):
 - `E SPY short` (unchanged, ≤ $767.26)
 - `ARMED E SPY long: 5-min close $770.91–771.03 (above the 20-day $770.90), bar range ≤ $1.00, volume ≥ 1.0×, QQQ above its VWAP; stop = entry − $0.40; room to P $771.64 ≥ 1.5R` (re-armed)
+
+**Setup check (11:44 AM ET; the :27 run fired at 11:43, and no :42 run arrived): nothing fired**
+- Replay 11:13–11:39: SPY high $770.76 (11:30 bar), under the E long band ($770.91+). The E short was not reached. QQQ up to $718.07. No paper trades open. (The 11:15 five-minute bar was partial in the feed: 455 shares.)
+- **D (SPY, 8 AM–12 PM candle):** sweep of the PDL / pre-market low ($767.27), then reclaim, then a structure shift above the $770.23 swing high at 11:30 (above VWAP). It was not pre-armed, and its target (the 20-day $770.90 / P $771.64) is under 1.5R from a $770.47 entry with a stop under $769.83. Logged as a phase-3 note only.
+
+ARMED (valid 11:44–12:12): E SPY long $770.91–771.03 (room to P $771.64); E SPY short ≤ $767.26. Unchanged.
