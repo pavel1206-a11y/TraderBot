@@ -4059,3 +4059,8 @@ ARMED (valid 12:11–12:42): the same two E SPY lines (long $770.91–771.03, sh
 ARMED (valid 1:58–2:27; last arming, entries by 2:30):
 - `ARMED E SPY short: 5-min close $765.50–765.79 ($0.01–0.30 below S3 $765.80), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $711.62); entry = close; stop = entry + $0.40; trail trigger = entry − 1.5R` (no mapped level below)
 - `ARMED E QQQ short: 5-min close $711.32–711.61 (below the ORB low / day low $711.62), same volume rule (SPY allowance: a same-bar close below $765.80); stop = entry + $0.40; trail trigger = entry − 1.5R` (QQQ is below all of today's pivots; no mapped level below)
+
+**Setup check (2:16 PM ET): nothing fired; the 1:50 break reversed**
+- Replay 13:58–14:14: SPY low $766.62 (13:50 bar), then a bounce to $767.79. QQQ low $712.29, no close below $711.62. Neither short line (SPY ≤ $765.79, QQQ ≤ $711.61) was reached. No paper trades open.
+- The skipped 13:50 SPY short (close $766.78, stop $767.18) would have stopped at 13:55 (high $767.31). The band-skip saved a loss again (two days running: 10/28 12:50 and 10/29 13:50). That counts against proposal 1.
+- No new lines (past 2:15). The existing shorts run to 2:27, with entries by 2:30.
