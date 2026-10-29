@@ -4035,3 +4035,6 @@ ARMED (valid 12:11–12:42): the same two E SPY lines (long $770.91–771.03, sh
 
 **Setup check (12:43 PM ET): nothing fired**
 - Replay 12:30–12:39: SPY $768.55–769.41, QQQ $714.35–715.58. Neither E SPY line was reached. SPY is drifting lower inside its squeeze ($768.55–770.76 now). No paper trades open. Same two E lines, valid to 13:12.
+
+**Setup check (12:58 PM ET): nothing fired**
+- Replay 12:43–12:54: SPY $768.73–769.26, QQQ $714.76–715.60. Neither E SPY line was reached; dead midday chop. (The 12:45 bars were partial in the feed.) No paper trades open. Same two E lines, valid to 13:27.
