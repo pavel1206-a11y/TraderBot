@@ -4053,9 +4053,9 @@ ARMED (valid 12:11–12:42): the same two E SPY lines (long $770.91–771.03, sh
 - **Replay, ARMED E SPY short ($766.97–767.26):**
   - 13:45 bar: close $767.42, above the band. Not fired.
   - **13:50 bar: close $766.78**, $0.19 below the band floor (past the $0.30 limit from $767.27). Range $0.90; volume 129k (about 2× average). **Not fired (band-skip).**
-- SPY broke the ORB low ($767.27), S2 and the 50-day on volume; QQQ broke to $712.29, under its ORB low $711.62 by the next bar? (Not yet: low $712.29.) The 1:50 move is a fresh leg down. No paper trades open.
+- SPY broke the ORB low ($767.27), S2 and the 50-day on volume; QQQ fell to $712.29, still above its ORB low $711.62. The 1:50 move is a fresh leg down. No paper trades open.
 - Fifth band-skip on a real break this month (proposal 1). This one would be a winner if it follows through (to be checked at EOD).
 
 ARMED (valid 1:58–2:27; last arming, entries by 2:30):
 - `ARMED E SPY short: 5-min close $765.50–765.79 ($0.01–0.30 below S3 $765.80), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $711.62); entry = close; stop = entry + $0.40; trail trigger = entry − 1.5R` (no mapped level below)
-- `ARMED E QQQ short: 5-min close $711.32–711.61 (below the ORB low / day low $711.62), same volume rule (SPY allowance: a same-bar close below $765.80); stop = entry + $0.40; room to the next level ≥ 1.5R (none mapped above $709.96 S2 from 10/28)`
+- `ARMED E QQQ short: 5-min close $711.32–711.61 (below the ORB low / day low $711.62), same volume rule (SPY allowance: a same-bar close below $765.80); stop = entry + $0.40; trail trigger = entry − 1.5R` (QQQ is below all of today's pivots; no mapped level below)
