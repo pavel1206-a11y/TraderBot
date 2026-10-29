@@ -4001,3 +4001,9 @@ ARMED/WATCH (valid 10:26–10:42): unchanged. QQQ ORB both sides and SPY ORB sho
 
 ARMED (valid 10:52–11:27):
 - `ARMED F SPY short: 5-min close $767.47–767.76 (below the squeeze low $767.77, just above the ORB low $767.27), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $712.50); stop = the closer of midpoint $769.00 / trigger-bar high, + $0.10; room to S3 $765.80 ≥ 1.5R; measured target $762.85`
+
+**Setup check (10:59 AM ET): nothing fired**
+- Replay 10:52–10:58: the SPY 10:50 bar dipped to $767.68 and closed at $768.39 (not in the $767.47–767.76 band). Not fired. QQQ low $712.64. No paper trades open.
+- The SPY squeeze low is now $767.68 (range $767.68–770.23, $2.55, just over the $2.50 cap). The squeeze no longer qualifies, so **the F short is cancelled.** No ORB breaks by 11:00 (setup A done).
+
+ARMED (valid 10:59–11:27): `E SPY short: 5-min close $766.97–767.26 (below the ORB low $767.27 and S2 $767.52), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $711.62); stop = entry + $0.40; room to S3 $765.80 ≥ 1.5R`
