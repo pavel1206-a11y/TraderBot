@@ -3991,3 +3991,6 @@ ARMED/WATCH (valid 10:03–10:27):
 - Both are chopping mid-ORB around VWAP: SPY $769.26, QQQ $715.74. Direction unclear (0DTE checklist item 1 fails). No paper trades open.
 
 ARMED/WATCH (valid 10:26–10:42): unchanged. QQQ ORB both sides and SPY ORB short to 11:00; E SPY long above the 20-day.
+
+**Setup check (10:40 AM ET; the :27 run fired at 10:39): nothing fired**
+- Replay 10:26–10:38: SPY $768.63–770.23, QQQ $714.64–716.81. No ORB break (QQQ high $716.81 < $716.99; SPY low > $767.27). E SPY long ($770.91+): not reached. Mid-range chop on light volume (13–55k). No paper trades open. Lines unchanged to 11:00 (ORB) / 10:57.
