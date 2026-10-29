@@ -4045,3 +4045,6 @@ ARMED (valid 12:11–12:42): the same two E SPY lines (long $770.91–771.03, sh
 **Setup check (1:28 PM ET): nothing fired**
 - Replay 13:14–13:24: SPY $768.07–769.29, QQQ $713.66–715.42. The E SPY short (≤ $767.26) was not reached. SPY closed $768.16 at 13:10, under its midday squeeze low ($768.55); no line was armed there (room to S2 / ORB low under 1.5R). No paper trades open.
 - ARMED (valid 13:28–13:57): E SPY short $766.97–767.26 (room to S3 $765.80); E SPY long $770.91–771.03. Unchanged.
+
+**Setup check (1:43 PM ET): nothing fired**
+- Replay 13:28–13:39: SPY $768.04–768.68, QQQ $714.03–714.92. Neither E SPY line was reached. No paper trades open. Same two lines, valid to 14:12 (last arming).
