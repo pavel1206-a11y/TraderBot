@@ -4007,3 +4007,11 @@ ARMED (valid 10:52–11:27):
 - The SPY squeeze low is now $767.68 (range $767.68–770.23, $2.55, just over the $2.50 cap). The squeeze no longer qualifies, so **the F short is cancelled.** No ORB breaks by 11:00 (setup A done).
 
 ARMED (valid 10:59–11:27): `E SPY short: 5-min close $766.97–767.26 (below the ORB low $767.27 and S2 $767.52), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $711.62); stop = entry + $0.40; room to S3 $765.80 ≥ 1.5R`
+
+**Setup check (11:13 AM ET): nothing fired**
+- Replay 10:59–11:09: SPY $768.19–769.83, QQQ $713.76–716.43. The E SPY short (≤ $767.26) was not reached. Both are drifting back up into the morning range. No paper trades open.
+- No squeeze (SPY $767.40–770.23 since 9:45, $2.83). The 8 AM–12 PM 4-hour candle: SPY swept the pre-market low $768.48 / PDL area to $767.27 and is back above (a possible D-long phase 2: sweep + reclaim). It still needs a structure shift above $770.23 and VWAP; the 20-day $770.90 is overhead.
+
+ARMED (valid 11:13–11:42):
+- `E SPY short` (unchanged, ≤ $767.26)
+- `ARMED E SPY long: 5-min close $770.91–771.03 (above the 20-day $770.90), bar range ≤ $1.00, volume ≥ 1.0×, QQQ above its VWAP; stop = entry − $0.40; room to P $771.64 ≥ 1.5R` (re-armed)
