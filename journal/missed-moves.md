@@ -269,3 +269,12 @@ Pattern: the first entry on 10/27 came from the second level (R1), not the first
 | 2:15–2:35 | +$3.55 (769.80 → 773.35) | Post-FOMC whipsaw / press conference; 10-min volume about 6× (679k), QQQ to $726.02 | None by design | Same as above, plus no new 0DTE after 2:30. |
 
 Note: the 12:50 pre-FOMC spike (+$1.49, then faded) was band-skipped and would have stopped out. The morning ORB drop (771.70 → 769.25, −$2.45) was just under the $2.50 threshold, and both ORB flags were cancelled when price closed back inside. Nothing tradeable was missed under the rules today.
+
+### 2026-10-29 (Thu)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:57–10:34 | +$2.83 in 37 min (767.40 → 770.23) | A double test of the ORB low ($767.27) held; QQQ V-turned off $712.50 on 90–108k one-minute bars; a reclaim of the PDL $769.24 and VWAP | A (ORB long) or a VWAP-reclaim long | SPY's ORB long side was already spent (the 9:45 break failed at 9:47). There was no VWAP-reclaim line (the 9:50 check armed only the ORB watches). The E long above the 20-day was never reached (high $770.23). |
+| 12:56–13:50 | −$3.05 in 54 min (769.67 → 766.62) | A slow bleed under the squeeze low ($768.55), then a 2× volume break of the ORB low / S2 / 50-day at 13:50 | E short below the ORB low ($766.97–767.26) | Band-skip (close $766.78, $0.19 past the band). It would have stopped at 13:55 (high $767.31) anyway, so a correct skip. |
+
+Pattern: on chop days the ORB first break failed both ways (10/28, 10/29). The real trend came later and slower. Two more band-skips (10/28 12:50, 10/29 13:50) both reversed at once, so the evidence on proposal 1 (widen the band) now leans against it.

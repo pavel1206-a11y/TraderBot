@@ -4067,3 +4067,17 @@ ARMED (valid 1:58–2:27; last arming, entries by 2:30):
 
 **Setup check (2:28 PM ET): nothing fired; entry window closed**
 - Replay 14:16–14:24: SPY $767.31–767.88, QQQ $713.01–713.70. Neither short line was reached. **No trades today**; no paper trades open. No new 0DTE entries after 2:30. EOD at 3:47.
+
+### 2026-10-29 (Thu): end of day
+- **Trades: none.** No armed line fired; no open positions. The SPY ORB long break (9:45) was cancelled at 9:47; QQQ had no ORB break; the 13:50 SPY E short band-skipped (and would have lost).
+- **The day:**
+  - A tech-led gap down (QQQ −1.2%), and SPY opened under its PDL, then the ORB-low test held and V-turned (9:57–10:34).
+  - A wide midday range: SPY $768.68–770.76 on light volume.
+  - An afternoon bleed to $766.62 (13:50) and a partial bounce.
+  - SPY ≈ $768.22 at 3:30 (−0.53%), QQQ ≈ $713.64 (−1.65%).
+- **Lessons:**
+  - (1) Two days in a row with no trades: the ORB first breaks failed, and the levels sat too close together for the room rule.
+  - (2) The band-skips protected us twice this week. Bring this to the Friday review as data against proposal 1.
+- **Running totals (unchanged): 47 trades, 24W/23L (51%), +$130.10.** Options B 23 trades ≈ +$115; fractional B 22 trades +$1.29. **SPY 45 trades +$153.00; QQQ 2 trades −$22.90.** Still no A-grade trades. Friday review tomorrow.
+
+Market data and analysis only, not investment advice.
