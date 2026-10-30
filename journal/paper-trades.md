@@ -4174,3 +4174,36 @@ ARMED (valid 10:58–11:27): E SPY long $761.47–761.76 (unchanged). No shorts 
 - Replay 11:43–11:54: SPY closes $757.38 / $757.59 / $757.57 (low $757.12, a new day low by $0.16, but no close ≤ $757.27). QQQ closes $692.98 / $693.58 / $693.42 (low $692.62; no close in $692.38–692.67). Not fired. No paper trades open.
 - A double bottom at the day lows (SPY $757.12–757.28, QQQ $692.62–692.68) on falling volume. The 8 AM–12 PM 4-hour candle closes near its low.
 - ARMED (valid 11:58–12:27): E SPY short $756.82–757.11 (below the new day low $757.12); E QQQ short $692.32–692.61; E SPY long $761.47–761.76. One short across both.
+
+**Setup check (12:18 PM ET; the :12 run fired at 12:17): SPY E short fired at 12:09 (armed, replayed); #48 and #49 opened**
+- **Replay, ARMED E SPY short ($756.82–757.11):**
+  - **12:00 bar:** close $757.04 in the band, but its range was $1.025 ($756.975–758.00), over the $1.00 cap. Not fired. (The 11:55 bar before it was partial in the feed: 43k.)
+  - **12:05 bar:** **close $757.08** in the band, range $0.38, volume 162.9k against a 161.4k prior 10-bar average = **1.01×**. QQQ below its VWAP. **Fired.**
+- **QQQ in the same bar:** close $692.51 in its band ($692.32–692.61), range $0.58. Volume 0.83×, but the allowance (≥ 0.7× with a same-bar SPY close below $757.12) applies, so it also qualified. One short across both: SPY wins (a straight 1.01× volume pass versus QQQ needing the allowance). QQQ is a shadow.
+- **Score card (E, SPY short): B.**
+  - For it: trend down (a gap-and-go, below VWAP, lower highs since 10:35); a break of the double-bottom day low ($757.12); volume ≥ 1.0×; QQQ confirming (it also broke its low).
+  - Against: a double bottom (the low was tested 3 times), month-end flows, and the move is already −1.6% (stretched).
+  - Filters clear (before 2:30, no scheduled event known).
+- **#48 (options, B, E short, armed, replayed):**
+
+  | Item | Value |
+  |---|---|
+  | Contract | SPY 10/30 756P (0DTE, 1 strike OTM) |
+  | Entry | $0.96 (12:09 bar close $0.95 + $0.01) = **$96** (under the $100 cap) |
+  | Liquidity | OI 6,111, volume 194k |
+  | Stop | SPY $757.48 (entry + $0.40) |
+  | Trail trigger | SPY $756.48 (−1.5R) |
+  | Time stop | 12:39 |
+
+- **#49 (fractional, B, E short via SH, armed, replayed):** 15 SH at $32.80 ($492).
+  - Alert stop $32.78 (≈ SPY $757.48). Risk ≈ $0.30. Out by 3:45.
+- **Play forward to 12:17:** SPY low $756.67 (12:11; the trail trigger $756.48 was not reached), high $757.34 (under the stop $757.48). Last $757.18.
+  - 756P $0.86/0.87 (−$9.50; best $1.14 at 12:11). SH $32.80 (flat).
+
+ARMED (valid 12:18–12:42):
+- **Manage #48/#49:** stop SPY $757.48; trail at ≤ $756.48 (best low + $0.40). Time stop 12:39.
+- `E SPY long $761.47–761.76` (unchanged; the opposite direction, so allowed).
+
+Running totals (closed): **47 trades, 24W/23L, +$130.10.** Open: #48, #49 (SPY).
+
+Market data and analysis only, not investment advice.
