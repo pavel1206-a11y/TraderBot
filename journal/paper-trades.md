@@ -4165,3 +4165,7 @@ ARMED (valid 10:58–11:27): E SPY long $761.47–761.76 (unchanged). No shorts 
 **Setup check (11:25 AM ET; the :12 run fired at 11:24): nothing fired**
 - Replay 10:58–11:19: SPY $758.47–760.03, QQQ $694.85–697.00. Neither E SPY line was reached (long $761.47+, short ≤ $757.27). No paper trades open. Drifting lower again below VWAP.
 - Same two E SPY lines, valid to 11:57.
+
+**Setup check (11:43 AM ET): nothing fired**
+- Replay 11:25–11:39: SPY low $757.76 (11:35 bar, close $757.84), still above the day low $757.28, so the E SPY short ($756.98–757.27) was not reached. QQQ $693.37 (day low $692.68). Grinding lower toward the lows. No paper trades open.
+- ARMED (valid 11:43–12:12): E SPY short $756.98–757.27; E QQQ short $692.38–692.67 (re-armed, below its day low $692.68; one short across both); E SPY long $761.47–761.76.
