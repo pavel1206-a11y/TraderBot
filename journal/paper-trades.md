@@ -4103,3 +4103,16 @@ Market data and analysis only, not investment advice.
 - Friday: the weekly review and graduation check at EOD.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:42 AM ET): ORB forming (to 9:41)**
+- **SPY:** opened at $761.41 (gap −1.0%), low $759.45 (9:36), now $760.54. Forming ORB **$761.46 / $759.45** ($2.01).
+- **QQQ:** opened at $697.21 (gap −2.5%), low $694.05 (9:35), now $696.14. Forming ORB **$697.43 / $694.05** ($3.38).
+- Both made a quick lower low, then a bounce into mid-range. No paper trades open. The final ORB will be the 9:30–9:44 high/low (set at 9:45).
+- Pre-market levels: SPY pre-market high $763.76 / low $760.91, S3 $762.92. QQQ pre-market high $703.38 / low $696.37.
+
+ARMED/WATCH (valid 9:45–10:12):
+- `WATCH ORB SPY: break = 1-min close above / below the final 9:30–9:45 high / low (now $761.46 / $759.45) on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `WATCH ORB QQQ: break = 1-min close above / below the final 9:30–9:45 high / low (now $697.43 / $694.05) on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- Then the 3–10 bar flag, then `ARMED ORB-FLAG` (section 10), with reward/risk ≥ 1.5 and room ≥ 1.5R. Long room: SPY S3 $762.92 and the pre-market high $763.76 above. Short room: no mapped level below SPY $759.45.
+
+Market data and analysis only, not investment advice.
