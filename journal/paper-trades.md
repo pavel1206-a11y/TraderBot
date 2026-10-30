@@ -4125,3 +4125,23 @@ ARMED/WATCH (valid 9:57–10:27):
 - `WATCH ORB SPY: break = 1-min close above $761.46 / below $759.45 on ≥ 1.5× the prior 20-bar volume, by 11:00`
 - `WATCH ORB QQQ: break = 1-min close above $697.43 / below $694.05 on ≥ 1.5× the prior 20-bar volume, by 11:00`
 - (Flag → ORB-FLAG per section 10. Long room: SPY S3 $762.92 / pre-market high $763.76; QQQ pre-market high $703.38.)
+
+**Setup check (10:28 AM ET; the :12 run fired at 10:27): both ORB lows broke; no valid flag entry; nothing fired**
+- **QQQ ORB long:** closes above $697.43 at 9:58–10:06 (high $698.63) were all under the 1.5× volume bar (64–91k vs 100–118k), so no break. It failed back into the range.
+- **SPY ORB short:**
+  - **Break at 10:10** (close $759.36, 79.5k vs 73.4k needed).
+  - What followed was a slow grind lower, not a flag. 10:11–10:21 drifted *with* the break ($759.59 → $758.08), so it is not "tight or counter-drift".
+  - The mechanical scan finds 10:12–10:21 as a 10-bar window and a 10:22 close at $757.82 ($0.26 under) on 91k. But the stop would be $759.20 (risk $1.38), and the reference target (flag low − the $1.37 pole) gives reward/risk 1.0 (< 1.5).
+  - **Not armed / not a trade.** Shadow only. SPY last $757.62 (low $757.28).
+- **QQQ ORB short:**
+  - **Break at 10:21** (close $693.93, 94.1k vs 92.3k needed).
+  - Flag forming 10:22–10:27: $692.68–693.97, so far heavy (89–120k).
+  - With a flag-high stop about $1.4 away and a $1.37 pole, reward/risk is about 0.9, so it fails rule 7. Watch only.
+- Trend: a gap-and-go lower, both below VWAP and making lower highs. SPY −1.5%, QQQ −3.1%. No paper trades open.
+
+ARMED (valid 10:28–10:57; one short across SPY/QQQ, first to fire):
+- `ARMED E SPY short: 5-min close $756.98–757.27 (below the day low $757.28), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close below $692.68), QQQ below its VWAP; entry = close; stop = entry + $0.40; trail trigger = entry − 1.5R` (no mapped level below)
+- `ARMED E QQQ short: 5-min close $692.38–692.67 (below the day low $692.68), same rule (SPY allowance: a same-bar close below $757.28); stop = entry + $0.40; trail trigger = entry − 1.5R`
+- `WATCH ORB-FLAG QQQ short (fails R/R as of now; re-check if the flag tightens): flag $692.68–693.97, by 11:30`
+
+Market data and analysis only, not investment advice.
