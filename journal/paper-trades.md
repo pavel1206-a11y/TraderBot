@@ -4216,3 +4216,8 @@ Market data and analysis only, not investment advice.
 - Day 10/30: one option loss (−$20.00). The two-loss rule is not hit.
 
 ARMED (valid 12:30–12:57): manage #49 (alert $32.78, time stop 12:39). E SPY long $761.47–761.76. No new short lines this window (trade rule 5: no revenge trade right after a loss).
+
+**Setup check (12:43 PM ET): #49 closed on the time stop; two losses, so done for the day**
+- **#49 (15 SH):** no −1.5R by 12:39, so the 30-minute time stop applied. **Exit SH $32.789** (12:39 close). $32.80 → $32.789: **−$0.16.** (The SH alert at $32.78 would have hit at 12:40 anyway.)
+- **Day 10/30:** #48 −$20.00, #49 −$0.16 = **−$20.16. Two losses, so per the two-loss rule no more paper entries today.** The armed E SPY long is cancelled. Checks continue for the record only.
+- Running totals: **49 trades, 24W/25L (49%), +$109.94.** Options B 24 trades ≈ +$95; fractional B 23 trades +$1.13. SPY 47 trades +$132.84; QQQ 2 trades −$22.90.
