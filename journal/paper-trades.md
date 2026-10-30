@@ -4116,3 +4116,12 @@ ARMED/WATCH (valid 9:45–10:12):
 - Then the 3–10 bar flag, then `ARMED ORB-FLAG` (section 10), with reward/risk ≥ 1.5 and room ≥ 1.5R. Long room: SPY S3 $762.92 and the pre-market high $763.76 above. Short room: no mapped level below SPY $759.45.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:57 AM ET): ORB final; no break**
+- **ORB final (9:30–9:45):** SPY **$761.46 / $759.45**; QQQ **$697.43 / $694.05**.
+- Since 9:45: SPY $759.75–760.70, QQQ $695.24–697.24. No 1-minute close outside either range. Both are chopping mid-range on fading volume after the gap. No paper trades open.
+
+ARMED/WATCH (valid 9:57–10:27):
+- `WATCH ORB SPY: break = 1-min close above $761.46 / below $759.45 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `WATCH ORB QQQ: break = 1-min close above $697.43 / below $694.05 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- (Flag → ORB-FLAG per section 10. Long room: SPY S3 $762.92 / pre-market high $763.76; QQQ pre-market high $703.38.)
