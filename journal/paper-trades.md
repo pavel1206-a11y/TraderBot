@@ -4161,3 +4161,7 @@ ARMED/WATCH (valid 10:43–11:12):
 
 ARMED (valid 10:58–11:27): E SPY long $761.47–761.76 (unchanged). No shorts (the short sides were cancelled; no new level below until the day low $757.28).
 - `ARMED E SPY short: 5-min close $756.98–757.27 (below the day low $757.28), volume ≥ 1.0×; stop = entry + $0.40` (re-armed; this is E, not the spent ORB short)
+
+**Setup check (11:25 AM ET; the :12 run fired at 11:24): nothing fired**
+- Replay 10:58–11:19: SPY $758.47–760.03, QQQ $694.85–697.00. Neither E SPY line was reached (long $761.47+, short ≤ $757.27). No paper trades open. Drifting lower again below VWAP.
+- Same two E SPY lines, valid to 11:57.
