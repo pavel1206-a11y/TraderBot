@@ -4207,3 +4207,12 @@ ARMED (valid 12:18–12:42):
 Running totals (closed): **47 trades, 24W/23L, +$130.10.** Open: #48, #49 (SPY).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:30 PM ET; the late :27 run): #48 stopped out; #49 still open**
+- **#48 (756P):** SPY traded to $757.548 at 12:28, through the $757.48 stop. **Exit SPY $757.48; the option at $0.76** (the 12:28 bar's low/close). **−$20.00** on $96 (−21%). The best was $1.14 at 12:11; the trail trigger ($756.48) was missed by $0.19 (low $756.67).
+- **#49 (15 SH):** the alert is on SH at $32.78. SH low $32.785 at 12:28, not touched. Still open at $32.785 (−$0.23). The time stop is 12:39 (30 minutes, no −1.5R).
+- Third test of the day low failed to break. SPY $757.53, QQQ back above its low.
+- Running totals: **48 closed trades, 24W/24L (50%), +$110.10.** Options B 24 trades ≈ +$95; fractional B 22 trades +$1.29 (#49 open). SPY 46 trades +$133.00; QQQ 2 trades −$22.90.
+- Day 10/30: one option loss (−$20.00). The two-loss rule is not hit.
+
+ARMED (valid 12:30–12:57): manage #49 (alert $32.78, time stop 12:39). E SPY long $761.47–761.76. No new shorts (one short already taken today and lost; no re-entry within the hour, no revenge).
