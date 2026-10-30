@@ -4215,4 +4215,4 @@ Market data and analysis only, not investment advice.
 - Running totals: **48 closed trades, 24W/24L (50%), +$110.10.** Options B 24 trades ≈ +$95; fractional B 22 trades +$1.29 (#49 open). SPY 46 trades +$133.00; QQQ 2 trades −$22.90.
 - Day 10/30: one option loss (−$20.00). The two-loss rule is not hit.
 
-ARMED (valid 12:30–12:57): manage #49 (alert $32.78, time stop 12:39). E SPY long $761.47–761.76. No new shorts (one short already taken today and lost; no re-entry within the hour, no revenge).
+ARMED (valid 12:30–12:57): manage #49 (alert $32.78, time stop 12:39). E SPY long $761.47–761.76. No new short lines this window (trade rule 5: no revenge trade right after a loss).
