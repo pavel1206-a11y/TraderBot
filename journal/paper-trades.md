@@ -4081,3 +4081,25 @@ ARMED (valid 1:58–2:27; last arming, entries by 2:30):
 - **Running totals (unchanged): 47 trades, 24W/23L (51%), +$130.10.** Options B 23 trades ≈ +$115; fractional B 22 trades +$1.29. **SPY 45 trades +$153.00; QQQ 2 trades −$22.90.** Still no A-grade trades. Friday review tomorrow.
 
 Market data and analysis only, not investment advice.
+
+### 2026-10-30 (Fri): pre-market brief (8:49 AM ET; the 8:35 routine fired at 8:48)
+- **SPY PDH $770.76 · PDL $766.62** (10/29). Pre-market **$761.43**: **below the PDL by $5.19** (−1.0%).
+- **QQQ PDH $718.07 · PDL $711.62** (10/29). Pre-market **$697.30**: **below the PDL by $14.32** (−2.5%). A big tech gap (likely AAPL/AMZN reaction last night; not verified).
+- **SPY:**
+  - Close $769.36. Pivots: P $768.91 · R1 $771.21 · R2 $773.05 · **S1 $767.07 · S2 $764.77 · S3 $762.92.**
+  - SMAs: 20-day $771.16, 50-day $767.63. Pre-market range $760.91–763.76.
+  - **Gapping under S3 and the 50-day.**
+- **QQQ:**
+  - Close $715.34. Pivots: P $715.01 · S1 $711.95 · S2 $708.56 · S3 $705.50.
+  - SMAs: 20-day $731.14, 50-day $725.41. Pre-market range $696.37–703.38.
+  - **Gapping about $8 under S3.**
+- **Events:** month-end Friday (possible rebalancing flows into the close). Earnings reactions are driving the move. No known scheduled release during the session (not verified; PCE/employment-cost data sometimes lands on the last Friday at 8:30).
+- **Bias: bearish (gap and go) but stretched.** A gap this size often sees an early bounce attempt.
+  - Owner's setup: no PDH/PDL sweep is possible near the open (both are far above). The ORB is the main tool.
+  - A failed bounce into SPY S3 ($762.92) / the pre-market high ($763.76) = a put idea.
+  - A hold above the pre-market high = a gap-fill bounce toward S2 ($764.77).
+  - Wide ranges: expect a large ORB (QQQ especially). The 0DTE premium cap ($100) may limit QQQ strikes.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
+- Friday: the weekly review and graduation check at EOD.
+
+Market data and analysis only, not investment advice.
