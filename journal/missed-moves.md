@@ -278,3 +278,14 @@ Note: the 12:50 pre-FOMC spike (+$1.49, then faded) was band-skipped and would h
 | 12:56–13:50 | −$3.05 in 54 min (769.67 → 766.62) | A slow bleed under the squeeze low ($768.55), then a 2× volume break of the ORB low / S2 / 50-day at 13:50 | E short below the ORB low ($766.97–767.26) | Band-skip (close $766.78, $0.19 past the band). It would have stopped at 13:55 (high $767.31) anyway, so a correct skip. |
 
 Pattern: on chop days the ORB first break failed both ways (10/28, 10/29). The real trend came later and slower. Two more band-skips (10/28 12:50, 10/29 13:50) both reversed at once, so the evidence on proposal 1 (widen the band) now leans against it.
+
+### 2026-10-30 (Fri, gap-and-go down, trend day)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:55–10:25 | −$4.11 in 30 min (761.39 → 757.28) | A failed push at the ORB high; 1-min close below the ORB low ($759.45) at 10:10 on 1.08× the bar needed; QQQ broke its ORB low at 10:21; both below VWAP | A (ORB flag short) | No flag: the move ground lower with the break (not tight or counter-drift), and the 10-bar window gave reward/risk 1.0 (< 1.5). The 9:57 check armed only the ORB watches, no E line below the ORB low. |
+| 10:25–10:45 | +$3.12 in 20 min (757.28 → 760.40) | A double low at $757.28/757.53 on 5-min volume of 400k (≈1.3×), QQQ held $692.68; a squeeze back inside both ORBs | D long (sweep and reclaim) or a VWAP-reclaim long | D needed a shift above the ORB high $761.46 (high $760.40, not reached). No VWAP-reclaim line armed (same gap as 10/29). |
+| 12:45–1:35 | −$2.75 (757.39 → 754.64) | Break of the triple-tested day low ($756.67) at 12:45 on 1.2× volume; QQQ broke $691.54 same bar | E short below the day low | Blocked by the two-loss rule (#48/#49 lost by 12:43). Correct by the rules. |
+| 1:45–2:30 | −$4.92 in 45 min (755.45 → 750.53) | Continuation: lower highs, 5-min volume 1.3–2.5× (to 517k), QQQ leading | E short | Same: two-loss rule. Correct by the rules. |
+
+Pattern: #48 (E short 12:09, stop $757.48) was stopped by $0.07 at 12:28, then the trend leg ran −$7 without us. The stop sat exactly at noise under a level tested three times. Data point for proposal 2 (swing stop), but a stop over the 12:00 high ($758.00) would also have been touched at 12:40 ($758.01) without a few cents of buffer. Second day in a row with no VWAP-reclaim line after an opening flush that V-turned.

@@ -4221,3 +4221,51 @@ ARMED (valid 12:30–12:57): manage #49 (alert $32.78, time stop 12:39). E SPY l
 - **#49 (15 SH):** no −1.5R by 12:39, so the 30-minute time stop applied. **Exit SH $32.789** (12:39 close). $32.80 → $32.789: **−$0.16.** (The SH alert at $32.78 would have hit at 12:40 anyway.)
 - **Day 10/30:** #48 −$20.00, #49 −$0.16 = **−$20.16. Two losses, so per the two-loss rule no more paper entries today.** The armed E SPY long is cancelled. Checks continue for the record only.
 - Running totals: **49 trades, 24W/25L (49%), +$109.94.** Options B 24 trades ≈ +$95; fractional B 23 trades +$1.13. SPY 47 trades +$132.84; QQQ 2 trades −$22.90.
+
+### 2026-10-30 (Fri): end of day
+- **Trades (armed, replayed; both closed intraday, none open):** #48 SPY E short 756P $0.96 → $0.76 (stop), **−$20.00**; #49 SH $492 (time stop), **−$0.16**. **Day −$20.16** (2 losses, so the two-loss rule ended trading at 12:43).
+- **The day:**
+  - A gap-and-go lower: SPY opened at $761.41 (−1.0%), QQQ at $697.21 (−2.5%).
+  - Both ORB lows broke (SPY 10:10, QQQ 10:21), but neither formed a valid flag (reward/risk 1.0 / 0.9). The low came at $757.28 (10:25), then a squeeze back inside the ORB by 10:35 cancelled both shorts.
+  - Midday: three tests of the $757.1–757.3 low.
+  - Our 12:09 E short was right on direction, but a 12:28 poke to $757.55 stopped it by $0.07. The real breakdown started at 12:45: $758.01 → $750.36 (2:50), a −$7.6 trend leg we were locked out of.
+  - SPY ≈ $753.3 at 3:45 (about −2.1%), QQQ ≈ $687.8 (about −3.8%).
+- **Lessons:**
+  - (1) A tight $0.40 stop under a triple-tested level got shaken out just before the move (more data for proposal 2). A stop above the 12:00 swing high ($758.00) would also have been touched at 12:40 ($758.01) without a buffer, though, so this does not settle it.
+  - (2) On gap-and-go trend days, the ORB flag rarely gives 1.5R because the pole is short and the flag drifts with the trend.
+- **Running totals: 49 trades, 24W/25L (49%), +$109.94.** Options B 24 trades ≈ +$95; fractional B 23 trades +$1.13. **SPY 47 trades +$132.84; QQQ 2 trades −$22.90.** Still no A-grade trades.
+
+## Weekly review: 2026-10-26 to 10-30 (playbook section 8)
+
+| Day | Trades | Result | Notes |
+|---|---|---|---|
+| Mon 10/26 | 0 | $0 | Trend-start break skipped the band and the $1.00 cap; shadow PDH sweep −1R |
+| Tue 10/27 | 6 (3 signals) | +$9.76 | 5W/1L by entry: E longs ×2 won (+$20, +$12 options); QQQ F short time-stopped (−$23) |
+| Wed 10/28 | 0 | $0 | FOMC day; ORB flags cancelled; 1:30 cutoff kept us out of the whipsaw |
+| Thu 10/29 | 0 | $0 | ORB long spent early; band-skip on 13:50 short (would have lost) |
+| Fri 10/30 | 2 (1 signal) | −$20.16 | E short stopped by $0.07, then a −$7.6 trend leg after the two-loss stop |
+| **Week** | **8** | **−$10.40** | 5W/3L by entry; options −$11.00, fractional +$0.60; all B grade |
+
+- **Per setup (this week):**
+  - E momentum longs: 2/2 won.
+  - Shorts: F (10/27) and E (10/30) both lost, and on both the counter-move hit the stop within 20–30 minutes.
+  - **ORB flag (A, new this week): 0 entries in 5 days.**
+    - Shadows: QQQ long 10/27 +0.74R (blocked by one trade per direction); SPY short 10/27 reward/risk 1.3.
+    - 10/28 and 10/29: cancels (closes back inside the range).
+    - 10/30: both shorts failed reward/risk (1.0 / 0.9).
+    - The 1.5R gate plus the strict flag shape filtered out everything. Too early to judge the setup; keep tracking the shadows.
+- **By grade:** all 49 paper trades are B grade. No A-grade sample exists.
+- **Rule breaks:** none found. Every entry came from an armed line, replayed as written. The two-loss rule ended 10/30 and the FOMC cutoff held on 10/28. One wording slip, citing a non-existent "no re-entry within the hour" rule, was corrected the same check to trade rule 5.
+- **Band-skip evidence (proposal 1):** 10/26 skip was a real move. 10/28 12:50 and 10/29 13:50 skips both reversed (would have lost). Mixed, now leaning against widening.
+
+**Graduation check (CLAUDE.md):** at least 10 paper trades ✓ (49). A-grade trades profitable ✗: **no A-grade trades exist**, so the criterion cannot be met. **Not passed**: keep paper trading. Note for the owner: under the current score card the A grade has not appeared in 5 weeks. Graduation as written may need either a review of how A is scored or a decision on B-grade results (B overall: 49 trades, +$109.94, mostly from options).
+
+**Proposals for the owner (unchanged, none applied; no playbook change without an OK):**
+1. **Close band $0.30 vs wider:** this week's evidence leans against widening (2 of 3 skips reversed).
+2. **Swing stop, minimum $0.40:** 10/30 #48 was stopped by $0.07 before a −$7 leg. A swing-high stop needed a buffer of a few cents to survive. Needs a backtest.
+3. **Trail 1R vs 1.5R:** keep 1R (the 10/27 trails locked +1.5R and +1.0R).
+4. **D reward/risk to the level beyond:** no new samples this week.
+5. **New: one trade per direction across SPY/QQQ** cost the QQQ ORB-flag winner on 10/27 (+0.74R shadow). Option: allow the second symbol when it is a different setup. Small sample.
+6. **New: ORB flag gate.** 0 entries in 5 days. Option: measure reward to the next mapped level (or 2× pole) instead of a 1× pole, or accept a counter-drift flag of 2–3 bars. Backtest on the shadows first.
+
+Market data and analysis only, not investment advice.
