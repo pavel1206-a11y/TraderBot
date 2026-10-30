@@ -4145,3 +4145,12 @@ ARMED (valid 10:28–10:57; one short across SPY/QQQ, first to fire):
 - `WATCH ORB-FLAG QQQ short (fails R/R as of now; re-check if the flag tightens): flag $692.68–693.97, by 11:30`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:43 AM ET): nothing fired; sharp reversal up; both ORB shorts cancelled**
+- Replay 10:28–10:39: the SPY low held at $757.28 (lowest 5-minute close $757.53 at 10:20, before arming) and the QQQ low held at $692.68. Neither E short ($756.98–757.27 / $692.38–692.67) was reached.
+- Then a squeeze up: SPY closed at $759.46 (10:35), back inside its ORB (above $759.45), so **the SPY ORB short is cancelled**. QQQ closed at $696.73, back inside (above $694.05), so **the QQQ ORB short is cancelled**. Both short sides are spent. No paper trades open.
+- The 8 AM–12 PM 4-hour candle is a possible **D long**: sweep of the pre-market low ($760.91) / ORB low to $757.28, then a reclaim of the ORB low. It needs a structure shift above $761.46 (the ORB high) and VWAP.
+
+ARMED/WATCH (valid 10:43–11:12):
+- `WATCH ORB SPY / QQQ long side: break = 1-min close above $761.46 / $697.43 on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `ARMED E SPY long: 5-min close $761.47–761.76 (above the ORB high), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close above $697.43), QQQ above its VWAP; stop = entry − $0.40; room to S3 $762.92 ≥ 1.5R`
