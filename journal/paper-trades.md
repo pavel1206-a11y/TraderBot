@@ -4289,3 +4289,25 @@ Market data and analysis only, not investment advice.
 - First day under the six owner-approved changes (see strategies/changelog.md).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:08 AM ET; the 9:57 run fired at 10:08; no 9:42 check arrived): SPY ORB long broke and flagged, but failed reward/risk; nothing fired**
+- **ORB final (9:30–9:45):** SPY **$760.01 / $758.73** ($1.28); QQQ **$695.96 / $693.31** ($2.65).
+- **SPY ORB long (shadow, not a trade):**
+  - **Break at 9:47:** 1-min close $760.285 on 106.3k vs 70.7k needed (2.3× the prior bars).
+  - **Flag 9:50–9:59:** $759.90–760.56, light volume (37k average), all closes above the ORB high.
+  - **Flag break at 10:00 (the ISM candle):** close $760.64, $0.08 past the flag high, on 60.9k (1.6× the flag average).
+  - Stop $759.80 (flag low − $0.10) = risk $0.84. The next mapped level is **R1/PDH $761.33–761.46**, only $0.69 away = **0.8R**, under 1.5 (the new rule measures reward to that level). **Not a trade.**
+- **QQQ:** no ORB break either way (closes $693.86–695.69). QQQ is lagging SPY, chopping around its VWAP (≈ $694.9).
+- **4H (8 AM–12 PM):** opened $758.48, low $758.21 (the pre-market low $758.14 held, no sweep), now pushing up to $760.72. No D setup.
+- **Squeeze (F):** SPY $758.73–760.72 since 9:30 (38 minutes, not yet 45). QQQ $693.31–695.96.
+- No paper trades open. SPY $760.28, above its VWAP; QQQ $694.87, at its VWAP.
+
+ARMED/WATCH (valid 10:08–10:27):
+- `ARMED E SPY long: 5-min close $761.47–761.76 above the PDH/R1 cluster (or up to $762.21 if volume ≥ 1.2× and QQQ closes above its ORB high $695.96 on the same bar), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with a same-bar QQQ close above $695.96), QQQ above its VWAP; stop = farther of the trigger bar's low − $0.10 and the last 5-min swing low − $0.05, at least $0.40; trail trigger = entry + 1.5R; next level R2 $766.95`
+- `ARMED E SPY short: 5-min close $758.43–758.72 below the ORB low (extended to $757.98 on ≥ 1.2× volume and a same-bar QQQ close below $693.31), same bar/volume rules, QQQ below its VWAP; stop = farther of the trigger bar's high + $0.10 and the last swing high + $0.05, at least $0.40; next level pivot $755.85`
+- `ARMED E QQQ short: 5-min close $693.01–693.30 below its ORB low, same rules (SPY allowance: a same-bar close below $758.73); next level pivot $690.86`. Same setup as the SPY short, so if both fire, the higher score wins.
+- `WATCH ORB SPY long: a new 2–10 bar flag above $760.01 whose break leaves ≥ 1.5R to the next level (realistically only once above $761.46, with R2 $766.95 next), by 11:30; a 1-min close below $760.01 cancels it.` `WATCH ORB SPY short / QQQ both sides: 1-min break of $758.73 / $695.96 / $693.31 on ≥ 1.5× by 11:00.`
+
+Running totals (unchanged): **49 trades, 24W/25L (49%), +$109.94.**
+
+Market data and analysis only, not investment advice.
