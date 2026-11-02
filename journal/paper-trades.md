@@ -4418,3 +4418,29 @@ ARMED (valid 12:14–12:42):
 Running totals (unchanged): **50 trades, 24W/26L (48%), +$109.36.**
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:38 PM ET; the stale 11:42 run fired at 12:38): SPY F short fired at 12:20 (armed, replayed); #51/#52 opened; trail already started**
+- **Replay, `ARMED F SPY short` ($759.27–759.56):**
+  - 12:10 bar close $759.80, 12:15 bar close $759.86: inside the range.
+  - **12:20 bar: close $759.44** in the band, range $0.675. Volume 83.0k vs a 104.9k prior 10-bar average = **0.79×**. The **0.7× allowance applies**: QQQ closed $692.96, below its $693.21 squeeze low, on the same bar. **Fired.**
+- `F QQQ short`: the same 12:20 bar closed $692.96 in its band, but its range was $1.17 (over $1.00). Not fired, and it is the same setup as SPY anyway. `F SPY long`: not reached.
+- **Score card (F, SPY short): B.**
+  - For it: below a falling VWAP, lower highs since 10:28; the 8–12 4H closed as a bearish Power of 3 (PDH sweep); QQQ breaking down first (its ORB low and squeeze low); a 55-minute squeeze.
+  - Against: light volume (passed only on the allowance); lunch hour; SPY still above Friday's close.
+  - 0DTE checklist: direction ✓ (below a falling VWAP), candles ✓ (lower highs/lows plus a close through the range low), news ✓ (no event before the exit; AAPL after the close), risk ✓ (below).
+- **#51 (options, B, F short, replayed):** SPY 11/2 **758P** (2 strikes OTM; the 759P cost $1.10 = $110, over the cap).
+  - Entry **$0.74** (12:24 close $0.73 + $0.01) = **$74**.
+  - Stop SPY **$760.01** (breakout bar high $759.91 + $0.10; the midpoint $760.18 is farther), risk $0.57 on SPY.
+  - Trail trigger SPY $758.585 (−1.5R). Target $757.13 (4.0R).
+- **#52 (fractional, B, F short via SH, replayed):** 15 SH at $32.71 ($490.65). Alert stop **$32.69** (≈ SPY $760.01), risk ≈ $0.30.
+- **Play forward to 12:37:** SPY low **$758.27** (12:35). The trail trigger $758.585 was hit at 12:30, so the trail is on: **stop now SPY $759.125** (best $758.27 + 1.5R $0.855; at least break-even). High since entry $759.545 (12:25, under the $760.01 stop).
+  - 758P $1.15 (**+$41**, best $1.22); SH $32.745 (+$0.53).
+
+ARMED (valid 12:38–12:57):
+- **Manage #51/#52:** trail stop SPY $759.125, lowered as SPY makes new lows (best low + $0.855). SH alert moves with it (now ≈ $32.705). Target SPY $757.13. The time stop no longer applies (+1.5R was reached).
+- `ARMED F SPY long: 5-min close $760.80–761.09 above $760.79 (the opposite direction is allowed), same rules as 12:14; target $763.23`
+- No new short lines: one short is open, and QQQ's F short is the same setup.
+
+Running totals (closed, unchanged): **50 trades, 24W/26L (48%), +$109.36.** Open: #51, #52.
+
+Market data and analysis only, not investment advice.
