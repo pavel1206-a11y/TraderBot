@@ -4364,3 +4364,22 @@ ARMED/WATCH (valid 10:33–10:57):
 Running totals (closed, unchanged): **49 trades, 24W/25L (49%), +$109.94.** Open: #50.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:18 AM ET; the 10:57 run fired at 11:18; no 10:42 run arrived): #50 stopped out; the breakout failed**
+- **#50 (0.6548 SPY, ORB-flag long):** the 10:30 bar traded to $762.64, through the $762.72 alert stop. **Exit $762.72: −$0.58.** Best was $763.855 (10:28, +0.29R); the trail trigger $764.92 was never reached. (The skipped 764C would have lost about $40 of its $146.)
+- **Replay, `WATCH D SPY short`:**
+  - The failed breakout came: a close back under $761.46 at 10:55 ($760.99), after the shift below the last higher low ($762.275) at 10:50.
+  - Under the new D rule, the next level (ORB high $760.01) was within 0.5R of a stop over the sweep high ($763.96; risk $2.97), so reward is measured to the next level, the ORB low $758.73: 0.76R, under 1.5. **Not a trade** (it was a WATCH line, not armed).
+- **QQQ:** back inside its ORB ($694.61 < $695.96), so the QQQ ORB long is cancelled. Both are now **below VWAP** (SPY $760.50 vs $761.34; QQQ $694.61 vs $695.88), making lower highs since 10:28.
+- **4H (8–12):** a sweep of the PDH/pre-market high to $763.86 and back under the PDH: a **Power of 3 bearish distribution** in progress. The 12–4 candle is next.
+- **Squeeze (F):** SPY $760.40–762.49 since 10:50 (28 minutes, not yet 45).
+- Day: one loss (#50, −$0.58). No paper trades open.
+
+ARMED (valid 11:18–11:42):
+- `ARMED E SPY short: 5-min close $758.43–758.72 below the ORB low (extended to $757.98 on ≥ 1.2× volume and a same-bar QQQ close below $693.31), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with that QQQ close), QQQ below VWAP; swing stop (farther of the bar high + $0.10 and the last swing high + $0.05, at least $0.40); fires only if reward/risk to the pivot $755.85 is ≥ 1.5 at the close`
+- `ARMED E QQQ short: 5-min close $693.01–693.30 below its ORB low, same rules (SPY allowance: same-bar close below $758.73); R/R ≥ 1.5 to the pivot $690.86.` Same setup as the SPY short: the higher score wins.
+- `ARMED VWAP reclaim long SPY: (1) a 5-min close above VWAP + $0.10 (≈ $761.45) with QQQ also above its VWAP, then (2) the first bar within 30 min whose low holds ≥ VWAP − $0.05 and closes green; entry = bar (2) close; stop = its low − $0.10; R/R ≥ 1.5 to the day high $763.86.`
+
+Running totals: **50 trades, 24W/26L (48%), +$109.36.** Options B 24 trades ≈ +$95; fractional B 24 trades +$0.55. SPY 48 trades +$132.26; QQQ 2 trades −$22.90.
+
+Market data and analysis only, not investment advice.
