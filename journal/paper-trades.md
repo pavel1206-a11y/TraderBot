@@ -4269,3 +4269,23 @@ ARMED (valid 12:30–12:57): manage #49 (alert $32.78, time stop 12:39). E SPY l
 6. **New: ORB flag gate.** 0 entries in 5 days. Option: measure reward to the next mapped level (or 2× pole) instead of a 1× pole, or accept a counter-drift flag of 2–3 bars. Backtest on the shadows first.
 
 Market data and analysis only, not investment advice.
+
+### 2026-11-02 (Mon): pre-market brief (9:00 AM ET; the 8:35 routine fired at 9:00)
+(Clocks fell back on 11/1: ET is now UTC−5. Robinhood bar times are UTC.)
+- **SPY PDH $761.46 · PDL $750.36** (10/30). Pre-market **$759.72**: **between, $1.74 under the PDH**, $9.36 above the PDL.
+- **QQQ PDH $698.63 · PDL $683.45** (10/30). Pre-market **$696.17**: **between, $2.46 under the PDH**, $12.72 above the PDL.
+- **SPY:**
+  - Close $755.72. Pivots: S3 $739.14 · S2 $744.75 · **S1 $750.23** · **P $755.85** · **R1 $761.33** · R2 $766.95 · R3 $772.44.
+  - SMAs: 20-day $770.47, 50-day $767.49 (both well above; downtrend). Pre-market range $758.14–760.17.
+  - **Resistance cluster $761.33–761.46** (R1 + PDH, also Friday's ORB high). Support: the pivot $755.85 / Friday close.
+- **QQQ:**
+  - Close $690.49. Pivots: S2 $675.68 · **S1 $683.08** · **P $690.86** · **R1 $698.26** · R2 $706.04.
+  - SMAs: 20-day $728.19, 50-day $725.00. Pre-market range $694.49–698.00 (the 4 AM push to $698.00 was rejected under R1/PDH).
+- **Events:** first business day, so **ISM Manufacturing is likely at 10:00 AM** (not confirmed): treat 10:00-candle triggers with care (news factor). **AAPL and PLTR report after the close** (after our exits; no effect on entries). News feed unavailable (Alpha Vantage limit); not checked.
+- **Bias: none (bounce inside a downtrend).** A +0.5% / +0.8% gap up after Friday's −2% / −3.5% day, with price still under both SMAs.
+  - Owner's setup: a sweep of the SPY PDH $761.46 (or QQQ PDH $698.63) that fails back under = a put idea. A sweep of the PDL is too far away to matter early.
+  - Holding above $761.46 with QQQ above $698.63 = a squeeze toward R2. A loss of the pivot ($755.85) = a gap fill and a retest of Friday's selling.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30. Reward is now measured to the next mapped level (2× pole if none), and a 2-bar counter-drift flag counts (2026-11-02 changes).
+- First day under the six owner-approved changes (see strategies/changelog.md).
+
+Market data and analysis only, not investment advice.
