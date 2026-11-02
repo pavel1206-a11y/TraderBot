@@ -4471,3 +4471,5 @@ ARMED (valid 1:14–1:42):
 Running totals: **52 trades, 26W/26L (50%), +$226.86.**
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:28 PM ET): nothing fired.** Replay 1:10–1:24: SPY $758.43–759.39 (no close below $756.87, none above VWAP $760.39); QQQ $691.17–692.40 (VWAP $694.41). A tight drift under VWAP on falling volume. A possible F range ($758.43–759.39 since 1:10) becomes valid at 1:55. No paper trades open. Lines unchanged (valid to 1:57): the E SPY short below $756.87 (R/R ≥ 1.5 gate) and the SPY VWAP reclaim long (needs QQQ above its VWAP).
