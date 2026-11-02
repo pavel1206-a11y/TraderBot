@@ -4461,3 +4461,13 @@ ARMED (valid 1:03–1:27):
 - No long lines: both are below a falling VWAP, and the squeeze ranges are gone.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:14 PM ET): nothing fired.** Replay 1:00–1:09: SPY bounced from the $756.87 low to $759.32 (no close below $756.87). SPY $759.13 (VWAP $760.45), QQQ $692.03 (VWAP $694.50); a bounce under a falling VWAP. 4H (12–4): opened $760.00, low $756.87, now mid-range. No squeeze (SPY range $756.87–759.32 is 25 minutes old). No paper trades open. Day +$116.92.
+
+ARMED (valid 1:14–1:42):
+- `ARMED E SPY short: 5-min close $756.57–756.86 below the day low, same rules as 1:03; fires only if R/R to the pivot $755.85 is ≥ 1.5 at the close`
+- `ARMED VWAP reclaim long SPY: (1) a 5-min close above VWAP + $0.10 (≈ $760.55) with QQQ also above its VWAP (≈ $694.50), then (2) a hold bar within 30 min; stop = its low − $0.10; R/R ≥ 1.5 to $763.86.` (QQQ is $2.5 below its VWAP, so unlikely.)
+
+Running totals: **52 trades, 26W/26L (50%), +$226.86.**
+
+Market data and analysis only, not investment advice.
