@@ -4473,3 +4473,5 @@ Running totals: **52 trades, 26W/26L (50%), +$226.86.**
 Market data and analysis only, not investment advice.
 
 **Setup check (1:28 PM ET): nothing fired.** Replay 1:10–1:24: SPY $758.43–759.39 (no close below $756.87, none above VWAP $760.39); QQQ $691.17–692.40 (VWAP $694.41). A tight drift under VWAP on falling volume. A possible F range ($758.43–759.39 since 1:10) becomes valid at 1:55. No paper trades open. Lines unchanged (valid to 1:57): the E SPY short below $756.87 (R/R ≥ 1.5 gate) and the SPY VWAP reclaim long (needs QQQ above its VWAP).
+
+**Setup check (1:42 PM ET): nothing fired.** Replay 1:25–1:39: SPY low $757.92 (no close below $756.87; nowhere near VWAP). QQQ slipped under its pivot to $690.09 (a new day low; SPY did not follow). SPY range $757.92–759.39 since 1:10 (35 min). No paper trades open. ARMED (valid to 2:12): the E SPY short below $756.87 (R/R ≥ 1.5 gate, now to the pivot $755.85 with the swing high $758.60 + $0.05 as the stop, so about 0.5R: effectively off). Nothing else qualifies; entries close at 2:30.
