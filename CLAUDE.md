@@ -135,8 +135,20 @@ with the trade plan. Any "no" means no trade.
 
 ### Standing rules
 
-_None yet. The owner may add rules here, e.g. "raise stop to 3% below the
-highest close, never lower it"._
+- **Playbook tuning (owner, 2026-11-02):** Claude may change
+  `strategies/playbook.md` on its own to improve results (setup triggers,
+  bands, volume bars, stops, targets, trails, flags, filters, and adding or
+  dropping setups), without asking first, under these limits:
+  - Evidence first: a replay or backtest (at least 20 sessions, or the
+    journal's own signals) shows the change beats the current rule, and it
+    is not fitted to a single day.
+  - One change per setup at a time, so each result can be measured; log it
+    in `strategies/changelog.md` and report it in that day's EOD and the
+    Friday review. Revert it if it underperforms after 10 signals or 2 weeks.
+  - **Not covered** (still the owner's call): anything in this file, i.e.
+    the account, risk rules, loss limits, position caps, option premium caps,
+    0DTE rules, the paper-trading phase and graduation, and confirmation of
+    orders. Tuning never makes a trade larger or riskier than these allow.
 
 ## Journal
 

@@ -74,7 +74,8 @@ itself is **not** the entry; it only tells us which way to look.
    range on **high volume**: at least **1.5×** the average of the prior 20
    one-minute bars. No entry on this bar.
 3. **Wait for the flag:** after the break, price pauses for **3–10 one-minute
-   bars** in a tight range or a small drift against the break, on lighter
+   bars** in a tight range or a small drift against the break (a **2-bar**
+   flag also counts if both bars drift against the break; 2026-11-02), on lighter
    volume, and **stays outside the ORB range** (a 1-min close back inside the
    range cancels the setup for that side). Flag high/low = the high/low of
    those pause bars.
@@ -85,10 +86,13 @@ itself is **not** the entry; it only tells us which way to look.
 5. **Stop:** the other side of the flag ($0.10 beyond the flag low for a
    long, flag high for a short), never closer than **$0.30** to the entry.
 6. **Target:** trail trigger at **+1.5R**, then the section 7 trailing exit
-   (trail on 1-min closes for this setup). Reference target: the flag break +
-   the height of the pole (the move from the ORB edge to the flag's extreme).
-7. One long and one short setup per symbol per day. Reward/risk ≥ 1.5 to the
-   next strong level and a B or better on the score card, as for every setup.
+   (trail on 1-min closes for this setup). Reference target (owner-approved
+   2026-11-02, replacing the flag break + 1× pole): the **next mapped level**
+   beyond the entry; if none is mapped, the flag break + **2× the pole** (the
+   pole is the move from the ORB edge to the flag's extreme). (10/27–10/30:
+   the 1× pole gate passed no entries in 5 days.)
+7. One long and one short setup per symbol per day. Reward/risk ≥ 1.5 to that
+   reference target and a B or better on the score card, as for every setup.
 
 ### B. VWAP Pullback (trend continuation)
 - **Setup:** a clear trend (ADX above 20, EMAs stacked). Price pulls back to
@@ -141,6 +145,11 @@ manipulation; trade the distribution.
 - **Stop:** beyond the sweep extreme, plus about $0.10 on SPY.
 - **Target:** the other side of the 4H range, or the next strong level.
   Reward/risk at least 1.5.
+- **Level just ahead (owner-approved 2026-11-02):** if the next strong level
+  is within **0.5R** of the entry, measure reward to the level **after** it,
+  and enter only on a 5-min close through that first level (that close is the
+  entry; the stop stays beyond the sweep extreme). (10/23: a D long skipped at
+  0.4R to the PDL ran +$4.3 through it.)
 - **Score it:** the sweep and reclaim count as the key-level factor. The VWAP
   requirement is met once price **reclaims VWAP** in the new direction; until
   then it is not an entry.
@@ -168,8 +177,12 @@ of the move, not the middle of it.
   level, or the first pullback to the 9 EMA that holds, whichever comes first.
 - **Don't chase:** skip it if price is already more than **$1.50** past the
   breakout level, or already at the next strong level.
-- **Stop:** beyond the breakout candle's low (bullish) or high (bearish),
-  plus about $0.10.
+- **Stop (swing stop, owner-approved 2026-11-02):** the farther of (a) the
+  breakout candle's low (bullish) or high (bearish) plus $0.10 and (b) the
+  last 5-min swing low/high before the trigger plus **$0.05**, but never
+  closer than **$0.40** to the entry. Reward/risk and the trail are measured
+  from this stop; size the fractional leg so risk stays within 5%. (10/30:
+  the fixed $0.40 stop on #48 was hit by $0.07 just before a −$7 leg.)
 - **Target:** the next strong level. Reward/risk at least 1.5, as always.
 - **Example (2026-10-01):** the 1:20 PM candle closed back above the broken
   $762.2–762.7 zone and VWAP on about 2× volume, QQQ ripping. Entry ~$763.70,
@@ -239,8 +252,9 @@ Skip the day or the setup if any of these apply:
   - Option up 60%: raise the stop to lock in about +30%.
   - **Trailing exit (owner's method, 2026-10-21; replaces the fixed 1.5R /
     +50% sale of 2026-10-08):** do **not** sell at +1.5R on SPY. When SPY
-    first reaches +1.5R, the stop jumps to **1R behind the best SPY price
-    since entry** (so at least +0.5R is locked), then follows that best
+    first reaches +1.5R, the stop jumps to **1.5R behind the best SPY price
+    since entry** (break-even at the trigger; widened from 1R on 2026-11-02,
+    owner-approved), then follows that best
     price up (longs) or down (shorts), never moving back. Exit when SPY
     trades through the trailing stop, or at the hard exit. Before +1.5R the
     normal stop and the 30-minute time stop apply. For a real option, keep a
@@ -297,6 +311,15 @@ Every weekend, from `../journal/trades.md`:
 - Rule breaks: which rules were broken, and what they cost.
 - Keep what works, cut what doesn't, and update this playbook.
 
+### Ongoing tuning (owner's standing rule, 2026-11-02)
+
+Claude keeps improving the playbook on its own, within the limits in
+CLAUDE.md "Standing rules". Every change is logged in `changelog.md` with
+the date, what changed, why, and the evidence. Each change is judged after
+at least 10 signals or 2 weeks: keep it if it beats the old rule on the same
+signals (replayed), revert it if not. The Friday review lists every change
+made that week and its result so far.
+
 ## 9. Fractional share trades (dollar-based)
 
 A second, lower-risk way to trade the same confluence signals: buy a dollar
@@ -333,7 +356,7 @@ fast for alert-based stops.
 - **Reward/risk at least 1.5:** the next key level must be at least 1.5× as
   far as the stop, or skip the trade.
 - **Exit: the trailing exit** (section 7, 2026-10-21): at +1.5R the alert
-  stop moves to 1R behind the best SPY price and follows it; out on the
+  stop moves to 1.5R behind the best SPY price and follows it; out on the
   trail, or by 3:45 PM.
 
 ### Same-day only
@@ -411,9 +434,17 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
   The 2026-10-08 replay (6 days) favored $0.10, but the 198-session backtest
   (`../journal/backtests/2026-10-20-bar-range-cap.md`) gave +18.2R at $0.30
   vs +10.8R at $0.10, positive in both halves of the year, and trend days
-  (10/14, 10/16) kept closing past the $0.10 band. A close past the band is
-  still a miss. B (VWAP pullback) lines have **no** close cap; instead, write
+  (10/14, 10/16) kept closing past the $0.10 band.
+  **Extended band (owner-approved 2026-11-02):** an E or F close from $0.31
+  up to **$0.75** past the level also fires when the trigger bar's volume is
+  at least **1.2×** the prior 10-bar average **and** QQQ closes through its
+  own matching level on the same bar (no 0.7× allowance here). This matches
+  setup F's $0.75 entry rule. A close past the band is still a miss. B (VWAP pullback) lines have **no** close cap; instead, write
   the line so that it fires only if reward/risk at the actual close is ≥ 1.5.
+- **Stops on E and F lines:** the swing stop from setup E (2026-11-02):
+  farther of the breakout bar's far end + $0.10 and the last 5-min swing +
+  $0.05, at least $0.40 from entry. F keeps its own stop rule but never
+  closer than $0.40.
 - **Trigger-bar range:** E and F lines skip a trigger bar whose high–low range
   is over **$1.00** (no chasing big bars). Kept on 2026-10-20: in the same
   backtest every higher cap lowered the result (no cap: the extra big-bar
@@ -429,7 +460,7 @@ Each check replays **1-minute** bars (`get_equity_historicals`
 interval=minute) for setup A and tracks it for SPY and QQQ in stages:
 
 - **Before the break:** `WATCH ORB <SPY|QQQ>: break = 1-min close above $H / below $L (the 9:30–9:45 high/low) on ≥ 1.5× the prior 20-bar volume, by 11:00` (no entry; it starts the flag watch).
-- **After the break:** find the flag (3–10 one-minute bars outside the range), then `ARMED ORB-FLAG <SPY|QQQ> <long/short>: trigger = 1-min close $0.01–0.30 beyond the flag high/low $F on volume above the flag bars' average, by 11:30; entry = trigger close; stop = other side of the flag ∓ $0.10 (≥ $0.30); trail trigger = entry ± 1.5R; cancel if a 1-min bar closes back inside the ORB range`.
+- **After the break:** find the flag (3–10 one-minute bars outside the range, or 2 counter-drift bars), then `ARMED ORB-FLAG <SPY|QQQ> <long/short>: trigger = 1-min close $0.01–0.30 beyond the flag high/low $F on volume above the flag bars' average, by 11:30; entry = trigger close; stop = other side of the flag ∓ $0.10 (≥ $0.30); trail trigger = entry ± 1.5R; cancel if a 1-min bar closes back inside the ORB range`.
 
 Because the whole sequence can happen between two checks, the replay walks
 the 1-minute bars in order (break → flag → flag break → stop/trail) and logs
@@ -438,10 +469,16 @@ the first complete sequence exactly as written, no partial credit.
 ### SPY and QQQ together (from 2026-10-27)
 
 - Every check scores and arms **both** SPY and QQQ (at most 3 lines each).
-- **One trade per direction:** SPY and QQQ move together, so a long on both
-  at once is the same bet twice. If both fire the same way at the same time,
-  take the one with the higher score (a tie goes to the one that fired first).
-  Opposite directions are allowed.
+- **One trade per direction, per setup:** SPY and QQQ move together, so the
+  same setup firing the same way on both is the same bet twice. If both fire
+  the same setup the same way, take the one with the higher score (a tie goes
+  to the one that fired first). Opposite directions are allowed.
+- **Different setups may both trade (owner-approved 2026-11-02):** a second
+  symbol may open in the same direction when it comes from a **different
+  setup** (e.g. QQQ ORB flag while SPY holds an E long), as long as the
+  CLAUDE.md caps hold: at most 3 open positions and 20% total open risk per
+  track (paper option and fractional legs are separate tracks). (10/27: the
+  rule blocked a QQQ ORB-flag winner, +0.74R shadow.)
 - QQQ options: QQQ has daily expirations; same section 6 rules (at the money
   or 1–2 strikes out, premium ≤ $100). Fractional: QQQ (long) / PSQ (short).
 - The scoreboard tracks SPY and QQQ separately, and options and fractional
