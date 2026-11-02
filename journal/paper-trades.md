@@ -4383,3 +4383,18 @@ ARMED (valid 11:18–11:42):
 Running totals: **50 trades, 24W/26L (48%), +$109.36.** Options B 24 trades ≈ +$95; fractional B 24 trades +$0.55. SPY 48 trades +$132.26; QQQ 2 trades −$22.90.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:36 AM ET; the :12 run fired at 11:36): nothing fired**
+- Replay 11:15–11:34: SPY low $759.80 (no close at or under $758.72); QQQ closes $693.87 / $693.66 (low $693.44, still above its ORB low $693.31; no close in $693.01–693.30); SPY never closed above VWAP ($761.20). Not fired. No paper trades open.
+- Both are basing just above/at the ORB area: SPY $760.49 (VWAP $761.20, sloping down), QQQ $694.57 (VWAP $695.67).
+- **4H (8–12):** distribution leg down from the $763.86 sweep; low so far $759.80 (the morning low $758.21 untouched).
+- **Squeeze (F), forming:** SPY $759.80–761.88 since 10:55 (40 minutes; becomes valid at 11:40 if held). QQQ $693.44–696.49 (over $2.50).
+
+ARMED (valid 11:36–11:57):
+- `ARMED E SPY short: 5-min close $758.43–758.72 below the ORB low (extended to $757.98 on ≥ 1.2× volume + a same-bar QQQ close below $693.31), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with that QQQ close), QQQ below VWAP; swing stop (≥ $0.40); fires only if R/R to the pivot $755.85 is ≥ 1.5 at the close`
+- `ARMED E QQQ short: 5-min close $693.01–693.30 below its ORB low, same rules (SPY allowance: same-bar close below $758.73); R/R ≥ 1.5 to the pivot $690.86.` Higher score wins if both fire.
+- `ARMED F SPY long/short (from 11:40, if the $759.80–761.88 range holds 45 min): 5-min close outside it on ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ break), QQQ breaking the same way, entry within $0.75 of the edge; stop = range midpoint or the breakout bar's far end (closer) + $0.10, at least $0.40; target = edge ± 2× height ($4.16)`. A long above $761.88 also reclaims VWAP; a short below $759.80 overlaps the ORB-low short (one short).
+
+Running totals (unchanged): **50 trades, 24W/26L (48%), +$109.36.**
+
+Market data and analysis only, not investment advice.
