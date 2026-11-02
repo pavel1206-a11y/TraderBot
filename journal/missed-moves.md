@@ -289,3 +289,13 @@ Pattern: on chop days the ORB first break failed both ways (10/28, 10/29). The r
 | 1:45–2:30 | −$4.92 in 45 min (755.45 → 750.53) | Continuation: lower highs, 5-min volume 1.3–2.5× (to 517k), QQQ leading | E short | Same: two-loss rule. Correct by the rules. |
 
 Pattern: #48 (E short 12:09, stop $757.48) was stopped by $0.07 at 12:28, then the trend leg ran −$7 without us. The stop sat exactly at noise under a level tested three times. Data point for proposal 2 (swing stop), but a stop over the 12:00 high ($758.00) would also have been touched at 12:40 ($758.01) without a few cents of buffer. Second day in a row with no VWAP-reclaim line after an opening flush that V-turned.
+
+### 2026-11-02 (Mon, gap-up breakout fails at the PDH, afternoon trend down)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:05–10:28 | +$3.81 (760.05 → 763.86) | A tight ORB-high hold after a 2.3× ORB break; 5-min close through the PDH/R1 cluster ($761.46) at 10:10 on 229.7k; QQQ lagging, then breaking its PDH at 10:21 | E long above the PDH | The 10:10 trigger bar's range was $1.11 (cap $1.00); the 10:15 bar closed $0.90 past (beyond even the new extended band). The ORB flag caught only the end (#50 at 10:26, stopped). |
+| 10:28–11:30 | −$4.06 (763.86 → 759.80) | The PDH breakout failed: a close back under $761.46 at 10:55 after the shift below the higher low (10:50); QQQ back inside its ORB | D short (Power of 3) | The new D rule measured reward past the ORB high ($760.01, within 0.5R) to the ORB low: 0.76R. The stop over the sweep high ($2.97 risk) is too wide for this setup's room. |
+| 1:10–2:30 | −$5.33 in 80 min (759.39 → 754.06) | Lower highs under a falling VWAP; QQQ leading to new lows; a 5-min close below the day low at 2:00 on 1.87× | E short below the day low | Blocked by the new swing stop: the stop had to sit over the last swing high (≥ $758.39), so reward to the pivot was 0.47R. The old $0.40 stop would have been 2.0R; SPY fell another $3.55. |
+
+Pattern: on a day with a strong level fail (PDH sweep), the moves that followed were trend legs that our room/stop gates filtered out. Two of today's three misses came from the new R/R measurements (changes 2 and 4), not from timing.

@@ -12,3 +12,13 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 | 2026-11-02 | 4. Setup D: next level within 0.5R → measure to the level after it, enter on the close through the first | Owner | 10/23 D long skipped at 0.4R ran +$4.3 | Pending |
 | 2026-11-02 | 5. SPY/QQQ: same direction allowed when the setups differ, within the 3-position and 20% caps | Owner | 10/27 QQQ ORB-flag winner blocked (+0.74R shadow) | Pending |
 | 2026-11-02 | 6. ORB flag: reference target = next mapped level, else 2× pole; 2-bar counter-drift flags count | Owner | 0 ORB entries 10/27–10/30 under the 1× pole gate | Pending |
+
+## Observations (not verdicts yet)
+
+- **2026-11-02 (day 1 of the six changes):**
+  - Change 1 (extended band): not tested; the 10:15 SPY close was $0.90 past, beyond $0.75.
+  - Change 2 (swing stop): **one signal against.** The 2:00 E short passed every trigger condition but failed R/R with the swing stop (0.47R); with the old $0.40 stop it was 2.0R and SPY fell $3.55 more. Track: count E/F signals the swing stop blocks vs the losses it prevents.
+  - Change 3 (1.5R trail): #51 exited at its target before the trail mattered (a 1R trail would have exited at $757.725, the target at $757.13). Neutral.
+  - Change 4 (D reward to the next level): the 10:55 D short was still skipped (0.76R); price fell $4. Neutral to slightly against (the old rule skipped it too).
+  - Change 5 (different setups per direction): QQQ's A long was the same setup as SPY's, so not tested.
+  - Change 6 (ORB reference target): #50 passed under both the old and new rule; the 10:00 flag break failed under both. Neutral.

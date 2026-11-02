@@ -4482,3 +4482,23 @@ Market data and analysis only, not investment advice.
 - **2:00 bar:** close **$756.66** (in $756.57–756.86), range $0.73, volume **1.87×** (195.0k vs 104.3k), QQQ below VWAP. All trigger conditions met except the written gate: the swing stop sits over the last swing high (≥ $758.39; the highs had stepped down from $759.39 with no lower pivot), risk ≥ $1.73, reward to the pivot $755.85 = $0.81 → **0.47R < 1.5. Not a trade.**
 - After: SPY low $756.03 (2:05), now $756.55; QQQ $687.89 (low $687.11). SPY fell $3.36 from the 1:10 high (a missed-move candidate for the EOD review).
 - No paper trades open. No new lines (arming ends at 2:15; entries close at 2:30). Day +$116.92.
+
+### 2026-11-02 (Mon): end of day
+- **Trades (all armed/watched lines, replayed; all closed intraday, none open):**
+
+  | # | Setup | Leg | Result |
+  |---|---|---|---|
+  | #50 | SPY A (ORB flag) long 10:26, $763.60 | fractional (option over the cap, skipped) | stop $762.72, **−$0.58** |
+  | #51 | SPY F (squeeze) short 12:25, $759.44 | 758P $0.74 → $1.90 | target $757.13, **+$116.00** |
+  | #52 | same | 15 SH $32.71 → $32.81 | target, **+$1.50** |
+
+  **Day +$116.92** (options +$116.00, fractional +$0.92). 2W/1L.
+- **The day:** a gap up into Friday's PDH/R1 and a breakout to $763.86 by 10:28. It failed back under the PDH by 10:55 (a bearish Power of 3 on the 8–12 4H). Then a midday squeeze broke lower at 12:20 (#51), and an afternoon trend down to $753.11 (2:50). SPY ≈ $752.70 at 3:45 (−0.4%), QQQ ≈ $681.24 (−1.3%; tech led lower, AAPL reports tonight).
+- **Lessons:**
+  - (1) The first ORB-flag entry under the new reward rule lost a small amount; the breakout failed at the PDH. A breakout through a big level late in a gap move needs more than one flag.
+  - (2) The F squeeze short with the 0.7× QQQ allowance paid 4R+ (the option leg +157%).
+  - (3) The 2:00 E short was blocked by the new swing stop (0.47R to the pivot); the old $0.40 stop would have given 2.0R, and SPY then fell $3.55 to $753.11. One data point against change 2 (see the changelog).
+- **Running totals: 52 trades, 26W/26L (50%), +$226.86.** Options B 25 trades ≈ +$211; fractional B 25 trades +$2.05. **SPY 50 trades +$249.76; QQQ 2 trades −$22.90.** Still no A-grade trades.
+- **Playbook tuning:** none today. One day is not enough evidence under the standing rule (20+ sessions or the journal's own signals); observations logged in `strategies/changelog.md`.
+
+Market data and analysis only, not investment advice.
