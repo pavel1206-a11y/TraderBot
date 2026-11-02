@@ -4446,3 +4446,18 @@ Running totals (closed, unchanged): **50 trades, 24W/26L (48%), +$109.36.** Open
 Market data and analysis only, not investment advice.
 
 **Setup check (12:45 PM ET; the stale 12:12 run): #51/#52 still open, trail lowered.** SPY made new lows to **$757.62** (12:44) without touching the trail (highs since 12:38 ≤ $758.64 vs the $759.125 stop). **Trail now SPY $758.475** (best $757.62 + $0.855; locks about +1.1R). Target $757.13 is $0.55 away. SH $32.775 (+$0.98 on 15). Lines unchanged.
+
+**Setup check (1:03 PM ET; the 12:57 run fired at 1:03): #51/#52 hit the target at 12:46**
+- **#51/#52 replay:** SPY kept falling: $757.17 (12:45), then **$756.915 at 12:46, through the $757.13 target** (the measured move, 2× the squeeze height). The trail ($758.475, then lower) was never touched first.
+  - **#51 (758P):** exit at about **$1.90** (12:46 bar: open $1.85 at SPY $757.25, high $2.07; $1.90 taken as the fill at $757.13). $0.74 → $1.90 = **+$116.00** (+157%).
+  - **#52 (15 SH):** exit **$32.81** (12:46 close). $32.71 → $32.81 = **+$1.50**.
+  - Check on the trail instead of the target: the low was $756.87 (12:47), so the trail would have been $757.725 and hit at 12:49 (high $758.03). The target exit was better by $0.60 on SPY.
+- After: SPY bounced to $758.85 (12:50) and sits at $758.25; QQQ near its lows. Both below VWAP.
+- **Day 11/2:** #50 −$0.58, #51 +$116.00, #52 +$1.50 = **+$116.92** (2W/1L).
+- **Running totals: 52 trades, 26W/26L (50%), +$226.86.** Options B 25 trades ≈ +$211; fractional B 25 trades +$2.05. **SPY 50 trades +$249.76; QQQ 2 trades −$22.90.**
+
+ARMED (valid 1:03–1:27):
+- `ARMED E SPY short: 5-min close $756.57–756.86 below the day low $756.87, bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ new low), QQQ below VWAP; swing stop (≥ $0.40); fires only if R/R to the pivot $755.85 is ≥ 1.5 at the close` (unlikely with the swing high at $758.85; logged for the record)
+- No long lines: both are below a falling VWAP, and the squeeze ranges are gone.
+
+Market data and analysis only, not investment advice.
