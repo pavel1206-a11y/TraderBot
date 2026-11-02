@@ -4311,3 +4311,26 @@ ARMED/WATCH (valid 10:08–10:27):
 Running totals (unchanged): **49 trades, 24W/25L (49%), +$109.94.**
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:20 AM ET; the :12 run fired at 10:20): SPY broke the PDH/R1 cluster, but no armed line fired**
+- **Replay, ARMED E SPY long ($761.47–761.76):**
+  - **10:10 bar:** close **$761.53** in the band, volume 229.7k, but its range was **$1.11** ($760.54–761.65), over the $1.00 cap. **Not fired.**
+  - **10:15 bar:** close $762.36, $0.90 past the PDH, beyond even the extended band ($762.21). **Not fired.**
+  - So SPY ran through $761.46 to $762.42 without an entry (a range-cap skip, then a band miss).
+- **E SPY / QQQ shorts:** never close to the trigger (SPY low since 10:08 $760.05). Dropped.
+- **QQQ ORB long:** closes above $695.96 from 10:12 ($696.00–697.18), but every bar was under the 1.5× volume bar (84–87k vs 102–103k needed). **No ORB break on volume yet**, and QQQ now trades $1.08 above the range.
+- **SPY ORB long:** no new flag; 10:14–10:19 are trend bars straight up (every close higher), not a pause.
+- **4H (8 AM–12 PM):** a push up from $758.21 through the pre-market high ($760.17) and the PDH to $762.42. If it fails back under $761.46, it becomes a **D (Power of 3) short** sweep. Otherwise it is a real breakout.
+- **Squeeze (F):** none (SPY left its range).
+- No paper trades open. SPY $762.36, QQQ $697.04, both above VWAP; trend day: not yet (10:30 call).
+
+ARMED/WATCH (valid 10:20–10:42):
+- `ARMED C SPY long (retest of the PDH $761.46): a 5-min bar with low $761.16–761.70 that closes green at ≥ $761.56, volume ≥ 1.0× the prior 10-bar average, QQQ above its VWAP; entry = close; stop = retest low − $0.15 (≥ $0.30); trail trigger = entry + 1.5R; next level R2 $766.95`
+- `WATCH ORB SPY long: a 2–10 bar flag above $761.46 (2-bar if counter-drift), then a 1-min close $0.01–0.30 above the flag high on volume above the flag average, by 11:30; stop = flag low − $0.10 (≥ $0.30); target R2 $766.95; a 1-min close below $760.01 cancels.`
+- `ARMED E QQQ long: 5-min close $698.64–698.93 above its PDH/R1 ($698.26–698.63) (extended to $699.38 on ≥ 1.2× volume and a same-bar SPY close above $762.42), bar range ≤ $1.00 (QQQ bars run wider; the cap stands), volume ≥ 1.0× (or ≥ 0.7× with that SPY close); swing stop, at least $0.40; next level R2 $706.04.`
+- `WATCH D SPY short: a 5-min close back below $761.46 (the sweep failing), then a close below the last higher low (now ≈ $760.54) = entry; stop = sweep high + $0.10.`
+- `WATCH ORB QQQ long: the next 1-min close above $695.96 on ≥ 1.5× the prior 20-bar volume, by 11:00 (QQQ is already $1 above; a flag would come from there).`
+
+Running totals (unchanged): **49 trades, 24W/25L (49%), +$109.94.**
+
+Market data and analysis only, not investment advice.
