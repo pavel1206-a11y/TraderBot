@@ -4398,3 +4398,5 @@ ARMED (valid 11:36–11:57):
 Running totals (unchanged): **50 trades, 24W/26L (48%), +$109.36.**
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:40 AM ET; the stale 10:42 run): nothing fired.** 11:35 bar: SPY close $760.02 (low $759.855), QQQ $693.81. No band reached. The SPY squeeze ($759.80–761.88) is now 45 minutes old, so the F lines from 11:36 are live. Lines unchanged; no paper trades open.
