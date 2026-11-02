@@ -4444,3 +4444,5 @@ ARMED (valid 12:38–12:57):
 Running totals (closed, unchanged): **50 trades, 24W/26L (48%), +$109.36.** Open: #51, #52.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:45 PM ET; the stale 12:12 run): #51/#52 still open, trail lowered.** SPY made new lows to **$757.62** (12:44) without touching the trail (highs since 12:38 ≤ $758.64 vs the $759.125 stop). **Trail now SPY $758.475** (best $757.62 + $0.855; locks about +1.1R). Target $757.13 is $0.55 away. SH $32.775 (+$0.98 on 15). Lines unchanged.
