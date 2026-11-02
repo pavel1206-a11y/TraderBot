@@ -4334,3 +4334,33 @@ ARMED/WATCH (valid 10:20–10:42):
 Running totals (unchanged): **49 trades, 24W/25L (49%), +$109.94.**
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:33 AM ET; the stale 9:42 run fired at 10:33): SPY ORB flag long fired at 10:26 (replayed); #50 opened (fractional only)**
+- **Replay:**
+  - `C SPY retest long`: no retest (lowest 5-min low since 10:20 $762.24). Not fired.
+  - `E QQQ long ($698.64–698.93)`: the 10:20 bar closed $698.66 in the band, but its range was **$1.94** (cap $1.00). The 10:25 bar closed $699.315, past the band; the extended band needs ≥ 1.2× volume (it had 1.05×) and its range was $1.37. **Not fired.**
+  - **`WATCH ORB SPY long` (flag above $761.46):**
+    - 10:18–10:20 flag ($762.10–762.48), broken by the 10:21 bar at $763.185, **$0.705 past** (over the $0.30 no-chase). Skipped.
+    - **Flag 10:22–10:25:** $762.82–763.58, sideways on 49k average (the 9:47 break bar was 106k), all outside the ORB.
+    - **Flag break 10:26:** close **$763.60**, $0.02 past the flag high, on 82.6k (1.7× the flag average). **Fired.**
+- **QQQ ORB long:** the volume break came at 10:21 (close $698.03 on 117k vs 93k needed). Its flag break at 10:27 closed $0.35 past (no-chase skip). QQQ's A long would be the same setup and direction as SPY's anyway, so it is blocked by the one-per-setup rule.
+- **Score card (A, SPY ORB-flag long): B.**
+  - For it: SPY above a rising VWAP with higher highs and lows; broke the PDH/R1 cluster ($761.33–761.46); ORB break on 2.3× volume; QQQ confirming (above its own PDH $698.63).
+  - Against: the daily trend is down (both under the 20/50-day), and the move is already +$4.9 from the ORB low.
+  - 0DTE checklist: direction ✓, candles ✓, news: no event before the exit (ISM passed at 10:00, AAPL after the close) ✓, risk: see below.
+- **Option leg: skipped (over the cap).**
+  - The 1-strike-OTM 764C cost $1.46 ($146), and the 2-strike-OTM 765C cost $1.04 ($104). Both are over the $100 hard max; section 6 says skip rather than go farther out.
+- **#50 (fractional, B, A long, replayed):** 0.6548 SPY at $763.60 = $500.
+  - Alert stop **$762.72** (flag low − $0.10), risk $0.58.
+  - Trail trigger **$764.92** (+1.5R), then the 1.5R trail. Target R2 $766.95 (3.8R). Time stop 10:56.
+- **Play forward to 10:32:** SPY high $763.855 (10:28), then a pullback to $762.85 (10:32 low $762.845, above the $762.72 stop). **#50 open at −$0.49.** (The 764C fell from $1.45 to $1.03 meanwhile: the skip saved about $42.)
+- 4H (8–12): an expansion up, $758.21 → $763.86. Squeeze: none.
+
+ARMED/WATCH (valid 10:33–10:57):
+- **Manage #50:** stop SPY $762.72 (alert); at ≥ $764.92 the trail starts at 1.5R behind the best price. Time stop 10:56 if +1.5R is not reached.
+- `WATCH D SPY short: a 5-min close back below $761.46 (failed breakout), then a close below the last higher low = entry; stop = the high + $0.10.` (After #50's stop, and not a revenge trade unless a full new setup forms.)
+- No new long lines: the SPY A long is used, and the QQQ A long is the same setup.
+
+Running totals (closed, unchanged): **49 trades, 24W/25L (49%), +$109.94.** Open: #50.
+
+Market data and analysis only, not investment advice.
