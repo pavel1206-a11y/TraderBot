@@ -4400,3 +4400,21 @@ Running totals (unchanged): **50 trades, 24W/26L (48%), +$109.36.**
 Market data and analysis only, not investment advice.
 
 **Setup check (11:40 AM ET; the stale 10:42 run): nothing fired.** 11:35 bar: SPY close $760.02 (low $759.855), QQQ $693.81. No band reached. The SPY squeeze ($759.80–761.88) is now 45 minutes old, so the F lines from 11:36 are live. Lines unchanged; no paper trades open.
+
+**Setup check (12:14 PM ET; the 11:57 run fired at 12:14): nothing fired; both coiling at the ORB lows**
+- **Replay 11:40–12:09:**
+  - `F SPY short` (below $759.80): the **12:05 bar closed $759.66** outside the range, but on **0.57×** volume (78.8k vs 137.8k), under both the 1.0× bar and the 0.7× allowance. **Not fired.**
+  - `E SPY short` ($758.43–758.72): low $759.57. Not reached. `E QQQ short` ($693.01–693.30): closes $693.39–693.76, low $693.21 (wick). Not fired.
+- SPY $759.66 (VWAP $761.06, falling), QQQ $693.39 (VWAP $695.43). Both below VWAP with lower highs since 10:28; volume drying up into the lunch hour.
+- **4H:** the 8–12 candle closed as a bearish Power of 3 (sweep to $763.86, close ≈ $760.0). The 12–4 candle opened $760.00, so far $759.57–760.22.
+- **Squeezes (F):** SPY **$759.57–760.79** since 11:15 (55 min, $1.22). QQQ **$693.21–694.87** since 11:20 (50 min, $1.66).
+- No paper trades open. Day: 1 loss (#50, −$0.58).
+
+ARMED (valid 12:14–12:42):
+- `ARMED F SPY short: 5-min close $759.27–759.56 below the squeeze low $759.57 (extended to $758.82 on ≥ 1.2× volume + a same-bar QQQ close below $693.21), bar range ≤ $1.00, volume ≥ 1.0× the prior 10-bar average (or ≥ 0.7× with that QQQ close), QQQ breaking down too; stop = range midpoint $760.18 or the breakout bar's high (closer) + $0.10, at least $0.40; target = $757.13 (2× height), trail trigger at +1.5R` (the ORB low $758.73 is in the path; if it closes through it as well, that is the same trade)
+- `ARMED F SPY long: 5-min close $760.80–761.09 above $760.79, same rules mirrored (QQQ close above $694.87); stop = midpoint or bar low − $0.10 (closer), ≥ $0.40; target $763.23; must also close above VWAP ($761.06) by the next bar or exit`
+- `ARMED F QQQ short: 5-min close $692.91–693.20 below $693.21 (also below the ORB low $693.31), same rules (SPY allowance: same-bar close below $759.57); stop = midpoint $694.04 or bar high (closer) + $0.10, ≥ $0.40; target $689.89.` Same setup as the SPY short: the higher score wins.
+
+Running totals (unchanged): **50 trades, 24W/26L (48%), +$109.36.**
+
+Market data and analysis only, not investment advice.
