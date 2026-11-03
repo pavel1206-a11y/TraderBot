@@ -4599,3 +4599,5 @@ ARMED (valid 11:14–11:42):
 Running totals (closed, unchanged): **52 trades, 26W/26L (50%), +$226.86.** Open: #53, #54.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:28 AM ET): #53/#54 open, slipping.** SPY $755.48 (−$0.61 from entry; low $755.015 at 11:20, $1.30 above the $753.71 stop). QQQ back at its pivot ($686.33). No new triggers. The 11:35 time stop applies next (+1.5R not reached); the next check replays it. Lines unchanged.
