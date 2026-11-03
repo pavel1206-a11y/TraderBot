@@ -4601,3 +4601,14 @@ Running totals (closed, unchanged): **52 trades, 26W/26L (50%), +$226.86.** Open
 Market data and analysis only, not investment advice.
 
 **Setup check (11:28 AM ET): #53/#54 open, slipping.** SPY $755.48 (−$0.61 from entry; low $755.015 at 11:20, $1.30 above the $753.71 stop). QQQ back at its pivot ($686.33). No new triggers. The 11:35 time stop applies next (+1.5R not reached); the next check replays it. Lines unchanged.
+
+**Setup check (11:43 AM ET): #53/#54 closed on the 30-minute time stop; two losses, so done for the day**
+- **11:35 time stop** (entered 11:05; +1.5R at $759.66 never reached; best $756.50 at 11:15). SPY faded through the pivot to $754.53 (11:35 low), well above the $753.71 stop.
+  - **#53 (758C):** exit **$0.39** (11:35 close). $0.81 → $0.39 = **−$42.00** (−52%).
+  - **#54 (0.6613 SPY):** exit **$754.74** (11:35 close). $756.09 → $754.74 = **−$0.89**.
+- **Day 11/3: −$42.89. Two losses (#53, #54), so per the two-loss rule no more paper entries today.** Checks continue for the record only.
+- Note for the changelog: the wider swing stop ($2.38 under the 10:30 low) kept the trade alive but let the 0DTE call bleed 52% in 30 minutes; with the old $0.40 stop (SPY $755.69) it would have stopped at 11:20 for about −$25. One data point for change 2 on the other side (the stop width hurt the option leg, though the time stop capped it).
+- **Running totals: 54 trades, 26W/28L (48%), +$183.97.** Options B 26 trades ≈ +$169; fractional B 26 trades +$1.16. **SPY 52 trades +$206.87; QQQ 2 trades −$22.90.**
+- SPY $754.90, QQQ $685.56, both back under their pivots. No lines armed.
+
+Market data and analysis only, not investment advice.
