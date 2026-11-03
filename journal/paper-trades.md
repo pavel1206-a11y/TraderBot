@@ -4569,3 +4569,10 @@ ARMED (valid 10:42–11:12):
 - `ARMED E SPY long: 5-min close $755.86–756.15 above the pivot $755.85 (extended to $756.60 on ≥ 1.2× volume and a same-bar QQQ close above $686.97), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with that QQQ close), QQQ above its VWAP; swing stop (≥ $0.40); R/R ≥ 1.5 to R1 $760.11 at the close`
 - `ARMED E QQQ long: 5-min close $686.98–687.27 above its pivot/ORB high (extended to $687.72 on ≥ 1.2× and a same-bar SPY close above $755.85), same rules (SPY allowance); R/R ≥ 1.5 to R1 $693.57.` Same setup as the SPY long: the higher score wins.
 - `WATCH ORB SPY short (below $752.41) / QQQ both sides, by 11:00.`
+
+**Setup check (10:58 AM ET): nothing fired**
+- Replay 10:40–10:54: SPY 5-min closes $754.85 / $755.395 / $755.31 (high $755.63; none in $755.86–756.15). QQQ closes $686.30 / $686.71 / $686.58 (none in $686.98–687.27). Not fired.
+- QQQ 1-min closes above its ORB high at 10:43 ($687.175, 32k) and 10:55–10:56 ($687.06–687.43, 18–38k), all well under the 1.5× volume bar (≈ 45k). No ORB break. No paper trades open.
+- Both are pressing their pivots on light volume (SPY $755.3 vs $755.85; QQQ $687.43, just through $686.95).
+
+ARMED (valid 10:58–11:27): same two E long lines as 10:42 (SPY close $755.86–756.15, QQQ close $686.98–687.27, extended bands on ≥ 1.2× with the other confirming; R/R ≥ 1.5 to R1). The ORB watches expire at 11:00.
