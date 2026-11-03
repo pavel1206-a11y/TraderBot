@@ -4521,3 +4521,16 @@ Market data and analysis only, not investment advice.
 - **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:42 AM ET): ORB forming (to 9:39)**
+- **SPY:** opened $752.71, range so far **$752.41–753.935**, now $753.73. Above the PDL ($751.60), under the pivot ($755.85).
+- **QQQ:** opened $684.41, range so far **$683.18–685.87**, now $685.58. Just under its pivot ($686.95); the pre-market high was $686.76.
+- Both opened below their pre-market highs and are grinding up in a narrow range. No paper trades open. The final ORB is the 9:30–9:44 high/low (set at 9:45).
+
+ARMED/WATCH (valid 9:45–10:12):
+- `WATCH ORB SPY: break = 1-min close above / below the final 9:30–9:45 high / low (now $753.94 / $752.41) on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- `WATCH ORB QQQ: break = 1-min close above / below the final 9:30–9:45 high / low (now $685.87 / $683.18) on ≥ 1.5× the prior 20-bar volume, by 11:00`
+- Then the flag (2–10 bars, setup A) → `ARMED ORB-FLAG`, with R/R ≥ 1.5 to the next mapped level (2× pole if none). Long room: SPY pivot $755.85 (only about $1.9 above the ORB high), then R1 $760.11; QQQ pivot $686.95, then R1 $693.57. Short room: SPY PDL $751.60 is close below; then S1 $747.85.
+- Possible 10:00 data (not confirmed): a 10:00-candle trigger gets extra care.
+
+Market data and analysis only, not investment advice.
