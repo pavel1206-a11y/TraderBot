@@ -4560,3 +4560,12 @@ Market data and analysis only, not investment advice.
 ARMED/WATCH (valid 10:28–10:57):
 - `WATCH ORB SPY short: 1-min close below $752.41 on ≥ 1.5× by 11:00` (long side spent). `WATCH ORB QQQ: both sides, $686.97 / $683.18, by 11:00.`
 - From 11:00: F lines on the SPY $752.41–754.86 range (if still under $2.50 and intact), to be armed at the next check.
+
+**Setup check (10:42 AM ET): nothing fired; SPY pushing toward its pivot**
+- 10:27–10:41: no SPY close below $752.41; no QQQ close outside $683.18–686.97 (high close $686.52). SPY lifted to $755.20 at 10:41 (the long ORB side is already spent), so the 9:30 range is now $2.79 wide: too wide for F. No paper trades open.
+- Both are climbing into their pivots: SPY $755.08 (pivot $755.85), QQQ $686.52 (pivot $686.95 / ORB high $686.97).
+
+ARMED (valid 10:42–11:12):
+- `ARMED E SPY long: 5-min close $755.86–756.15 above the pivot $755.85 (extended to $756.60 on ≥ 1.2× volume and a same-bar QQQ close above $686.97), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with that QQQ close), QQQ above its VWAP; swing stop (≥ $0.40); R/R ≥ 1.5 to R1 $760.11 at the close`
+- `ARMED E QQQ long: 5-min close $686.98–687.27 above its pivot/ORB high (extended to $687.72 on ≥ 1.2× and a same-bar SPY close above $755.85), same rules (SPY allowance); R/R ≥ 1.5 to R1 $693.57.` Same setup as the SPY long: the higher score wins.
+- `WATCH ORB SPY short (below $752.41) / QQQ both sides, by 11:00.`
