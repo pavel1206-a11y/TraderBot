@@ -4502,3 +4502,22 @@ Market data and analysis only, not investment advice.
 - **Playbook tuning:** none today. One day is not enough evidence under the standing rule (20+ sessions or the journal's own signals); observations logged in `strategies/changelog.md`.
 
 Market data and analysis only, not investment advice.
+
+### 2026-11-03 (Tue): pre-market brief (8:36 AM ET)
+- **SPY PDH $763.86 · PDL $751.60** (11/2). Pre-market **$753.66**: **between, $2.06 above the PDL**, $10.20 under the PDH.
+- **QQQ PDH $699.43 · PDL $680.33** (11/2). Pre-market **$686.42**: **between, $6.09 above the PDL**, $13.01 under the PDH.
+- **Overnight both swept their PDL and reclaimed it** (SPY low $749.38, QQQ low $678.99 at about 4 AM), the owner's sweep-and-reverse pattern, before the session opens.
+- **SPY:**
+  - Close $752.10. Pivots: S2 $743.59 · S1 $747.85 · **P $755.85** · R1 $760.11 · R2 $768.11.
+  - SMAs: 20-day $769.33, 50-day $767.22 (both well above; downtrend). Pre-market range $749.38–753.55.
+  - First resistance: the pivot $755.85 (also Monday's 10:55 breakdown area and 2 PM pivot test).
+- **QQQ:**
+  - Close $681.09. Pivots: S1 $674.47 · **P $686.95** · R1 $693.57 · R2 $706.05.
+  - SMAs: 20-day $724.43, 50-day $724.35. Pre-market range $678.99–686.76; QQQ is already testing its pivot.
+- **Events:** **US midterm Election Day** (market open; results after the close, a risk for anything held overnight, which we never do). **AMD, ANET, SMCI report after the close.** Possible 10:00 data (JOLTS / factory orders; not confirmed): treat 10:00-candle triggers with care. News feed not checked (Alpha Vantage limit).
+- **Bias: none, a bounce attempt inside a downtrend.** QQQ is +0.8% after Monday's −1.3%; SPY +0.2%.
+  - A hold above the pivots (SPY $755.85, QQQ $686.95) with VWAP rising = a squeeze toward SPY R1 $760.11.
+  - A failure at the pivots = a retest of the PDLs; a sweep of the PDL that holds again is the owner's long setup.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
+
+Market data and analysis only, not investment advice.
