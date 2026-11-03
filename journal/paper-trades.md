@@ -4551,3 +4551,12 @@ Market data and analysis only, not investment advice.
 - SPY has held **$752.41–754.68** ($2.27) since the open; if it holds, it qualifies as an F squeeze from 11:00 (F's window). QQQ $683.18–687.28.
 - 4H (8–12): inside the pre-market range; no sweep yet (pre-market high $753.55 was exceeded, PDL $751.60 untouched since 4 AM).
 - WATCH lines unchanged (valid to 10:42): ORB breaks SPY $754.41 / $752.41, QQQ $686.97 / $683.18, on ≥ 1.5× by 11:00.
+
+**Setup check (10:28 AM ET): SPY ORB long broke and was cancelled two minutes later; nothing fired**
+- **SPY ORB long:** break at **10:16** (1-min close $754.50 on 54.7k vs 50.9k needed, 1.6×). At **10:18 a close of $754.24, back inside the range** ($754.41), so the long side is **cancelled** for today. Later closes above ($754.48–754.66) do not count.
+- **QQQ:** no break (closes $685.30–686.53; the ORB high is $686.97).
+- SPY $754.58, QQQ $686.01; the 9:30 range is now SPY $752.41–754.86 ($2.45). If it holds to 11:00 it qualifies for F (squeeze). No paper trades open.
+
+ARMED/WATCH (valid 10:28–10:57):
+- `WATCH ORB SPY short: 1-min close below $752.41 on ≥ 1.5× by 11:00` (long side spent). `WATCH ORB QQQ: both sides, $686.97 / $683.18, by 11:00.`
+- From 11:00: F lines on the SPY $752.41–754.86 range (if still under $2.50 and intact), to be armed at the next check.
