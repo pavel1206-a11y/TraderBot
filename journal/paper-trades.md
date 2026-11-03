@@ -4576,3 +4576,26 @@ ARMED (valid 10:42–11:12):
 - Both are pressing their pivots on light volume (SPY $755.3 vs $755.85; QQQ $687.43, just through $686.95).
 
 ARMED (valid 10:58–11:27): same two E long lines as 10:42 (SPY close $755.86–756.15, QQQ close $686.98–687.27, extended bands on ≥ 1.2× with the other confirming; R/R ≥ 1.5 to R1). The ORB watches expire at 11:00.
+
+**Setup check (11:14 AM ET; the :12 run): SPY E long fired at 11:00 (armed, replayed); #53/#54 opened**
+- **Replay, `ARMED E SPY long` ($755.86–756.15):**
+  - **10:55 bar:** close $756.20, $0.35 past the pivot (over the $0.30 band). The extended band needs ≥ 1.2× volume; it had 1.01× (147.8k vs 146.1k). **Not fired.**
+  - **11:00 bar: close $756.09** in the band (held above the level, which is also setup E's own entry rule: the next bar holding beyond the level), range $0.47, volume 162.3k vs 146.7k = **1.11×**, QQQ above VWAP. **Fired.**
+  - R/R check with the swing stop: the bar low − $0.10 = $755.80; the last 5-min swing low (10:30, $753.76) − $0.05 = **$753.71**, the farther, so risk **$2.38**. Reward to R1 $760.11 = $4.02 = **1.69R** (passes 1.5).
+- `E QQQ long`: the 10:55 bar closed $688.08, past even its extended band (and range $1.66). Not fired; same setup as SPY anyway.
+- **Score card (E, SPY long): B.**
+  - For it: above a rising VWAP; higher lows since 10:30; a close through the pivot held for a second bar; QQQ confirming (above its pivot and ORB high, +$1); volume ≥ 1.0×.
+  - Against: the daily trend is down (under the 20/50-day); Election Day and AMD after the close; volume light overall.
+  - 0DTE checklist: direction ✓, candles ✓ (higher lows plus a held close through the pivot), news ✓ (no event before the exit), risk ✓ (below).
+- **#53 (options, B, E long, replayed):** SPY 11/3 **758C** (2 strikes OTM; the 757C cost $1.19 = $119, over the cap). Entry **$0.81** (11:04 close $0.80 + $0.01) = **$81**.
+- **#54 (fractional, B, E long, replayed):** 0.6613 SPY at $756.09 = $500. Alert stop $753.71 (risk $1.57).
+- **Both:** stop SPY **$753.71**; trail trigger **$759.66** (+1.5R), then the 1.5R trail; target R1 $760.11; time stop 11:35 if +1.5R is not reached.
+- **Play forward to 11:13:** SPY $755.92–756.34, now $756.22. 758C $0.80 (−$1); #54 +$0.09.
+
+ARMED (valid 11:14–11:42):
+- **Manage #53/#54:** stop SPY $753.71, trail trigger $759.66, target $760.11, time stop 11:35.
+- No new long lines (one E long is open; QQQ's E long is the same setup). No short lines: both are above a rising VWAP.
+
+Running totals (closed, unchanged): **52 trades, 26W/26L (50%), +$226.86.** Open: #53, #54.
+
+Market data and analysis only, not investment advice.
