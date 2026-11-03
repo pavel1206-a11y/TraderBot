@@ -4534,3 +4534,14 @@ ARMED/WATCH (valid 9:45–10:12):
 - Possible 10:00 data (not confirmed): a 10:00-candle trigger gets extra care.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:58 AM ET): ORB final; no break**
+- **ORB final (9:30–9:45):** SPY **$754.41 / $752.41** ($2.00); QQQ **$686.97 / $683.18** ($3.79).
+- 9:45–9:56: no 1-min close outside either range (SPY closes $753.34–754.23; QQQ $684.46–686.88). QQQ's high $687.28 (9:45) tagged its pivot ($686.95) and was rejected back to $684.46. Chop inside both ranges. No paper trades open.
+
+ARMED/WATCH (valid 9:58–10:27):
+- `WATCH ORB SPY: break = 1-min close above $754.41 / below $752.41 on ≥ 1.5× the prior 20-bar volume, by 11:00` (long room: pivot $755.85, then R1 $760.11; short room: PDL $751.60, then S1 $747.85)
+- `WATCH ORB QQQ: break = 1-min close above $686.97 / below $683.18 on ≥ 1.5× the prior 20-bar volume, by 11:00` (long: R1 $693.57; short: PDL $680.33)
+- Then the flag (2–10 bars) → ORB-FLAG entry with R/R ≥ 1.5 to the next mapped level. 10:00 data possible (not confirmed).
+
+Market data and analysis only, not investment advice.
