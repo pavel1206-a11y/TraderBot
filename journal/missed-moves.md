@@ -299,3 +299,11 @@ Pattern: #48 (E short 12:09, stop $757.48) was stopped by $0.07 at 12:28, then t
 | 1:10–2:30 | −$5.33 in 80 min (759.39 → 754.06) | Lower highs under a falling VWAP; QQQ leading to new lows; a 5-min close below the day low at 2:00 on 1.87× | E short below the day low | Blocked by the new swing stop: the stop had to sit over the last swing high (≥ $758.39), so reward to the pivot was 0.47R. The old $0.40 stop would have been 2.0R; SPY fell another $3.55. |
 
 Pattern: on a day with a strong level fail (PDH sweep), the moves that followed were trend legs that our room/stop gates filtered out. Two of today's three misses came from the new R/R measurements (changes 2 and 4), not from timing.
+
+### 2026-11-03 (Tue, Election Day, narrow range)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:15–11:15 | +$2.66 in 60 min (753.84 → 756.50) | A grind up inside the ORB, a 1.6× ORB-high break at 10:16 that failed in 2 minutes, then a 5-min close through the pivot ($755.85) at 10:55 on 1.0× with QQQ above its own pivot | E long above the pivot | Partly traded: the 10:55 close was $0.05 past the band and short of the 1.2× extended-band volume; the 11:00 bar fired (#53/#54) near the top ($756.09 vs the $756.50 high) and was time-stopped. |
+
+Pattern: no other $2.50 move inside an hour today. On narrow, event-eve days the E breakout fired late and near the high; the ORB long cancel was correct (it never followed through).

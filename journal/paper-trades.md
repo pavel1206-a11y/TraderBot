@@ -4612,3 +4612,14 @@ Market data and analysis only, not investment advice.
 - SPY $754.90, QQQ $685.56, both back under their pivots. No lines armed.
 
 Market data and analysis only, not investment advice.
+
+### 2026-11-03 (Tue, Election Day): end of day
+- **Trades (armed, replayed; both closed intraday, none open):** #53 SPY E long 758C $0.81 → $0.39 (time stop 11:35), **−$42.00**; #54 0.6613 SPY $756.09 → $754.74, **−$0.89**. **Day −$42.89** (2 losses; the two-loss rule ended trading at 11:43).
+- **The day:** a narrow, low-volume Election Day session. Both swept their PDLs overnight and bounced; SPY held $752.41–757.07 all day (a $4.66 range). The SPY ORB long broke at 10:16 and was cancelled two minutes later; QQQ never broke its ORB on volume. Our pivot-break long (11:05) peaked at $756.50 and faded; the afternoon drifted $754–757. SPY ≈ $754.67 at 3:45 (+0.3%), QQQ ≈ $686.34 (+0.8%). AMD/ANET/SMCI and election results after the close.
+- **Lessons:**
+  - (1) On a narrow pre-event day, an E breakout through a pivot with 1.1× volume had no follow-through; the time stop did its job, but the option leg lost 52% in 30 minutes. A 0DTE call two strikes out decays fast when price stalls.
+  - (2) The wider swing stop (change 2) kept the trade alive but did not change the outcome; with the old $0.40 stop it would have lost about $25 instead of $42 on the option.
+- **Running totals: 54 trades, 26W/28L (48%), +$183.97.** Options B 26 trades ≈ +$169; fractional B 26 trades +$1.16. **SPY 52 trades +$206.87; QQQ 2 trades −$22.90.** Still no A-grade trades.
+- **Playbook tuning:** none (two days of data on the six changes; observations in `strategies/changelog.md`).
+
+Market data and analysis only, not investment advice.
