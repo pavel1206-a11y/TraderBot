@@ -4677,3 +4677,15 @@ Market data and analysis only, not investment advice.
 ARMED/WATCH (valid 10:13–10:42):
 - `WATCH ORB-FLAG QQQ long: a 2–10 bar flag above $697.63 after the 10:12 break (2-bar only if both drift down), lighter volume; then a 1-min close $0.01–0.30 above the flag high on volume above the flag average, by 11:30; stop = flag low − $0.10 (≥ $0.30); target = flag break + 2× the pole ($697.63 → flag high); R/R ≥ 1.5; a 1-min close below $697.63 cancels.` (QQQ ORB long is a different symbol from SPY's spent side; SPY holds no long.)
 - `WATCH ORB SPY short: 1-min close below $762.64 on ≥ 1.5×, by 11:00.` `WATCH D SPY short` as at 9:58.
+
+**Setup check (10:28 AM ET): QQQ ORB long cancelled; both fading from the 20-day / $700**
+- **QQQ ORB long:** after the 10:12 break, a 4-bar pause at 10:14–10:17 ($700.12–701.45), but no 1-min close above $701.45. It faded and closed **$697.52 at 10:23, back inside** ($697.63): **cancelled**. Both ORB long sides are now spent.
+- SPY made $768.63 (10:15) at the 20-day ($768.09) and is now $766.01 (−$2.6); QQQ made $701.45 and is now $696.86 (−$4.6). A possible 4H manipulation high at the 20-day.
+- `D SPY short` (close below $765.0): not yet (10:20 bar closed $766.37). R/R check ahead of time: stop over the $768.63 sweep high (+ $0.10 = $768.73) vs entry ≈ $765 = $3.7 risk; R3 $761.49 is only ≈ 1R. **It will not pass 1.5** unless the entry is much closer to the high. Shadow only.
+- No paper trades open.
+
+ARMED/WATCH (valid 10:28–10:57):
+- `WATCH ORB SPY / QQQ short: 1-min close below $762.64 / $687.90 on ≥ 1.5×, by 11:00` (then flag, R/R ≥ 1.5 to SPY S/R levels below: R2 $759.28; QQQ R3 $693.77 is above the ORB low, next the pivot zone ≈ $685.7).
+- No E lines: SPY sits between its ORB edges with no fresh level close.
+
+Market data and analysis only, not investment advice.
