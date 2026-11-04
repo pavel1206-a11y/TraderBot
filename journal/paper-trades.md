@@ -4623,3 +4623,22 @@ Market data and analysis only, not investment advice.
 - **Playbook tuning:** none (two days of data on the six changes; observations in `strategies/changelog.md`).
 
 Market data and analysis only, not investment advice.
+
+### 2026-11-04 (Wed): pre-market brief (8:37 AM ET)
+- **SPY PDH $757.07 · PDL $752.39** (11/3). Pre-market **$762.06**: **above the PDH by $4.99** (+1.0% vs the $754.35 close).
+- **QQQ PDH $688.69 · PDL $683.18** (11/3). Pre-market **$688.51**: **between, $0.18 under the PDH** (+0.5%).
+- **Overnight (election results, AMD/ANET/SMCI earnings):** a wide swing. At about 4 AM SPY traded $748.03 and QQQ $676.40 (both well under their PDLs), then ripped to SPY $763.37 / QQQ $694.10, and QQQ has since dropped back to about $684.5–688.5 (−$9 from its high).
+- **SPY:**
+  - Close $754.35. Pivots: S2 $749.92 · S1 $752.14 · P $754.60 · R1 $756.82 · R2 $759.28 · **R3 $761.49** (pre-market is right at R3).
+  - Above: the 11/2 high $763.86, the 50-day $767.04 and the 20-day $768.09. Pre-market range $748.03–763.37.
+- **QQQ:**
+  - Close $685.28. Pivots: S1 $682.74 · P $685.72 · **R1 $688.25** · R2 $691.23 · R3 $693.77.
+  - SMAs: 20-day $720.71, 50-day $723.93. Pre-market range $676.40–694.10.
+- **Events:** the post-election open (wide ranges and fast reversals likely). **ISM Services is likely at 10:00 AM** (3rd business day; not confirmed). News feed not checked (Alpha Vantage limit). No FOMC this week (it was 10/28).
+- **Bias: bullish SPY gap, but QQQ is diverging (tech fading after the AMD reaction).** Rule 5 (no-trade filter): "SPY and QQQ disagree on direction" = no trade until they line up.
+  - A hold above SPY R3 $761.49 with QQQ back over its PDH $688.69 = a gap-and-go toward $763.86 / the 50-day.
+  - A gap fill: SPY back under R2 $759.28 with QQQ under its pivot $685.72 = a fade toward SPY's PDH $757.07.
+  - Expect a wide ORB. The 0DTE cap ($100) may force 2-strike-OTM contracts or skips.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
+
+Market data and analysis only, not investment advice.
