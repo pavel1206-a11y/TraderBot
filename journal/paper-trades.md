@@ -4711,3 +4711,5 @@ Market data and analysis only, not investment advice.
 ARMED (from 12:40 if the range holds; valid to 12:57):
 - `ARMED F SPY long: 5-min close $769.02–769.31 above the squeeze high (extended to $769.76 on ≥ 1.2× and a same-bar QQQ close above $697.09), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ break), QQQ breaking up too; stop = range midpoint $768.05 or the bar low (closer) − $0.10, at least $0.40; target $772.85 (2× height; the 10/29 PDH $770.76 is in the path); trail trigger at +1.5R`
 - `ARMED F SPY short: 5-min close $766.79–767.08 below $767.09, mirrored (QQQ close below $693.67); stop = midpoint or bar high (closer) + $0.10, ≥ $0.40; target $763.25`
+
+**Setup check (12:43 PM ET): nothing fired; the SPY squeeze is now valid.** 12:20–12:39: SPY $767.47–768.62, inside **$767.09–769.01** (held 48 min). QQQ $694.60–696.56, drifting lower. Volume light (80–160k). No paper trades open. ARMED (valid 12:43–1:12): the same F long ($769.02–769.31) and F short ($766.79–767.08) lines as 12:28.
