@@ -4725,3 +4725,9 @@ ARMED (valid 1:13–1:42):
 **Setup check (1:28 PM ET): nothing fired.** 1:10–1:24: SPY $767.77–768.88 (inside $767.09–769.22), QQQ $694.57–695.80. No paper trades open. ARMED (valid 1:28–1:57): the same F long ($769.23–769.52) and F short ($766.79–767.08) lines; last arming at the 1:57 check (to 2:15), entries close 2:30.
 
 **Setup check (1:43 PM ET): nothing fired.** 1:25–1:39: SPY $767.73–768.49 (inside $767.09–769.22), QQQ $694.05–695.51, sliding. No paper trades open. The same F lines stay armed to 1:57; the next check is the last that can arm (to 2:15).
+
+**Setup check (1:58 PM ET): nothing fired; SPY at the bottom of its squeeze, QQQ already below its own.** 1:40–1:54: SPY $767.33–767.99 (close $767.345, $0.25 above the $767.09 low); QQQ $692.88 (below its $693.67 squeeze low, a lower low). No paper trades open.
+
+ARMED (valid 1:58–2:15, the last arming window):
+- `ARMED F SPY short: 5-min close $766.79–767.08 below $767.09 (extended to $766.34 on ≥ 1.2× with QQQ also making a new low), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ new low); stop = range midpoint $768.16 or bar high (closer) + $0.10, ≥ $0.40; target $762.83; must enter by 2:30`
+- (The F long above $769.22 is dropped: QQQ is diverging lower.)
