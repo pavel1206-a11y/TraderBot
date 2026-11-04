@@ -4642,3 +4642,15 @@ Market data and analysis only, not investment advice.
 - **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming (to 9:39); a strong gap-and-go**
+- **SPY:** opened $762.99, range so far **$762.64–765.95**, now $765.92 (at the high). Through the 11/2 high $763.86; next the 50-day $767.04 and 20-day $768.09.
+- **QQQ:** opened $688.41, range so far **$687.90–693.81**, now $693.81 (at the high), back above its PDH ($688.69) and R2 ($691.23), at R3 ($693.77).
+- Both now agree (up), so the rule 5 conflict from the brief is gone. No paper trades open. The final ORB is set at 9:45.
+
+ARMED/WATCH (valid 9:45–10:12):
+- `WATCH ORB SPY: break = 1-min close above / below the final 9:30–9:45 high / low (now $765.95 / $762.64) on ≥ 1.5× the prior 20-bar volume, by 11:00` (long room: the 50-day $767.04, then the 20-day $768.09; the first is close, so a flag must leave ≥ 1.5R to the level it is measured to)
+- `WATCH ORB QQQ: break = 1-min close above / below the final high / low (now $693.81 / $687.90) on ≥ 1.5× the prior 20-bar volume, by 11:00` (long room: the pre-market high $694.10 is right there; then no mapped level until about $700 → 2× pole)
+- ISM Services likely at 10:00 (not confirmed): a 10:00-candle trigger gets extra care.
+
+Market data and analysis only, not investment advice.
