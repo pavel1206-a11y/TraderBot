@@ -4697,3 +4697,5 @@ Market data and analysis only, not investment advice.
 **Setup check (11:13 AM ET): nothing fired.** No lines were armed. 10:55–11:09: SPY chopping $763.85–766.77 (now $765.57); QQQ making lower lows to $689.61 (now $692.35), still above its ORB low $687.90. Wide two-way ranges (no F squeeze: SPY's 45-min range is $3.8). No paper trades open; no line qualifies on R/R.
 
 **Setup check (11:28 AM ET): nothing fired.** No lines armed. 11:10–11:24: SPY $764.24–766.55 (now $764.40), QQQ $690.77–693.96 (now $690.99). Lower highs since 10:15 on both, still inside the wide ORBs. No paper trades open.
+
+**Setup check (11:43 AM ET): nothing fired.** 11:25–11:39: SPY $763.41–765.84 (now $765.79), QQQ $689.43–692.74 (now $692.17); a bounce off the morning lows. No squeeze (SPY 45-min range $3.4). No paper trades open; no lines armed.
