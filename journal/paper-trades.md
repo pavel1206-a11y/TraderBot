@@ -4705,3 +4705,9 @@ Market data and analysis only, not investment advice.
 - No paper trades open. ARMED: none.
 
 **Setup check (12:13 PM ET): nothing fired.** No lines armed. SPY made a new high $769.01 (11:55) and was rejected again at the 20-day; now $767.86. QQQ $694.89 (its high $697.09 this leg, under the morning $701.45). A double top at $768.6–769.0 on SPY. No paper trades open.
+
+**Setup check (12:28 PM ET): nothing fired; an SPY squeeze is forming under the double top.** SPY has held **$767.09–769.01** ($1.92) since 11:55 (35 min; valid for F at 12:40). QQQ $693.67–697.09. Both above VWAP. No paper trades open.
+
+ARMED (from 12:40 if the range holds; valid to 12:57):
+- `ARMED F SPY long: 5-min close $769.02–769.31 above the squeeze high (extended to $769.76 on ≥ 1.2× and a same-bar QQQ close above $697.09), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ break), QQQ breaking up too; stop = range midpoint $768.05 or the bar low (closer) − $0.10, at least $0.40; target $772.85 (2× height; the 10/29 PDH $770.76 is in the path); trail trigger at +1.5R`
+- `ARMED F SPY short: 5-min close $766.79–767.08 below $767.09, mirrored (QQQ close below $693.67); stop = midpoint or bar high (closer) + $0.10, ≥ $0.40; target $763.25`
