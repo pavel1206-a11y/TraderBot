@@ -4721,3 +4721,5 @@ ARMED (from 12:40 if the range holds; valid to 12:57):
 ARMED (valid 1:13–1:42):
 - `ARMED F SPY long: 5-min close $769.23–769.52 above $769.22 (extended to $769.97 on ≥ 1.2× and a same-bar QQQ close above $697.09), same rules as 12:28; stop = midpoint $768.16 or bar low (closer) − $0.10, ≥ $0.40; target $773.48 (2× height)`
 - `ARMED F SPY short: 5-min close $766.79–767.08 below $767.09, same rules; target $762.83`
+
+**Setup check (1:28 PM ET): nothing fired.** 1:10–1:24: SPY $767.77–768.88 (inside $767.09–769.22), QQQ $694.57–695.80. No paper trades open. ARMED (valid 1:28–1:57): the same F long ($769.23–769.52) and F short ($766.79–767.08) lines; last arming at the 1:57 check (to 2:15), entries close 2:30.
