@@ -4667,3 +4667,13 @@ ARMED/WATCH (valid 9:58–10:27):
 - ISM Services likely at 10:00 (next bar): a 10:00-candle trigger gets extra care.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:13 AM ET): SPY ORB long broke and cancelled; QQQ ORB long broke at 10:12 (flag next)**
+- **SPY ORB long:** break at **10:00** (the ISM minute): close $768.02 on 160.4k vs 142.6k needed (1.69×). At **10:02 a close of $767.62, back inside** ($767.78): **cancelled**. The long side is spent. SPY has since chopped $766.95–768.27 at the 20-day ($768.09).
+- **QQQ ORB long:** closes above $697.63 since 10:00 ($698.40–699.53) were all under the volume bar until **10:12: close $699.72 on 110.7k vs 102.3k needed (1.62×). Break.** No flag yet. No mapped level above (the next is about $700 / the round number; the playbook uses 2× the pole if none is mapped).
+- **D SPY short:** not triggered (no close below $765.0).
+- No paper trades open.
+
+ARMED/WATCH (valid 10:13–10:42):
+- `WATCH ORB-FLAG QQQ long: a 2–10 bar flag above $697.63 after the 10:12 break (2-bar only if both drift down), lighter volume; then a 1-min close $0.01–0.30 above the flag high on volume above the flag average, by 11:30; stop = flag low − $0.10 (≥ $0.30); target = flag break + 2× the pole ($697.63 → flag high); R/R ≥ 1.5; a 1-min close below $697.63 cancels.` (QQQ ORB long is a different symbol from SPY's spent side; SPY holds no long.)
+- `WATCH ORB SPY short: 1-min close below $762.64 on ≥ 1.5×, by 11:00.` `WATCH D SPY short` as at 9:58.
