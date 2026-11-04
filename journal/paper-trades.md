@@ -4733,3 +4733,13 @@ ARMED (valid 1:58–2:15, the last arming window):
 - (The F long above $769.22 is dropped: QQQ is diverging lower.)
 
 **Setup check (2:13 PM ET): nothing fired.** 1:55–2:09: SPY held the squeeze low (low $767.08, $0.01 under the edge on a wick; lowest close $767.37) and bounced to $768.62; QQQ back to $695.04. The F short never closed in its band. No paper trades open. Arming ends at 2:15 and entries at 2:30: no new lines. Day: no trades.
+
+### 2026-11-04 (Wed, post-election): end of day
+- **Trades: none.** No armed line fired; no open positions.
+- **The day:** a post-election gap up (SPY +1.0% pre-market), a one-way opening drive to $767.78 by 9:45 (a $5.14 ORB; QQQ $9.73), then a rejection at the 20-day ($768.09) three times ($768.63 at 10:15, $769.01 at 11:55, $769.22 at 1:05). Between them a −$5.2 fade to $763.41 (11:25) and a +$5.6 rally back. The afternoon held a tight $767.09–769.22 squeeze that never closed out either side. SPY ≈ $767.4 at 3:45 (+1.7%), QQQ ≈ $692.4 (+1.0%).
+- **Why no trades:** both ORB long breaks (SPY 10:00, QQQ 10:12) closed back inside within 2–11 minutes; the D short at the 20-day failed R/R (≈ 1R with the stop over the sweep high); the midday E long was gated by the swing stop; the F squeeze never closed outside its band.
+- **Lessons:** (1) on a big-gap day with the 20-day overhead, the ORB long breaks failed (twice in two days now: 11/3 and 11/4). (2) I did not arm the standing VWAP-reclaim line after the 11:25 low; the 11:40 reclaim led a +$5.6 rally (process miss, logged in missed-moves).
+- **Running totals (unchanged): 54 trades, 26W/28L (48%), +$183.97.** Options B 26 trades ≈ +$169; fractional B 26 trades +$1.16. SPY 52 trades +$206.87; QQQ 2 trades −$22.90.
+- **Playbook tuning:** none (three days of data; see the changelog). The arming checklist gap (VWAP-reclaim line) is a process fix, not a rule change.
+
+Market data and analysis only, not investment advice.

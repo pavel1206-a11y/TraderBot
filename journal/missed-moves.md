@@ -307,3 +307,12 @@ Pattern: on a day with a strong level fail (PDH sweep), the moves that followed 
 | 10:15–11:15 | +$2.66 in 60 min (753.84 → 756.50) | A grind up inside the ORB, a 1.6× ORB-high break at 10:16 that failed in 2 minutes, then a 5-min close through the pivot ($755.85) at 10:55 on 1.0× with QQQ above its own pivot | E long above the pivot | Partly traded: the 10:55 close was $0.05 past the band and short of the 1.2× extended-band volume; the 11:00 bar fired (#53/#54) near the top ($756.09 vs the $756.50 high) and was time-stopped. |
 
 Pattern: no other $2.50 move inside an hour today. On narrow, event-eve days the E breakout fired late and near the high; the ORB long cancel was correct (it never followed through).
+
+### 2026-11-04 (Wed, post-election gap, 20-day rejection)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:15–11:10 | −$4.78 in 55 min (768.63 → 763.85) | A sweep of the 20-day ($768.09) at 10:15, a failed SPY ORB break (10:00–10:02) and a failed QQQ ORB break (10:12–10:23); QQQ led lower from $701.45 | D short (Power of 3 at the 20-day) | R/R: the stop over the sweep high ($768.73) left only ≈ 1R to R3 $761.49 from a $765 entry. A structural skip. |
+| 11:25–11:55 | +$5.60 in 30 min (763.41 → 769.01) | A double low ($763.41 / $763.85), a reclaim of VWAP ($766.2) at 11:40 on 1.3× with QQQ reclaiming its own VWAP | VWAP reclaim long (standing line) | **Not armed** (process miss): the 11:13–11:43 checks armed nothing, and the standing VWAP-reclaim line should have been listed. The later E long above the high was gated by the swing stop (0.4R). |
+
+Pattern: three tests of the 20-day ($768.6–769.2) all failed; the money was in the swings between ($5 each way). Process fix: list the standing VWAP-reclaim line at every check where price is on the other side of VWAP.

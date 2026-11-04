@@ -26,3 +26,8 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Change 1 (extended band): one near-miss; the 10:55 SPY close was $0.35 past (band $0.30) on 1.01× (extended band needs 1.2×). The next bar fired inside the normal band. Neutral.
   - Change 2 (swing stop): #53/#54 used a $2.38 swing stop; the trade was time-stopped, not stopped. The option lost $42 (−52%); a $0.40 stop would have cut it at about −$25. **One signal against** (stop width hurt the option leg). Running tally: 2 against, 0 for.
   - Change 3 (1.5R trail): not reached. Change 4 (D): no signal. Change 5: not tested (QQQ's E long was the same setup). Change 6 (ORB target): the SPY ORB long cancelled before any flag. Neutral.
+- **2026-11-04 (day 3):**
+  - Change 2 (swing stop): the 11:58 E long above the day high was gated (0.4R with the swing stop). With the old $0.40 stop it would have fired at 1:00 (close $768.85) and been stopped at 1:05 (low $768.44 < $768.45): **one signal for** (the swing stop avoided a loss). Running tally: 2 against, 1 for.
+  - Change 4 (D): the 10:15 D short at the 20-day failed R/R under both the old and new measurement. Neutral.
+  - Change 6 (ORB): both ORB long breaks cancelled before a flag break (SPY 10:02, QQQ 10:23). Neutral.
+  - Changes 1, 3, 5: not tested.
