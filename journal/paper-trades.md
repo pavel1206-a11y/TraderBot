@@ -4654,3 +4654,16 @@ ARMED/WATCH (valid 9:45–10:12):
 - ISM Services likely at 10:00 (not confirmed): a 10:00-candle trigger gets extra care.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:58 AM ET): ORB final (very wide); no break on volume**
+- **ORB final (9:30–9:45):** SPY **$767.78 / $762.64** ($5.14); QQQ **$697.63 / $687.90** ($9.73). A one-way opening drive: SPY +$5, QQQ +$9.7 in 15 minutes.
+- 9:45–9:56: SPY closed above $767.78 at 9:46–9:47 ($768.02, $767.91) on 112k / 81k (needed ≈ 188k = 1.5×): **no break**. QQQ closed above $697.63 at 9:46–9:49 ($698.04–698.70) on 100–145k (needed ≈ 211k): **no break**. Both then slipped back inside.
+- **SPY tagged its 20-day ($768.09) at $768.11 and stalled**; now $766.07. QQQ $695.04 (high $698.99). Volume is fading after the drive. No paper trades open.
+- 4H (8–12): opened ≈ $760, a straight push to $768.11 (the 20-day). A failure back under the ORB/R3 area would set up a D short (manipulation high at the 20-day); nothing yet.
+
+ARMED/WATCH (valid 9:58–10:27):
+- `WATCH ORB SPY / QQQ: 1-min close beyond $767.78 / $762.64 and $697.63 / $687.90 on ≥ 1.5× the prior 20-bar volume, by 11:00`. With $5–10 ranges, a flag must leave ≥ 1.5R to the next mapped level (SPY long: none mapped above the 20-day until about $770 → 2× pole; short: R3 $761.49).
+- `WATCH D SPY short: a 5-min close back below $765.0 (mid-ORB) after the 20-day sweep, then a close below the last higher low = entry; stop = $768.11 + $0.10; R/R ≥ 1.5 to $761.49 (R3), measured to the level beyond if R3 is within 0.5R.`
+- ISM Services likely at 10:00 (next bar): a 10:00-candle trigger gets extra care.
+
+Market data and analysis only, not investment advice.
