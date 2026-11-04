@@ -4703,3 +4703,5 @@ Market data and analysis only, not investment advice.
 **Setup check (11:58 AM ET): nothing fired; SPY back at the day high / 20-day.** 11:40–11:54: a $5 rally from $763.41 to $768.77 (QQQ $689.43 → $696.81), both above VWAP (SPY $766.20, QQQ $694.83). SPY is retesting the $768.63 day high and the 20-day ($768.09).
 - An E long above $768.77 was considered: the next mapped level is the 10/29 PDH $770.76 ($2 away), but the swing stop sits under the 11:25 low ($763.41 − $0.05), a $5.4 risk: **about 0.4R, so not armed.** (The old $0.40 stop would have given about 5R; logged as a change-2 data point.)
 - No paper trades open. ARMED: none.
+
+**Setup check (12:13 PM ET): nothing fired.** No lines armed. SPY made a new high $769.01 (11:55) and was rejected again at the 20-day; now $767.86. QQQ $694.89 (its high $697.09 this leg, under the morning $701.45). A double top at $768.6–769.0 on SPY. No paper trades open.
