@@ -4699,3 +4699,7 @@ Market data and analysis only, not investment advice.
 **Setup check (11:28 AM ET): nothing fired.** No lines armed. 11:10–11:24: SPY $764.24–766.55 (now $764.40), QQQ $690.77–693.96 (now $690.99). Lower highs since 10:15 on both, still inside the wide ORBs. No paper trades open.
 
 **Setup check (11:43 AM ET): nothing fired.** 11:25–11:39: SPY $763.41–765.84 (now $765.79), QQQ $689.43–692.74 (now $692.17); a bounce off the morning lows. No squeeze (SPY 45-min range $3.4). No paper trades open; no lines armed.
+
+**Setup check (11:58 AM ET): nothing fired; SPY back at the day high / 20-day.** 11:40–11:54: a $5 rally from $763.41 to $768.77 (QQQ $689.43 → $696.81), both above VWAP (SPY $766.20, QQQ $694.83). SPY is retesting the $768.63 day high and the 20-day ($768.09).
+- An E long above $768.77 was considered: the next mapped level is the 10/29 PDH $770.76 ($2 away), but the swing stop sits under the 11:25 low ($763.41 − $0.05), a $5.4 risk: **about 0.4R, so not armed.** (The old $0.40 stop would have given about 5R; logged as a change-2 data point.)
+- No paper trades open. ARMED: none.
