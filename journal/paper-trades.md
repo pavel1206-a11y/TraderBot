@@ -4691,3 +4691,5 @@ ARMED/WATCH (valid 10:28–10:57):
 Market data and analysis only, not investment advice.
 
 **Setup check (10:43 AM ET): nothing fired.** 10:25–10:39: SPY $765.54–767.66 (no close below $765.0 for D; no ORB-low break), QQQ $695.76–698.29 (no break of $687.90). Both are holding the middle of their wide ORBs after the 20-day/$700 rejection. No paper trades open. A range is forming (SPY $765.54–768.63 since 10:15, $3.09, too wide for F so far). ORB short watches run to 11:00; no other lines qualify.
+
+**Setup check (10:58 AM ET): nothing fired.** 10:40–10:54: SPY closes $766.31 / $765.42 / $765.63 (low $764.50; no close below $765.0, the D watch). QQQ is leading lower: $697.6 → $693.20 (low $691.75), back under R3 ($693.77). No ORB-low breaks (SPY $762.64, QQQ $687.90); the ORB watches expire at 11:00. No paper trades open. No E short line qualifies: the swing highs ($766.35–768.63) are too far above for 1.5R to the next levels (SPY R3 $761.49 / R2 $759.28).
