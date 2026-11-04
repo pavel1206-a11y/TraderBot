@@ -4723,3 +4723,5 @@ ARMED (valid 1:13–1:42):
 - `ARMED F SPY short: 5-min close $766.79–767.08 below $767.09, same rules; target $762.83`
 
 **Setup check (1:28 PM ET): nothing fired.** 1:10–1:24: SPY $767.77–768.88 (inside $767.09–769.22), QQQ $694.57–695.80. No paper trades open. ARMED (valid 1:28–1:57): the same F long ($769.23–769.52) and F short ($766.79–767.08) lines; last arming at the 1:57 check (to 2:15), entries close 2:30.
+
+**Setup check (1:43 PM ET): nothing fired.** 1:25–1:39: SPY $767.73–768.49 (inside $767.09–769.22), QQQ $694.05–695.51, sliding. No paper trades open. The same F lines stay armed to 1:57; the next check is the last that can arm (to 2:15).
