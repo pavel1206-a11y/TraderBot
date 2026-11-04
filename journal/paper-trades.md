@@ -4731,3 +4731,5 @@ ARMED (valid 1:13–1:42):
 ARMED (valid 1:58–2:15, the last arming window):
 - `ARMED F SPY short: 5-min close $766.79–767.08 below $767.09 (extended to $766.34 on ≥ 1.2× with QQQ also making a new low), bar range ≤ $1.00, volume ≥ 1.0× (or ≥ 0.7× with a same-bar QQQ new low); stop = range midpoint $768.16 or bar high (closer) + $0.10, ≥ $0.40; target $762.83; must enter by 2:30`
 - (The F long above $769.22 is dropped: QQQ is diverging lower.)
+
+**Setup check (2:13 PM ET): nothing fired.** 1:55–2:09: SPY held the squeeze low (low $767.08, $0.01 under the edge on a wick; lowest close $767.37) and bounced to $768.62; QQQ back to $695.04. The F short never closed in its band. No paper trades open. Arming ends at 2:15 and entries at 2:30: no new lines. Day: no trades.
