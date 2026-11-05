@@ -4826,3 +4826,18 @@ ARMED/WATCH (valid 10:28–10:57):
 - `ARMED VWAP reclaim long` (standing): inactive (both far below VWAP).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:42 AM ET): #55 CLOSED on the trail at 10:31, a win**
+- **#55 replay:** QQQ bounced off $656.00. The 10:31 bar hit **$661.52**, through the trail stop $660.82. PSQ's alert (≈ $27.79) fired on the same bar (PSQ low $27.76) → sold at market **≈ $27.78**.
+  - **Result: 18.11 sh × ($27.78 − 27.61) = +$3.08** (QQQ ref +$4.24 = +1.32R). Max favorable +2.83R at $656.00; the 1.5R trail gave back about half.
+  - Lesson: the first A-setup signal under the ORB-flag rules. The pattern worked (+2.8R at the best price); the option leg was over the cap, so only the small fractional leg counted.
+- **Running totals: 55 trades, 27W/28L, +$187.05.** Fractional B 27 trades +$4.24; QQQ 3 trades −$19.82. Still no A-grade trades.
+- Now: SPY $745.77 (high since the last check $748.76, no retest of $750.36). QQQ $658.60, basing $658–661.8. Both far below VWAP. **4H:** the 9:30 candle is still in its expansion leg down. **Squeeze (F):** QQQ is forming a range, $656.00–661.83 (too young; needs ≥ 30 min per F).
+- No new setups. The QQQ ORB-flag short is used (one per setup per direction).
+
+ARMED/WATCH (valid 10:42–11:12):
+- `WATCH E short SPY: a pullback to $750.36 that fails (5-min close $0.01–0.30 back below on ≥ 1.0× volume, or ≥ 0.7× with a same-bar QQQ break); swing stop per section 10.`
+- `WATCH F QQQ: if the $656.00–661.83 range holds to 11:00+, a 5-min close $0.01–0.30 below $656.00 (short) on the F volume bar; stop per F.`
+- `ARMED VWAP reclaim long` (standing): inactive (SPY VWAP ≈ $755.5, QQQ ≈ $668.8).
+
+Market data and analysis only, not investment advice.
