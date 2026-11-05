@@ -316,3 +316,16 @@ Pattern: no other $2.50 move inside an hour today. On narrow, event-eve days the
 | 11:25–11:55 | +$5.60 in 30 min (763.41 → 769.01) | A double low ($763.41 / $763.85), a reclaim of VWAP ($766.2) at 11:40 on 1.3× with QQQ reclaiming its own VWAP | VWAP reclaim long (standing line) | **Not armed** (process miss): the 11:13–11:43 checks armed nothing, and the standing VWAP-reclaim line should have been listed. The later E long above the high was gated by the swing stop (0.4R). |
 
 Pattern: three tests of the 20-day ($768.6–769.2) all failed; the money was in the swings between ($5 each way). Process fix: list the standing VWAP-reclaim line at every check where price is on the other side of VWAP.
+
+### 2026-11-05 (Thu, trend-down day, −4.3%)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:10–10:27 | −$6.3 in 17 min (751.07 → 744.73) | SPY ORB-flag break at 10:10 (close $751.07 on 1.4× the flag average), QQQ already short | A (ORB flag) on SPY | Rules: the next mapped level (10/30 low $750.36) was 0.35R away → failed R/R; QQQ held the one A short (#55). Correct per the rules; the 2× pole would have reached. |
+| 10:31–10:50 | −$11.0 in 20 min (748.76 → 737.72) | A continuation after a 4-min pause; 5-min closes $1.5–3 per bar on 1.1–1.4× | E short (fresh low) | No setup within the bands: every close was $1.5+ past the prior bar's low (no-chase), and there was no retest. |
+| 10:55–11:35 | +$8.8 in 40 min (737.72 → 746.48) | A V-reversal off the low on 1.5× volume (11:00), QQQ led (+$13) | D long (sweep and reclaim) / VWAP reclaim | No setup: price stayed $7–10 below VWAP, there was no mapped level reclaimed, and D needs a sweep of a key level (the low was new, not a sweep). |
+| 11:35–12:05 | −$6.8 in 30 min (746.48 → 739.73) | A lower high under VWAP, the 11:40 bar $0.62 past $743.07 | E short (range low) | Band: $0.62 past (band $0.30), 0.8× volume (the extended band needs 1.2×). |
+| 12:55–1:05 | −$3.8 in 10 min (738.00 → 734.24) | A one-bar flush through the $737.12 low (1:00 bar range $2.89, 1.9× volume) | E/F short | Bar range > $1.00 and $1.92 past the level. Correct skip (it reversed $2.5 within 10 min). |
+| 2:05–2:15 | +$5.1 in 10 min (733.95 → 739.01) | A sweep of $734.24 at 2:05 and a $1.45 reclaim close, QQQ did not sweep | D long | Band ($1.45 past) and QQQ didn't sweep its low. Faded back to $735.5 by 2:25. |
+
+Pattern: a high-volatility trend day. The rules kept us out of every chase (correct on the 1:00 and 2:05 bars, which reversed), but the 10:31–10:50 continuation (−$11) had no entry type at all. Idea to test, not apply: a "trend pullback" entry (a 1-min flag after the A trade, same as A) for days with ORB break + VWAP slope down; needs a replay across past trend days first.

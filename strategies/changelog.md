@@ -31,3 +31,9 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Change 4 (D): the 10:15 D short at the 20-day failed R/R under both the old and new measurement. Neutral.
   - Change 6 (ORB): both ORB long breaks cancelled before a flag break (SPY 10:02, QQQ 10:23). Neutral.
   - Changes 1, 3, 5: not tested.
+- **2026-11-05 (day 4):**
+  - Change 3 (1.5R trail): **one signal against.** #55 trailed out at +1.32R (QQQ $660.82). A 1R trail would have exited at $659.21 (+1.82R), and holding to the reference target $653.32 would have made +3.66R (hit at 10:46). Running tally: 1 against, 0 for.
+  - Change 6 (ORB reference target, 2× pole): the QQQ target $653.32 (2× pole) was reached: **one signal for** (the old 1×-pole target $659.22 would have capped it). The SPY flag failed R/R under both rules (0.35R to $750.36). Running tally: 1 for.
+  - Change 2 (swing stop): no E/F signal reached the stop question (every close was outside the band). Neutral.
+  - Changes 1, 4, 5: change 1 (extended band) gated two near-misses on volume (11:40 at 0.8×, 2:00 at 1.11×), both of which fell further and then reversed; neutral. Change 4: no D signal. Change 5: not tested.
+  - **No playbook changes today** (no change has 10 signals yet; the trail evidence is one trade).

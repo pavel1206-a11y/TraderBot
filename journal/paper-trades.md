@@ -5051,3 +5051,9 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** past the 2:30 entry cutoff; no positions open, nothing to manage. Next: EOD at 3:47.
+
+### EOD 2026-11-05 (Thu)
+
+- **Close-out:** nothing open. Only trade: **#55 QQQ ORB-flag short (setup A, B grade) via PSQ, +$3.08** (+1.32R on QQQ; trailed out at 10:31). The option leg was skipped (664P $367 / 663P $322, over the $100 cap).
+- **Day: +$3.08.** **Running totals: 55 trades, 27W/28L (49%), +$187.05.** Options B 26 trades ≈ +$169; fractional B 27 trades +$4.24. **SPY 52 trades +$206.87; QQQ 3 trades −$19.82.** Still no A-grade trades.
+- **Day note:** a trend-down day (SPY −4.3% at the low, $733.95; QQQ −6.2%, $648.94). The ORB flag (setup A) caught the first leg on QQQ. After that, every move was one-bar flushes ($1.5–2.9 past the level) or counter-trend bounces below VWAP: the bands and the bar-range limit correctly kept us out of chases, but nothing else qualified all day. The 1.5R trail gave back half of a +2.8R move; the reference target $653.32 was hit 15 minutes after the exit.
