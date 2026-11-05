@@ -4974,3 +4974,18 @@ ARMED/WATCH (valid 12:57–1:27):
 - `ARMED VWAP reclaim long` (standing): inactive.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:12 PM ET): nothing fired; the 1:00 flush broke the lows in one bar**
+- **Replay:**
+  - SPY E short below $737.12: the 12:55 close $737.18 was just above. The 1:00 bar closed $735.20, $1.92 past the level, with a $2.89 range (band and bar limit both fail) → **not fired**.
+  - F: the SPY range ($737.12–738.95) and QQQ range ($652.15–654.32) broke on the same 1:00 bar, outside the band → not fired.
+- Lows: SPY $734.24, QQQ $649.53 (QQQ held above its $648.94 day low). Now a bounce: SPY $736.72, QQQ $651.89.
+- A no-chase miss (SPY −$3.8 in ~10 min): log for EOD.
+- **4H:** the 9:30 candle closes at 1:30, red, at the day low. **Squeeze (F):** none valid. No B-or-better setup.
+
+ARMED/WATCH (valid 1:12–1:42):
+- `WATCH E short SPY: 5-min close $0.01–0.30 below $734.24, bar range ≤ $1.00, on ≥ 1.0× volume (≥ 0.7× with a same-bar QQQ close below $648.94); swing stop; R/R ≥ 1.5.`
+- `WATCH E short QQQ: 5-min close $0.01–0.30 below $648.94, same rules` (one E short across both).
+- `ARMED VWAP reclaim long` (standing): inactive (VWAP ≈ $746 / $660).
+
+Market data and analysis only, not investment advice.
