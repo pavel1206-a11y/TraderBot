@@ -4788,3 +4788,25 @@ ARMED/WATCH (valid 9:58–10:27):
 - `ARMED VWAP reclaim long` (standing): inactive (both far below VWAP).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:13 AM ET): QQQ ORB-flag short FIRED at 10:01 (paper #55, PSQ fractional); SPY flag break = shadow**
+- **QQQ flag:** 9:58–10:00, high $668.17 / low $665.12, average volume ≈208k (lighter than the 291k break). Stayed below the ORB low $670.91.
+  - **Flag break 10:01:** 1-min close **$665.06** ($0.06 below the flag low, inside the $0.01–0.30 band) on 309.6k (above the flag average). **Entry.**
+  - Stop **$668.27** (flag high + $0.10), risk $3.21/share. No mapped level below → target = flag low − 2× pole (pole $670.91 − 665.01 = $5.90): **$653.32** (3.66R). Trail starts at **$660.24** (+1.5R). Time stop 10:31 if +1.5R isn't reached.
+- **Score card (setup A, ORB flag short): grade B**
+  - Trend/levels: below the PDL, S1, S2 and VWAP, VWAP sloping down ✔ · ORB break on ≥1.5× volume ✔ · flag on lighter volume, break on heavier ✔ · SPY agrees (also under its ORB low) ✔ · R/R 3.66 ✔
+  - Against: extended open (−3.9% at entry), no higher-timeframe level at the entry, macro catalyst not verified → B, not A.
+- **Option leg: skipped (over cap).** QQQ 11/5 664P was $3.67 ($367) and 663P $3.22 ($322) at the 10:01 close. Both are above the $100 0DTE premium cap.
+- **#55 PSQ fractional (paper):** 18.11 sh × **$27.61** (10:01 close) = $500. Stop = the PSQ equivalent of QQQ $668.27 (−0.48%): **$27.48** (price alert on PSQ). Risk ≈ $2.41 (well inside 5%).
+  - Since entry: QQQ high $666.50 (stop not hit), low $661.20 (trail trigger $660.24 not reached yet). PSQ now $27.74 → **+$2.35 open**.
+- **SPY flag (shadow only):** 10:06–10:09 ($751.19–753.00, avg 114.8k), broke at 10:10 (close $751.07 on 159.2k).
+  - Stop $753.10, risk $2.03. The next mapped level, the 10/30 low $750.36, is only 0.35R away; the level after it isn't mapped.
+  - Under the D-style "next level within 0.5R" rule that would measure past it, but the rule only covers D. **R/R fails, and QQQ already holds the one A short.**
+  - Earlier SPY flags (9:58–10:00, 9:58–10:04) failed on volume or band.
+
+ARMED/WATCH (valid 10:13–10:42):
+- `MANAGE #55 (QQQ ref): stop $668.27 (PSQ alert $27.48). At QQQ ≤ $660.24 (+1.5R), trail 1.5R ($4.82) behind the best QQQ price (≥ break-even $665.06). Target $653.32. Time stop: exit at the 10:31 close if +1.5R was never reached.`
+- `ARMED VWAP reclaim long` (standing): inactive. Both are far below VWAP.
+- No new ORB-flag shorts (one per setup per direction taken). E/F shorts on SPY are allowed as a different setup within the caps; none qualify (extended, no level break with a valid band).
+
+Market data and analysis only, not investment advice.
