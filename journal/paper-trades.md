@@ -5015,3 +5015,15 @@ ARMED/WATCH (valid 1:42–2:12):
 - `ARMED VWAP reclaim long` (standing): inactive (VWAP ≈ $746 / $660.8).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:57 PM ET): nothing fired; SPY coiling**
+- Replay: SPY held $735.09 (lows $735.12–735.37), so no F short. No sweep for D, no VWAP reclaim.
+- Now: SPY $736.19, QQQ $651.98. **4H:** the 1:30 candle is inside. **Squeeze (F):** SPY **$735.09–737.53** (40 min, $2.44 wide, valid); QQQ $650.14–653.15 ($3.01, too wide).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 1:57–2:27; entries by 2:30):
+- `WATCH F SPY short: 5-min close $0.01–0.30 below $735.09 on the F volume bar, with QQQ agreeing (closing below $650.14 or at a new low); F stop (≥ $0.40); target ≥ 1.5R.`
+- `WATCH D long (both): a sweep below $734.24 / $648.94, then a 5-min close back above within $0.01–0.30 on ≥ 1.0× volume, both together.`
+- `ARMED VWAP reclaim long` (standing): inactive.
+
+Market data and analysis only, not investment advice.
