@@ -4762,3 +4762,15 @@ Market data and analysis only, not investment advice.
 - Process note (from 11/4): list the standing VWAP-reclaim line at every check where price is on the other side of VWAP.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming (to 9:39); a hard open lower**
+- **SPY:** opened $765.47, now $760.62; range so far **$760.39–765.97**. Through the PDL ($762.64) and S1 ($763.23); S2 is $759.64.
+- **QQQ:** opened $683.09, now $674.99; range so far **$674.50–683.64** (−2.4% on the day). Through S1 ($686.07); S2 $680.18 is gone too; next is about $670.
+- Both agree now (down). No paper trades open. The final ORB is set at 9:45.
+
+ARMED/WATCH (valid 9:45–10:12):
+- `WATCH ORB SPY: 1-min close below / above the final 9:30–9:45 low / high (now $760.39 / $765.97) on ≥ 1.5× the prior 20-bar volume, by 11:00` (short room: S2 $759.64 is right under the ORB low; next mapped level below it is the 10/30 low $750.36 → measure to the level after S2 if S2 is within 0.5R)
+- `WATCH ORB QQQ: 1-min close below / above $674.50 / $683.64 on ≥ 1.5×, by 11:00` (no mapped level below → 2× pole)
+- `ARMED VWAP reclaim long SPY` (standing line): only if SPY closes back above VWAP + $0.10 with QQQ above its VWAP, then a hold bar; otherwise inactive. (Both are far below VWAP after a one-way open.)
+
+Market data and analysis only, not investment advice.
