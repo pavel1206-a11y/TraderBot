@@ -4886,3 +4886,18 @@ ARMED/WATCH (valid 11:28–11:57):
 - `ARMED VWAP reclaim long` (standing): 5-min close above VWAP + $0.10 with the other symbol above its VWAP, then a hold bar; inactive now.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:42 AM ET): no triggers fired; both are chopping just under VWAP**
+- **Replay:**
+  - SPY E short: the 11:30 close $743.97 was $0.76 below $744.73 (outside the band) on 0.8× volume → not fired.
+  - QQQ rejection of $661.83: the 11:25 bar traded $662.06 and closed $661.55 ($0.28 below, in band), but on 632k vs an 849k 10-bar average (0.74×) with no same-bar SPY break → **failed volume, not fired**. The 11:30 close $659.73 was outside the band.
+- **VWAP has fallen fast:** SPY $748.66, QQQ $662.76. Price: SPY $744.63, QQQ $660.51. QQQ tagged $662.62, just under VWAP.
+- **4H:** the 9:30 candle has a long lower wick (low $737.72 / $648.94, now about $7 / $12 above). **Squeeze (F)** forming (25 min, not yet valid): SPY $743.07–746.48, QQQ $658.45–662.62.
+- No B-or-better setup: chop near VWAP (filter).
+
+ARMED/WATCH (valid 11:42–12:12):
+- `ARMED VWAP reclaim long` (standing, now near): SPY 5-min close > VWAP + $0.10 (≈ $748.76) with QQQ above its VWAP (≈ $662.76), then a hold bar; stop per section 10.
+- `WATCH E short SPY: 5-min close $0.01–0.30 below $743.07 (range low) on ≥ 1.0× volume (≥ 0.7× with a same-bar QQQ close below $658.45).`
+- `WATCH F (both): once the ranges reach 30+ min (≈ 11:50), a 5-min close $0.01–0.30 beyond either edge on the F volume bar.`
+
+Market data and analysis only, not investment advice.
