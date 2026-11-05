@@ -4774,3 +4774,17 @@ ARMED/WATCH (valid 9:45–10:12):
 - `ARMED VWAP reclaim long SPY` (standing line): only if SPY closes back above VWAP + $0.10 with QQQ above its VWAP, then a hold bar; otherwise inactive. (Both are far below VWAP after a one-way open.)
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:58 AM ET): ORB final; both ORB shorts broke on volume; no flag yet (a trend-down open)**
+- **ORB final (9:30–9:45):** SPY **$765.97 / $756.90** ($9.07); QQQ **$683.64 / $670.91** ($12.73). A one-way sell-off from the open.
+- **SPY ORB short:** closes below $756.90 from 9:45, but the volume bar was only met at **9:51** (close $755.63 on 212.2k vs 203.4k needed, 1.56×). **Break.** Since then straight trend bars down to $752.83 (9:57): no pause, so **no flag**.
+- **QQQ ORB short:** **break at 9:50** (close $669.59 on 291.3k vs 287.6k needed, 1.52×). Then trend bars to $665.01: **no flag**.
+- One short per setup across SPY/QQQ: whichever flags first (higher score if both).
+- SPY $753.0 (−1.8%), QQQ $665.2 (−3.9%). Far below VWAP. No paper trades open.
+
+ARMED/WATCH (valid 9:58–10:27):
+- `WATCH ORB-FLAG SPY short: a 2–10 bar flag below $756.90 (2-bar only if both drift up), lighter volume, then a 1-min close $0.01–0.30 below the flag low on volume above the flag average, by 11:30; stop = flag high + $0.10 (≥ $0.30); target = the 10/30 low $750.36 if it leaves ≥ 1.5R, else 2× the pole ($756.90 → flag low); a 1-min close above $756.90 cancels.`
+- `WATCH ORB-FLAG QQQ short:` the same, below $670.91 (no mapped level below → 2× pole). Same setup as SPY: one short only.
+- `ARMED VWAP reclaim long` (standing): inactive (both far below VWAP).
+
+Market data and analysis only, not investment advice.
