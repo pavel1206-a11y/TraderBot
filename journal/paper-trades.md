@@ -5049,3 +5049,5 @@ Market data and analysis only, not investment advice.
 - No ARMED list (past 2:15). EOD at 3:47.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** past the 2:30 entry cutoff; no positions open, nothing to manage. Next: EOD at 3:47.
