@@ -4810,3 +4810,19 @@ ARMED/WATCH (valid 10:13–10:42):
 - No new ORB-flag shorts (one per setup per direction taken). E/F shorts on SPY are allowed as a different setup within the caps; none qualify (extended, no level break with a valid band).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:28 AM ET): #55 reached +1.5R, so the trail is on; it now locks in a gain**
+- **#55 (QQQ ORB-flag short, PSQ):** QQQ traded through the $660.24 trigger at 10:23. The time stop is void.
+  - Best QQQ price so far $656.00 (10:27) → trail stop **$660.82** (best + 1.5R $4.82; tighter than break-even $665.06). PSQ alert equivalent ≈ **$27.79**.
+  - PSQ now $27.935 → **+$5.89 open**. Target $653.32 is still live.
+- **SPY:** $745.61, broke the 10/30 low $750.36 around 10:17 with no 5-min close inside the band. The 10:10 ORB-flag shadow would have worked: logged for the EOD missed-move review.
+- VWAP: SPY $755.54, QQQ $668.83, both sloping down; price far below.
+- **4H:** the 9:30 candle is in its expansion leg down (open-hour drive lower, no manipulation wick up). **Squeeze (F):** no range; trending.
+- No new A–F setups: SPY E short would be a chase ($4.75 past the level); QQQ already holds the A short.
+
+ARMED/WATCH (valid 10:28–10:57):
+- `MANAGE #55: trail 1.5R ($4.82) behind the best QQQ low (now stop $660.82 → PSQ ≈ $27.79); target $653.32.`
+- `WATCH E short SPY: a pullback to $750.36 that fails (5-min close $0.01–0.30 back below on ≥ 1.0× volume, or ≥ 0.7× with a same-bar QQQ break); swing stop per section 10.`
+- `ARMED VWAP reclaim long` (standing): inactive (both far below VWAP).
+
+Market data and analysis only, not investment advice.
