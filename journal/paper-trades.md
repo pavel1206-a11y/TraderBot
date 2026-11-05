@@ -4743,3 +4743,22 @@ ARMED (valid 1:58–2:15, the last arming window):
 - **Playbook tuning:** none (three days of data; see the changelog). The arming checklist gap (VWAP-reclaim line) is a process fix, not a rule change.
 
 Market data and analysis only, not investment advice.
+
+### 2026-11-05 (Thu): pre-market brief (8:37 AM ET)
+- **SPY PDH $769.22 · PDL $762.64** (11/4). Pre-market **$767.55**: **between, $1.67 under the PDH**. (The daily bar shows a $775.64 high, but no 1-minute bar traded above $769.22; treated as a bad print.)
+- **QQQ PDH $701.45 · PDL $687.87** (11/4). Pre-market **$686.19**: **below the PDL by $1.68** (−0.8%).
+- **SPY:**
+  - Close $766.81. Pivots: S2 $759.64 · S1 $763.23 · **P $766.22** · **R1 $769.81** · R2 $772.80.
+  - SMAs: 20-day $767.57, 50-day $767.06 (price sits right on both). Pre-market range $763.88–768.54.
+  - Resistance cluster: the PDH $769.22 / R1 $769.81 (three rejections yesterday at $768.6–769.2).
+- **QQQ:**
+  - Close $691.95. Pivots: S2 $680.18 · **S1 $686.07** · P $693.76 · R1 $699.65.
+  - SMAs: 20-day $717.42, 50-day $723.56. Pre-market range $682.37–689.31; now at S1, under the PDL.
+- **Events:** weekly jobless claims (8:30, already out); no major release during the session known (not verified; news feed not checked). Friday: the October jobs report at 8:30.
+- **Bias: none. SPY and QQQ disagree** (SPY flat on its SMAs, QQQ −0.8% under its PDL): no-trade filter until they line up.
+  - Owner's setup: QQQ is below its PDL; a **reclaim of $687.87 that holds** (with SPY holding its pivot $766.22) is the sweep-and-reverse long.
+  - A QQQ failure under $686 with SPY losing its pivot = a short toward SPY S1 $763.23 / QQQ S2.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
+- Process note (from 11/4): list the standing VWAP-reclaim line at every check where price is on the other side of VWAP.
+
+Market data and analysis only, not investment advice.
