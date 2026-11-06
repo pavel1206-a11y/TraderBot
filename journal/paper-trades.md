@@ -5250,3 +5250,16 @@ ARMED/WATCH (valid 12:42–1:12):
 - `ARMED VWAP line` (standing): a 5-min close back above VWAP + $0.10 within the band, both, then a hold bar.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:57 PM ET): nothing fired; a slow grind lower**
+- Replay: SPY E short below $735.54: no 5-min close below it (low $735.13; closes $737.23 / 736.29 / 735.88) → not fired. QQQ low $654.00, close $654.80 (above $654.43). No sweep of $734.58, so no D long. No VWAP reclaim.
+- Now: SPY $735.88, QQQ $654.80, below VWAP (≈ $738.8 / $659.6, starting to slope down). Lower highs since 12:35.
+- **4H:** the 12:00 candle is red, near its low. **Squeeze (F):** none.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:57–1:27):
+- `WATCH E short SPY: 5-min close $0.01–0.30 below $735.13 (new low), bar ≤ $1.00, ≥ 1.0× volume (≥ 0.7× with a same-bar QQQ close below $654.00); swing stop; target the PDL $732.71 only if ≥ 1.5R, else skip.`
+- `WATCH D long (both): SPY sweeps $734.58 / QQQ sweeps $654.00, then both close back above within $0.01–0.30 on ≥ 1.0×; stop under the sweep − $0.10; target VWAP.`
+- `ARMED VWAP line` (standing).
+
+Market data and analysis only, not investment advice.
