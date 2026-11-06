@@ -5331,3 +5331,5 @@ Market data and analysis only, not investment advice.
 - No B-or-better setup. The 2:25 bar (closes 2:30) is the last possible trigger; the 2:42 check replays it. No positions open.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** the 2:25 bar closed SPY $737.89 / QQQ $658.57, inside both ranges → no final trigger. The entry window is closed; no positions open, no trades today. (The 2:30 bar closed SPY $737.50, $0.08 below $737.58, after the cutoff, so it doesn't count.) Next: EOD at 3:47 with the weekly review.
