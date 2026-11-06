@@ -5210,3 +5210,17 @@ ARMED/WATCH (valid 11:57–12:27):
 - `ARMED VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:14 PM ET): nothing fired; correction on the F range age**
+- **Correction:** playbook setup F needs the range to hold **45 minutes** (section 4F), not 30 as my checks have been writing since 11/5. It changed no outcome so far (every F break logged was outside the band or the range was too wide), but the ARMED lines now use 45.
+- **Replay F SPY:** the 12:00 bar closed $738.73, $0.26 below $738.99 (in band), on 139k vs a 136k 10-bar average (1.02×). But the range had held only **40 minutes** (from 11:20; needs 45), QQQ had no valid range to break (its range was $2.82 wide), and price was chopping across VWAP (filter) → **not fired**.
+- E lines ($742.21 / $737.00): not reached (SPY $738.47–740.76).
+- Now: SPY $738.97, QQQ $659.06, just under VWAP (≈ $739 / $660). **4H:** the 12:00 candle opened ≈ $740.5 and dipped. **Squeeze (F):** none valid (SPY $737.81–741.06 since 11:15 is $3.25).
+- No B-or-better setup (VWAP chop).
+
+ARMED/WATCH (valid 12:14–12:42):
+- `WATCH E long SPY above $742.21 / E short SPY below $737.00` (5-min close $0.01–0.30 past, bar ≤ $1.00, ≥ 1.0× volume or ≥ 0.7× with the same-bar QQQ break, swing stop, R/R ≥ 1.5).
+- `WATCH F (both): a range ≤ $2.50 wide held 45+ min, then a 5-min close $0.01–0.30 outside on ≥ 1.0× (≥ 0.7× with QQQ breaking its own range), QQQ breaking the same way.`
+- `ARMED VWAP line` (standing).
+
+Market data and analysis only, not investment advice.
