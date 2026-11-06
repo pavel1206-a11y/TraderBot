@@ -5115,8 +5115,8 @@ Market data and analysis only, not investment advice.
 - No B-or-better setup (drifting, volume fading).
 
 ARMED/WATCH (valid 10:16–10:42):
-- `WATCH ORB SPY long: a 1-min close above $742.21 (the post-ORB high) on ≥ 1.5× the prior 20-bar volume, by 11:00, counts as the break; then a flag per A; target the pivot $743.89 only if ≥ 1.5R, else 2× pole. Short: a close below $734.58 on ≥ 1.5×.`
-- `WATCH ORB QQQ: a 1-min close above $661.73 on ≥ 1.5× (≈ 160k now), by 11:00; short below $655.17.` One per setup per direction.
+- `WATCH ORB SPY long: a 1-min close above the ORB high $738.98 on ≥ 1.5× the prior 20-bar volume, by 11:00 (price is above it now, so any qualifying up-close counts); then a flag per A; target the pivot $743.89 only if ≥ 1.5R, else 2× pole. Short: a close below $734.58 on ≥ 1.5×.`
+- `WATCH ORB QQQ: a 1-min close above $661.73 on ≥ 1.5× the prior 20-bar volume, by 11:00; short below $655.17.` One per setup per direction.
 - `ARMED VWAP line` (standing): both above VWAP; a 5-min close below VWAP − $0.10 with the other also below = short line.
 
 Market data and analysis only, not investment advice.
