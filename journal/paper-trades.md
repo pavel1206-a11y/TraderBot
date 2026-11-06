@@ -5236,3 +5236,17 @@ ARMED/WATCH (valid 12:28–12:57):
 - `ARMED VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:42 PM ET): nothing fired; a one-bar flush at 12:35**
+- **Replay:**
+  - The 12:35 bar dropped SPY to $735.54 and closed $737.06 on 491k (≈ 4×). F range low $738.30: the close was $1.24 past (outside even the $0.75 extended band); bar range $3.53 (> $1.00); and the range was not yet 45 min old (valid from 12:45) → **not fired**.
+  - E short below $737.00: closed $0.06 above it → not fired. QQQ flushed to $654.43 (below its ORB low $655.17 and the 10:35 low $655.62), close $656.37.
+- Now: SPY $737.06, QQQ $656.37, both below VWAP (≈ $739 / $660). **4H:** the 12:00 candle swept down (a manipulation leg?). **Squeeze (F):** none (the ranges broke).
+- No B-or-better setup (the trigger bar was too big; chasing filter).
+
+ARMED/WATCH (valid 12:42–1:12):
+- `WATCH E short SPY: 5-min close $0.01–0.30 below $735.54 (today's new low after the flush), bar ≤ $1.00, ≥ 1.0× volume (≥ 0.7× with a same-bar QQQ close below $654.43); swing stop; target the PDL $732.71 only if ≥ 1.5R.`
+- `WATCH D long (both): if SPY sweeps $734.58 (ORB low) / QQQ sweeps $654.43 and both close back above within $0.01–0.30 on ≥ 1.0× volume, the 12:00 4H candle reversal; stop under the sweep − $0.10; target VWAP then $741–742.`
+- `ARMED VWAP line` (standing): a 5-min close back above VWAP + $0.10 within the band, both, then a hold bar.
+
+Market data and analysis only, not investment advice.
