@@ -5163,3 +5163,16 @@ ARMED/WATCH (valid 10:57–11:27):
 - `ARMED VWAP line` (standing): chop; a fresh 5-min close $0.01–0.30 through VWAP (± $0.10) on ≥ 1.0× with the other symbol agreeing, then a hold bar.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:13 AM ET): nothing fired; range-bound**
+- Replay: SPY stayed inside $737.00–742.21 (high $741.60, low $738.78) → neither E line fired. No fresh VWAP cross within the band. The ORB window closed at 11:00 with **no valid break** (no setup A today).
+- Now: SPY $739.28, QQQ $658.38, around a flat VWAP (≈ $738.8 / $659.8). The 11:05 bars show 18k/153k (thin data).
+- **4H:** the 8:00 candle closes at noon, mid-range (no manipulation). **Squeeze (F):** SPY $738.78–741.60 since 10:45 ($2.82, over the $2.50 limit); QQQ $657.99–661.95 (too wide).
+- No B-or-better setup (VWAP chop).
+
+ARMED/WATCH (valid 11:13–11:42):
+- `WATCH E long SPY: 5-min close $0.01–0.30 above $742.21 on ≥ 1.0× volume (≥ 0.7× with a same-bar QQQ close above $664.52); swing stop; target the pivot $743.89 only if ≥ 1.5R.`
+- `WATCH E short SPY: 5-min close $0.01–0.30 below $737.00 on ≥ 1.0× volume (≥ 0.7× with a same-bar QQQ close below $655.62); swing stop; target the PDL $732.71 (≥ 1.5R).`
+- `ARMED VWAP line` (standing): a fresh 5-min close $0.01–0.30 through VWAP ± $0.10 on ≥ 1.0× with the other symbol agreeing, then a hold bar.
+
+Market data and analysis only, not investment advice.
