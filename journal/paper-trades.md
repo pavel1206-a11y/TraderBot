@@ -5057,3 +5057,24 @@ Market data and analysis only, not investment advice.
 - **Close-out:** nothing open. Only trade: **#55 QQQ ORB-flag short (setup A, B grade) via PSQ, +$3.08** (+1.32R on QQQ; trailed out at 10:31). The option leg was skipped (664P $367 / 663P $322, over the $100 cap).
 - **Day: +$3.08.** **Running totals: 55 trades, 27W/28L (49%), +$187.05.** Options B 26 trades ≈ +$169; fractional B 27 trades +$4.24. **SPY 52 trades +$206.87; QQQ 3 trades −$19.82.** Still no A-grade trades.
 - **Day note:** a trend-down day (SPY −4.3% at the low, $733.95; QQQ −6.2%, $648.94). The ORB flag (setup A) caught the first leg on QQQ. After that, every move was one-bar flushes ($1.5–2.9 past the level) or counter-trend bounces below VWAP: the bands and the bar-range limit correctly kept us out of chases, but nothing else qualified all day. The 1.5R trail gave back half of a +2.8R move; the reference target $653.32 was hit 15 minutes after the exit.
+
+## 2026-11-06 (Fri)
+
+**Pre-market brief (8:35 AM ET)**
+- **SPY PDH $765.97 / PDL $732.71.** Pre $734.50: between them, $1.79 above the PDL. Pre-market range $730.70–737.94 (swept below the PDL overnight, then reclaimed).
+- **QQQ PDH $683.65 / PDL $647.05.** Pre $656.79: between them, $9.74 above the PDL (+1.5%). Pre-market range $649.71–660.35.
+- **SPY:**
+  - Close $733.00 (−4.3% on the day, the low close). Pivots: S2 $710.63 · S1 $721.82 · **P $743.89** · R1 $755.08 · R2 $777.15.
+  - SMAs: 20-day $765.53, 50-day $766.40 (price ≈ $32 below both).
+  - Levels: PDL $732.71 / the 11/5 intraday floor $733.95–734.24; overhead 11/5's $737.7–739.0 (the 2:15 pop high), then $744.7–746.5 (the 11:35 lower high).
+- **QQQ:**
+  - Close $647.05 (−6.5%, closed on its low). Pivots: S2 $622.65 · S1 $634.85 · **P $659.25** · R1 $671.45.
+  - SMAs: 20-day $712.40, 50-day $722.27. Pre-market is retesting the pivot $659.25 (high $660.35).
+- **Events:** the October jobs report at 8:30 (released at brief time; the result is not checked, news feed not read; the pre-market reaction was small, SPY −$1 in the first 5 minutes). Nothing else scheduled known (not verified).
+- **Bias: none.** The trend is bearish (both far below their SMAs, closed on the lows), but QQQ is bouncing +1.5% in pre-market while SPY is flat. SPY/QQQ disagree → wait for them to line up.
+  - Owner's setup: SPY swept the PDL overnight and reclaimed it. A regular-hours sweep of $732.71 that reverses (with QQQ holding $647–650) is the sweep-and-reverse long.
+  - A failure at QQQ's pivot $659.25 with SPY back under $732.71 = the trend short.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
+- Friday: EOD includes the weekly review and the graduation check.
+
+Market data and analysis only, not investment advice.
