@@ -5324,3 +5324,10 @@ ARMED/WATCH (valid 2:13–2:30, entries only):
 - `ARMED VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:28 PM ET): nothing fired; the last entry window is closing**
+- Replay: F ranges valid from 2:20. SPY's 2:20 bar wicked to $737.56 (below $737.58) but closed $738.04 inside; QQQ's 2:10 bar wicked to $659.56 and closed $659.29 inside → **no close outside either range**. E lines: no. VWAP: no.
+- Now: SPY $738.04, QQQ $658.64. **4H:** the 12:00 candle is an inside doji. **Squeeze (F):** SPY $737.56–739.01, QQQ $657.27–659.56.
+- No B-or-better setup. The 2:25 bar (closes 2:30) is the last possible trigger; the 2:42 check replays it. No positions open.
+
+Market data and analysis only, not investment advice.
