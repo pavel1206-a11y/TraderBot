@@ -5078,3 +5078,15 @@ Market data and analysis only, not investment advice.
 - Friday: EOD includes the weekly review and the graduation check.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming (to 9:42); a bounce from the open**
+- **SPY:** opened $734.82 (above the PDL $732.71, no sweep), now $737.64; range so far **$734.58–738.98**. Overhead: 11/5's $737.7–739.0, then the pivot $743.89.
+- **QQQ:** opened $658.37, now $659.97; range so far **$655.17–661.73**. Back above its pivot $659.25 (+2.0% on the day).
+- Both up together (SPY +0.6%, QQQ +2.0%). No paper trades open. The final ORB is set at 9:45.
+
+ARMED/WATCH (valid 9:45–10:12):
+- `WATCH ORB SPY: 1-min close above / below the final 9:30–9:45 high / low (now $738.98 / $734.58) on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per setup A (reference target: the pivot $743.89 long / the PDL $732.71 short, else 2× pole).`
+- `WATCH ORB QQQ: 1-min close above / below $661.73 / $655.17 on ≥ 1.5×, by 11:00` (long target: R1 $671.45 is far; use 2× pole. Short: the PDL $647.05). One trade per setup per direction across both.
+- `ARMED VWAP reclaim` (standing): both are above VWAP now. A 5-min close back below VWAP − $0.10 with the other symbol also below is the reverse line (short); list each check.
+
+Market data and analysis only, not investment advice.
