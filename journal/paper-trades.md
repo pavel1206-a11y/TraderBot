@@ -5224,3 +5224,15 @@ ARMED/WATCH (valid 12:14–12:42):
 - `ARMED VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:28 PM ET): nothing fired; tight midday chop**
+- Replay: SPY $738.30–739.97 (E lines $742.21 / $737.00 not reached); no in-band VWAP cross on volume; no 45-min F range.
+- Now: SPY $739.40, QQQ $659.54, on a flat VWAP (≈ $739 / $660). **4H:** the 12:00 candle is small, mid-range. **Squeeze (F):** forming since 12:00: SPY **$738.30–740.50** ($2.20), QQQ **$658.29–660.65** ($2.36); valid from 12:45 if they hold.
+- No B-or-better setup (VWAP chop).
+
+ARMED/WATCH (valid 12:28–12:57):
+- `WATCH F (both, from 12:45): a 5-min close $0.01–0.30 outside SPY $738.30–740.50 on ≥ 1.0× (≥ 0.7× with QQQ breaking its $658.29–660.65 range the same bar), QQQ breaking the same way; F stop (≥ $0.40); target edge ± 2× range height ($744.90 / $733.90) or a strong level first.`
+- `WATCH E long SPY above $742.21 / E short below $737.00` (5-min close $0.01–0.30 past, bar ≤ $1.00, ≥ 1.0× or ≥ 0.7× with the same-bar QQQ break, swing stop, R/R ≥ 1.5).
+- `ARMED VWAP line` (standing).
+
+Market data and analysis only, not investment advice.
