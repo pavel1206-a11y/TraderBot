@@ -37,3 +37,8 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Change 2 (swing stop): no E/F signal reached the stop question (every close was outside the band). Neutral.
   - Changes 1, 4, 5: change 1 (extended band) gated two near-misses on volume (11:40 at 0.8×, 2:00 at 1.11×), both of which fell further and then reversed; neutral. Change 4: no D signal. Change 5: not tested.
   - **No playbook changes today** (no change has 10 signals yet; the trail evidence is one trade).
+- **2026-11-06 (day 5, Friday; weekly summary in journal/paper-trades.md):**
+  - Change 1 (extended band): the 1:30 F long closed $1.14 past (beyond $0.75); not tested. Neutral.
+  - Change 6 (ORB target): no ORB break on volume; not tested.
+  - Changes 2–5: no signals.
+  - Running tallies: change 2: 2 against / 1 for; change 3: 1 against; change 6: 1 for. **No verdicts yet** (none has 10 signals; 2-week mark 11/16). No playbook changes this week.

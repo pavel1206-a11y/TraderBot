@@ -329,3 +329,15 @@ Pattern: three tests of the 20-day ($768.6–769.2) all failed; the money was in
 | 2:05–2:15 | +$5.1 in 10 min (733.95 → 739.01) | A sweep of $734.24 at 2:05 and a $1.45 reclaim close, QQQ did not sweep | D long | Band ($1.45 past) and QQQ didn't sweep its low. Faded back to $735.5 by 2:25. |
 
 Pattern: a high-volatility trend day. The rules kept us out of every chase (correct on the 1:00 and 2:05 bars, which reversed), but the 10:31–10:50 continuation (−$11) had no entry type at all. Idea to test, not apply: a "trend pullback" entry (a 1-min flag after the A trade, same as A) for days with ORB break + VWAP slope down; needs a replay across past trend days first.
+
+### 2026-11-06 (Fri, jobs-report chop)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:45–9:54 | +$3.5 in 9 min (738.69 → 742.21) | ORB high $738.98 broken at 9:45 on 153k vs 186.6k needed (1.23× the 9:30-heavy average); QQQ broke at 9:45 on 0.79× | A (ORB flag) long | Volume bar: never 1.5× (the 9:30 bar inflated the 15-bar average). Faded back under the ORB high by 10:06. |
+| 9:54–10:35 | −$5.2 in 41 min (742.21 → 737.00) | Rejection from $742.2, under the pivot $743.89; VWAP lost at 10:30 ($1.33 past on 0.99×) | VWAP line short / E short | Band ($1.33 past VWAP) and volume (0.99×). Reversed +$4.6 by 10:55. |
+| 10:35–10:55 | +$4.6 in 20 min (737.00 → 741.60) | VWAP reclaim at 10:45 ($1.33 past on 0.4×) | VWAP reclaim long | Band and volume (0.4×). Faded back by 11:15. |
+| 12:35–12:40 | −$3.5 in 5 min (739.07 → 735.54) | One 4× bar through the range low $738.30 | F/E short | Bar range $3.53 > $1.00, $1.24 past the edge, range under 45 min. Basing / higher within 30 min. |
+| 12:55–1:35 | +$3.8 in 40 min (735.13 → 738.91) | Base at $735.1–735.8, then a 1.8× bar at 1:30 through $737.63 ($1.14 past, $1.63 range) with QQQ | F long | Band (> $0.75) and bar range. Faded back into the range the next bar. |
+
+Pattern: a two-sided chop day around VWAP after a −4% day and the jobs report. Every move started with one oversized bar and reversed within 10–20 minutes; the bands and the $1.00 bar cap avoided all of them except the first ORB leg, which the volume bar blocked (see the ORB volume idea in the weekly review).

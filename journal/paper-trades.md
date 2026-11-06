@@ -5333,3 +5333,48 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** the 2:25 bar closed SPY $737.89 / QQQ $658.57, inside both ranges → no final trigger. The entry window is closed; no positions open, no trades today. (The 2:30 bar closed SPY $737.50, $0.08 below $737.58, after the cutoff, so it doesn't count.) Next: EOD at 3:47 with the weekly review.
+
+### EOD 2026-11-06 (Fri)
+
+- **Close-out:** no trades today, nothing open.
+- **Day: $0.** **Running totals (unchanged): 55 trades, 27W/28L (49%), +$187.05.** Options B 26 trades ≈ +$169; fractional B 27 trades +$4.24. SPY 52 trades +$206.87; QQQ 3 trades −$19.82.
+- **Day note:** a post-jobs-report chop day (SPY range $734.58–742.21, closed around $738; QQQ $654.00–664.52). The ORB long broke above the high but never on 1.5× volume (the 9:30 bar inflated the short average). After that, price crossed VWAP back and forth all day. Every break was a single big bar ($1.1–3.5 past) that reversed within 10–20 minutes, so the bands and the bar-range cap kept us flat, correctly on most of them.
+
+## Weekly review: 2026-11-02 to 11-06 (playbook section 8)
+
+| Day | Trades | Result | Notes |
+|---|---|---|---|
+| Mon 11/2 | 3 | +$116.92 | #50 A-flag long (fractional) −$0.58; #51 F short 758P **+$116**; #52 SH +$1.50 |
+| Tue 11/3 | 2 (1 signal) | −$42.89 | E long #53 758C −$42, #54 −$0.89 (time stop); two-loss stop |
+| Wed 11/4 | 0 | $0 | 20-day rejections; VWAP-reclaim process miss (+$5.6) |
+| Thu 11/5 | 1 | +$3.08 | #55 QQQ A-flag short via PSQ (option over the cap); trend day −4.3% |
+| Fri 11/6 | 0 | $0 | Jobs-day chop around VWAP |
+| **Week** | **6 (5 signals)** | **+$77.11** | 3W/3L; options +$74.00 (2 trades), fractional +$3.11 (4 trades); all B grade |
+
+- **Per setup (this week):**
+  - **A (ORB flag):** 2 entries (#50, #55), 1W/1L, +$2.50. The first entries since the setup was added (10/27). Both option legs were over the $100 cap, so only the fractional legs counted. Shadows: SPY 11/2 (0.8R to R1), SPY 11/5 (0.35R to $750.36; it would have run $6).
+  - **F (squeeze):** 1 signal (#51/#52), won both legs: the week's whole profit.
+  - **E (momentum):** 1 signal (#53/#54), lost both legs (time stop on a 0.6R move).
+  - **D, B, C:** no entries.
+- **By grade:** all 55 paper trades are B grade. Still no A-grade sample.
+- **Rule breaks:** none in entries. Process slips:
+  - 11/4: the standing VWAP-reclaim line wasn't armed (fixed: it's now listed every check).
+  - 11/5–11/6: my checks wrote F's range age as 30 min; the playbook says 45. No outcome changed (every F break was outside the band). Corrected on 11/6.
+  - 11/6: one ARMED line used $742.21 instead of the ORB high $738.98; corrected the same check.
+- **Changelog (all six owner-approved changes, introduced 11/2; results so far, 5 sessions):**
+
+| # | Change | Signals | Result so far | Verdict |
+|---|---|---|---|---|
+| 1 | Extended band to $0.75 (≥ 1.2× + QQQ) | 0 fires | 4 near-misses gated on volume (11/3, 11/5 ×2, 11/6); most of them reversed | Pending |
+| 2 | Swing stop (E) | 3 | 2 against (11/2 gate, 11/3 width), 1 for (11/4) | Pending |
+| 3 | 1.5R trail | 1 | 1 against (#55: 1R trail +1.82R vs +1.32R) | Pending |
+| 4 | D: measure past a close level | 2 | Neutral (both skipped under old and new) | Pending |
+| 5 | Different setups same direction | 0 | Not tested | Pending |
+| 6 | ORB reference target (2× pole / next level) | 4 | 1 for (#55 target reached), 3 neutral | Pending |
+
+  None has 10 signals; the 2-week mark is 11/16. **No changes made or reverted this week.**
+- **Idea to test (not applied):** the ORB break volume bar uses "the prior 20 bars", but 9:45–9:50 has only 15, all opening-heavy (11/6: 1.5× = 186k/286k vs typical 80–150k bars). An option: compare to the 9:31–9:44 average excluding the 9:30 bar. Needs a replay of the ORB days since 10/27 first.
+
+**Graduation check (CLAUDE.md):** at least 10 paper trades ✓ (55). A-grade trades profitable ✗: **no A-grade trades exist.** **Not passed**: keep paper trading. B-grade results for reference: 55 trades, 49% win rate, +$187.05 (options ≈ +$169 on 26 trades; fractional +$4.24 on 27). The note to the owner from 10/30 stands: A grade hasn't appeared in 6 weeks; graduation as written may need a review of A scoring or a decision on B-grade results (owner's call, CLAUDE.md).
+
+Market data and analysis only, not investment advice.
