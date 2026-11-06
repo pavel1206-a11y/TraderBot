@@ -5132,3 +5132,19 @@ ARMED/WATCH (valid 10:28–10:57):
 - `WATCH F (both, from ≈ 10:43): a 5-min close $0.01–0.30 beyond the range edge on the F volume bar, the other symbol agreeing; longs only above VWAP, shorts only below.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:42 AM ET): nothing fired; both slipped under VWAP on one bar**
+- **Replay:**
+  - ORB: no qualifying break either way (SPY low $737.00 > $734.58; QQQ low $655.62 > $655.17; no up-close on 1.5×).
+  - F: both ranges broke at 10:28–10:30, before they were valid (10:43) → not valid.
+  - **VWAP short line:** the 10:30 5-min bar closed SPY $737.48 / QQQ $656.25, both under VWAP ($738.81 / $659.97). But the close was **$1.33 past** VWAP (E band $0.01–0.30; the extended band to $0.75 needs 1.2×) on **0.99×** volume (374k vs 378k) → **not fired**. The 10:35 bar held below (SPY $738.12).
+- Now: SPY $737.76, QQQ $656.85, just under VWAP ($738.74 / $659.83, flat). SPY gave back the open's gain; QQQ is near its ORB low $655.17.
+- **4H:** the 8:00 candle is fading from its high (a possible D distribution leg). **Squeeze (F):** none valid.
+- No B-or-better setup (chop around VWAP = filter).
+
+ARMED/WATCH (valid 10:42–11:12):
+- `WATCH ORB SPY/QQQ short: a 1-min close below $734.58 / $655.17 on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A by 11:30; reference target: the PDL $732.71 (SPY; skip if < 1.5R) / the PDL $647.05 (QQQ).`
+- `WATCH VWAP reclaim long (both): a 5-min close $0.01–0.30 above VWAP (+ $0.10 buffer) on ≥ 1.0× volume with the other also above, then a hold bar.`
+- `WATCH E short SPY: a 5-min close $0.01–0.30 below $737.00 (today's post-ORB low) on ≥ 1.0× volume (≥ 0.7× with a same-bar QQQ close below $655.62); swing stop.`
+
+Market data and analysis only, not investment advice.
