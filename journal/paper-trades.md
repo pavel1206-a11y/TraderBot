@@ -5120,3 +5120,15 @@ ARMED/WATCH (valid 10:16–10:42):
 - `ARMED VWAP line` (standing): both above VWAP; a 5-min close below VWAP − $0.10 with the other also below = short line.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:28 AM ET): nothing fired; tight drift, volume drying up**
+- Replay: SPY up-closes above $738.98 were all on 18–100k (1.5× needs ≈ 110k) → no break. QQQ closes stayed under $661.73. No short breaks, no VWAP line.
+- Now: SPY $739.90, QQQ $659.38. **4H:** the 8:00 candle is up, mid-range. **Squeeze (F):** SPY $739.75–741.48 since 10:13 (15 min, $1.73); QQQ $659.28–661.78 (15 min, $2.50). Valid from ≈ 10:43.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 10:28–10:57):
+- `WATCH ORB SPY: a 1-min close above $738.98 on ≥ 1.5× the prior 20-bar volume (long) or below $734.58 on ≥ 1.5× (short), by 11:00; then a flag per A.`
+- `WATCH ORB QQQ: the same above $661.73 / below $655.17, by 11:00.` One per setup per direction.
+- `WATCH F (both, from ≈ 10:43): a 5-min close $0.01–0.30 beyond the range edge on the F volume bar, the other symbol agreeing; longs only above VWAP, shorts only below.`
+
+Market data and analysis only, not investment advice.
