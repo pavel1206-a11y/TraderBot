@@ -5090,3 +5090,18 @@ ARMED/WATCH (valid 9:45–10:12):
 - `ARMED VWAP reclaim` (standing): both are above VWAP now. A 5-min close back below VWAP − $0.10 with the other symbol also below is the reverse line (short); list each check.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:57 AM ET): ORB final; price above both ORB highs but no break on volume yet**
+- **ORB final (9:30–9:45):** SPY **$738.98 / $734.58** ($4.40); QQQ **$661.73 / $655.17** ($6.56).
+- **SPY:** closes above $738.98 from 9:45 (first $739.87 on 153k), but the volume bar is 1.5× the prior average (124k → **186.6k needed**); no up-close bar has met it (best 153k). **No valid break yet.** High $742.21 (9:54), now $740.30.
+- **QQQ:** the first close above $661.73 at 9:45 ($662.63 on 150k vs **286k needed**, 1.5× the 191k average, inflated by the 9:30 bar). No valid break. High $664.52, now $661.54 (back near the ORB high).
+- Both up (SPY +1.0%, QQQ +2.2%); a bounce toward SPY's pivot $743.89. No paper trades open.
+- **4H:** the 8:00 candle is up off a pre-market sweep of the PDL. **Squeeze (F):** none yet.
+- No B-or-better setup (no valid trigger).
+
+ARMED/WATCH (valid 9:57–10:27):
+- `WATCH ORB SPY long: the first 1-min close above $738.98 on ≥ 1.5× the prior 20-bar volume, by 11:00 (price is already above, so a fresh push on volume counts); then a flag per A; reference target the pivot $743.89 (R/R ≥ 1.5 or skip), else 2× pole. A short break needs a close below $734.58 on ≥ 1.5×.`
+- `WATCH ORB QQQ long: the same above $661.73 (reference target 2× pole; R1 $671.45). Short below $655.17.` One per setup per direction.
+- `ARMED VWAP line` (standing): both are above VWAP; a 5-min close back below VWAP − $0.10 with the other also below is the short line.
+
+Market data and analysis only, not investment advice.
