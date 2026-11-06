@@ -5287,3 +5287,16 @@ ARMED/WATCH (valid 1:28–1:57):
 - `WATCH D long (both): sweep of $734.58 / $654.00 and a close back above within $0.01–0.30 on ≥ 1.0×, both; stop under the sweep − $0.10.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:43 PM ET): nothing fired; an upside pop failed back into the range**
+- **Replay F SPY long:** the 1:30 bar closed $738.77, **$1.14 above** the $737.63 edge (outside the $0.75 extended band too), with a $1.63 bar range (> $1.00), on 211k (≈ 1.8×); QQQ broke its $657.23 top on the same bar (close $658.83). The long side also needed SPY above VWAP (≈ $738.5; borderline). **Not fired** (band and bar range). The next bar fell back to $737.92, inside the range.
+- F short below $735.13: no. D: no sweep.
+- Now: SPY $737.92, QQQ $657.62, around VWAP. **4H:** the 12:00 candle is a small doji. **Squeeze (F):** SPY range now $735.13–738.91 ($3.78; the pop widened it, so no valid range). QQQ too wide.
+- No B-or-better setup (VWAP chop).
+
+ARMED/WATCH (valid 1:43–2:12):
+- `WATCH E short SPY: 5-min close $0.01–0.30 below $735.13, bar ≤ $1.00, ≥ 1.0× (≥ 0.7× with a same-bar QQQ close below $654.00); swing stop; target the PDL $732.71 only if ≥ 1.5R.`
+- `WATCH E long SPY: 5-min close $0.01–0.30 above $738.91 with SPY and QQQ above VWAP, bar ≤ $1.00, ≥ 1.0×; swing stop; target $741.6–742.2 only if ≥ 1.5R.`
+- `ARMED VWAP line` (standing).
+
+Market data and analysis only, not investment advice.
