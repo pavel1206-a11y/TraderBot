@@ -5513,3 +5513,15 @@ ARMED/WATCH (valid 11:28–11:57):
 - `VWAP line` (standing): far below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:43 AM ET): nothing fired; the pullback deepened slightly**
+- Replay: SPY lost $749.78 (11:25 close $749.64; low $749.20) → the E long's hold condition failed (line void). The F ranges broke before they were 45 min old (SPY low $749.20 < $749.82; QQQ $674.18 < $675.44) → not valid.
+- Now: SPY $749.74, QQQ $675.10; a midday pullback of ≈ $2.5 / $4.7 off the highs, still well above VWAP. **4H:** the 8:00 candle closes at noon, up. **Squeeze (F):** forming: SPY $749.20–750.29 since 11:20 ($1.09); QQQ $674.18–676.21 ($2.03). Valid from ≈ 12:05.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:43–12:12):
+- `WATCH F (both, from 12:05): a 5-min close $0.01–0.30 outside SPY $749.20–750.29 / QQQ $674.18–676.21 on ≥ 1.0× (≥ 0.7× with the other breaking its range the same bar), both the same way; longs above VWAP only; F stop (≥ $0.40); target edge ± 2× range.`
+- `WATCH E long SPY: a 5-min close $0.01–0.30 above $751.76 (the day high) on ≥ 1.0×, QQQ above $678.85 or ≥ 0.7× with its same-bar break; swing stop; target ≥ 1.5R or skip (no mapped level above).`
+- `VWAP line` (standing): far below.
+
+Market data and analysis only, not investment advice.
