@@ -5442,3 +5442,22 @@ ARMED/WATCH (valid 10:17–10:42):
 - No E/VWAP lines (extended; no chase).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:27 AM ET): QQQ ORB-flag long FIRED at 10:15 (paper #56, QQQ fractional, armed, replayed)**
+- **QQQ ORB-flag long (setup A):** the ORB break at 9:55 (232k, 2.2×); after the 10:10 skip, a new **4-bar flag 10:11–10:14** ($673.24–674.07, avg 57k, lighter than the break, all above $670.64).
+  - **Flag break 10:15:** 1-min close **$674.08** ($0.01 past the flag high, inside $0.01–0.30) on 77k (above the 57k flag average) → **entry**.
+  - Stop **$673.14** (flag low − $0.10), risk $0.94. No mapped level before the 11/5 ORB high $683.64 → target = flag break + 2× pole (pole $670.64 → $674.07 = $3.43): **$680.94** (7.3R). Trail starts at **$675.49** (+1.5R). Time stop 10:45.
+- **Score card (A, ORB flag long): grade B**
+  - For: both above their PDHs, far above a rising VWAP, ORB break on 2.2× volume, flag on light volume, SPY agrees (up, though no SPY ORB break on volume), R/R 7.3.
+  - Against: a gap-up into a multi-week downtrend (both $15–35 under their 20/50-day SMAs), extended from VWAP, news not checked → B.
+- **Option leg: skipped (over cap).** QQQ 11/9 676C $1.55 ($155), 677C $1.19 ($119) at 10:15; both above $100.
+- **#56 QQQ fractional (paper):** 0.7418 sh × **$674.08** = $500. Alert-stop $673.14. Risk ≈ $0.70.
+  - Since entry: high $674.98, low $673.76 (stop not hit; trail trigger not reached). Now $674.39 → **+$0.23 open**.
+- SPY: still no ORB break on volume ($749.24 now). One A long across both, so SPY's A is used either way.
+
+ARMED/WATCH (valid 10:27–10:57):
+- `MANAGE #56 (QQQ): stop $673.14 (alert); at $675.49 (+1.5R) start the trail 1.5R ($1.41) behind the best 1-min price, never below entry; target $680.94; time stop: exit at the 10:45 close if +1.5R hasn't been reached.`
+- `WATCH ORB SPY long` — closed (one A long per direction already taken). SPY E long: none (extended, no level).
+- `VWAP line` (standing): far below price.
+
+Market data and analysis only, not investment advice.
