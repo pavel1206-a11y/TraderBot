@@ -5537,3 +5537,15 @@ ARMED/WATCH (valid 11:58–12:27):
 - `VWAP line` (standing): far below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:14 PM ET): nothing fired; SPY at a new high, a quiet grind**
+- Replay: SPY's 12:05 bar closed **$752.09**, $0.33 above the $751.76 day high (outside the $0.30 band; the extended band needs ≥ 1.2× and a same-bar QQQ break of $678.85, and QQQ closed $677.83) on 138k (≈ 0.8×) → **not fired** (and no mapped target above). D short: no sweep-and-fail.
+- Now: SPY $752.09 (new high), QQQ $677.83 (under its $678.85 high). Far above VWAP; slow drift up on light volume. **4H:** the 12:00 candle opened ≈ $751.0, up so far. **Squeeze (F):** SPY $750.75–752.09 since 11:50 ($1.34; valid from 12:35); QQQ $676.32–677.83 ($1.51; valid 12:35).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:14–12:42):
+- `WATCH F (both, from 12:35): a 5-min close $0.01–0.30 outside SPY $750.75–752.09 / QQQ $676.32–677.83 on ≥ 1.0× (≥ 0.7× with the other breaking its range on the same bar), both the same way; F stop (≥ $0.40); target edge ± 2× range (SPY long $754.77 / short $748.07).`
+- `WATCH D short (both): a push above the day highs that fails back under them on a 5-min close $0.01–0.30, on ≥ 1.0×; stop over the sweep + $0.10.`
+- `VWAP line` (standing): far below.
+
+Market data and analysis only, not investment advice.
