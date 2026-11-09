@@ -5425,3 +5425,20 @@ ARMED/WATCH (valid 9:57–10:27):
 - `WATCH E long (both)` — none armed: extended far above VWAP (no chase). `VWAP line` (standing): far below price.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:17 AM ET): QQQ flag broke out but past the no-chase band; nothing fired**
+- **QQQ ORB-flag long (replay):**
+  - After the 9:55 break, QQQ paused 9:58–10:09 ($671.01–673.65), above the ORB high $670.64 (no cancel), on lighter volume (≈ 88k average vs the 232k break bar).
+  - The pause ran 12 bars; the last 10 (10:00–10:09) give a flag high **$673.39** / low $671.01.
+  - **10:10 flag break:** close $673.88 on 92k (above the 88k flag average) but **$0.49 past** the flag high (no-chase limit $0.30) → **skipped**. (A 10-bar flag from 9:57 would have a $673.65 high and the close $0.23 past, but that window doesn't end at the break bar; the rule uses the bars just before the break.)
+  - Shadow for the review: entry $673.88, stop $670.91 (flag low − $0.10), 2× pole target ≈ $679.4. High so far $674.73.
+- **SPY ORB long:** no 1-min close above $746.79 on 1.5× (best: 10:01 on 92k vs 125k needed; 10:10 on 84k vs 98k). No break. Now $748.77.
+- Both trend up, far above VWAP. **4H:** the 8:00 candle is expanding up. **Squeeze (F):** none.
+- No entries. No paper trades open.
+
+ARMED/WATCH (valid 10:17–10:42):
+- `WATCH ORB-FLAG QQQ long (still live to 11:30): a new 3–10 bar flag above $670.64 on lighter volume, then a 1-min close $0.01–0.30 above the flag high on volume above the flag average; stop flag low − $0.10 (≥ $0.30); target 2× pole; R/R ≥ 1.5. A 1-min close under $670.64 cancels.`
+- `WATCH ORB SPY long: a 1-min close above $746.79 on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag.` (One A long across both.)
+- No E/VWAP lines (extended; no chase).
+
+Market data and analysis only, not investment advice.
