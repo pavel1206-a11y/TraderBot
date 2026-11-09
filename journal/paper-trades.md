@@ -5525,3 +5525,15 @@ ARMED/WATCH (valid 11:43–12:12):
 - `VWAP line` (standing): far below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:58 AM ET): nothing fired; the bounce resumed before the ranges matured**
+- Replay: SPY broke out of $749.20–750.29 at 11:40 (close $750.60, $0.31 past, outside the band; 1.5× volume) and QQQ out of $674.18–676.21 at 11:45 (close $676.63) → both before the 45-min mark (12:05) → **F not valid**. SPY day-high line ($751.76): not reached (high $751.16).
+- Now: SPY $750.95, QQQ $676.72, near the morning highs ($751.76 / $678.85), far above VWAP. **4H:** the 8:00 candle closes now as a strong up candle; the 12:00 candle starts. **Squeeze (F):** none.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:58–12:27):
+- `WATCH E long SPY: a 5-min close $0.01–0.30 above $751.76 (day high) on ≥ 1.0×, QQQ above $678.85 (or ≥ 0.7× with its same-bar break); swing stop ≥ $0.40; no mapped level above → skip unless 2× the risk fits under R2-style extension (no target = no trade).`
+- `WATCH D short (both, 12:00 4H candle): a sweep of the day highs ($751.76 / $678.85) that fails back under on a 5-min close $0.01–0.30 below, on ≥ 1.0×, both; stop over the sweep + $0.10; target VWAP / $749.20.`
+- `VWAP line` (standing): far below.
+
+Market data and analysis only, not investment advice.
