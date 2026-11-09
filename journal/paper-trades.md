@@ -5474,3 +5474,15 @@ ARMED/WATCH (valid 10:42–11:12):
 - `VWAP line` (standing): far below price.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:58 AM ET): #56 trailing higher; nothing new fired**
+- **#56 (QQQ ORB-flag long):** no 1-min close at or below the $674.20 trail (lowest $674.79 at 10:42). New high **$678.12** (10:57) → trail now **$676.71**. Now $677.86 → **+$2.80 open** (+4.0R on QQQ). Target $680.94.
+- **SPY F long:** SPY left the $748.70–749.78 range at 10:43 (close $750.10, $0.32 past) before the range was 45 min old → not valid; it then trended to $751.60. No entry (no chase).
+- Both trend up, far above VWAP. **4H:** the 8:00 candle expanding up (closes at noon). **Squeeze (F):** none (trending).
+
+ARMED/WATCH (valid 10:58–11:27):
+- `MANAGE #56: trail 1.5R ($1.41) behind the best QQQ price (now $676.71); exit on a 1-min close at or below it; target $680.94.`
+- `WATCH E long SPY: a pullback to and hold of $749.78–750.16 (the broken range top), then a 5-min close $0.01–0.30 back above $750.16 on ≥ 1.0×; swing stop; target ≥ 1.5R (the 11/5 $751.6 area is passed; next unmapped → skip if no level).` 
+- `VWAP line` (standing): far below price.
+
+Market data and analysis only, not investment advice.
