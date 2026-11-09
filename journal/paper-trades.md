@@ -5549,3 +5549,15 @@ ARMED/WATCH (valid 12:14–12:42):
 - `VWAP line` (standing): far below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:28 PM ET): nothing fired; a slow drift at the highs**
+- Replay: no F trigger (ranges not 45 min old until 12:35; SPY drifted to $752.54, widening its range to $750.75–752.54). No D sweep-and-fail.
+- Now: SPY $752.22, QQQ $677.67. **4H:** the 12:00 candle small and up. **Squeeze (F):** SPY **$750.75–752.54** ($1.79) and QQQ **$676.32–678.35** ($2.03) since 11:50 → valid from 12:35.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:28–12:57):
+- `WATCH F (both, from 12:35): a 5-min close $0.01–0.30 outside SPY $750.75–752.54 / QQQ $676.32–678.35 on ≥ 1.0× (≥ 0.7× with the other breaking its range on the same bar), both the same way; F stop (≥ $0.40); target edge ± 2× range (SPY long $756.12 / short $747.17).`
+- `WATCH D short (both): a push above the day highs (SPY $752.54 / QQQ $678.85) that fails back under on a 5-min close $0.01–0.30, on ≥ 1.0×; stop over the sweep + $0.10.`
+- `VWAP line` (standing): far below.
+
+Market data and analysis only, not investment advice.
