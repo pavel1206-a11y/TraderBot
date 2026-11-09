@@ -5411,3 +5411,17 @@ ARMED/WATCH (valid 9:45–10:12):
 - `WATCH PDH fail short (owner's setup, D/E): SPY back under $742.21 on a 5-min close $0.01–0.30 below, on ≥ 1.0×, with QQQ back under $664.52; stop above the day high + $0.10.` VWAP line (standing): both above VWAP.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:57 AM ET): ORB final; QQQ ORB long broke on volume at 9:55 (flag pending); SPY no volume break**
+- **ORB final (9:30–9:45):** SPY **$746.79 / $741.09** ($5.70); QQQ **$670.64 / $662.02** ($8.62). A one-way trend open (+1.5% / +2.6%).
+- **SPY ORB long:** closes above $746.79 from 9:49 ($747.07 on 85k; 1.5× the prior 19-bar average ≈ 151k), 9:51 (89k), 9:52 (115k) → **no volume break yet**. Now $747.83 (high $747.93).
+- **QQQ ORB long:** closes above $670.64 from 9:46 on 100–145k (1.5× ≈ 158–180k needed). **Break at 9:55:** 1-min close $672.28 (above the ORB high) on **232k vs 158k needed (2.2×)**. The flag stage starts now (one bar so far). Now $673.12 (high $673.37).
+- Above both PDHs, far above VWAP. No paper trades open. **4H:** the 8:00 candle is in its expansion leg up. **Squeeze (F):** none (trending).
+- No entry yet (A needs a flag and a flag break).
+
+ARMED/WATCH (valid 9:57–10:27):
+- `WATCH ORB-FLAG QQQ long: a 3–10 bar flag (2 if both drift down) above $670.64 on volume lighter than the break (232k), then a 1-min close $0.01–0.30 above the flag high on volume above the flag average, by 11:30; stop flag low − $0.10 (≥ $0.30); reference target: the next mapped level (QQQ 11/5 ORB high $683.64 is far; use flag break + 2× pole, pole = $670.64 → flag high); R/R ≥ 1.5. A 1-min close back under $670.64 cancels.`
+- `WATCH ORB SPY long: a 1-min close above $746.79 on ≥ 1.5× the prior 20-bar volume, by 11:00 → then a flag per A.` (Same setup and direction as QQQ: only one A long; the higher score, else the first to fire.)
+- `WATCH E long (both)` — none armed: extended far above VWAP (no chase). `VWAP line` (standing): far below price.
+
+Market data and analysis only, not investment advice.
