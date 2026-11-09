@@ -341,3 +341,13 @@ Pattern: a high-volatility trend day. The rules kept us out of every chase (corr
 | 12:55–1:35 | +$3.8 in 40 min (735.13 → 738.91) | Base at $735.1–735.8, then a 1.8× bar at 1:30 through $737.63 ($1.14 past, $1.63 range) with QQQ | F long | Band (> $0.75) and bar range. Faded back into the range the next bar. |
 
 Pattern: a two-sided chop day around VWAP after a −4% day and the jobs report. Every move started with one oversized bar and reversed within 10–20 minutes; the bands and the $1.00 bar cap avoided all of them except the first ORB leg, which the volume bar blocked (see the ORB volume idea in the weekly review).
+
+### 2026-11-09 (Mon, gap-up trend day)
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:45–10:58 | +$5.0 in 73 min (746.7 → 751.76) | SPY above its ORB high $746.79 from 9:49, but no 1-min close on 1.5× (best 1.2×); QQQ broke at 9:55 on 2.2× | A (ORB flag) long on SPY | Taken on QQQ instead (#56, one A long per direction); SPY never met the volume bar. Covered. |
+| 11:00–11:40 | −$2.56 in 40 min (751.76 → 749.20) | A pullback from the high, under the 11:15 hold of $749.78 on falling volume, far above VWAP | — | No setup: a counter-trend pullback inside an uptrend, far above VWAP (no short setup); the E long needed a hold of $749.78 and it broke. |
+| 11:40–12:40 | +$3.76 in 60 min (749.20 → 752.96) | Out of a $749.20–750.29 range at 11:40 (close $0.31 past, 1.5×) before the range was 45 min old; QQQ at 11:45 | F long | Range age (under 45 min) and band ($0.31 > $0.30). Then a slow grind (no fresh trigger). |
+
+Pattern: the trend day's first leg was caught by A (on QQQ). Later legs were slow grinds with no clean trigger; the 45-min F rule and the $0.30 band each blocked one. Not enough evidence to change either (the 1:45 SPY F break lost 1R).

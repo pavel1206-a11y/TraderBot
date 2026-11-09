@@ -42,3 +42,9 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Change 6 (ORB target): no ORB break on volume; not tested.
   - Changes 2–5: no signals.
   - Running tallies: change 2: 2 against / 1 for; change 3: 1 against; change 6: 1 for. **No verdicts yet** (none has 10 signals; 2-week mark 11/16). No playbook changes this week.
+- **2026-11-09 (day 6):**
+  - Change 3 (1.5R trail): #56 exited at +3.34R; a 1R trail would have exited on the same 11:04 bar (both trails were above the 11:04 close). Neutral. Tally: 1 against.
+  - Change 6 (ORB 2× pole target): #56's $680.94 target wasn't reached (high $678.85); the trail exited first. Neutral. Tally: 1 for.
+  - Change 5 (different setups same direction): not tested (no second setup fired).
+  - Change 1 (extended band): the 12:05 SPY E close $0.33 past didn't qualify (0.8× volume, no QQQ break). Neutral.
+  - **No playbook changes** (no change has 10 signals; 2-week mark 11/16).

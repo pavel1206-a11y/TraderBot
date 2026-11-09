@@ -5657,3 +5657,9 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** the 2:25 bar closed SPY $751.87 / QQQ $676.86 (above $751.61; no trigger). Entry window closed; no positions open. Day: #56 +$2.33. Next: EOD at 3:47.
+
+### EOD 2026-11-09 (Mon)
+
+- **Close-out:** nothing open. Only trade: **#56 QQQ ORB-flag long (A, B grade), fractional, +$2.33** (+3.34R; trailed out 11:04). Option leg skipped (676C $155 / 677C $119 over the $100 cap).
+- **Day: +$2.33.** **Running totals: 56 trades, 28W/28L (50%), +$189.38.** Options B 26 ≈ +$169; fractional B 28 +$6.57. **SPY 52 +$206.87; QQQ 4 −$17.49.** Still no A-grade trades.
+- **Day note:** a gap-up trend day (SPY +2.5%, QQQ +3.5% at the highs). The ORB flag caught the QQQ trend leg cleanly (2.2× break, light 4-bar flag, $0.01 entry). The rest of the day was a slow grind on light volume; the F and E lines missed on range age, volume, or the QQQ confirmation. The one SPY F break that QQQ didn't confirm (1:45) would have lost 1R, so the confirmation rule earned its keep today.
