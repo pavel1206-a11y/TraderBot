@@ -5655,3 +5655,5 @@ Market data and analysis only, not investment advice.
 - Now: SPY $752.36, QQQ $677.25, a quiet afternoon fade. **4H:** the 12:00 candle a small doji near the highs. The 2:25 bar is the last possible trigger (the 2:42 check replays it). No positions open; the day stands at **#56 +$2.33**.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** the 2:25 bar closed SPY $751.87 / QQQ $676.86 (above $751.61; no trigger). Entry window closed; no positions open. Day: #56 +$2.33. Next: EOD at 3:47.
