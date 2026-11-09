@@ -5378,3 +5378,24 @@ Market data and analysis only, not investment advice.
 **Graduation check (CLAUDE.md):** at least 10 paper trades ✓ (55). A-grade trades profitable ✗: **no A-grade trades exist.** **Not passed**: keep paper trading. B-grade results for reference: 55 trades, 49% win rate, +$187.05 (options ≈ +$169 on 26 trades; fractional +$4.24 on 27). The note to the owner from 10/30 stands: A grade hasn't appeared in 6 weeks; graduation as written may need a review of A scoring or a decision on B-grade results (owner's call, CLAUDE.md).
 
 Market data and analysis only, not investment advice.
+
+## 2026-11-09 (Mon)
+
+**Pre-market brief (8:36 AM ET)**
+- **SPY PDH $742.21 / PDL $734.58** (11/6). Pre $742.10: **between, $0.11 under the PDH** (pre-market high $743.02 already poked above it). Pre-market range $734.05–743.02.
+- **QQQ PDH $664.52 / PDL $653.99**. Pre $662.12: between, $2.40 under the PDH. Pre-market range $648.43–663.45 (an overnight dip under the PDL, now reclaimed).
+- **SPY:**
+  - Close $735.29. Pivots: S2 $729.73 · S1 $732.51 · **P $737.36** · **R1 $740.14** · R2 $744.99.
+  - SMAs: 20-day $763.36, 50-day $765.68 (far above; downtrend).
+  - Levels: the PDH $742.21 / 11/6 pivot $743.89 cluster overhead; R1 $740.14 and P $737.36 below.
+- **QQQ:**
+  - Close $656.10. Pivots: S1 $651.89 · **P $658.20** · **R1 $662.42** · R2 $668.73.
+  - SMAs: 20-day $707.64, 50-day $720.97. Pre-market is at R1.
+- **Events:** none known for today (not verified; news feed not checked). Later this week: CPI is usually mid-month (check the calendar before Wednesday/Thursday).
+- **Bias: bullish gap into resistance** (SPY +0.9% pre, QQQ +0.9%), both agree, inside a downtrend.
+  - Owner's setup: SPY is at the PDH. **A sweep above $742.21 that fails back under** = the put idea (the PDH/11/6-high rejection). A hold above $742.21 and $743.89 with QQQ above $664.52 = a squeeze toward R2 $744.99.
+  - A fade below the pivot $737.36 = gap fill toward the 11/6 close $735.29.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30.
+- F ranges must hold **45 min** (corrected 11/6).
+
+Market data and analysis only, not investment advice.
