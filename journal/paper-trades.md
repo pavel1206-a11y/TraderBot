@@ -5649,3 +5649,9 @@ ARMED/WATCH (valid 2:13–2:30, entries only):
 - `VWAP line` (standing): far below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:28 PM ET): nothing fired; the entry window closes at 2:30**
+- Replay: SPY $752.15–752.97 (no close below $751.61 or above $753.37) → no E lines. SPY F-long shadow ($753.21 / stop $752.44): low $752.15 → **the shadow would have stopped out (−1R)** at ≈ 2:20.
+- Now: SPY $752.36, QQQ $677.25, a quiet afternoon fade. **4H:** the 12:00 candle a small doji near the highs. The 2:25 bar is the last possible trigger (the 2:42 check replays it). No positions open; the day stands at **#56 +$2.33**.
+
+Market data and analysis only, not investment advice.
