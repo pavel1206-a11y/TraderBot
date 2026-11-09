@@ -5634,3 +5634,18 @@ ARMED/WATCH (valid 1:58–2:27; the last ARMED list, entries end at 2:30):
 - `VWAP line` (standing): far below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:13 PM ET): nothing fired; a stalled high**
+- Replay:
+  - QQQ-confirmed F long: QQQ never closed above $678.54 (high $678.38) → no.
+  - D short: SPY's first close back under $752.96 was the 1:55 bar ($752.84, $0.12 below, in band) on 88k ≈ 0.88× (needs 1.0×); QQQ was already $0.58 under its top (outside the band) → **not fired**. The 2:00 bar had 1.4× volume but wasn't a fresh close through.
+  - SPY F-long shadow ($753.21, stop $752.44): low $752.65, now −0.6R.
+- Now: SPY $752.76, QQQ $677.65. **4H:** the 12:00 candle small, near its high. **Squeeze (F):** SPY $752.65–753.37 (25 min); QQQ $677.53–678.54.
+- No B-or-better setup. The last ARMED list (entries end at 2:30).
+
+ARMED/WATCH (valid 2:13–2:30, entries only):
+- `WATCH E short SPY: a 5-min close $0.01–0.30 below $751.61 (the 1:25 swing low) on ≥ 1.0× (≥ 0.7× with a same-bar QQQ close below $675.95); swing stop ≥ $0.40; target ≥ 1.5R toward $749.20.`
+- `WATCH E long SPY: a 5-min close $0.01–0.30 above $753.37 on ≥ 1.0× with QQQ above $678.54 (or ≥ 0.7× with its same-bar break); no mapped level above → skip unless ≥ 1.5R fits.`
+- `VWAP line` (standing): far below.
+
+Market data and analysis only, not investment advice.
