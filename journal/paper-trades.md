@@ -5399,3 +5399,15 @@ Market data and analysis only, not investment advice.
 - F ranges must hold **45 min** (corrected 11/6).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming (to 9:40); a strong open through the PDH**
+- **SPY:** opened $741.95, now $744.93; range so far **$741.09–745.10**. Already above the PDH $742.21 and the 11/6 pivot $743.89, and at R2 $744.99 (no sweep-and-fail yet).
+- **QQQ:** opened $662.63, now $667.91; range so far **$662.02–668.35**. Above its PDH $664.52, nearing R2 $668.73.
+- Both up together (SPY +1.3%, QQQ +1.8%). No paper trades open. The final ORB is set at 9:45.
+
+ARMED/WATCH (valid 9:45–10:12):
+- `WATCH ORB SPY: a 1-min close above / below the final 9:30–9:45 high / low (now $745.10 / $741.09) on ≥ 1.5× the prior bars' volume, by 11:00; then a flag per A. Long reference target: the next mapped level (11/5 $746.48 lower high, then $748.66 11/5 VWAP area) else 2× pole; short: the PDH $742.21 / pivot $737.36.`
+- `WATCH ORB QQQ: the same above / below $668.35 / $662.02` (long target: R2 $668.73 is right there → measure to the next level or 2× pole; short: the PDH $664.52). One per setup per direction.
+- `WATCH PDH fail short (owner's setup, D/E): SPY back under $742.21 on a 5-min close $0.01–0.30 below, on ≥ 1.0×, with QQQ back under $664.52; stop above the day high + $0.10.` VWAP line (standing): both above VWAP.
+
+Market data and analysis only, not investment advice.
