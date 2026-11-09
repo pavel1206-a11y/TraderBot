@@ -5486,3 +5486,18 @@ ARMED/WATCH (valid 10:58–11:27):
 - `VWAP line` (standing): far below price.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:16 AM ET): #56 CLOSED on the trail at 11:04, a win**
+- **#56 replay:** new best **$678.85** (11:03) moved the trail to **$677.44**; the 11:04 1-min close **$677.22** was at/under it → exit (the alert sells at market ≈ the close).
+  - **Result: 0.7418 sh × ($677.22 − 674.08) = +$2.33** (QQQ +$3.14 = **+3.34R**). Max favorable +5.0R at $678.85. The target $680.94 wasn't reached.
+  - Lesson: a clean A-setup trade (break on 2.2×, light 4-bar flag, entry $0.01 past). The option leg was over the cap again (3rd A-trade in a row), so only the small fractional leg counted.
+- **Running totals: 56 trades, 28W/28L (50%), +$189.38.** Options B 26 ≈ +$169; fractional B 28 +$6.57. SPY 52 +$206.87; QQQ 4 −$17.49. Still no A-grade trades.
+- Now: QQQ $676.09, SPY $749.91, pulling back from the highs. SPY is at the broken range top $749.78–750.16 (the armed pullback line), no close back above yet.
+- **4H:** the 8:00 candle up, pulling back from the high (closes at noon). **Squeeze (F):** none yet.
+
+ARMED/WATCH (valid 11:16–11:42):
+- `WATCH E long SPY: holds $749.78 and a 5-min close $0.01–0.30 back above $750.16 on ≥ 1.0× (≥ 0.7× with QQQ back above $677.00); swing stop; target the day high $751.76 only if ≥ 1.5R, else skip.`
+- `WATCH VWAP line` (standing): far below.
+- No QQQ line (A used; no level).
+
+Market data and analysis only, not investment advice.
