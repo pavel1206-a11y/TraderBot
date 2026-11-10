@@ -5683,3 +5683,15 @@ Market data and analysis only, not investment advice.
 - **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30. F ranges need 45 min.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming (to 9:40); a lower open, bouncing**
+- **SPY:** opened $747.94 (under the pivot $749.71), now $749.07; range so far **$747.05–749.28**. Testing the pivot from below.
+- **QQQ:** opened $672.55, now $673.83; range so far **$669.92–674.39**. Just under its pivot $674.62.
+- Both bouncing off the open lows; neither has reclaimed its pivot. No paper trades open. The final ORB is set at 9:45.
+
+ARMED/WATCH (valid 9:45–10:12):
+- `WATCH ORB SPY: a 1-min close above / below the final 9:30–9:45 high / low (now $749.28 / $747.05) on ≥ 1.5× the prior bars' volume (exclude nothing; note the 9:30 bar inflates the average), by 11:00; then a flag per A. Long reference: the 11/9 close $752.69; short: S1 $744.01.`
+- `WATCH ORB QQQ: the same above / below $674.39 / $669.92` (long reference: the pivot $674.62 is right there → measure to the 11/9 close $679.35; short: S1 $666.75). One per setup per direction.
+- `WATCH VWAP / pivot line (both): a 5-min close $0.01–0.30 through VWAP and the pivot on ≥ 1.0× with the other agreeing, then a hold bar.`
+
+Market data and analysis only, not investment advice.
