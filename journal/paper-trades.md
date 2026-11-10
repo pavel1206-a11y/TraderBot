@@ -5807,3 +5807,15 @@ ARMED/WATCH (valid 11:58–12:27):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:12 PM ET): nothing fired; the low held and price bounced**
+- Replay E short: QQQ's 11:55 bar closed $669.85, $0.07 below the ORB low $669.92 (inside the band), but the bar was $1.13 wide (over the $1.00 E limit) → **not fired**. The next bar reclaimed the level ($670.45). SPY's lowest close was $746.19 (11:55), above $746.06 → the SPY E and F shorts did **not fire**.
+- Now: SPY $747.37, QQQ $671.00. Both bounced off the lows (SPY $745.87, QQQ $669.43) and are still below VWAP (est.). **4H:** the 12:00 candle opened with a low sweep and a recovery, possibly a Power-of-3 (manipulation) low, but it is too early to tell. **Squeeze (F):** SPY's 12:00 wick to $745.87 widened its range to $745.87–748.57 ($2.70, invalid). New range since 12:00: $745.87–747.71 (valid from 12:45 if it holds). QQQ: none.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:12–12:42):
+- `WATCH D long (4H manipulation reversal): SPY 5-min close $0.01–0.30 above VWAP with QQQ above its VWAP the same bar, after the 12:00 sweep below $746.06; stop below the $745.87 sweep low − $0.10 (≥ $0.40); target the pivot $749.71, ≥ 1.5R.`
+- `WATCH E short: a fresh 5-min close $0.01–0.30 below SPY $745.87 / QQQ $669.43 (the sweep lows), ≥ 1.0×, bar ≤ $1.00, both the same way; swing stop; target S1 $744.01 / $666.75.`
+- `VWAP line` (standing): both below.
+
+Market data and analysis only, not investment advice.
