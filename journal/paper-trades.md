@@ -5695,3 +5695,16 @@ ARMED/WATCH (valid 9:45–10:12):
 - `WATCH VWAP / pivot line (both): a 5-min close $0.01–0.30 through VWAP and the pivot on ≥ 1.0× with the other agreeing, then a hold bar.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:57 AM ET): ORB final; SPY ORB long broke on volume at 9:56 (flag pending); QQQ above its high but no volume break**
+- **ORB final (9:30–9:45):** SPY **$749.60 / $747.05** ($2.55); QQQ **$675.47 / $669.92** ($5.55).
+- **SPY ORB long:** **break at 9:56:** 1-min close $749.73 (above $749.60, and above the pivot $749.71) on 98k vs 93.5k needed (1.58× the prior 20-bar average). Flag stage starts.
+- **QQQ:** closes above $675.47 at 9:55 ($676.82, 81k vs 93k needed) and 9:56 ($677.72, 40k) → no volume break. It leads (+$7.8 off its low).
+- No paper trades open. Gap-fill bounce in progress (11/9 closes: SPY $752.69, QQQ $679.35). **4H:** the 8:00 candle reversing up off the open lows. **Squeeze (F):** none.
+
+ARMED/WATCH (valid 9:57–10:27):
+- `WATCH ORB-FLAG SPY long: a 3–10 bar flag above $749.60 (2 bars if both drift down) on lighter volume than the 98k break, then a 1-min close $0.01–0.30 above the flag high on volume above the flag average, by 11:30; stop flag low − $0.10 (≥ $0.30); reference target the 11/9 close $752.69 (R/R ≥ 1.5 or skip; else flag break + 2× pole). A 1-min close back under $749.60 cancels.`
+- `WATCH ORB QQQ long: a 1-min close above $675.47 on ≥ 1.5× the prior 20-bar volume, by 11:00 → flag per A` (one A long across both; the first to fire a flag break takes it).
+- `WATCH ORB shorts (both): a 1-min close below $747.05 / $669.92 on ≥ 1.5×, by 11:00.`
+
+Market data and analysis only, not investment advice.
