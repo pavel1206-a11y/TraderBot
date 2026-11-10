@@ -5941,3 +5941,5 @@ Market data and analysis only, not investment advice.
 - No B-or-better setup today so far.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** past the 2:30 entry cutoff; no open paper trades, nothing armed. Nothing to do until the EOD at 3:47.
