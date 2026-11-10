@@ -5933,3 +5933,11 @@ ARMED/WATCH (valid 2:12–2:30, window closes):
 - `VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:27 PM ET): nothing fired; entry window closing**
+- Replay VWAP-reclaim long: SPY closed $748.31 at 2:15 (+$0.28 vs VWAP $748.03, in band), but QQQ closed $671.86, below its VWAP $673.42 → disagreement → **not fired**.
+- Shadow F long confirmed on 1-min bars: the trail armed at 2:07 (close $748.60 ≥ +1.5R $748.30). Best $749.11 (2:10), trail $747.91. The 2:15 1-min close of $747.87 was below the trail → **exit $747.87, +$0.77/sh = +0.96R** (shadow, C-grade, not counted).
+- Now: SPY $748.36 (just above a flat VWAP), QQQ $671.83 (below its VWAP). **4H:** the 12:00 candle is green from its open, with a long lower wick from the noon sweep. **Squeeze (F):** none valid. No new entries after 2:30 (0DTE and E/F windows); no ARMED list after 2:15.
+- No B-or-better setup today so far.
+
+Market data and analysis only, not investment advice.
