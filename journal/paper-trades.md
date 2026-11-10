@@ -5746,3 +5746,16 @@ ARMED/WATCH (valid 10:43–11:12):
 - `WATCH VWAP line (both): a fresh 5-min close $0.01–0.30 through VWAP on ≥ 1.0×, the other agreeing, then a hold bar.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:58 AM ET): SPY ORB short broke on heavy volume at 10:50; a flag is forming**
+- **SPY ORB short:** **break at 10:50:** 1-min close $747.01 (below $747.05) on **251k vs ≈ 40k average (≈ 6×)**, just inside the 11:00 window. Then $746.16 (10:51), and a **flag 10:52–10:56** ($746.01–747.09, avg 72k, lighter than the break; all closes under $747.05, so not cancelled). No flag break yet.
+  - If it fires: entry ≈ $745.99 (a close $0.01–0.30 below $746.01), stop $747.19 (flag high + $0.10), risk ≈ $1.20; target S1 $744.01 ≈ 1.65R → tradable.
+- **QQQ ORB short:** not reached (low $671.52 vs $669.92). QQQ falls with SPY (pivot lost).
+- Now: SPY $746.75, QQQ $672.28, below the pivots and VWAP. No paper trades open. **4H:** the 8:00 candle has erased its bounce (closes at noon). **Squeeze (F):** none.
+
+ARMED/WATCH (valid 10:58–11:27):
+- `WATCH ORB-FLAG SPY short: a 1-min close $0.01–0.30 below the flag low (now $746.01; the flag is the 3–10 bars after the 10:51 bar) on volume above the flag average (≈ 72k), by 11:30; stop flag high + $0.10 (now $747.19, ≥ $0.30); target S1 $744.01 (R/R ≥ 1.5 at the trigger or skip); trail at +1.5R; a 1-min close above $747.05 cancels.`
+- `WATCH ORB QQQ short: a 1-min close below $669.92 on ≥ 1.5× by 11:00` (the window closes now; one A short across both).
+- `VWAP line` (standing): both below VWAP; a 5-min close back above VWAP + $0.10 with the other agreeing = the reclaim long.
+
+Market data and analysis only, not investment advice.
