@@ -5943,3 +5943,13 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** past the 2:30 entry cutoff; no open paper trades, nothing armed. Nothing to do until the EOD at 3:47.
+
+### EOD 2026-11-10 (Tue)
+- **Trades: none.** No open paper positions; nothing to close.
+- **Day: $0.00.** **Running totals: 56 trades, 28W/28L (50%), +$189.38.** Options B 26 ≈ +$169; fractional B 28 +$6.57. **SPY 52 +$206.87; QQQ 4 −$17.49.** Still no A-grade trades.
+- **Shadows (not counted):**
+  - 12:50 QQQ retest short: failed volume (0.98× with gap bars excluded); it would have lost −1R.
+  - 1:30 SPY F long: C grade, VWAP against; it would have won +0.96R on the trail.
+- **Note:** a gap-down open, a failed gap-fill bounce to $752.1 and a $6 fade into midday, then a slow afternoon recovery to $749.8. Every ORB side broke and then cancelled (no flag breaks). The midday breakdown (12:35) came in one wide bar, outside the band. Correctly no trade on a choppy two-way day; the filters kept us out of both early losers.
+
+Market data and analysis only, not investment advice.

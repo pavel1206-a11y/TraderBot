@@ -351,3 +351,14 @@ Pattern: a two-sided chop day around VWAP after a −4% day and the jobs report.
 | 11:40–12:40 | +$3.76 in 60 min (749.20 → 752.96) | Out of a $749.20–750.29 range at 11:40 (close $0.31 past, 1.5×) before the range was 45 min old; QQQ at 11:45 | F long | Range age (under 45 min) and band ($0.31 > $0.30). Then a slow grind (no fresh trigger). |
 
 Pattern: the trend day's first leg was caught by A (on QQQ). Later legs were slow grinds with no clean trigger; the 45-min F rule and the $0.30 band each blocked one. Not enough evidence to change either (the 1:45 SPY F break lost 1R).
+
+**2026-11-10 (Tue)**
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 9:50–10:05 | +$4.5 in 15 min (747.65 → 752.14) | Gap-fill bounce; SPY ORB high $749.60 broke at 9:56 on 1.58×; QQQ broke at 9:59 on 1.87× | A (ORB flag) long | The move was the pole itself; the 10:02–10:09 flag never broke out, and SPY closed back under $749.60 at 10:24 (cancelled). Correctly no trade (it reversed). |
+| 10:05–11:00 | −$6.1 in 55 min (752.14 → 746.00) | A fade from the failed gap fill; lost the pivot $749.71 at 10:23 on a slow drift; ORB low $747.05 broke at 10:50 on ≈ 6× | A (ORB flag) short; E short | The first $3 was a low-volume drift above VWAP (no setup). The ORB short broke at 10:50 with a flag, but the 10:57 close went back above $747.05 (cancelled) before a flag break. |
+| 12:30–12:40 | −$2.5 in 10 min (747.40 → 744.87) | One wide bar out of the 12:00 range (SPY close $0.53 past, 2.3×; QQQ $1.62 past), both under VWAP | E short / F short | E: closes outside the $0.30 band and bars wider than $1.00 (no chase). F: the range was 35 min old (< 45). The bounce to $746.88 would have stopped an F short (−1R shadow), so correct. |
+| 12:45–1:45 | +$2.6 in 60 min (745.07 → 747.64), $4.2 by 2:10 | Basing above the 12:40 low, then out of $744.87–746.88 at 1:30 (0.91×, QQQ the same bar), below VWAP | F long | It triggered but graded C (VWAP, the required factor, was against). Shadow +0.96R. |
+
+Pattern: a two-way chop day. Every leg either reversed (ORB sides) or started against VWAP. The VWAP-required rule cost +0.96R on one shadow; the volume and F-age rules saved about 2R on two shadows. No change indicated.

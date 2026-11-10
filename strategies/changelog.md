@@ -48,3 +48,9 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Change 5 (different setups same direction): not tested (no second setup fired).
   - Change 1 (extended band): the 12:05 SPY E close $0.33 past didn't qualify (0.8× volume, no QQQ break). Neutral.
   - **No playbook changes** (no change has 10 signals; 2-week mark 11/16).
+- **2026-11-10 (day 7):**
+  - Change 1 (extended $0.75 band): the 12:35 SPY F/E short closed $0.53 past on 2.3× with QQQ the same bar, which would have qualified for the band. It was blocked by F range age (35 < 45 min) and E's bar-range limit. The shadow would have been stopped (−1R), so the band was not the deciding rule. Neutral.
+  - Change 3 (1.5R trail): the C-grade F long shadow trailed out at +0.96R. A 1R trail exits at the 2:12 1-min close $748.05, under $748.31 (+1.19R); the target $750.90 was never reached. **Weak signal against** (C-grade shadow; not counted in the tally). Tally stays 1 against.
+  - Change 6 (ORB 2× pole): all four ORB sides cancelled before a flag break. Neutral.
+  - Changes 2, 4, 5: no signals.
+  - **No playbook changes** (no change has 10 signals; 2-week mark 11/16).
