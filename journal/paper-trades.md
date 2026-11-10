@@ -5663,3 +5663,23 @@ Market data and analysis only, not investment advice.
 - **Close-out:** nothing open. Only trade: **#56 QQQ ORB-flag long (A, B grade), fractional, +$2.33** (+3.34R; trailed out 11:04). Option leg skipped (676C $155 / 677C $119 over the $100 cap).
 - **Day: +$2.33.** **Running totals: 56 trades, 28W/28L (50%), +$189.38.** Options B 26 ≈ +$169; fractional B 28 +$6.57. **SPY 52 +$206.87; QQQ 4 −$17.49.** Still no A-grade trades.
 - **Day note:** a gap-up trend day (SPY +2.5%, QQQ +3.5% at the highs). The ORB flag caught the QQQ trend leg cleanly (2.2× break, light 4-bar flag, $0.01 entry). The rest of the day was a slow grind on light volume; the F and E lines missed on range age, volume, or the QQQ confirmation. The one SPY F break that QQQ didn't confirm (1:45) would have lost 1R, so the confirmation rule earned its keep today.
+
+## 2026-11-10 (Tue)
+
+**Pre-market brief (8:36 AM ET)**
+- **SPY PDH $755.42 / PDL $741.03** (11/9; the late-day rally ran past my last intraday read of $753.37). Pre $750.75: **between, $4.67 under the PDH**, $9.72 above the PDL. Pre-market range ≈ $750.7–755.30 (fading into the open).
+- **QQQ PDH $682.48 / PDL $662.02.** Pre $673.00 (−0.9%): between, $9.48 under the PDH, $10.98 above the PDL. Pre-market range ≈ $673.0–679.83.
+- **SPY:**
+  - Close $752.69. Pivots: S2 $735.32 · **S1 $744.01** · **P $749.71** · R1 $758.40 · R2 $764.10.
+  - SMAs: 20-day $762.09, 50-day $765.35 (still above; downtrend intact).
+  - Pre-market is $1 above the pivot.
+- **QQQ:**
+  - Close $679.35. Pivots: S1 $666.75 · **P $674.62** · R1 $687.21.
+  - SMAs: 20-day $704.30, 50-day $720.23. Pre-market is under its pivot.
+- **Events:** none known for today (not verified; news not checked). CPI is likely this week (Wed/Thu; check the date before trading those days).
+- **Bias: none, leaning bearish.** A gap-down fade after yesterday's +2.4% / +3.5% rally, QQQ weaker (under its pivot), SPY still above its pivot.
+  - Owner's setup: a sweep of the PDH is far away. A **loss of SPY's pivot $749.71 with QQQ under $674.62** = the fade short toward S1 $744.01 / QQQ $666.75.
+  - A reclaim and hold of SPY $752.69 (yesterday's close) with QQQ back over $674.62 = the gap-fill long.
+- **ORB (setup A):** the 9:30–9:45 candle for SPY and QQQ; breaks 9:45–11:00, flag entries by 11:30. F ranges need 45 min.
+
+Market data and analysis only, not investment advice.
