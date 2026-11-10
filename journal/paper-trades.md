@@ -5884,3 +5884,27 @@ ARMED/WATCH (valid 1:27–1:57):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:42 PM ET): F SPY long triggered but graded C (VWAP against), so no trade; shadow tracked**
+- Replay F SPY long: the 1:30 bar closed **$747.10**, $0.22 above $746.88, on 111k (0.91× the prior 10 non-gap bars, 122k avg). QQQ closed $670.41 above $670.32 the same bar → ≥ 0.7× allowance met → **trigger met (armed, replayed)**.
+- Score card (long, 1:30):
+  - 1 VWAP **✗ (required)**: SPY $747.10 vs VWAP $748.03, sloping down.
+  - 2 ADX: not fetched; the midday chop suggests < 20 (✗?).
+  - 3 EMA: n/a.
+  - 4 Structure ✓: higher lows since 12:40.
+  - 5 Level ✓: range break.
+  - 6 Volume ✗: 0.91×.
+  - 7 Momentum: n/a.
+  - 8 HTF ✗: the 4H is bearish.
+  - 9 Market ✓: QQQ broke the same way, but it is also below its VWAP.
+  - 10 News: neutral.
+  - Result: **C (required VWAP factor missing) → no trade.**
+- **Shadow** (for the F review): long $747.10, F stop $746.30 (the bar low $746.40 − $0.10 is closer than the midpoint), target $750.90 (edge + 2× $2.01), 4.75R. The VWAP at $748.03 is the first obstacle. 1:35: high $747.64, close $746.87 → still open. The EOD will score it.
+- Now: SPY $746.87, QQQ $670.09, both below VWAP (SPY $748.03, QQQ $673.57). **4H:** the 12:00 candle is bouncing from its low toward mid-candle. **Squeeze (F):** SPY since 12:35 $744.87–747.64 ($2.77, invalid; a new range is forming); QQQ $667.05–671.26 (too wide).
+
+ARMED/WATCH (valid 1:42–2:12):
+- `WATCH E/B long (VWAP reclaim): a SPY 5-min close $0.01–0.30 above VWAP (~$748.0) with QQQ above its VWAP (~$673.6) on ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target the pivot $749.71, ≥ 1.5R.`
+- `WATCH E short: a 5-min close $0.01–0.30 below SPY $744.87 / QQQ $667.05 on ≥ 1.0×, both the same way; swing stop; target PDL $741.03 / $662.02.`
+- `VWAP line` (standing): both below.
+
+Market data and analysis only, not investment advice.
