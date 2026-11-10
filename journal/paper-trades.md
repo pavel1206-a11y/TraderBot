@@ -5908,3 +5908,16 @@ ARMED/WATCH (valid 1:42–2:12):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:57 PM ET): nothing fired; SPY testing VWAP from below**
+- Replay VWAP-reclaim long: SPY's best close was $747.88 (1:50), under VWAP $748.02 (the 1:55 wick reached $748.26). QQQ $671.55 vs VWAP $673.50 → **not fired**. E short: no close below $744.87 / $667.05 → **not fired**.
+- Shadow F long ($747.10, stop $746.30): low $746.84 (holding); high $748.26 = +1.45R, just under the +1.5R trail. Still open.
+- Now: SPY $747.83 ($0.19 below VWAP), QQQ $671.30 ($2.20 below its VWAP). SPY and QQQ disagree for a VWAP long, since QQQ lags. **4H:** the 12:00 candle has recovered to mid-body, a possible late Power-of-3 bounce, unconfirmed. **Squeeze (F):** SPY $746.84–748.26 since 1:35 ($1.42; valid from 2:20, late in the window); QQQ $670.04–671.92 ($1.88; valid from 2:20).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 1:57–2:27; last arming of the day):
+- `WATCH E/B long (VWAP reclaim): a SPY 5-min close $0.01–0.30 above VWAP (~$748.0) with QQQ above its VWAP (~$673.5) the same bar, ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target the pivot $749.71, ≥ 1.5R (QQQ needs +$2.2, unlikely).`
+- `WATCH F (from 2:20, until 2:30): a SPY 5-min close $0.01–0.30 outside $746.84–748.26 with QQQ outside $670.04–671.92 the same way; F stop; edge ± 2× range.`
+- `VWAP line` (standing): SPY is at VWAP, QQQ below.
+
+Market data and analysis only, not investment advice.
