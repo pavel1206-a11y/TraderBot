@@ -5759,3 +5759,15 @@ ARMED/WATCH (valid 10:58–11:27):
 - `VWAP line` (standing): both below VWAP; a 5-min close back above VWAP + $0.10 with the other agreeing = the reclaim long.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:16 AM ET): SPY ORB short cancelled; nothing fired**
+- Replay: no flag break below $746.01; the **10:57 1-min close $747.37 went back above the ORB low $747.05 → the SPY ORB short is cancelled**. QQQ never broke $669.92 (the ORB window closed at 11:00). **All four ORB sides are done for today; no A trade.**
+- Now: SPY $747.99, QQQ ≈ $673 (est.), chopping inside the ORB ranges under the pivots. **4H:** the 8:00 candle a long-wicked doji (closes at noon). **Squeeze (F):** SPY $746.00–748.57 since 10:50 ($2.57, just over the limit); none valid.
+- No B-or-better setup (chop around the ORB lows / VWAP).
+
+ARMED/WATCH (valid 11:16–11:42):
+- `WATCH E short SPY: a 5-min close $0.01–0.30 below $746.00 (today's low) on ≥ 1.0× (≥ 0.7× with QQQ below $671.52 the same bar); swing stop ≥ $0.40; target S1 $744.01 only if ≥ 1.5R.`
+- `WATCH E long SPY: a 5-min close $0.01–0.30 above the pivot $749.71 with QQQ above $674.62, on ≥ 1.0×; swing stop; target $752.69 (11/9 close) ≥ 1.5R.`
+- `WATCH F (both): any range ≤ $2.50 held 45 min, then a close out of it on the F volume bar, both the same way.`
+
+Market data and analysis only, not investment advice.
