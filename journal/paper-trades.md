@@ -5734,3 +5734,15 @@ ARMED/WATCH (valid 10:28–10:57):
 - `WATCH VWAP / pivot line (both): a fresh 5-min close $0.01–0.30 through VWAP on ≥ 1.0× with the other agreeing, then a hold bar.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:43 AM ET): QQQ ORB long cancelled too; both fading; nothing fired**
+- Replay: QQQ closed **$675.29 at 10:41**, under its ORB high $675.47 → **QQQ ORB long cancelled** (both ORB longs done for the day; no flag break ever fired). ORB shorts: not reached (SPY low $748.37 vs $747.05; QQQ $674.79 vs $669.92).
+- Now: SPY $748.75, QQQ $675.29; the gap-fill bounce failed at $752.1 / $680.9 and both are rolling back toward the ORB lows. **4H:** the 8:00 candle has given back most of its bounce. **Squeeze (F):** none.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 10:43–11:12):
+- `WATCH ORB shorts (both): a 1-min close below $747.05 / $669.92 on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A (entry by 11:30); targets S1 $744.01 / $666.75 (R/R ≥ 1.5).`
+- `WATCH E short SPY: a 5-min close $0.01–0.30 below the pivot $749.71 already happened (10:23–10:24, a slow drift); next: a 5-min close below $747.05 (ORB low) on ≥ 1.0× (≥ 0.7× with QQQ below $669.92 the same bar); swing stop; target S1 $744.01 ≥ 1.5R.`
+- `WATCH VWAP line (both): a fresh 5-min close $0.01–0.30 through VWAP on ≥ 1.0×, the other agreeing, then a hold bar.`
+
+Market data and analysis only, not investment advice.
