@@ -5708,3 +5708,17 @@ ARMED/WATCH (valid 9:57–10:27):
 - `WATCH ORB shorts (both): a 1-min close below $747.05 / $669.92 on ≥ 1.5×, by 11:00.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:18 AM ET): both ORB longs broke on volume; flags formed but no flag break; nothing fired**
+- **SPY ORB-flag long:** after the 9:56 break, a run to $752.06 (10:01), then a **flag 10:02–10:09** ($750.63–752.14, avg 60k, lighter than the 98k break, above $749.60). No 1-min close above $752.14 since; price drifted to $750.17 (10:16). Not cancelled (still above $749.60).
+  - R/R would fail anyway: the next mapped level, the 11/9 close **$752.69**, is only ≈ 0.3R above a $752.15 entry with a $750.53 stop → **SPY's flag is not tradable** (shadow only).
+- **QQQ ORB long:** **break at 9:59** (close $679.07 above $675.47 on 111k vs 89k needed, 1.87×). Run to $680.95 (10:01), then a pause 10:02–10:14 (13 bars; the last 10: $678.64–680.70, avg 50k). No flag break; it slipped to $677.53 (10:16). Not cancelled (above $675.47).
+  - R/R if it fires: a flag break ≈ $680.71, stop ≈ $678.54, next mapped level R1 $687.21 → ≈ 3R (tradable).
+- Both back to the open-gap area (SPY $750.69, QQQ $678.19). No paper trades open. **4H:** the 8:00 candle up from the lows, now fading. **Squeeze (F):** none.
+
+ARMED/WATCH (valid 10:18–10:42):
+- `WATCH ORB-FLAG QQQ long: a new 3–10 bar flag above $675.47 on volume lighter than the 111k break, then a 1-min close $0.01–0.30 above the flag high on volume above the flag average, by 11:30; stop flag low − $0.10 (≥ $0.30); target R1 $687.21 (R/R ≥ 1.5); a 1-min close under $675.47 cancels.`
+- `WATCH ORB-FLAG SPY long: only if the next mapped level leaves ≥ 1.5R (i.e. the flag entry is near $749.60–750.5 with a tight stop); a 1-min close under $749.60 cancels.` (One A long across both: the first valid flag break.)
+- `WATCH ORB shorts (both): a 1-min close below $747.05 / $669.92 on ≥ 1.5×, by 11:00.`
+
+Market data and analysis only, not investment advice.
