@@ -5843,3 +5843,19 @@ ARMED/WATCH (valid 12:42–13:12):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:57 PM ET): nothing fired; bounce off the lows**
+- Replay new-low E short: no close below SPY $744.87 / QQQ $667.05 → **not fired**.
+- Replay retest E short:
+  - SPY, 12:45: wick $745.93, closed $745.86 ($0.01 under $745.87) on 99k vs ~164k avg (0.6×) → fails volume.
+  - QQQ, 12:50: wick $669.54, closed $669.29 (under $669.43) on 149k. That is 0.98× the prior 10-bar average with the two 12:20/12:25 data-gap bars left out, or 1.22× with them in. Per the gap rule they are left out → fails (borderline). SPY closed *above* its line the same bar ($746.25), so SPY and QQQ disagree.
+  - **Not fired.** Shadow for the EOD: QQQ short $669.29, stop $669.69, target $666.75.
+- Now: SPY $746.25, QQQ $669.29, recovering but still below VWAP (SPY $748.18, QQQ $673.95, sloping down). **4H:** the 12:00 candle made a low at $744.87 / $667.05 and is now bouncing; a D reversal needs a VWAP reclaim. **Squeeze (F):** since 12:35, SPY $744.87–746.88 ($2.01) and QQQ $667.05–669.98 ($2.93, too wide). The SPY range is valid from 1:20.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:57–1:27):
+- `WATCH E short: a 5-min close $0.01–0.30 below SPY $744.87 / QQQ $667.05 on ≥ 1.0× (gap bars excluded), bar ≤ $1.00, both the same way; swing stop ≥ $0.40; target SPY $743.01+ (≥ 1.5R; PDL $741.03) / QQQ PDL $662.02.`
+- `WATCH D long: a SPY 5-min close $0.01–0.30 above VWAP (~$748.2) with QQQ above its VWAP (~$673.9); stop below $744.87 − $0.10 is too wide (> $1.00 bar rule n/a, but risk ≈ $3.4), so log only if the fractional size fits 5% risk; target the pivot $749.71 / PDH.`
+- `WATCH F SPY (from 1:20): a 5-min close $0.01–0.30 outside $744.87–746.88 with QQQ breaking its own $667.05 / $669.98 the same way; F stop; edge ± 2× range.`
+
+Market data and analysis only, not investment advice.
