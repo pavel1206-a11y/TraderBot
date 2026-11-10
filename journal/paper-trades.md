@@ -5831,3 +5831,15 @@ ARMED/WATCH (valid 12:27–12:57):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:42 PM ET): the lows broke but out of band, so nothing fired**
+- Replay E short: the 12:35 bar broke both lows on heavy volume (SPY 280k, QQQ 256k), but the closes were outside the band. SPY closed $745.34, $0.53 below $745.87 (band $0.01–0.30). QQQ closed $667.81, $1.62 below $669.43. Both bars were wider than the $1.00 limit (SPY $1.69, QQQ $2.33) → **not fired** (no chase). F: the 12:00 ranges were not yet valid (valid from 12:45), and the break voids them → **not fired**. The 12:20 and 12:25 bars were 1–4k shares (a data gap; ignored).
+- Now: SPY $745.72, QQQ $668.09, both well below VWAP (SPY $748.23, QQQ $674.11), and VWAP slopes down. 12:40 lows: SPY $744.87, QQQ $667.05. **4H:** the 12:00 candle is extending lower with no Power-of-3 reversal, a bearish expansion. **Squeeze (F):** none; both ranges were broken and reset from 12:35.
+- No B-or-better setup now (the move left without a valid entry). Candidate for missed-moves if it runs $2.50+.
+
+ARMED/WATCH (valid 12:42–13:12):
+- `WATCH E short (one across both): a 5-min close $0.01–0.30 below SPY $744.87 / QQQ $667.05 (the 12:40 lows) on ≥ 1.0× (≥ 0.7× with the other breaking the same bar), bar ≤ $1.00, both the same way; swing stop ≥ $0.40; target QQQ S1 $666.75 is too close (< 1.5R), so use SPY S1 $744.01 then PDL $741.03 / QQQ PDL $662.02, ≥ 1.5R.`
+- `WATCH E short (VWAP-side retest): a 5-min rejection close back below SPY $745.87 / QQQ $669.43 after a retest from below, bar ≤ $1.00, ≥ 1.0×; stop the retest high + $0.10 (≥ $0.40); same targets.`
+- `VWAP line` (standing): both below.
+
+Market data and analysis only, not investment advice.
