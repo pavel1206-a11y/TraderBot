@@ -6190,3 +6190,20 @@ ARMED/WATCH (valid 1:13–1:42):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:28 PM ET): F SPY long, near-miss twice; the squeeze broke up without a valid entry**
+- Replay F long ($761.47):
+  - 1:15: SPY closed **$761.62** ($0.15, in band), but QQQ closed $694.41, not above $694.86 → no QQQ break → **not fired**.
+  - 1:20: SPY closed **$761.90** ($0.43 past, out of the $0.30 band) with QQQ $695.03 above $694.86 the same bar. Volume 106k vs 120k avg (0.89×); the extended $0.75 band needs ≥ 1.2× → **not fired**.
+  - Logged as a change-1 near-miss.
+- F short: not reached.
+- **Shadow from 12:13 (E long $760.10, R $0.64):** the $762 target was **hit at 1:20 (high $762.07) → +2.97R** (shadow, gated by the 20-day R/R rule; not counted).
+- Now: SPY $761.90, QQQ $695.03, new session highs above VWAP and the 20-day. **4H:** the 12:00 candle is extending up. **Squeeze (F):** broken upward; none valid.
+- No B-or-better setup (no valid entry; no chase).
+
+ARMED/WATCH (valid 1:28–1:57):
+- `WATCH E long (pullback hold): a SPY 5-min bar that dips into $761.47–761.70 (the old range top) and closes back above $761.47 with QQQ above $694.86, on ≥ 1.0×, bar ≤ $1.00; stop the bar low − $0.10 (≥ $0.40); target $763.43 (F measured move), ≥ 1.5R.`
+- `WATCH E long (continuation): a SPY 5-min close $0.01–0.30 above $762.07 with QQQ above $695.23 the same bar, ≥ 1.0×; swing stop; target $763.43 / the 50-day $765.00, ≥ 1.5R.`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
