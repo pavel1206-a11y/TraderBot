@@ -6083,3 +6083,19 @@ ARMED/WATCH (valid 11:15–11:42):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:28 AM ET): #57/#58 CLOSED on the 30-min time stop (11:19): small wins**
+- **Replay:** no 1-min close ≥ $692.02 between 11:15 and 11:19 (best $690.77); the stop $688.64 was never threatened (low $690.32). **Time stop at the 11:19 1-min close: QQQ $690.765.**
+- **#57 (0DTE QQQ 692C):** in $0.80 → out **$0.84** (11:19 bar close $0.85 − $0.01 for the bid) = **+$4.00** (+5%).
+- **#58 (fractional QQQ 0.7246 sh):** $689.99 → $690.765 = **+$0.56** (+0.57R).
+- **Hindsight:** QQQ reclaimed $692.02 at 11:26 ($692.10 close) and is now $692.12. Holding past the time stop would have armed the trail. Noted for the changelog (the time stop cost the trail entry here; one signal).
+- **Running totals: 58 trades, 30W/28L (52%), +$193.94.** Options B 27 ≈ +$173; fractional B 29 +$7.13. **SPY 52 +$206.87; QQQ 6 −$12.93.** Still no A-grade trades.
+- Now: SPY $759.17, QQQ $692.12, both at session highs above VWAP. **4H:** the 8:00 candle is bullish, closing at its highs (closes at noon). **Squeeze (F):** SPY $757.66–759.25 since 10:51 ($1.59; the 11:26 high reset its top, so the age is uncertain, conservatively valid from 12:11); QQQ $689.90–692.24 since 10:55 ($2.34; valid from 11:40).
+- No new B-or-better setup now (no fresh trigger; A is done for the day: one long taken, entries closed at 11:30).
+
+ARMED/WATCH (valid 11:28–11:57):
+- `WATCH E long (momentum): a SPY 5-min close $0.01–0.30 above $759.25 (session high) with QQQ above $692.24 the same bar, on ≥ 1.0× the 10-bar avg, bar ≤ $1.00; swing stop ≥ $0.40; target the SPY 20-day $760.69 (≥ 1.5R or skip).`
+- `WATCH F QQQ-led (from 11:40): a QQQ 5-min close outside $689.90–692.24 with SPY breaking its own range edge the same bar; F stop; edge ± 2× range.`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
