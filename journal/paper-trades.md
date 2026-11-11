@@ -6241,3 +6241,9 @@ ARMED/WATCH (valid 2:13–2:30; window closes):
 - `VWAP line` (standing): both above, falling toward it.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:28 PM ET): nothing fired; entry window closing**
+- Replay E short ($760.36): the 2:15 bar closed SPY $759.82 ($0.54 past; out of band) with QQQ $691.70 below $692.61; volume 118k (≈ 0.9×) → **not fired**. 2:10 closed $760.51 (above the line).
+- Now: SPY $760.03, QQQ $691.95; the afternoon fade from the 1:45 highs (−$2.5 SPY, −$3.9 QQQ) is pausing above VWAP. **4H:** the 12:00 candle has given back most of its gains (a possible failed 20-day breakout). No new entries after 2:30; no open paper trades. Next: EOD at 3:47.
+
+Market data and analysis only, not investment advice.
