@@ -54,3 +54,14 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Change 6 (ORB 2× pole): all four ORB sides cancelled before a flag break. Neutral.
   - Changes 2, 4, 5: no signals.
   - **No playbook changes** (no change has 10 signals; 2-week mark 11/16).
+- **2026-11-11 (day 8):**
+  - Change 1 (extended $0.75 band with ≥ 1.2×):
+    - 1:20 F long, $0.43 past on 0.89×: it would have been stopped (reversed to $759.72), so the gate helped.
+    - 2:00 F short, $0.32 past on 1.04×: it would have reached its $760.38 target, so the gate cost.
+    - Net neutral (one each).
+  - Change 6 (ORB 2× pole target): #57/#58's $695.03 target was reached later (QQQ $695.57 at 1:45), after the time-stop exit. **Weak signal for** (the target was right; the trade was gone). Tally: 2 for (weak).
+  - Change 3 (1.5R trail): not armed (best close $692.005 vs $692.02). Neutral.
+  - Change 2 (swing stop): the 12:13 E long shadow used a $0.64 swing stop and made +2.97R; it was gated by the target R/R rule, not the stop. Neutral.
+  - Changes 4, 5: no signals.
+  - **Observation (not a change):** the setup-A 30-min time stop cut #57/#58 at +0.57R; QQQ then ran +4.2R. One signal; it needs a replay of past A trades before any proposal. The time stop is an A trade-management rule, so a change to it would be under the standing rule, but it waits on evidence.
+  - **No playbook changes** (no change has 10 signals; 2-week mark 11/16).

@@ -6249,3 +6249,11 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** past the 2:30 entry cutoff; no open paper trades, nothing armed. Day so far: #57/#58 +$4.56. Next: EOD at 3:47.
+
+### EOD 2026-11-11 (Wed)
+- **Trades:** #57 0DTE QQQ 692C $0.80 → $0.84 (**+$4.00**); #58 QQQ 0.7246 sh $689.99 → $690.765 (**+$0.56**). Both were the ORB-flag long (B), closed on the 30-min time stop at 11:19. No positions open.
+- **Day: +$4.56.** **Running totals: 58 trades, 30W/28L (52%), +$193.94.** Options B 27 ≈ +$173; fractional B 29 +$7.13. **SPY 52 +$206.87; QQQ 6 −$12.93.** Still no A-grade trades.
+- **Shadows (not counted):** the 12:13 E long ($760.10, gated by the 20-day R/R rule) reached $762 = +2.97R.
+- **Note:** a gap-up trend day (SPY +$12 vs the 11/10 close at the 1:45 high), reclaiming the 20-day SMA for the first time in the downtrend, then a $2.8 fade into 2:15. The one ORB entry worked but was cut by the time stop $0.015 short of the trail trigger. Later legs were low-volume grinds or closes just outside the $0.30 band.
+
+Market data and analysis only, not investment advice.

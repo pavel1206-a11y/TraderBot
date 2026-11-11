@@ -362,3 +362,13 @@ Pattern: the trend day's first leg was caught by A (on QQQ). Later legs were slo
 | 12:45–1:45 | +$2.6 in 60 min (745.07 → 747.64), $4.2 by 2:10 | Basing above the 12:40 low, then out of $744.87–746.88 at 1:30 (0.91×, QQQ the same bar), below VWAP | F long | It triggered but graded C (VWAP, the required factor, was against). Shadow +0.96R. |
 
 Pattern: a two-way chop day. Every leg either reversed (ORB sides) or started against VWAP. The VWAP-required rule cost +0.96R on one shadow; the volume and F-age rules saved about 2R on two shadows. No change indicated.
+
+**2026-11-11 (Wed)**
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:20–11:00 | +$3.5 in 40 min (755.26 → 758.78) | VWAP reclaim after the opening chop; the QQQ ORB high broke at 10:43 (1.52×), SPY at 10:51 (2.6×) | A (ORB flag) long | **Taken** on QQQ (#57/#58, +$4.56). It was exited by the 30-min time stop at 11:19, $0.015 short of +1.5R; QQQ went on to $695.57 (the 2× pole target $695.03 was later reached). |
+| 11:08–12:00 | +$3.0 in 52 min (757.66 → 760.62) | Out of the 10:51 range on 0.49× (11:45), then a grind to the 20-day | F long / E long | F: volume (0.49×). E (11:55, 0.93× with QQQ): the target, the 20-day, gave 0.94R (< 1.5R). The shadow to $762 made +2.97R. |
+| 1:45–2:15 | −$2.8 in 30 min (762.51 → 759.72) | A failed hold above the 20-day; out of the $761.80–762.51 range at 2:00 (1.04×, QQQ the same bar) | F short | The close was $0.32 past (band $0.30); the extended band needs 1.2×. Then $0.54 past at 2:15. |
+
+Pattern: a trend day with several closes just past the $0.30 band (1:20 long $0.43, 2:00 short $0.32, 2:15 $0.54) and low-volume grinds. The band rule helped once (the 1:20 long reversed) and cost once (the 2:00 short reached its target). The time stop cut the only A trade before its move.
