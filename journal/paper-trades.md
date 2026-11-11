@@ -5978,3 +5978,16 @@ ARMED/WATCH (9:45–10:12):
 - `VWAP line` (standing): check after 9:45.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:57 AM ET): ORB final; brief dips under both ORB lows on light volume, no break**
+- **ORB final (9:30–9:45):** SPY **$757.93 / $755.67** ($2.26); QQQ **$689.02 / $684.91** ($4.11).
+- **ORB shorts:** both closed below their lows without the volume. SPY closed $755.30 at 9:46 on 26k vs ≈ 81k needed (0.5×). QQQ closed $684.33 at 9:46 on 119k vs ≈ 169k (1.05×), and $684.19 at 9:48 on 59k. **No break counted** (they need ≥ 1.5×); both are back inside the range (SPY $756.39, QQQ $685.43). The QQQ ORB low held at $683.71 / $683.60 ≈ the pre-market low $683.09. ORB longs: not reached.
+- The gap is fading slightly but holding well above PDH (SPY +$4.25, QQQ +$4.48). **4H:** the 8:00 candle opened near $756 / $687 and is chopping. **Squeeze (F):** n/a before 11:00.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 9:57–10:27):
+- `WATCH ORB SPY: a 1-min close below $755.67 / above $757.93 on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A (entry by 11:30). Short reference: R1 $753.09 / PDH $752.14; long: the 20-day $760.69.`
+- `WATCH ORB QQQ: a 1-min close below $684.91 / above $689.02 on ≥ 1.5×, by 11:00; short reference: the pre-market low $683.09, then PDH $680.95; long: flag break + 2× pole.` One A trade per direction across both.
+- `VWAP line` (standing).
+
+Market data and analysis only, not investment advice.
