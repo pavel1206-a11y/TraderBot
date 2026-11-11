@@ -5953,3 +5953,17 @@ Market data and analysis only, not investment advice.
 - **Note:** a gap-down open, a failed gap-fill bounce to $752.1 and a $6 fade into midday, then a slow afternoon recovery to $749.8. Every ORB side broke and then cancelled (no flag breaks). The midday breakdown (12:35) came in one wide bar, outside the band. Correctly no trade on a choppy two-way day; the filters kept us out of both early losers.
 
 Market data and analysis only, not investment advice.
+
+## 2026-11-11 (Wed, Veterans Day: stocks open, bond market closed)
+
+**Pre-market brief (8:36 AM ET)**
+- **PDH/PDL (11/10 RTH):** SPY **$752.14 / $744.86**; QQQ **$680.95 / $667.05**.
+- **Pre-market:** SPY **$756.76**, **$4.62 above PDH** (pre range $753.98–757.00); QQQ **$687.49**, **$6.54 above PDH** (pre range $683.09–688.32). A strong gap up (SPY +0.9%, QQQ +1.9% vs the closes $749.92 / $674.76); the tech-led catalyst wasn't found (news API rate-limited, web search found nothing dated).
+- **Pivots (11/10 H/L/C):** SPY P $748.97, R1 $753.09, R2 $756.25, S1 $745.81. QQQ P $674.25, R1 $681.46, R2 $688.15, S1 $667.56.
+- **SMAs:** SPY 20-day $760.69, 50-day $765.00. QQQ 20-day $700.86, 50-day $719.39. Both are still below both SMAs: the daily downtrend is intact and the gap runs into the 20-day overhead.
+- **Events:** Veterans Day, so no US economic releases and the bond market is closed (thinner liquidity). No big-cap earnings that move SPY/QQQ. Nothing rules out trading.
+- **Bias:** bullish open (both above PDH and R1, at/over R2), but gaps into R2 under a falling 20-day often fade. Owner's levels: watch for a sweep of the pre-market high or a fill back toward PDH ($752.14 / $680.95). The first test is whether the gap holds above PDH after 9:45.
+- **ORB (setup A):** the 9:30–9:45 candle sets today's levels; 1-min breaks on ≥ 1.5× by 11:00, flag entries by 11:30.
+- No paper positions open.
+
+Market data and analysis only, not investment advice.
