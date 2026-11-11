@@ -6219,3 +6219,14 @@ ARMED/WATCH (valid 1:43–2:12):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:01 PM ET): nothing fired; the grind stalls under $762.51**
+- Replay continuation: the 1:40 bar closed SPY **$762.37** ($0.10 above $762.27) with QQQ $695.43 (above $695.40) the same bar, but SPY's volume was 81k vs 108k avg (**0.75×**; the line requires ≥ 1.0×) → **not fired**. Failed-high short: not reached (lows ≥ $761.93).
+- Now: SPY $762.05, QQQ $694.70; drifting at the highs, above VWAP. The 1:55 bars show 12–13k (partial). **4H:** the 12:00 candle is bullish, stalling under $762.51. **Squeeze (F):** SPY $761.80–762.51 since 1:20 (valid from 2:05; little time left before 2:30).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 2:01–2:30; last arming of the day):
+- `WATCH F SPY (2:05–2:30): a 5-min close $0.01–0.30 outside $761.80–762.51 on ≥ 1.0× (≥ 0.7× with QQQ breaking $694.71 / $695.57 the same bar), QQQ the same way; F stop (≥ $0.40); target edge ± 2× range ($763.93 / $760.38).`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
