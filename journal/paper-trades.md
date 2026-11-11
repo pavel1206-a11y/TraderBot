@@ -6066,3 +6066,20 @@ ARMED/WATCH (valid 10:57–11:27):
 - `VWAP line` (standing): both above VWAP.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:15 AM ET): #57/#58 open; +1.5R missed by $0.015, time stop due 11:19**
+- **#57/#58 replay:**
+  - Best 1-min close $692.005 (10:59), $0.015 short of the +1.5R trigger ($692.02), so the trail never armed. High $692.10 (11:00).
+  - Then a pullback to $689.90 (11:10 low), above the $688.64 stop.
+  - Now QQQ $690.83 (+0.62R). **#57** 692C $0.95 (+$15); **#58** +$0.61.
+  - The **30-min time stop at 11:19** applies unless a 1-min close reaches $692.02 first; the 11:27 check records the exit.
+- SPY $758.44 (above VWAP, holding its ORB break; skipped per the one-long rule). QQQ is above VWAP (~$687.3 est.).
+- **4H:** the 8:00 candle is bullish, closing near its highs (a gap-and-go so far). **Squeeze (F):** SPY $757.66–758.78 since 10:51 (40 min, valid from 11:36); QQQ $689.90–692.10 since 10:55 ($2.20, valid from 11:40).
+- No new B-or-better setup (one A long already open; the same-direction rule).
+
+ARMED/WATCH (valid 11:15–11:42):
+- `MANAGE #57/#58: stop $688.64 on a 1-min close; if a 1-min close ≥ $692.02 before 11:19, trail 1.5R ($2.03) behind the best price (never below entry $689.99); else exit at the 11:19 1-min close (time stop).`
+- `WATCH F SPY (from 11:36): a 5-min close $0.01–0.30 outside $757.66–758.78 on ≥ 1.0× with QQQ breaking its $689.90 / $692.10 range the same way; F stop; edge ± 2× range. A long is a different setup from #57 (allowed within the caps).`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
