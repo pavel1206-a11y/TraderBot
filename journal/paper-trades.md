@@ -6152,3 +6152,17 @@ ARMED/WATCH (valid 12:27–12:57):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:46 PM ET): nothing fired; SPY holding above the 20-day, QQQ lagging**
+- Replay retest long: 12:25 (low $760.53, close $760.70) and 12:30 (low $760.54, close $761.03) both held the 20-day, but on 95k / 100k vs ≈ 128k avg (0.74× / 0.78×; needs ≥ 1.0×) → **not fired**.
+- Replay continuation long: SPY closed $761.16 (12:35) and $761.21 (12:40) above $761.15, but QQQ closed $694.45 / $694.15, not above $694.68 → **not fired** (SPY/QQQ must agree).
+- Shadow from 12:13 (E long $760.10, R $0.64): it reached +1.5R ($761.06), so the trail armed. Best $761.44, trail $760.48; still open.
+- Now: SPY $761.21, QQQ $694.15, both above VWAP. **4H:** the 12:00 candle is bullish, holding above the 20-day. **Squeeze (F):** SPY **$760.49–761.44** since 12:20 ($0.95; valid from 1:05); QQQ $693.59–694.86 since 12:20 ($1.27; valid from 1:05).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:46–1:12):
+- `WATCH F SPY (from 1:05): a 5-min close $0.01–0.30 outside $760.49–761.44 on ≥ 1.0× (≥ 0.7× with QQQ outside $693.59–694.86 the same bar), QQQ the same way; F stop (≥ $0.40); target edge ± 2× range ($763.34 / $758.59).`
+- `WATCH E long (continuation): a SPY 5-min close $0.01–0.30 above $761.44 with QQQ above $694.86 the same bar, ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target $762.67 / $763.34, ≥ 1.5R.`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
