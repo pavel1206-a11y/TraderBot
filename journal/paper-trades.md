@@ -6027,3 +6027,42 @@ ARMED/WATCH (valid 10:42–11:12):
 - `WATCH F SPY (from 11:00): a 5-min close $0.01–0.30 outside $755.26–757.27 (or the updated range) on ≥ 1.0× with QQQ the same way; F stop; edge ± 2× range.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:57 AM ET): QQQ ORB-flag long FIRED (armed, replayed): paper trades #57 (0DTE call) and #58 (fractional QQQ)**
+- **ORB break:** QQQ 1-min close **$689.38 at 10:43** (above $689.02) on 56.8k vs 56.0k needed (**1.52×** the prior 20-bar avg 37.3k).
+- **Flag:** 10:44–10:48 (5 bars), closes $689.11–689.52, all above $689.02; avg 43.4k, lighter than the break. Flag high $689.74, flag low $688.74 (10:46 wick).
+- **Flag break (entry):** the **10:49 1-min close $689.99**, $0.25 above $689.74 (in the $0.01–0.30 band), on 46.9k > the 43.4k flag avg, by 11:30 ✓.
+- **Plan:**
+  - Stop: flag low − $0.10 = **$688.64** (R = $1.35).
+  - Reference target: flag break + 2× pole (pole = the 10:32 low $686.93 → $689.45, $2.52) = **$695.03** (3.7R); the next mapped level beyond is the 20-day $700.86.
+  - Trail: at +1.5R ($692.02), 1.5R behind the best price on 1-min closes, never below entry.
+  - Time stop: 30 min (11:19) if +1.5R isn't reached.
+- **Score card (QQQ long, 10:49):**
+  - 1 VWAP ✓ ($689.99 vs $686.6, rising; above it since 10:26 after the morning chop).
+  - 2 ADX ✓ (51.9; inflated by the overnight gap).
+  - 3 EMA ✓ (9 EMA $687.53 > 21 EMA $684.20).
+  - 4 Structure ✓ (higher lows from 10:32, confirming close).
+  - 5 Level ✓ (through the ORB high, the pre-market high $688.32 and R2 $688.15).
+  - 6 Volume ✓ (the 10:45 5-min bar ≈ 1.2× its 10-bar avg).
+  - 7 Momentum ✗ (RSI 78, overbought; MACD above signal).
+  - 8 HTF ✗ (daily below the 20/50-day SMAs).
+  - 9 Market ✓ (SPY above VWAP, breaking its ORB high at 10:51).
+  - 10 News ✗ (gap catalyst unconfirmed).
+  - Result: **7/10 = B.**
+- **0DTE checklist:**
+  - 1 Direction ✓ (above a rising VWAP for 23 min; the earlier chop is noted).
+  - 2 Candles ✓ (HH/HL + flag-break close).
+  - 3 News/events ✓ (no scheduled releases; Veterans Day).
+  - 4 Risk ✓ ($80 ≤ $100).
+  - Timing ✓ (after 9:45, before 2:30).
+- **#57 (option):** **QQQ 11/11 $692 call (0DTE) ×1 @ $0.80** (10:49 bar close $0.79 + $0.01 for the ask) = **$80** premium = the risk (8% of $1,000). Exit on the underlying's stop/trail/time stop; out by 3:30 at the latest.
+- **#58 (fractional):** **QQQ 0.7246 sh @ $689.99** ($500, 50% cap). Alert stop $688.64 → risk **$0.98**; same target/trail.
+- **SPY:** its ORB long broke at 10:51 (close $758.11 on 71k ≈ 2.6×) but is **skipped** (one A long per direction across both; QQQ fired first).
+- **Play-forward to 10:57:** QQQ high $691.93 (10:56) = +1.43R, not yet +1.5R. Now $691.63 (+1.22R). #57 $1.40 (+$60); #58 +$1.19.
+
+ARMED/WATCH (valid 10:57–11:27):
+- `MANAGE #57/#58 QQQ long: stop $688.64 (a 1-min close below); at a 1-min close ≥ $692.02 (+1.5R), trail 1.5R ($2.03) behind the best price, never below entry $689.99; time stop at 11:19 if +1.5R isn't reached on a close; target $695.03.`
+- `WATCH F SPY (from 11:00): the 9:35 range is broken (SPY $758.53 > $757.27); none valid.`
+- `VWAP line` (standing): both above VWAP.
+
+Market data and analysis only, not investment advice.
