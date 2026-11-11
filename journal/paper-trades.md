@@ -5967,3 +5967,14 @@ Market data and analysis only, not investment advice.
 - No paper positions open.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming (to 9:40); the gap is holding**
+- ORB so far (9:30–9:40): SPY **$757.93 / $755.71** (now $756.80); QQQ **$689.02 / $685.67** (now $687.36). Both are opening near the pre-market highs ($757.00 / $688.32), with a quick wick over them and back; still well above PDH ($752.14 / $680.95).
+- Pre-market levels: SPY pre range $753.98–757.00, R2 $756.25; QQQ pre range $683.09–688.32, R2 $688.15. No paper trades open. The final ORB is set at 9:45.
+
+ARMED/WATCH (9:45–10:12):
+- `WATCH ORB SPY: a 1-min close above / below the final 9:30–9:45 high / low (now $757.93 / $755.71) on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A (entry by 11:30). Long reference: the 20-day SMA $760.69; short: R1 $753.09, then PDH $752.14.`
+- `WATCH ORB QQQ: the same above / below $689.02 / $685.67`; long reference: R2 $688.15 is inside the range, so measure flag break + 2× pole; short: the pre-market low $683.09, then PDH $680.95. One A trade per direction across both.
+- `VWAP line` (standing): check after 9:45.
+
+Market data and analysis only, not investment advice.
