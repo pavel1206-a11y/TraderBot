@@ -6123,3 +6123,19 @@ ARMED/WATCH (valid 11:57–12:27):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:13 PM ET): E long triggered but failed the R/R gate, so no trade; SPY rejected at the 20-day**
+- Replay E long:
+  - The 11:55 bar closed SPY **$760.10** ($0.29 above $759.81) on 118k vs 127k avg (0.93×). QQQ closed $693.51 above $693.26 the same bar → the ≥ 0.7× allowance is met; the bar was $0.51 (≤ $1.00).
+  - Swing stop $759.46 (the 11:50 swing low − $0.05; farther than the bar low − $0.10) → R $0.64. The armed target, the 20-day $760.69, was only **0.94R (< 1.5R) → skipped as written**.
+  - Shadow (to $762, 3.0R): high $760.62, low since $759.90; open (scored at the EOD).
+- Replay failed-breakout short: no close below $759.07 → not fired.
+- Now: SPY $759.92, QQQ $692.69. SPY tagged $760.62 (12:00), $0.07 under the 20-day SMA $760.69, and pulled back on 239k → 135k. Both remain above VWAP. **4H:** the 12:00 candle opened with a test of the 20-day and a small rejection. **Squeeze (F):** none valid (new highs at 12:00).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:13–12:42):
+- `WATCH E long: a SPY 5-min close $0.01–0.30 above $760.69 (20-day SMA) with QQQ above $693.82 the same bar, on ≥ 1.0× (≥ 0.7× with QQQ's break), bar ≤ $1.00; swing stop ≥ $0.40; target $762.67 (≥ 1.5R or skip).`
+- `WATCH E short (20-day rejection): a SPY 5-min close $0.01–0.30 below $759.46 with QQQ below $692.62 the same bar, on ≥ 1.0×; swing stop; target $758.50 then $757.66, ≥ 1.5R.`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
