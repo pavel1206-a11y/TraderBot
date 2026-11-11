@@ -5991,3 +5991,15 @@ ARMED/WATCH (valid 9:57–10:27):
 - `VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:15 AM ET): nothing fired; tight chop at VWAP inside the ORB**
+- Replay ORB: SPY closed under $755.67 at 10:13 ($755.47) and 10:14 ($755.43) on 22k / 19k vs ≈ 33k needed (≈ 0.6×) → no break. QQQ lowest close $685.31 (above $684.91); no long closes above the highs → **nothing fired**.
+- Now: SPY $755.43, QQQ $685.44, both just under a flattening VWAP (SPY $756.38, QQQ $686.28), crossing it repeatedly since 9:45 (VWAP chop filter). **4H:** the 8:00 candle is a narrow body at the gap level. **Squeeze (F):** n/a before 11:00 (SPY has held $755.26–757.93 since 9:30).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 10:15–10:42):
+- `WATCH ORB SPY: a 1-min close below $755.67 / above $757.93 on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A. Short reference: R1 $753.09 / PDH $752.14; long: the 20-day $760.69.`
+- `WATCH ORB QQQ: a 1-min close below $684.91 / above $689.02 on ≥ 1.5×, by 11:00; short reference: $683.09 then PDH $680.95.` One A trade per direction.
+- `VWAP line` (standing): both just below; chop.
+
+Market data and analysis only, not investment advice.
