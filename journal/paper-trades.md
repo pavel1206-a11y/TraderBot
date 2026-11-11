@@ -6247,3 +6247,5 @@ Market data and analysis only, not investment advice.
 - Now: SPY $760.03, QQQ $691.95; the afternoon fade from the 1:45 highs (−$2.5 SPY, −$3.9 QQQ) is pausing above VWAP. **4H:** the 12:00 candle has given back most of its gains (a possible failed 20-day breakout). No new entries after 2:30; no open paper trades. Next: EOD at 3:47.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** past the 2:30 entry cutoff; no open paper trades, nothing armed. Day so far: #57/#58 +$4.56. Next: EOD at 3:47.
