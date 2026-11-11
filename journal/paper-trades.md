@@ -6139,3 +6139,16 @@ ARMED/WATCH (valid 12:13–12:42):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:27 PM ET): SPY broke the 20-day SMA, but the close was outside the band, so nothing fired**
+- Replay E long above $760.69: the 12:20 bar closed **$761.05, $0.36 past** (band $0.01–0.30). The extended $0.75 band needs ≥ 1.2×; volume was 138k vs 128k avg (1.07×), even with QQQ's same-bar close above $693.82 ($694.41) → **not fired** (no chase). The 12:15 close of $760.51 was under the line. E short: not reached.
+- Shadow from 12:13 (E long $760.10 / stop $759.46 / $762): high $761.15 (+1.6R); open.
+- Now: SPY $761.05 (above the 20-day $760.69 for the first time since the downtrend), QQQ $694.41; both trend up above VWAP. **4H:** the 12:00 candle is extending the gap-and-go. **Squeeze (F):** none (trend).
+- No B-or-better setup (the entry was missed by the band rule).
+
+ARMED/WATCH (valid 12:27–12:57):
+- `WATCH E long (retest): a SPY 5-min bar that dips to $760.69–760.90 and closes back above $760.69 (a 20-day hold) with QQQ above $693.82, on ≥ 1.0×, bar ≤ $1.00; stop the bar low − $0.10 (≥ $0.40); target $762.67 / the 50-day $765.00, ≥ 1.5R.`
+- `WATCH E long (continuation): a SPY 5-min close $0.01–0.30 above $761.15 with QQQ above $694.68 the same bar, ≥ 1.0×; swing stop; target $762.67+ (≥ 1.5R).`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
