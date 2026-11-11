@@ -6015,3 +6015,15 @@ ARMED/WATCH (valid 10:27–10:57):
 - `VWAP line` (standing): SPY at VWAP, QQQ just above; chop.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:42 AM ET): nothing fired; both lifting above VWAP toward the ORB highs**
+- Replay ORB: no 1-min closes beyond the ORB lines (SPY $756.19–757.26, QQQ $686.93–688.65 since 10:27) → **nothing fired**.
+- Now: SPY $757.26 (+$0.88 vs VWAP $756.38), QQQ $688.65 (+$2.20 vs VWAP $686.45). QQQ is leading, $0.37 under its ORB high $689.02; SPY is $0.67 under $757.93. VWAP is flat (a chop morning); a VWAP E long needs a fresh close through, which has already happened in drift. **4H:** the 8:00 candle is a narrow body, now pushing up. **Squeeze (F):** SPY $755.26–757.27 since 9:35 ($2.01; F-eligible at 11:00); QQQ $684.07–688.73 (too wide).
+- No B-or-better setup yet.
+
+ARMED/WATCH (valid 10:42–11:12):
+- `WATCH ORB QQQ long: a 1-min close above $689.02 on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A (entry by 11:30); target flag break + 2× pole (R2 $688.15 is already below); stop flag low − $0.10 (≥ $0.30).`
+- `WATCH ORB SPY long: a 1-min close above $757.93 on ≥ 1.5×, by 11:00; target the 20-day $760.69 (R/R ≥ 1.5).` One A long across both. ORB shorts (below $755.67 / $684.91) remain armed to 11:00.
+- `WATCH F SPY (from 11:00): a 5-min close $0.01–0.30 outside $755.26–757.27 (or the updated range) on ≥ 1.0× with QQQ the same way; F stop; edge ± 2× range.`
+
+Market data and analysis only, not investment advice.
