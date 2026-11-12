@@ -6332,3 +6332,16 @@ ARMED/WATCH (valid 10:43–11:12):
 - `VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:57 AM ET): SPY ORB long broke on volume at 10:51 (flag pending); QQQ's broke and cancelled**
+- **SPY ORB long:** **break at 10:51:** 1-min close $759.05 (above $757.83) on 46.3k vs 41.3k needed (**1.68×** the prior 20-bar avg 27.6k). Since then a steady climb (closes $758.59 → $759.59, no pause yet), so no flag has formed. High $759.61.
+- **QQQ ORB long:** break at 10:51 (close $688.63 on 68.6k = **2.23×**), but the **10:52 close of $688.18 went back under $688.22 → cancelled** (one per side per day).
+- Now: SPY $759.59 (above the pivot $759.07), QQQ $689.92 (at the pivot $689.84). **4H:** the 8:00 candle has nearly erased the NVDA gap. **Squeeze (F):** none (trend).
+- No entry yet (a flag break is required).
+
+ARMED/WATCH (valid 10:57–11:27):
+- `WATCH ORB-FLAG SPY long: a 3–10 bar flag above $757.83 (2 bars if both drift down) on lighter volume than the 46k break, then a 1-min close $0.01–0.30 above the flag high on volume above the flag average, by 11:30; stop flag low − $0.10 (≥ $0.30); reference target the 20-day $760.20, else flag break + 2× pole (pole $757.92 → flag top). R/R ≥ 1.5 or skip; a 1-min close under $757.83 cancels.`
+- `WATCH ORB shorts: SPY below $753.67 / QQQ below $679.84 on ≥ 1.5×, by 11:00 (window closing).`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
