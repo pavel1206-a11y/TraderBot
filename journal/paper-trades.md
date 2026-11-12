@@ -6257,3 +6257,17 @@ Market data and analysis only, not investment advice.
 - **Note:** a gap-up trend day (SPY +$12 vs the 11/10 close at the 1:45 high), reclaiming the 20-day SMA for the first time in the downtrend, then a $2.8 fade into 2:15. The one ORB entry worked but was cut by the time stop $0.015 short of the trail trigger. Later legs were low-volume grinds or closes just outside the $0.30 band.
 
 Market data and analysis only, not investment advice.
+
+## 2026-11-12 (Thu)
+
+**Pre-market brief (8:36 AM ET)**
+- **PDH/PDL (11/11 RTH):** SPY **$762.51 / $754.90**; QQQ **$695.57 / $683.56**.
+- **Pre-market:** SPY **$754.08**, **$0.82 below PDL** (pre range ≈ $754.0–757.51); QQQ **$681.31**, **$2.25 below PDL** (pre range ≈ $681.3–686.27). The gap down is led by **NVDA $158.21 (−8.9%)** after last night's NYT report on CEO Jensen Huang (a second relationship allegation; governance/key-person risk). The 11/11 closes were $759.81 / $690.38.
+- **Pivots (11/11 H/L/C):** SPY P $759.07, R1 $763.25, S1 $755.64, S2 $751.46. QQQ P $689.84, R1 $696.11, S1 $684.10, S2 $677.83.
+- **SMAs:** SPY 20-day $760.20, 50-day $764.96; QQQ 20-day $698.94, 50-day $719.04. Yesterday's 20-day reclaim is undone pre-market.
+- **Events:** initial jobless claims at 8:30 (just out; the figure wasn't checked) and Fed speakers (Gov. Barr) during the day. NVDA headline risk (a company response could come at any time). Nothing rules out trading, but expect wide opening swings.
+- **Bias:** **bearish** (a gap below both PDLs and S1, QQQ-led on NVDA). Owner's levels: watch for a sweep under the pre-market low and a reclaim of PDL $754.90 / $683.56 (a reversal long), or a failed bounce at PDL (continuation short toward S2 $751.46 / $677.83).
+- **ORB (setup A):** the 9:30–9:45 candle sets the levels; 1-min breaks on ≥ 1.5× by 11:00, flag entries by 11:30.
+- No paper positions open.
+
+Market data and analysis only, not investment advice.
