@@ -6357,3 +6357,18 @@ ARMED/WATCH (valid 11:14–11:30, ORB entry window):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:28 AM ET): the 2nd SPY flag didn't fire; it would have lost**
+- **Flag 2:** 11:12–11:16 (closes $762.52 → $762.27; high $762.71, low $761.85; avg 58k).
+  - The first close above, 11:20 ($762.93, +$0.22), was on 37.7k (< 58k) → no.
+  - The 11:20 high ($763.01) then became part of the pause (the flag ran 11–12 bars, over the 10-bar limit), so the 11:23 close of $762.84 on 102k is not a valid flag break of the defined flag → **not fired** (conservative reading).
+  - Shadow: entry $762.84 / stop $761.75 → stopped at 11:26 (low $761.39), **−1R**. The rule kept us out.
+- Now: SPY $761.82, QQQ $692.45, pulling back from the highs ($763.03 / $694.56). **The A window closes at 11:30**; both ORB sides are done (SPY long: no valid flag break; QQQ long cancelled). **4H:** the 8:00 candle is bullish, closing near its highs at noon. **Squeeze (F):** SPY $761.39–763.03 since 11:07 (valid from 11:52); QQQ $691.87–694.56 since 11:10 ($2.69, too wide).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:28–11:57):
+- `WATCH F SPY (from 11:52): a 5-min close $0.01–0.30 outside $761.39–763.03 on ≥ 1.0× (≥ 0.7× with QQQ breaking $691.87 / $694.56 the same bar), QQQ the same way; F stop (≥ $0.40); target edge ± 2× range ($766.31 / $758.11), the 50-day $764.96 first on a long.`
+- `WATCH E short (pullback deepens): a SPY 5-min close $0.01–0.30 below $761.39 with QQQ below $691.87 the same bar, on ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target the 20-day $760.20, ≥ 1.5R or skip.`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
