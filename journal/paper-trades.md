@@ -6397,3 +6397,15 @@ ARMED/WATCH (valid 11:58–12:27):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:13 PM ET): nothing fired; tight range above the 20-day**
+- Replay: SPY closes $760.96–761.11 (inside $759.94–761.96); QQQ $690.63–691.60 (inside) → **nothing fired**.
+- Now: SPY $760.97, QQQ $690.63 (QQQ softer), above VWAP (est.) on low volume (63–97k). **4H:** the 12:00 candle is a small body near its open. **Squeeze (F):** SPY **$759.94–761.96** ($2.02; valid from 12:15); QQQ $689.69–692.85 ($3.16, too wide).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:13–12:42):
+- `WATCH F SPY (from 12:15): a 5-min close $0.01–0.30 outside $759.94–761.96 on ≥ 1.0× (≥ 0.7× with QQQ outside $689.69 / $692.85 the same bar), QQQ the same way; F stop (≥ $0.40); target $766.00 / $755.90 (the 50-day $764.96 / the pivot $759.07 first).`
+- `WATCH E long: a SPY 5-min close $0.01–0.30 above $761.96 with QQQ above $692.85 the same bar, ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target $763.03 / $764.96, ≥ 1.5R.`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
