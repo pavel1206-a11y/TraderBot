@@ -6527,3 +6527,13 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** past the 2:30 entry cutoff; no open paper trades, nothing armed. Day: no trades. Next: EOD at 3:47.
+
+### EOD 2026-11-12 (Thu)
+- **Trades: none.** No positions open.
+- **Day: $0.00.** **Running totals: 58 trades, 30W/28L (52%), +$193.94.** Options B 27 ≈ +$173; fractional B 29 +$7.13. **SPY 52 +$206.87; QQQ 6 −$12.93.** Still no A-grade trades.
+- **Shadows (not counted):**
+  - 11:23 SPY ORB 2nd-flag long (rejected as an invalid flag): −1R.
+  - 1:45 SPY F short (C: ADX 8.9, at VWAP): $759.21. The trail never armed on 1-min closes before 2:30 (best close $758.18 vs +1.5R $758.04); the stop $759.99 was never hit (high $759.81). Held to 3:45 ≈ **$757.10 = +2.7R**.
+- **Note:** NVDA's −9% gap was bought at the open (a PDL sweep-and-reclaim in 5 min), then a +$9 rally to $763.03 by 11:23 with the ORB break only confirming on volume at 10:51. The flag break lacked volume, so no A trade. The afternoon faded back to $757 on chop (ADX ≈ 9).
+
+Market data and analysis only, not investment advice.

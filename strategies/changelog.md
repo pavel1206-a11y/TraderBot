@@ -65,3 +65,10 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Changes 4, 5: no signals.
   - **Observation (not a change):** the setup-A 30-min time stop cut #57/#58 at +0.57R; QQQ then ran +4.2R. One signal; it needs a replay of past A trades before any proposal. The time stop is an A trade-management rule, so a change to it would be under the standing rule, but it waits on evidence.
   - **No playbook changes** (no change has 10 signals; 2-week mark 11/16).
+- **2026-11-12 (day 9):**
+  - Change 1 (extended $0.75 band): the 1:45 F short qualified only via the extended band ($0.73 past, 2.56×, QQQ the same bar). It was graded C, so not taken; the shadow made +2.7R. **Signal for** the band (it identified a working entry). Tally: 1 for / 1 against / 1 neutral (11/11).
+  - Change 6 (ORB 2× pole target): no A trade. Neutral.
+  - Change 3 (1.5R trail): the shadow F short never got a 1-min close at +1.5R before running (wick only), so the trail was irrelevant. Neutral.
+  - Changes 2, 4, 5: no signals.
+  - **Observation (not a change; needs a replay):** F breakouts come out of chop, so the score card's required ADX ≥ 20 will usually fail on F triggers. The two C-graded F shadows (11/10, 11/12) both won. Before proposing "for F, ADX is measured after the break, or replaced by the range-age condition", replay the F triggers in the journal (≥ 20 sessions). The score-card required factors are in the playbook (section 3); the A/B-only rule is in CLAUDE.md, so a change to which trades qualify will go to the owner.
+  - **No playbook changes** (no change has 10 signals; 2-week mark 11/16).

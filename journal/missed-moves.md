@@ -372,3 +372,13 @@ Pattern: a two-way chop day. Every leg either reversed (ORB sides) or started ag
 | 1:45–2:15 | −$2.8 in 30 min (762.51 → 759.72) | A failed hold above the 20-day; out of the $761.80–762.51 range at 2:00 (1.04×, QQQ the same bar) | F short | The close was $0.32 past (band $0.30); the extended band needs 1.2×. Then $0.54 past at 2:15. |
 
 Pattern: a trend day with several closes just past the $0.30 band (1:20 long $0.43, 2:00 short $0.32, 2:15 $0.54) and low-volume grinds. The band rule helped once (the 1:20 long reversed) and cost once (the 2:00 short reached its target). The time stop cut the only A trade before its move.
+
+**2026-11-12 (Thu)**
+
+| Time | Size | How it started | Setup that should have caught it | Why it didn't |
+|---|---|---|---|---|
+| 10:00–11:11 | +$6.9 in 71 min (755.91 → 762.78) | VWAP reclaim after the PDL sweep; SPY closed over the ORB high $757.83 from 10:38 on 0.5–1.1×; the volume break came at 10:51 (1.68×); QQQ broke (2.2×) but cancelled at 10:52 | A (ORB flag) long | The breaks before 10:51 lacked volume. The 11:01–11:04 flag broke at 11:05 on 0.46× the flag average (no fire), then ran +$2. The 2nd flag was invalid (> 10 bars), and its shadow lost 1R. |
+| 11:23–12:40 | −$3.1 in 77 min (763.03 → 759.94) | A fade from the high back to the 20-day; 11:30 close $0.55 past on a $1.69 bar; 11:40 close $0.10 under the 20-day on 0.66× | E short | Out of band, bar > $1.00, then volume 0.66×. A slow pullback inside an up day. |
+| 1:30–2:05 | −$3.2 in 35 min (761.06 → 757.90), $4.5 by 3:30 | Out of the 2-h range $759.94–761.96 at 1:45 (2.56×, QQQ the same bar; extended band) | F short | Graded **C**: ADX 8.9 and price still $0.12 above VWAP (both required). Shadow +2.7R by 3:45. |
+
+Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), both failing a required factor on a range break (VWAP side or ADX). A squeeze breakout happens by definition after low-ADX chop, so ADX < 20 may be the wrong gate for F. Logged as an observation; a playbook change needs ≥ 20 sessions of replay (see the changelog).
