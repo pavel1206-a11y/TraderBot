@@ -6506,3 +6506,15 @@ ARMED/WATCH (valid 1:58–2:27; last arming):
 - `VWAP line` (standing): both at VWAP.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:13 PM ET): nothing fired; chop around VWAP**
+- Replay E short: the 2:00 bar closed SPY $758.18 (below $758.30 and VWAP $759.06), but QQQ closed $688.00, not below $687.88 → **not fired** (also ADX < 20). 2:05 snapped back to $759.01.
+- Shadow F short ($759.21 / stop $759.99 / R $0.78): low $757.90 (+1.68R), so the trail armed at 1.5R behind the best ($759.07). The 2:05 close of $759.01 was just under it, still open; the EOD will confirm on 1-min bars.
+- Now: SPY $759.01, QQQ $689.15, crossing VWAP back and forth (VWAP chop + ADX ≈ 9 → no-trade filter). **4H:** the 12:00 candle is red off the 20-day. **Squeeze (F):** none valid.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 2:13–2:30, window closes):
+- `WATCH E short: a SPY 5-min close $0.01–0.30 below $757.90 with QQQ below $687.78 the same bar, on ≥ 1.0×, bar ≤ $1.00, and ADX ≥ 20; swing stop ≥ $0.40; target $755.90, ≥ 1.5R.`
+- `VWAP line` (standing): both at VWAP (chop).
+
+Market data and analysis only, not investment advice.
