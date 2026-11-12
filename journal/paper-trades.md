@@ -6372,3 +6372,15 @@ ARMED/WATCH (valid 11:28–11:57):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:43 AM ET): nothing fired; the pullback reaches toward the 20-day**
+- Replay E short: the 11:30 bar closed SPY **$760.84** ($0.55 below $761.39; out of band), with the bar $1.69 wide (> $1.00) and QQQ $691.56 below $691.87 → **not fired** (no chase). F: the 11:07 range broke before it turned eligible (11:52) → void.
+- Now: SPY $760.82 ($0.62 above the 20-day $760.20), QQQ $691.35; a pullback from the $763.03 / $694.56 highs (−$2.2 / −$3.2), both still above VWAP (est.). **4H:** the 8:00 candle closes at noon as a strong bullish reversal candle (it swept the PDL and erased the gap). **Squeeze (F):** none.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:43–12:12):
+- `WATCH E long (20-day hold): a SPY 5-min bar that tags $760.20–760.45 and closes back above $760.45 with QQQ holding $690.68, on ≥ 1.0×, bar ≤ $1.00; stop the bar low − $0.10 (≥ $0.40); target $763.03 (the high), ≥ 1.5R.`
+- `WATCH E short: a SPY 5-min close $0.01–0.30 below $760.20 (20-day) with QQQ below $690.68 the same bar, on ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target the pivot $759.07 / $757.83, ≥ 1.5R.`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
