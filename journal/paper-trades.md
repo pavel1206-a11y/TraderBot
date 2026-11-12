@@ -6320,3 +6320,15 @@ ARMED/WATCH (valid 10:27–10:57):
 - `WATCH F SPY (from 11:00): a 5-min close $0.01–0.30 outside $755.91–757.47 with QQQ the same way, ≥ 1.0× (≥ 0.7× with QQQ's same-bar break); F stop; edge ± 2× range.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:43 AM ET): nothing fired; SPY edging above its ORB high on light volume**
+- Replay ORB: SPY 1-min closes above $757.83 at 10:38 ($757.86), 10:40 ($758.24) and 10:41 ($758.39) on 15–32k vs ≈ 42k needed (≈ 0.5–1.1×) → **no break counted**. QQQ best close $687.27 (under $688.22) → **nothing fired**.
+- Now: SPY $758.39, QQQ $687.27, both drifting up toward the pivots (SPY $759.07, QQQ $689.84). **4H:** the 8:00 candle is bullish, recovering the gap. **Squeeze (F):** SPY broke above $757.47 before the range turned eligible (reset); none valid.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 10:43–11:12):
+- `WATCH ORB SPY long: a 1-min close above $757.83 on ≥ 1.5× the prior 20-bar volume, by 11:00 (still open: price is above, but needs a volume close); then a flag per A; target the pivot $759.07 / the 20-day $760.20 (≥ 1.5R).`
+- `WATCH ORB QQQ long: a 1-min close above $688.22 on ≥ 1.5×, by 11:00; target the pivot $689.84 / $690.38.` One A long across both. ORB shorts remain armed to 11:00.
+- `VWAP line` (standing).
+
+Market data and analysis only, not investment advice.
