@@ -6518,3 +6518,10 @@ ARMED/WATCH (valid 2:13–2:30, window closes):
 - `VWAP line` (standing): both at VWAP (chop).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:28 PM ET): nothing fired; entry window closing**
+- Replay E short ($757.90): lowest close $758.84 → **not fired**.
+- Shadow F short: the 2:10 close of $759.12 was above the $759.07 trail → trailed out ≈ **+0.18R** (to be confirmed on 1-min bars at the EOD).
+- Now: SPY $758.84, QQQ $688.85, chopping at VWAP (≈ $759.05 / $688.50). No new entries after 2:30; no open paper trades. Next: EOD at 3:47.
+
+Market data and analysis only, not investment advice.
