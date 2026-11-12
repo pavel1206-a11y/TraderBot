@@ -6283,3 +6283,16 @@ ARMED/WATCH (9:45–10:12):
 - `VWAP line` (standing): check after 9:45.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:57 AM ET): ORB final; SPY above its ORB high on light volume, no break**
+- **ORB final (9:30–9:45):** SPY **$757.83 / $753.67** ($4.16); QQQ **$688.22 / $679.84** ($8.38).
+- **SPY ORB long:** 1-min closes above $757.83 at 9:51–9:54 ($758.41 high close) on 34–51k vs ≈ 87k needed (≈ 0.6–0.9×) → **no break counted**. Back at $757.48 (inside). **QQQ:** best close $687.97 (under $688.22); no short-side tests.
+- Now: SPY $757.48, QQQ $686.26; the gap-fill bounce stalls under the pivots (SPY $759.07, QQQ $689.84). **4H:** the 8:00 candle swept the PDLs and is now bullish off the low. **Squeeze (F):** n/a before 11:00.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 9:57–10:27):
+- `WATCH ORB SPY: a 1-min close above $757.83 / below $753.67 on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A. Long reference: the pivot $759.07 / the 20-day $760.20 (R/R ≥ 1.5); short: S2 $751.46.`
+- `WATCH ORB QQQ: a 1-min close above $688.22 / below $679.84 on ≥ 1.5×, by 11:00; long: the pivot $689.84, then $690.38; short: S2 $677.83.` One A trade per direction.
+- `VWAP line` (standing).
+
+Market data and analysis only, not investment advice.
