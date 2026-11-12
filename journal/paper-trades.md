@@ -6525,3 +6525,5 @@ Market data and analysis only, not investment advice.
 - Now: SPY $758.84, QQQ $688.85, chopping at VWAP (≈ $759.05 / $688.50). No new entries after 2:30; no open paper trades. Next: EOD at 3:47.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** past the 2:30 entry cutoff; no open paper trades, nothing armed. Day: no trades. Next: EOD at 3:47.
