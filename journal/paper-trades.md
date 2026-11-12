@@ -6384,3 +6384,16 @@ ARMED/WATCH (valid 11:43–12:12):
 - `VWAP line` (standing): both above.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:58 AM ET): nothing fired; the 20-day holds on a wick**
+- Replay E short: the 11:40 bar closed SPY $760.10 ($0.10 under the 20-day $760.20) with QQQ $690.17 below $690.68 the same bar, but SPY's volume was 139k vs 213k avg (**0.66×**; needs ≥ 1.0×) → **not fired**.
+- Replay 20-day-hold long: 11:45 (low $759.97, close $760.72 above $760.45) qualified on SPY, but QQQ undercut $690.68 (low $689.69) → **not fired**.
+- Now: SPY $760.93, QQQ $691.44, bouncing off the 20-day on fading volume. **4H:** the 8:00 candle closed bullish (a PDL-sweep reversal); the 12:00 candle opens. **Squeeze (F):** SPY $759.94–761.96 since 11:30 ($2.02; valid from 12:15); QQQ $689.69–692.85 ($3.16, too wide).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:58–12:27):
+- `WATCH F SPY (from 12:15): a 5-min close $0.01–0.30 outside $759.94–761.96 on ≥ 1.0× (≥ 0.7× with QQQ outside $689.69 / $692.85 the same bar), QQQ the same way; F stop (≥ $0.40); target edge ± 2× range ($766.00 / $755.90), the 50-day $764.96 / the pivot $759.07 first.`
+- `WATCH E long: a SPY 5-min close $0.01–0.30 above $761.96 with QQQ above $692.85 the same bar, ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target $763.03 / $764.96, ≥ 1.5R.`
+- `VWAP line` (standing): both above.
+
+Market data and analysis only, not investment advice.
