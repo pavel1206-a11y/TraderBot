@@ -6271,3 +6271,15 @@ Market data and analysis only, not investment advice.
 - No paper positions open.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming (to 9:40); the PDL sweep-and-reclaim played out at the open**
+- ORB so far (9:30–9:40): SPY **$757.35 / $753.67** ($3.68; now $757.28); QQQ **$687.54 / $679.84** ($7.70; now $687.38).
+- Owner's levels: both swept under the PDL at the open (SPY $753.67 vs $754.90; QQQ $679.84 vs $683.56), then reclaimed them within 5 min and ran up. SPY is now back above S1 $755.64; QQQ is above S1 $684.10 and near the pivot $689.84. A sharp gap-fill bounce (no entries before 9:45 per the 0DTE rules).
+- No paper trades open. The final ORB is set at 9:45.
+
+ARMED/WATCH (9:45–10:12):
+- `WATCH ORB SPY: a 1-min close above / below the final 9:30–9:45 high / low (now $757.35 / $753.67) on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A (entry by 11:30). Long reference: the pivot $759.07, then the 20-day $760.20; short: S2 $751.46.`
+- `WATCH ORB QQQ: the same above / below $687.54 / $679.84; long reference: the pivot $689.84, then the 11/11 close $690.38; short: S2 $677.83.` One A trade per direction across both. (The wide QQQ range makes the R/R hard; check ≥ 1.5R at the flag.)
+- `VWAP line` (standing): check after 9:45.
+
+Market data and analysis only, not investment advice.
