@@ -6296,3 +6296,15 @@ ARMED/WATCH (valid 9:57–10:27):
 - `VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:15 AM ET): nothing fired; chop inside the ORB**
+- Replay ORB: SPY closes $755.95–757.79 and QQQ $683.79–687.47, all inside their ranges → **nothing fired**.
+- Now: SPY $756.86, QQQ $685.39, chopping mid-range after the opening bounce; QQQ is weaker (lower highs since 9:41). **4H:** the 8:00 candle is bullish off the PDL sweep, its body fading. **Squeeze (F):** n/a before 11:00.
+- No B-or-better setup.
+
+ARMED/WATCH (valid 10:15–10:42):
+- `WATCH ORB SPY: a 1-min close above $757.83 / below $753.67 on ≥ 1.5× the prior 20-bar volume, by 11:00; then a flag per A.`
+- `WATCH ORB QQQ: a 1-min close above $688.22 / below $679.84 on ≥ 1.5×, by 11:00.` One A trade per direction.
+- `VWAP line` (standing).
+
+Market data and analysis only, not investment advice.
