@@ -6481,3 +6481,28 @@ ARMED/WATCH (valid 1:43–2:12):
 - `VWAP line` (standing).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:58 PM ET): F SPY short triggered (extended band) but graded C (ADX 8.9, at VWAP), so no trade; shadow tracked**
+- Replay F short ($759.94):
+  - 1:40 closed $759.85 ($0.09, in band) on 1.0×, but QQQ closed $690.09, not below $689.25 → no.
+  - 1:45 closed **$759.21** ($0.73 past) on **159k = 2.56×** the 10-bar avg (62k), with **QQQ $689.18 below $689.25 the same bar** → the extended $0.75 band is met (≥ 1.2× + QQQ break) → **trigger met (armed, replayed)**.
+- **Score card (short, 1:45):**
+  - 1 VWAP **✗ (required)**: SPY $759.21 is still above VWAP $759.09 (VWAP flat).
+  - 2 ADX **✗ (required)**: 8.9 (chop).
+  - 3 EMA ✓: price < 9 EMA $760.21 < 21 EMA $760.47.
+  - 4 Structure ✓: lower highs since 11:20.
+  - 5 Level ✓: range low + 20-day break.
+  - 6 Volume ✓: 2.56×.
+  - 7 Momentum ✓: RSI 37, MACD below its signal.
+  - 8 HTF ✗: the daily 8:00 4H reversal was bullish.
+  - 9 Market ✓: QQQ broke too.
+  - 10 News: mixed (NVDA).
+  - Result: **C (two required factors missing) → no trade.**
+- **Shadow** (for the F/change-1 review): short $759.21, F stop $759.99 (the bar high $759.885 + $0.10; closer than the midpoint), R $0.78; target $755.90 (edge − 2× range). 1:50: low $758.30 (+1.17R), close $758.86. Open; the EOD will score it.
+- Now: SPY $758.86, QQQ $688.66, falling on rising volume (186k / 238k), at VWAP. **4H:** the 12:00 candle is turning down from the 20-day. **Squeeze (F):** broken down.
+
+ARMED/WATCH (valid 1:58–2:27; last arming):
+- `WATCH E short (VWAP loss): a SPY 5-min close $0.01–0.30 below VWAP (~$759.0) and below $758.30 with QQQ below VWAP (~$688.4) and $687.88 the same bar, on ≥ 1.0×, bar ≤ $1.00; ADX must be ≥ 20 at the trigger or skip; swing stop ≥ $0.40; target $757.83 / $755.90, ≥ 1.5R.`
+- `VWAP line` (standing): both at VWAP.
+
+Market data and analysis only, not investment advice.
