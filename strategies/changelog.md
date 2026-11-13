@@ -78,3 +78,4 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Defaults pending the owner: "comes back" = a 1-min close back inside; the break stop = the broken mark.
   - First read (11/13, from the journal): the SPY break-and-hold short at 10:00 (≈ $753.85, stop ≈ $755.98) → the 11:00 exit ≈ $750.5 ≈ **+1.5R**. On the same move, A missed its flag entry by $0.01. One day is not evidence; a replay of ≥ 20 sessions of A vs A2 is queued.
 - **2026-11-13: A2 entry clarified by the owner:** enter at the break (first 1-min close beyond the high or low after 9:45), not after a hold bar. The 5-min re-run (23 days): the mark stop goes 5 W / 18 L, the range-midpoint stop 9 W / 14 L. The stop choice is pending the owner; a 1-min replay is queued.
+- **2026-11-13: A2 stop set to the range midpoint ∓ $0.10** (owner OK). A 1-min replay of the 23 sessions is scheduled for 11/14.

@@ -109,17 +109,17 @@ own setup next to A, so the two can be compared on the same days.
      (no close beyond it, or a close beyond that is undone right away) and
      comes back, trade the other direction once it is back inside.
    No waiting for an extra "hold" bar (that was the first draft's rule).
-3. **Stop:** behind the mark that confirmed the direction: for a break,
-   $0.10 back inside the broken mark (calls: high − $0.10); for a swoop and
-   return, $0.10 beyond the swoop's extreme (calls: the swoop low − $0.10).
+3. **Stop:** the **middle of the 9:30–9:45 range** ∓ $0.10 (calls: midpoint
+   − $0.10; puts: midpoint + $0.10). Owner OK 2026-11-13. In the 23-session
+   5-min re-run it went 9 W / 14 L, against 5 / 18 with a stop $0.10 past the
+   broken mark.
 4. **Exit:** hold for the move and **close by 11:00 AM ET at the latest**
    (the owner usually exits between 10:00 and 11:00). Earlier exit if the
    stop is hit. There is no target or 30-minute time stop.
 5. **Entry window:** 9:45–10:30. One trade per symbol per day (the first
    signal), SPY/QQQ same-direction rule as A.
-6. **Open points** (defaults until the owner confirms): "comes back" means a
-   1-min close back inside the range; the break stop is the broken mark, not
-   the opposite side of the range.
+6. **Open point:** "comes back" means a 1-min close back inside the range.
+   A 1-min replay of 10/14–11/13 is queued (weekend of 11/14).
 7. Real trades still need a B or better on the score card and the CLAUDE.md
    risk and 0DTE rules (premium cap, no entries before 9:45). During paper
    trading every A2 signal is logged with its result, graded or not, so its
