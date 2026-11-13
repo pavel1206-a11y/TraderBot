@@ -6553,3 +6553,19 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (10:01 AM ET; the 9:42 run fired late):** skipped. The Robinhood connector is still down (502), so there are no bars to read the ORB, replay or score. No positions open.
+
+**Setup check (11:00 AM ET; the connector is back after the outage): a big gap-and-dump; replay shows no A trade would have fired**
+- **ORB (9:30–9:45):** SPY **$760.12 / $755.88**; QQQ **$688.75 / $683.80**. Both opened near the 11/12 close and sold off hard: SPY low **$747.89** (−$12 from the open, under S1 $752.83 and S2 $748.57), QQQ low **$672.30** (S2 $672.62).
+- **Replay on 1-min bars (no armed lines existed because of the outage; outcome-blind, rules only):**
+  - **SPY ORB short:** the closes under $755.88 at 9:49–9:55 were on 0.5–1.4× (needs 1.5×). **Break at 10:00** ($753.85 on 124k = **2.8×**). Flag 10:04–10:06 (drifting up to $753.12, lighter volume, low $752.09). The flag break at 10:08 closed **$751.78, $0.31 past** (band $0.30) → **not fired, by $0.01**. 10:10 closed $1.49 past (no chase).
+  - **QQQ ORB short:** 9:49 (1.09×) and 9:50 (1.47×) fell short of 1.5×. **Break at 9:57** ($681.48 on 1.70×). Flag 9:58–10:01 (low $679.97). The 10:02 close of $678.88 was $1.09 past (out of band). The later flag 10:04–10:07 broke at 10:08 ($0.035 past) on volume under its flag average → **not fired**.
+  - Result: **no A trade** under the rules even with live data. A real (SPY) near-miss by $0.01.
+- Now: SPY $750.16 (VWAP $752.57), QQQ $674.13 (VWAP $678.64), both well below a falling VWAP, bouncing in a 15:25–15:50 range (SPY $749.27–751.75). **4H:** the 8:00 candle is a large bearish body (−$10). **Squeeze (F):** n/a until 11:00+; SPY $747.89–751.75 since 10:20 ($3.86, too wide).
+- No B-or-better setup at this check (the move happened during the outage; no chase).
+
+ARMED/WATCH (valid 11:00–11:27):
+- `WATCH ORB-FLAG SPY short (A window to 11:30): a 3–10 bar 1-min flag below VWAP and below $755.88 on lighter volume than the 124k break, then a 1-min close $0.01–0.30 below the flag low on volume above the flag average; stop flag high + $0.10 (≥ $0.30); target the day low $747.89 / 2× pole (R/R ≥ 1.5 or skip).`
+- `WATCH E short: a SPY 5-min close $0.01–0.30 below the day low $747.89 with QQQ below $672.30 the same bar, ≥ 1.0×, bar ≤ $1.00, ADX ≥ 20; swing stop ≥ $0.40; target ≥ 1.5R (QQQ S3 / round $745).`
+- `VWAP line` (standing): both below a falling VWAP.
+
+Market data and analysis only, not investment advice.
