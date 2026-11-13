@@ -6537,3 +6537,17 @@ Market data and analysis only, not investment advice.
 - **Note:** NVDA's −9% gap was bought at the open (a PDL sweep-and-reclaim in 5 min), then a +$9 rally to $763.03 by 11:23 with the ORB break only confirming on volume at 10:51. The flag break lacked volume, so no A trade. The afternoon faded back to $757 on chop (ADX ≈ 9).
 
 Market data and analysis only, not investment advice.
+
+## 2026-11-13 (Fri)
+
+**Pre-market brief (fired late at 9:53 AM ET; the Robinhood connector is down, 502)**
+- **PDH/PDL (11/12 RTH, from yesterday's session bars in the journal):** SPY **$763.03 / $753.67**; QQQ **$694.56 / $679.84**. Closes ≈ $757.09 / $687.63 (last bar, not the official close).
+- **Pre-market / open:** **not available** (no market-data connector). The market should be open (a normal Friday).
+- **Pivots (from the above H/L/C):** SPY P $757.93, R1 $762.19, S1 $752.83, R2 $767.29, S2 $748.57. QQQ P $687.34, R1 $694.85, S1 $680.13, R2 $702.06, S2 $672.62.
+- **SMAs (11/11 values; refresh when data returns):** SPY 20-day ≈ $760.2, 50-day ≈ $765.0; QQQ 20-day ≈ $698.9, 50-day ≈ $719.0.
+- **Events:** not checked (no news connector). NVDA headline risk carries over.
+- **Bias:** none (no live data). Yesterday closed near the session low after a failed hold of the 20-day.
+- **ORB (setup A):** the 9:30–9:45 candle; this check ran after it formed, and its levels are unknown until data returns.
+- **No paper trading is possible until the Robinhood connector reconnects** (no quotes, so no replay or entries). No positions open.
+
+Market data and analysis only, not investment advice.
