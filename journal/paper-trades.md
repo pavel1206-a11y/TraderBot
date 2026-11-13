@@ -6772,7 +6772,7 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:43 PM ET): no entries (past 2:30); shadow #2 trailed out**
-- Shadow F long #2 (C): the 2:32 1-min close of $752.78 was under the ≈ $752.93 trail → **exit $752.78, +$0.32, +0.59R** (best ≈ $753.74 = +2.4R; the 1.5R trail gave back 1.8R). Tracked for the change 3 (1.5R trail) review: **signal against** (a 1R trail at ≈ $753.20 would have exited at the 2:30 close, +1.37R).
+- Shadow F long #2 (C): the 2:32 1-min close of $752.78 was under the ≈ $752.93 trail → **exit $752.78, +$0.32, +0.59R** (best ≈ $753.74 = +2.4R; the 1.5R trail gave back 1.8R). Tracked for the change 3 (1.5R trail) review: **signal against** (a 1R trail at ≈ $753.20 would have exited at the 2:10 close ≈ $753.00, ≈ +1.0R).
 - Shadow F long #1 (C) $752.03 / stop $750.15: open, SPY $753.38 (+0.72R). The trail is not armed (needs a $754.85 close).
 - **4H (12–4 PM):** up candle, no D. No new entries after 2:30; the EOD at 3:47 closes the shadow.
 
