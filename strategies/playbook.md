@@ -100,15 +100,15 @@ The owner's own way of trading the first 15-minute candle. It is logged as its
 own setup next to A, so the two can be compared on the same days.
 
 1. **Mark the range:** the high and low of 9:30–9:45 (the same as A).
-2. **Watch from 9:45 on 1-minute bars** (30-second bars for detail) for the
-   first time price crosses a mark, then read what it does next:
-   - **Breaks up and stays up → calls.** A 1-min close above the high, and
-     the next 1-min bar does not close back inside. Entry = that next close.
-   - **Breaks down and stays down → puts.** The mirror image.
-   - **Swoops down and comes back up → calls.** Price trades below the low,
-     then a 1-min close back inside the range, and the next 1-min bar does not
-     close below the low again. Entry = that next close.
-   - **Swoops up and comes back down → puts.** The mirror image.
+2. **Watch from 9:45 on 1-minute bars** (30-second bars for detail) and
+   **enter at the break** (owner, 2026-11-13: "after 9:45, when a break in my
+   markings happened, high or low"):
+   - **Break of the high → calls**, at the first 1-min close above the high.
+   - **Break of the low → puts**, at the first 1-min close below the low.
+   - **Swoop and come back → the other way.** If price only pokes past a mark
+     (no close beyond it, or a close beyond that is undone right away) and
+     comes back, trade the other direction once it is back inside.
+   No waiting for an extra "hold" bar (that was the first draft's rule).
 3. **Stop:** behind the mark that confirmed the direction: for a break,
    $0.10 back inside the broken mark (calls: high − $0.10); for a swoop and
    return, $0.10 beyond the swoop's extreme (calls: the swoop low − $0.10).
