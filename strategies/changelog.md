@@ -72,3 +72,8 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Changes 2, 4, 5: no signals.
   - **Observation (not a change; needs a replay):** F breakouts come out of chop, so the score card's required ADX ≥ 20 will usually fail on F triggers. The two C-graded F shadows (11/10, 11/12) both won. Before proposing "for F, ADX is measured after the break, or replaced by the range-age condition", replay the F triggers in the journal (≥ 20 sessions). The score-card required factors are in the playbook (section 3); the A/B-only rule is in CLAUDE.md, so a change to which trades qualify will go to the owner.
   - **No playbook changes** (no change has 10 signals; 2-week mark 11/16).
+- **2026-11-13 (day 10): new setup A2, the owner's ORB direct read (owner direction, not a Claude tuning change).**
+  - The rule: mark 9:30–9:45; on 1-min bars, a break that holds → trade with it; a swoop past a mark that closes back inside → trade the other way; stop behind the confirming mark or the swoop extreme; exit by 11:00 at the latest.
+  - It is paper-tracked alongside A (not replacing it). Every signal is logged with its result.
+  - Defaults pending the owner: "comes back" = a 1-min close back inside; the break stop = the broken mark.
+  - First read (11/13, from the journal): the SPY break-and-hold short at 10:00 (≈ $753.85, stop ≈ $755.98) → the 11:00 exit ≈ $750.5 ≈ **+1.5R**. On the same move, A missed its flag entry by $0.01. One day is not evidence; a replay of ≥ 20 sessions of A vs A2 is queued.

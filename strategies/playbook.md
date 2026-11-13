@@ -94,6 +94,37 @@ itself is **not** the entry; it only tells us which way to look.
 7. One long and one short setup per symbol per day. Reward/risk ≥ 1.5 to that
    reference target and a B or better on the score card, as for every setup.
 
+### A2. Owner's ORB direct read (owner, 2026-11-13; paper-tracked alongside A)
+
+The owner's own way of trading the first 15-minute candle. It is logged as its
+own setup next to A, so the two can be compared on the same days.
+
+1. **Mark the range:** the high and low of 9:30–9:45 (the same as A).
+2. **Watch from 9:45 on 1-minute bars** (30-second bars for detail) for the
+   first time price crosses a mark, then read what it does next:
+   - **Breaks up and stays up → calls.** A 1-min close above the high, and
+     the next 1-min bar does not close back inside. Entry = that next close.
+   - **Breaks down and stays down → puts.** The mirror image.
+   - **Swoops down and comes back up → calls.** Price trades below the low,
+     then a 1-min close back inside the range, and the next 1-min bar does not
+     close below the low again. Entry = that next close.
+   - **Swoops up and comes back down → puts.** The mirror image.
+3. **Stop:** behind the mark that confirmed the direction: for a break,
+   $0.10 back inside the broken mark (calls: high − $0.10); for a swoop and
+   return, $0.10 beyond the swoop's extreme (calls: the swoop low − $0.10).
+4. **Exit:** hold for the move and **close by 11:00 AM ET at the latest**
+   (the owner usually exits between 10:00 and 11:00). Earlier exit if the
+   stop is hit. There is no target or 30-minute time stop.
+5. **Entry window:** 9:45–10:30. One trade per symbol per day (the first
+   signal), SPY/QQQ same-direction rule as A.
+6. **Open points** (defaults until the owner confirms): "comes back" means a
+   1-min close back inside the range; the break stop is the broken mark, not
+   the opposite side of the range.
+7. Real trades still need a B or better on the score card and the CLAUDE.md
+   risk and 0DTE rules (premium cap, no entries before 9:45). During paper
+   trading every A2 signal is logged with its result, graded or not, so its
+   record can be compared with A's.
+
 ### B. VWAP Pullback (trend continuation)
 - **Setup:** a clear trend (ADX above 20, EMAs stacked). Price pulls back to
   VWAP or the 9 EMA and holds: a candle wicks into it and closes back in the
