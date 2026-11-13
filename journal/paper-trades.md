@@ -6753,3 +6753,13 @@ ARMED/WATCH (valid 1:58–2:27; no new entries after 2:30):
 - `WATCH E long SPY: same, once SPY ADX(14) ≥ 20 (required); hold $752.50–752.90.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:14 PM ET): nothing fired; QQQ ran away again**
+- Replay QQQ E long: the 2:00 bar wicked to $678.50 (inside $678.28–678.74) and closed $679.42 (a hold). The 2:05 bar closed $680.12, **$0.51** above the prior high of $679.61, on 100k (< 1.0× the ≈ 120k average) → **not fired** (band and volume). SPY: ADX(14) 17.2 → still C.
+- Shadows (C): #1 $752.03 → $753.74 (+0.9R). #2 $752.46 → $753.74 (+2.4R); the trail held (low $752.70), and the trail stop is now ≈ $752.93 (best $753.74 − 1.5R).
+- **4H (12–4 PM):** up candle, no D. **Squeeze:** none.
+
+ARMED/WATCH (valid 2:14–2:30, last window):
+- `WATCH E long QQQ: a 5-min pullback that holds $679.42–679.61 and closes $0.01–0.30 above the prior bar's high on ≥ 1.0×; ADX(14) ≥ 20; swing stop ≥ $0.40; ≥ 1.5R; by 2:30.`
+
+Market data and analysis only, not investment advice.
