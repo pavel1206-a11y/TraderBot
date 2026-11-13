@@ -6701,3 +6701,15 @@ ARMED/WATCH (valid 12:58–1:27):
 - `VWAP line` (standing): flat; a cross back below $751.5 = chop.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:13 PM ET): nothing fired; back below VWAP**
+- Replay: SPY 12:55–1:05 closes $751.76 / $751.04 / $751.31 (low $750.75). All inside $750.32–752.39 → **F not fired**. QQQ is inside $675.22–677.89 (low $675.65).
+- Shadow F long ($752.03 / stop $750.15 / target $756.22): open. SPY $751.31 (−$0.72); the stop is still $0.60 below the low.
+- **Squeeze (F):** SPY $750.32–752.39 ($2.07). QQQ $675.22–677.89 ($2.67, too wide). **4H (12–4 PM):** no D.
+- SPY fell back below VWAP (≈ $751.8), so its VWAP crosses are chop. Score C. No B-or-better setup.
+
+ARMED/WATCH (valid 1:13–1:42):
+- `WATCH F SPY: a 5-min close $0.01–0.30 outside $750.32–752.39 on ≥ 1.0× (≥ 0.7× with QQQ closing outside $675.22 / $677.89 the same bar), QQQ the same way; F stop (≥ $0.40); target $756.53 / $746.18.`
+- `VWAP line` (standing): chop.
+
+Market data and analysis only, not investment advice.
