@@ -6592,3 +6592,16 @@ ARMED/WATCH (valid 11:14–11:42):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:30 AM ET; the 11:12 run fired late): nothing fired; the A window closes**
+- Replay SPY ORB-flag short: flag 11:15–11:20 (closes $749.38 → $749.22; low $748.93; avg ≈ 19k). The **11:21 close of $748.61 was $0.32 past** (band $0.30) on 21.8k (> avg) → **not fired, by $0.02**. Low $748.41, then a bounce to $751.22. The day low $747.89 held, so no E short (QQQ undercut $672.03 at 11:21, but SPY didn't).
+- **Today's flag breaks closed $0.31, $0.40, $0.35 and $0.32 past the flag (all just outside $0.30).** Logged for the A-band review.
+- Now: SPY $750.92, QQQ $675.47, bouncing toward VWAP (≈ $752.2 / $678.0). The **A window is closed (11:30)**; both ORB shorts are done. **Squeeze (F):** SPY $747.89–751.75 since 10:20 ($3.86, too wide); since 11:00 $748.41–751.22 ($2.81, too wide).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:30–11:57):
+- `WATCH E short (VWAP rejection): a SPY 5-min close $0.01–0.30 back below $750.00 after a test of VWAP (≈ $752.2) with QQQ below $675.00 the same bar, on ≥ 1.0×, bar ≤ $1.00, ADX ≥ 20; stop the retest high + $0.10 (≥ $0.40); target $747.89, ≥ 1.5R.`
+- `WATCH E long (VWAP reclaim): a SPY 5-min close $0.01–0.30 above VWAP with QQQ above its VWAP the same bar, ≥ 1.0×; swing stop; target $755.88 (ORB low), ≥ 1.5R.`
+- `VWAP line` (standing): both below.
+
+Market data and analysis only, not investment advice.
