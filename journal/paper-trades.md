@@ -6661,3 +6661,20 @@ ARMED/WATCH (valid 12:14–12:42):
 - `VWAP line` (standing): both at VWAP.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:28 PM ET): nothing fired; SPY slips back under VWAP**
+- Replay failed-reclaim short ($751.44):
+  - 12:10 ($751.18) and 12:15 ($751.20) closed in band, but QQQ stayed above $676.30 ($676.39 / $676.50).
+  - 12:20 closed $751.01 with QQQ $676.13 (both through), but SPY's volume was 93k vs ≈ 128k avg (**0.72×**; needs ≥ 1.0×).
+  - → **not fired**.
+- VWAP-hold long: no close back above VWAP ($751.78) → not fired.
+- Shadow F long ($752.03 / stop $750.15): low $750.32, so it holds; now $751.01 (−0.54R).
+- Now: SPY $751.01, QQQ $676.13, just under a flat VWAP (≈ $751.78 / $677.23) → VWAP chop. **4H:** the 12:00 candle is small. **Squeeze (F):** none (just broke).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:28–12:57):
+- `WATCH E short: a SPY 5-min close $0.01–0.30 below $750.32 with QQQ below $675.22 the same bar, on ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target $749.05 / $747.89, ≥ 1.5R.`
+- `WATCH E long (VWAP reclaim, 2nd): a SPY 5-min close $0.01–0.30 above $752.17 with QQQ above $677.84 the same bar, on ≥ 1.0×, VWAP flat or rising; swing stop; target $755.88, ≥ 1.5R.`
+- `VWAP line` (standing): chop at VWAP.
+
+Market data and analysis only, not investment advice.
