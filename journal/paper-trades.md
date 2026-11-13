@@ -6678,3 +6678,14 @@ ARMED/WATCH (valid 12:28–12:57):
 - `VWAP line` (standing): chop at VWAP.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:43 PM ET): nothing fired; VWAP chop**
+- Replay: SPY closes $751.34–751.77 (no close below $750.32 or above $752.17; wick $752.25) → **not fired**. Shadow F long ($752.03 / stop $750.15) holds (low $751.07).
+- Now: SPY $751.34, QQQ $676.40, oscillating around VWAP (≈ $751.8 / $677.2) → chop filter. **Squeeze (F):** SPY $750.32–752.25 since 12:10 ($1.93; valid from 12:55); QQQ $675.22–677.84 ($2.62, too wide).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 12:43–1:12):
+- `WATCH F SPY (from 12:55): a 5-min close $0.01–0.30 outside $750.32–752.25 on ≥ 1.0× (≥ 0.7× with QQQ breaking $675.22 / $677.84 the same bar), QQQ the same way; F stop (≥ $0.40); target edge ± 2× range ($756.11 / $746.46).`
+- `VWAP line` (standing): chop.
+
+Market data and analysis only, not investment advice.
