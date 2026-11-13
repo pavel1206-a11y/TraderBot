@@ -6637,3 +6637,27 @@ ARMED/WATCH (valid 11:58–12:27):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:14 PM ET): F SPY long triggered (extended band) but graded C (VWAP just reclaimed and still falling), so no trade; shadow tracked**
+- Replay F long ($751.44): the 12:05 bar (closing at 12:10, when the range turned 45 min old) closed **$752.03, $0.59 past**, on 234k ≈ 2.1× the 10-bar avg, with QQQ $677.66 above $676.30 the same bar → the extended $0.75 band is met → **trigger met (armed, replayed)**.
+- **Score card (long, 12:10):**
+  - 1 VWAP **✗ (required)**: SPY $752.03 is $0.22 above VWAP $751.81 on the reclaim bar itself, and VWAP is still sloping down. It is not "holding above a rising VWAP".
+  - 2 ADX ✓: 36, but that trend strength comes from the morning selloff.
+  - 3 EMA ✗: likely still bearish, not fetched.
+  - 4 Structure ✗: the day trend is lower highs.
+  - 5 Level ✓: range break + VWAP.
+  - 6 Volume ✓: 2.1×.
+  - 7 Momentum: n/a.
+  - 8 HTF ✗: the 4H is bearish.
+  - 9 Market ✓: QQQ the same bar.
+  - 10 News: n/a.
+  - Result: **C (required VWAP factor missing) → no trade.**
+- **Shadow** (for the F/VWAP review): long $752.03, F stop $750.15 (the range midpoint $750.25 − $0.10; closer than the bar low $750.02), R $1.88; target $756.22 (edge + 2× $2.39), 2.2R. The EOD will score it.
+- Now: SPY $752.03, QQQ $677.66, at VWAP after a sharp 12:05 bounce. **4H:** the 12:00 candle opens green. **Squeeze (F):** broken up.
+
+ARMED/WATCH (valid 12:14–12:42):
+- `WATCH E/B long (VWAP hold): a SPY 5-min bar that dips to VWAP (≈ $751.8) and closes ≥ $0.01 above it with QQQ above its VWAP (≈ $677.3) the same bar, on ≥ 1.0×, bar ≤ $1.00, with VWAP flat or rising; stop the bar low − $0.10 (≥ $0.40); target $755.88 (the ORB low), ≥ 1.5R.`
+- `WATCH E short (failed reclaim): a SPY 5-min close $0.01–0.30 back below $751.44 with QQQ below $676.30 the same bar, ≥ 1.0×, bar ≤ $1.00; swing stop ≥ $0.40; target $749.05, then $747.89, ≥ 1.5R.`
+- `VWAP line` (standing): both at VWAP.
+
+Market data and analysis only, not investment advice.
