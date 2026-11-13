@@ -6740,3 +6740,16 @@ ARMED/WATCH (valid 1:43–2:12):
 - `WATCH E long QQQ: a 5-min pullback that holds $677.20–677.89 and closes $0.01–0.30 above the prior bar's high on ≥ 1.0×; swing stop ≥ $0.40; ≥ 1.5R; SPY above VWAP the same bar.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:58 PM ET): nothing fired; QQQ E missed the band by $0.03**
+- Replay: SPY lows stayed $752.50+, never back into $751.77–752.00 → the VWAP-pullback line did not fire. No close below $752.09, so the F breakout holds.
+- QQQ E long: the 1:45 bar wicked to $677.86 (inside $677.20–677.89) and closed $678.28 (a hold). The 1:50 bar then closed $679.07, **$0.33 above** the prior high of $678.74 → outside the $0.01–0.30 band, **not fired** (5th narrow band miss today). QQQ ADX(14) 21.5 and VWAP rising, so it would have been scored.
+- SPY ADX(14) 17.1 < 20 → SPY still fails the required factor.
+- Shadows (C, not scored): #1 $752.03 → $753.36 (+0.7R). #2 $752.46 → $753.36 (+1.66R; trail armed at 1.5R, ≈ $752.6 on 1-min closes). Targets are $756.22 / $756.53.
+- **4H (12–4 PM):** trending up from the 12:00 open; no D (no sweep and reclaim). **Squeeze:** none (broken up).
+
+ARMED/WATCH (valid 1:58–2:27; no new entries after 2:30):
+- `WATCH E long QQQ: a 5-min pullback that holds $678.28–678.74 and closes $0.01–0.30 above the prior bar's high on ≥ 1.0×; ADX(14) ≥ 20; swing stop ≥ $0.40; ≥ 1.5R; SPY above VWAP.`
+- `WATCH E long SPY: same, once SPY ADX(14) ≥ 20 (required); hold $752.50–752.90.`
+
+Market data and analysis only, not investment advice.
