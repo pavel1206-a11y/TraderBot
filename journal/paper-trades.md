@@ -6605,3 +6605,16 @@ ARMED/WATCH (valid 11:30–11:57):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:40 AM ET; the 11:27 run fired late): nothing fired; a likely bad SPY print**
+- Replay VWAP-rejection short: SPY never tested VWAP ($752.0; high $751.44). The 11:35 close of $749.80 (under $750.00, QQQ $673.85 under $675) lacks the VWAP test, and the bar's range is $6.08 (> $1.00) → **not fired**. VWAP reclaim long: not reached.
+- **Data note:** the 11:35 SPY bar shows a **low of $745.20** ($2.7 under the day low) with no matching QQQ move (QQQ low $673.71). It is likely a bad tick; it is ignored for levels (the day low stays $747.89).
+- Now: SPY $749.80, QQQ $673.85, below VWAP ($752.02 / $677.52). **4H:** the 8:00 candle is bearish. **Squeeze (F):** none valid (SPY $748.41–751.44 since 11:20; valid from 12:05).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:40–12:12):
+- `WATCH E short: a SPY 5-min close $0.01–0.30 below $747.89 (the day low) with QQQ below $671.71 the same bar, on ≥ 1.0×, bar ≤ $1.00, ADX ≥ 20; swing stop ≥ $0.40; target ≥ 1.5R ($745 / S2 $748.57 already broken).`
+- `WATCH F SPY (from 12:05): a 5-min close $0.01–0.30 outside $748.41–751.44 with QQQ the same way, ≥ 1.0× (≥ 0.7× with QQQ's break); F stop; edge ± 2× range.`
+- `VWAP line` (standing): both below.
+
+Market data and analysis only, not investment advice.
