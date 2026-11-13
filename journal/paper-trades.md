@@ -6763,3 +6763,10 @@ ARMED/WATCH (valid 2:14–2:30, last window):
 - `WATCH E long QQQ: a 5-min pullback that holds $679.42–679.61 and closes $0.01–0.30 above the prior bar's high on ≥ 1.0×; ADX(14) ≥ 20; swing stop ≥ $0.40; ≥ 1.5R; by 2:30.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:28 PM ET): nothing fired; entry window closing**
+- Replay QQQ E long: the 2:10 bar broke the $679.42–679.61 hold zone (low $678.96, close $679.07). The 2:15 bar closed $680.18, $0.06 above the prior high, but the hold had failed and volume was 97k (< 1.0×) → **not fired**.
+- Shadows (C): #1 $752.03 → $753.26 (+0.65R). #2 $752.46 → $753.26 (+1.5R); the trail stop ≈ $752.93 survived (the 2:10 low of $752.97 is above it).
+- SPY ADX(14) is still under 20. **4H (12–4 PM):** up candle, no D. No B-or-better setup. **No new entries after 2:30**, so nothing is armed.
+
+Market data and analysis only, not investment advice.
