@@ -6725,3 +6725,18 @@ ARMED/WATCH (valid 1:28–1:57):
 - `VWAP line` (standing): chop.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:43 PM ET): F long trigger met on SPY, graded C (ADX) → shadow only**
+- Replay: **SPY 1:35 bar closed $752.46**, $0.07 above the $752.39 range top, on 96.6k (1.31× the prior-10 average of 73.9k). QQQ closed $678.02 above $677.89 the same bar → the F trigger is met as written.
+- Score card: VWAP is a pass in direction only (price $752.46 above VWAP $751.77, but VWAP is barely rising, +$0.02 in 25 min). **ADX (5-min) SPY 15.2 < 20 → required factor missing → C, no paper trade.** Same pattern as changelog observation (b).
+- **Shadow F long #2 (C, not scored):** entry $752.46, stop $751.92 (bar low − $0.10; tighter than the $751.36 midpoint, distance $0.54 ≥ $0.40), target $756.53 (edge + 2 × $2.07). Tracked for the F-grade replay.
+- Shadow F long #1 ($752.03 / stop $750.15 / target $756.22): open, +$0.43.
+- QQQ: ADX 24.6, above a flat-to-rising VWAP ($677.20). It crossed VWAP on the 1:25 bar at $677.85 ($0.65 beyond, outside the $0.30 band) → no-chase, no E.
+- **4H (12–4 PM):** no D. **Squeeze:** SPY's range is broken upward; no new F range.
+
+ARMED/WATCH (valid 1:43–2:12):
+- `WATCH E long SPY (VWAP pullback hold): a 5-min wick into $751.77–752.00 that closes back above it on ≥ 1.0×, with ADX ≥ 20 (required); swing stop ≥ $0.40; target $754.50 / $756.53, ≥ 1.5R.`
+- `WATCH F failure: a SPY 5-min close back below $752.09 (inside the range) ends shadow #2's thesis.`
+- `WATCH E long QQQ: a 5-min pullback that holds $677.20–677.89 and closes $0.01–0.30 above the prior bar's high on ≥ 1.0×; swing stop ≥ $0.40; ≥ 1.5R; SPY above VWAP the same bar.`
+
+Market data and analysis only, not investment advice.
