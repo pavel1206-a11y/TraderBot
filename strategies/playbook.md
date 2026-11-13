@@ -99,10 +99,13 @@ itself is **not** the entry; it only tells us which way to look.
 The owner's own way of trading the first 15-minute candle. It is logged as its
 own setup next to A, so the two can be compared on the same days.
 
-1. **Mark the range:** the high and low of 9:30–9:45 (the same as A).
+1. **Mark the range:** the high and low of 9:30–9:45 (the same as A), plus
+   the **previous day's high and low** (the owner's green and red lines) as the
+   next levels and targets. Contract cost **$0.75–1.25**.
 2. **Watch from 9:45 on 1-minute bars** (30-second bars for detail) and
-   **enter at the break** (owner, 2026-11-13: "after 9:45, when a break in my
-   markings happened, high or low"):
+   **enter when it crosses a mark and holds** after 9:45 (owner, 2026-11-13:
+   "once it crosses the blue either way and holds after 9:45, I put in calls or
+   puts"):
    - **Break of the high → calls**, at the first 1-min close above the high.
    - **Break of the low → puts**, at the first 1-min close below the low.
    - **Swoop and come back → the other way.** If price only pokes past a mark
@@ -113,9 +116,9 @@ own setup next to A, so the two can be compared on the same days.
    − $0.10; puts: midpoint + $0.10). Owner OK 2026-11-13. In the 23-session
    5-min re-run it went 9 W / 14 L, against 5 / 18 with a stop $0.10 past the
    broken mark.
-4. **Exit:** hold for the move and **close by 11:00 AM ET at the latest**
-   (the owner usually exits between 10:00 and 11:00). Earlier exit if the
-   stop is hit. There is no target or 30-minute time stop.
+4. **Exit (owner, 2026-11-13):** take profit at **+50% or more** on the
+   premium (the owner's aim), otherwise close by **11:00 AM ET**. Earlier exit
+   if the stop is hit.
 5. **Entry window:** 9:45–10:30. One trade per symbol per day (the first
    signal), SPY/QQQ same-direction rule as A.
 6. **Open point:** "comes back" means a 1-min close back inside the range.
