@@ -6618,3 +6618,10 @@ ARMED/WATCH (valid 11:40–12:12):
 - `VWAP line` (standing): both below.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:47 AM ET): nothing fired**
+- Replay: SPY closed $749.73 at 11:40 (inside $748.41–751.44; above $747.89); QQQ $674.14 → **nothing fired**.
+- Now: SPY $749.73, QQQ $674.14, below VWAP (≈ $752.0 / $677.5), drifting. **Squeeze (F):** SPY $748.41–751.44 (valid from 12:05).
+- ARMED unchanged (valid to 12:12): the E short below $747.89 with QQQ below $671.71 (ADX ≥ 20); F SPY from 12:05 outside $748.41–751.44 with QQQ the same way.
+
+Market data and analysis only, not investment advice.
