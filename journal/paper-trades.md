@@ -6551,3 +6551,5 @@ Market data and analysis only, not investment advice.
 - **No paper trading is possible until the Robinhood connector reconnects** (no quotes, so no replay or entries). No positions open.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:01 AM ET; the 9:42 run fired late):** skipped. The Robinhood connector is still down (502), so there are no bars to read the ORB, replay or score. No positions open.
