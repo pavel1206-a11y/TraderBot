@@ -6569,3 +6569,14 @@ ARMED/WATCH (valid 11:00–11:27):
 - `VWAP line` (standing): both below a falling VWAP.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:04 AM ET; the 10:42 run fired late): SPY flag broke $0.10 outside the band, so nothing fired**
+- SPY ORB-flag short: flag 10:56–11:00 (closes $750.49–750.82, drifting up; low $750.10; avg 19.7k). The **11:01 close of $749.70 was $0.40 past** the flag low (band $0.30) on 34.9k (> the flag avg) → **not fired** (no chase). The day low $747.89 is untouched, so the E short didn't fire.
+- Now: SPY $749.92, QQQ $673.58, below a falling VWAP (≈ $752.4 / $678.4).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:04–11:30):
+- `WATCH ORB-FLAG SPY short: a new 3–10 bar flag from 11:01 below VWAP, then a 1-min close $0.01–0.30 below its low on volume above the flag average, by 11:30; stop flag high + $0.10 (≥ $0.30); target the day low $747.89, ≥ 1.5R or skip.`
+- `WATCH E short: a SPY 5-min close $0.01–0.30 below $747.89 with QQQ below $672.30 the same bar, ≥ 1.0×, bar ≤ $1.00, ADX ≥ 20; swing stop; ≥ 1.5R.`
+
+Market data and analysis only, not investment advice.
