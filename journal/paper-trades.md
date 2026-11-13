@@ -6580,3 +6580,15 @@ ARMED/WATCH (valid 11:04–11:30):
 - `WATCH E short: a SPY 5-min close $0.01–0.30 below $747.89 with QQQ below $672.30 the same bar, ≥ 1.0×, bar ≤ $1.00, ADX ≥ 20; swing stop; ≥ 1.5R.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:14 AM ET; the 10:27 run fired late): nothing fired; a bounce off $748.81**
+- Replay: the SPY flag 11:01–11:03 (low $749.64) broke at 11:04 ($749.29, $0.35 past; 16k < the 30k flag avg) → **not fired**. Low $748.81 (11:05), then a bounce to $751.21. The day low $747.89 held → no E short.
+- Now: SPY $750.37, QQQ $674.24, below VWAP (≈ $752.3 / $678.2). **4H:** the 8:00 candle is bearish. **Squeeze (F):** SPY $747.89–751.75 since 10:20 ($3.86, too wide).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:14–11:42):
+- `WATCH ORB-FLAG SPY short (to 11:30): a 3–10 bar flag under VWAP from 11:10, then a 1-min close $0.01–0.30 below its low on volume above the flag average; stop flag high + $0.10; target $747.89 (≥ 1.5R or skip).`
+- `WATCH E short: a SPY 5-min close $0.01–0.30 below $747.89 with QQQ below $672.03 the same bar, ≥ 1.0×, bar ≤ $1.00, ADX ≥ 20; swing stop; ≥ 1.5R.`
+- `VWAP line` (standing): both below.
+
+Market data and analysis only, not investment advice.
