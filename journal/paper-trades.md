@@ -6625,3 +6625,15 @@ Market data and analysis only, not investment advice.
 - ARMED unchanged (valid to 12:12): the E short below $747.89 with QQQ below $671.71 (ADX ≥ 20); F SPY from 12:05 outside $748.41–751.44 with QQQ the same way.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:58 AM ET): nothing fired; tight range below VWAP**
+- Replay: SPY closes $749.47–750.12 (inside $748.41–751.44; above $747.89); QQQ $674.09–674.96 → **nothing fired**.
+- Now: SPY $750.12, QQQ $674.96, below VWAP (≈ $751.9 / $677.4). **4H:** the 8:00 candle closes at noon, bearish (−$10, a lower close than its open); the 12:00 candle opens. **Squeeze (F):** SPY **$748.41–751.44** ($3.03 including the 11:20 low, so too wide; since 11:25, $749.05–751.44 = $2.39, valid from 12:10); QQQ $671.71–676.30 (too wide).
+- No B-or-better setup.
+
+ARMED/WATCH (valid 11:58–12:27):
+- `WATCH F SPY (from 12:10): a 5-min close $0.01–0.30 outside $749.05–751.44 on ≥ 1.0× (≥ 0.7× with QQQ breaking $673.54 / $676.30 the same bar), QQQ the same way; F stop (≥ $0.40); target edge ± 2× range ($746.27 / $756.22).`
+- `WATCH E short: a SPY 5-min close $0.01–0.30 below $747.89 with QQQ below $671.71 the same bar, ≥ 1.0×, bar ≤ $1.00, ADX ≥ 20; swing stop; ≥ 1.5R.`
+- `VWAP line` (standing): both below.
+
+Market data and analysis only, not investment advice.
