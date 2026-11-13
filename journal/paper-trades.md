@@ -6777,3 +6777,48 @@ Market data and analysis only, not investment advice.
 - **4H (12–4 PM):** up candle, no D. No new entries after 2:30; the EOD at 3:47 closes the shadow.
 
 Market data and analysis only, not investment advice.
+
+**EOD (3:47 PM ET) 2026-11-13**
+- **Close-out:** no paper trades today, nothing open. Shadow F long #1 (C, not scored): $752.03 → the 3:45 price $752.63 = **+0.32R** (stop $750.15 never hit; low after entry $750.75). Shadow #2 trailed out at 2:32 (+0.59R).
+- **Day: $0.00.** **Running totals: 58 trades, 30W/28L (52%), +$193.94.** Options B 27 ≈ +$173; fractional B 29 +$7.13. **SPY 52 +$206.87; QQQ 6 −$12.93.** Still no A-grade trades.
+- **Day note:** a −$7.5 opening flush (9:45–10:20) right under the ORB low and the previous low ($755.88 / $755.67). Setup A missed its flag entry by $0.01 four times. Then a slow grind back to VWAP and a C-graded F breakout at 1:35 (ADX 15). The owner's new setup A2 (added today) would have caught the flush: SPY 752P $0.88 → $2.71 by 11:00 in the backtest.
+
+## Weekly review: 2026-11-09 to 11-13 (playbook section 8)
+
+| Day | Trades | Result | Notes |
+|---|---|---|---|
+| Mon 11/9 | 1 | +$2.33 | #56 QQQ A-flag long (fractional; the option was over the cap), trailed out +3.34R |
+| Tue 11/10 | 0 | $0 | ORB sides cancelled; the C-graded F shadow +0.96R |
+| Wed 11/11 | 2 (1 signal) | +$4.56 | #57 QQQ 692C +$4, #58 +$0.56; the 30-min time stop cut a run (QQQ then +4.2R) |
+| Thu 11/12 | 0 | $0 | NVDA gap; the A flag lacked volume; the C-graded F shadow +2.7R |
+| Fri 11/13 | 0 | $0 | Connector down until 10:59; A missed by $0.01; C-graded F shadows +0.59R / +0.32R |
+| **Week** | **3 (2 signals)** | **+$6.89** | 3W/0L; option +$4 (1), fractional +$2.89 (2); all B grade, all setup A |
+
+- **Per setup:**
+  - **A:** 2 signals, both won small. Its 30-min time stop and $0.30 flag band cost the most this week: four band misses by $0.01–0.10 on 11/13 alone, and the time stop cut #57 at +0.57R before a +4.2R run.
+  - **F:** 0 scored; 4 C-graded shadows, all winners (ADX gate).
+  - **B, C, D, E:** no entries.
+- **By grade:** still no A-grade trade (58 B-grade).
+- **Rule breaks:** none.
+- **Process:**
+  - The 11/13 connector outage skipped the brief's live data and the 10:01 check.
+  - One F range-width error (11:40), corrected at 11:58.
+- **Changelog status (two-week mark 11/16):**
+
+| # | Change | Result so far | Verdict |
+|---|---|---|---|
+| 1 | Extended band $0.75 | 1 for / 1 against / 2 neutral | Pending (11/16) |
+| 2 | E swing stop | 1 for / 2 against / 1 neutral | Pending (11/16) |
+| 3 | 1.5R trail | 1 against (#55) + 2 weak against (C shadows 11/10, 11/13) | Pending, leaning revert (11/16) |
+| 4 | D past a close level | neutral | Pending |
+| 5 | Different setups same direction | not tested | Pending |
+| 6 | ORB 2× pole / next-level target | 2 weak for + 1 for | Pending |
+| new | **Setup A2, owner's ORB read** (owner direction 11/13: cross and hold after 9:45, $0.75–1.25 contract, midpoint stop, +50%) | 30-day backtest: 19 trades, 42% wins; flat +50% ≈ −$250, winners held to 11:00 ≈ +$750 | Paper-tracked from 11/16; 1-min replay 11/14 |
+
+- **Proposals for the owner (outside the standing rule):**
+  - (1) F breakouts fail the required ADX ≥ 20 factor by nature (4 of 4 C-graded F shadows won this week). Allowing F with the range-age condition instead of ADX changes which trades qualify under CLAUDE.md, so it's the owner's call.
+  - (2) A2 exit: sell half at +50% and hold the rest to 11:00 with the stop moved to entry.
+
+**Graduation check (CLAUDE.md):** at least 10 paper trades ✓ (58). A-grade trades profitable ✗: **no A-grade trades exist.** **Not passed**: keep paper trading. B-grade results for reference: 58 trades, 52% wins, +$193.94.
+
+Market data and analysis only, not investment advice.

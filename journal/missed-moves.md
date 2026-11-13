@@ -382,3 +382,10 @@ Pattern: a trend day with several closes just past the $0.30 band (1:20 long $0.
 | 1:30–2:05 | −$3.2 in 35 min (761.06 → 757.90), $4.5 by 3:30 | Out of the 2-h range $759.94–761.96 at 1:45 (2.56×, QQQ the same bar; extended band) | F short | Graded **C**: ADX 8.9 and price still $0.12 above VWAP (both required). Shadow +2.7R by 3:45. |
 
 Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), both failing a required factor on a range break (VWAP side or ADX). A squeeze breakout happens by definition after low-ADX chop, so ADX < 20 may be the wrong gate for F. Logged as an observation; a playbook change needs ≥ 20 sessions of replay (see the changelog).
+
+### 2026-11-13
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 9:45–10:20 | −$7.5 in 35 min (755.40 → 747.89) | A close under the ORB low $755.88 and the previous low $755.67 at 9:45; break bar 10:00 at 2.8×; QQQ broke too | A (ORB flag) short; **A2** | A's flag break closed $0.31 past (band $0.30), and three later flags missed by $0.02–0.10. A2 (added today) enters at the 9:50 hold: backtest 752P $0.88 → $2.71. |
+| 10:20–11:30 | +$3.5 in 70 min (747.89 → 751.39) | A bounce off S2 under a falling VWAP | none | Counter-trend under VWAP; no setup by design. |
+| 1:15–1:55 | +$2.7 in 40 min (750.98 → 753.64) | An F range break at 1:35 ($752.46, 1.31×, QQQ the same bar) | F long | Graded C: ADX 15 < 20 (required). Shadows +0.59R / +0.32R. |
