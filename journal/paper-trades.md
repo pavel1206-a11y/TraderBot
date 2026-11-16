@@ -7033,3 +7033,8 @@ Market data and analysis only, not investment advice.
 - SPY $741.07 (rejected at $742.06, under S2 $741.88), QQQ $663.96. No entries (daily loss limit); none armed (after 2:15).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:28 PM ET): stood down; fading again**
+- SPY $740.21 (low $739.95), QQQ $663.43. No entries (daily loss limit; the entry window closes at 2:30). Next: EOD at 3:47.
+
+Market data and analysis only, not investment advice.
