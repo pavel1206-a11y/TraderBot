@@ -6904,3 +6904,4 @@ ARMED/MANAGE (10:18–10:42):
 - No new SPY/QQQ entries (position cap reached).
 
 Market data and analysis only, not investment advice.
+- **Owner, 10:2x AM:** "Lift the cap". CLAUDE.md is updated: A2 option contracts may cost up to $125 (12.5%), so the full $0.75–1.25 band is allowed; other setups stay at 10%, and total open risk stays at 20%. #59 stays as logged (741P $0.98). For comparison, the 742P bought at 10:01 for $1.22 is tracked as a shadow (#59-alt).

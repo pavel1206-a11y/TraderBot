@@ -20,7 +20,7 @@ ask the owner before doing anything; do not quietly bend it.
 | Rule | Limit (at $1,000) |
 |---|---|
 | Risk per trade: default | 5% of account value ($50) |
-| Risk per trade: hard max | 10% of account value ($100) |
+| Risk per trade: hard max | 10% of account value ($100); **A2 option contracts up to 12.5% ($125, i.e. $0.75–1.25 per contract; owner, 2026-11-16)** |
 | Total open risk across all positions | 20% ($200) |
 | Open positions at once | 3 |
 | Daily loss limit: stop trading for the day | 10% ($100) |
@@ -29,7 +29,9 @@ ask the owner before doing anything; do not quietly bend it.
 
 "Risk" means what is lost if the stop is hit. For **options**, count the
 **full premium paid** as the risk, because option prices can gap straight past
-a stop. So an option position's cost is capped at 10% of the account.
+a stop. So an option position's cost is capped at 10% of the account, except
+the owner's A2 setup, whose one-contract buys at $0.75–1.25 may cost up to
+12.5% ($125) (owner, 2026-11-16). Total open risk stays capped at 20%.
 
 ## Trade rules
 
@@ -112,7 +114,7 @@ with the trade plan. Any "no" means no trade.
 3. **News agrees:** market news and sentiment point the same way, and no
    scheduled event (CPI, jobs report, FOMC, big earnings) is due before the
    exit time that could flip the move.
-4. **The trade fits the risk rules:** premium within 5% default / 10% max of
+4. **The trade fits the risk rules:** premium within 5% default / 10% max (A2: up to $125) of
    account, and buying power covers it (settled cash or intraday margin).
 
 **Timing and exits**
