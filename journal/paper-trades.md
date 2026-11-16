@@ -7011,3 +7011,8 @@ Market data and analysis only, not investment advice.
 - SPY $742.23 (low $742.13), QQQ $664.13.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:28 PM ET): stood down; slow bleed lower**
+- SPY $741.80 (low $741.67), QQQ $663.85. Shadow F short $742.20 → $741.80 (+$0.40, +0.36R; target $740.58, stop $743.31). No entries (daily loss limit).
+
+Market data and analysis only, not investment advice.
