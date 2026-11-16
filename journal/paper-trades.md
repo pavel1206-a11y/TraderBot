@@ -7038,3 +7038,5 @@ Market data and analysis only, not investment advice.
 - SPY $740.21 (low $739.95), QQQ $663.43. No entries (daily loss limit; the entry window closes at 2:30). Next: EOD at 3:47.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:43 PM ET):** past the 2:30 entry cutoff; nothing open; stood down all afternoon (daily loss limit). Next: EOD at 3:47.
