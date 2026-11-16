@@ -6983,3 +6983,8 @@ Market data and analysis only, not investment advice.
 - No entries (daily loss limit).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:13 PM ET): stood down**
+- SPY $744.34, QQQ $666.64. Squeeze: SPY $744.32–745.74 since 11:45 (age 25 min, $1.42). Shadow D long: −$2.25 (stop $743.21 holds). No entries (daily loss limit).
+
+Market data and analysis only, not investment advice.
