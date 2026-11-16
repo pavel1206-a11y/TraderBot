@@ -6853,3 +6853,19 @@ ARMED/WATCH (9:45–10:12):
 - `Owner levels: SPY PDL $747.88 reclaimed (bullish if it holds above on 5-min closes); QQQ PDL $671.68 overhead (a 5-min close back above = reclaim).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:58 AM ET): ORB set; inside-range chop, nothing fired**
+- **Final ORB (9:30–9:45):**
+  - **SPY $746.65–749.82** (midpoint $748.235, $3.17 wide).
+  - **QQQ $666.60–672.13** (midpoint $669.37, $5.53 wide).
+  - Both swept their PDL (SPY $747.88) in the first 15 min.
+- Replay 9:45–9:57 (1-min): SPY closes $747.02–748.74 and QQQ $668.65–670.62, all inside the range. **No ORB break (A), no cross-and-hold (A2).** No positions open.
+- **4H (8 AM–12 PM):** a PDL sweep (SPY $746.65, QQQ $666.60) then back inside. A D long needs a reclaim plus a structure shift (a higher high above $749.82); not yet.
+- **F:** n/a before 11:00. Score: price in the middle of the range, no direction → no setup.
+
+ARMED/WATCH (10:00–10:27):
+- `ORB-FLAG SPY (A): a 1-min close above $749.82 or below $746.65 on ≥ 1.5× the prior 20-bar volume (≈ 85k) → 3–10 bar flag outside the range → 1-min flag break $0.01–0.30 on volume above the flag average; stop flag far side ± $0.10 (≥ $0.30); target $754.12 pivot (long) / $741.88 S2 (short).`
+- `ORB-FLAG QQQ (A): the same at $672.13 / $666.60; target $680.11 pivot / $663.04 S2.`
+- `A2 SPY/QQQ (paper): a 1-min close beyond the high/low, the next 1-min close still beyond → enter; one 0DTE at $0.75–1.25; stop the midpoint ∓ $0.10 (SPY $748.13 / $748.34; QQQ $669.27 / $669.47); +50% or out by 11:00.`
+
+Market data and analysis only, not investment advice.
