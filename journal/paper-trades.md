@@ -6869,3 +6869,38 @@ ARMED/WATCH (10:00–10:27):
 - `A2 SPY/QQQ (paper): a 1-min close beyond the high/low, the next 1-min close still beyond → enter; one 0DTE at $0.75–1.25; stop the midpoint ∓ $0.10 (SPY $748.13 / $748.34; QQQ $669.27 / $669.47); +50% or out by 11:00.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:18 AM ET): SPY broke the ORB low → A2 put #59 (armed, replayed) and the first A-grade trade, ORB-flag short #60/#61 (armed, replayed)**
+- **Replay (1-min):**
+  - SPY closed $746.505 at 9:59 (below the $746.65 ORB low, on 58k ≈ 1.0×, not an A break).
+  - 10:00 closed **$745.63 on 169k (≈ 2.9×)** → the A break bar, and the A2 hold.
+  - QQQ broke $666.60 at 10:00 (2.3×) and held at 10:01. Not taken: one trade per direction across SPY and QQQ; SPY was first.
+- **#59 A2 put (owner's read, paper track):**
+  - **SPY 11/16 $741 put ×1 @ $0.98** (the 10:00 bar close $0.97 + $0.01 ask) = **$98 premium** = the risk.
+  - The $0.75–1.25 band was narrowed to ≤ $1.00 by the CLAUDE.md 10% cap ($100). The 742P at $1.22 was over the cap.
+  - Stop: SPY back above the midpoint + $0.10 = **$748.34**. Take profit at +50% = **$1.47**, else out by 11:00.
+- **#60/#61 A (ORB flag) short:**
+  - Flag 10:06–10:15 (10 bars, low $744.34, average 70.6k, lighter than the 169k break). The **10:16 1-min close $744.16 was $0.18 under the flag low on 84.4k (> the flag average)** → entry.
+  - Stop: the flag high $745.50 + $0.10 = **$745.60** (1R = $1.44). Target: S2 **$741.88** (R/R 1.58). Trail at +1.5R; 30-min time stop 10:46.
+  - **#60 option:** SPY 11/16 $740 put ×1 @ **$0.90** (10:16 close $0.89 + $0.01) = $90 risk. The 742P/743P ($1.41/$1.77) were over the cap.
+  - **#61 fractional:** **SH 14.98 sh @ $33.369** ($500). Alert stop SH $33.304 (= SPY $745.60) → risk ≈ $0.97; target SH $33.471.
+- **Score card (#60, bearish), 8/10 = A:**
+  1. VWAP $747.15, price below, sloping down ✓ (required).
+  2. ADX(14) 34.9 ✓ (required).
+  3. EMA: price < 9 EMA $747.16 < 21 EMA $749.43 ✓.
+  4. Lower highs and lows plus a flag break ✓.
+  5. Level: under the ORB low, PDL $747.88 and S1 $748.13, with room to S2 ✓.
+  6. Volume: the break 2.9×, the flag break above the flag average ✓.
+  7. Momentum: RSI 25 (oversold, outside 30–50) ✗; MACD below its signal.
+  8. Higher timeframe: daily below the 20- and 50-day ✓.
+  9. QQQ below its VWAP $668.25 ✓.
+  10. News: unverified ✗.
+- **Caps:** 3 positions (#59, #60, #61) = the cap. Open risk $98 + $90 + $0.97 ≈ $189 ≤ $200 ✓.
+- **10:17:** SPY bounced to $744.87. #59 741P ≈ $0.93 (−$5); #60 740P ≈ $0.73 (−$17); #61 SH $33.345 (−$0.36).
+
+ARMED/MANAGE (10:18–10:42):
+- `MANAGE #59: exit at a 1-min close ≥ $748.34 (stop) or the 741P ≥ $1.47 (+50%); else out at 11:00.`
+- `MANAGE #60/#61: stop a 1-min close ≥ $745.60; target $741.88; at a 1-min close ≤ $742.00 (+1.5R) trail 1.5R ($2.16) behind the best low; time stop 10:46 if +1.5R isn't reached.`
+- No new SPY/QQQ entries (position cap reached).
+
+Market data and analysis only, not investment advice.
