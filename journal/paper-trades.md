@@ -7000,3 +7000,8 @@ Market data and analysis only, not investment advice.
 - No entries (daily loss limit).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:58 PM ET): stood down; basing at the lows**
+- SPY $743.41 (new low $742.76), QQQ $665.46. **Squeeze:** SPY $742.76–743.85 since 12:20 ($1.09, 38 min; valid at 1:05). **4H (12–4 PM):** a small red candle at the day lows; no D. No entries (daily loss limit).
+
+Market data and analysis only, not investment advice.
