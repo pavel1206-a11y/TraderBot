@@ -7005,3 +7005,9 @@ Market data and analysis only, not investment advice.
 - SPY $743.41 (new low $742.76), QQQ $665.46. **Squeeze:** SPY $742.76–743.85 since 12:20 ($1.09, 38 min; valid at 1:05). **4H (12–4 PM):** a small red candle at the day lows; no D. No entries (daily loss limit).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:13 PM ET): stood down; F short shadow**
+- The SPY squeeze $742.76–743.85 broke: the **1:00 5-min close $742.20** ($0.56 under, outside the $0.30 band; 167k ≈ 1.3×), with QQQ breaking $664.44 the same bar. It qualified for the extended $0.75 band (≥ 1.2× + QQQ) → an F short shadow from $742.20 (stop range midpoint $743.31, target $740.58). No entry (daily loss limit).
+- SPY $742.23 (low $742.13), QQQ $664.13.
+
+Market data and analysis only, not investment advice.
