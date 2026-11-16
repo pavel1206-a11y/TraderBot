@@ -7040,3 +7040,16 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:43 PM ET):** past the 2:30 entry cutoff; nothing open; stood down all afternoon (daily loss limit). Next: EOD at 3:47.
+
+**EOD (3:48 PM ET) 2026-11-16**
+- **Close-out:** nothing open. Today's paper trades:
+  - **#60** SPY 740P (A, A-grade) **−$53.00**; **#61** SH (A) **−$0.96**. Both stopped at 10:45.
+  - **A2 track #59** SPY 741P **−$62.00** (out at 11:00).
+  - Shadows (not scored): #59-alt 742P −$73; D long −$3.38/sh (stopped 12:25); F short +$1.62/sh (+1.46R, target hit at 1:25).
+- **Day: −$53.96 main + −$62.00 A2 = −$115.96** (daily loss limit hit at 10:58; stood down after).
+- **Running totals (main):** **60 trades, 30W/30L (50%), +$139.98.** Options 28 ≈ +$120; fractional 30 +$6.17. **SPY 54 +$152.91; QQQ 6 −$12.93.** **A-grade: 2 trades (1 signal), 0W/2L, −$53.96.** A2 track: 1 trade, −$62.
+- **Day note:**
+  - A trend-down day: SPY −$15 to $738.73 by 1:40 (ADX > 30 from 10:00 on).
+  - The ORB-low break at 10:00 was right, but A's flag entry at 10:16 came $2.50 into the move and was stopped by a 25-min bounce to $747.35 one minute before its time stop.
+  - A2's entry at 10:01 was earlier, but its +50% never came before the 11:00 exit, and the 741P bled time value.
+  - The best-shaped trade of the day was the midday F breakdown (12:55 range → target), which the daily limit kept us out of.

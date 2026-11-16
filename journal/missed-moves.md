@@ -389,3 +389,10 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 9:45–10:20 | −$7.5 in 35 min (755.40 → 747.89) | A close under the ORB low $755.88 and the previous low $755.67 at 9:45; break bar 10:00 at 2.8×; QQQ broke too | A (ORB flag) short; **A2** | A's flag break closed $0.31 past (band $0.30), and three later flags missed by $0.02–0.10. A2 (added today) enters at the 9:50 hold: backtest 752P $0.88 → $2.71. |
 | 10:20–11:30 | +$3.5 in 70 min (747.89 → 751.39) | A bounce off S2 under a falling VWAP | none | Counter-trend under VWAP; no setup by design. |
 | 1:15–1:55 | +$2.7 in 40 min (750.98 → 753.64) | An F range break at 1:35 ($752.46, 1.31×, QQQ the same bar) | F long | Graded C: ADX 15 < 20 (required). Shadows +0.59R / +0.32R. |
+
+### 2026-11-16
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 10:31–10:57 | +$3.3 in 26 min (744.06 → 747.35) | A bounce off $743.31 (under S1/PDL) back through the ORB low $746.65 | D long (sweep + reclaim) | The structure shift came at 10:50; we were short (#59–#61) and then at the daily limit. The D shadow later failed (−$3.38). |
+| 12:40–1:40 | −$4.8 in 60 min (743.5 → 738.73) | The 12:20–12:55 squeeze $742.76–743.85 broke at 1:00 ($742.20, 1.3×, QQQ the same bar; extended band) | F short | **Daily loss limit** (stood down at 10:58). Shadow: target $740.58 hit, +1.46R. |
+| 1:40–1:55 | +$3.4 in 15 min (738.73 → 742.13) | A capitulation-volume bounce under S2 | none | Counter-trend; no setup by design. |

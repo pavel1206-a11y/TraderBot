@@ -85,3 +85,12 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - Changes 2, 4, 5, 6: no signals.
   - A2 entry/stop/exit set by the owner (see the entries above).
   - **No standing-rule playbook changes today.** Verdicts are due 11/16.
+- **2026-11-16 (day 11): two-week verdicts for the six owner-approved changes of 11/02** (none reached 10 signals):
+  - **1. Extended $0.75 band: KEEP.** 2 for (11/12 F short +2.7R shadow; 11/16 F short +1.46R shadow), 1 against (11/11 1:20 gate helped / 2:00 cost), 3 neutral.
+  - **2. E swing stop: RECOMMEND REVERT (owner's call).** 2 against (11/02 R/R gate blocked a 2R winner; 11/03 the stop width cost the option leg), 1 for (11/04), rest neutral. It underperformed at 2 weeks. The previous rule was a fixed $0.40 stop.
+  - **3. 1.5R trail: RECOMMEND REVERT to 1R (owner's call).** 1 against (#55: 1R +1.82R vs 1.5R +1.32R), 2 weak against (C shadows 11/10, 11/13), 0 for.
+  - **4. D next-level measure: KEEP** (no deciding signal; neutral).
+  - **5. Same direction with different setups: KEEP.** 1 against today (A2 #59 + A #60/#61 together hit the daily limit). The owner's A2-vs-A comparison depends on it, so the decision is the owner's.
+  - **6. ORB 2× pole / next-level target: KEEP.** 1 for (#55), 2 weak for, rest neutral.
+  - Because all six were owner-approved, the two reverts are proposed, not applied. **No playbook edits today.**
+  - New observation: F-break shadows are now 5/5 winners (11/10, 11/12, 11/13 ×2, 11/16).
