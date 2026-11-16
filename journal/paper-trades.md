@@ -6920,3 +6920,20 @@ ARMED/MANAGE (10:28–10:57):
 - `MANAGE #60/#61: stop a 1-min close ≥ $745.60; target $741.88; at a 1-min close ≤ $742.00 trail $2.16 behind the best; **time stop 10:46** if +1.5R isn't reached on a close.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:43 AM ET): all three open, now slightly red; time stop due 10:46**
+- Replay 10:27–10:41: SPY closes $744.04–745.21 (high $745.28 at 10:31). The #60/#61 stop ($745.60 close) wasn't hit; the #59 stop ($748.34) wasn't hit; no +1.5R close (≤ $742.00); the #59 option never reached $1.47.
+- Marks at 10:41 (SPY $744.54):
+  - **#59** 741P $0.81 (−$17).
+  - **#60** 740P $0.61 (−$29).
+  - **#61** SH $33.355 (−$0.21).
+  - Shadow #59-alt 742P $1.06 (−$16).
+- The **#60/#61 30-min time stop is at 10:46** (no +1.5R close) → the next check books the exit at the 10:46 1-min close unless a stop/target comes first. **#59** exits at 11:00 unless the stop or +50% comes first.
+- **4H:** the 8–12 candle is red, low $743.31 (new low after the PDL sweep). A D long still needs a reclaim of $746.65 and a higher high.
+
+ARMED/MANAGE (10:43–11:12):
+- `MANAGE #60/#61: stop a 1-min close ≥ $745.60; target $741.88; else the time-stop exit at the 10:46 1-min close.`
+- `MANAGE #59: stop a 1-min close ≥ $748.34; +50% at the 741P ≥ $1.47; else out at the 11:00 bid.`
+- `After the exits: watch the SPY F squeeze range from 11:00 (record a 45-min range ≤ $2.50), and a D long on a 5-min close back above $746.65 with VWAP reclaimed.`
+
+Market data and analysis only, not investment advice.
