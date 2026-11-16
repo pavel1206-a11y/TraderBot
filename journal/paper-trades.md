@@ -6964,3 +6964,10 @@ Market data and analysis only, not investment advice.
 No ARMED entries (daily loss limit). Next: EOD at 3:47 with the two-week changelog verdicts.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:28 AM ET): stood down (daily loss limit); chop**
+- SPY $744.85–747.36 since 11:00 (the 11:20 close $746.64 on 422k, a volume spike, inside the range). QQQ $665.97 → $669.20. No positions; no entries (−$115.96 day).
+- Shadow D long ($746.59): SPY $746.64, about flat.
+- Squeeze: SPY $744.85–747.36 ($2.51, 30 min; not valid yet).
+
+Market data and analysis only, not investment advice.
