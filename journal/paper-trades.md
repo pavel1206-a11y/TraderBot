@@ -6971,3 +6971,9 @@ Market data and analysis only, not investment advice.
 - Squeeze: SPY $744.85–747.36 ($2.51, 30 min; not valid yet).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:43 AM ET): stood down; F range forming**
+- SPY $745.97 / QQQ $668.30. **Squeeze:** SPY $744.85–747.36 since 11:00 ($2.51; 45 min at 11:45, just over $2.50 → not valid). QQQ $665.97–669.85 ($3.88, too wide). Shadow D long ($746.59): −$0.62.
+- No entries (daily loss limit, −$115.96).
+
+Market data and analysis only, not investment advice.
