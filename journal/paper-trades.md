@@ -6905,3 +6905,18 @@ ARMED/MANAGE (10:18–10:42):
 
 Market data and analysis only, not investment advice.
 - **Owner, 10:2x AM:** "Lift the cap". CLAUDE.md is updated: A2 option contracts may cost up to $125 (12.5%), so the full $0.75–1.25 band is allowed; other setups stay at 10%, and total open risk stays at 20%. #59 stays as logged (741P $0.98). For comparison, the 742P bought at 10:01 for $1.22 is tracked as a shadow (#59-alt).
+
+**Setup check (10:28 AM ET): all three open, slightly green; new low $743.31**
+- Replay 10:17–10:26 (1-min): SPY closes $743.66–744.98. No close ≥ $745.60 (the #60/#61 stop) or ≥ $748.34 (the #59 stop). No close ≤ $742.00 (+1.5R) yet; the target $741.88 isn't reached.
+- Marks at 10:26 (SPY $743.85):
+  - **#59** 741P $1.10 (**+$12**; best $1.28, the +50% target is $1.47).
+  - **#60** 740P $0.86 (−$4).
+  - **#61** SH $33.395 (+$0.39).
+  - Shadow **#59-alt** 742P $1.22 → $1.40 (+$18).
+- **4H (8 AM–12 PM):** a down candle making new lows under the PDL; no D. F n/a before 11:00. Caps full → no new entries.
+
+ARMED/MANAGE (10:28–10:57):
+- `MANAGE #59: stop a 1-min close ≥ $748.34; +50% at the 741P ≥ $1.47; else out at 11:00 (bid).`
+- `MANAGE #60/#61: stop a 1-min close ≥ $745.60; target $741.88; at a 1-min close ≤ $742.00 trail $2.16 behind the best; **time stop 10:46** if +1.5R isn't reached on a close.`
+
+Market data and analysis only, not investment advice.
