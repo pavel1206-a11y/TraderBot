@@ -6937,3 +6937,20 @@ ARMED/MANAGE (10:43–11:12):
 - `After the exits: watch the SPY F squeeze range from 11:00 (record a 45-min range ≤ $2.50), and a D long on a 5-min close back above $746.65 with VWAP reclaimed.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:58 AM ET): #60/#61 STOPPED at 10:45 (−1R); #59 losing into its 11:00 exit; daily loss limit reached**
+- **#60/#61 replay:** the 10:45 1-min close **$745.725 ≥ $745.60** → stop (one minute before the 10:46 time stop). SPY then reclaimed $746.65 at 10:50 and ran to $747.35.
+  - **#60 (SPY 740P):** in $0.90 → out **$0.37** (the 10:45 close $0.38 − $0.01 bid) = **−$53.00**.
+  - **#61 (SH 14.98 sh):** the alert at $33.304 fired; out ≈ **$33.305** = **−$0.96** (−1R).
+  - The first A-grade trade lost both legs. The break was real (2.9× volume, ADX 35), but the flag break came after a $2.50 move. The bounce from S2-adjacent support ($743.31) ran back through the flag high.
+- **#59 (A2, SPY 741P $0.98):** the stop ($748.34) wasn't hit (high $747.355); +50% never came (best $1.28 at 10:25–10:26). Mark at 10:57 **$0.29** (≈ −$69). It exits at the 11:00 bid; the next check books the final price.
+  - Shadow #59-alt 742P $1.22 → $0.40 (≈ −$82).
+- **Day so far:** −$53.96 booked (#60/#61) + #59 ≈ −$69 = **≈ −$123 → over the $100 daily loss limit (10%). No more paper entries today** (CLAUDE.md risk rules).
+- **Running totals (main scoreboard, excluding the A2 track):** **60 trades, 30W/30L (50%), +$139.98.** Options 28 ≈ +$120; fractional 30 +$6.17. **SPY 54 +$152.91**; QQQ 6 −$12.93. **A-grade: 2 trades, 0W/2L, −$53.96.**
+- **4H (8 AM–12 PM):** the PDL sweep ($743.31 low), then a reclaim of $746.65 at 10:50 and a higher high $747.355. A D long now has sweep + reclaim + structure shift, but **no entry (daily loss limit)**; logged as a shadow from the 10:50 close $746.59.
+
+ARMED/MANAGE:
+- `MANAGE #59: exit at the 11:00 bid (or a 1-min close ≥ $748.34 / the 741P ≥ $1.47 before then).`
+- No new entries today (daily loss limit). Shadows only, for the record.
+
+Market data and analysis only, not investment advice.
