@@ -6993,3 +6993,10 @@ Market data and analysis only, not investment advice.
 - SPY $743.65 (low $743.54), QQQ $665.22. A 5-min close under the $744.32 squeeze floor at 12:20 (a shadow only). Shadow D long: −$2.94, $0.33 above its $743.21 stop. No entries (daily loss limit).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:43 PM ET): stood down; new day low**
+- SPY broke the morning low $743.31: **new low $742.94** (12:35), now $743.20. QQQ $664.97 (low $664.58).
+- **Shadow D long stopped** (the 12:25 low $743.18 < $743.21): $746.59 → $743.21 = −$3.38. The D reclaim failed; logged for the D review.
+- No entries (daily loss limit).
+
+Market data and analysis only, not investment advice.
