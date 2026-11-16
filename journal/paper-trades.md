@@ -7016,3 +7016,10 @@ Market data and analysis only, not investment advice.
 - SPY $741.80 (low $741.67), QQQ $663.85. Shadow F short $742.20 → $741.80 (+$0.40, +0.36R; target $740.58, stop $743.31). No entries (daily loss limit).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:43 PM ET): stood down; the selloff resumed (SPY −$15 on the day)**
+- SPY broke S2 $741.88: low **$738.73**, now $739.40 (−$14.97 from the $754.37 close). Volume 290–366k a bar (~2.5–3×). QQQ low $660.53.
+- **Shadow F short (from $742.20): target $740.58 hit on the 1:25 bar (low $740.31) = +$1.62 (+1.46R).** Logged for the F/ADX observation: the F short here would have qualified (ADX was > 30 all day).
+- No entries (daily loss limit).
+
+Market data and analysis only, not investment advice.
