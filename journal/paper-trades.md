@@ -6840,3 +6840,16 @@ Market data and analysis only, not investment advice.
 - Changelog two-week verdicts are due today (EOD).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming; SPY swept the PDL and reclaimed it**
+- ORB so far (9:30–9:40): **SPY $746.85–749.82**, **QQQ $666.60–671.52**. The last 5 minutes are still to come; final at 9:45.
+- SPY opened $749.65, swept the PDL $747.88 (low $746.85, under S1 $748.13) and reclaimed it, closing 9:35–9:40 at $749.13.
+- QQQ swept to $666.60 (below its PDL $671.68) and is back at $670.62, still under the PDL.
+- A PDL sweep-and-reclaim is the owner's reversal cue; it flips the bias from bearish to neutral until a direction holds. Nothing to replay; no entries before 9:45.
+
+ARMED/WATCH (9:45–10:12):
+- `ORB-FLAG SPY/QQQ (A): a 1-min close beyond the final 9:30–9:45 high/low on ≥ 1.5× the prior 20-bar volume (by 11:00) → wait for a 3–10 bar flag outside the range → enter on a 1-min close $0.01–0.30 past the flag on volume above the flag average (by 11:30); stop flag far side ± $0.10 (≥ $0.30); target the next level (SPY: PDH side $754.12 pivot / PDL side $746.85; QQQ: $671.68 PDL / $666.60).`
+- `A2 SPY/QQQ (owner's read, paper): after 9:45, a 1-min close beyond the 9:30–9:45 high (calls) or low (puts), then the next 1-min close still beyond → enter at that close; one 0DTE contract at $0.75–1.25; stop = range midpoint ∓ $0.10; take profit +50%, else out by 11:00.`
+- `Owner levels: SPY PDL $747.88 reclaimed (bullish if it holds above on 5-min closes); QQQ PDL $671.68 overhead (a 5-min close back above = reclaim).`
+
+Market data and analysis only, not investment advice.
