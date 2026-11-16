@@ -7023,3 +7023,8 @@ Market data and analysis only, not investment advice.
 - No entries (daily loss limit).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:58 PM ET): stood down; a sharp bounce off $738.73**
+- SPY $738.73 → $741.56 (high $742.13) in 20 min on 270–300k; QQQ $660.53 → $664.19. Bounced back above S2 $741.88 intrabar but closed under it. No entries (daily loss limit).
+
+Market data and analysis only, not investment advice.
