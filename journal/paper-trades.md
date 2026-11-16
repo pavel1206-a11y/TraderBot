@@ -6822,3 +6822,21 @@ Market data and analysis only, not investment advice.
 **Graduation check (CLAUDE.md):** at least 10 paper trades ✓ (58). A-grade trades profitable ✗: **no A-grade trades exist.** **Not passed**: keep paper trading. B-grade results for reference: 58 trades, 52% wins, +$193.94.
 
 Market data and analysis only, not investment advice.
+
+### 2026-11-16 (Mon)
+**Pre-market brief (8:37 AM ET)**
+- SPY PDH **$760.12** / PDL **$747.88**; pre **$749.41**, between, $1.53 above the PDL. Pre-market range $747.96–752.90 (it fell at 7:00 ET from $751 to $748).
+- QQQ PDH **$688.75** / PDL **$671.68**; pre **$670.96**, **below the PDL** by $0.72. Pre-market range $668.33–675.27.
+- Previous close: SPY $754.37, QQQ $679.89.
+- Pivots:
+  - SPY: P $754.12, R1 $760.37, R2 $766.36, S1 $748.13, S2 $741.88.
+  - QQQ: P $680.11, R1 $688.53, R2 $697.18, S1 $671.46, S2 $663.04.
+- SMAs: SPY 20-day $759.02, 50-day $764.43. QQQ 20-day $695.45, 50-day $717.87. Both are below both averages.
+- Events:
+  - No index-moving earnings (BIDU, XPEV, TSN pre-market; POWL, ACM after the close).
+  - The economic calendar and news couldn't be verified (Alpha Vantage news is a premium endpoint; the web search found nothing dated today), so check for any 8:30/10:00 release before the open.
+- **Bias: bearish lean.** Pre-market is under the pivot and both SMAs, and QQQ is under its PDL. Watch for a PDL sweep-and-reclaim (SPY $747.88, QQQ $671.68), which would flip it.
+- ORB (setups A and A2) = the 9:30–9:45 candle. A2 is paper-tracked from today (cross and hold after 9:45, $0.75–1.25 contract, midpoint stop, +50%).
+- Changelog two-week verdicts are due today (EOD).
+
+Market data and analysis only, not investment advice.
