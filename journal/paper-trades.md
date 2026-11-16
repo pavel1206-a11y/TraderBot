@@ -7028,3 +7028,8 @@ Market data and analysis only, not investment advice.
 - SPY $738.73 → $741.56 (high $742.13) in 20 min on 270–300k; QQQ $660.53 → $664.19. Bounced back above S2 $741.88 intrabar but closed under it. No entries (daily loss limit).
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:13 PM ET): stood down; bounce stalling under S2**
+- SPY $741.07 (rejected at $742.06, under S2 $741.88), QQQ $663.96. No entries (daily loss limit); none armed (after 2:15).
+
+Market data and analysis only, not investment advice.
