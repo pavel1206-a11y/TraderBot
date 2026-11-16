@@ -6954,3 +6954,13 @@ ARMED/MANAGE:
 - No new entries today (daily loss limit). Shadows only, for the record.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:17 AM ET): #59 closed at 11:00; flat for the day (daily loss limit)**
+- **#59 (A2, SPY 741P):** in $0.98 → out **$0.36** (the 10:59 close $0.37 − $0.01 bid) = **−$62.00**. Shadow #59-alt 742P: $1.22 → $0.49 = −$73.
+- **A2 track:** 1 trade, 0W/1L, −$62. **Day total (main −$53.96 + A2 −$62) = −$115.96** → over the $100 daily loss limit. No entries for the rest of the day; shadows only.
+- Shadow D long (from 10:50 $746.59, stop under the sweep low $743.31): SPY $745.04 (−$1.55), open.
+- SPY $745.04 / QQQ $666.26, back under VWAP. **Squeeze:** SPY since 11:00 is $744.85–747.36 (age 15 min, not yet valid).
+
+No ARMED entries (daily loss limit). Next: EOD at 3:47 with the two-week changelog verdicts.
+
+Market data and analysis only, not investment advice.
