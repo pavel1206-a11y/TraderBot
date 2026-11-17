@@ -108,3 +108,15 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - Effect this week: the weekly loss budget left is $34.04, below an A2
   contract's $75–125 premium, so A2 and other option signals are logged as
   shadows until Monday 11/23 unless the owner says otherwise.
+
+## 2026-11-17 — Owner: combine SPX, SPY and QQQ for A2
+
+- Owner: "Can we combine SPY SPX QQQ" (and confirmed the 9:47 SPX
+  opening-range alert task is theirs).
+- A2 is now read on SPX, SPY and QQQ as one signal: the trade is SPXW when
+  SPX crosses and holds (stop the SPX midpoint ∓ 1.0 point); SPY/QQQ crosses the
+  same way are logged as confirmation, not required; one A2 trade per day per
+  direction across all three.
+- The 9:47 alert task now reports all three ranges in one push.
+- To measure: whether the trades where SPY/QQQ confirmed did better than the
+  ones where they didn't (decide after 10 signals).

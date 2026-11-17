@@ -68,7 +68,8 @@ the owner's A2 setup, whose one-contract buys at $0.75–1.25 may cost up to
 ## Current phase: PAPER TRADING
 
 Started 2026-09-29. **No real orders.** For about 2 weeks (10 trading days),
-Claude scores SPY and QQQ (QQQ added 2026-10-27) with the playbook and logs
+Claude scores SPY and QQQ (QQQ added 2026-10-27; SPX added for setup A2,
+2026-11-17, read together with SPY/QQQ as one signal) with the playbook and logs
 every A or B grade setup as a
 paper trade in `journal/paper-trades.md`, with the exact contract, entry,
 stop, target, and result taken from real quotes. No Robinhood write actions

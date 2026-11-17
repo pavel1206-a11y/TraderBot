@@ -121,9 +121,22 @@ next to A, so the two can be compared on the same days.
 4. **Exit (owner, 2026-11-13):** take profit at **+50% or more** on the
    premium (the owner's aim), otherwise close by **11:00 AM ET**. Earlier exit
    if the stop is hit.
-5. **Entry window:** 9:45–10:30. One trade per symbol per day (the first
-   signal), SPY/QQQ same-direction rule as A.
-6. **Open point:** "comes back" means a 1-min close back inside the range.
+5. **Entry window:** 9:45–10:30. One trade per day per direction (the first
+   signal).
+6. **SPX, SPY and QQQ combined (owner, 2026-11-17):** A2 is read on all three
+   as **one signal**, because they move together and three trades the same
+   way would be the same bet three times.
+   - Mark the 9:30–9:45 range and the previous day's high/low on each.
+   - **The trade is SPXW** (the owner's own instrument; a $0.75–1.25 0DTE
+     contract) when SPX crosses a mark and holds. The stop is SPX's range
+     midpoint ∓ 1.0 point (SPY's $0.10 × 10).
+   - SPY and QQQ crossing the same way within a few minutes are logged as
+     **confirmation** (noted, not required, until the journal shows whether
+     waiting for it helps). If SPX hasn't crossed but SPY has, the trade is
+     the SPY contract.
+   - One A2 trade per day per direction across all three. SPX has no volume,
+     so setup A (volume-based) stays on SPY/QQQ only.
+7. **Open point:** "comes back" means a 1-min close back inside the range.
    A 1-min replay of 10/14–11/13 is queued (weekend of 11/14).
 7. Real trades still need a B or better on the score card and the CLAUDE.md
    risk and 0DTE rules (premium cap, no entries before 9:45). During paper
