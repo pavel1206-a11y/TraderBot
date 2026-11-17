@@ -7337,7 +7337,7 @@ Market data and analysis only, not investment advice.
 
 ARMED (1:42–2:12):
 - `F short SPY (shadow, 0DTE put): a 5-min close $730.40–730.65 (under the range low) on volume ≥ 1.5× the prior 10-bar average and VWAP sloping down; stop $731.90; target $728.20; R/R ≥ 1.7.`
-- `F long SPY (shadow, 0DTE call): a 5-min close $733.55–733.80 on ≥ 1.5× with VWAP sloping up; stop $732.40; target $735.4; R/R ≥ 1.4 → only at ≤ $733.65 (R/R 1.4–1.5); skip above.`
+- `F long SPY (shadow, 0DTE call): a 5-min close $733.55–733.60 on ≥ 1.5× with VWAP sloping up; stop $732.40; target $735.4; R/R ≥ 1.5 (a close above $733.60 = skip).`
 - `QQQ: short a close $652.80–653.10 on ≥ 1.5× (stop $654.80, target $649.9, R/R ≥ 1.7). No QQQ long (failed break at 1:35).`
 
 Market data and analysis only, not investment advice.
