@@ -128,3 +128,11 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - **Armed-line hygiene (process, not a setup rule):** every armed line now carries a VWAP-side condition and an R/R ≥ 1.5 check, and the no-chase band is ≤ 25% of the stop distance. The 12:05 and 1:25 fires showed the gap.
 - **Flat-VWAP chop:** the only afternoon shadow (the QQQ F long against a flat VWAP) lost −1R. Supports the existing checklist item 1; no change.
 - Pending owner decisions unchanged: revert change 2 (E swing stop) and change 3 (1.5R trail); the F-break ADX gate; A2 half-off at +50% with a breakeven stop; this week's weekly-budget override.
+
+## 2026-11-17 — A2 exit: half at +50%, trail the rest 1 bar, out by 11:00 (owner-requested test)
+
+- **Change:** A2 step 4. Old: take everything at +50%, else out at 11:00. New: sell half at +50%, trail the other half one 5-min bar behind (never looser than entry), out by 11:00.
+- **Evidence:** `journal/backtests/2026-11-17-a2-exits-9mo.md`, 125 modeled trades over 187 sessions. New exit −$83 vs old −$725. It won in all four periods (Feb–Jun −$317 vs −$427; Jul–Oct −$1 vs −$107; Oct 9–Nov 17 +$235 vs −$190) and had the smallest drawdown (−$741 vs −$1,029).
+- **Not chosen:** hold everything to 11:00 (+$816). It lost Feb–Oct; all of its profit came from the last 6 weeks, mostly from 11/5.
+- **Caveat:** no exit makes the mechanical A2 entry clearly profitable over 9 months. The exit change cuts losses; the edge question is about entries and the owner's discretion.
+- **Review:** after 10 A2 signals or 2 weeks (by 12/1), compare against the old rule on the same signals.

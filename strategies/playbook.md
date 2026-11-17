@@ -118,9 +118,13 @@ next to A, so the two can be compared on the same days.
    − $0.10; puts: midpoint + $0.10). Owner OK 2026-11-13. In the 23-session
    5-min re-run it went 9 W / 14 L, against 5 / 18 with a stop $0.10 past the
    broken mark.
-4. **Exit (owner, 2026-11-13):** take profit at **+50% or more** on the
-   premium (the owner's aim), otherwise close by **11:00 AM ET**. Earlier exit
-   if the stop is hit.
+4. **Exit (changed 2026-11-17 after the 9-month test; owner asked for it):** at **+50%** on the
+   premium, **sell half**. Trail the stop on the other half **one 5-min bar behind**: the prior
+   bar's low for calls / high for puts, never looser than entry. Out at the trail or **11:00 AM ET**.
+   The stop is hit first → the whole contract is out at the midpoint stop.
+   (Test `journal/backtests/2026-11-17-a2-exits-9mo.md`: 125 trades. This exit beat the old flat +50%
+   in every period, −$83 vs −$725 over 9 months, and had the smallest drawdown. Holding everything to
+   11:00 only won in the last 6 weeks.)
 5. **Entry window:** 9:45–10:30. One trade per day per direction (the first
    signal).
 6. **SPX, SPY and QQQ combined (owner, 2026-11-17):** A2 is read on all three
