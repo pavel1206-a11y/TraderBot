@@ -7382,7 +7382,7 @@ Market data and analysis only, not investment advice.
 
 ### EOD 2026-11-17 (options only from today)
 - **A2 (the owner's read):**
-  - SPY's 9:30–9:45 range was $737.47–739.88 (midpoint $738.58). The low **broke and held at 10:10** ($736.40) → **put**.
+  - SPY's 9:30–9:45 range was $737.47–739.69 (midpoint $738.58). The low **broke and held at 10:10** ($736.40) → **put**.
   - It ran to $733.57 by 10:43 and $727.00 by 10:54. **Shadow win at +50%** (the weekly budget made it shadow only).
   - The owner's own **SPXW 7270P @ $1.13 (10:08)**: SPX fell ≈ 70 points after entry, so the +50% mark ($1.70) was very likely hit. The owner's live trade.
 - **Counted paper trades today: none.** Shadows: the A2 SPY put +50%, and the QQQ F long (1:25) **−1R** (a failed range break on a flat VWAP).
