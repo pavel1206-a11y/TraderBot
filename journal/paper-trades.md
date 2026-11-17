@@ -7294,3 +7294,17 @@ ARMED (12:57–1:27):
 - `QQQ: short a close ≤ $653.20 / long ≥ $656.60, both on ≥ 1.5×, with R/R ≥ 1.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:12 PM ET): dead-flat range under VWAP; no trigger, no trade**
+- **Armed replay (12:57 lines):** none fired. SPY's lowest close was $731.37 (short ≤ $731.10), and the 1:00 low $730.82 was intrabar only. The high was $732.40 (long ≥ $733.60). QQQ's closes stayed between $653.77 and $654.31.
+- **SPY** $731.37, VWAP $732.59. **QQQ** $653.77, VWAP $655.02. Volume is very thin (79k / 37k).
+- **F range:** SPY **$730.82–733.17** since 12:35 ($2.35, 40 minutes; it qualifies at 1:20). QQQ $653.25–656.06.
+- **4H:** inside the morning wick; no D signal. **Score:** none.
+- No paper trades. Nothing open.
+
+ARMED (1:12–1:42):
+- `F short SPY (shadow, 0DTE put): a 5-min close ≤ $730.65 (under the range low) on volume ≥ 1.5× the prior 10-bar average; stop $732.00; target $728.20 (11:50 low); R/R 1.8; no chase under $730.25.`
+- `F/E long SPY (shadow, 0DTE call): a 5-min close ≥ $733.35 (above VWAP and the range high) on ≥ 1.5×; stop $732.10; target $735.4; R/R 1.6; no chase above $733.75.`
+- `QQQ: short a close ≤ $653.00 / long ≥ $656.30, both on ≥ 1.5×, with R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
