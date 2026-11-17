@@ -7069,3 +7069,14 @@ Market data and analysis only, not investment advice.
 - ORB (setups A and A2) = the 9:30–9:45 candle.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:43 AM ET): ORB forming**
+- ORB so far (9:30–9:40): **SPY $737.47–738.88**, **QQQ $659.80–663.17**; final at 9:45. SPY is trading around the PDL $738.07 (opened $738.39, low $737.47). QQQ dipped under its PDL $660.48 to $659.80 and is back at $661.33.
+- Correction to the 8:37 reply: QQQ PDH is **$672.15** (the journal had it right).
+
+ARMED/WATCH (9:45–10:12):
+- `ORB-FLAG SPY/QQQ (A): a 1-min close beyond the final 9:30–9:45 high/low on ≥ 1.5× the prior 20-bar volume → a 3–10 bar flag → a 1-min flag break $0.01–0.30 on volume above the flag average; stop flag far side ± $0.10. **Fractional leg only** (weekly budget $34; option legs as shadows).`
+- `A2 SPY/QQQ (owner's read, paper): a 1-min close beyond the high/low, then the next 1-min close holds → enter; stop the range midpoint ∓ $0.10; +50% or out by 11:00. **Shadow only this week** (weekly budget).`
+- `Owner levels: SPY PDL $738.07 / QQQ PDL $660.48. A hold above after 9:45 is a bullish reclaim; a 5-min close below is a breakdown.`
+
+Market data and analysis only, not investment advice.
