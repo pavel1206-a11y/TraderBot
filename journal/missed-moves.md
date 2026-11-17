@@ -396,3 +396,10 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 10:31–10:57 | +$3.3 in 26 min (744.06 → 747.35) | A bounce off $743.31 (under S1/PDL) back through the ORB low $746.65 | D long (sweep + reclaim) | The structure shift came at 10:50; we were short (#59–#61) and then at the daily limit. The D shadow later failed (−$3.38). |
 | 12:40–1:40 | −$4.8 in 60 min (743.5 → 738.73) | The 12:20–12:55 squeeze $742.76–743.85 broke at 1:00 ($742.20, 1.3×, QQQ the same bar; extended band) | F short | **Daily loss limit** (stood down at 10:58). Shadow: target $740.58 hit, +1.46R. |
 | 1:40–1:55 | +$3.4 in 15 min (738.73 → 742.13) | A capitulation-volume bounce under S2 | none | Counter-trend; no setup by design. |
+
+### 2026-11-17
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 10:10–10:54 | −$10.5 in 44 min (737.5 → 727.00) | An ORB-low break at 10:10 (1.55×), then a flag; the 10:30 bar on 674k (≈ 3.5×) broke S1 | A short (flag 10:18) / A2 put (10:10) | A: skipped on R/R 1.20 (the 2× pole target was hit, +1.2R). The 10:36–39 re-flag broke with a close $0.90 past the flag (outside the $0.01–0.30 band). A2 caught it (shadow +50%); the weekly budget kept it a shadow. |
+| 10:54–11:05 | +$4.75 in 11 min (727.00 → 731.75) | A capitulation low under S2, then a 926k bounce bar | none | Counter-trend V; no setup by design. |
+| 11:50–12:15 | +$6.2 in 25 min (728.22 → 734.41) | A higher low over $727.00, then a 1.02M bar (3.6×) at 12:05 | E long / D reclaim | The 12:05 trigger was still under VWAP with R/R 0.4 → rejected (correct by the rules); the 12:15 close was past the no-chase limit. |

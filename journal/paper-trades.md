@@ -7379,3 +7379,13 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** past the 2:30 entry cutoff. Nothing open, nothing armed, no scoring. Next: EOD at 3:47.
+
+### EOD 2026-11-17 (options only from today)
+- **A2 (the owner's read):**
+  - SPY's 9:30–9:45 range was $737.47–739.88 (midpoint $738.58). The low **broke and held at 10:10** ($736.40) → **put**.
+  - It ran to $733.57 by 10:43 and $727.00 by 10:54. **Shadow win at +50%** (the weekly budget made it shadow only).
+  - The owner's own **SPXW 7270P @ $1.13 (10:08)**: SPX fell ≈ 70 points after entry, so the +50% mark ($1.70) was very likely hit. The owner's live trade.
+- **Counted paper trades today: none.** Shadows: the A2 SPY put +50%, and the QQQ F long (1:25) **−1R** (a failed range break on a flat VWAP).
+- **Running totals (unchanged):** 60 trades, 30W/30L, +$139.98. SPY 54 +$152.91; QQQ 6 −$12.93. A-grade 0W/2L, −$53.96. A2 track: 1 counted trade (−$62); shadows: 11/17 +50%. Fractional track closed (30 trades, +$6.17). **Week: −$115.96 ($34.04 left)** → shadows until Monday.
+- **Day note:** a trend-down morning (an ORB-low break into a $10 flush) that A2 read perfectly and setup A's R/R gate skipped. Then a V off S2 and 3½ hours of chop across a flat VWAP (6 crosses). The VWAP-slope rule (checklist item 1) blocked every afternoon signal; the one shadow that ignored it lost.
+- **Owner changes today:** fractional stopped (options only); A2 primary; SPX/SPY/QQQ combined into one A2 signal (SPXW trade); the 9:47 alert task covers all three.

@@ -120,3 +120,11 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - The 9:47 alert task now reports all three ranges in one push.
 - To measure: whether the trades where SPY/QQQ confirmed did better than the
   ones where they didn't (decide after 10 signals).
+
+## 2026-11-17 EOD — observations (no tuning change today)
+
+- **A2:** 2nd straight day the owner's read caught the morning move (11/17 put +50% shadow; the owner's SPXW 7270P likely +50%). The A2 track is still at 1 counted trade; keep collecting.
+- **A R/R gate:** skipped another winner (10:18 flag, R/R 1.20 → target hit, +1.2R). Now 2 skips that would have won, 0 that would have lost. Watch this; a change needs ≥ 10 signals.
+- **Armed-line hygiene (process, not a setup rule):** every armed line now carries a VWAP-side condition and an R/R ≥ 1.5 check, and the no-chase band is ≤ 25% of the stop distance. The 12:05 and 1:25 fires showed the gap.
+- **Flat-VWAP chop:** the only afternoon shadow (the QQQ F long against a flat VWAP) lost −1R. Supports the existing checklist item 1; no change.
+- Pending owner decisions unchanged: revert change 2 (E swing stop) and change 3 (1.5R trail); the F-break ADX gate; A2 half-off at +50% with a breakeven stop; this week's weekly-budget override.
