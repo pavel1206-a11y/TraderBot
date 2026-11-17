@@ -7355,3 +7355,17 @@ ARMED (1:57–2:27; entries only until 2:30):
 - `No longs: VWAP is flat-to-down and the 1:25 break failed.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:12 PM ET): range low held again; no trigger, no trade**
+- **Armed replay (1:57 lines):** none fired. SPY's lowest close was $730.775 (band $730.35–730.60); the low $730.525 was intrabar only. QQQ's lowest close was $653.97 (band $652.80–653.10).
+- **SPY** $731.63, VWAP $732.49. **QQQ** $655.42, back **above** VWAP $654.99 (its 6th cross). SPY and QQQ diverge on VWAP.
+- **F range:** SPY $730.53–733.50 (the low tested 3 times and held). QQQ $653.25–656.87.
+- **4H:** inside the morning wick; no D signal. **Score:** none. 18 minutes are left in the entry window.
+- No paper trades. Nothing open.
+
+ARMED (2:12–2:30; the last list of the day):
+- `F short SPY (shadow, 0DTE put): a 5-min close $730.20–730.45 on volume ≥ 1.5× the prior 10-bar average; stop $731.60; target $728.20; R/R ≥ 1.7. By 2:30.`
+- `No longs (VWAP flat; the 1:25 QQQ break failed; SPY under VWAP).`
+- `QQQ: no line (whipping across VWAP).`
+
+Market data and analysis only, not investment advice.
