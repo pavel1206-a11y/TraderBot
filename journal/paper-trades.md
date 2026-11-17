@@ -7225,3 +7225,23 @@ ARMED (11:57–12:27):
 - `QQQ: short a close ≤ $649.70 / long ≥ $653.10, both on ≥ 1.5×.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:12 PM ET): armed longs fired at 12:05 on a 1M-volume pop, but were rejected (below VWAP, R/R 0.4); no trade**
+- **Armed replay (11:57 lines):**
+  - **SPY long (≥ $730.70 on ≥ 1.5×):** the 11:55 close $731.01 was only 1.34× (388k / 290k), so not yet. **The 12:05 close $731.64 on 1.02M (≈ 3.6× the prior 10-bar average of 286k) fired.** But:
+    - It was still **under VWAP** ($732.60), so 0DTE checklist item 1 fails for a long.
+    - Target VWAP $732.8 against stop $728.80 → R/R ≈ **0.4**.
+    - **Rejected; no shadow logged.** The 12:05 high was $733.30 (wick into VWAP); SPY is $732.24 now.
+  - **QQQ long (≥ $653.10):** the 12:05 close $653.32 on 526k (≈ 2.4×) fired, but it was under VWAP $655.01 → rejected the same way.
+  - Shorts (SPY ≤ $728.10 / QQQ ≤ $649.70): did not fire.
+- **Lesson (arming):** the 11:57 long lines had no VWAP condition and no R/R check. From now on, armed lines carry both (long only on a close above VWAP, R/R ≥ 1.5 to the stated target), so a fired line is tradable as written.
+- **4H:** the new candle is now a higher low ($728.22 > $727.00) with a pop into VWAP. Watch for a D-style reversal only on a hold above VWAP. **F:** the range since 11:05 is $728.22–733.35 ($5.13, too wide).
+- **Score:** no A/B setup; price is pinned just under VWAP again (chop).
+- No paper trades. Nothing open.
+
+ARMED (12:12–12:42):
+- `E long SPY (shadow, 0DTE call): a 5-min close ≥ $732.90 (above VWAP) on volume ≥ 1.5× the prior 10-bar average; stop $731.30; target $735.4 (S1); R/R ≥ 1.5. No chase above $733.40.`
+- `E short SPY (shadow, 0DTE put): a 5-min close ≤ $730.30 (rejected at VWAP) on ≥ 1.5×; stop $732.70; target $727.00 (R/R ≈ 1.4 → only if the close is ≥ $730.10, else skip).`
+- `QQQ: long a close ≥ $655.30 (above VWAP) / short ≤ $651.80, both on ≥ 1.5×, with R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
