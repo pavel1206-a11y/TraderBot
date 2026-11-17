@@ -7189,3 +7189,21 @@ ARMED (11:27–11:57):
 - `QQQ: the same idea (short ≤ $652.30 / long ≥ $656.60, both on ≥ 1.5×).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:42 AM ET): slow grind lower under VWAP on thin volume; no trade**
+- **Armed replay (11:27 lines):**
+  - SPY short: the 11:30 close **$730.77** went under $730.90, but on 294k against a prior 10-bar average of 631k (0.47×, needs 1.5×). **Not a trigger.** The low since is $729.62.
+  - QQQ short (≤ $652.30): no completed close under it yet (11:30 close $652.65; the 11:40 bar is still forming at $652.18).
+  - Longs: did not fire.
+- **SPY** is at $729.98, under a falling VWAP of $733.09, with lower highs and lower lows since 11:05. **QQQ** is at $652.18, under its VWAP of $655.47.
+- **Note for EOD:** the prior 10-bar average still includes the 10:40–11:00 flush bars (0.9–1.1M), so a 1.5× bar is out of reach for about another 20 minutes. Logged as an observation, not a change.
+- **4H:** the 8 AM–12 PM candle closes at 12:00, with a long lower wick but drifting back down. **F:** the range broke down (low $730.96) before 45 minutes, so there's no F range.
+- **Score:** E short is the closest. Direction (checklist item 1) and structure (item 2) now agree, but there is no volume trigger, so it doesn't grade **B**. A2/A are closed. Weekly budget → shadow only anyway.
+- No paper trades. Nothing open.
+
+ARMED (11:42–12:12):
+- `E short SPY (shadow, 0DTE put): a 5-min close ≤ $729.40 on volume ≥ 1.5× the prior 10-bar average; stop $731.10; target $727.00 (today's low). No chase under $728.90.`
+- `E long SPY (shadow, 0DTE call): a 5-min close ≥ $731.60 (reclaims the breakdown) on ≥ 1.5×; stop $729.50; target $733.1 (VWAP).`
+- `QQQ: short a close ≤ $651.20 / long ≥ $654.00, both on ≥ 1.5×.`
+
+Market data and analysis only, not investment advice.
