@@ -7105,3 +7105,16 @@ Market data and analysis only, not investment advice.
   - 10:09 $736.86, then **10:10 $736.40 held → A2 put signal at 10:10** (2 min after the owner).
   - Stop $738.68. Shadow only (weekly budget).
   - The same 10:10 bar was the **setup A break** (70k ≈ 1.55×); the flag is next.
+
+**Setup check (10:14 AM ET): SPY broke the ORB low (A break 10:10); flag forming; no entry yet**
+- **Setup A:** the break bar was 10:10 (close $736.40, 70k ≈ 1.55×). Flag 10:11–10:13 (closes $737.28–737.38, all still under $737.47; high $737.90, low $736.37). A flag break needs a 1-min close $0.01–0.30 under the flag low on volume above the flag average.
+  - With the stop at the flag high + $0.10 ($738.00) and the target at S1 $735.41 / 2× pole ≈ $733.9, **R/R ≈ 1.3 < 1.5 → it would be skipped unless the flag tightens.**
+- **A2 SPY shadow** ($736.40, stop $738.68): $737.28 (−$0.88).
+- **Owner's SPXW 7270P** (stop SPX 7,405, +50% $1.70): open.
+- QQQ: $659.75 (under its $659.80 ORB low; break 10:09–10:10 on ≈ 1.2×, below the A volume bar).
+
+ARMED (10:14–10:42):
+- `ORB-FLAG SPY short (A, fractional only): a 1-min close $0.01–0.30 under the flag low (now $736.37) on volume above the flag average, with R/R ≥ 1.5 to $733.9 (2× pole) using stop flag high + $0.10; else skip. A 1-min close back above $737.47 cancels.`
+- `A2 SPY shadow: stop a 1-min close ≥ $738.68; +50% or out at 11:00.`
+
+Market data and analysis only, not investment advice.
