@@ -7130,3 +7130,15 @@ ARMED (10:28–10:57):
 - `ORB-FLAG SPY short (A, fractional only): a new 3–10 bar flag under $737.47 → a 1-min close $0.01–0.30 below its low on volume above the flag average, only if R/R ≥ 1.5 to $733.86; a close back above $737.47 cancels. Window to 11:30.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:43 AM ET): the breakdown extended — SPY −$3 in 10 min**
+- SPY broke $736.07 at 10:30 on 674k (≈ 3.5×): low **$733.57**, now $733.96. QQQ low $654.56, now $654.95. Both are under S1 (SPY $735.41, QQQ $657.44).
+- **Skipped A flag short (R/R 1.20):** its 2× pole target $733.86 was reached (low $733.57). It would have been a +1.2R winner. Logged against the A R/R gate (with change 6, the target, not the gate, was right here).
+- **A2 SPY shadow** $736.40 → $733.96 = **+$2.44** (the 0DTE put would be well past +50% → a shadow win at +50%).
+- **Owner's SPXW 7270P:** SPX is down ~25 pts more since 10:10 → likely well past its +50% ($1.70) mark.
+- No paper trades (weekly budget: fractional only, and no fractional entry qualified). Nothing open.
+
+ARMED (10:43–11:12):
+- `ORB-FLAG SPY short (A, fractional only): a new 3–10 bar flag under $734.69 → a 1-min close $0.01–0.30 below its low on volume above the flag average, R/R ≥ 1.5 to S2 $730.86; by 11:30.`
+
+Market data and analysis only, not investment advice.
