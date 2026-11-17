@@ -7369,3 +7369,11 @@ ARMED (2:12–2:30; the last list of the day):
 - `QQQ: no line (whipping across VWAP).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:27 PM ET): no trigger; entry window closes at 2:30**
+- **Armed replay (2:12 line):** the SPY short (a close at $730.20–730.45) did not fire. The lowest close was $731.07; the low $730.675 was intrabar only.
+- **SPY** $731.19 and **QQQ** $654.34. Still inside the midday ranges (SPY $730.53–733.50).
+- **Score:** none. No new 0DTE entries after 2:30, so no ARMED list. Nothing open; nothing to close.
+- **Day so far:** no counted paper trades. Shadows: the A2 SPY put was +50%; the QQQ F long (1:25) was −1R. The owner's SPXW 7270P was a likely win. EOD review at 3:47.
+
+Market data and analysis only, not investment advice.
