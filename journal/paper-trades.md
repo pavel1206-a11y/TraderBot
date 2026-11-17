@@ -7142,3 +7142,16 @@ ARMED (10:43–11:12):
 - `ORB-FLAG SPY short (A, fractional only): a new 3–10 bar flag under $734.69 → a 1-min close $0.01–0.30 below its low on volume above the flag average, R/R ≥ 1.5 to S2 $730.86; by 11:30.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:57 AM ET): SPY flushed through S2 to $727.00, now bouncing; no trade**
+- **Armed A flag short (replayed on 1-min):** a 4-bar flag formed 10:36–10:39 (high $734.35, low $733.57, average volume 99.8k). The 10:40 close **$732.675** came on 128.8k, but that was $0.90 under the flag low, past the $0.01–0.30 entry band. Its R/R was also ≈1.0 to S2 $730.86 (stop $734.45). **No entry.** After that, SPY fell straight down with no new flag before S2 broke (10:42–10:44). With S2 gone there was no target left for the R/R gate.
+- The flush ran to a **$727.00 low at 10:54**. SPY is back at **$730.94** now (10:56 bar 293k, a sharp bounce to just above S2). QQQ low $646.65.
+- **A2 SPY shadow** ($736.40 put signal at 10:10): closed as a **shadow win at +50%** (reached by 10:43; SPY was $733.96 then). Out before 11:00. Shadow only, so it does not count in the totals.
+- **Owner's SPXW 7270P** (@ $1.13): SPX is about 70 points under its 10:10 level. The +50% mark ($1.70) was very likely hit. The owner's rule says out by 11:00.
+- No paper trades. Nothing open. Week stays at −$115.96 ($34.04 left).
+
+ARMED (10:57–11:27):
+- `No A short: S2 is broken and there is no level left for the R/R gate. A 5-min close back under $730.10 with a lower high is a short watch only (fractional, ≤ $34 risk).`
+- `F range watch: 10:44–10:57 range $727.00–731.18; a break after 11:30 is scored at the next check.`
+
+Market data and analysis only, not investment advice.
