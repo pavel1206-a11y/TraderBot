@@ -7377,3 +7377,5 @@ Market data and analysis only, not investment advice.
 - **Day so far:** no counted paper trades. Shadows: the A2 SPY put was +50%; the QQQ F long (1:25) was −1R. The owner's SPXW 7270P was a likely win. EOD review at 3:47.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** past the 2:30 entry cutoff. Nothing open, nothing armed, no scoring. Next: EOD at 3:47.
