@@ -7322,3 +7322,22 @@ ARMED (1:27–1:57):
 - `F long QQQ (shadow): a 5-min close ≥ $656.30 on ≥ 1.5×; stop $654.90; target $659.0; R/R 1.9; no chase above $656.80. Short ≤ $653.00 on ≥ 1.5×.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:42 PM ET): QQQ F long fired at 1:25 and stopped at 1:35 (shadow, −1R); SPY missed by 2¢**
+- **Armed replay (1:27 lines), final 1:25 bars:**
+  - **SPY F long (≥ $733.35):** closed **$733.33**, $0.02 short, on 205k against a 149k average (1.38×). **Not a trigger.**
+  - **QQQ F long (≥ $656.30 on ≥ 1.5×; no chase above $656.80):** closed **$656.72** on 224k against a 104k average (**2.14×**). **Fired (armed, replayed), shadow only** (weekly budget).
+    - Entry $656.72 / stop $654.90 / target $659.0. At this entry the R/R was only 1.25. The 1.9 on the line was figured from $656.30; the $0.50 no-chase band was too wide for a $1.40 stop.
+    - **1:30** high $656.87; **1:35** low **$654.72 → stop hit. Shadow −1R** (not counted; no option fill was priced).
+    - The 0DTE checklist would also have blocked it: VWAP was **flat** (655.0 all midday, not sloping up), and it was the 5th VWAP cross. Two lessons: (1) on flat-VWAP chop days, a range-edge break failed straight back; (2) keep no-chase bands at ≤ 25% of the stop distance so the R/R holds at any fill inside the band.
+  - Shorts: did not fire.
+- **SPY** $731.44 and **QQQ** $654.29, both back under VWAP ($732.57 / $655.04). The **F range is intact**: SPY $730.82–733.50, QQQ $653.25–656.87.
+- **4H:** inside the morning wick; no D signal. **Score:** none.
+- No paper trades. Nothing open.
+
+ARMED (1:42–2:12):
+- `F short SPY (shadow, 0DTE put): a 5-min close $730.40–730.65 (under the range low) on volume ≥ 1.5× the prior 10-bar average and VWAP sloping down; stop $731.90; target $728.20; R/R ≥ 1.7.`
+- `F long SPY (shadow, 0DTE call): a 5-min close $733.55–733.80 on ≥ 1.5× with VWAP sloping up; stop $732.40; target $735.4; R/R ≥ 1.4 → only at ≤ $733.65 (R/R 1.4–1.5); skip above.`
+- `QQQ: short a close $652.80–653.10 on ≥ 1.5× (stop $654.80, target $649.9, R/R ≥ 1.7). No QQQ long (failed break at 1:35).`
+
+Market data and analysis only, not investment advice.
