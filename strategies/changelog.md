@@ -94,3 +94,17 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
   - **6. ORB 2× pole / next-level target: KEEP.** 1 for (#55), 2 weak for, rest neutral.
   - Because all six were owner-approved, the two reverts are proposed, not applied. **No playbook edits today.**
   - New observation: F-break shadows are now 5/5 winners (11/10, 11/12, 11/13 ×2, 11/16).
+
+## 2026-11-17 — Owner: stop fractional trades; options only, A2 first
+
+- **Owner instruction (not a tuning change):** "Stop the fractional share
+  trades going forward. And focus on options trading and my rules."
+- CLAUDE.md trade rule 8 now reads "options only"; rule 1 no longer mentions
+  alert stops for fractional shares; the Strategy section names A2 as the
+  primary setup.
+- Playbook: section 9 (fractional) marked retired; A2 marked primary and
+  checked first each morning; SPY/QQQ notes and scoreboard are options-only.
+- Fractional track closed at 30 trades, +$6.17.
+- Effect this week: the weekly loss budget left is $34.04, below an A2
+  contract's $75–125 premium, so A2 and other option signals are logged as
+  shadows until Monday 11/23 unless the owner says otherwise.

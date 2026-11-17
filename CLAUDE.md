@@ -35,9 +35,8 @@ the owner's A2 setup, whose one-contract buys at $0.75–1.25 may cost up to
 
 ## Trade rules
 
-1. **Every trade has a stop from the start.** Place the stop order (or, for
-   fractional shares that cannot take a stop, a Robinhood price alert at the
-   stop level) right after the entry fills.
+1. **Every trade has a stop from the start.** Place the stop order right
+   after the entry fills.
 2. **Stops only move up, never down.** Moving a stop is cancel-and-replace;
    there is no edit.
 3. **Plan before entry:** entry price, stop, target, position size, and the
@@ -61,11 +60,10 @@ the owner's A2 setup, whose one-contract buys at $0.75–1.25 may cost up to
    - Buy with limit orders, not market.
    - Stop-limit can be GTC; stop-market is GFD and regular hours only, so it
      must be re-placed each trading day.
-8. **Fractional shares** (playbook section 9): SPY/QQQ for bullish, SH/PSQ
-   (1x inverse) for bearish. Market orders, regular hours only. Position at
-   most 50% of the account; risk (position × distance to stop) within the 5%
-   rule. The stop is a Robinhood price alert, sold at market when it fires.
-   Same-day only: out by 3:45 PM ET, no overnight holds.
+8. **Options only (owner, 2026-11-17).** Fractional share trades are
+   stopped: no fractional entries, paper or real. Playbook section 9 is
+   retired. Focus on options under the owner's rules: setup A2 (the owner's
+   15-minute candle read) first, then the other playbook setups.
 
 ## Current phase: PAPER TRADING
 
@@ -86,6 +84,12 @@ stop, target, and result taken from real quotes. No Robinhood write actions
 - If not passed: keep paper trading and adjust the playbook first.
 
 ## Strategy
+
+**Focus (owner, 2026-11-17): options only, the owner's rules first.** Setup
+A2 (mark the 9:30–9:45 candle high/low and the previous day's high/low; after
+9:45 a cross that holds → calls or puts at $0.75–1.25; stop the range
+midpoint ∓ $0.10; +50% or out by 11:00) is the primary setup and is checked
+first every morning.
 
 Find and score trades with `strategies/playbook.md`: the daily routine, key
 levels, the confluence score card (A/B/C grades), the six allowed setups

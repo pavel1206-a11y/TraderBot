@@ -94,10 +94,12 @@ itself is **not** the entry; it only tells us which way to look.
 7. One long and one short setup per symbol per day. Reward/risk ≥ 1.5 to that
    reference target and a B or better on the score card, as for every setup.
 
-### A2. Owner's ORB direct read (owner, 2026-11-13; paper-tracked alongside A)
+### A2. Owner's ORB direct read (owner, 2026-11-13; PRIMARY setup from 2026-11-17)
 
-The owner's own way of trading the first 15-minute candle. It is logged as its
-own setup next to A, so the two can be compared on the same days.
+The owner's own way of trading the first 15-minute candle. From 2026-11-17 it
+is the primary setup (owner: "focus on options trading and my rules"): checked
+first at every morning check, before A–F. It is still logged as its own setup
+next to A, so the two can be compared on the same days.
 
 1. **Mark the range:** the high and low of 9:30–9:45 (the same as A), plus
    the **previous day's high and low** (the owner's green and red lines) as the
@@ -354,7 +356,11 @@ at least 10 signals or 2 weeks: keep it if it beats the old rule on the same
 signals (replayed), revert it if not. The Friday review lists every change
 made that week and its result so far.
 
-## 9. Fractional share trades (dollar-based)
+## 9. Fractional share trades (dollar-based) — RETIRED
+
+**Stopped by the owner on 2026-11-17: options only.** No fractional entries,
+paper or real. The section is kept for the record only; past fractional
+results stay in the journal (30 trades, +$6.17).
 
 A second, lower-risk way to trade the same confluence signals: buy a dollar
 amount of an ETF instead of an option. Moves are smaller than 0DTE, but so is
@@ -511,12 +517,12 @@ the first complete sequence exactly as written, no partial credit.
   symbol may open in the same direction when it comes from a **different
   setup** (e.g. QQQ ORB flag while SPY holds an E long), as long as the
   CLAUDE.md caps hold: at most 3 open positions and 20% total open risk per
-  track (paper option and fractional legs are separate tracks). (10/27: the
+  (options only since 2026-11-17). (10/27: the
   rule blocked a QQQ ORB-flag winner, +0.74R shadow.)
 - QQQ options: QQQ has daily expirations; same section 6 rules (at the money
-  or 1–2 strikes out, premium ≤ $100). Fractional: QQQ (long) / PSQ (short).
-- The scoreboard tracks SPY and QQQ separately, and options and fractional
-  separately, as before.
+  or 1–2 strikes out, premium ≤ $100; A2 $0.75–1.25).
+- The scoreboard tracks SPY and QQQ separately (options only from
+  2026-11-17; the fractional track is closed).
 
 ### Standing line: VWAP reclaim call (owner request, 2026-10-15)
 
