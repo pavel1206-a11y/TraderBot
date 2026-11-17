@@ -7094,3 +7094,14 @@ ARMED/WATCH (10:00–10:27):
 - `A2 SPY/QQQ (shadow): a cross + 1-min hold beyond the range; stop the midpoint; +50% or 11:00.`
 
 Market data and analysis only, not investment advice.
+
+**Owner's A2 trade (watchlist), 10:08 AM:** **SPXW 11/17 7270P × 1 @ $1.13.** SPX broke its 9:30–9:45 low (blue 7,393.80; high 7,414.76; red PDL 7,400.13) and confirmed. At 10:10: $1.53 (+35%; bid $1.50 / ask $1.55), SPX 7,383.99.
+- By A2 rules:
+  - Stop = SPX range midpoint (7,414.76 + 7,393.80) / 2 = 7,404.28, + 1 pt → **SPX 7,405.3**.
+  - +50% = **$1.70**.
+  - Out by 11:00.
+- **Bot's A2 read on SPY (1-min):**
+  - 10:05 closed $737.35 under the low $737.47; 10:06 closed back inside → failed.
+  - 10:09 $736.86, then **10:10 $736.40 held → A2 put signal at 10:10** (2 min after the owner).
+  - Stop $738.68. Shadow only (weekly budget).
+  - The same 10:10 bar was the **setup A break** (70k ≈ 1.55×); the flag is next.
