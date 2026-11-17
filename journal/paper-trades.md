@@ -7155,3 +7155,19 @@ ARMED (10:57–11:27):
 - `F range watch: 10:44–10:57 range $727.00–731.18; a break after 11:30 is scored at the next check.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:12 AM ET, options only from now on): V-reversal back to VWAP; no trade**
+- **Owner instruction (11:05):** no more fractional trades; options only, with A2 checked first. (CLAUDE.md, playbook and scheduled checks updated.)
+- **A2:** the 9:45–10:30 window is closed. Today's SPY A2 put signal (10:10, $736.40) was a shadow win at +50%. The owner's SPXW 7270P was a likely win.
+- **Armed replay (10:57 lines):** the short watch (a 5-min close back under $730.10 with a lower high) **did not fire**. The 10:55 bar closed at $731.33 on 926k. The F range didn't hold; it became a V.
+- **SPY:** $727.00 low (10:54), then **+$6 to $733.02**, right at VWAP **$733.36** (ADX 38.6). **QQQ:** low $646.65, now $655.67, at VWAP $655.77 (ADX 28.0).
+- **4H (8 AM–12 PM candle):** big down candle. The low was swept at 10:54 and is now being bought back. Watch the 12 PM candle open for setup D (a reversal long needs a hold above the 8 AM open area).
+- **Score:** none. Price is sitting on VWAP after a V, with no side holding. **0DTE checklist item 1 fails** (no clear direction). And with $34.04 of weekly budget left, any option signal is a **shadow only** until Monday.
+- No paper trades. Nothing open.
+
+ARMED (11:12–11:42):
+- `E long SPY (shadow, 0DTE call): a 5-min close ≥ $733.60 (above VWAP) on volume ≥ 1.5× the prior 10-bar average, with a higher low held above $731.74; stop under that low; target R1 / the $736 area. No chase above $734.20.`
+- `E short SPY (shadow, 0DTE put): a 5-min close ≤ $731.20 (rejected at VWAP) on ≥ 1.5× volume; stop above $733.35; target $729.`
+- `QQQ: the same bands around its VWAP $655.77 (long ≥ $656.10 / short ≤ $653.50).`
+
+Market data and analysis only, not investment advice.
