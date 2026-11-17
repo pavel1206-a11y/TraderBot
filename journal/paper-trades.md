@@ -7053,3 +7053,19 @@ Market data and analysis only, not investment advice.
   - The ORB-low break at 10:00 was right, but A's flag entry at 10:16 came $2.50 into the move and was stopped by a 25-min bounce to $747.35 one minute before its time stop.
   - A2's entry at 10:01 was earlier, but its +50% never came before the 11:00 exit, and the 741P bled time value.
   - The best-shaped trade of the day was the midday F breakdown (12:55 range → target), which the daily limit kept us out of.
+
+### 2026-11-17 (Tue)
+**Pre-market brief (8:37 AM ET)**
+- SPY PDH **$749.82** / PDL **$738.07**; pre **$738.87**, between, $0.80 above the PDL. Overnight low $735.71: **the PDL was swept and reclaimed** pre-market.
+- QQQ PDH **$672.15** / PDL **$660.48**; pre **$663.27**, between, $2.79 above the PDL. Overnight low $657.01: **swept and reclaimed**.
+- Previous close: SPY $739.95, QQQ $661.75.
+- Pivots:
+  - SPY: P $742.61, R1 $747.16, R2 $754.36, S1 $735.41, S2 $730.86.
+  - QQQ: P $664.79, R1 $669.11, R2 $676.46, S1 $657.44, S2 $653.12.
+- SMAs: SPY 20-day $757.69, 50-day $763.82. QQQ 20-day $692.62, 50-day $716.72. Both are well below both.
+- **Events:** **NVDA earnings after the close today** (after the 3:30 0DTE exit; afternoon positioning risk). HD, DIS and JD reported this morning. The economic calendar was not verified (no news feed); check for 8:30/10:00 releases.
+- **Bias: none.** The trend is down (below the SMAs, a −2% day yesterday), but both swept the PDL overnight and reclaimed it. Wait for a direction past the ORB after 9:45.
+- **Risk budget:** this week is at **−$115.96 of the $150 weekly loss limit** ($34.04 left). A full loss on a normal option ($90–125) would breach it. **Plan: fractional trades only (risk ≤ $34) this week unless the owner says otherwise**; option legs are logged as shadows.
+- ORB (setups A and A2) = the 9:30–9:45 candle.
+
+Market data and analysis only, not investment advice.
