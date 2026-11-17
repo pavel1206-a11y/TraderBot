@@ -7245,3 +7245,20 @@ ARMED (12:12–12:42):
 - `QQQ: long a close ≥ $655.30 (above VWAP) / short ≤ $651.80, both on ≥ 1.5×, with R/R ≥ 1.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:27 PM ET): back above VWAP on average volume; no trigger, no trade**
+- **Armed replay (12:12 lines):**
+  - SPY long: the 12:15 close **$734.22** crossed $732.90 but was past the no-chase $733.40, and on 352k against a prior 10-bar average of 351k (1.0×). **Not a trigger.**
+  - QQQ long: the 12:15 close $656.95 on 1.09×. **Not a trigger.**
+  - Shorts: did not fire.
+- **SPY** is $733.39, above VWAP $732.63 (flat). **QQQ** is $655.81, above VWAP $655.04. This is the third VWAP cross today, so checklist item 1 (a clear side) is still not met.
+- **4H:** the new candle has a higher low ($728.22) and is now back above VWAP. A possible D-style recovery, but not confirmed. **F:** SPY $731.39–734.51 for 15 minutes only.
+- **Score:** no A/B setup.
+- No paper trades. Nothing open.
+
+ARMED (12:27–12:57), each with a VWAP side and R/R ≥ 1.5:
+- `E long SPY (shadow, 0DTE call): a 5-min close ≥ $734.60 (above VWAP and the 12:15–12:25 high) on volume ≥ 1.5× the prior 10-bar average; stop $732.90; target $737.40 (ORB low retest); R/R 1.65. No chase above $735.00.`
+- `E short SPY (shadow, 0DTE put): a 5-min close ≤ $732.40 (back under VWAP) on ≥ 1.5×; stop $734.60; target $729.0; R/R 1.55. No chase under $732.00.`
+- `QQQ: long a close ≥ $657.60 (stop $655.40, target $661) / short ≤ $654.70 (stop $657.50, target $650.5), both on ≥ 1.5×.`
+
+Market data and analysis only, not investment advice.
