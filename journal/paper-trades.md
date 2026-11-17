@@ -7118,3 +7118,15 @@ ARMED (10:14–10:42):
 - `A2 SPY shadow: stop a 1-min close ≥ $738.68; +50% or out at 11:00.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:28 AM ET): the A flag break came, but skipped on R/R**
+- **SPY A flag break:** the 10:18 1-min close **$736.12** was $0.25 under the flag low $736.37 on 58.1k (> the flag average 43.4k). But stop $738.00 (flag high + $0.10) → 1R $1.88, and the target $733.86 (2× pole) → **R/R 1.20 < 1.5 → skipped** (S1 $735.41 is nearer still). Low after: $736.07; SPY $736.72 now (chop under the range).
+- **A2 SPY shadow** $736.40 → $736.72 (−$0.32); stop $738.68 not hit.
+- QQQ $659.27, chopping under its ORB low $659.80.
+- No paper trades. Nothing open.
+
+ARMED (10:28–10:57):
+- `A2 SPY shadow: stop a 1-min close ≥ $738.68; +50% or out at 11:00.`
+- `ORB-FLAG SPY short (A, fractional only): a new 3–10 bar flag under $737.47 → a 1-min close $0.01–0.30 below its low on volume above the flag average, only if R/R ≥ 1.5 to $733.86; a close back above $737.47 cancels. Window to 11:30.`
+
+Market data and analysis only, not investment advice.
