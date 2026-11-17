@@ -7080,3 +7080,17 @@ ARMED/WATCH (9:45–10:12):
 - `Owner levels: SPY PDL $738.07 / QQQ PDL $660.48. A hold above after 9:45 is a bullish reclaim; a 5-min close below is a breakdown.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:58 AM ET): ORB set; tight chop, nothing fired**
+- **Final ORB (9:30–9:45):**
+  - **SPY $737.47–739.69** (midpoint $738.58, $2.22 wide).
+  - **QQQ $659.80–663.36** (midpoint $661.58).
+- Replay 9:45–9:56 (1-min): SPY closes $738.24–739.20, all inside. QQQ closed $659.77 at 9:52 ($0.03 under its low, on 1.2×, not 1.5× → no A); the 9:53 close $661.18 was back inside → the A2 cross failed.
+- Both are pinned to their PDLs (SPY $738.07, QQQ $660.48). No direction → no setup.
+
+ARMED/WATCH (10:00–10:27):
+- `ORB-FLAG SPY (A, fractional only): a 1-min close above $739.69 or below $737.47 on ≥ 1.5× (≈ 75k) → flag → flag break $0.01–0.30; target $742.61 pivot / $735.41 S1.`
+- `ORB-FLAG QQQ (A, fractional only): the same at $663.36 / $659.80; target $664.79 pivot / $657.44 S1.`
+- `A2 SPY/QQQ (shadow): a cross + 1-min hold beyond the range; stop the midpoint; +50% or 11:00.`
+
+Market data and analysis only, not investment advice.
