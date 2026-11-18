@@ -7439,3 +7439,11 @@ ARMED (9:57–10:12):
 - `A (SPY/QQQ): a 1-min break of the range on ≥ 1.5× volume by 11:00 → flag → flag break (R/R ≥ 1.5).`
 
 Market data and analysis only, not investment advice.
+
+**Owner's A2 trade (watchlist), about 9:52 AM: SPXW 11/18 7450C × 1 @ $1.43.** At 10:01 it was $2.73 (+94%), SPX 7,352.71.
+- This is the playbook's **"swoop and come back → the other way"** rule (A2 step 2). SPX closed under the low at 9:47/9:48, then **closed back inside the range at 9:52 (7,329.60)** → call. The 7450C was $1.45 at the 9:52 close. It hit +50% ($2.15) at 9:58, with a high of $4.00 at 10:00.
+- **My miss:** the 9:57 check logged only the put and did not apply the swoop rule. Corrected below.
+- **Corrected shadows (rules as written):**
+  - **Put:** 9:48 SPY 722P @ $1.15 → the cross was undone at 9:52 (SPY $731.28, back inside the range) → **exit $0.62 = −$53.** A strict midpoint stop would still be open at −69%; the swoop rule's exit is better.
+  - **Call (the swoop reversal):** 9:52 SPXW 7450C @ $1.45 → **half at +50% ($2.18) at 9:58 = +$36.50**. The rest is trailed 1 bar from there (open).
+- Per the new A2 exit: half off at +50% (done in the shadow); the rest trails 1 bar (5-min low) and is out by 11:00.
