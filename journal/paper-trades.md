@@ -7685,3 +7685,5 @@ Market data and analysis only, not investment advice.
 - **Day so far (bot):** A2 shadows: put −$53, call +$55.50 (net +$2.50). No counted paper trades. **Owner: +$168** (3 trades). EOD at 3:47.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** past the 2:30 entry cutoff. Nothing open, nothing armed. EOD at 3:47.
