@@ -7614,3 +7614,14 @@ ARMED (12:57–1:27):
 - `QQQ long: a close $660.5–660.9 on ≥ 1.5×; stop $658.8; target $664.5; R/R ≥ 1.7.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:12 PM ET): drifting back to/under VWAP on light volume; no trigger**
+- **Armed replay:** none fired. The SPY short band ($729.90–730.20) was missed by 16¢ (the 1:05 close was $730.36). No long closes reached $733.0. QQQ: no close in $660.5–660.9.
+- **SPY** $730.36, at/just under VWAP (≈ $730.8); **QQQ** $657.99. The rally gave back half. Volume 87–137k (light). Nothing open.
+
+ARMED (1:12–1:42):
+- `Short SPY (shadow): a 5-min close $729.90–730.20 on ≥ 1.5× the prior 10-bar volume; stop $731.60; target $727.20; R/R ≥ 1.7.`
+- `Long SPY (shadow): a 5-min close $731.8–732.1 back over VWAP on ≥ 1.5×; stop $730.30; target $734.5; R/R ≥ 1.6.`
+- `QQQ short: a close $656.8–657.1 on ≥ 1.5×; stop $659.0; target $653.5; R/R ≥ 1.7.`
+
+Market data and analysis only, not investment advice.
