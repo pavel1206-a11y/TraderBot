@@ -136,3 +136,12 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - **Not chosen:** hold everything to 11:00 (+$816). It lost Feb–Oct; all of its profit came from the last 6 weeks, mostly from 11/5.
 - **Caveat:** no exit makes the mechanical A2 entry clearly profitable over 9 months. The exit change cuts losses; the edge question is about entries and the owner's discretion.
 - **Review:** after 10 A2 signals or 2 weeks (by 12/1), compare against the old rule on the same signals.
+
+## 2026-11-18 EOD — observations (no tuning change)
+
+- **A2 swoop rule:** the first live test. The 9:47–9:52 poke-and-return flipped to a call that ran to the opposite mark (shadow +$55.50; the owner +$118). Keep it.
+- **A2 exit (new, half +50% + 1-bar trail):** on the call, the trail exited the 2nd half at $1.83. The owner's "sell at the opposite mark" got $2.73 on the whole contract. Queued for the next backtest as variant f: "after a swoop reversal, target the opposite mark". No change yet (1 signal).
+- **E/F volume bar (1.5×):** missed today's 11:55–12:30 rally (0.88× at the trigger) and fell short at 1:30 (1.44×). 2 signals; no change. Track whether midday triggers should use 1.25× (needs ≥ 10 signals or a replay).
+- **Process:** 3 armed lines today lacked the VWAP-side condition; the 2:00 fire was rejected for it. Every line now states its VWAP side.
+- **High-IV day:** $0.75–1.25 SPXW contracts were 100–170 points out of the money (the 7260P was $15.40). The bot priced the put shadow on SPY instead. Worth asking the owner whether A2 should allow up to the $125 cap closer to the money on IV > 40% days.
+- Pending owner decisions unchanged (change 2/3 reverts, the F ADX gate, the weekly-budget override).

@@ -7687,3 +7687,13 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** past the 2:30 entry cutoff. Nothing open, nothing armed. EOD at 3:47.
+
+### EOD 2026-11-18 (options only)
+- **A2 (the owner's read, SPX/SPY/QQQ combined):**
+  - Range SPX 7,320.09–7,367.68 (SPY $730.24–735.06).
+  - **Put at 9:48** (SPX cross and hold; SPY and QQQ confirmed). Then a **swoop back inside at 9:52 → call**. The call ran to the opposite mark (SPX 7,366.7) by 10:00.
+  - **Shadows:** put −$53, call +$55.50 → **+$2.50.**
+  - **The owner's real trades:** put $1.10 → $0.95 (−$15), 7450C $1.55 → $2.73 (+$118), 7175P $1.35 → $2.00 stop (+$65; the 10:39 2nd break, outside the window) → **+$168**.
+- **Counted bot paper trades: none.** Lines fired at 1:20/1:30 (price met, under the volume bar) and at 2:00 (rejected: above VWAP).
+- **Running totals (unchanged):** 60 trades, 30W/30L, +$139.98. A2 track: 1 counted (−$62). A2 shadows: 11/17 +50%, 11/18 +$2.50. **Week −$115.96 ($34.04 left)** → shadows to Monday.
+- **Day note:** a two-sided morning. The A2 marks worked as both entry and target: the put → swoop-call flip → the opposite mark, then a second low break. The owner read it all live for +$168. The afternoon was a PDL double bottom into a $6.9 rally that the 1.5× volume bar missed, then VWAP chop.

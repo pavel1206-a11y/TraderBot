@@ -403,3 +403,10 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 10:10–10:54 | −$10.5 in 44 min (737.5 → 727.00) | An ORB-low break at 10:10 (1.55×), then a flag; the 10:30 bar on 674k (≈ 3.5×) broke S1 | A short (flag 10:18) / A2 put (10:10) | A: skipped on R/R 1.20 (the 2× pole target was hit, +1.2R). The 10:36–39 re-flag broke with a close $0.90 past the flag (outside the $0.01–0.30 band). A2 caught it (shadow +50%); the weekly budget kept it a shadow. |
 | 10:54–11:05 | +$4.75 in 11 min (727.00 → 731.75) | A capitulation low under S2, then a 926k bounce bar | none | Counter-trend V; no setup by design. |
 | 11:50–12:15 | +$6.2 in 25 min (728.22 → 734.41) | A higher low over $727.00, then a 1.02M bar (3.6×) at 12:05 | E long / D reclaim | The 12:05 trigger was still under VWAP with R/R 0.4 → rejected (correct by the rules); the 12:15 close was past the no-chase limit. |
+
+### 2026-11-18
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 10:00–10:41 | −$6.2 in 41 min (734.98 → 728.80) | The 10:00 spike failed at the range high (SPX 7,366.7 vs the 7,367.8 mark); lower highs; 2nd break of the range low at 10:39 | A2 put (2nd break) / A short | A2: both directions already used (put 9:48, call 9:52), and it was past the 10:30 window. A: the 10:43 break (2.8×) flagged 13 bars, past the 10-bar limit. **The owner caught it** (7175P +$65). |
+| 11:55–12:30 | +$6.9 in 35 min (727.16 → 734.03) | A PDL double bottom (11:20 sweep $726.80, 11:55 $727.16), then a VWAP reclaim | D/E long | The armed long hit its price at 12:15 on 0.88× (needs 1.5×); the 1.8× bar at 12:20 closed above the band (no chase). |
+| 1:55–2:05 | −$3.9 in 10 min (733.85 → 729.94) | A rejection under the 12:30 high; the 2:00 bar 2.3× | E short | The line fired, but the close was above VWAP (item 1 fails). The line was written without its VWAP condition. |
