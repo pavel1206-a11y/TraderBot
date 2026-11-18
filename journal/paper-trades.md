@@ -7403,3 +7403,15 @@ Market data and analysis only, not investment advice.
 - **Events:** earnings TGT/LOW/TJX (am, mostly beats); PANW after the close. I found no market-moving release in the data I checked (I didn't pull an economic calendar).
 - **Bias:** none, leaning bearish (downtrend under the SMAs; pre-market just above the pivot after a bounce).
 - **A2 today (options only; SPX/SPY/QQQ combined, trade = SPXW):** mark the 9:30–9:45 range. After 9:45, a cross that holds → calls/puts at $0.75–1.25; stop the range midpoint ∓ $0.10 (SPX ∓ 1.0). **New exit:** half at +50%, trail the rest 1 bar, out by 11:00. Weekly budget $34.04 → shadow only.
+
+**Setup check (9:42 AM ET): opening range forming; selling off the open**
+- **Forming 9:30–9:45 range (through 9:42):** SPY **H $735.06 / L $730.24** (≈ $4.82 wide, midpoint ≈ $732.65), now $731.37. QQQ **H $662.65 / L $655.08**, now $656.97. Both sold off from the open (SPY under its pivot $733.07; QQQ under its open). Final marks at 9:45.
+- Levels: SPY PDH $739.76 / PDL $727.00, S1 $726.37. QQQ PDH $663.36 / PDL $646.64, S1 $647.94.
+- No entries before 9:45. Nothing open.
+
+ARMED / WATCH (9:45–10:12):
+- `A2 (SPX/SPY/QQQ, trade = SPXW; shadow — weekly budget): after 9:45, a 1-min close beyond the final 9:30–9:45 high (calls) or low (puts), and the next 1-min close holds → $0.75–1.25 0DTE contract; stop the range midpoint ∓ $0.10 (SPX ∓ 1.0); half at +50%, trail the rest 1 bar, out by 11:00. Entries by 10:30.`
+- `ORB-FLAG SPY/QQQ (A): a 1-min close beyond the final range on ≥ 1.5× the prior 20-bar volume by 11:00 → a 3–10 bar flag → a 1-min close $0.01–0.30 past the flag on above-flag volume by 11:30; R/R ≥ 1.5.`
+- `Context: a put break would aim at SPY PDL $727.00 / S1 $726.37; a call break at the pivot $733.07, then $735+.`
+
+Market data and analysis only, not investment advice.
