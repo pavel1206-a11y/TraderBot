@@ -7475,3 +7475,14 @@ ARMED (10:12–10:42):
 - `Owner watch: SPX 1-min closes < 7,319.96 held = put / back > ≈ 7,344 = the drop failed. No entries after 10:30; out by 11:00.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:27 AM ET): SPX chopping mid-range; no cross, no trade**
+- Since 10:12, SPX has traded 7,324.40–7,350.08 and is now 7,330.51: inside the range (7,320.09–7,367.68) and around its midpoint. No 1-min cross of either mark, so no A2 signal (both shadow directions were already used).
+- SPY $731.02 (5-min), QQQ $658.72. Both are chopping around a flat VWAP. Setup A: no qualifying break.
+- The A2 entry window closes at 10:30. Nothing open.
+
+ARMED (10:27–10:57):
+- `A (SPY/QQQ): a 1-min close beyond the range on ≥ 1.5× the prior 20-bar volume by 11:00 → flag → flag break by 11:30; R/R ≥ 1.5.`
+- `E (later): a 5-min close through VWAP with ≥ 1.5× the prior 10-bar volume, the VWAP side matching, R/R ≥ 1.5, no-chase ≤ 25% of the stop.`
+
+Market data and analysis only, not investment advice.
