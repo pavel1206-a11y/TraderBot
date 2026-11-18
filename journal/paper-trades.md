@@ -7573,3 +7573,18 @@ ARMED (12:12–12:42):
 - `QQQ: long a close $658.50–658.90 on ≥ 1.5× (stop $656.80, target $662.6).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:27 PM ET): the PDL double bottom became a rally (+$5.4 from the low); the armed long missed on volume and then on the band**
+- **Armed replay:**
+  - SPY long (a close $731.00–731.40 on ≥ 1.5×): the 12:15 close **$731.04** was in the band but on 149k against a 170k average (0.88×) → **not a trigger**. The 12:20 bar was 1.8× (298k) but closed **$732.55**, above the band (no chase) → **skip**.
+  - QQQ long ($658.50–658.90): the 12:15 close $658.43 was $0.07 under the band; 12:20 closed $660.47, above it. **Not a trigger.**
+  - Shorts: did not fire.
+- **SPY** $732.55, above VWAP (≈ $730.6, turning up); **QQQ** $660.47. A higher low (11:55 $727.16 > 11:20 $726.80) plus a reclaim of VWAP = a D-style reversal. Missed by the volume/band rules (logged for EOD).
+- Nothing open.
+
+ARMED (12:27–12:57):
+- `E/D long SPY pullback (shadow, 0DTE call): a 5-min bar that dips to $731.0–731.6 (VWAP retest) and closes ≥ $731.8 on ≥ 1.0× the prior 10-bar volume; stop $730.30; target $735.0 (prior 10:00 area); R/R ≥ 2.`
+- `Short (shadow): a 5-min close back under $730.30 (VWAP lost) on ≥ 1.5×; stop $732.70; target $727.20; R/R ≥ 1.3 → skip unless the close is ≤ $730.0.`
+- `QQQ: a pullback hold at $658.0–658.6 with a close ≥ $659.0 (stop $657.2, target $663).`
+
+Market data and analysis only, not investment advice.
