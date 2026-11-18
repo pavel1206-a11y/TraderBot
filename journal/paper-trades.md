@@ -7447,3 +7447,14 @@ Market data and analysis only, not investment advice.
   - **Put:** 9:48 SPY 722P @ $1.15 → the cross was undone at 9:52 (SPY $731.28, back inside the range) → **exit $0.62 = −$53.** A strict midpoint stop would still be open at −69%; the swoop rule's exit is better.
   - **Call (the swoop reversal):** 9:52 SPXW 7450C @ $1.45 → **half at +50% ($2.18) at 9:58 = +$36.50**. The rest is trailed 1 bar from there (open).
 - Per the new A2 exit: half off at +50% (done in the shadow); the rest trails 1 bar (5-min low) and is out by 11:00.
+
+**Owner's account of the trade (10:04, 30-second SPX chart):**
+- **The owner's marks:** 7,367.83 / 7,319.96. They match the data within about 0.15 (7,367.68 / 7,320.09).
+- **Put first:** the owner held a put from the breakdown and **sold it on the reversal**: the strong green 30-second candle that closed back above 7,319.96, about 9:51–9:52. Entry and exit prices are not given yet.
+- **Then the call:** SPXW 7450C @ $1.43, sold into the spike for a **quick ≈ +$200** before the pullback.
+  - SPX ran to **7,366.71, 1.1 points under the upper mark (7,367.83)**, and reversed with a big red candle. SPX is 7,341.43 at 10:04.
+  - The 7450C's 1-min high was $4.00 at 10:00, so ≈ +$200 means a fill around $3.40–3.45.
+- **What the owner did that the rules don't yet say:**
+  1. Took the flip on a **30-second** reversal candle (the rules use 1-min closes).
+  2. Took profit **at the opposite mark** (the range high) instead of waiting for a trail. That captured ≈ +140%. My 1-bar trail would have exited near $2.3–2.7 after the reversal.
+- **Observation (1 signal, no rule change yet):** on a swoop reversal, the opposite range edge was the natural target. Test it: "swoop reversal → target the opposite mark" as an A2 exit variant, in the next backtest run.
