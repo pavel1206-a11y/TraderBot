@@ -7459,3 +7459,19 @@ Market data and analysis only, not investment advice.
   2. Took profit **at the opposite mark** (the range high) instead of waiting for a trail. That captured +76% on the whole contract. My 1-bar trail would have exited at a similar $2.3–2.7, but only on the second half.
 - **Observation (1 signal, no rule change yet):** on a swoop reversal, the opposite range edge was the natural target. Test it: "swoop reversal → target the opposite mark" as an A2 exit variant, in the next backtest run.
 - **Owner's put (corrected by the owner):** bought @ $1.10, sold @ $0.95 on the reversal → **−$15**. **Owner's call (confirmed):** SPXW 7450C bought @ $1.55, sold @ $2.73 → **+$118 (+76%)** (the watchlist showed $1.43, the time it was added). **Owner's morning: +$103** on two one-contract trades, both out before 10:05.
+
+**Setup check (10:12 AM ET): A2 call shadow closed on the trail; both A2 directions used**
+- **A2 call shadow (SPXW 7450C @ $1.45, 9:52):**
+  - Half came off at $2.18 (+$36.50).
+  - The rest trailed under the 10:00 5-min bar's low (SPX 7,340.51) and was **stopped in the 10:05 bar** (low 7,338.38) at ≈ $1.83 → +$19.
+  - **Call shadow +$55.50.** The put shadow was −$53 (out at 9:52 on the swoop). **A2 shadows net +$2.50.**
+  - The owner's real trades: put −$15, call +$118 = **+$103**. The owner sold the whole call at $2.73, beating the trail, which gave back the 10:00 spike.
+- **Now:** SPX ≈ 7,330–7,335, inside the range (7,320.09–7,367.68). SPY $731.85 just under a flat VWAP ($732.00). QQQ $659.60.
+- **A2:** one trade per direction per day; both are used, so no more A2 shadows today. The owner may still trade a clean cross by 10:30.
+- **Setup A:** no break bar reached 1.5× volume. Nothing open.
+
+ARMED (10:12–10:42):
+- `A (SPY/QQQ): a 1-min close beyond the range (SPY $730.24 / $735.06; QQQ $655.08 / $662.65) on ≥ 1.5× the prior 20-bar volume by 11:00 → flag → flag break; R/R ≥ 1.5.`
+- `Owner watch: SPX 1-min closes < 7,319.96 held = put / back > ≈ 7,344 = the drop failed. No entries after 10:30; out by 11:00.`
+
+Market data and analysis only, not investment advice.
