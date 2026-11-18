@@ -7505,3 +7505,14 @@ ARMED (10:42–11:12):
 
 Market data and analysis only, not investment advice.
 - **Owner's 7175P exit:** it reached $2.15 (+59%) with SPX at 7,304.48, and was then **stopped out at $2.00** (a trailing stop placed above +50%) → **+$65 (+48%)** from the $1.35 watchlist cost (actual fill to confirm). **Owner's day: put −$15, call +$118, put +$65 = +$168.** A textbook use of the new exit: the stop was locked in at about +48% once +50% traded.
+
+**Setup check (10:57 AM ET): SPY setup A break at 10:43, flag formed, no flag break; no trade**
+- **Setup A (SPY):** the 10:43 1-min close $729.49 was under the range low ($730.24) on 127.6k (≈ 2.8× the prior 20-bar average) → **break**. Flag 10:44–10:56: $728.34–729.77 (13 bars, past the 10-bar limit by 10:54). No 1-min close $0.01–0.30 under $728.34 (the lowest close was $728.40 at 10:52). **No entry.** The flag is now too long; A would need a fresh 3–10 bar flag.
+- **QQQ:** no close under $655.08 on volume (lowest close $655.27). No A break.
+- SPY $729.70, QQQ $657.64. Drifting back up toward the range low and VWAP. Nothing open. The A2 window is closed; the owner's day is done (+$168).
+
+ARMED (10:57–11:27):
+- `A SPY short (shadow): a new 3–10 bar flag under $730.24 → a 1-min close $0.01–0.30 under its low on above-flag volume by 11:30; stop flag high + $0.10; target 2× pole / today's low area; R/R ≥ 1.5. A close back above $730.24 cancels.`
+- `E: a 5-min close through VWAP on ≥ 1.5× the prior 10-bar volume, the VWAP side matching, R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
