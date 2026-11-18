@@ -7664,3 +7664,17 @@ ARMED (1:57–2:27; the last list, entries by 2:30):
 - `QQQ long: a close $662.8–663.2 on ≥ 1.5×; stop $660.8; target $666.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:12 PM ET): the SPY short line fired at 2:00 but was rejected (above VWAP); the drop continued**
+- **Armed replay:** the SPY short (a close $731.6–731.9 on ≥ 1.5×): the 2:00 close **$731.63** on 264k against a 114k average (**2.3×**) **fired as written**. But the close was **still above VWAP (≈ $731.0)**, so 0DTE checklist item 1 fails for a put. The line lacked the VWAP-side condition I committed to at 12:12 (my miss). **Rejected; no shadow counted.**
+  - For the record: the 2:05 low was $729.94 and it closed $730.41 (+0.69R toward the $729.0 target; the $733.40 stop was not hit).
+- The longs did not fire (SPY's high close was $733.00; QQQ's $661.30).
+- **SPY** $730.41, now under VWAP; **QQQ** $658.37. 18 minutes are left for entries. Nothing open.
+- **Process fix:** every armed line from here on states its VWAP side explicitly; this is the 3rd line today written without it.
+
+ARMED (2:12–2:30; the last list):
+- `Short SPY (shadow): a 5-min close $729.6–730.0, below VWAP, on ≥ 1.5× the prior 10-bar volume; stop $731.40; target $727.20; R/R ≥ 1.6. By 2:30.`
+- `QQQ short (shadow): a close $657.2–657.6, below VWAP, on ≥ 1.5×; stop $659.6; target $653.8; R/R ≥ 1.7.`
+- `No longs.`
+
+Market data and analysis only, not investment advice.
