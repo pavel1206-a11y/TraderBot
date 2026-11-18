@@ -7550,3 +7550,14 @@ ARMED (11:42–12:12):
 - `QQQ: short a close $652.80–653.10 (under the 11:20 sweep low) on ≥ 1.5×; stop $655.00; target $649.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:57 AM ET): grinding just above PDL on average volume; no trigger**
+- **Armed replay:** none fired. SPY's lowest close was $727.435 (short band $726.60–727.00); QQQ's lowest close was $653.60 (band $652.80–653.10); no long closes near the bands. Volume ≈ 156–197k against a ≈ 220k average (< 1.5×).
+- **SPY** $727.44, just above PDL $727.00 and under a falling VWAP (≈ $730.8). **QQQ** $653.60. Lower highs continue. Nothing open.
+
+ARMED (11:57–12:27):
+- `E short SPY (shadow, 0DTE put): a 5-min close $726.60–727.00 on ≥ 1.5× the prior 10-bar volume; stop $728.60; target $724.0; R/R ≥ 1.6.`
+- `QQQ short (shadow): a close $652.80–653.05 on ≥ 1.5×; stop $655.00; target $649.5; R/R ≥ 1.6.`
+- `No longs (VWAP falling, lower highs).`
+
+Market data and analysis only, not investment advice.
