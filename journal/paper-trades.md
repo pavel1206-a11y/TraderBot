@@ -7504,3 +7504,4 @@ ARMED (10:42–11:12):
 - `Watch: a SPX break of today's low 7,303.22 (next: SPY S1 $726.37); a close back above 7,319.96 = the break failed.`
 
 Market data and analysis only, not investment advice.
+- **Owner's 7175P exit:** it reached $2.15 (+59%) with SPX at 7,304.48, and was then **stopped out at $2.00** (a trailing stop placed above +50%) → **+$65 (+48%)** from the $1.35 watchlist cost (actual fill to confirm). **Owner's day: put −$15, call +$118, put +$65 = +$168.** A textbook use of the new exit: the stop was locked in at about +48% once +50% traded.
