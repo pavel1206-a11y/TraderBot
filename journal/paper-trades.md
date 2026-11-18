@@ -7639,3 +7639,17 @@ ARMED (1:27–1:57):
 - `QQQ: long a close $660.8–661.2 / short $656.8–657.1, both on ≥ 1.5×, with R/R ≥ 1.6.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:42 PM ET): SPY long line missed by a hair on volume (1.44×); no trigger**
+- **Armed replay:**
+  - SPY long: the 1:30 close **$732.62** was in the band ($732.4–732.8), on 154k against a 107k average (**1.44×**, needs 1.5×) → **not a trigger**. The 1:35 close was $733.16 (above the band).
+  - QQQ long: the 1:30 bar was 2.1× but closed $660.455 (under the $660.8 band); 1:35 closed $661.33 (over it) → **not a trigger**.
+  - Shorts: did not fire.
+- **SPY** $733.16, above VWAP and pressing the 12:30 high ($734.03); **QQQ** $661.33. A grind up on improving volume. Nothing open.
+
+ARMED (1:42–2:12):
+- `Long SPY (shadow): a 5-min close $734.1–734.4 (over the $734.03 high) on ≥ 1.5× the prior 10-bar volume; stop $732.80; target $736.5; R/R ≥ 1.6.`
+- `Short SPY (shadow): a 5-min close $731.6–731.9 (rejection back to VWAP) on ≥ 1.5×; stop $733.40; target $729.0; R/R ≥ 1.6.`
+- `QQQ long: a close $662.8–663.2 (over $662.75) on ≥ 1.5×; stop $660.8; target $666.5; R/R ≥ 1.6.`
+
+Market data and analysis only, not investment advice.
