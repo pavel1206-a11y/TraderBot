@@ -7561,3 +7561,15 @@ ARMED (11:57–12:27):
 - `No longs (VWAP falling, lower highs).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:12 PM ET): PDL held a second time (low $727.16); a bounce to the VWAP area; no trigger**
+- **Armed replay:** the shorts did not fire (SPY's lowest close $727.435 / low $727.16 stayed above the $727.00 band; QQQ's lowest close $653.60). No longs were armed.
+- **SPY:** a double bottom over PDL (11:20 $726.80 sweep, 11:55 $727.16), then +$3 to $729.92 (12:05 high $730.93), now at the VWAP area (≈ $730.7). **QQQ** $657.07. Volume is average (144–173k), so there is no E trigger.
+- Nothing open.
+
+ARMED (12:12–12:42):
+- `E long SPY (shadow, 0DTE call): a 5-min close $731.00–731.40 (above VWAP, over the 12:05 high) on ≥ 1.5× the prior 10-bar volume; stop $729.70; target $735.0; R/R ≥ 2.6.`
+- `E short SPY (shadow): a 5-min close $726.60–727.00 on ≥ 1.5×; stop $728.60; target $724.0.`
+- `QQQ: long a close $658.50–658.90 on ≥ 1.5× (stop $656.80, target $662.6).`
+
+Market data and analysis only, not investment advice.
