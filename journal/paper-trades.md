@@ -7389,3 +7389,17 @@ Market data and analysis only, not investment advice.
 - **Running totals (unchanged):** 60 trades, 30W/30L, +$139.98. SPY 54 +$152.91; QQQ 6 −$12.93. A-grade 0W/2L, −$53.96. A2 track: 1 counted trade (−$62); shadows: 11/17 +50%. Fractional track closed (30 trades, +$6.17). **Week: −$115.96 ($34.04 left)** → shadows until Monday.
 - **Day note:** a trend-down morning (an ORB-low break into a $10 flush) that A2 read perfectly and setup A's R/R gate skipped. Then a V off S2 and 3½ hours of chop across a flat VWAP (6 crosses). The VWAP-slope rule (checklist item 1) blocked every afternoon signal; the one shadow that ignored it lost.
 - **Owner changes today:** fractional stopped (options only); A2 primary; SPX/SPY/QQQ combined into one A2 signal (SPXW trade); the 9:47 alert task covers all three.
+
+## 2026-11-18 (Wed)
+
+**Pre-market brief (8:35 AM ET)**
+- SPY PDH **$739.76** / PDL **$727.00** · pre $734.23 (between; $5.53 under PDH, $7.23 over PDL)
+- QQQ PDH **$663.36** / PDL **$646.64** · pre $661.56 (between; $1.80 under PDH, $14.92 over PDL)
+- Pre-market range: SPY $732.54–737.39, QQQ $658.61–665.18 (it faded from the early high).
+- **Pivots:**
+  - SPY: P 733.07 · R1 739.13 · R2 745.83 · S1 726.37 · S2 720.31.
+  - QQQ: P 655.65 · R1 664.66 · R2 672.37 · S1 647.94 · S2 638.93.
+- **SMAs:** SPY 20d 755.86 / 50d 763.15; QQQ 20d 689.58 / 50d 715.49. Both are well under both SMAs (downtrend).
+- **Events:** earnings TGT/LOW/TJX (am, mostly beats); PANW after the close. I found no market-moving release in the data I checked (I didn't pull an economic calendar).
+- **Bias:** none, leaning bearish (downtrend under the SMAs; pre-market just above the pivot after a bounce).
+- **A2 today (options only; SPX/SPY/QQQ combined, trade = SPXW):** mark the 9:30–9:45 range. After 9:45, a cross that holds → calls/puts at $0.75–1.25; stop the range midpoint ∓ $0.10 (SPX ∓ 1.0). **New exit:** half at +50%, trail the rest 1 bar, out by 11:00. Weekly budget $34.04 → shadow only.
