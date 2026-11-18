@@ -7486,3 +7486,8 @@ ARMED (10:27–10:57):
 - `E (later): a 5-min close through VWAP with ≥ 1.5× the prior 10-bar volume, the VWAP side matching, R/R ≥ 1.5, no-chase ≤ 25% of the stop.`
 
 Market data and analysis only, not investment advice.
+
+**Owner's trade (watchlist), 10:39 AM: SPXW 11/18 7175P × 1 @ $1.35** (bid $1.60 / ask $1.65 at 10:40; SPX 7,317.56; IV 47%).
+- **SPX 1-min:** the 10:35 close 7,318.62 under the mark (7,319.96) **failed**; 10:36 closed back at 7,324.64. Then a second try: **10:39 close 7,318.81**, and at 10:40 it is ≈ 7,317.6 (holding so far).
+- **Outside the written A2 window** (entries 9:45–10:30): an owner discretion trade, logged as such. No shadow (both A2 directions used; past the window).
+- **Plan by the A2 rules:** +50% = **$2.03** → sell half, trail the rest; out by **11:00**. The written stop (midpoint + 1 ≈ 7,344.9) is 27 points away; a close back above 7,319.96 (as at 10:36) is the earlier warning.
