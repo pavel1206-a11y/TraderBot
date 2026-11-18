@@ -7458,4 +7458,4 @@ Market data and analysis only, not investment advice.
   1. Took the flip on a **30-second** reversal candle (the rules use 1-min closes).
   2. Took profit **at the opposite mark** (the range high) instead of waiting for a trail. That captured ≈ +140%. My 1-bar trail would have exited near $2.3–2.7 after the reversal.
 - **Observation (1 signal, no rule change yet):** on a swoop reversal, the opposite range edge was the natural target. Test it: "swoop reversal → target the opposite mark" as an A2 exit variant, in the next backtest run.
-- **Owner's put (confirmed):** bought @ $1.55 on the breakdown, sold @ $2.73 on the reversal → **+$118 (+76%)**. With the call (≈ +$200), the owner's morning is **≈ +$318** on two one-contract trades, both out before 10:05.
+- **Owner's put (corrected by the owner):** bought @ $1.10, sold @ $0.95 on the reversal → **−$15**. The $1.55 → $2.73 the owner gave first is probably the call's real fill (+$118); to be confirmed. If so, the morning is **≈ +$103** on two one-contract trades, both out before 10:05.
