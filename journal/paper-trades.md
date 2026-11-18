@@ -7588,3 +7588,15 @@ ARMED (12:27–12:57):
 - `QQQ: a pullback hold at $658.0–658.6 with a close ≥ $659.0 (stop $657.2, target $663).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:42 PM ET): the rally ran to $734.03, now pulling back; no trigger**
+- **Armed replay:** the SPY pullback long needed a dip to $731.0–731.6 → the low was $731.85 (not reached). QQQ's pullback ($658.0–658.6) → the low was $659.52 (not reached). The short (a close < $730.30) did not fire.
+- **SPY:** high $734.03 (12:30), now $732.04 and pulling back toward VWAP (≈ $730.8). **QQQ:** high $662.75, now $659.82.
+- Nothing open.
+
+ARMED (12:42–1:12):
+- `E long SPY pullback (shadow): a 5-min bar with a low $730.8–731.6 that closes ≥ $731.9 on ≥ 1.0× the prior 10-bar volume; stop $730.30; target $735.0; R/R ≥ 2.`
+- `Short (shadow): a 5-min close $729.90–730.20 (VWAP lost) on ≥ 1.5×; stop $731.60; target $727.20; R/R ≥ 1.7.`
+- `QQQ: a pullback with a low $657.8–658.6 and a close ≥ $659.0 (stop $657.2, target $663).`
+
+Market data and analysis only, not investment advice.
