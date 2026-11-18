@@ -7526,3 +7526,15 @@ ARMED (11:12–11:42):
 - `F: a range forming from 10:40 (SPY ≈ $728.34–730.89); it qualifies at 11:25 if it holds under $2.50 wide.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:27 AM ET): SPY swept PDL $727.00 and reclaimed on 455k; no trade yet**
+- **F:** the 10:40–11:10 range ($728.34–730.89) broke at 11:15 (close $728.25 on 185k ≈ 0.9× the prior 10-bar average → **not an F trigger**).
+- **11:20 5-min bar:** low **$726.795**, a sweep of PDL ($727.00) and just above S1 ($726.37). It closed **$729.75** on **455k (≈ 2.3×)**: a sweep-and-reclaim, the owner's "sweep a level and reverse" pattern. QQQ did the same (low $653.06, close $656.82 on 357k).
+- **Score (D-style long):** level ✔ (PDL/S1), volume ✔, structure: one bar only; it needs a higher low. SPY is still under VWAP (≈ $731) and the daily trend is down, so checklist item 1 fails → **watch, not a trade**.
+- Nothing open.
+
+ARMED (11:27–11:57):
+- `D long SPY (shadow, 0DTE call): a 5-min close above VWAP (≈ $731.0) with a higher low held above $727.80, on ≥ 1.5× the prior 10-bar volume; stop $726.70 (under the sweep low); target $733.07 (pivot) then $735; R/R ≥ 1.5.`
+- `Short: a 5-min close back under $727.00 on ≥ 1.5× → the sweep failed; target S1 $726.37 / $724; stop $729.90.`
+
+Market data and analysis only, not investment advice.
