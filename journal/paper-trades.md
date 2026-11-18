@@ -7653,3 +7653,14 @@ ARMED (1:42–2:12):
 - `QQQ long: a close $662.8–663.2 (over $662.75) on ≥ 1.5×; stop $660.8; target $666.5; R/R ≥ 1.6.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:57 PM ET): stalled under the $734.03 high; no trigger**
+- **Armed replay:** none fired. SPY's highest close was $733.67 (long band $734.1–734.4); its lowest was $733.20 (short band $731.6–731.9). QQQ's highest close was $662.01 (band $662.8–663.2).
+- **SPY** $733.20, a tight $732.5–733.85 range above VWAP; **QQQ** $661.56. Nothing open.
+
+ARMED (1:57–2:27; the last list, entries by 2:30):
+- `Long SPY (shadow): a 5-min close $734.1–734.4 on ≥ 1.5× the prior 10-bar volume; stop $732.80; target $736.5; R/R ≥ 1.6.`
+- `Short SPY (shadow): a 5-min close $731.6–731.9 on ≥ 1.5×; stop $733.40; target $729.0; R/R ≥ 1.6.`
+- `QQQ long: a close $662.8–663.2 on ≥ 1.5×; stop $660.8; target $666.5.`
+
+Market data and analysis only, not investment advice.
