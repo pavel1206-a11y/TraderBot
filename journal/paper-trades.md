@@ -7600,3 +7600,17 @@ ARMED (12:42–1:12):
 - `QQQ: a pullback with a low $657.8–658.6 and a close ≥ $659.0 (stop $657.2, target $663).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:57 PM ET): the pullback held at VWAP; the long lines touched but failed volume / R/R; no trade**
+- **Armed replay:**
+  - **SPY pullback long:** the 12:50 bar (low $730.94, close $732.005) met the price, but on 120k against a 186k average (**0.65×**, needs ≥ 1.0×) → **not a trigger**. The 12:40/12:45 bars closed under $731.9.
+  - **QQQ pullback line** (written without a volume bar): the 12:50 bar (low $658.44, close $659.81) met it as written. But at that close the R/R was **1.22** (stop $657.2, target $663), under the ≥ 1.5 every armed line must carry, and volume was 0.64× → **rejected**. The line should have carried a close band; noted.
+  - Short: did not fire.
+- **SPY** $732.01, holding above VWAP (≈ $730.9); **QQQ** $659.81. A tight pullback after the rally. Nothing open.
+
+ARMED (12:57–1:27):
+- `E long SPY (shadow): a 5-min close $733.0–733.4 (back over the 12:35 high area) on ≥ 1.5× the prior 10-bar volume; stop $731.80; target $736.0; R/R ≥ 1.75.`
+- `Short (shadow): a 5-min close $729.90–730.20 (VWAP lost) on ≥ 1.5×; stop $731.60; target $727.20; R/R ≥ 1.7.`
+- `QQQ long: a close $660.5–660.9 on ≥ 1.5×; stop $658.8; target $664.5; R/R ≥ 1.7.`
+
+Market data and analysis only, not investment advice.
