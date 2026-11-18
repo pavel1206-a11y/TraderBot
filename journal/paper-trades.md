@@ -7491,3 +7491,16 @@ Market data and analysis only, not investment advice.
 - **SPX 1-min:** the 10:35 close 7,318.62 under the mark (7,319.96) **failed**; 10:36 closed back at 7,324.64. Then a second try: **10:39 close 7,318.81**, and at 10:40 it is ≈ 7,317.6 (holding so far).
 - **Outside the written A2 window** (entries 9:45–10:30): an owner discretion trade, logged as such. No shadow (both A2 directions used; past the window).
 - **Plan by the A2 rules:** +50% = **$2.03** → sell half, trail the rest; out by **11:00**. The written stop (midpoint + 1 ≈ 7,344.9) is 27 points away; a close back above 7,319.96 (as at 10:36) is the earlier warning.
+
+**Setup check (10:42 AM ET): the second break of the low held; the owner's 7175P is working**
+- **SPX:** the 10:39 close was 7,318.81, and **10:40 held at 7,309.88** (a confirmed hold). 10:41 closed 7,307.49, low 7,305.94, 2.7 points above today's low (7,303.22).
+- **SPY** $729.06 (under its range low $730.24); **QQQ** $655.90 (QQQ low $655.08 not yet broken).
+- **Setup A:** SPY's break bars were 24–35k against a ≈ 50k average (well under 1.5×) → no A.
+- **Owner's 7175P (@ $1.35):** +50% = $2.03. SPX is 10 points lower than at entry, so it is likely near or past that. Plan: sell half at $2.03, trail the rest; out by 11:00. A close back above 7,319.96 = exit.
+- No bot paper trades (A2 is done for the day; nothing qualified). Nothing open.
+
+ARMED (10:42–11:12):
+- `A (SPY/QQQ): a 1-min close beyond the range on ≥ 1.5× the prior 20-bar volume by 11:00 → flag → flag break by 11:30; R/R ≥ 1.5.`
+- `Watch: a SPX break of today's low 7,303.22 (next: SPY S1 $726.37); a close back above 7,319.96 = the break failed.`
+
+Market data and analysis only, not investment advice.
