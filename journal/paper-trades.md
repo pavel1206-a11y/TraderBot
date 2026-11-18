@@ -7678,3 +7678,10 @@ ARMED (2:12–2:30; the last list):
 - `No longs.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:27 PM ET): no trigger; the entry window closes at 2:30**
+- **Armed replay:** none fired. SPY's closes were $730.41–731.16, never in $729.6–730.0; QQQ's were $658.37–659.60, never in $657.2–657.6.
+- **SPY** $730.91, **QQQ** $659.60, chopping around VWAP. No ARMED list (past 2:15). Nothing open.
+- **Day so far (bot):** A2 shadows: put −$53, call +$55.50 (net +$2.50). No counted paper trades. **Owner: +$168** (3 trades). EOD at 3:47.
+
+Market data and analysis only, not investment advice.
