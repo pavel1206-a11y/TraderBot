@@ -7534,7 +7534,7 @@ Market data and analysis only, not investment advice.
 - Nothing open.
 
 ARMED (11:27–11:57):
-- `D long SPY (shadow, 0DTE call): a 5-min close above VWAP (≈ $731.0) with a higher low held above $727.80, on ≥ 1.5× the prior 10-bar volume; stop $726.70 (under the sweep low); target $733.07 (pivot) then $735; R/R ≥ 1.5.`
-- `Short: a 5-min close back under $727.00 on ≥ 1.5× → the sweep failed; target S1 $726.37 / $724; stop $729.90.`
+- `D long SPY (shadow, 0DTE call): a 5-min close $731.00–731.40 (above VWAP) with a higher low held above $727.80, on ≥ 1.5× the prior 10-bar volume; stop $729.40 (under the reclaim bar's body); target $735.0; R/R ≥ 2.2.`
+- `Short SPY (shadow): a 5-min close $726.60–727.00 on ≥ 1.5× → the sweep failed; stop $728.60; target $724.0; R/R ≥ 1.6.`
 
 Market data and analysis only, not investment advice.
