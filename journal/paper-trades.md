@@ -7415,3 +7415,27 @@ ARMED / WATCH (9:45–10:12):
 - `Context: a put break would aim at SPY PDL $727.00 / S1 $726.37; a call break at the pivot $733.07, then $735+.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:57 AM ET): A2 put fired at 9:48 (SPX and SPY together); shadow open, under water after a sharp bounce**
+- **Final 9:30–9:45 ranges:**
+  - **SPX** H 7,367.68 / L 7,320.09 (midpoint 7,343.89).
+  - **SPY** H $735.06 / L $730.24 (midpoint $732.65).
+  - **QQQ** H $662.65 / L $655.08.
+- **A2 signal (1-min):**
+  - **SPX** closed 7,313.74 at 9:47 (under the low), and **9:48 held at 7,306.32 → put.**
+  - **SPY** crossed the same way: 9:47 $729.66, held 9:48 $728.88.
+  - QQQ confirmed at 9:51: a 9:48 cross failed, then 9:50 $654.54 → 9:51 $654.67 held.
+  - All three agree.
+- **Shadow trade (weekly budget):**
+  - The trade is SPXW, but no SPXW put was in $0.75–1.25 near the money. 0DTE IV is high today: the 7260P was $15.40 at 9:48. A $1 SPXW put sat about 120+ points out (not fetched). **Priced on the SPY 722P instead: $1.15 at the 9:48 close.**
+  - Stop: SPY ≥ $732.75 / SPX ≥ 7,344.89 (the midpoint + 0.10 / + 1.0). +50% = $1.73.
+  - **Since entry:** the low was SPY $728.58 / SPX 7,303.22 at 9:50, and the put's best was $1.17 (+2%). Then a sharp bounce: SPY $731.99, SPX 7,338.79, **722P $0.36 (−69%, −$79 mark)**. The stops are not hit (SPY high $732.43, SPX high 7,340.52).
+- **Setup A:** no break. The cross bars were 67–92k against a ≈ 75k average (< 1.5×).
+- **Note:** with today's 0DTE IV, $0.75–1.25 buys contracts far out of the money (SPY ≈ 7 strikes, SPX ≈ 120 points). They decay fast on any pause; the bounce took 69% in 10 minutes without hitting the stop.
+
+ARMED (9:57–10:12):
+- `A2 put (shadow, SPY 722P @ $1.15): stop a 1-min trade ≥ SPY $732.75 / SPX 7,344.89; half at $1.73 (+50%) then trail 1 bar; out by 11:00.`
+- `A2 call (opposite direction, allowed once): a 1-min close > SPX 7,367.68 / SPY $735.06, then the next close holds → $0.75–1.25 call; stop SPY $732.55 / SPX 7,342.89; by 10:30.`
+- `A (SPY/QQQ): a 1-min break of the range on ≥ 1.5× volume by 11:00 → flag → flag break (R/R ≥ 1.5).`
+
+Market data and analysis only, not investment advice.
