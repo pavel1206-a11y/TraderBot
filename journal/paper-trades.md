@@ -7538,3 +7538,15 @@ ARMED (11:27–11:57):
 - `Short SPY (shadow): a 5-min close $726.60–727.00 on ≥ 1.5× → the sweep failed; stop $728.60; target $724.0; R/R ≥ 1.6.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:42 AM ET): the reclaim faded; SPY back near the sweep zone under a falling VWAP; no trigger**
+- **Armed replay:** the D long (a close $731.00–731.40) did not fire; the highest close was $729.19. The short (a close $726.60–727.00) did not fire; the lowest close was $728.01 at 11:35.
+- **SPY** $728.01, VWAP $730.92 (sloping down), with lower highs since 11:20 ($729.75 → 730.03 → 729.45). **QQQ** $654.48, VWAP $657.98.
+- **Score:** a bearish lean (VWAP down, lower highs) but no volume trigger. No A/B. Nothing open.
+
+ARMED (11:42–12:12):
+- `E short SPY (shadow, 0DTE put): a 5-min close $726.60–727.00 (back under PDL) on ≥ 1.5× the prior 10-bar volume; stop $728.60; target $724.0; R/R ≥ 1.6.`
+- `E long SPY (shadow): a 5-min close $731.00–731.40 (above VWAP) on ≥ 1.5×; stop $729.40; target $735.0; R/R ≥ 2.2.`
+- `QQQ: short a close $652.80–653.10 (under the 11:20 sweep low) on ≥ 1.5×; stop $655.00; target $649.5.`
+
+Market data and analysis only, not investment advice.
