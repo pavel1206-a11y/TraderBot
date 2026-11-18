@@ -7516,3 +7516,13 @@ ARMED (10:57–11:27):
 - `E: a 5-min close through VWAP on ≥ 1.5× the prior 10-bar volume, the VWAP side matching, R/R ≥ 1.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:12 AM ET): A short canceled; quiet chop; no trade**
+- **Armed replay:** the 10:57 1-min close $730.36 went back above $730.24 → **the SPY A-short line was canceled**. No new flag break. E: no 5-min VWAP cross on volume (the 1-min bars are 10–45k, thin).
+- SPY $729.15, chopping $728.81–730.89. QQQ $656.40. Nothing open.
+
+ARMED (11:12–11:42):
+- `E (shadow): a 5-min close through VWAP on ≥ 1.5× the prior 10-bar volume, the VWAP side and slope matching, R/R ≥ 1.5, no-chase ≤ 25% of the stop.`
+- `F: a range forming from 10:40 (SPY ≈ $728.34–730.89); it qualifies at 11:25 if it holds under $2.50 wide.`
+
+Market data and analysis only, not investment advice.
