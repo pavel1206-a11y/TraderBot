@@ -7782,3 +7782,16 @@ ARMED (10:42–10:57):
 - `A SPY short: a 3–10 bar flag under $727.72 → a 1-min close $0.01–0.30 under the flag low on above-flag volume, below VWAP, by 11:30; stop flag high + $0.10; target S2 $722.42; R/R ≥ 1.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:57 AM ET): the A2 put shadow closed on the trail at 10:44 (+$252.50)**
+- **A2 put shadow (SPXW 7200P from $1.30):** the trail at 7,306.28 (the 10:35 bar's high) was touched in the 10:40 bar (high **7,307.98 at 10:44**). The rest went out at ≈ **$5.70** (the 7200P's 10:44 range was $5.55–6.45). Half at $1.95 (+$32.50) + half at $5.70 (+$220) = **+$252.50 (shadow, not counted: weekly budget)**.
+  - Holding to 11:00 would have given ≈ $6.5 → +$260 on the half. The trail cost little and protected against the 10:43 dip.
+- **A2 day:** the swoop call (10:13) ≈ −$45 est. + put +$252.50 → **A2 shadows ≈ +$207.50**.
+- **SPX** 7,293.34 (−54.6 from the signal; low 7,274.42). **SPY** ≈ $727.5 / **QQQ** ≈ $658.5, bouncing off the lows in a range.
+- **Setup A:** no qualifying flag break (closes past the band). Nothing open.
+
+ARMED (10:57–11:27):
+- `A SPY short (by 11:30): a 3–10 bar flag → a 1-min close $0.01–0.30 under its low on above-flag volume, below VWAP; stop flag high + $0.10; target S2 $722.42; R/R ≥ 1.5.`
+- `E/F: from 11:00, the 5-min VWAP-side rules (stated VWAP side, R/R ≥ 1.5, ≥ 1.5× volume).`
+
+Market data and analysis only, not investment advice.
