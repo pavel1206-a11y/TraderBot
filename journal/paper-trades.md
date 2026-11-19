@@ -7859,3 +7859,18 @@ ARMED (12:12–12:42):
 - `QQQ: a pullback to $653.0–654.5 closing ≤ $652.0 → short (stop $655.0, target $646.0).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:27 PM ET): a sharp snap-back, SPY +$4.9 in the 12:20 bar; no trigger**
+- **Armed replay:**
+  - SPY pullback short: no bar closed ≤ $720.8 after a high of $721.8–722.8. The 12:20 bar ran through the zone and closed $724.31 → **no entry**.
+  - D long: needed a sweep of $717.55 first. The lows were $718.58/718.54/719.29 (higher lows, no sweep) → **not as written**.
+  - QQQ: no.
+- **12:20 bar:** SPY $719.46 → **$724.31** on 589k (≈ 1.2×); QQQ $649.18 → $655.44. Back above S2 ($722.42); still far under VWAP (≈ $729.5).
+- Nothing open.
+
+ARMED (12:27–12:57):
+- `E short SPY (shadow): a 5-min bar with a high $726.0–727.5 (a bounce into S1 $726.31) that closes ≤ $725.0, under VWAP, on ≥ 1.0×; stop $728.0; target $720.5; R/R ≥ 1.5.`
+- `E long SPY (shadow): only a 5-min close ≥ $729.9 (above VWAP) on ≥ 1.5×; stop $727.8; target $733.5; R/R ≥ 1.7.`
+- `QQQ: short a bounce into $658.0–660.0 closing ≤ $656.5 (stop $661.0, target $650).`
+
+Market data and analysis only, not investment advice.
