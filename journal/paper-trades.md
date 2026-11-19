@@ -7954,3 +7954,12 @@ ARMED (1:57–2:27; the last list):
 - `QQQ: none (stopped out today; SPY carries the direction).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:12 PM ET): grinding at the lows; no trigger**
+- **Armed replay:** the SPY short (a close $718.2–718.5) did not fire; the closes were $720.25 / $719.60 / $719.00 (low $718.46).
+- **SPY** $719.00, **QQQ** $648.67 (low $647.48). Hugging the day lows under VWAP. Nothing open.
+
+ARMED (2:12–2:30; the last list):
+- `E short SPY (shadow): a 5-min close $717.2–717.5 (under the $717.55 day low, under VWAP) on ≥ 1.0× the prior 10-bar volume; stop $719.6; target $714.0; R/R ≥ 1.6. By 2:30.`
+
+Market data and analysis only, not investment advice.
