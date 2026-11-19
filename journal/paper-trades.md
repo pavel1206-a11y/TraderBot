@@ -7806,3 +7806,14 @@ ARMED (11:12–11:42):
 - `QQQ short: a close $655.6–655.9 (under the $656.01 low, below VWAP) on ≥ 1.5×; stop $657.6; target $652.5; R/R ≥ 1.7.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:27 AM ET): tight chop $727.84–729.41; no trigger**
+- **Armed replay:** none fired. SPY's lowest close was $727.935 (short band $725.20–725.45); QQQ's lowest close was $660.20 (band $655.6–655.9).
+- **SPY** $728.96, **QQQ** $662.08 (QQQ rebounding faster). **F range forming:** SPY $727.84–729.96 since 11:05 ($2.12; it qualifies at 11:50 if it holds). Nothing open.
+
+ARMED (11:27–11:57):
+- `F short SPY (shadow; valid from 11:50 if the range holds): a 5-min close $727.55–727.80 (under the range, below VWAP) on ≥ 1.5× the prior 10-bar volume; stop $729.10; target $725.67 → $724.5; R/R ≥ 1.6.`
+- `F long SPY (shadow): a 5-min close $730.15–730.40 on ≥ 1.5×, only if back above VWAP; stop $729.0; target $732.5; R/R ≥ 1.6.`
+- `QQQ: short a close $659.6–659.9 / long $662.9–663.2 (only above VWAP), both on ≥ 1.5×.`
+
+Market data and analysis only, not investment advice.
