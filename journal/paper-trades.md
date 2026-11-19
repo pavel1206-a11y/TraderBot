@@ -7916,3 +7916,18 @@ ARMED (1:12–1:42):
 - `QQQ short: a close $648.8–649.2 on ≥ 1.0×; stop $651.8; target $644.5; R/R ≥ 1.6.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:27 PM ET): the QQQ short fired at 1:15 (armed, replayed; shadow)**
+- **Armed replay:**
+  - SPY short: the 1:10 close $719.17 was past the band ($719.6–720.0) → no.
+  - **QQQ short (a close $648.8–649.2 on ≥ 1.0×, under VWAP):** the **1:15 close $648.91** on 340k against a 317k average (**1.07×**), far under VWAP (≈ $660) → **fired**.
+    - **Shadow E short QQQ:** entry $648.91, stop $651.80, target $644.50 (R/R 1.53). Tracked in underlying R; the option was not priced (weekly budget: shadow only).
+    - **1:20 bar:** high $650.51, close $650.16 → **−0.43R open**; the stop is not hit.
+  - D long: no sweep of $717.55 (SPY low $718.59).
+- **SPY** $720.50, **QQQ** $650.16, bouncing off the lows. Nothing else open.
+
+ARMED (1:27–1:57):
+- `QQQ short shadow (open): stop a 5-min trade ≥ $651.80; target $644.50; trail to breakeven at +1R ($646.0); out by 3:30.`
+- `SPY short (same direction as QQQ; only if the QQQ shadow is closed): a close $717.9–718.3 on ≥ 1.0×; stop $720.6; target $714.5.`
+
+Market data and analysis only, not investment advice.
