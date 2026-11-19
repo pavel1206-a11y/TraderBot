@@ -7755,3 +7755,18 @@ ARMED (10:12–10:27):
 - `A (SPY/QQQ): a 1-min close under the range on ≥ 1.5× the prior 20-bar volume → flag → flag break; R/R ≥ 1.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:27 AM ET): the A2 put fired at 10:15 and ran; the owner's 10:14 entry level tracked**
+- **A2 put signal:** the 10:14 SPX close 7,360.79 under the low (7,373.77), and **10:15 held at 7,347.90 → put** (SPY $732.99 and QQQ $666.88 confirmed). SPX ran to **7,322.09 by 10:25**, now 7,326.99 (−20.9 from the signal). SPY $730.89, QQQ $663.94.
+- **Owner (message, 10:27):** "would have got in on puts at 10:14 at $1.30". That matches the **SPXW 7200P** (the 10:14 bar was $0.95–1.48). **A watch-only entry, not a trade.** Its path: 10:15 close $2.53 (+95%) → 10:25 high $4.35 → $3.65 now (+181%).
+- **Shadow (rules, priced on the owner's 7200P @ $1.30 since that's the in-band contract at the cross):**
+  - Half at +50% ($1.95), hit in the 10:15 bar → **+$32.50**.
+  - The rest trails one 5-min bar behind (the SPX prior-bar high; now the 10:20 bar's high, 7,343.75). **Open at $3.65 (+$117.50 on the half)**. Out by 11:00.
+- **Note:** at the strict 10:15 hold close, the 7200P was already $2.53 (over the band); an in-band strike then would have been further out (≈ 7175P, not priced). The owner's earlier entry on the cross bar is where the value was today.
+- Setup A: SPY's 10:15 break bar was 154k against ≈ 60k (≈ 2.5×) → A break; flag next.
+
+ARMED (10:27–10:42):
+- `A2 put shadow (open, the rest of 7200P): trail the stop to the prior completed 5-min bar's SPX high (now 7,343.75); out at the trail or by 11:00.`
+- `A SPY short: a 3–10 bar flag after the 10:15 break → a 1-min close $0.01–0.30 under the flag low on above-flag volume, below VWAP, by 11:30; stop flag high + $0.10; R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
