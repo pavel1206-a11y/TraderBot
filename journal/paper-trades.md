@@ -7846,3 +7846,16 @@ ARMED (11:57–12:27):
 - `QQQ: short a pullback that closes ≤ $658.0 (stop $660.6, target $653.0).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:12 PM ET): a straight-line flush, SPY $729.6 → $717.55 in 20 min, no pullback; no trigger**
+- **Armed replay:** the SPY pullback short needed a bar high of $727.5–728.5. The 11:55 high was only $726.81 (no pullback) → **no entry**. The sweep-reclaim long: no reclaim. QQQ: no pullback to $658.
+- **The move:** 11:50 $723.52 → 12:00 $719.03 (898k) → 12:05 **$717.55** (778k); now $720.21. **QQQ** $650.82 (low $647.17). Both are far under VWAP (SPY $729.87 / QQQ $662.68). SPY broke S2 ($722.42).
+- **A missed move** (logged for EOD): −$12 in 20 min with no pullback; every armed line (band, pullback) waits for a retrace. No setup is built to join an impulse without a retrace; by design.
+- Nothing open.
+
+ARMED (12:12–12:42):
+- `E short SPY (shadow): a pullback 5-min bar with a high $721.8–722.8 (an S2 retest from below) that closes ≤ $720.8, under VWAP, on ≥ 1.0× the prior 10-bar volume; stop $723.3; target $716.0; R/R ≥ 1.9.`
+- `D long SPY (shadow): a sweep of $717.55 then a 5-min close ≥ $720.6 with a higher low, only if the volume dries up into the low; stop $717.2; target $724.0; R/R ≥ 1.5. (Counter-trend: B grade at most.)`
+- `QQQ: a pullback to $653.0–654.5 closing ≤ $652.0 → short (stop $655.0, target $646.0).`
+
+Market data and analysis only, not investment advice.
