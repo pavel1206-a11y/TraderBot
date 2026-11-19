@@ -7770,3 +7770,15 @@ ARMED (10:27–10:42):
 - `A SPY short: a 3–10 bar flag after the 10:15 break → a 1-min close $0.01–0.30 under the flag low on above-flag volume, below VWAP, by 11:30; stop flag high + $0.10; R/R ≥ 1.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:42 AM ET): the A2 put shadow keeps running; SPX −64 from the signal**
+- **A2 put shadow (SPXW 7200P from $1.30, half off at $1.95):** the trail (the prior 5-min bar's high) stepped 7,343.75 → 7,335.59 → 7,324.58 → **7,306.28**; it was never touched. SPX 5-min lows: 7,322.09 → 7,299.44 → **7,274.42** (10:35 bar). The 7200P high was $13.70 (10:39), **$8.35 at 10:41**. The rest is +$352.50 marked → **shadow ≈ +$385 marked**. Out by 11:00 or at the trail.
+- The SPY 730P (the owner's question, $1.12 at 10:14:30): $5.38 at 10:39.
+- **Setup A (SPY):** after the 10:15 break (2.5×), the flags broke with closes $0.39–0.42 past their lows (outside the $0.01–0.30 band) → no entry, the 3rd time this week that the band skipped a running move. **SPY** $727.94 (low $725.67, under PDL $726.80 and S1 $726.31); **QQQ** $658.74.
+- Nothing else open.
+
+ARMED (10:42–10:57):
+- `A2 put shadow: stop at the prior completed 5-min SPX bar's high (now 7,306.28; it steps down each bar); else out at 11:00 at the bid.`
+- `A SPY short: a 3–10 bar flag under $727.72 → a 1-min close $0.01–0.30 under the flag low on above-flag volume, below VWAP, by 11:30; stop flag high + $0.10; target S2 $722.42; R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
