@@ -7963,3 +7963,10 @@ ARMED (2:12–2:30; the last list):
 - `E short SPY (shadow): a 5-min close $717.2–717.5 (under the $717.55 day low, under VWAP) on ≥ 1.0× the prior 10-bar volume; stop $719.6; target $714.0; R/R ≥ 1.6. By 2:30.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:27 PM ET): no trigger; the entry window closes at 2:30**
+- **Armed replay:** the SPY short (a close $717.2–717.5) did not fire; the closes were $718.92–719.46 (low $718.49).
+- **SPY** $719.46. No ARMED list (past 2:15). Nothing open.
+- **Day so far (bot shadows):** A2 swoop call ≈ −$45 (est.), A2 put **+$252.50**, QQQ E short −1R. No counted paper trades. EOD at 3:47.
+
+Market data and analysis only, not investment advice.
