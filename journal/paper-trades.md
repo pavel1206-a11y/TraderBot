@@ -7874,3 +7874,18 @@ ARMED (12:27–12:57):
 - `QQQ: short a bounce into $658.0–660.0 closing ≤ $656.5 (stop $661.0, target $650).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (12:42 PM ET): the bounce failed at S1 ($726.31); the short line matched on price but not volume**
+- **Armed replay:**
+  - SPY short: the 12:35 bar (high $726.155 in the $726.0–727.5 zone, close **$723.64** ≤ $725.0, under VWAP) matched on price, but on 306k against a 510k average (**0.6×**, needs ≥ 1.0×) → **not a trigger**. The 12:25/12:30 bars tagged the zone but closed over $725.0.
+  - QQQ short: the 12:30 bar's high ($658.11) was in the zone but closed $657.58; 12:35 closed $654.09 but its high ($657.61) was under the zone → **not met as written** (same-bar reading).
+  - The long (≥ $729.9) did not fire.
+- **SPY** $723.64, rejected at S1 after the snap-back. **QQQ** $654.09. Both are under VWAP. Nothing open.
+- **Note:** the 10-bar volume average is inflated by the 11:50–12:05 flush bars (624–898k), the same effect as 11/17 after a flush. Logged for EOD.
+
+ARMED (12:42–1:12):
+- `E short SPY (shadow): a 5-min close $722.2–722.6 (back under S2 $722.42, under VWAP) on ≥ 1.0× the prior 10-bar volume; stop $724.6; target $718.0; R/R ≥ 2.0.`
+- `Long SPY (shadow): only a 5-min close ≥ $729.6 (above VWAP) on ≥ 1.5×; stop $727.4; target $733.0.`
+- `QQQ short: a 5-min close $651.8–652.2 on ≥ 1.0×, under VWAP; stop $655.0; target $647.5; R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
