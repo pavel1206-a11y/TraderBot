@@ -7737,3 +7737,21 @@ ARMED (9:57–10:12):
 - `A (SPY/QQQ): a 1-min close beyond the range on ≥ 1.5× the prior 20-bar volume → flag → flag break; R/R ≥ 1.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (10:12 AM ET): a swoop under the low at 10:12, back inside at 10:13, then a hard break at 10:14; the put hold is pending**
+- **A2 1-min replay:**
+  - 9:57 SPX low 7,373.11 (intrabar only); closes stayed inside until **10:12: close 7,369.92 < 7,373.77**.
+  - **10:13 close 7,374.59, back inside → the cross failed (no hold) → swoop → call** by the rule. SPY did the same (10:12 $735.13 < $735.42, 10:13 $735.69); so did QQQ (670.24 → 670.79).
+  - **10:14: SPX 7,360.79, a hard break**, 13 points under the low. SPY $734.14, QQQ $668.71.
+- **Swoop-call shadow (10:13, SPX 7,374.59):**
+  - The written A2 stop for a call (midpoint − 1.0 = 7,393.71) is **above the entry**, so it can't apply to a swoop entry from the low.
+  - Using the swoop low − 1.0 (7,368.04) as the stop: **stopped at 10:14 (low 7,360.79)**.
+  - **Shadow ≈ −$45** (estimated, a ≈ −40% fill on a ≈ $1.10 SPXW call; the option was not priced).
+- **Rule gap found:** A2 has no stop for swoop entries. On 11/18 the swoop call (SPX 7,329.60 vs midpoint 7,343.89) had the same problem but won before it mattered. **Proposal for the owner:** the swoop stop = beyond the swoop's extreme (± 1.0 SPX / ± $0.10 SPY).
+- **Now:** if the 10:15 close holds under 7,373.77, it's an **A2 put signal** (the put direction is unused today). Setup A: the SPY break bar was 35k (< 1.5×) → no A.
+
+ARMED (10:12–10:27):
+- `A2 put (shadow): the SPX 10:15 or a later 1-min close < 7,373.77, held by the next close (SPY < $735.42, QQQ < $670.41 confirm), by 10:30 → $0.75–1.25 SPXW put; stop SPX 7,395.71; targets SPY PDH $735.06 → R1 $734.58 (already hit) → S-level SPY $732/pivot $730.69; half at +50%, trail; out by 11:00.`
+- `A (SPY/QQQ): a 1-min close under the range on ≥ 1.5× the prior 20-bar volume → flag → flag break; R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
