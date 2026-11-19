@@ -7817,3 +7817,17 @@ ARMED (11:27–11:57):
 - `QQQ: short a close $659.6–659.9 / long $662.9–663.2 (only above VWAP), both on ≥ 1.5×.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:42 AM ET): an up-poke out of the F range, still under VWAP; no trigger**
+- **Armed replay:**
+  - SPY long: the 11:35 close $730.74 was over the band ($730.15–730.40), on 0.91×, and **under VWAP ($732.11)** → no.
+  - QQQ long: the 11:35 close $663.95 was over the band, on 1.0×, under VWAP ($665.14) → no.
+  - Shorts: did not fire.
+- **SPY** $730.74, high $731.02; **QQQ** $663.95. Recovering toward VWAP on average volume. Nothing open.
+
+ARMED (11:42–12:12):
+- `E long SPY (shadow): a 5-min close $732.3–732.6 (over VWAP $732.11) on ≥ 1.5× the prior 10-bar volume; stop $731.0; target $735.0 (PDH area); R/R ≥ 1.6.`
+- `E short SPY (shadow): a 5-min close $729.5–729.8 (rejected under VWAP) on ≥ 1.5×; stop $731.2; target $727.5; R/R ≥ 1.4 → only at ≤ $729.6 (R/R ≥ 1.5).`
+- `QQQ: long a close $665.3–665.7 (over VWAP) / short $662.0–662.4 (under VWAP), both on ≥ 1.5×, R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
