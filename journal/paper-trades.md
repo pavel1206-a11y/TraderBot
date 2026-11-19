@@ -7795,3 +7795,14 @@ ARMED (10:57–11:27):
 - `E/F: from 11:00, the 5-min VWAP-side rules (stated VWAP side, R/R ≥ 1.5, ≥ 1.5× volume).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:12 AM ET): bouncing in a $725.67–730.26 range under VWAP; no trigger**
+- **Armed replay:** the A short had no qualifying flag break (closes past the band or no flag). E/F: none.
+- **SPY** $727.94 (range since 10:35: $725.67–730.26, $4.6 wide, too wide for F). **QQQ** $660.20. Both are under VWAP after the morning flush. Nothing open.
+
+ARMED (11:12–11:42):
+- `E short SPY (shadow): a 5-min close $725.20–725.45 (a new low, below VWAP) on ≥ 1.5× the prior 10-bar volume; stop $726.90; target S2 $722.42; R/R ≥ 1.8.`
+- `No long under VWAP (the trend is down; the 4H is red).`
+- `QQQ short: a close $655.6–655.9 (under the $656.01 low, below VWAP) on ≥ 1.5×; stop $657.6; target $652.5; R/R ≥ 1.7.`
+
+Market data and analysis only, not investment advice.
