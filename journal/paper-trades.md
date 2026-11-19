@@ -7697,3 +7697,17 @@ Market data and analysis only, not investment advice.
 - **Counted bot paper trades: none.** Lines fired at 1:20/1:30 (price met, under the volume bar) and at 2:00 (rejected: above VWAP).
 - **Running totals (unchanged):** 60 trades, 30W/30L, +$139.98. A2 track: 1 counted (−$62). A2 shadows: 11/17 +50%, 11/18 +$2.50. **Week −$115.96 ($34.04 left)** → shadows to Monday.
 - **Day note:** a two-sided morning. The A2 marks worked as both entry and target: the put → swoop-call flip → the opposite mark, then a second low break. The owner read it all live for +$168. The afternoon was a PDL double bottom into a $6.9 rally that the 1.5× volume bar missed, then VWAP chop.
+
+## 2026-11-19 (Thu)
+
+**Pre-market brief (8:35 AM ET)**
+- SPY PDH **$735.06** / PDL **$726.80** · pre $737.35 (**above PDH by $2.29**)
+- QQQ PDH **$662.80** / PDL **$653.05** · pre $671.00 (**above PDH by $8.20**, a ≈ 1.7% gap up)
+- Pre-market range: SPY $734.67–740.26, QQQ $665.70–675.07.
+- **Pivots:**
+  - SPY: P 730.69 · R1 734.58 · R2 738.95 · S1 726.31 · S2 722.42.
+  - QQQ: P 658.45 · R1 663.86 · R2 668.20 · S1 654.11 · S2 648.70.
+- **SMAs:** SPY 20d 753.72 / 50d 762.51; QQQ 20d 686.30 / 50d 714.36 (both still well under them: a downtrend).
+- **Events:** WMT beat (am); BABA missed, PDD beat (am). INTU, ROST and GAP report after the close. Thursday usually has jobless claims at 8:30 (I didn't pull an economic calendar). QQQ is gapping much more than SPY (tech-led).
+- **Bias:** bullish open (a gap over both PDHs, QQQ strong), inside a bigger downtrend. Watch for a **gap fill / PDH retest** (the owner's sweep-and-reverse) vs a hold above.
+- **A2 today (SPX/SPY/QQQ combined, trade = SPXW):** mark the 9:30–9:45 range. After 9:45, a cross that holds → calls/puts at $0.75–1.25; a swoop back inside → the other way. Stop the range midpoint ∓ $0.10 (SPX ∓ 1.0). Half at +50%, trail the rest; out by 11:00. The opposite mark is the natural target. Weekly budget $34.04 → shadows only.
