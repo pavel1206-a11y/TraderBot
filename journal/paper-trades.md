@@ -7944,3 +7944,13 @@ ARMED (1:42–2:12):
 - `QQQ: no new line (stopped out today).`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:57 PM ET): the bounce faded again (SPY $720.12); no armed lines, no trades**
+- No lines were armed (the SPY short was skipped on R/R; no QQQ line). The long (≥ $728.3) did not fire.
+- **SPY** $720.12 (low $719.16), **QQQ** $649.54. Back near the lows on average volume, under VWAP. Nothing open.
+
+ARMED (1:57–2:27; the last list):
+- `E short SPY (shadow): a 5-min close $718.2–718.5 (under the $718.54 shelf, under VWAP) on ≥ 1.0× the prior 10-bar volume; stop $720.4; target $714.5; R/R ≥ 1.8. By 2:30.`
+- `QQQ: none (stopped out today; SPY carries the direction).`
+
+Market data and analysis only, not investment advice.
