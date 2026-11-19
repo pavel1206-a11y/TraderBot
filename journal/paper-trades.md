@@ -7722,3 +7722,18 @@ ARMED / WATCH (9:45–10:12):
 - `Context: a put break targets PDH $735.06 / R1 $734.58 (a gap fill); a call break targets the pre-market high $740.26, then R2 $738.95 is already under the price → next $742+.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (9:57 AM ET): inside the range, now pressing the low; no A2 cross yet**
+- **Final 9:30–9:45 ranges:**
+  - **SPX** H 7,415.64 / L 7,373.77 (midpoint 7,394.71).
+  - **SPY** H $739.90 / L $735.42 (midpoint $737.66).
+  - **QQQ** H $675.18 / L $670.41.
+- **Since 9:45:** a bounce to SPX 7,412.27 (9:51; no close over the high), then a slide. SPX 7,377.87, 4 points over the low (the 9:55 low was 7,376.38). SPY $735.95 (low $735.76). QQQ $670.71 (low $670.50, 0.10 over its mark). **No 1-min close beyond any mark → no A2 signal.** Setup A: no break.
+- Nothing open.
+
+ARMED (9:57–10:12):
+- `A2 put (shadow, SPXW): an SPX 1-min close < 7,373.77, then the next close holds (SPY < $735.42 / QQQ < $670.41 confirm) → $0.75–1.25 put; stop SPX 7,395.71 (midpoint + 1.0); target PDH SPY $735.06 → R1 $734.58 / a gap fill; half at +50%, trail; out by 11:00.`
+- `A2 swoop: a poke under the low that closes back inside → call toward the opposite mark (SPX 7,415.64).`
+- `A (SPY/QQQ): a 1-min close beyond the range on ≥ 1.5× the prior 20-bar volume → flag → flag break; R/R ≥ 1.5.`
+
+Market data and analysis only, not investment advice.
