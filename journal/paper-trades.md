@@ -7970,3 +7970,5 @@ Market data and analysis only, not investment advice.
 - **Day so far (bot shadows):** A2 swoop call ≈ −$45 (est.), A2 put **+$252.50**, QQQ E short −1R. No counted paper trades. EOD at 3:47.
 
 Market data and analysis only, not investment advice.
+
+**Setup check (2:42 PM ET):** past the 2:30 entry cutoff. Nothing open, nothing armed. EOD at 3:47.
