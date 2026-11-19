@@ -7931,3 +7931,16 @@ ARMED (1:27–1:57):
 - `SPY short (same direction as QQQ; only if the QQQ shadow is closed): a close $717.9–718.3 on ≥ 1.0×; stop $720.6; target $714.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (1:42 PM ET): the QQQ short shadow stopped at 1:25 (−1R); the afternoon bounce continues**
+- **QQQ E short shadow (1:15, $648.91):** the 1:25 bar's high **$652.00** went through the $651.80 stop → **−1R (shadow; the option was not priced)**. QQQ is $651.91 now (high $653.09).
+- **SPY** $722.39 (high $723.21), back over S2 $722.42 from the $718.59 low. Higher lows since 1:10 (718.59 → 719.20 → 720.39 → 721.15). The SPY short line was not armed (QQQ held the direction). Still under VWAP (≈ $728).
+- **Lesson:** the second short after an exhausted flush (−$12) ran into a bounce. Similar to 11/18's late-day shadow. Logged for EOD.
+- Nothing open.
+
+ARMED (1:42–2:12):
+- `E short SPY (shadow): a 5-min close $721.0–721.3 (lost S2 again, under VWAP) on ≥ 1.0×; stop $723.4; target $718.5; R/R ≥ 1.2 → skip (R/R too low). No SPY short line.`
+- `E long SPY (shadow): only a 5-min close ≥ $728.3 (above VWAP) on ≥ 1.5×; not expected before 2:30.`
+- `QQQ: no new line (stopped out today).`
+
+Market data and analysis only, not investment advice.
