@@ -7831,3 +7831,18 @@ ARMED (11:42–12:12):
 - `QQQ: long a close $665.3–665.7 (over VWAP) / short $662.0–662.4 (under VWAP), both on ≥ 1.5×, R/R ≥ 1.5.`
 
 Market data and analysis only, not investment advice.
+
+**Setup check (11:57 AM ET): a flush in the 11:50 bar (SPY −$6 to $723.52 on 2.8×); the armed short missed the band**
+- **Armed replay:**
+  - SPY short (a close $729.5–729.6): the 11:45 close $729.66 was 6¢ over the band; the 11:50 close **$726.60** came on **624k (≈ 2.8×)**, far past the band → **no entry** (no chase).
+  - QQQ short ($662.0–662.4): the 11:50 close $658.27 was past the band → no.
+  - Longs: did not fire.
+- **11:50 bar:** SPY low **$723.52**, a new day low under S1 ($726.31), toward S2 $722.42. QQQ low $654.22 (its bar shows a $676.46 high, likely a bad print; ignored). VWAP SPY $731.69 / QQQ $664.91. Nothing open.
+- **Pattern (logged for EOD):** a 4th band miss this week on a fast bar. The fixed $0.25–0.30 bands work in chop but skip impulse bars.
+
+ARMED (11:57–12:27):
+- `E short SPY (shadow): a pullback 5-min bar with a high $727.5–728.5 that closes back ≤ $726.8 (under VWAP) on ≥ 1.0× the prior 10-bar volume; stop $728.8; target S2 $722.42; R/R ≥ 1.8.`
+- `Long SPY (D sweep-reclaim, shadow): a 5-min close ≥ $726.6 after a sweep of $723.52 / S2, only with a higher low; stop under the sweep low; target VWAP $731.5; R/R ≥ 1.6 (only if it reclaims; it is still under VWAP).`
+- `QQQ: short a pullback that closes ≤ $658.0 (stop $660.6, target $653.0).`
+
+Market data and analysis only, not investment advice.
