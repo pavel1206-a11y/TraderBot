@@ -145,3 +145,14 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - **Process:** 3 armed lines today lacked the VWAP-side condition; the 2:00 fire was rejected for it. Every line now states its VWAP side.
 - **High-IV day:** $0.75–1.25 SPXW contracts were 100–170 points out of the money (the 7260P was $15.40). The bot priced the put shadow on SPY instead. Worth asking the owner whether A2 should allow up to the $125 cap closer to the money on IV > 40% days.
 - Pending owner decisions unchanged (change 2/3 reverts, the F ADX gate, the weekly-budget override).
+
+## 2026-11-19 EOD — observations; proposals for the owner (no tuning change)
+
+- **A2 put:** a big winner (shadow +$252.50; SPX −73). The trail kept most of it. 3rd day running that A2 caught the main morning move.
+- **For the owner (A2 is the owner's rule, not tunable by me):**
+  1. **Swoop stop:** A2 has no stop for swoop entries (the midpoint is on the wrong side). Proposal: stop = beyond the swoop's extreme ± 1.0 SPX / ± $0.10 SPY.
+  2. **Entry timing:** the owner enters on the cross bar; the written rule waits for the next close (the hold). Today the hold cost the in-band contract (7200P $1.30 → $2.53 by the hold close). Keep the hold, or allow the cross bar?
+  3. **Contract on high-IV days:** SPY 0DTE puts were in the $0.75–1.25 band about $5 out of the money (730P $1.12 at 10:14:30 → $6.17 high); SPXW in-band strikes were about 150 points out. Use SPY contracts when SPXW in-band strikes are further than ≈ 1% OTM?
+- **E/F close bands:** 4 impulse moves this week skipped because the close ran past a $0.25–0.30 band. Queued for a replay (≥ 20 sessions) of a band = 0.25 × ATR(5-min) vs fixed. No change without it.
+- **Volume bar after a flush:** the 10-bar average stays inflated for ~10 bars after a 2–3× flush. Queued for the same replay: exclude bars > 2× the session median from the average.
+- Pending owner decisions unchanged (change 2/3 reverts, the F ADX gate, the weekly-budget override).

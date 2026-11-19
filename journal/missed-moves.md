@@ -410,3 +410,10 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 10:00–10:41 | −$6.2 in 41 min (734.98 → 728.80) | The 10:00 spike failed at the range high (SPX 7,366.7 vs the 7,367.8 mark); lower highs; 2nd break of the range low at 10:39 | A2 put (2nd break) / A short | A2: both directions already used (put 9:48, call 9:52), and it was past the 10:30 window. A: the 10:43 break (2.8×) flagged 13 bars, past the 10-bar limit. **The owner caught it** (7175P +$65). |
 | 11:55–12:30 | +$6.9 in 35 min (727.16 → 734.03) | A PDL double bottom (11:20 sweep $726.80, 11:55 $727.16), then a VWAP reclaim | D/E long | The armed long hit its price at 12:15 on 0.88× (needs 1.5×); the 1.8× bar at 12:20 closed above the band (no chase). |
 | 1:55–2:05 | −$3.9 in 10 min (733.85 → 729.94) | A rejection under the 12:30 high; the 2:00 bar 2.3× | E short | The line fired, but the close was above VWAP (item 1 fails). The line was written without its VWAP condition. |
+
+### 2026-11-19
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 11:35–12:05 | −$13.5 in 30 min (731.02 → 717.55) | A failed bounce under VWAP, then a 2.8× flush bar at 11:50 under S1/the day low | E short | The armed close band ($729.5–729.6) was missed by 6¢; then no pullback for the pullback line; straight-line bars. |
+| 12:05–12:35 | +$8.8 in 30 min (717.55 → 726.35) | A capitulation low under S2, then a 1.2× snap-back bar | D long | No sweep of the low (the line required one); counter-trend; under VWAP. |
+| 12:35–1:15 | −$7.6 in 40 min (726.15 → 718.59) | A rejection at S1 | E short | The SPY lines matched price at 12:35/12:40 but on 0.45–0.6× of a flush-inflated average. A QQQ short fired at 1:15 and was stopped −1R in the bounce. |

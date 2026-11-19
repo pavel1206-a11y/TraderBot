@@ -7972,3 +7972,14 @@ Market data and analysis only, not investment advice.
 Market data and analysis only, not investment advice.
 
 **Setup check (2:42 PM ET):** past the 2:30 entry cutoff. Nothing open, nothing armed. EOD at 3:47.
+
+### EOD 2026-11-19 (options only)
+- **A2 (SPX/SPY/QQQ combined):**
+  - Range SPX 7,373.77–7,415.64 (SPY $735.42–739.90).
+  - A swoop under the low at 10:12, back in at 10:13 → call (stop gap; ≈ −$45 est.).
+  - Then a hard break at 10:14 / **hold 10:15 → put**. SPX ran −73 to 7,274.42 by 10:39.
+  - **Put shadow on SPXW 7200P @ $1.30** (the owner's level at the 10:14 cross): half at $1.95, the rest trailed out at ≈ $5.70 (10:44) → **+$252.50**.
+  - **A2 shadows ≈ +$207.50.** The owner watched; no live trades today ("would have got in on puts at 10:14 at $1.30").
+- **Other shadows:** the QQQ E short (1:15) −1R. Every other armed line failed volume or its band.
+- **Running totals (unchanged):** 60 trades, 30W/30L, +$139.98. A2 track: 1 counted (−$62); shadows 11/17 +50%, 11/18 +$2.50, 11/19 ≈ +$207.50. **Week −$115.96** → shadows through Friday.
+- **Day note:** a gap-up that failed. A2 read the flush (put +$252.50 shadow) after one swoop fake-out. Then a −$13.5 midday leg with no pullback, a snap-back and a grind lower that the armed lines (bands, pullbacks, volume vs a flush-inflated average) never joined.
