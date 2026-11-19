@@ -7711,3 +7711,14 @@ Market data and analysis only, not investment advice.
 - **Events:** WMT beat (am); BABA missed, PDD beat (am). INTU, ROST and GAP report after the close. Thursday usually has jobless claims at 8:30 (I didn't pull an economic calendar). QQQ is gapping much more than SPY (tech-led).
 - **Bias:** bullish open (a gap over both PDHs, QQQ strong), inside a bigger downtrend. Watch for a **gap fill / PDH retest** (the owner's sweep-and-reverse) vs a hold above.
 - **A2 today (SPX/SPY/QQQ combined, trade = SPXW):** mark the 9:30–9:45 range. After 9:45, a cross that holds → calls/puts at $0.75–1.25; a swoop back inside → the other way. Stop the range midpoint ∓ $0.10 (SPX ∓ 1.0). Half at +50%, trail the rest; out by 11:00. The opposite mark is the natural target. Weekly budget $34.04 → shadows only.
+
+**Setup check (9:42 AM ET): opening range forming above PDH**
+- **Forming 9:30–9:45 range (through 9:42):** SPY **H $739.90 / L $735.42** (midpoint ≈ $737.66), now $737.48. QQQ **H $675.18 / L $670.41**, now $673.14. The open spiked, faded, and is bouncing. The SPY range low sits just above PDH ($735.06) and R1 ($734.58), so a break of the low = a gap-fill test of PDH. Final marks at 9:45.
+- No entries before 9:45. Nothing open.
+
+ARMED / WATCH (9:45–10:12):
+- `A2 (SPX/SPY/QQQ, trade = SPXW; shadow): after 9:45, a 1-min close beyond the final range high (calls) / low (puts), and the next close holds → $0.75–1.25 0DTE; a swoop back inside → the other way; stop the midpoint ∓ $0.10 (SPX ∓ 1.0); half at +50%, trail; the opposite mark is the target; out by 11:00. Entries by 10:30.`
+- `ORB-FLAG SPY/QQQ (A): a 1-min close beyond the range on ≥ 1.5× the prior 20-bar volume by 11:00 → a 3–10 bar flag → a 1-min flag break $0.01–0.30 on above-flag volume by 11:30; R/R ≥ 1.5.`
+- `Context: a put break targets PDH $735.06 / R1 $734.58 (a gap fill); a call break targets the pre-market high $740.26, then R2 $738.95 is already under the price → next $742+.`
+
+Market data and analysis only, not investment advice.
