@@ -156,3 +156,11 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - **E/F close bands:** 4 impulse moves this week skipped because the close ran past a $0.25–0.30 band. Queued for a replay (≥ 20 sessions) of a band = 0.25 × ATR(5-min) vs fixed. No change without it.
 - **Volume bar after a flush:** the 10-bar average stays inflated for ~10 bars after a 2–3× flush. Queued for the same replay: exclude bars > 2× the session median from the average.
 - Pending owner decisions unchanged (change 2/3 reverts, the F ADX gate, the weekly-budget override).
+
+## 2026-11-20 EOD — observations; weekly review (no tuning change)
+
+- **A2:** a fake-out and a breakout, ≈ −$1.50 combined (shadows). Swoop entries are now 1 for / 2 against this week; the breakout entries carry the setup. Supports the owner proposal on a swoop stop (beyond the poke extreme, as used today), and argues for logging swoop and breakout results separately.
+- **A2 exit (change 7):** today the old flat +50% would have made +$44 vs +$20.50 for half + trail. The tally is now 1 for / 2 against / 1 neutral in 4 signals; the review stays at 10 signals or 12/1.
+- **E trend grind:** 6 armed E closes were through their levels but under 1.5× volume. The 2 with real volume closed $1.18–1.49 past the level (beyond even the $0.75 extended band). Together with 11/19, this is the strongest case yet for the queued replay (ATR-scaled band + flush-excluded volume average). **Next action: run that replay (≥ 20 sessions) before Monday's open.** No change without it.
+- **Change 1 (extended band):** past its 2-week mark; neutral (no signal landed in $0.31–0.75). Keep, pending the replay above.
+- Pending owner decisions are listed in the weekly review (journal/paper-trades.md).

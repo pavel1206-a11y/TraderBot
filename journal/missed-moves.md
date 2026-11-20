@@ -417,3 +417,12 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 11:35–12:05 | −$13.5 in 30 min (731.02 → 717.55) | A failed bounce under VWAP, then a 2.8× flush bar at 11:50 under S1/the day low | E short | The armed close band ($729.5–729.6) was missed by 6¢; then no pullback for the pullback line; straight-line bars. |
 | 12:05–12:35 | +$8.8 in 30 min (717.55 → 726.35) | A capitulation low under S2, then a 1.2× snap-back bar | D long | No sweep of the low (the line required one); counter-trend; under VWAP. |
 | 12:35–1:15 | −$7.6 in 40 min (726.15 → 718.59) | A rejection at S1 | E short | The SPY lines matched price at 12:35/12:40 but on 0.45–0.6× of a flush-inflated average. A QQQ short fired at 1:15 and was stopped −1R in the bounce. |
+
+### 2026-11-20
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 9:45–10:00 | +$6.0 in 15 min (712.30 → 718.29) | The ORB-high cross 9:53 / hold 9:54; SPX/QQQ confirmed | A2 call | **Caught** (shadow +$20.50; the trail exited at 10:09). |
+| 10:00–10:35 | −$9.9 in 35 min (718.29 → 708.41) | A failed hold above PDL 715.65; ORB-low break at 10:19 (1.77×) | A short / A2 put | A: the break qualified, but the next bar closed back inside, then a straight run with no flag. A2: the put direction was already used (9:48 swoop). E: the 10:15 close was 1.05×. |
+| 10:40–11:05 | −$5.8 in 25 min (710.34 → 704.55) | Closes under the 10:25 base low and the 10:45 flush low | E short | Volume 1.04× (10:40) and 1.16× (11:00), under the 1.5× bar. |
+| 11:10–11:45 | −$7.2 in 35 min (708.86 → 701.69) | A failed bounce under VWAP | E short | Volume 0.74× (11:30) and 1.17× (11:40). |
+| 1:55–2:30 | −$11.1 in 35 min (703.98 → 692.85) | A failed bounce at 1:55, then a break of the 699 base at 2:10 | E short | 2:10 had volume (1.51×), but the close was $1.18 past the level (band $0.75); after that, the 2:15 / 2:30 cutoffs. |

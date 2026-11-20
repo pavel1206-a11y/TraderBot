@@ -8335,3 +8335,67 @@ Market data and analysis only, not investment advice.
 - **No open paper trades; nothing to replay or arm.**
 - SPY flushed to **692.85** at 2:30 (near the 692 pre-market low, 933k volume), then a sharp bounce to 696.19. QQQ flushed to 612.68, then 616.32.
 - **4H (setup D):** the 12–4 bar has a new low and a long lower wick forming. **Squeeze (setup F):** none.
+
+### EOD 2026-11-20 (Fri, options only)
+- **A2 (SPX/SPY/QQQ combined):**
+  - Range SPX 7,133.55–7,156.23 (SPY $711.74–714.16).
+  - The 9:47 cross above failed back inside at 9:48 → **swoop put** (SPY 704P ≈ $0.97, stop above the poke): stopped at 9:54, **≈ −$22**.
+  - The 9:53 cross / **9:54 hold → call**; all three confirmed. **SPY 724C $0.88**, half at $1.32 (10:00), rest trailed out ≈ $0.85 (10:09) → **≈ +$20.50**.
+  - **A2 day ≈ −$1.50 (shadows).** Contract: SPY, because SPXW in-band strikes were far OTM (7240C ≈ $9).
+- **Counted paper trades: none** (weekly budget). No open positions; nothing carried overnight.
+- **Other lines:** the ORB-flag short qualified at 10:19 (1.77×) but had no valid flag. E shorts: 6 closes through their levels under the 1.5× volume bar, and 2 with volume but past the $0.75 band (12:00 QQQ, 2:10 both).
+- **Running totals (unchanged):** 60 trades, 30W/30L, +$139.98. SPY 54 +$152.91; QQQ 6 −$12.93. A-grade 0W/2L −$53.96. **A2 track:** 1 counted (−$62); shadows 11/17 +50% (≈ +$49), 11/18 +$2.50, 11/19 ≈ +$207.50, 11/20 ≈ −$1.50. **Week −$115.96** (counted).
+- **Day note:** opex Friday; the 4th straight big down day. SPY ran 718.29 → 689.45 (−4%), closing ≈ $690 under S2. A2 split a fake-out and a breakout for about even. Then a bearish Power-of-3 day (a push into the PDL, then distribution down) in a steady grind. The E lines' volume bar and close band both kept the bot out of every leg.
+
+## Weekly review: 2026-11-16 to 11-20 (playbook section 8)
+
+| Day | Counted trades | Result | A2 (shadow unless counted) | Owner live |
+|---|---|---|---|---|
+| Mon 11/16 | 3 (#59 A2, #60/#61 A short) | −$115.96 | −$62 (counted) | — |
+| Tue 11/17 | 0 | $0 | put +50% (≈ +$49) | SPXW 7270P, likely +50% |
+| Wed 11/18 | 0 | $0 | +$2.50 (put −53, swoop call +55.50) | **+$168** |
+| Thu 11/19 | 0 | $0 | ≈ +$207.50 (swoop −45, put +252.50) | watched |
+| Fri 11/20 | 0 | $0 | ≈ −$1.50 (swoop put −22, call +20.50) | — |
+| **Week** | **3** | **−$115.96** | **counted −$62; shadows ≈ +$258** | +$168 (11/18) |
+
+- **Per setup:**
+  - **A2:** 5 days, 9 signals (1 counted, 8 shadow).
+    - It caught the main morning move on 11/17, 11/18 and 11/19.
+    - The swoop entries were 1 win, 2 losses: +55.50 / −45 / −22. Breakout entries: 3 wins, 2 losses.
+    - The new exit (half + trail) beat the old +50% exit on 11/19 (+$252.50 vs ≈ +$81) and lost to it on 11/20 (+$20.50 vs +$44) and on 11/18 (the call).
+  - **A (ORB flag):** the 11/16 trade lost (A-grade, −1R). The R/R gate skipped a winner on 11/17. On 11/20 a qualified break had no flag.
+  - **E:** 1 shadow (11/19, −1R). Dozens of armed lines blocked by the 1.5× volume bar or the close band during trend grinds (11/19 midday, 11/20 all day).
+  - **F:** 1 shadow (11/17, −1R); no squeezes qualified 11/18–11/20.
+  - **B, C, D:** no entries.
+- **By grade:** A-grade 2 trades (both on 11/16, legs of one signal), 0W/2L. Still no evidence A beats B.
+- **Rule breaks:** none.
+- **Process:**
+  - Armed lines missing VWAP conditions (fixed 11/18).
+  - The swoop rule missed once (11/18, corrected).
+  - 11/20: a wording error in the 10:12 note (fixed in the next commit).
+- **Owner changes this week:** fractional stopped; options only, A2 primary; SPX/SPY/QQQ combined; the A2 exit test (half + 1-bar trail, adopted 11/17 from the 9-month test).
+- **Changelog status:**
+
+| # | Change | Result so far | Verdict |
+|---|---|---|---|
+| 1 | Extended band $0.75 (11/02) | This week: 3 band misses were all > $0.75 past (11/20 12:00 QQQ $1.49, 2:10 SPY/QQQ $1.18), so the extension never applied | **Pending, past 2 weeks**: neutral. Queued ATR-scaled band replay decides it |
+| 2 | E swing stop (11/02) | No new signals this week | Pending, leaning revert (owner's call) |
+| 3 | 1.5R trail (11/02) | No new signals | Pending, leaning revert (owner's call) |
+| 4 | D past a close level | No signal | Pending |
+| 5 | Different setups same direction | Not tested | Pending |
+| 6 | ORB 2× pole target | 11/17 skip would have won (+1.2R) | Pending, weak for |
+| 7 | A2 exit: half +50% + 1-bar trail (11/17) | 4 shadow signals: 1 for (11/19), 2 against (11/18 call, 11/20 call), 1 neutral | Pending to 12/1 (10 signals) |
+
+- **For the owner (unchanged, plus one):**
+  1. The A2 swoop stop.
+  2. A2 entry on the cross bar vs the hold.
+  3. SPY contracts on high-IV days (used 11/18–11/20).
+  4. Reverting changes 2/3.
+  5. The F ADX gate.
+  6. **New:** the weekly budget resets Monday 11/23 ($150). A2 trades are counted again from Monday.
+
+**Graduation check (CLAUDE.md):**
+- At least 10 paper trades: ✓ (60 counted).
+- A-grade trades profitable overall: ✗. A-grade is 2 trades, 0W/2L, −$53.96.
+- **Not passed: keep paper trading.**
+- For reference: B-grade 58 trades, +$193.94. The A2 track is 1 counted (−$62) plus 8 shadows ≈ +$258 (shadows don't count toward graduation).
