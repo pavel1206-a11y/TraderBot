@@ -8161,3 +8161,18 @@ Market data and analysis only, not investment advice.
   - **QQQ:**
     1. E short: a 5-min close below 624.90 on ≥1.5× volume.
     2. Warning: a close above 633.86 cancels the short bias.
+
+**11:42 check (replay 11:27–11:39)**
+- **E shorts: closes broke the levels, volume failed → no** (4th time today).
+  - SPY's 11:30 close 704.165 (< 704.55) had 353k vs a ≈ 475k 10-bar average (0.74×).
+  - QQQ's 11:30 close 624.25 (< 624.90) had 499k vs ≈ 520k (0.96×).
+  - Both kept sliding: SPY 703.54 / QQQ 623.85 at 11:39 (QQQ is at S2 623.14).
+- **Squeeze (setup F):** none (trending). **4H (setup D):** the 8–12 bar is at its lows, closing in 18 min; the bearish Power of 3 completes if it closes near the low.
+- **Score cards:** no A/B setups.
+- **ARMED (to 11:57):**
+  - **SPY:**
+    1. E short: a 5-min close below 703.54 on ≥1.5× volume. Room to S2 699.56.
+    2. VWAP reclaim long (standing line): a 5-min close above ≈ 711.0.
+  - **QQQ:**
+    1. E short: QQQ is at S2 623.14, so there is no room for 1.5R → **skip**.
+    2. Watch: S2 hold and reclaim (a 5-min close back above 626.0) for a reversal read.
