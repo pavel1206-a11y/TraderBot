@@ -7999,3 +7999,14 @@ Market data and analysis only, not investment advice.
 - **Events:** **monthly opex** (pinning and fast moves around big strikes). Earnings: BJ beat (am); no big names. I didn't pull an economic calendar.
 - **Bias: bearish.** A 3rd straight big down day, the gap under PDL, and SPY at S1 ($707.72) pre-market. Watch for a **flush-and-reclaim of S1 / PDL** (the owner's sweep pattern) vs continuation.
 - **A2 today (SPXW; SPY contracts if SPXW in-band strikes are far OTM):** mark the 9:30–9:45 range. After 9:45, a cross that holds → calls/puts at $0.75–1.25; a swoop back inside → the other way. Stop the midpoint (swoop: beyond its extreme, pending the owner's OK). Half at +50%, trail; out by 11:00. Weekly budget $34.04 → shadows only. **EOD today = the weekly review + graduation check.**
+
+**9:42 check (opening range forming, through the 9:41 bar)**
+- SPY open 713.56 (back up from pre $707.50, still under PDL 715.65). Range so far **H 714.16 / L 711.74**, mid 712.95; last 712.92.
+- QQQ open 638.82 (under PDL 644.34). Range so far **H 638.88 / L 633.86**, mid 636.37; last 635.09 (near S1 634.09).
+- SPX range so far **H 7156.23 / L 7133.55**, mid 7144.89; last 7144.48. Choppy, two-sided.
+- ARMED/WATCH 9:45–10:12 (final marks after the 9:44 bar):
+  1. **A2 calls (SPXW, SPY/QQQ confirming):** a 1-min close above the ORB high, then the next close holds → calls at $0.75–1.25. Stop at the midpoint −$0.10 (SPX −1.0); half at +50%, trail, out by 11:00. Must be above a rising VWAP. Note: SPY PDL 715.65 sits ~$1.5 above the high, which caps room (check R/R ≥ 1.5).
+  2. **A2 puts:** a 1-min close below the ORB low, then a hold → puts, mirrored. With trend and the gap bias; must be below a falling VWAP.
+  3. **Swoop:** a poke beyond either mark that closes back inside → trade the other way (stop beyond the poke's extreme, pending the owner's OK).
+  4. **ORB flag (setup A) SPY/QQQ:** a 1-min break of the ORB high/low on ≥1.5× the prior 10-bar average volume by 11:00 → flag → 1-min flag break by 11:30.
+- Shadows only (weekly budget $34.04).
