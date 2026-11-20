@@ -8191,3 +8191,19 @@ Market data and analysis only, not investment advice.
   - **QQQ:**
     1. E short: a 5-min close below 621.53 on ≥1.5× volume, only if R/R ≥ 1.5 (next level ≈ 615; the S3 area).
     2. Reversal watch: a 5-min close back above 623.14 (S2 reclaim).
+
+**12:12 check (replay 11:57–12:09)**
+- **QQQ E short: volume passed, close band failed → miss.**
+  - The 12:00 close 620.04 (< 621.53) had 964k vs a ≈ 488k 10-bar average (**1.97×**).
+  - But the close was $1.49 past the level, beyond the $0.75 extended band. The R/R to the ≈ 615 area was also < 1.5 with the bar-high stop (624.32).
+  - Low 619.96, then a bounce to 622.78.
+- **SPY E short: no.** The 12:00 close 700.905 (< 701.69) had 513k vs ≈ 400k (1.28×). R/R to S2 699.56 was < 1.5. Low 700.85, bounced to 703.11.
+- **Squeeze (setup F):** the SPY base broke at 12:00 → none. **4H (setup D):** the 8–12 bar closed ≈ 700.9 (near its low; bearish Power of 3 done). The 12–4 bar opened with a flush to 700.85 and a bounce.
+- **Score cards:** no A/B setups.
+- **ARMED (to 12:27):**
+  - **SPY:**
+    1. E short: a 5-min close $0.01–0.30 below 700.85 (or to $0.75 with 1.2× volume + QQQ confirming) on ≥1.5× volume, only if R/R ≥ 1.5. Next level is S2 699.56, so likely no room → **watch only**.
+    2. VWAP reclaim long (standing line): a 5-min close above ≈ 709.8.
+  - **QQQ:**
+    1. Reversal watch: a 5-min close above 623.14 (S2 reclaim) on ≥1.0× volume → note it; no setup line yet.
+    2. E short: a 5-min close in the band below 619.96 on ≥1.5× volume, R/R ≥ 1.5 to ≈ 615.
