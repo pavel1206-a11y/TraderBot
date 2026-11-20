@@ -8045,3 +8045,27 @@ Market data and analysis only, not investment advice.
     2. PDL 644.34 = first target / resistance.
     3. Warning: a close back below 638.88.
 - Weekly budget $34.04 → shadows only.
+
+**10:12 check (replay 9:57–10:14)**
+- **A2 call (shadow) CLOSED.**
+  - 10:00 bar: SPY 718.29, and the 724C printed $1.49 → **half off at $1.32 (+$22.00)**.
+  - Rest trailed one 5-min bar behind, floor at entry: 10:00 bar low 715.37.
+  - Stopped at 10:09 (SPY low 714.93); the 724C was ≈ $0.85 → rest −$1.50.
+  - **Trade ≈ +$20.50.** A2 day total (swoop put −$22 + call +$20.50) ≈ **−$1.50**.
+  - Note: the 1-bar trail was the right call. The 724C is $0.63 at 10:13, so a flat +50% target would have won the same +$44 on the whole, but holding to 11:00 would lose.
+- **ARMED replay:**
+  - SPY E long (5-min close > 716.60): the 9:55 bar closed 717.14, but volume was 559k vs ≈ 704k average (0.8×) → **no**.
+  - QQQ E long (> 641.38): the 9:55 bar closed 641.61 on 719k vs ≈ 837k (0.9×) → **no**.
+  - Failure warnings **both fired.** SPY is 713.81 (< 714.16); QQQ is 636.52 (< 638.88). Both are back inside the range and under VWAP (≈ SPY 714.2 / QQQ 637.8).
+- **A2:** both directions have been used today (one trade per direction), so nothing new.
+- **ORB flag (setup A):** no qualified break yet. Downside watch: SPY 711.74 / QQQ 633.86.
+- **4H (setup D):** the 8–12 bar ran 709 → 718.29 and is fading (an upper wick is forming). No signal.
+- **Squeeze (setup F):** none. Last 45 minutes: SPY 713.71–718.29 (4.6 wide), QQQ 636.43–643.28.
+- **Score cards:** no A/B setups.
+- **ARMED (to 10:27):**
+  - **SPY:**
+    1. ORB flag short: a 1-min break below 711.74 on ≥1.5× the prior 10-bar average volume (by 11:00) → flag.
+    2. E short: a 5-min close below 712.95 on ≥1.5× volume, under a falling VWAP.
+  - **QQQ:**
+    1. ORB flag short: a 1-min break below 633.86 on ≥1.5× volume → flag.
+    2. E short: a 5-min close below 636.37 on ≥1.5× volume, under VWAP.
