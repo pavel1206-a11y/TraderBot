@@ -7983,3 +7983,19 @@ Market data and analysis only, not investment advice.
 - **Other shadows:** the QQQ E short (1:15) −1R. Every other armed line failed volume or its band.
 - **Running totals (unchanged):** 60 trades, 30W/30L, +$139.98. A2 track: 1 counted (−$62); shadows 11/17 +50%, 11/18 +$2.50, 11/19 ≈ +$207.50. **Week −$115.96** → shadows through Friday.
 - **Day note:** a gap-up that failed. A2 read the flush (put +$252.50 shadow) after one swoop fake-out. Then a −$13.5 midday leg with no pullback, a snap-back and a grind lower that the armed lines (bands, pullbacks, volume vs a flush-inflated average) never joined.
+
+## 2026-11-20 (Fri; monthly options expiration)
+
+**Pre-market brief (8:35 AM ET)**
+- SPY PDH **$739.90** / PDL **$715.65** · pre $707.50 (**below PDL by $8.15**, ≈ −1.2% gap down)
+- QQQ PDH **$676.49** / PDL **$644.34** · pre $631.34 (**below PDL by $13.00**, ≈ −2.1%). The daily high includes the suspect 11:50 print; the real high was ≈ $675.18 (the open).
+- **Pre-market range:**
+  - SPY $709.07–714.94; a 4 AM print at $692.15 looks like a bad/thin tick.
+  - QQQ $633.00–641.15. Both are sliding into the open.
+- **Pivots:**
+  - SPY: P 723.81 · R1 731.97 · R2 748.06 · S1 707.72 · S2 699.56.
+  - QQQ: P 655.29 · R1 666.24 · R2 687.44 · S1 634.09 · S2 623.14.
+- **SMAs:** SPY 20d 751.32 / 50d 761.67; QQQ 20d 683.33 / 50d 713.09 (a deep downtrend).
+- **Events:** **monthly opex** (pinning and fast moves around big strikes). Earnings: BJ beat (am); no big names. I didn't pull an economic calendar.
+- **Bias: bearish.** A 3rd straight big down day, the gap under PDL, and SPY at S1 ($707.72) pre-market. Watch for a **flush-and-reclaim of S1 / PDL** (the owner's sweep pattern) vs continuation.
+- **A2 today (SPXW; SPY contracts if SPXW in-band strikes are far OTM):** mark the 9:30–9:45 range. After 9:45, a cross that holds → calls/puts at $0.75–1.25; a swoop back inside → the other way. Stop the midpoint (swoop: beyond its extreme, pending the owner's OK). Half at +50%, trail; out by 11:00. Weekly budget $34.04 → shadows only. **EOD today = the weekly review + graduation check.**
