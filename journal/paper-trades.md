@@ -8176,3 +8176,18 @@ Market data and analysis only, not investment advice.
   - **QQQ:**
     1. E short: QQQ is at S2 623.14, so there is no room for 1.5R → **skip**.
     2. Watch: S2 hold and reclaim (a 5-min close back above 626.0) for a reversal read.
+
+**11:57 check (replay 11:42–11:54)**
+- **SPY E short: the close broke, volume failed → no** (5th today). The 11:40 close 702.69 (< 703.54) had 486k vs a ≈ 414k 10-bar average (1.17×). SPY low 701.69, last 702.56.
+- **QQQ:** short skipped (no room above S2). It slipped through S2 623.14 to 621.53; no reclaim of 626.
+- **Squeeze (setup F):** a SPY base is forming at 701.69–704.05 (since 11:40, only 15 min) → arm by ≈ 12:25 if it holds. QQQ base 621.53–624.44 (2.9 wide) → no.
+- **4H (setup D):** the 8–12 bar closes near its low (≈ 702.5 vs H 718.29). The **bearish Power of 3 completed**: the manipulation was up into PDL, the distribution came down. For the 12–4 bar, continuation is favored; no D entry rule (reversal setup) applies.
+- **Score cards:** no A/B setups.
+- **ARMED (to 12:12):**
+  - **SPY:**
+    1. E short: a 5-min close below 701.69 on ≥1.5× volume. Room to S2 699.56 is only ≈ $2.1 → check R/R ≥ 1.5 at the trigger.
+    2. F watch: the 701.69–704.05 base, both edges, once it is 45 min old.
+    3. VWAP reclaim long (standing line): a 5-min close above ≈ 710.5.
+  - **QQQ:**
+    1. E short: a 5-min close below 621.53 on ≥1.5× volume, only if R/R ≥ 1.5 (next level ≈ 615; the S3 area).
+    2. Reversal watch: a 5-min close back above 623.14 (S2 reclaim).
