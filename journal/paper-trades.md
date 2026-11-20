@@ -8238,3 +8238,19 @@ Market data and analysis only, not investment advice.
   - **QQQ:**
     1. E short: a 5-min close in the band below 619.17 on ≥1.5× volume, R/R ≥ 1.5.
     2. Reversal watch: a close above 623.14.
+
+**12:57 check (replay 12:42–12:54)**
+- **Nothing fired.**
+  - SPY closes 700.09 / 699.88 / 699.84 stayed above 699.25 (low 699.01). It is sitting on S2.
+  - QQQ closes stayed above 619.17 (low 619.19).
+- **Squeeze (setup F):** none at 45 minutes. A SPY base 699.01–701.36 (2.35 wide) is only 20 minutes old → it could qualify by ≈ 1:20. QQQ 619.17–622.47 (3.3).
+- **4H (setup D):** the 12–4 bar is flat at the lows.
+- **Score cards:** no A/B setups.
+- **ARMED (to 1:12):**
+  - **SPY:**
+    1. E short: a 5-min close in the band below 699.01 on ≥1.5× volume, R/R ≥ 1.5 (next ≈ 692).
+    2. F watch: the 699.01–701.36 base (arms at ≈ 1:20 if it holds).
+    3. VWAP reclaim long (standing line): a 5-min close above ≈ 708.3.
+  - **QQQ:**
+    1. E short: a 5-min close in the band below 619.17 on ≥1.5× volume, R/R ≥ 1.5.
+    2. Reversal watch: a close above 623.14.
