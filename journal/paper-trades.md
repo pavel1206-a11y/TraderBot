@@ -8330,3 +8330,8 @@ Market data and analysis only, not investment advice.
   - Follow-through: SPY 696.59 / QQQ 616.39 by 2:24 (≈ +$1.3 more), a missed move.
 - **Day pattern:** E lines failed 6× on volume in the slow grind, then 2× on the close band when a real volume bar finally came (12:00 QQQ, 2:10 both). Noted for the EOD changelog; no change today.
 - **No new arming** (after 2:15) and **no new 0DTE entries after 2:30**. No open paper trades. Checks continue for closeout only.
+
+**2:42 check (closeout window; no entries after 2:30)**
+- **No open paper trades; nothing to replay or arm.**
+- SPY flushed to **692.85** at 2:30 (near the 692 pre-market low, 933k volume), then a sharp bounce to 696.19. QQQ flushed to 612.68, then 616.32.
+- **4H (setup D):** the 12–4 bar has a new low and a long lower wick forming. **Squeeze (setup F):** none.
