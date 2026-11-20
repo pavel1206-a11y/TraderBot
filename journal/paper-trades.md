@@ -8322,3 +8322,11 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 2:27; last lines, and no new 0DTE entries after 2:30):**
   - **SPY:** E short: a 5-min close in the band below 699.08 on ≥1.5× volume, R/R ≥ 1.5.
   - **QQQ:** E short: a 5-min close in the band below 618.72 on ≥1.5× volume, R/R ≥ 1.5.
+
+**2:27 check (replay 2:12–2:24)**
+- **E shorts on both: volume passed, close band failed → miss.**
+  - SPY's 2:10 close 697.90 was $1.18 below 699.08 (band ≤ $0.75 even extended), on 586k vs ≈ 389k (**1.51×**).
+  - QQQ's 2:10 close 617.53 was $1.19 below 618.72, on 557k vs ≈ 340k (**1.64×**).
+  - Follow-through: SPY 696.59 / QQQ 616.39 by 2:24 (≈ +$1.3 more), a missed move.
+- **Day pattern:** E lines failed 6× on volume in the slow grind, then 2× on the close band when a real volume bar finally came (12:00 QQQ, 2:10 both). Noted for the EOD changelog; no change today.
+- **No new arming** (after 2:15) and **no new 0DTE entries after 2:30**. No open paper trades. Checks continue for closeout only.
