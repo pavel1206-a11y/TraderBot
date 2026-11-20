@@ -8069,3 +8069,25 @@ Market data and analysis only, not investment advice.
   - **QQQ:**
     1. ORB flag short: a 1-min break below 633.86 on ≥1.5× volume → flag.
     2. E short: a 5-min close below 636.37 on ≥1.5× volume, under VWAP.
+
+**10:27 check (replay 10:14–10:26)**
+- **ORB flag short, SPY: break qualified, no flag.**
+  - Break: 10:19 1-min close 711.24 (< 711.74) on 199k, which is 1.77× the prior 20-bar average of 112k.
+  - The 10:20 bar closed back inside the range (712.43), so it can't count as a flag bar (flag bars must sit outside the range).
+  - The 10:21–10:26 bars fell straight down to 709.15 with no 3-bar flag or 2 counter-drift bars after a qualified break → **no trade (as written)**. Missed move: ≈ −$2.1 from 711.24.
+- **QQQ ORB flag:** the first close below 633.86 came at 10:19 (632.57) on ≈ 1.0× the 20-bar average volume → not qualified.
+- **E shorts:**
+  - SPY's 10:15 5-min close of 711.24 (< 712.95) had 674k vs a ≈ 641k average (1.05×) → no.
+  - QQQ's 10:15 close of 632.57 (< 636.37) had 641k vs ≈ 748k (0.86×) → no.
+- **A2:** done for the day (both directions used).
+- **Day lows:** SPY 709.15 (back at the pre-market low), QQQ 630.28 (under pre $631.34). VWAP ≈ SPY 713.8 / QQQ 637.0.
+- **4H (setup D):** the 8–12 bar swept above PDL 715.65 (to 718.29) and failed back below. That is a possible Power-of-3 **bearish** turn (the up move was the manipulation), but it needs the 12 PM bar to confirm.
+- **Squeeze (setup F):** none; trending.
+- **Score cards:** no A/B setups.
+- **ARMED (to 10:42):**
+  - **SPY:**
+    1. E short: a 5-min close below 709.15 (the day low) on ≥1.5× the 10-bar volume, under VWAP, within the no-chase band.
+    2. VWAP reclaim long (standing line; SPY made a new day low under VWAP): a 5-min close above VWAP + $0.10 (≈ 713.9) with QQQ above its own VWAP, then a higher-low hold bar.
+  - **QQQ:**
+    1. E short: a 5-min close below 630.28 on ≥1.5× volume. Target S2 623.14.
+    2. Warning: a 5-min close back above 633.86 (back inside the range) cancels the short bias.
