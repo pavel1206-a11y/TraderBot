@@ -8010,3 +8010,38 @@ Market data and analysis only, not investment advice.
   3. **Swoop:** a poke beyond either mark that closes back inside → trade the other way (stop beyond the poke's extreme, pending the owner's OK).
   4. **ORB flag (setup A) SPY/QQQ:** a 1-min break of the ORB high/low on ≥1.5× the prior 10-bar average volume by 11:00 → flag → 1-min flag break by 11:30.
 - Shadows only (weekly budget $34.04).
+
+**9:57 check (replay 9:42–9:56, 1-min bars)**
+- **Final 9:30–9:45 marks:**
+  - SPY H 714.16 / L 711.74 (mid 712.95)
+  - QQQ H 638.88 / L 633.86 (mid 636.37)
+  - SPX H 7156.23 / L 7133.55 (mid 7144.89)
+- **Contract choice: SPY.** SPXW premiums are huge today (7240C ≈ $9 with SPX at 7155), so $0.75–1.25 SPXW strikes sit far out of the money.
+- **9:47 cross failed.** SPY closed 714.72 (> H), but 9:48 closed back inside at 713.905; SPX did the same (7161.80, then 7155.68). That is a **swoop → A2 put, shadow (armed, replayed):**
+  - Entry: SPY 704P at ≈ $0.97 (9:48 close $0.95 + spread).
+  - Stop: beyond the poke high, 715.04.
+  - Best price $1.22 at 9:50, short of the +50% target ($1.45).
+  - Stopped at 9:54 (SPY high 715.55) with the put ≈ $0.75 → **≈ −$22**.
+- **A2 call, shadow (armed, replayed).** SPY crossed at 9:53 (714.225) and held at 9:54 (715.315). SPX crossed 9:53 (7158.55) and held 9:54 (7169.62). QQQ crossed 9:54 (639.855) and held 9:55 (640.74). All three agree.
+  - VWAP: price above VWAP (≈ 713.2), and VWAP is rising.
+  - The breakout also cleared SPY PDL 715.65.
+  - **SPY 724C at the 9:54 close $0.87 → ask ≈ $0.88 ($88).**
+  - Stop: SPY 712.85 (midpoint − $0.10).
+  - Half off at $1.32 (+50%), trail the rest; out by 11:00.
+  - At 9:57: high $1.26, last $1.17 (+33%). **OPEN.**
+- **ORB flag (setup A): no.**
+  - SPY's 9:53 break bar had 94k volume vs a ≈ 120k 10-bar average (0.8×).
+  - QQQ's 9:54 break bar had 166k vs ≈ 136k (1.2×). Both are below the 1.5× bar.
+- **4H (setup D):** the 8 AM–12 PM bar swept the pre-market low (SPY 709 area, under S1) and has reversed up through PDL. That is a possible Power-of-3 bull phase; distribution is not yet confirmed.
+- **Squeeze (setup F):** n/a; less than 45 minutes of range so far.
+- **Score cards:** only the A2 call; all others below B.
+- **ARMED (to 10:12):**
+  - **SPY:**
+    1. A2 call management: half at 724C $1.32, then a 1-bar trail; stop 712.85.
+    2. E long: a 5-min close above 716.60 (today's high) on ≥1.5× volume, above VWAP. Calls only, the same direction.
+    3. Warning: a 1-min close back below 714.16 (failed breakout).
+  - **QQQ:**
+    1. E long: a 5-min close above 641.38 on ≥1.5× volume, above VWAP.
+    2. PDL 644.34 = first target / resistance.
+    3. Warning: a close back below 638.88.
+- Weekly budget $34.04 → shadows only.
