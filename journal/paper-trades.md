@@ -8111,3 +8111,20 @@ Market data and analysis only, not investment advice.
   - **QQQ:**
     1. E short: a 5-min close below 629.17 on ≥1.5× volume. Target S2 623.14.
     2. Warning: a close above 633.86 cancels the short bias.
+
+**10:57 check (replay 10:42–10:54)**
+- **E shorts: closes broke the levels, volume failed → no.**
+  - SPY's 10:40 close 708.13 (< 708.41) had 588k vs a ≈ 566k 10-bar average (1.04×).
+  - QQQ's 10:40 close 628.94 (< 629.17) had 568k vs ≈ 659k (0.86×).
+- **10:45 bar:** a flush-and-reclaim hammer. SPY wicked to 706.42 and closed 709.63 on 784k (1.4×); QQQ wicked to 626.27 and closed 630.41. Then 10:50 drifted (708.37 / 629.54). No VWAP reclaim (VWAP ≈ SPY 712.9 / QQQ 635.8).
+- **Squeeze (setup F):** none. The SPY base broke at 10:40, and the 45-minute ranges are wider than $2.50.
+- **4H (setup D):** the 8–12 bar is ≈ −0.8% from 718.29, with an 11:00–12:00 hour left. Bearish Power of 3 still in play; watch the 12 PM bar.
+- **ORB flag window:** closes 11:00; no qualified sequence. A2 done.
+- **Score cards:** no A/B setups.
+- **ARMED (to 11:12):**
+  - **SPY:**
+    1. E short: a 5-min close below 706.42 (the flush low) on ≥1.5× volume, under VWAP.
+    2. VWAP reclaim long (standing line): a 5-min close above ≈ 713.0 with QQQ above its own VWAP, then a hold bar.
+  - **QQQ:**
+    1. E short: a 5-min close below 626.27 on ≥1.5× volume. Target S2 623.14.
+    2. Warning: a close above 633.86 cancels the short bias.
