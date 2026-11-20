@@ -8091,3 +8091,23 @@ Market data and analysis only, not investment advice.
   - **QQQ:**
     1. E short: a 5-min close below 630.28 on ≥1.5× volume. Target S2 623.14.
     2. Warning: a 5-min close back above 633.86 (back inside the range) cancels the short bias.
+
+**10:42 check (replay 10:27–10:39)**
+- **ARMED replay: nothing fired.**
+  - SPY 5-min closes 710.50 / 709.42 / 709.94 all stayed above 709.15; lows wicked to 708.41 but no close beyond.
+  - QQQ closes 632.23 / 630.38 / 631.16 stayed above 630.28 (low 629.17).
+  - No VWAP reclaim (SPY ≈ 710 vs VWAP ≈ 713.4).
+- **A2:** done for the day. The ORB flag window has no qualified sequence.
+- **Squeeze (setup F):**
+  - SPY is basing at 708.41–710.65 (2.24 wide), but that is only 15 minutes old; it needs 45+ (≈ 11:10).
+  - QQQ 629.17–632.23 is 3.06 wide → no.
+- **4H (setup D):** the 8–12 bar is now red from its 718.29 high, at ≈ 710. The bearish Power-of-3 read stands; the 12 PM bar would confirm.
+- **Score cards:** no A/B setups.
+- **ARMED (to 10:57):**
+  - **SPY:**
+    1. E short: a 5-min close below 708.41 on ≥1.5× the 10-bar volume, under VWAP, within the no-chase band.
+    2. F watch: if 708.41–710.65 holds to 11:10, arm a break of either edge.
+    3. VWAP reclaim long (standing line): a 5-min close above ≈ 713.5 with QQQ above its own VWAP.
+  - **QQQ:**
+    1. E short: a 5-min close below 629.17 on ≥1.5× volume. Target S2 623.14.
+    2. Warning: a close above 633.86 cancels the short bias.
