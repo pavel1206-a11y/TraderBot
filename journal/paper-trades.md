@@ -8268,3 +8268,18 @@ Market data and analysis only, not investment advice.
   - **QQQ:**
     1. E short: a 5-min close in the band below 619.17 on ≥1.5× volume, R/R ≥ 1.5.
     2. Reversal watch: a close above 623.14.
+
+**1:27 check (replay 1:12–1:24)**
+- **SPY F: never armed.**
+  - The 1:15 bar poked to 701.76, above the 701.36 edge, before the base reached 45 minutes (1:20). The range became 699.01–701.82 (2.81 wide, over $2.50), so there is no squeeze.
+  - Even read loosely, the 1:20 close 701.47 had 400k vs a ≈ 355k average (1.13×), under the volume bar → no trade.
+- **QQQ:** the 1:10 low was 618.72, but it closed 619.49 (> 619.17) → no E. It is bouncing to 622.19; no S2 reclaim (623.14) yet.
+- **4H (setup D):** the 12–4 bar has a small bounce off the lows.
+- **Score cards:** no A/B setups.
+- **ARMED (to 1:42):**
+  - **SPY:**
+    1. VWAP reclaim long (standing line): a 5-min close above ≈ 707.6 with QQQ above its own VWAP, then a hold bar.
+    2. E short: a 5-min close in the band below 699.01 on ≥1.5× volume, R/R ≥ 1.5.
+  - **QQQ:**
+    1. Reversal watch: a 5-min close above 623.14 (S2 reclaim) on ≥1.0× volume → note it; no setup line.
+    2. E short: a 5-min close in the band below 618.72 on ≥1.5× volume, R/R ≥ 1.5.
