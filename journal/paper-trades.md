@@ -8413,3 +8413,16 @@ Market data and analysis only, not investment advice.
 - **Events:** earnings, AM: CRWD beat, ZS beat. PM: HPE, ZM, A. No economic calendar was pulled. Thanksgiving week: Thursday closed, Friday a half day.
 - **Bias: none / two-sided.** A big relief gap after a 4-day −8% slide, opening between the levels near R1 (SPY 709.82 / QQQ 632.41). Expect gap-fill pressure vs a short-covering rally. Watch the 9:30–9:45 range, and R1 as the first resistance.
 - **A2 today:** the weekly budget reset ($150), so A2 trades are **counted again**. Mark the 9:30–9:45 range on SPX/SPY/QQQ. After 9:45, a cross that holds → calls/puts at $0.75–1.25 (SPY contracts if SPXW in-band strikes are far OTM; IV is still high). Stop the midpoint. Half at +50%, trail; out by 11:00. Setup A's ORB range is the same 9:30–9:45 candle.
+
+**9:42 check (opening range forming, through the 9:42 bar)**
+- **Huge gap:** SPY opened **724.38** (+5.0% vs the 689.81 close, above PDH 718.29); QQQ opened 655.91 (+7.8%, above PDH 643.28). Then a hard fade.
+- **Range so far:**
+  - SPY **H 724.81 / L 713.54** (mid 719.18), last 716.71: back **below PDH** (a sweep-and-fail of PDH).
+  - QQQ **H 656.25 / L 641.95** (mid 649.10), last 644.99.
+  - SPX **H 7,260.17 / L 7,152.66** (mid 7,206.4), last 7,181.94.
+- **Very wide range** (SPY $11.3 wide). The A2 midpoint stop is ≈ $5 from a cross, so the option risk is the full premium; R/R to the next level matters more than usual.
+- **ARMED/WATCH 9:45–10:12** (final marks after the 9:44 bar). Weekly budget $150 → **counted** trades.
+  1. **A2 calls (SPXW/SPY):** a 1-min close above the range high + hold → calls $0.75–1.25. Stop at the midpoint −$0.10 (SPX −1.0); half at +50%, trail, out by 11:00. Must be above a rising VWAP.
+  2. **A2 puts:** a 1-min close below the range low + hold → puts, mirrored. Must be below a falling VWAP. A gap-fill target = R1/pivot area (SPY 709.8 / 698.3).
+  3. **Swoop:** a poke beyond either mark that closes back inside → trade the other way, stop beyond the poke (pending the owner's OK).
+  4. **ORB flag (setup A) SPY/QQQ:** a 1-min close beyond the range on ≥1.5× the prior 20-bar volume by 11:00 → flag → 1-min flag break by 11:30.
