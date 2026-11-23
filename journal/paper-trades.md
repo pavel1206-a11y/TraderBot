@@ -8426,3 +8426,18 @@ Market data and analysis only, not investment advice.
   2. **A2 puts:** a 1-min close below the range low + hold → puts, mirrored. Must be below a falling VWAP. A gap-fill target = R1/pivot area (SPY 709.8 / 698.3).
   3. **Swoop:** a poke beyond either mark that closes back inside → trade the other way, stop beyond the poke (pending the owner's OK).
   4. **ORB flag (setup A) SPY/QQQ:** a 1-min close beyond the range on ≥1.5× the prior 20-bar volume by 11:00 → flag → 1-min flag break by 11:30.
+
+**9:57 check (replay 9:43–9:56)**
+- **Final marks (9:30–9:45):**
+  - SPY H 724.81 / L 713.54 (mid 719.18)
+  - QQQ H 656.25 / L 641.95 (mid 649.10)
+  - SPX H 7,260.17 / L 7,152.66 (mid 7,206.4)
+- **A2: no cross.** Every bar since 9:45 is inside the range. SPY 716.45–720.98, QQQ 643.03–648.89, SPX 7,174.9–7,226.5; all are back above their midpoints.
+- **ORB flag (setup A):** no break. **4H (setup D):** the 8–12 bar has a gap-up spike and a fade, then a rebound from the ORB low (a long lower wick forming). **Squeeze (setup F):** n/a.
+- **Score cards:** no A/B setups. VWAP ≈ SPY 718.6 / QQQ 647.
+- **ARMED (to 10:12):**
+  - **SPY:**
+    1. A2 calls: a 1-min close above 724.81 + hold (SPX > 7,260.17), above a rising VWAP. Contract $0.75–1.25; stop 719.08 (SPX 7,205.4); half at +50%, trail, out by 11:00.
+    2. A2 puts: a 1-min close below 713.54 + hold (SPX < 7,152.66), below a falling VWAP; stop 719.28.
+    3. ORB flag: a 1-min close beyond either mark on ≥1.5× the 20-bar volume → flag.
+  - **QQQ:** confirmation for A2 (656.25 / 641.95); ORB flag watch on the same marks.
