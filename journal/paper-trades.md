@@ -8561,3 +8561,16 @@ Market data and analysis only, not investment advice.
     1. F watch: the 721.45–723.80 base, either edge once 45 min old (12:35), on the F volume bar, R/R ≥ 1.5.
     2. E long: a 5-min close above 725.45 on ≥1.5× volume, above VWAP.
   - **QQQ:** E short: a 5-min close in the band below 646.57 on ≥1.5× volume, R/R ≥ 1.5.
+
+**12:27 check (replay 12:12–12:24)**
+- **Nothing fired.**
+  - SPY's 12:15 high 724.39 widened the base past $2.50 (721.45–724.39), so F is reset.
+  - A new base: **722.09–724.39** (2.30) since 12:00, 25 minutes old → it could qualify at ≈ 12:45.
+  - QQQ 650.53–653.15, quiet.
+- **4H (setup D):** the 12–4 bar is inside and small.
+- **Score cards:** no A/B setups. The daily budget left is $36.
+- **ARMED (to 12:42):**
+  - **SPY:**
+    1. F watch: the 722.09–724.39 base, either edge from ≈ 12:45, F volume bar, R/R ≥ 1.5.
+    2. E long: a 5-min close above 725.45 on ≥1.5× volume, above VWAP.
+  - **QQQ:** E short: a 5-min close in the band below 646.57 on ≥1.5× volume, R/R ≥ 1.5.
