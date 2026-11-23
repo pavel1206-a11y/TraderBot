@@ -8574,3 +8574,14 @@ Market data and analysis only, not investment advice.
     1. F watch: the 722.09–724.39 base, either edge from ≈ 12:45, F volume bar, R/R ≥ 1.5.
     2. E long: a 5-min close above 725.45 on ≥1.5× volume, above VWAP.
   - **QQQ:** E short: a 5-min close in the band below 646.57 on ≥1.5× volume, R/R ≥ 1.5.
+
+**12:42 check (replay 12:27–12:39)**
+- **Nothing fired.** SPY 722.28–724.03, inside the base; QQQ 650.87–652.73.
+- **Squeeze (setup F): SPY base 722.09–724.39 (2.30) held since 12:00 → qualifies at 12:45.** QQQ 650.53–653.15 (2.62) → no.
+- **4H (setup D):** the 12–4 bar is an inside bar. Volume is light (130–220k).
+- **Score cards:** no A/B setups yet (F arms from 12:45). The daily budget left is $36 → any F option premium above $36 is **shadow only**.
+- **ARMED (to 12:57):**
+  - **SPY:**
+    1. **F breakout long:** a 5-min close above 724.39 by ≤ $0.30 (to $0.75 with ≥1.2× + QQQ confirming), on the F volume bar, above VWAP (≈ 722.6). Stop per F (≥ $0.40); R/R ≥ 1.5 toward 727.98.
+    2. **F breakdown short:** a 5-min close below 722.09, same band and volume rules, under VWAP; R/R ≥ 1.5 toward 719.18.
+  - **QQQ:** confirmation for SPY F (a close above 653.15 / below 650.53 the same bar).
