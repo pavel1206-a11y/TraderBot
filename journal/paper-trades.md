@@ -8473,3 +8473,13 @@ Market data and analysis only, not investment advice.
 - **ARMED/MANAGE (to 10:42):**
   - `MANAGE #62: half at 733C ≥ $1.59; then trail the rest at the prior 5-min bar's low (floor SPY 725.91); stop SPY 719.08; out by the 11:00 bid.`
   - SPY/QQQ: no new same-direction entry from A2 (one per direction). A2 puts stay valid to 10:30 (a 1-min close < 713.54 + hold; very unlikely).
+
+**10:42 check (replay 10:27–10:41)**
+- **#62 (A2 call, SPY 733C @ $1.06): OPEN.** Best $1.35 (10:32), short of the $1.59 half target. Last $0.85 (−20%); the time decay is heavy.
+  - SPY is holding 725–728 (low 725.22, high 727.98); the stop (719.08) is far away.
+  - No half yet, so no trail. It exits at the **11:00 bid** unless $1.59 prints first.
+- No new A2 (the window closed at 10:30; calls used). ORB flag: no qualified break. **Squeeze (setup F):** SPY 725.2–728.0 (2.8) since 10:25 → none yet.
+- **Score cards:** no A/B setups.
+- **ARMED/MANAGE (to 10:57):**
+  - `MANAGE #62: half at 733C ≥ $1.59, then trail; stop SPY 719.08; else out at the 11:00 bid.`
+  - SPY/QQQ: no new lines (one call position open; any E long would be the same direction and the same bet).
