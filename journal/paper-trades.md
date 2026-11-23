@@ -8640,3 +8640,11 @@ Market data and analysis only, not investment advice.
     1. E short: a 5-min close in the band below 719.45 on ≥1.5× volume, under VWAP, R/R ≥ 1.5.
     2. E long: a 5-min close above 724.99 on ≥1.5× volume, above VWAP, R/R ≥ 1.5 (to 727.98).
   - **QQQ:** confirmation only.
+
+**2:12 check (replay 1:57–2:09)**
+- **Nothing fired.** SPY's 2:00 bar popped 720.94 → 724.10 on 386k (≈ 2.3×), but the close 724.10 stayed under the 724.99 line. 2:05 faded to 723.04. QQQ 648.58 → 652.37 → 650.92.
+- **Squeeze (setup F):** the SPY base broke upward at 2:00 (before 45 minutes) → none.
+- **Score cards:** no A/B setups.
+- **ARMED (to 2:27; last lines, no new 0DTE entries after 2:30):**
+  - **SPY:** E long: a 5-min close above 724.99 in the band on ≥1.5× volume, above VWAP, R/R ≥ 1.5 to 727.98.
+  - **SPY:** E short: a 5-min close in the band below 719.45 on ≥1.5× volume, R/R ≥ 1.5.
