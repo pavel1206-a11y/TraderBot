@@ -8483,3 +8483,17 @@ Market data and analysis only, not investment advice.
 - **ARMED/MANAGE (to 10:57):**
   - `MANAGE #62: half at 733C ≥ $1.59, then trail; stop SPY 719.08; else out at the 11:00 bid.`
   - SPY/QQQ: no new lines (one call position open; any E long would be the same direction and the same bet).
+
+**10:57 check: #62 CLOSED at the 11:00 time stop (−$64)**
+- **#62 (A2 call, SPY 733C):** in $1.06 → out **$0.42**. The last real print was $0.43 (10:57); the 10:58–10:59 bars were interpolated, so the exit is the 11:00 bid ≈ $0.42. Result **−$64.00** (−60%).
+  - Best was $1.35 (10:32, +27%); the half target $1.59 never printed. SPY faded from 727.98 to 723.5 by 10:54 (back under the range high 724.81).
+- **Scoreboard:** **61 trades, 30W/31L, +$75.98.** SPY 55 +$88.91; QQQ 6 −$12.93. **A2 counted: 2 trades, 0W/2L, −$126.** Day −$64 (limit $100 → $36 left today); week −$64 ($86 left).
+- **Lesson:** on a +5% gap day the A2 cross came at 10:20 with 40 minutes left; the option decayed faster than SPY moved. The cross was late, and the target (+50%) needed a ≈ $4 SPY move in 40 minutes.
+- **4H (setup D):** the 8–12 bar is fading from its high (727.98). **Squeeze (setup F):** none. VWAP ≈ SPY 722.3 / QQQ 650.
+- **Score cards:** no A/B setups.
+- **ARMED (to 11:12):**
+  - **SPY:**
+    1. E short: a 5-min close below VWAP (≈ 722.3) − $0.10 on ≥1.5× the 10-bar volume, VWAP turning down, R/R ≥ 1.5 to 719.18 (mid) / 713.54.
+    2. E long: a 5-min close above 727.98 (the day high) on ≥1.5× volume, above a rising VWAP.
+  - **QQQ:** E short: a 5-min close below VWAP (≈ 650) on ≥1.5× volume, R/R ≥ 1.5 to 649.10 / 641.95.
+- Daily budget left is $36 → any new option premium above $36 is **shadow only** today (daily loss limit rule).
