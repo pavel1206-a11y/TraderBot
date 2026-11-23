@@ -8547,3 +8547,17 @@ Market data and analysis only, not investment advice.
     1. Pullback short: a 5-min close back under 722.0 after a high ≥ 722.3, VWAP flat or falling; stop the bar high + $0.10; R/R ≥ 1.5 to 719.2.
     2. E long: a 5-min close above 725.45 on ≥1.5× volume, above VWAP, R/R ≥ 1.5 to 727.98.
   - **QQQ:** E short: a 5-min close in the band below 646.57 on ≥1.5× volume, R/R ≥ 1.5.
+
+**12:12 check (replay 11:57–12:09)**
+- **Nothing fired.**
+  - SPY ran 721.88–723.80 (last 722.63): no close back under 722.0 after the retest, no break of 725.45.
+  - QQQ stayed above 646.57 (last 651.30).
+  - Volume is light (≈ 130–290k).
+- **Squeeze (setup F):** a SPY base 721.45–723.80 (2.35 wide) since 11:50, 25 minutes old → it could qualify at ≈ 12:35.
+- **4H (setup D):** the 12–4 bar opened 722.7, quiet.
+- **Score cards:** no A/B setups. The daily budget left is $36.
+- **ARMED (to 12:27):**
+  - **SPY:**
+    1. F watch: the 721.45–723.80 base, either edge once 45 min old (12:35), on the F volume bar, R/R ≥ 1.5.
+    2. E long: a 5-min close above 725.45 on ≥1.5× volume, above VWAP.
+  - **QQQ:** E short: a 5-min close in the band below 646.57 on ≥1.5× volume, R/R ≥ 1.5.
