@@ -8585,3 +8585,14 @@ Market data and analysis only, not investment advice.
     1. **F breakout long:** a 5-min close above 724.39 by ≤ $0.30 (to $0.75 with ≥1.2× + QQQ confirming), on the F volume bar, above VWAP (≈ 722.6). Stop per F (≥ $0.40); R/R ≥ 1.5 toward 727.98.
     2. **F breakdown short:** a 5-min close below 722.09, same band and volume rules, under VWAP; R/R ≥ 1.5 toward 719.18.
   - **QQQ:** confirmation for SPY F (a close above 653.15 / below 650.53 the same bar).
+
+**12:57 check (replay 12:42–12:54)**
+- **SPY F breakdown: miss (close band).** The 12:40 close 721.06 was $1.03 under 722.09 (past even the $0.75 extended band). Volume was 283k vs ≈ 195k (1.46×); QQQ closed through 650.53 the same bar.
+  - It ran to 719.45 (short of the 719.18 target), then snapped back to 722.42 by 12:54. An entry would likely have been stopped. The band saved a loss here.
+- **Squeeze (setup F):** the base is broken; no new base yet. **4H (setup D):** the 12–4 bar has a lower wick to 719.45 and a recovery.
+- **Score cards:** no A/B setups. The daily budget left is $36.
+- **ARMED (to 1:12):**
+  - **SPY:**
+    1. E long: a 5-min close above 724.39 in the band on ≥1.5× volume, above VWAP (≈ 722.5), R/R ≥ 1.5 to 727.98.
+    2. E short: a 5-min close in the band below 719.45 on ≥1.5× volume, under VWAP, R/R ≥ 1.5 (next 716.4 / 713.54).
+  - **QQQ:** confirmation only (653.15 / 647.76).
