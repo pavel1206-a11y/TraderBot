@@ -8652,3 +8652,5 @@ Market data and analysis only, not investment advice.
 **2:27 check (replay 2:12–2:24)**
 - **Nothing fired.** SPY 722.06–724.16 (last 723.59), QQQ 649.91–652.25. No open positions.
 - **No new arming** after 2:15, and no new 0DTE entries after 2:30. The remaining checks are closeout only (nothing open).
+
+**2:42 check (closeout window; no entries after 2:30):** no open paper trades; nothing to arm or replay.
