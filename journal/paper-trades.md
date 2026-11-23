@@ -8454,3 +8454,22 @@ Market data and analysis only, not investment advice.
     2. A2 puts: a 1-min close below 713.54 + hold; stop 719.28.
     3. ORB flag: a 1-min close beyond either mark on ≥1.5× the 20-bar volume → flag (by 11:00).
   - **QQQ:** A2 confirmation at 656.25 / 641.95; ORB flag watch on the same marks.
+
+**10:27 check (replay 10:12–10:26): A2 CALL OPENED (armed, replayed) — counted trade #62 (A2 track)**
+- **Signal:** SPX crossed 7,260.17 at 10:20 (close 7,274.04) and held at 10:21 (7,275.02). SPY crossed 724.81 at 10:20 (725.68) and held at 10:21 (725.91). QQQ crossed 656.25 at 10:24 (656.37) and held at 10:25 (657.39); all three agree.
+- **0DTE checklist:**
+  1. Direction ✓: above a rising VWAP (≈ 720), higher highs/lows since 9:41.
+  2. Candles ✓: closes through the range high.
+  3. News ✓: no event before 11:00; ZM/HPE report after the close.
+  4. Risk ✓: premium $106 ≤ the $125 A2 cap; the weekly budget is $150 (reset).
+- **Plan:**
+  - **Contract:** SPY 11/23 **733C**, at the 10:21 close $1.04 → **ask ≈ $1.06 ($106 = the full risk)**.
+  - **Stop:** SPY 719.08 (midpoint −$0.10). That is $6.83 away, so the stop effectively means the full premium is at risk.
+  - **Target:** half at **$1.59** (+50%), the rest trailed one 5-min bar behind (floor = entry); out by 11:00.
+  - **Reason:** the owner's A2 read (range cross and hold), all three symbols confirming, after reclaiming PDH 718.29 on a +5% gap day.
+- **Status at 10:26:** 733C high $1.21, last $1.19 (+12%); SPY 727.10. **OPEN.**
+- **ORB flag (setup A):** SPY's 10:20 break bar had 93k vs a ≈ 90k 20-bar average (1.0×) → not qualified.
+- **4H (setup D):** the 8–12 bar has a full recovery and a new session high push. **Squeeze (setup F):** none.
+- **ARMED/MANAGE (to 10:42):**
+  - `MANAGE #62: half at 733C ≥ $1.59; then trail the rest at the prior 5-min bar's low (floor SPY 725.91); stop SPY 719.08; out by the 11:00 bid.`
+  - SPY/QQQ: no new same-direction entry from A2 (one per direction). A2 puts stay valid to 10:30 (a 1-min close < 713.54 + hold; very unlikely).
