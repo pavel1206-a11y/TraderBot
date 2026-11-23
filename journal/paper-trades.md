@@ -8654,3 +8654,10 @@ Market data and analysis only, not investment advice.
 - **No new arming** after 2:15, and no new 0DTE entries after 2:30. The remaining checks are closeout only (nothing open).
 
 **2:42 check (closeout window; no entries after 2:30):** no open paper trades; nothing to arm or replay.
+
+### EOD 2026-11-23 (Mon, options only)
+- **A2:** range SPX 7,152.66–7,260.17 (SPY 713.54–724.81; $11.3 wide after a +5% gap open). A cross of the high at 10:20 and hold at 10:21 (SPX/SPY; QQQ 10:25) → **#62 SPY 733C @ $1.06**. Best $1.35 (10:32); +50% ($1.59) never printed; out at the 11:00 bid $0.42 → **−$64**.
+- **Counted trades today: 1 (#62, −$64).** No open positions.
+- **Running totals:** **61 trades, 30W/31L, +$75.98.** SPY 55 +$88.91; QQQ 6 −$12.93. A-grade 0W/2L −$53.96. **A2 counted: 2, 0W/2L, −$126**; A2 shadows (11/17–11/20) ≈ +$258. **Week −$64** ($86 left).
+- **Day note:** a +5% relief gap (SPY 724.38 open vs 689.81) that faded inside the opening range for 50 minutes, then a slow grind to 727.98. A2's late cross (10:20) left 40 minutes, and the call decayed while SPY drifted. After 10:35, chop between 719 and 728 (close ≈ 724.3). E/F lines fired on price several times but failed the band (12:40), R/R (11:40) or volume (1:20). The skips were right; each one reversed.
+

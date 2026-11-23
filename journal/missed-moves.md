@@ -426,3 +426,11 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 10:40–11:05 | −$5.8 in 25 min (710.34 → 704.55) | Closes under the 10:25 base low and the 10:45 flush low | E short | Volume 1.04× (10:40) and 1.16× (11:00), under the 1.5× bar. |
 | 11:10–11:45 | −$7.2 in 35 min (708.86 → 701.69) | A failed bounce under VWAP | E short | Volume 0.74× (11:30) and 1.17× (11:40). |
 | 1:55–2:30 | −$11.1 in 35 min (703.98 → 692.85) | A failed bounce at 1:55, then a break of the 699 base at 2:10 | E short | 2:10 had volume (1.51×), but the close was $1.18 past the level (band $0.75); after that, the 2:15 / 2:30 cutoffs. |
+
+### 2026-11-23
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 9:52–10:35 | +$11.5 in 43 min (716.45 → 727.98) | A rebound inside the ORB after the gap fade; the range high broke at 10:20 (1.0×) | A2 call / A long | **A2 traded it** (#62) but late: the entry came at 725.91 and +50% never printed before the 11:00 exit (−$64). A: the break was 1.0× (needs 1.5×). |
+| 10:35–11:40 | −$9.0 in 65 min (727.98 → 719.00) | A rollover from the day high; VWAP break 11:35 (0.96×), then 11:40 (2.5×) | E short | 11:35: close band/volume; 11:40: R/R 0.37 with the swing stop. It bounced right after (skip correct). |
+| 12:35–12:45 | −$4.9 in 10 min (724.39 → 719.45) | The 12:00–12:44 squeeze broke down at 12:40 (1.46×; QQQ the same bar) | F short | The close was $1.03 past the edge (band ≤ $0.75); it reversed to 722.4 (skip correct). |
+| 12:45–1:20 | +$5.5 in 35 min (719.45 → 724.99) | A V off 719.45 | E long | 1:20 close above 724.39 at 0.93× volume; QQQ didn't confirm. |

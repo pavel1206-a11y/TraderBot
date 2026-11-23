@@ -164,3 +164,9 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - **E trend grind:** 6 armed E closes were through their levels but under 1.5× volume. The 2 with real volume closed $1.18–1.49 past the level (beyond even the $0.75 extended band). Together with 11/19, this is the strongest case yet for the queued replay (ATR-scaled band + flush-excluded volume average). **Next action: run that replay (≥ 20 sessions) before Monday's open.** No change without it.
 - **Change 1 (extended band):** past its 2-week mark; neutral (no signal landed in $0.31–0.75). Keep, pending the replay above.
 - Pending owner decisions are listed in the weekly review (journal/paper-trades.md).
+
+## 2026-11-23 EOD — observations (no tuning change)
+
+- **A2 late cross:** #62 crossed at 10:20 and had 40 minutes to 11:00; with a $6.8 stop distance and theta, +50% needed ≈ $4 of SPY in 40 minutes. Queued for the next A2 backtest: (a) the cross cutoff at 10:15 vs 10:30; (b) skipping A2 when the range is > 1.2% of price (today 1.6%, a gap day). Owner's rule, so a proposal only.
+- **A2 exit (change 7):** #62 never reached +50%, so it was neutral between the old and new exits (both −$64). Tally: 1 for / 2 against / 2 neutral.
+- **E/F gates on a chop day:** 3 price triggers (11:35/11:40, 12:40, 1:20) were blocked by the band, R/R or volume, and all 3 reversed within 15 minutes. These are evidence **for** the current gates on range days, vs 11/19–11/20 trend days, where the same gates missed moves. The queued ATR-band replay must split trend vs range days.
