@@ -8441,3 +8441,16 @@ Market data and analysis only, not investment advice.
     2. A2 puts: a 1-min close below 713.54 + hold (SPX < 7,152.66), below a falling VWAP; stop 719.28.
     3. ORB flag: a 1-min close beyond either mark on ≥1.5× the 20-bar volume → flag.
   - **QQQ:** confirmation for A2 (656.25 / 641.95); ORB flag watch on the same marks.
+
+**10:12 check (replay 9:57–10:14)**
+- **Nothing fired; still inside the range.** SPY 720.05–722.82 (last 722.55), QQQ 648.32–652.13, SPX 7,217.5–7,243.4. No A2 cross; no ORB break.
+- **Price is grinding up above VWAP** (≈ SPY 719.6) and above the midpoints, toward the range highs (SPY 724.81 / SPX 7,260.17 / QQQ 656.25).
+- **Squeeze (setup F):** forming only (SPY 720.05–722.82 since 9:57; needs 45 min and ≤ $2.50).
+- **4H (setup D):** the 8–12 bar recovered most of the fade.
+- **Score cards:** no A/B setups.
+- **ARMED (to 10:27; A2 window ends 10:30):**
+  - **SPY:**
+    1. A2 calls: a 1-min close above 724.81 + hold (SPX > 7,260.17), above a rising VWAP. Contract $0.75–1.25; stop 719.08; half at +50%, trail, out by 11:00.
+    2. A2 puts: a 1-min close below 713.54 + hold; stop 719.28.
+    3. ORB flag: a 1-min close beyond either mark on ≥1.5× the 20-bar volume → flag (by 11:00).
+  - **QQQ:** A2 confirmation at 656.25 / 641.95; ORB flag watch on the same marks.
