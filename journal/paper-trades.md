@@ -8497,3 +8497,14 @@ Market data and analysis only, not investment advice.
     2. E long: a 5-min close above 727.98 (the day high) on ≥1.5× volume, above a rising VWAP.
   - **QQQ:** E short: a 5-min close below VWAP (≈ 650) on ≥1.5× volume, R/R ≥ 1.5 to 649.10 / 641.95.
 - Daily budget left is $36 → any new option premium above $36 is **shadow only** today (daily loss limit rule).
+
+**11:12 check (replay 10:57–11:09)**
+- **Nothing fired.** SPY closes stayed 722.78–724.30, above VWAP ≈ 722.2 (low 722.41); no new high above 727.98. QQQ closes stayed ≥ 650.63 (VWAP ≈ 650).
+- **Squeeze (setup F):** SPY 722.41–725.22 (2.8) since 10:45 → not yet ≤ $2.50. QQQ 650.11–654.50.
+- **4H (setup D):** the 8–12 bar is mid-range.
+- **Score cards:** no A/B setups. The daily budget left is $36 → new premiums above $36 are shadow only.
+- **ARMED (to 11:27):**
+  - **SPY:**
+    1. E short: a 5-min close below 722.1 (VWAP − $0.10) on ≥1.5× the 10-bar volume, R/R ≥ 1.5 to 719.18.
+    2. E long: a 5-min close above 727.98 on ≥1.5× volume, above a rising VWAP.
+  - **QQQ:** E short: a 5-min close below 649.9 on ≥1.5× volume, R/R ≥ 1.5.
