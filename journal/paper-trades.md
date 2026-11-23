@@ -8508,3 +8508,14 @@ Market data and analysis only, not investment advice.
     1. E short: a 5-min close below 722.1 (VWAP − $0.10) on ≥1.5× the 10-bar volume, R/R ≥ 1.5 to 719.18.
     2. E long: a 5-min close above 727.98 on ≥1.5× volume, above a rising VWAP.
   - **QQQ:** E short: a 5-min close below 649.9 on ≥1.5× volume, R/R ≥ 1.5.
+
+**11:27 check (replay 11:12–11:24)**
+- **Nothing fired.** SPY 722.84–725.45 (last 724.68), closes above VWAP ≈ 722.4. QQQ 650.78–653.99 (last 653.12). Volume is fading (≈ 190–280k per SPY bar).
+- **Squeeze (setup F):** SPY 722.41–725.45 since 10:45 (3.0 wide) → no. QQQ 650.11–654.50 → no.
+- **4H (setup D):** the 8–12 bar is mid-range, consolidating.
+- **Score cards:** no A/B setups.
+- **ARMED (to 11:42):** unchanged.
+  - **SPY:**
+    1. E short: a 5-min close below 722.3 on ≥1.5× volume, R/R ≥ 1.5 to 719.18.
+    2. E long: a 5-min close above 727.98 on ≥1.5× volume, above a rising VWAP.
+  - **QQQ:** E short: a 5-min close below 649.9 on ≥1.5× volume.
