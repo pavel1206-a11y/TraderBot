@@ -8619,3 +8619,13 @@ Market data and analysis only, not investment advice.
     1. E long: a 5-min close above 724.99 in the band on ≥1.5× volume, above VWAP, R/R ≥ 1.5 to 727.98 → likely too little room; **watch**.
     2. E long: a 5-min close above 727.98 (new day high) on ≥1.5× volume, R/R ≥ 1.5 (next R2 729.82).
   - **QQQ:** confirmation (653.15 / 656.25).
+
+**1:42 check (replay 1:27–1:39)**
+- **Nothing fired.** SPY topped at 724.99 (no close above 724.99 / 727.98), then fell at 1:35 to 721.84 on 188k (≈ 1.0×). QQQ 649.53. A chop day inside 719.45–727.98 since 10:30.
+- **Squeeze (setup F):** none (SPY 721.79–724.99, 3.2). **4H (setup D):** the 12–4 bar has an upper wick at 724.99.
+- **Score cards:** no A/B setups. The daily budget left is $36.
+- **ARMED (to 1:57):**
+  - **SPY:**
+    1. E short: a 5-min close in the band below 719.45 on ≥1.5× volume, under VWAP (≈ 722.6), R/R ≥ 1.5 (next 716.4).
+    2. E long: a 5-min close above 727.98 on ≥1.5× volume, R/R ≥ 1.5.
+  - **QQQ:** confirmation (647.76 / 657.50).
