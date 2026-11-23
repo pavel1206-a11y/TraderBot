@@ -8399,3 +8399,17 @@ Market data and analysis only, not investment advice.
 - A-grade trades profitable overall: ✗. A-grade is 2 trades, 0W/2L, −$53.96.
 - **Not passed: keep paper trading.**
 - For reference: B-grade 58 trades, +$193.94. The A2 track is 1 counted (−$62) plus 8 shadows ≈ +$258 (shadows don't count toward graduation).
+
+## 2026-11-23 (Mon)
+
+**Pre-market brief (8:36 AM ET)**
+- SPY PDH **$718.29** / PDL **$686.75** · close $689.81 · pre $706.73 (**between**, $11.56 under PDH; gap ≈ +2.5%)
+- QQQ PDH **$643.28** / PDL **$606.23** · close $608.45 · pre $628.94 (**between**, $14.34 under PDH; gap ≈ +3.4%)
+- **Pre-market range:** SPY $704.08–711.01; QQQ $626.44–633.49. Both are fading from the 4 AM highs.
+- **Pivots:**
+  - SPY: P 698.28 · R1 709.82 · R2 729.82 · S1 678.28 · S2 666.74.
+  - QQQ: P 619.32 · R1 632.41 · R2 656.37 · S1 595.36 · S2 582.27.
+- **SMAs (20d):** SPY 747.81, QQQ 678.53. The 50d is ≈ 760 / ≈ 705. Both are far above price; a deep downtrend.
+- **Events:** earnings, AM: CRWD beat, ZS beat. PM: HPE, ZM, A. No economic calendar was pulled. Thanksgiving week: Thursday closed, Friday a half day.
+- **Bias: none / two-sided.** A big relief gap after a 4-day −8% slide, opening between the levels near R1 (SPY 709.82 / QQQ 632.41). Expect gap-fill pressure vs a short-covering rally. Watch the 9:30–9:45 range, and R1 as the first resistance.
+- **A2 today:** the weekly budget reset ($150), so A2 trades are **counted again**. Mark the 9:30–9:45 range on SPX/SPY/QQQ. After 9:45, a cross that holds → calls/puts at $0.75–1.25 (SPY contracts if SPXW in-band strikes are far OTM; IV is still high). Stop the midpoint. Half at +50%, trail; out by 11:00. Setup A's ORB range is the same 9:30–9:45 candle.
