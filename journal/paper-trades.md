@@ -8608,3 +8608,14 @@ Market data and analysis only, not investment advice.
     2. E short: a 5-min close below 719.45 in the band on ≥1.5× volume, under VWAP, R/R ≥ 1.5.
     3. F watch: the 721.61–723.43 base (arms ≈ 1:40).
   - **QQQ:** confirmation only.
+
+**1:27 check (replay 1:12–1:24)**
+- **SPY E long: no.** The 1:20 close 724.90 was $0.51 above 724.39 on 176k vs a ≈ 190k average (0.93×). QQQ closed 653.13, just under its 653.15 mark. Volume fails, and the extended-band rules fail.
+- The F base (721.61–723.43) broke upward before it reached 45 minutes → none. A grind higher on light volume; the day high is 727.98.
+- **4H (setup D):** the 12–4 bar is pushing to its high.
+- **Score cards:** no A/B setups. The daily budget left is $36.
+- **ARMED (to 1:42):**
+  - **SPY:**
+    1. E long: a 5-min close above 724.99 in the band on ≥1.5× volume, above VWAP, R/R ≥ 1.5 to 727.98 → likely too little room; **watch**.
+    2. E long: a 5-min close above 727.98 (new day high) on ≥1.5× volume, R/R ≥ 1.5 (next R2 729.82).
+  - **QQQ:** confirmation (653.15 / 656.25).
