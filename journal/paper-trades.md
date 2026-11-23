@@ -8648,3 +8648,7 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 2:27; last lines, no new 0DTE entries after 2:30):**
   - **SPY:** E long: a 5-min close above 724.99 in the band on ≥1.5× volume, above VWAP, R/R ≥ 1.5 to 727.98.
   - **SPY:** E short: a 5-min close in the band below 719.45 on ≥1.5× volume, R/R ≥ 1.5.
+
+**2:27 check (replay 2:12–2:24)**
+- **Nothing fired.** SPY 722.06–724.16 (last 723.59), QQQ 649.91–652.25. No open positions.
+- **No new arming** after 2:15, and no new 0DTE entries after 2:30. The remaining checks are closeout only (nothing open).
