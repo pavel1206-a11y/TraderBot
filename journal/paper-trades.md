@@ -8874,3 +8874,15 @@ Market data and analysis only, not investment advice.
   - **SPY:** E short: a 5-min close in the band below 717.47 on ≥1.5× volume, under VWAP (≈ 717.4), R/R ≥ 1.5 to 713.53.
   - **SPY:** E long: a 5-min close above 720.92 on ≥1.5× volume (unlikely).
   - **QQQ:** confirmation (637.58).
+
+**2:12 check (replay 1:57–2:09)**
+- **SPY E short: the trigger met, rejected by 0DTE checklist item 1.**
+  - The 1:55 close 717.04 was $0.43 under 717.47 (extended band: 228k = 2.2× the ≈ 103k average; QQQ closed through 637.58 the same bar).
+  - Swing stop 719.38 vs target 713.53 → exactly 1.5R.
+  - But VWAP (≈ 717.4) has been **flat to rising**; price sat above it from 12:05 to 1:50, and this was the first dip under it. That is not "holding below a VWAP sloping down" → **no trade** (CLAUDE.md 0DTE rule).
+  - Follow-through: low 716.93, then back to 717.78 (above VWAP) by 2:09. The skip looks right so far.
+- **Squeeze (setup F):** none. **4H (setup D):** the 12–4 bar is at its low, ≈ 717.
+- **Score cards:** no A/B setups.
+- **ARMED (to 2:27; last lines, no new 0DTE entries after 2:30):**
+  - **SPY:** E short: a 5-min close in the band below 716.93 on ≥1.5× volume, with VWAP turning down, R/R ≥ 1.5 to 713.53.
+  - **QQQ:** confirmation (636.72).
