@@ -8746,3 +8746,17 @@ Market data and analysis only, not investment advice.
     1. **D long:** a 5-min close above 717.67 (structure shift) on ≥1.0× volume, above VWAP (≈ 716.5); stop the 712.98 low −$0.10; R/R ≥ 1.5 to 721.27 (pivot) → **check R/R** (≈ 0.75R; likely skip unless the next level is 725). Watch.
     2. VWAP reclaim long (standing line): a 5-min close above ≈ 716.6 with QQQ above its VWAP, then a hold bar (stop the hold bar's low −$0.10).
   - **QQQ:** E short: a 5-min close in the band below 632.28 on ≥1.5× volume.
+
+**11:12 check (replay 10:57–11:09)**
+- **Nothing fired.**
+  - SPY's 11:00 close 713.28 was under PDL again, but on 0.81× volume → no E short. Low 712.40, then 714.30.
+  - No structure shift above 717.67 (high 716.69).
+  - QQQ's 11:00 close 632.30 just missed 632.28 (low 631.23).
+- SPY has chopped around PDL 713.53 for 40 minutes (712.40–716.69). **Squeeze (setup F):** 4.3 wide → no.
+- **4H (setup D):** a triple PDL test; the 8–12 bar is basing. No shift yet.
+- **Score cards:** no A/B setups.
+- **ARMED (to 11:27):**
+  - **SPY:**
+    1. D long: a 5-min close above 716.69 (the latest lower-high) on ≥1.0× volume, above VWAP (≈ 716.2); stop 712.30; R/R ≥ 1.5 → target 721.27 = 1.0R → **watch only**.
+    2. E short: a 5-min close in the band below 712.14 (the day low) on ≥1.5× volume, under VWAP, R/R ≥ 1.5 to 706.82.
+  - **QQQ:** E short: a 5-min close in the band below 631.23 on ≥1.5× volume.
