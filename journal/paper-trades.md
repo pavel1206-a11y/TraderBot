@@ -8712,3 +8712,13 @@ Market data and analysis only, not investment advice.
 - **ARMED/MANAGE (to 10:27):**
   - `MANAGE shadow A2 727C: half at ≥ $1.35 → trail; stop SPY 714.885; out at the 11:00 bid.`
   - A2 puts: a 1-min close below 712.14 + hold (to 10:30); counted only if the premium is ≤ $86.
+
+**10:27 check (replay 10:12–10:26)**
+- **Shadow A2 727C: OPEN, deep red.** $0.19 (−79%). SPY faded to 715.10 (the stop 714.885 is $0.21 away). It exits at the stop or at the 11:00 bid.
+- QQQ broke under its ORB low 635.86 at 10:25 (635.55), but SPY (the A2 trade symbol) is still above 712.14 → no A2 put. The ORB flag needs a qualified 1.5× break; QQQ's 10:25 bar had 106k (≈ 1.2×) → no.
+- **4H (setup D):** the 8–12 bar's reclaim is failing; price is back toward PDL 713.53.
+- **Score cards:** no A/B setups.
+- **ARMED/MANAGE (to 10:42):**
+  - `MANAGE shadow A2 727C: stop SPY 714.885; else out at the 11:00 bid.`
+  - A2 puts: a 1-min close below 712.14 + hold by 10:30 (3 minutes left).
+  - QQQ ORB flag short: a 1-min close below 635.86 on ≥1.5× the 20-bar volume by 11:00 → flag.
