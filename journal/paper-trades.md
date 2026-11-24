@@ -8722,3 +8722,15 @@ Market data and analysis only, not investment advice.
   - `MANAGE shadow A2 727C: stop SPY 714.885; else out at the 11:00 bid.`
   - A2 puts: a 1-min close below 712.14 + hold by 10:30 (3 minutes left).
   - QQQ ORB flag short: a 1-min close below 635.86 on ≥1.5× the 20-bar volume by 11:00 → flag.
+
+**10:42 check (replay 10:27–10:41)**
+- **Shadow A2 727C: STOPPED at 10:27** (SPY 1-min low 714.095 < stop 714.885). The 727C was ≈ $0.15 → out ≈ $0.14 → **shadow −$76**. SPY bounced to 717.67 afterwards.
+- **A2 puts:** the window closed at 10:30; SPY never closed below 712.14 → none.
+- **QQQ ORB flag short:** the 10:27–10:28 closes under 635.86 (634.26 / 634.69) had ≈ 1.2× the 20-bar volume (needs 1.5×) → not qualified.
+- **4H (setup D):** the 8–12 bar is chopping 713.8–720.9 above PDL 713.53. **Squeeze (setup F):** none yet.
+- **Score cards:** no A/B setups. The counted week budget is still $86 (shadows don't count).
+- **ARMED (to 10:57):**
+  - **SPY:**
+    1. E short: a 5-min close in the band below 713.53 (PDL) on ≥1.5× the 10-bar volume, under VWAP (≈ 717), R/R ≥ 1.5 to 706.82 (S2).
+    2. VWAP reclaim long (standing line): a 5-min close above VWAP + $0.10 with QQQ also above its VWAP, then a hold bar.
+  - **QQQ:** E short: a 5-min close in the band below 633.86 on ≥1.5× volume, R/R ≥ 1.5 to 629.
