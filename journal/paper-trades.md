@@ -8886,3 +8886,7 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 2:27; last lines, no new 0DTE entries after 2:30):**
   - **SPY:** E short: a 5-min close in the band below 716.93 on ≥1.5× volume, with VWAP turning down, R/R ≥ 1.5 to 713.53.
   - **QQQ:** confirmation (636.72).
+
+**2:27 check (replay 2:12–2:24)**
+- **Nothing fired.** SPY recovered above VWAP to 719.35 (last 718.70); no close below 716.93. QQQ 639.68 high. **The 1:55 rejected E short would have been underwater** (the checklist skip was right).
+- No open positions. No new arming after 2:15; no new 0DTE entries after 2:30. Closeout only for the rest of the day.
