@@ -8686,3 +8686,20 @@ Market data and analysis only, not investment advice.
   2. **A2 puts:** a 1-min close below the range low + hold, below a falling VWAP; mirrored. Target S2 (706.82 / 634.59).
   3. **Swoop:** a poke beyond a mark that closes back inside → the other way (stop beyond the poke).
   4. **ORB flag (setup A) SPY/QQQ:** a 1-min close beyond the marks on ≥1.5× the 20-bar volume by 11:00 → flag → a 1-min flag break by 11:30.
+
+**9:57 check (replay 9:43–9:56): A2 CALL fired (armed, replayed) → SHADOW (weekly budget)**
+- **Final marks (9:30–9:45):**
+  - SPY H 717.83 / L 712.14 (mid 714.985)
+  - SPX H 7,193.74 / L 7,138.93
+  - QQQ H 641.25 / L 635.86
+- **Signal:** SPY crossed at 9:45 (718.79) and held at 9:46 (718.96). SPX crossed at 9:45 (7,201.88) and held at 9:46 (7,206.67). QQQ crossed at 9:45 (641.76) and held at 9:46 (641.96). All three agree; above a rising VWAP; a PDL sweep (712.14 < 713.53) and reclaim, the owner's pattern.
+- **Contract:** SPY 11/24 **727C**, at the 9:46 close $0.89 → ask ≈ **$0.90 ($90)**. The week has **$86 left < $90 → logged as a SHADOW**, as the rules require. No in-band strike was ≤ $0.86 (the 728C ≈ $0.72 is below the band).
+  - Stop: SPY 714.885.
+  - Half at $1.35 (+50%), then the 1-bar trail; out by 11:00.
+- **Status at 9:57:** best $1.21 (9:51, +34%); last $0.95. SPY 719.67 (high 720.34). **Open (shadow).**
+- **ORB flag (setup A):** SPY's 9:45 break bar had 148k vs a ≈ 270k 20-bar average (opening bars inflate it) → not qualified.
+- **4H (setup D):** the 8–12 bar has a PDL sweep + reclaim (a D-long structure); the A2 call covers it (same direction).
+- **ARMED/MANAGE (to 10:12):**
+  - `MANAGE shadow A2 727C: half at ≥ $1.35, then trail one 5-min bar (floor SPY 718.96); stop SPY 714.885; out at the 11:00 bid.`
+  - A2 puts: a 1-min close below 712.14 + hold → puts (stop 715.085). Counted only if the premium is ≤ $86.
+  - SPY/QQQ: no other same-direction lines.
