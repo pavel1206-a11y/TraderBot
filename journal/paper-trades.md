@@ -8854,3 +8854,13 @@ Market data and analysis only, not investment advice.
     1. **F breakout long:** a 5-min close above 719.98 (≤ $0.30 past; to $0.75 with ≥1.2× + QQQ above 640.39), F volume bar, above VWAP; stop per F (≥ $0.40); R/R ≥ 1.5 toward 727.98 (720.92 first).
     2. **F breakdown short:** a 5-min close below 717.66, same rules, under VWAP; R/R ≥ 1.5 toward 713.53.
   - **QQQ:** confirmation (637.69 / 640.39).
+
+**1:42 check (replay 1:27–1:39)**
+- **Nothing fired.** SPY stayed inside the squeeze 717.66–719.98 (718.32–719.55; last 718.93). QQQ 638.51–639.87. Volume ≈ 80–105k, very quiet.
+- **Squeeze (setup F): SPY 717.66–719.98 is qualified** (since 12:50, now 50 minutes old).
+- **Score cards:** no A/B setups.
+- **ARMED (to 1:57):** unchanged.
+  - **SPY:**
+    1. F breakout long: a 5-min close above 719.98 (band rules), F volume bar, above VWAP, R/R ≥ 1.5 toward 727.98.
+    2. F breakdown short: a 5-min close below 717.66, same rules, R/R ≥ 1.5 toward 713.53.
+  - **QQQ:** confirmation (637.69 / 640.39).
