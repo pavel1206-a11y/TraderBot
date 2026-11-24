@@ -8676,3 +8676,13 @@ Market data and analysis only, not investment advice.
 - **Bias: bearish.** Yesterday's +5% gap was given back overnight; pre-market is under both PDLs. Watch for a PDL sweep-and-reclaim (713.53 / 641.95) vs continuation toward S2 (706.82 / 634.59).
 - **A2 today:** mark the 9:30–9:45 range (setup A's ORB too). Cross + hold → calls/puts at $0.75–1.25; stop the midpoint; half at +50%, trail; out by 11:00. **Budget:** the week has $86 left, so a counted A2 needs a premium ≤ $86 (contract $0.75–0.86). Above that, log a shadow.
 - **Queued A2 tests (owner's call):** the cross cutoff at 10:15; skip A2 when the range is > 1.2% of price.
+
+**9:42 check (opening range forming, through the 9:39 bar)**
+- SPY open 715.18 (just above PDL 713.53). Range so far **H 715.56 / L 712.14** (mid ≈ 713.85); last 714.55, sitting **on PDL** (swept to 712.14, back above).
+- QQQ open 640.05 (under PDL 641.95). Range so far **H 641.25 / L 635.86**; last 636.60, weak.
+- SPX range so far **H 7,172.33 / L 7,138.93**; last 7,159.38.
+- **ARMED/WATCH 9:45–10:12** (final marks after the 9:44 bar). Week budget $86 → a counted A2 needs a premium ≤ $86.
+  1. **A2 calls:** a 1-min close above the range high + hold (SPX/SPY, QQQ confirming), above a rising VWAP. Contract $0.75–0.86 counted (≤ $1.25 shadow); stop the midpoint −$0.10; half at +50%, trail, out by 11:00. A PDL reclaim narrative.
+  2. **A2 puts:** a 1-min close below the range low + hold, below a falling VWAP; mirrored. Target S2 (706.82 / 634.59).
+  3. **Swoop:** a poke beyond a mark that closes back inside → the other way (stop beyond the poke).
+  4. **ORB flag (setup A) SPY/QQQ:** a 1-min close beyond the marks on ≥1.5× the 20-bar volume by 11:00 → flag → a 1-min flag break by 11:30.
