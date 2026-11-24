@@ -8812,3 +8812,13 @@ Market data and analysis only, not investment advice.
     2. E long: a 5-min close above 720.92 on ≥1.5× volume, R/R ≥ 1.5 to 729.
     3. F watch: the 717.19–718.81 base (≈ 12:55).
   - **QQQ:** confirmation only.
+
+**12:42 check (replay 12:27–12:39)**
+- **Nothing fired.** SPY's 12:30 bar pushed to 720.18 on 546k (≈ 2.6×), breaking the 717.19–718.81 base before it qualified (45 min). Its close 719.73 was under 720.92 → no E long. No pullback to VWAP (lows ≥ 717.80). QQQ 640.44 high.
+- **Squeeze (setup F):** none. **4H (setup D):** the 12–4 bar is pushing up toward the morning high (720.92).
+- **Score cards:** no A/B setups.
+- **ARMED (to 12:57):**
+  - **SPY:**
+    1. E long: a 5-min close above 720.92 in the band on ≥1.5× volume, above VWAP, R/R ≥ 1.5 to 727.98/729.
+    2. B VWAP pullback long: low within $0.15 of VWAP (≈ 716.6), a green close; stop the low −$0.10.
+  - **QQQ:** confirmation (643.47 = the morning high).
