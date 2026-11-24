@@ -8703,3 +8703,12 @@ Market data and analysis only, not investment advice.
   - `MANAGE shadow A2 727C: half at ≥ $1.35, then trail one 5-min bar (floor SPY 718.96); stop SPY 714.885; out at the 11:00 bid.`
   - A2 puts: a 1-min close below 712.14 + hold → puts (stop 715.085). Counted only if the premium is ≤ $86.
   - SPY/QQQ: no other same-direction lines.
+
+**10:12 check (replay 9:57–10:11)**
+- **Shadow A2 727C (@ $0.90): OPEN.** High $1.16 (10:00), short of $1.35. It fell with SPY's 10:05 dip to 717.01 (stop 714.885 not hit); last $0.53 (−41%). Exits at 11:00 unless +50% prints.
+- SPY 720.92 high, then 718.80. QQQ 643.47 → 639.44 (back under its 641.25 mark: a QQQ fade). No A2 put (SPY > 712.14). No ORB flag.
+- **4H (setup D):** the 8–12 bar has the PDL sweep + reclaim, now stalling. **Squeeze (setup F):** n/a.
+- **Score cards:** no A/B setups.
+- **ARMED/MANAGE (to 10:27):**
+  - `MANAGE shadow A2 727C: half at ≥ $1.35 → trail; stop SPY 714.885; out at the 11:00 bid.`
+  - A2 puts: a 1-min close below 712.14 + hold (to 10:30); counted only if the premium is ≤ $86.
