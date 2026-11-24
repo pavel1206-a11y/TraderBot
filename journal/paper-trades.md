@@ -8890,3 +8890,5 @@ Market data and analysis only, not investment advice.
 **2:27 check (replay 2:12–2:24)**
 - **Nothing fired.** SPY recovered above VWAP to 719.35 (last 718.70); no close below 716.93. QQQ 639.68 high. **The 1:55 rejected E short would have been underwater** (the checklist skip was right).
 - No open positions. No new arming after 2:15; no new 0DTE entries after 2:30. Closeout only for the rest of the day.
+
+**2:42 check (closeout window; no entries after 2:30):** no open paper trades; nothing to arm or replay.
