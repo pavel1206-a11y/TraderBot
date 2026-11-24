@@ -8843,3 +8843,14 @@ Market data and analysis only, not investment advice.
     1. F watch: the 717.90–719.98 base, either edge from ≈ 1:35, F volume bar, R/R ≥ 1.5 (up 720.92/727.98; down 713.53).
     2. B VWAP pullback long: low within $0.15 of VWAP (≈ 717.2), a green close.
   - **QQQ:** F confirmation (637.90 / 640.39).
+
+**1:27 check (replay 1:12–1:24)**
+- **Nothing fired.** SPY 717.66–719.54 (last 718.49); the low 717.66 was ≈ $0.35 above VWAP (≈ 717.3), outside the B band. QQQ 637.69–639.80. Very light volume (≈ 80–150k).
+- **Squeeze (setup F):** SPY base now **717.66–719.98** (2.32) since 12:50 → **qualifies 1:35**. QQQ widened to 2.70 → not a squeeze (confirmation only).
+- **4H (setup D):** the 12–4 bar is flat.
+- **Score cards:** no A/B setups.
+- **ARMED (to 1:42):**
+  - **SPY:**
+    1. **F breakout long:** a 5-min close above 719.98 (≤ $0.30 past; to $0.75 with ≥1.2× + QQQ above 640.39), F volume bar, above VWAP; stop per F (≥ $0.40); R/R ≥ 1.5 toward 727.98 (720.92 first).
+    2. **F breakdown short:** a 5-min close below 717.66, same rules, under VWAP; R/R ≥ 1.5 toward 713.53.
+  - **QQQ:** confirmation (637.69 / 640.39).
