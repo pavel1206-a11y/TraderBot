@@ -8790,3 +8790,13 @@ Market data and analysis only, not investment advice.
     1. D long: a 5-min close above 716.69 (watch: R/R ≈ 1.0).
     2. E short: a 5-min close in the band below 712.14 on ≥1.5× volume.
   - **QQQ:** E short: a 5-min close in the band below 631.15 on ≥1.5× volume.
+
+**12:12 check (replay 11:57–12:09)**
+- **SPY D long: the price trigger hit, gates failed → no.** The 12:05 close 717.70 was above 716.69 (a structure shift after 3 PDL tests), on 230k vs ≈ 262k (0.88×; needs 1.0×). R/R to the 721.27 pivot with the stop at 712.30: 3.57 vs 5.40 = 0.66R → fails anyway. QQQ jumped to 637.28 the same bar.
+- **4H (setup D):** the 8–12 bar closed ≈ 714.6, a hammer over PDL. The 12–4 bar opened with a push to 717.76.
+- **Squeeze (setup F):** none. **Score cards:** no A/B setups.
+- **ARMED (to 12:27):**
+  - **SPY:**
+    1. E long: a 5-min close above 720.92 (the morning high) on ≥1.5× volume, above VWAP, R/R ≥ 1.5 to 729.00 (R1).
+    2. VWAP pullback long (B): a 5-min bar that holds VWAP (≈ 716.1) and closes green, R/R ≥ 1.5 to 720.9.
+  - **QQQ:** confirmation (641.25 / 643.47).
