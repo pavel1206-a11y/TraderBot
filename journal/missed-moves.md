@@ -434,3 +434,10 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 10:35–11:40 | −$9.0 in 65 min (727.98 → 719.00) | A rollover from the day high; VWAP break 11:35 (0.96×), then 11:40 (2.5×) | E short | 11:35: close band/volume; 11:40: R/R 0.37 with the swing stop. It bounced right after (skip correct). |
 | 12:35–12:45 | −$4.9 in 10 min (724.39 → 719.45) | The 12:00–12:44 squeeze broke down at 12:40 (1.46×; QQQ the same bar) | F short | The close was $1.03 past the edge (band ≤ $0.75); it reversed to 722.4 (skip correct). |
 | 12:45–1:20 | +$5.5 in 35 min (719.45 → 724.99) | A V off 719.45 | E long | 1:20 close above 724.39 at 0.93× volume; QQQ didn't confirm. |
+
+### 2026-11-24
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 9:39–9:51 | +$8.2 in 12 min (712.14 → 720.34) | A PDL sweep (712.14 < 713.53) and reclaim at the open; the ORB high broke at 9:45 | A2 call | **Caught** (shadow: over the weekly budget). It peaked +34%, short of +50%, then was stopped on the fade (−$76 shadow). |
+| 9:51–10:28 | −$7.1 in 37 min (720.92 → 713.80) | A fade from the high; QQQ broke its ORB low at 10:25 (1.2×) | A2 put / A short | SPY never broke 712.14 (the A2 put mark); the QQQ ORB break lacked 1.5×. |
+| 11:05–12:30 | +$7.8 in 85 min (712.40 → 720.18) | A triple PDL hold, then a structure shift at 12:05 (717.70) | D long | 12:05: 0.88× volume (needs 1.0×) and R/R 0.66 to the pivot. A slow grind; there was no B pullback to VWAP. |

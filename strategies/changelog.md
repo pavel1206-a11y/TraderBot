@@ -170,3 +170,10 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - **A2 late cross:** #62 crossed at 10:20 and had 40 minutes to 11:00; with a $6.8 stop distance and theta, +50% needed ≈ $4 of SPY in 40 minutes. Queued for the next A2 backtest: (a) the cross cutoff at 10:15 vs 10:30; (b) skipping A2 when the range is > 1.2% of price (today 1.6%, a gap day). Owner's rule, so a proposal only.
 - **A2 exit (change 7):** #62 never reached +50%, so it was neutral between the old and new exits (both −$64). Tally: 1 for / 2 against / 2 neutral.
 - **E/F gates on a chop day:** 3 price triggers (11:35/11:40, 12:40, 1:20) were blocked by the band, R/R or volume, and all 3 reversed within 15 minutes. These are evidence **for** the current gates on range days, vs 11/19–11/20 trend days, where the same gates missed moves. The queued ATR-band replay must split trend vs range days.
+
+## 2026-11-24 EOD — observations (no tuning change)
+
+- **A2 (shadow, over budget):** a direction-right call stopped by the midpoint stop on the fade after +34%. 2nd day running that the +50% half-target didn't print before a reversal (11/23 +27%, 11/24 +34%). Queued for the A2 backtest: half at +30% vs +50% (A2 is the owner's rule → a proposal only).
+- **A2 exit (change 7):** neutral today (neither exit reached its target; both stopped). Tally 1 for / 2 against / 3 neutral.
+- **Gates:** the VWAP-slope checklist blocked a 1:55 E short that would have lost; the 1.47× volume miss at 10:40 (PDL) would also have reversed. Range-day evidence for the gates again (see 11/23).
+- **Budget mechanics:** the weekly budget ($86) below the A2 contract cost ($90) forced a shadow. No change (CLAUDE.md rule).

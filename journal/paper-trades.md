@@ -8892,3 +8892,10 @@ Market data and analysis only, not investment advice.
 - No open positions. No new arming after 2:15; no new 0DTE entries after 2:30. Closeout only for the rest of the day.
 
 **2:42 check (closeout window; no entries after 2:30):** no open paper trades; nothing to arm or replay.
+
+### EOD 2026-11-24 (Tue, options only)
+- **A2:** range SPY 712.14–717.83 (SPX 7,138.93–7,193.74), after a PDL sweep at the open. Cross of the high at 9:45 / hold 9:46 on all three → call. **SPY 727C @ $0.90 was over the $86 weekly budget → shadow.** Best $1.21 (9:51, +34%; the +50% target $1.35 missed). Stopped at 10:27 (SPY 714.095 < 714.885) ≈ $0.14 → **shadow −$76**.
+- **Counted trades today: none.** No open positions.
+- **Running totals (unchanged):** 61 trades, 30W/31L, +$75.98. SPY 55 +$88.91; QQQ 6 −$12.93. A2 counted 2, 0W/2L, −$126. A2 shadows this week: 11/24 −$76. **Week −$64 ($86 left).**
+- **Day note:** a gap-down open that swept PDL and ripped $8 in 12 minutes. A2 caught the direction but the 9:51 top came before +50%. The fade back through the midpoint stopped it. Then 3 more PDL tests (712.14 / 712.40 / 712.98) held, and a slow recovery to 720.67 midday. Every armed line was blocked by volume (1.47×, 0.88×, 0.84×), R/R or the VWAP-slope checklist; most of those blocks were vindicated by reversals.
+
