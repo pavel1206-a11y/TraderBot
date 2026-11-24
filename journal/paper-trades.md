@@ -8661,3 +8661,18 @@ Market data and analysis only, not investment advice.
 - **Running totals:** **61 trades, 30W/31L, +$75.98.** SPY 55 +$88.91; QQQ 6 −$12.93. A-grade 0W/2L −$53.96. **A2 counted: 2, 0W/2L, −$126**; A2 shadows (11/17–11/20) ≈ +$258. **Week −$64** ($86 left).
 - **Day note:** a +5% relief gap (SPY 724.38 open vs 689.81) that faded inside the opening range for 50 minutes, then a slow grind to 727.98. A2's late cross (10:20) left 40 minutes, and the call decayed while SPY drifted. After 10:35, chop between 719 and 728 (close ≈ 724.3). E/F lines fired on price several times but failed the band (12:40), R/R (11:40) or volume (1:20). The skips were right; each one reversed.
 
+
+## 2026-11-24 (Tue)
+
+**Pre-market brief (8:36 AM ET)**
+- SPY PDH **$727.98** / PDL **$713.53** · close $722.29 · pre $712.50 (**below PDL by $1.03**; gap ≈ −1.4%)
+- QQQ PDH **$657.53** / PDL **$641.95** · close $651.03 · pre $636.11 (**below PDL by $5.84**; gap ≈ −2.3%)
+- **Pre-market range:** SPY ≈ $712.5–725.13 (spiked at 4 AM, then sold all morning); QQQ ≈ $636.1–654.00.
+- **Pivots:**
+  - SPY: P 721.27 · R1 729.00 · R2 735.72 · S1 714.55 · S2 706.82.
+  - QQQ: P 650.17 · R1 658.39 · R2 665.75 · S1 642.81 · S2 634.59.
+- **SMAs (20d):** SPY 745.65, QQQ 675.47 (the downtrend is intact).
+- **Events:** earnings beats (AM): ADI, DLTR, BBY, DKS, ANF, KSS. After the close: DELL, WDAY, ADSK, HPQ. No economic calendar was pulled. Thanksgiving Thursday (closed); Friday is a half day.
+- **Bias: bearish.** Yesterday's +5% gap was given back overnight; pre-market is under both PDLs. Watch for a PDL sweep-and-reclaim (713.53 / 641.95) vs continuation toward S2 (706.82 / 634.59).
+- **A2 today:** mark the 9:30–9:45 range (setup A's ORB too). Cross + hold → calls/puts at $0.75–1.25; stop the midpoint; half at +50%, trail; out by 11:00. **Budget:** the week has $86 left, so a counted A2 needs a premium ≤ $86 (contract $0.75–0.86). Above that, log a shadow.
+- **Queued A2 tests (owner's call):** the cross cutoff at 10:15; skip A2 when the range is > 1.2% of price.
