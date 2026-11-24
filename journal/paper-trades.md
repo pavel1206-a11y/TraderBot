@@ -8734,3 +8734,15 @@ Market data and analysis only, not investment advice.
     1. E short: a 5-min close in the band below 713.53 (PDL) on ≥1.5× the 10-bar volume, under VWAP (≈ 717), R/R ≥ 1.5 to 706.82 (S2).
     2. VWAP reclaim long (standing line): a 5-min close above VWAP + $0.10 with QQQ also above its VWAP, then a hold bar.
   - **QQQ:** E short: a 5-min close in the band below 633.86 on ≥1.5× volume, R/R ≥ 1.5 to 629.
+
+**10:57 check (replay 10:42–10:54)**
+- **SPY E short (PDL): no, by a hair.** The 10:40 close 713.50 was $0.03 under 713.53 (in band) on 515k vs a ≈ 350k average (**1.47×**, needs 1.5×). The next bars reclaimed it (713.98, 715.45; low 712.98), so the skip was correct.
+- **QQQ E short:** the 10:40 close 632.87 was $0.99 past 633.86 (out of band) on 1.03× → no. Low 632.28, back to 635.07.
+- A second PDL sweep-and-reclaim on SPY (712.98 → 715.45). The 10:45 bar had 683k (≈ 1.9×).
+- **4H (setup D):** the 8–12 bar has a double PDL sweep (712.14, 712.98) + reclaim. A **D long** needs a structure shift: a 5-min close above the 10:30 swing high 717.67.
+- **Score cards:** no A/B setups yet.
+- **ARMED (to 11:12):**
+  - **SPY:**
+    1. **D long:** a 5-min close above 717.67 (structure shift) on ≥1.0× volume, above VWAP (≈ 716.5); stop the 712.98 low −$0.10; R/R ≥ 1.5 to 721.27 (pivot) → **check R/R** (≈ 0.75R; likely skip unless the next level is 725). Watch.
+    2. VWAP reclaim long (standing line): a 5-min close above ≈ 716.6 with QQQ above its VWAP, then a hold bar (stop the hold bar's low −$0.10).
+  - **QQQ:** E short: a 5-min close in the band below 632.28 on ≥1.5× volume.
