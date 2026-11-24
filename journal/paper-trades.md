@@ -8770,3 +8770,13 @@ Market data and analysis only, not investment advice.
     1. D long: a 5-min close above 716.69, above VWAP (watch: R/R ≈ 1.0 to 721.27).
     2. E short: a 5-min close in the band below 712.14 on ≥1.5× volume.
   - **QQQ:** E short: a 5-min close in the band below 631.15 on ≥1.5× volume.
+
+**11:42 check (replay 11:27–11:39)**
+- **Nothing fired.** SPY 713.47–716.35 (last 713.66), no close above 716.69 or below 712.14. QQQ 631.85–635.26. Volume is fading (≈ 200–260k).
+- **Squeeze (setup F):** none (SPY 712.69–716.35, 3.7). **4H (setup D):** the 8–12 bar is chopping above PDL.
+- **Score cards:** no A/B setups.
+- **ARMED (to 11:57):** unchanged.
+  - **SPY:**
+    1. D long: a 5-min close above 716.69, above VWAP (watch: R/R ≈ 1.0).
+    2. E short: a 5-min close in the band below 712.14 on ≥1.5× volume.
+  - **QQQ:** E short: a 5-min close in the band below 631.15 on ≥1.5× volume.
