@@ -8924,3 +8924,22 @@ Market data and analysis only, not investment advice.
   2. **A2 calls:** a 1-min close above the range high + hold, above a rising VWAP (a reclaim of S3).
   3. **Swoop:** a poke beyond a mark that closes back inside → the other way (stop beyond the poke).
   4. **ORB flag (setup A) SPY/QQQ:** a 1-min close beyond the marks on ≥1.5× the 20-bar volume by 11:00 → flag → a 1-min flag break by 11:30.
+
+**9:57 check (replay 9:43–9:56): A2 SWOOP CALL → SHADOW (blocked by 0DTE checklist item 1)**
+- **Final marks (9:30–9:45):**
+  - SPY H 703.70 / L 696.00 (mid 699.85)
+  - SPX H 7,060.33 / L 6,974.67
+  - QQQ H 617.74 / L 608.54
+- **Signal:** at 9:45, SPY poked to 695.45 (< 696.00) and SPX to 6,970.11 (< 6,974.67), and both closed back inside (697.01 / 6,984.44) → **swoop → calls**. QQQ did the same (607.76 poke, 609.90 close).
+- **Why a shadow:** at 9:45 price was **below a falling VWAP** (≈ 699.5) on a trend-down open, so CLAUDE.md 0DTE checklist item 1 fails ("any no = no trade"). The budget would have allowed it: **SPY 708C at $0.79 → ask ≈ $0.80 ($80 ≤ $86)**.
+- **Shadow trade:**
+  - SPY 708C @ $0.80; stop beyond the poke, SPY 695.35.
+  - **Half at $1.20 (+50%) hit at 9:55** (708C high $1.33).
+  - The rest is trailed one 5-min bar behind, floor at entry SPY 697.01.
+  - Now: SPY 702.84, 708C $1.79 (+124%). **Shadow open.**
+- **4H (setup D):** the 8–12 bar has a flush to 695.45 and a sharp reclaim (+7.4 in 12 min); D-long structure.
+- **ARMED/MANAGE (to 10:12):**
+  - `MANAGE shadow A2 708C: rest trailed at the prior 5-min bar's low (floor 697.01); out by the 11:00 bid.`
+  - A2 calls (the range-high cross 703.70 + hold): the same direction as the swoop → no second A2 call.
+  - A2 puts: a 1-min close below 695.45 + hold (unlikely).
+- **For the owner:** the swoop entry (your rule) and the CLAUDE.md VWAP-direction item conflict on reversal mornings. Today the swoop was right (+124% shadow); 11/18's swoop call won as well. Should A2 swoops be exempt from checklist item 1?
