@@ -9003,3 +9003,11 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 11:57):**
   - SPY: E put on a 5-min close < 697.38 on ≥ 1.5× volume; E call on a 5-min close > 701.36 on ≥ 1.5× volume.
   - QQQ: confirms at 608.54 / 612.9.
+
+**11:57 check (replay 11:42–11:56): nothing fired.**
+- SPY: 5-min closes 698.16 / 698.94 / 700.00 (range 697.69–700.45). No close outside 697.38 / 701.36; volume is fading (0.16–0.24M). QQQ: 608.91–612.41, no confirming close.
+- **4H:** the 8–12 bar closes as a doji (≈ 703 → ≈ 700, range 695.45–705.05); the 12–4 bar opens next. No D structure shift.
+- **Squeeze:** SPY 697.69–700.45 since 11:30 (2.76 wide, 30 min) → nearly an F range; it needs ≤ $2.50 held to 12:15+. QQQ 608.91–612.41 (3.5).
+- **ARMED (to 12:12):**
+  - SPY: E put on a 5-min close < 697.38 on ≥ 1.5× volume; E call on a 5-min close > 701.36 on ≥ 1.5× volume. Watch F if the range tightens to ≤ $2.50.
+  - QQQ: confirms at 608.54 / 612.9.
