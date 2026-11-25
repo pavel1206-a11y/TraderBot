@@ -25,17 +25,17 @@ Script: `a2_v2.py` (daily rows in `a2_v2_days.csv`). Data: SPY 5-min bars, 173 s
 | 5b. New rules, every signal (nearest to $1.50 within $0.75–1.75) | 159 | n/a | **+$591** | +$179 | −$144 | +$556 | n/a | n/a |
 | 6. New rules with the old band | 159 | 44% | +$160 | +$26 | −$274 | +$408 | −$624 | −$430 |
 
-- **Split by signal type (new rules):** swoops 74 trades **+$579**; crosses 45 trades **−$105**. Crosses alone with the new band and cutoff: 78 trades, **−$531**.
+- **Split by signal type (new rules):** swoops 74 trades **+$579**; crosses 45 trades **−$105**. Crosses alone with the new band and cutoff: 78 trades, **−$531** (Mar–Jun −$585, Jul–Oct 8 +$29, Oct 9–Nov 25 +$24).
 - **Selection check:** variant 5 skips 40 signal days that have no contract in $1.25–1.75. Those days made −$106 under the old band. Trading every signal at the nearest-to-$1.50 contract (5b) still gives +$591, so the gain is not from skipping days.
 
 ## Findings
 1. **The new rules beat the old ones by about $900 over 8 months** (−$409 → +$484). Max drawdown fell by almost half ($672 → $379). The improvement holds in every period except Jul–Oct 8, where it is roughly flat (−$32 vs −$200).
 2. **Almost all of the gain comes from the swoop.**
-   - Crosses have no edge in this data: every cross-only variant loses.
+   - Crosses have no edge in this data: every cross-only variant loses overall. The loss sits in Mar–Jun, and crosses are flat after that.
    - The closer-to-ATM band helps only when combined with the swoop. Bigger contracts mean bigger wins (+$72 average vs +$53) and bigger losses (−$54 vs −$40).
    - The **10:15 cutoff alone adds nothing** (−$427 vs −$409). It is neutral, and it keeps the decay problem out of live trading.
 3. **Swoops depend on the regime.** They lost in Jul–Oct 8 (−$273 over 25 trades) and won in Mar–Jun (+$432) and Oct 9–Nov 25 (+$420).
 4. **The result is not robust yet.** Without its 3 best days, the new rule set is −$196. The edge is real against the old rules, but it rests on a modest number of big days.
 
 ## Proposed next test (owner's call; not changed)
-**Swoops only:** drop A2 cross entries. Crosses lost money in all three periods. Judge it on the next 10 live paper signals before changing the rule.
+**Swoops only:** drop A2 cross entries. Crosses lost overall: −$585 in Mar–Jun, then roughly flat. Judge it on the next 10 live paper signals before changing the rule.
