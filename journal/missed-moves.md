@@ -441,3 +441,13 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 9:39–9:51 | +$8.2 in 12 min (712.14 → 720.34) | A PDL sweep (712.14 < 713.53) and reclaim at the open; the ORB high broke at 9:45 | A2 call | **Caught** (shadow: over the weekly budget). It peaked +34%, short of +50%, then was stopped on the fade (−$76 shadow). |
 | 9:51–10:28 | −$7.1 in 37 min (720.92 → 713.80) | A fade from the high; QQQ broke its ORB low at 10:25 (1.2×) | A2 put / A short | SPY never broke 712.14 (the A2 put mark); the QQQ ORB break lacked 1.5×. |
 | 11:05–12:30 | +$7.8 in 85 min (712.40 → 720.18) | A triple PDL hold, then a structure shift at 12:05 (717.70) | D long | 12:05: 0.88× volume (needs 1.0×) and R/R 0.66 to the pivot. A slow grind; there was no B pullback to VWAP. |
+
+### 2026-11-25
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 9:45–10:05 | +$9.6 in 20 min (695.45 → 705.05) | A2 swoop: a poke under the ORB low (696.00) and close back inside; QQQ/SPX the same | A2 swoop call | **Caught as a shadow** (+$60): blocked by 0DTE checklist item 1 (below a falling VWAP). The rule has since changed (owner, 11/25). |
+| 10:05–10:25 | −$7.2 in 20 min (705.05 → 697.82) | The failed push above 703.70/705.05 rolled over back into the range | E put | 5-min volume < 1.5×; price crossed VWAP four times (checklist item 1). Correct skip: it reversed at 697.8. |
+| 10:35–11:15 | −$5.6 in 40 min (702.94 → 697.38) | Chop under a flat VWAP | E put | No close below 697.38; volume 0.2–0.4M. Range day behavior; correct skip. |
+| 11:55–12:15 | +$11 in 20 min (699.56 → 710.35) | A break above 701.36 from the 697.7–700.5 compression; QQQ the same | E call (F not yet 45 min) | 11:55 close in band on 0.98×; 12:00 at 1.23× but $2.45 past; 12:05 at 1.65× but $1.43 past (no-chase). The volume came after the price. |
+| 12:15–1:15 | +$7.4 in 60 min (707.2 → 714.7) | A staircase; each push through the last high | E call | 12:15 close $2.11 past on 1.42×; 12:40 close $0.35 past on 0.77× (extended band needs 1.2×). |
+| 1:15–1:50 | +$7.0 in 35 min (711.2 → 718.2) | The same staircase | E call | 1:15 $0.94 past on 1.15×; 1:25 in band on **1.47×** (near miss; the next bar would have stopped it); 1:40 $0.45 past on 0.85×; 1:45 1.63× but $2.38 past. |

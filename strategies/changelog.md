@@ -189,3 +189,7 @@ Owner's decisions (CLAUDE.md and playbook), on 8 weeks of paper results:
 - **Kept:** A2 (half at +50%, trail, out by 11:00; change 7 continues), B, C, E, F.
 - **Next:** trend-day vs range-day replay of the E/F gates (≥ 20 sessions), tonight after EOD. Trend-day gates loosen only if it beats the current rule.
 - Review: A2 at the new size and window after 10 signals or 2 weeks (12/9).
+
+## 2026-11-25 EOD — observations (no tuning change beyond the owner's)
+- **A2:** the swoop shadow won (+$60); 3 of 3 swoop signals since 11/18 were profitable in shadow. Change 7 (half + trail): today the trail beat flat +50% (+$60 vs +$40) → tally 2 for / 2 against / 3 neutral.
+- **E (change 1, extended band):** two afternoon signals landed in $0.31–0.75 (12:40 at 0.77×, 1:40 at 0.85×), both blocked by the 1.2× volume rule, and the trend continued after both. **Two signals against the 1.2× volume requirement on a trend day.** Today is the third trend day (11/19, 11/20, 11/25) where every E leg was missed. It goes into the trend-day vs range-day replay (next).

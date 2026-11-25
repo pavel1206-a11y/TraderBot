@@ -9105,3 +9105,15 @@ Market data and analysis only, not investment advice.
 - **Today:** 0 counted trades. A2 swoop shadow +$60 (blocked by checklist item 1). Missed afternoon trend legs: 12:00, 1:15, 1:45 (band/volume gates). No ARMED list after 2:15; EOD at 3:47.
 
 **2:42 check:** past the 2:30 entry cutoff; no open paper trades, nothing to manage. EOD at 3:47.
+
+### 2026-11-25 EOD
+- **Trades:** none counted; no open positions.
+- **A2:**
+  - Range SPY 696.00–703.70 (SPX 6,974.67–7,060.33).
+  - 9:45 swoop: SPY poked 695.45 and closed back inside → calls.
+  - Shadow: SPY 708C @ $0.80, half sold at $1.20, rest trailed out ≈ $1.60 at 10:10 → **+$60 shadow**.
+  - Not counted: price was under a falling VWAP at entry, which failed 0DTE checklist item 1. From today, swoops are exempt from that item (owner, 2026-11-25).
+- **Day:** a morning flush and reclaim, chop 697–702 to 11:55, then an afternoon staircase rally 699.6 → 718.2 (+2.7%). Every afternoon push came on < 1.5× volume or closed past the band, so the E line never fired.
+- **Scoreboard (unchanged):** **61 trades, 30W/31L, +$75.98.** SPY 55 +$88.91; QQQ 6 −$12.93 (no new QQQ contracts from today). **A2 counted: 2 trades, 0W/2L, −$126.** A2 shadows since 11/17: 9, ≈ +$318.
+- **Week:** −$64. Under the new $250 weekly limit, **$186 is left**; Fri 11/27 is a half day.
+- **Rules changed today (owner):** A2 at $1.25–1.75, entries to 10:15, swoop VWAP exemption, loss limits $175/$250, A/D/QQQ contracts retired. **Backtest** (`journal/backtests/2026-11-25-a2-new-rules-8mo.md`): new rules +$484 vs old −$409 over 173 sessions; the swoop carries it.
