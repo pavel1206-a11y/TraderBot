@@ -9081,3 +9081,12 @@ Market data and analysis only, not investment advice.
   - SPY: E call on a 5-min close > 715.46 within the band on ≥ 1.5× volume; stop at 712.73.
   - SPY: B call on a pullback within $0.15 of VWAP that closes green.
   - QQQ: confirms at 629.94.
+
+**1:57 check (replay 1:42–1:56): nothing fired.**
+- **SPY E call (> 715.46):** the 1:40 bar closed 715.91, 0.45 past (extended band; QQQ 630.45 > 629.94 confirms) but on 230k vs a 272k average (0.85× < 1.2×) → no. The 1:45 bar closed 717.84 on 1.63× but 2.38 past → no chase. High 718.18, last 717.31.
+- **B:** no VWAP pullback (≈ 709). **4H:** the 12–4 bar is up ≈ +17 (low 697.4 → 718.2), a full-range trend bar.
+- **Squeeze:** none (trend). This is the fourth trend leg the band/volume gates have missed today, which supports the queued trend-day vs range-day split test.
+- **ARMED (to 2:12):**
+  - SPY: E call on a 5-min close > 718.18 within the band on ≥ 1.5× volume; stop at 716.69.
+  - SPY: B call on a pullback within $0.15 of VWAP that closes green (entries until 2:30).
+  - QQQ: confirms at 633.33.
