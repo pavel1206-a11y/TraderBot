@@ -8972,3 +8972,12 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 10:57):**
   - SPY: E put on a 5-min close < 697.8 on ≥ 1.5× volume with VWAP sloping down. E call on a 5-min close > 705.05 on ≥ 1.5× volume.
   - QQQ: confirms the same breaks at 609.73 / 619.38.
+
+**10:57 check (replay 10:42–10:56): nothing fired; no open trades.**
+- SPY held 697.9–700.54 (closes 699.06 / 699.25 / 699.69); QQQ 609.34–612.38. No 5-min close below 697.8 / 609.73 or above 705.05 / 619.38. Volume 0.22–0.45M, well below 1.5×.
+- **ORB flag:** no 1.5× break before 11:00 → **setup A is done for today.** A2 is done (swoop shadow only).
+- **4H:** the 8–12 bar is a doji around 699–700 (range 695.45–705.05). **Squeeze:** 697.9–700.54 since 10:40 (2.64 wide, 20 min) → not an F range yet; watch for 45 min under $2.50.
+- **No-trade filter:** midday chop around a flat VWAP; 0DTE checklist item 1 fails.
+- **ARMED (to 11:12):**
+  - SPY: E put on a 5-min close < 697.8 on ≥ 1.5× volume with VWAP sloping down; E call on a 5-min close > 702.94 on ≥ 1.5× volume.
+  - QQQ: confirms at 609.34 / 614.98.
