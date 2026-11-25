@@ -8963,3 +8963,12 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 10:42):**
   - SPY: A2 put on a 1-min close < 695.45 + hold (window ends 10:30). E put on a 5-min close < 698.0 on ≥ 1.5× volume with VWAP turning down (R/R ≥ 1.5 to 695.45).
   - QQQ: E put on a 5-min close < 608.54 (range low) on ≥ 1.5× volume (confirms SPY only).
+
+**10:42 check (replay 10:27–10:41): nothing fired.**
+- SPY: the 10:25 5-min bar closed 698.61 (low 697.82), not below 698.0 → no E put. Then it bounced to 702.94 at 10:35 and closed 699.74; QQQ 613.42 → 611.31. Still chopping across VWAP (≈ 700.5); 0DTE checklist item 1 fails.
+- 5-min volumes are 0.36–0.51M against a ≈ 0.6M average: nothing reaches 1.5×.
+- **A2:** the window closed at 10:30 with no put cross. **ORB flag:** no 1.5× break; the deadline is 11:00.
+- **4H:** the 8–12 bar is a doji around 700. **Squeeze edges:** SPY 697.8–705.05, QQQ 609.73–619.38 (wider than $2.50 → no F).
+- **ARMED (to 10:57):**
+  - SPY: E put on a 5-min close < 697.8 on ≥ 1.5× volume with VWAP sloping down. E call on a 5-min close > 705.05 on ≥ 1.5× volume.
+  - QQQ: confirms the same breaks at 609.73 / 619.38.
