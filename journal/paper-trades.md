@@ -8981,3 +8981,11 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 11:12):**
   - SPY: E put on a 5-min close < 697.8 on ≥ 1.5× volume with VWAP sloping down; E call on a 5-min close > 702.94 on ≥ 1.5× volume.
   - QQQ: confirms at 609.34 / 614.98.
+
+**11:12 check (replay 10:57–11:11): nothing fired.**
+- SPY: 5-min closes 699.05 / 699.30 / 698.21 (low 698.09), above 697.8 → no E put. High 701.08 → no E call. QQQ's 11:05 bar closed 609.14 < 609.34, but QQQ only confirms SPY, and volume is ≈ 0.31M (< 1.5×).
+- **4H:** the 8–12 bar is a doji near 698–699. **Squeeze:** SPY 697.9–701.08 since 10:40 (3.18 wide) and QQQ 608.95–612.89 → both too wide for F.
+- Still the midday drift below a flat VWAP (≈ 700); checklist item 1 is not clean.
+- **ARMED (to 11:27):**
+  - SPY: E put on a 5-min close < 697.8 on ≥ 1.5× volume (target 695.45); E call on a 5-min close > 701.1 on ≥ 1.5× volume back above VWAP.
+  - QQQ: confirms at 608.54 (ORB low) / 612.9.
