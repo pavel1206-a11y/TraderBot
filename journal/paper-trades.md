@@ -9011,3 +9011,18 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 12:12):**
   - SPY: E put on a 5-min close < 697.38 on ≥ 1.5× volume; E call on a 5-min close > 701.36 on ≥ 1.5× volume. Watch F if the range tightens to ≤ $2.50.
   - QQQ: confirms at 608.54 / 612.9.
+
+**12:12 check (replay 11:57–12:11): breakout up, but no armed line fired as written.**
+- SPY ran 699.56 → 707.22 (5-min closes 701.65 / 703.81 / 706.48). QQQ ran 611.33 → 620.00 (closes 613.95 / 616.28 / 619.17).
+- **Replay of the E call (SPY 5-min close > 701.36 on ≥ 1.5× vol):**
+  - 11:55 bar: closed 701.65 (within the $0.30 band) but on 253k vs a 257k 10-bar average (0.98×) → no.
+  - 12:00 bar: 703.81 on 320k (1.23×). That is 2.45 above the line, beyond the $0.75 extended band → no chase.
+  - 12:05 bar: 706.48 on 418k (1.65× ✓), but 1.43 above the day high 705.05 (beyond $0.75) → no chase.
+  - QQQ 619.17 has not closed above 619.38.
+  - **Missed move** (the volume came after the price): to be added to missed-moves at EOD.
+- **4H:** the 12–4 bar opened ≈ 700 and is strongly green (+6.5); the 8–12 bar was a doji → a bullish expansion after the morning flush to 695.45 (D-like Power-of-3, no entry trigger).
+- **Squeeze:** the 697.69–700.45 range broke upward before reaching 45 min → no F.
+- **ARMED (to 12:27):**
+  - SPY: E call on a 5-min close > 707.22 within $0.30 (or ≤ $0.75 with ≥ 1.2× vol + QQQ confirming) on ≥ 1.5× vol, R/R ≥ 1.5 with the swing stop at the 12:05 bar low 703.57.
+  - SPY: B call on a pullback to within $0.15 of VWAP that closes green (VWAP now rising).
+  - QQQ: E call on a 5-min close > 620.00 within the band (confirms SPY).
