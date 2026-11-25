@@ -8943,3 +8943,14 @@ Market data and analysis only, not investment advice.
   - A2 calls (the range-high cross 703.70 + hold): the same direction as the swoop → no second A2 call.
   - A2 puts: a 1-min close below 695.45 + hold (unlikely).
 - **For the owner:** the swoop entry (your rule) and the CLAUDE.md VWAP-direction item conflict on reversal mornings. Today the swoop was right (+124% shadow); 11/18's swoop call won as well. Should A2 swoops be exempt from checklist item 1?
+
+**10:12 check (replay 9:57–10:12):**
+- **Shadow A2 708C, closed by the trail at 10:10.** The prior 5-min bar (10:05–10:09) low was 702.62, and SPY traded 701.73 in the 10:10 bar. Second half sold ≈ $1.60 (708C 10:10 bar 1.67 → 1.46).
+  - Shadow P&L: half at $1.20 (+$20) and half at ≈ $1.60 (+$40) = **+$60 shadow** (not counted; blocked by 0DTE checklist item 1).
+  - The trail gave back from a $2.38 peak; a flat +50% exit would have made +$40.
+- **ORB flag (setup A):** SPY 1-min closes above 703.70 at 10:03 (704.07, 1.07× vol) and 10:06 (704.42, 1.05×); QQQ above 617.74 at 10:03 (618.39, below 1.5×). None reached the 1.5× volume bar → **no flag**.
+- **A2:** call direction used (swoop); no 1-min close below 695.45 → no put.
+- **E/F:** SPY 702.03 / QQQ 615.13 are back inside the ORB range after the failed pushes at 704–705 / 618–619; no fresh close-band signal. 4H: the 8–12 bar is still green (reclaim from 695.45). Squeeze edges: SPY 701.7–705.05, QQQ 614.55–619.38.
+- **ARMED (to 10:27):**
+  - SPY: A2 put on a 1-min close < 695.45 + hold (window to 10:30). E call on a 5-min close > 705.05 on ≥ 1.5× volume.
+  - QQQ: E call on a 5-min close > 619.38 on ≥ 1.5× volume (confirms SPY only).
