@@ -487,7 +487,10 @@ and were already too far to chase by the next check. The fix: every check
 
 ### Arming (every check, 9:45 AM–2:15 PM ET)
 
-End each check with an **Armed** list, at most 3 lines, each a complete plan:
+End each check with an **Armed** list, at most 3 lines, each a complete plan.
+**Volume bar on E and F lines = the setup's own bar (1.0×, or 0.7× with the QQQ
+range break), not 1.5×** (1.5× is only the retired ORB watch). Corrected
+2026-11-25 after armed lines drifted to 1.5×.
 
 `ARMED <setup> <long/short>: trigger = 5-min close <above/below> $X on ≥ N× the prior 10-bar volume [+ QQQ condition]; entry = trigger close; stop = $S; target = $T; valid until HH:MM`
 
@@ -508,7 +511,8 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
   (10/14, 10/16) kept closing past the $0.10 band.
   **Extended band (owner-approved 2026-11-02):** an E or F close from $0.31
   up to **$0.75** past the level also fires when the trigger bar's volume is
-  at least **1.2×** the prior 10-bar average **and** QQQ closes through its
+  at least **1.0×** (lowered from 1.2× on 2026-11-25, change 8; see
+  `../journal/backtests/2026-11-25-e-trend-gates.md`) the prior 10-bar average **and** QQQ closes through its
   own matching level on the same bar (no 0.7× allowance here). This matches
   setup F's $0.75 entry rule. A close past the band is still a miss. B (VWAP pullback) lines have **no** close cap; instead, write
   the line so that it fires only if reward/risk at the actual close is ≥ 1.5.

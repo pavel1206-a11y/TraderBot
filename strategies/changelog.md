@@ -193,3 +193,8 @@ Owner's decisions (CLAUDE.md and playbook), on 8 weeks of paper results:
 ## 2026-11-25 EOD — observations (no tuning change beyond the owner's)
 - **A2:** the swoop shadow won (+$60); both swoop signals (11/18, 11/25) were profitable. Change 7 (half + trail): today the trail beat flat +50% (+$60 vs +$40) → tally 2 for / 2 against / 3 neutral.
 - **E (change 1, extended band):** two afternoon signals landed in $0.31–0.75 (12:40 at 0.77×, 1:40 at 0.85×), both blocked by the 1.2× volume rule, and the trend continued after both. **Two signals against the 1.2× volume requirement on a trend day.** Today is the third trend day (11/19, 11/20, 11/25) where every E leg was missed. It goes into the trend-day vs range-day replay (next).
+
+## 2026-11-25 — Change 8 (E/F): extended-band volume 1.2× → 1.0×
+- Evidence: `journal/backtests/2026-11-25-e-trend-gates.md` (173 sessions). A $0.75 band at 1.0× gave +0.30R/trade in trend state and +0.15 in range state, positive in both halves. The current 1.2× gave +0.12 / +0.00. The QQQ condition is kept.
+- Review after 10 signals or 2 weeks (12/9). Revert if extended-band entries underperform in-band ones.
+- **Process correction (my error):** armed E lines have used a 1.5× volume bar (at least 11/20–11/25) instead of setup E's 1.0×. Today, the 1:25 SPY line (close 715.02, in band, 1.47×) should have fired. Played forward, the 1:30 low of 712.73 hit the 713.24 stop → about −1R. It is not added to the scoreboard (no option fill was recorded); it is noted for the owner. Section 10 now states the bar explicitly.
