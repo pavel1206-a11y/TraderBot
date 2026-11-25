@@ -8913,3 +8913,14 @@ Market data and analysis only, not investment advice.
 - **Events:** DE missed (AM); no big names. No economic calendar was pulled (Wednesday before Thanksgiving: typically jobless claims / PCE-type data may be pulled forward; check headlines). Market closed Thursday; Friday is a half day. Expect thin liquidity this afternoon.
 - **Bias: bearish.** A 2nd straight gap below PDL; SPY is at S3 pre-market. Watch for a flush-and-reclaim of S3/S2 (704.84 / 708.49) vs continuation.
 - **A2 today:** mark the 9:30–9:45 range (setup A's ORB too). Cross + hold → calls/puts at $0.75–1.25, **counted only if the premium is ≤ $86** (weekly budget), else shadow. Stop the midpoint; half at +50%, trail; out by 11:00.
+
+**9:42 check (opening range forming, through the 9:39 bar)**
+- SPY open 703.18, then straight down: range so far **H 703.70 / L 698.37**; last 698.68 (under S3 704.84 → **under 700**).
+- QQQ open 617.10: range so far **H 617.74 / L 611.02**; last 611.47 (under S3 613.31).
+- SPX range so far **H 7,060.33 / L 6,998.63** (broke 7,000); last 7,001.67.
+- A trend-down open: both are sitting at their range lows. Watch for a capitulation flush-and-reclaim vs continuation.
+- **ARMED/WATCH 9:45–10:12** (final marks after the 9:44 bar). Week budget $86 → counted only if the premium is ≤ $86.
+  1. **A2 puts:** a 1-min close below the range low + hold (SPX/SPY, QQQ confirming), below a falling VWAP. Contract $0.75–0.86 counted (≤ $1.25 shadow). Stop the midpoint +$0.10; half at +50%, trail; out by 11:00.
+  2. **A2 calls:** a 1-min close above the range high + hold, above a rising VWAP (a reclaim of S3).
+  3. **Swoop:** a poke beyond a mark that closes back inside → the other way (stop beyond the poke).
+  4. **ORB flag (setup A) SPY/QQQ:** a 1-min close beyond the marks on ≥1.5× the 20-bar volume by 11:00 → flag → a 1-min flag break by 11:30.
