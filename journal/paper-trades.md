@@ -8899,3 +8899,17 @@ Market data and analysis only, not investment advice.
 - **Running totals (unchanged):** 61 trades, 30W/31L, +$75.98. SPY 55 +$88.91; QQQ 6 −$12.93. A2 counted 2, 0W/2L, −$126. A2 shadows this week: 11/24 −$76. **Week −$64 ($86 left).**
 - **Day note:** a gap-down open that swept PDL and ripped $8 in 12 minutes. A2 caught the direction but the 9:51 top came before +50%. The fade back through the midpoint stopped it. Then 3 more PDL tests (712.14 / 712.40 / 712.98) held, and a slow recovery to 720.67 midday. Every armed line was blocked by volume (1.47×, 0.88×, 0.84×), R/R or the VWAP-slope checklist; most of those blocks were vindicated by reversals.
 
+
+## 2026-11-25 (Wed; day before Thanksgiving)
+
+**Pre-market brief (8:36 AM ET)**
+- SPY PDH **$720.93** / PDL **$712.14** · close $718.78 · pre $703.83 (**below PDL by $8.31**; gap ≈ −2.1%)
+- QQQ PDH **$648.00** / PDL **$631.15** · close $638.10 · pre $618.31 (**below PDL by $12.84**; gap ≈ −3.1%)
+- **Pre-market range:** SPY ≈ $703.9–714.24; QQQ ≈ $618.6–631.0. Sold all morning, at the lows.
+- **Pivots:**
+  - SPY: P 717.28 · R1 722.43 · S1 713.64 · S2 708.49 · S3 704.84.
+  - QQQ: P 639.08 · R1 647.02 · S1 630.17 · S2 622.23 · S3 613.31.
+- **SMAs (20d):** SPY 743.11, QQQ 671.31 (the downtrend is intact).
+- **Events:** DE missed (AM); no big names. No economic calendar was pulled (Wednesday before Thanksgiving: typically jobless claims / PCE-type data may be pulled forward; check headlines). Market closed Thursday; Friday is a half day. Expect thin liquidity this afternoon.
+- **Bias: bearish.** A 2nd straight gap below PDL; SPY is at S3 pre-market. Watch for a flush-and-reclaim of S3/S2 (704.84 / 708.49) vs continuation.
+- **A2 today:** mark the 9:30–9:45 range (setup A's ORB too). Cross + hold → calls/puts at $0.75–1.25, **counted only if the premium is ≤ $86** (weekly budget), else shadow. Stop the midpoint; half at +50%, trail; out by 11:00.
