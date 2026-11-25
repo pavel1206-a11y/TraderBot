@@ -8954,3 +8954,12 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 10:27):**
   - SPY: A2 put on a 1-min close < 695.45 + hold (window to 10:30). E call on a 5-min close > 705.05 on ≥ 1.5× volume.
   - QQQ: E call on a 5-min close > 619.38 on ≥ 1.5× volume (confirms SPY only).
+
+**10:27 check (replay 10:13–10:26): nothing fired.**
+- SPY faded from 702.4 to 698.34 (low 698.11) and QQQ to 610.29 (low 609.85): the failed break at 704–705 rolled back below the range midpoint (699.85) and VWAP (≈ 700.5).
+- **Armed lines replayed:** no A2 put (SPY stayed above 695.45); no E call (no close above 705.05 / 619.38).
+- **E put through VWAP:** the 10:15–10:19 5-min bar closed 699.12 on ≈ 0.5M shares, below the 1.5× bar. Price has crossed VWAP four times since 9:45 → 0DTE checklist item 1 (clear direction) fails. No trade.
+- **4H:** the 8–12 bar is green but fading (open ≈ 700, now 698.3). **Squeeze edges:** SPY 698.1–705.05, QQQ 609.85–619.38 (too wide for F).
+- **ARMED (to 10:42):**
+  - SPY: A2 put on a 1-min close < 695.45 + hold (window ends 10:30). E put on a 5-min close < 698.0 on ≥ 1.5× volume with VWAP turning down (R/R ≥ 1.5 to 695.45).
+  - QQQ: E put on a 5-min close < 608.54 (range low) on ≥ 1.5× volume (confirms SPY only).
