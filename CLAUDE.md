@@ -20,18 +20,20 @@ ask the owner before doing anything; do not quietly bend it.
 | Rule | Limit (at $1,000) |
 |---|---|
 | Risk per trade: default | 5% of account value ($50) |
-| Risk per trade: hard max | 10% of account value ($100); **A2 option contracts up to 12.5% ($125, i.e. $0.75–1.25 per contract; owner, 2026-11-16)** |
+| Risk per trade: hard max | 10% of account value ($100); **A2 option contracts up to 17.5% ($175, i.e. $1.25–1.75 per contract; owner, 2026-11-25; was 12.5%/$0.75–1.25)** |
 | Total open risk across all positions | 20% ($200) |
 | Open positions at once | 3 |
-| Daily loss limit: stop trading for the day | 10% ($100) |
-| Weekly loss limit: stop trading until next week | 15% ($150) |
+| Daily loss limit: stop trading for the day | 17.5% ($175) (owner, 2026-11-25; was $100) |
+| Weekly loss limit: stop trading until next week | 25% ($250) (owner, 2026-11-25; was $150) |
 | Drawdown circuit breaker: no new trades, full review with owner | Account 30% below its high ($700 from $1,000) |
 
 "Risk" means what is lost if the stop is hit. For **options**, count the
 **full premium paid** as the risk, because option prices can gap straight past
 a stop. So an option position's cost is capped at 10% of the account, except
-the owner's A2 setup, whose one-contract buys at $0.75–1.25 may cost up to
-12.5% ($125) (owner, 2026-11-16). Total open risk stays capped at 20%.
+the owner's A2 setup, whose one-contract buys at $1.25–1.75 may cost up to
+17.5% ($175) (owner, 2026-11-25, raised from $0.75–1.25 to sit closer to
+at the money). Total open risk stays capped at 20%, so an A2 position leaves
+room for at most one small ($25) other position.
 
 ## Trade rules
 
@@ -88,16 +90,22 @@ stop, target, and result taken from real quotes. No Robinhood write actions
 
 **Focus (owner, 2026-11-17): options only, the owner's rules first.** Setup
 A2 (mark the 9:30–9:45 candle high/low and the previous day's high/low; after
-9:45 a cross that holds → calls or puts at $0.75–1.25; stop the range
-midpoint ∓ $0.10; +50% or out by 11:00) is the primary setup and is checked
-first every morning.
+9:45 a cross that holds → calls or puts at $1.25–1.75; a swoop back inside
+→ the other way; entries 9:45–10:15 only; stop the range midpoint ∓ $0.10;
+half at +50%, trail the rest, out by 11:00) is the primary setup and is
+checked first every morning.
+
+**Scrapped (owner, 2026-11-25, after 8 weeks of paper results):** setup A
+(ORB flag: 0W/2L, overlaps A2's levels), setup D (4-hour Power of 3: never
+passed its gates), A2 entries after 10:15 (late crosses lost to decay), and
+QQQ stand-alone contracts (6 trades, −$12.93). QQQ is read only as
+confirmation for SPX/SPY. Kept: A2, B (VWAP pullback), C, E and F; E/F gates
+are under review for trend days.
 
 Find and score trades with `strategies/playbook.md`: the daily routine, key
-levels, the confluence score card (A/B/C grades), the six allowed setups
-(including A, the owner's ORB flag: the first 15-minute candle sets the
-levels, then a high-volume 1-minute break and entry on the 1-minute flag
-break, 2026-10-27; D, the 4-hour manipulation / Power of 3 reversal, E, the momentum
-run, and F, the midday squeeze breakout),
+levels, the confluence score card (A/B/C grades), the allowed setups (A2, B, C,
+E, the momentum run, and F, the midday squeeze breakout; A and D retired
+2026-11-25),
 no-trade filters, contract selection, and trade management. Only propose A or
 B grade setups, and show the score card with every proposal.
 Every intraday check replays the triggers the previous check armed and arms
@@ -112,14 +120,16 @@ with the trade plan. Any "no" means no trade.
 **Entry checklist**
 1. **Direction is clear:** bullish = price holding above VWAP with VWAP
    sloping up; bearish = holding below a VWAP sloping down. Price chopping
-   back and forth across VWAP = no trade.
+   back and forth across VWAP = no trade. **Exception (owner, 2026-11-25):**
+   an A2 swoop (a poke past a 9:30–9:45 mark that closes back inside) is a
+   reversal signal by design and does not need this item.
 2. **Candles confirm:** on the 5-minute chart, higher highs and higher lows
    (bullish) or lower highs and lower lows (bearish), plus a confirming candle
    (a close through the prior high/low, or a VWAP pullback that holds).
 3. **News agrees:** market news and sentiment point the same way, and no
    scheduled event (CPI, jobs report, FOMC, big earnings) is due before the
    exit time that could flip the move.
-4. **The trade fits the risk rules:** premium within 5% default / 10% max (A2: up to $125) of
+4. **The trade fits the risk rules:** premium within 5% default / 10% max (A2: up to $175) of
    account, and buying power covers it (settled cash or intraday margin).
 
 **Timing and exits**

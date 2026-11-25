@@ -56,12 +56,19 @@ journal entry.
 
 ## 4. Setups
 
+**Active setups from 2026-11-25 (owner): A2 (primary), B, C, E, F.** A and D are retired (kept below for reference).
+
 Setups A–C, E and F trade with the trend. Setup D trades the reversal after a
 4-hour manipulation move, and only after the sweep, the reclaim, and a shift
 in structure have all happened. Other "catch the reversal" trades are left out
 on purpose: they lose more often, and 0DTE leaves no time to be wrong.
 
-### A. ORB break, then flag break (first 15-minute candle, 1-minute execution)
+### A. ORB break, then flag break — RETIRED 2026-11-25 (owner)
+
+Scrapped after 8 weeks: 0W/2L on A-grade trades, rarely fires, and trades the
+same levels as A2. Kept below for reference only; do not score, arm or log it.
+
+#### (retired) ORB break, then flag break (first 15-minute candle, 1-minute execution)
 
 Owner's method (2026-10-27; switched to 1-minute bars the same day). Runs on
 SPY and QQQ separately. The 15-minute candle only sets the levels; the break,
@@ -103,7 +110,7 @@ next to A, so the two can be compared on the same days.
 
 1. **Mark the range:** the high and low of 9:30–9:45 (the same as A), plus
    the **previous day's high and low** (the owner's green and red lines) as the
-   next levels and targets. Contract cost **$0.75–1.25**.
+   next levels and targets. Contract cost **$1.25–1.75** (owner, 2026-11-25; was $0.75–1.25).
 2. **Watch from 9:45 on 1-minute bars** (30-second bars for detail) and
    **enter when it crosses a mark and holds** after 9:45 (owner, 2026-11-13:
    "once it crosses the blue either way and holds after 9:45, I put in calls or
@@ -125,13 +132,15 @@ next to A, so the two can be compared on the same days.
    (Test `journal/backtests/2026-11-17-a2-exits-9mo.md`: 125 trades. This exit beat the old flat +50%
    in every period, −$83 vs −$725 over 9 months, and had the smallest drawdown. Holding everything to
    11:00 only won in the last 6 weeks.)
-5. **Entry window:** 9:45–10:30. One trade per day per direction (the first
-   signal).
+5. **Entry window:** 9:45–**10:15** (owner, 2026-11-25; was 10:30: late
+   crosses lost to decay before +50% printed). One trade per day per
+   direction (the first signal). Swoops are exempt from 0DTE checklist item 1
+   (CLAUDE.md, 2026-11-25).
 6. **SPX, SPY and QQQ combined (owner, 2026-11-17):** A2 is read on all three
    as **one signal**, because they move together and three trades the same
    way would be the same bet three times.
    - Mark the 9:30–9:45 range and the previous day's high/low on each.
-   - **The trade is SPXW** (the owner's own instrument; a $0.75–1.25 0DTE
+   - **The trade is SPXW** (the owner's own instrument; a $1.25–1.75 0DTE
      contract) when SPX crosses a mark and holds. The stop is SPX's range
      midpoint ∓ 1.0 point (SPY's $0.10 × 10).
    - SPY and QQQ crossing the same way within a few minutes are logged as
@@ -174,7 +183,12 @@ next to A, so the two can be compared on the same days.
   (2026-10-02: a $0.10 buffer and 0.7× volume lost.)
 - **Invalidation:** a 5-min close back through the stop level above.
 
-### D. 4-Hour Manipulation (Power of 3)
+### D. 4-Hour Manipulation (Power of 3) — RETIRED 2026-11-25 (owner)
+
+Scrapped: in 8 weeks no D signal passed its volume and R/R gates. The 4-hour
+phase may still be noted as context; do not score, arm or log D trades.
+
+#### (retired) 4-Hour Manipulation (Power of 3)
 
 Each 4-hour candle tends to move in three phases: **accumulation** (a range
 near the open), **manipulation** (a fake push to one side that sweeps
@@ -511,7 +525,7 @@ End each check with an **Armed** list, at most 3 lines, each a complete plan:
 - Valid until: the next check, or 2:30 PM, whichever is sooner. A check
   re-arms or drops each line.
 
-### ORB flag lines (setup A, from 2026-10-27; 1-minute bars)
+### ORB flag lines (setup A, from 2026-10-27; 1-minute bars) — RETIRED with setup A, 2026-11-25
 
 Each check replays **1-minute** bars (`get_equity_historicals`
 interval=minute) for setup A and tracks it for SPY and QQQ in stages:
@@ -525,6 +539,9 @@ the first complete sequence exactly as written, no partial credit.
 
 ### SPY and QQQ together (from 2026-10-27)
 
+**From 2026-11-25 (owner): no QQQ contracts.** QQQ is scored and armed only as
+confirmation for SPX/SPY signals; the rules below apply to SPY/SPX trades.
+
 - Every check scores and arms **both** SPY and QQQ (at most 3 lines each).
 - **One trade per direction, per setup:** SPY and QQQ move together, so the
   same setup firing the same way on both is the same bet twice. If both fire
@@ -537,7 +554,7 @@ the first complete sequence exactly as written, no partial credit.
   (options only since 2026-11-17). (10/27: the
   rule blocked a QQQ ORB-flag winner, +0.74R shadow.)
 - QQQ options: QQQ has daily expirations; same section 6 rules (at the money
-  or 1–2 strikes out, premium ≤ $100; A2 $0.75–1.25).
+  or 1–2 strikes out, premium ≤ $100; A2 $1.25–1.75). Not traded from 2026-11-25.
 - The scoreboard tracks SPY and QQQ separately (options only from
   2026-11-17; the fractional track is closed).
 

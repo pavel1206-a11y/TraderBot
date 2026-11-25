@@ -177,3 +177,15 @@ are marked; the rest are Claude's under the CLAUDE.md tuning rule.
 - **A2 exit (change 7):** neutral today (neither exit reached its target; both stopped). Tally 1 for / 2 against / 3 neutral.
 - **Gates:** the VWAP-slope checklist blocked a 1:55 E short that would have lost; the 1.47× volume miss at 10:40 (PDL) would also have reversed. Range-day evidence for the gates again (see 11/23).
 - **Budget mechanics:** the weekly budget ($86) below the A2 contract cost ($90) forced a shadow. No change (CLAUDE.md rule).
+
+## 2026-11-25 — Owner: keep what works, scrap what doesn't; A2 sized closer to ATM
+
+Owner's decisions (CLAUDE.md and playbook), on 8 weeks of paper results:
+- **A2 contract $1.25–1.75** (was $0.75–1.25); A2 cap 17.5% ($175).
+- **Loss limits:** daily $175 (was $100), weekly $250 (was $150), so a full A2 loss can still count. The total open risk cap stays at 20%; the $700 drawdown breaker is unchanged.
+- **A2 entry window 9:45–10:15** (was 10:30). Evidence: late crosses (11/23 #62 at 10:20, 11/24) lost to decay before +50%.
+- **A2 swoops exempt from 0DTE checklist item 1** (VWAP direction). Evidence: swoops won on 11/18 and 11/25 (2 of 2; small sample, review after 10 signals).
+- **Retired:** setup A (ORB flag; A-grade 0W/2L, −$53.96), setup D (no signal passed its gates in 8 weeks), and QQQ stand-alone contracts (6 trades, −$12.93; QQQ is now confirmation only).
+- **Kept:** A2 (half at +50%, trail, out by 11:00; change 7 continues), B, C, E, F.
+- **Next:** trend-day vs range-day replay of the E/F gates (≥ 20 sessions), tonight after EOD. Trend-day gates loosen only if it beats the current rule.
+- Review: A2 at the new size and window after 10 signals or 2 weeks (12/9).
