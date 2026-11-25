@@ -9103,3 +9103,5 @@ Market data and analysis only, not investment advice.
 - SPY: 5-min closes 716.68 / 716.10 / 716.83 (range 715.92–718.06). No close above 718.18; no VWAP pullback (≈ 710). QQQ: 631.74–634.66.
 - **4H:** the 12–4 bar is up ≈ +16, a flat high-level consolidation. **Squeeze:** SPY 715.27–718.18 since 1:45 (2.91) → no F.
 - **Today:** 0 counted trades. A2 swoop shadow +$60 (blocked by checklist item 1). Missed afternoon trend legs: 12:00, 1:15, 1:45 (band/volume gates). No ARMED list after 2:15; EOD at 3:47.
+
+**2:42 check:** past the 2:30 entry cutoff; no open paper trades, nothing to manage. EOD at 3:47.
