@@ -9063,3 +9063,12 @@ Market data and analysis only, not investment advice.
   - SPY: E call on a 5-min close > 713.00 within the band on ≥ 1.5× volume; stop at 710.29.
   - SPY: B call on a pullback within $0.15 of VWAP that closes green. F watch if the range holds ≤ $2.50 to 1:35.
   - QQQ: confirms at 626.79.
+
+**1:27 check (replay 1:12–1:26): nothing fired.**
+- **SPY E call (> 713.00):** the 1:15 bar closed 713.94, 0.94 past (beyond the $0.75 band) on 298k vs a 259k average (1.15×) → no (both band and volume fail). The 1:20 bar closed 714.68 (high 715.00). QQQ 627.94 > 626.79 on the same bar (1.3×).
+- **B:** no pullback toward VWAP. This is the third leg of a staircase trend with sub-1.5× volume on every push; the close-band + volume gates keep missing it (it joins the 12:00 miss in missed-moves).
+- **4H:** the 12–4 bar is up ≈ +15 at the highs. **Squeeze:** none (trend).
+- **ARMED (to 1:42):**
+  - SPY: E call on a 5-min close > 715.00 within the band on ≥ 1.5× volume; stop at 713.24.
+  - SPY: B call on a pullback within $0.15 of VWAP that closes green.
+  - QQQ: confirms at 629.12.
