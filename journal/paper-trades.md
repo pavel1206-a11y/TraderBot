@@ -9055,3 +9055,11 @@ Market data and analysis only, not investment advice.
   - SPY: E call on a 5-min close > 711.83 within the band on ≥ 1.5× volume; stop at the swing low 708.81.
   - SPY: B call on a pullback within $0.15 of VWAP that closes green.
   - QQQ: confirms at 625.41.
+
+**1:12 check (replay 12:57–1:11): nothing fired.**
+- SPY: 5-min closes 710.90 / 711.38 / 711.50 (high 713.00, low 710.34). No close above 711.83; volume is fading (183–267k). The low stayed far above VWAP → no B. QQQ: high 626.79, close 625.22.
+- **4H:** the 12–4 bar is up ≈ +11, stalling at the highs. **Squeeze:** SPY 710.29–713.00 since 12:50 (2.71 wide, 25 min); QQQ 623.28–626.79 → not F yet.
+- **ARMED (to 1:27):**
+  - SPY: E call on a 5-min close > 713.00 within the band on ≥ 1.5× volume; stop at 710.29.
+  - SPY: B call on a pullback within $0.15 of VWAP that closes green. F watch if the range holds ≤ $2.50 to 1:35.
+  - QQQ: confirms at 626.79.
