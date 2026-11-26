@@ -120,6 +120,14 @@ next to A, so the two can be compared on the same days.
    - **Swoop and come back → the other way.** If price only pokes past a mark
      (no close beyond it, or a close beyond that is undone right away) and
      comes back, trade the other direction once it is back inside.
+     **Owner's read (2026-11-25 chart, 30-second bars):** a thin wick through
+     a mark right at/after 9:45 (no body close beyond it), then the **first
+     closed candle after 9:45 closes the other way, between the two marks** →
+     enter on that candle's close. 11/25 example: wick to 695.45 under the
+     696.0 low, then the first closed candle after 9:45 was green inside the
+     range → calls. The owner draws the marks on the 30-second chart, so they
+     can differ by a few cents from the 1-min/5-min bars (11/25: 703.77 /
+     696.08 vs 703.70 / 696.00).
    No waiting for an extra "hold" bar (that was the first draft's rule).
 3. **Stop:** the **middle of the 9:30–9:45 range** ∓ $0.10 (calls: midpoint
    − $0.10; puts: midpoint + $0.10). Owner OK 2026-11-13. In the 23-session
