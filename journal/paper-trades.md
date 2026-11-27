@@ -9172,3 +9172,13 @@ Market data and analysis only, not investment advice.
   - SPY: E put on a 5-min close < 719.62 (day low) on ≥ 1.0× volume within the band, toward the PDH 718.43 / S1; premium ≤ $100.
   - SPY: E call on a 5-min close > 722.98 (the 9:45 bar high) on ≥ 1.0× volume within the band; no calls under a falling VWAP (checklist item 1).
   - QQQ confirms at 636.72 / 640.43.
+
+**10:27 check (replay 10:12–10:26): nothing fired.**
+- **E call (> 722.98):** the 10:20 bar closed 723.65, $0.67 past (extended band). Its volume was 227k vs a 418k average (0.54×), under the 1.0× bar → no. QQQ 642.35 did close through its 640.43 line.
+- **E put (< 719.62):** no close below it (low 719.62 on the 10:05 bar, closed 721.06).
+- **A2 put shadow:** the stop 723.59 (mid + $0.10) was hit in the 10:20 bar (high 723.69) → shadow closed, ≈ −$120 (719P ≈ $0.65 at SPY 723.6; estimate). Both A2 sides failed on this chop day.
+- SPY 723.65 and QQQ 642.35 are grinding back up on fading volume (0.23–0.30M). 4H: the 8–12 bar has a long lower wick (low 719.62, the gap fill stopped above the PDH 718.43).
+- **ARMED (to 10:42):**
+  - SPY E call on a 5-min close > 723.69 within $0.30, or ≤ $0.75 with QQQ > 642.42, on ≥ 1.0× volume; stop at the swing low 721.51; premium ≤ $100 (day budget $130).
+  - SPY E put on a 5-min close < 719.62 on ≥ 1.0× volume.
+  - QQQ confirms at 642.42 / 636.72.
