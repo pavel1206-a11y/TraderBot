@@ -9118,3 +9118,17 @@ Market data and analysis only, not investment advice.
 - **Week:** −$64. Under the new $250 weekly limit, **$186 is left**; Fri 11/27 is a half day.
 - **Rules changed today (owner):** A2 at $1.25–1.75, entries to 10:15, swoop VWAP exemption, loss limits $175/$250, A/D/QQQ contracts retired. **Backtest** (`journal/backtests/2026-11-25-a2-new-rules-8mo.md`): new rules +$484 vs old −$409 over 173 sessions; the swoop carries it.
 - **Correction (logged after EOD):** today's armed E lines used a 1.5× volume bar; setup E's rule is 1.0×. Under 1.0×, the 1:25 E call (SPY 715.02 close, in band, 1.47×) would have fired and been stopped on the 1:30 bar (low 712.73 < stop 713.24), about −1R. Not added to the scoreboard (no option fill recorded). The other afternoon bars stayed below 1.0× or past the band.
+
+## 2026-11-27 (Fri; half day, close 1:00 PM ET)
+
+**Pre-market brief (8:36):**
+- SPY PDH $718.43 / PDL $695.45 (11/25). Pre $728.34 (+1.6%, **$9.91 above PDH**). Pre-market H/L 731.25 / 726.83.
+- QQQ PDH $634.89 / PDL $607.74. Pre $648.65 (+2.3%, **$13.76 above PDH**). Pre-market H/L 652.34 / 645.88.
+- **Pivots (11/25 H/L/C):**
+  - SPY P 710.19, R1 724.93, R2 733.17, S1 701.95.
+  - QQQ P 625.52, R1 643.30, R2 652.67, S1 616.15.
+- **SMAs:** SPY 20d 740.33 / 50d 757.89; QQQ 20d 666.73 / 50d 707.05. Both are still below the 20-day: the gap is a rebound inside a downtrend.
+- **Bias:** none / lean bullish. The gap holds above R1 and the old PDH; it fades if it loses 724.9 (R1) and the PDH 718.4. Thin half-day volume, so the volume gates fire less often.
+- **Events:** half day (close 1:00). No major scheduled release found in my notes; not checked against a live calendar.
+- **Half-day plan:** A2 window 9:45–10:15 unchanged (swoop stop past the wick, pending the owner). No new entries after 11:30; close all 0DTE by 12:30 (stricter than CLAUDE.md's 2:30/3:30 times because of the 1:00 close). ORB range = the 9:30–9:45 candle.
+- **Week:** −$64; **$186** left of the $250 weekly limit, enough for one A2 at ≤ $175.
