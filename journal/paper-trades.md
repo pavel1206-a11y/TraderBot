@@ -9182,3 +9182,11 @@ Market data and analysis only, not investment advice.
   - SPY E call on a 5-min close > 723.69 within $0.30, or ≤ $0.75 with QQQ > 642.42, on ≥ 1.0× volume; stop at the swing low 721.51; premium ≤ $100 (day budget $130).
   - SPY E put on a 5-min close < 719.62 on ≥ 1.0× volume.
   - QQQ confirms at 642.42 / 636.72.
+
+**10:42 check (replay 10:27–10:41): nothing fired.**
+- **E call (> 723.69):** the 10:35 bar closed 725.25, $1.56 past (beyond the $0.75 band; no chase) on 296k vs a 325k average (0.91×) → no on both counts. QQQ 645.26 > 642.42 on the same bar.
+- SPY is back above R1 (724.93), toward the 9:30–9:45 high 726.05. Another quiet grind (missed-moves at EOD if it runs).
+- **ARMED (to 10:57):**
+  - SPY E call on a 5-min close > 726.05 (ORB high) within the band, on ≥ 1.0× volume, QQQ > 645.89; stop at the swing low 722.71; premium ≤ $100 (day budget $130).
+  - SPY B call on a pullback within $0.15 of VWAP (≈ 722) that closes green.
+  - QQQ confirms at 645.89.
