@@ -9199,3 +9199,10 @@ Market data and analysis only, not investment advice.
   - SPY E call on a 5-min close > 726.62 within the band on ≥ 1.0× volume, QQQ > 646.61; stop 724.48; premium ≤ $100.
   - SPY B call on a pullback within $0.15 of VWAP that closes green.
   - SPY E put on a 5-min close < 724.48 on ≥ 1.0×: no (checklist item 1, price above a rising VWAP).
+
+**11:12 check (replay 10:57–11:11): nothing fired.**
+- SPY closes 725.04 / 725.54 / 725.14 in a tight 724.89–725.79 range on ≈ 0.18M volume. No close above 726.62, no VWAP pullback. QQQ 644.4–645.7.
+- **Squeeze (F):** SPY 724.48–726.62 since 10:40 (2.14 wide, 35 min); not 45 min yet, and new entries stop at 11:30 (half day).
+- **ARMED (to 11:27; last window):**
+  - SPY F/E call on a 5-min close > 726.62 within the band on ≥ 1.0× volume, QQQ > 646.61; stop 724.48; premium ≤ $100.
+  - SPY F/E put on a 5-min close < 724.48: blocked by checklist item 1 unless VWAP turns down.
