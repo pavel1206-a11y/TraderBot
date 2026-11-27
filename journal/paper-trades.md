@@ -9143,3 +9143,20 @@ Market data and analysis only, not investment advice.
   - **A2 put:** a 1-min close below the final 9:45 low that holds. SPY $1.25–1.75 0DTE put (or SPXW). Stop = range midpoint + $0.10; half at +50%, trail; out by 11:00.
   - **A2 call:** a 1-min close above the 9:45 high that holds (calls), or a **swoop**: a wick under the low that closes back inside, with the first closed candle after 9:45 green → calls; stop $0.10 past the wick.
   - SPX/SPY/QQQ are read as one signal. QQQ confirms only (no QQQ contracts). Entries 9:45–10:15; half day, so all 0DTE out by 12:30.
+
+**9:57 check: A2 SWOOP CALL → counted paper trade #63 (armed, replayed)**
+- **Final marks (9:30–9:45):** SPY H 726.05 / L 720.92 (mid 723.49); QQQ H 645.89 / L 637.98.
+- **Signal:**
+  - 9:46: SPY closed 720.93, $0.01 above the low (no cross).
+  - 9:47: the 1-min bar wicked to **720.50** (below 720.92) and closed **green at 721.38**, back inside → **swoop → calls** (owner's read: wick past the line, first closed candle green between the lines).
+  - QQQ confirmed: it closed below its low at 9:46 (637.60), then was back at 637.98 at 9:47.
+- **Trade #63:** SPY 11/27 **723C** @ **$1.69** (9:47 bar close $1.68 + $0.01 to the ask; within $1.25–1.75). Cost $169 ≤ $175 cap; week budget left $186 ≥ $169 → counted.
+  - Stop: SPY **720.40** (wick 720.50 − $0.10; swoop stop pending the owner's OK).
+  - Half at **$2.54** (+50%); rest trailed one 5-min bar behind; out by 11:00.
+  - 0DTE checklist: item 1 exempt (swoop, owner 11/25); item 2 the 9:47 green reclaim; item 3 no scheduled event (half day); item 4 $169 ≤ $175, total open risk $169 ≤ $200.
+- **Since entry:** high $2.08 (9:50, SPY 722.37), not at +50%. SPY low 720.93 (9:49), above the stop. **Now $1.50 (−$19), SPY 721.08. Open.**
+- Note: Robinhood's sellout time on today's SPY 0DTE contracts is 12:45 PM ET; our own exit is by 11:00 (A2), and all 0DTE by 12:30.
+- **MANAGE / ARMED (to 10:12):**
+  - #63: stop SPY 720.40; sell half at $2.54; after the half, trail at the prior 5-min bar's low; out by 11:00.
+  - A2 put (other direction): a 1-min close below 720.92 that holds, by 10:15 → $1.25–1.75 put, stop mid + $0.10 (723.59). Only if #63 is stopped first (no opposite positions at once).
+  - QQQ confirmation: 637.98 (low) / 645.89 (high).
