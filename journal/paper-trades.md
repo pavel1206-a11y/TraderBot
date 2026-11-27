@@ -9206,3 +9206,8 @@ Market data and analysis only, not investment advice.
 - **ARMED (to 11:27; last window):**
   - SPY F/E call on a 5-min close > 726.62 within the band on ≥ 1.0× volume, QQQ > 646.61; stop 724.48; premium ≤ $100.
   - SPY F/E put on a 5-min close < 724.48: blocked by checklist item 1 unless VWAP turns down.
+
+**11:27 check (replay 11:12–11:26): nothing fired. Entries closed for the half day.**
+- SPY: the 11:10 bar closed 724.44, $0.04 under 724.48, on 155k (≈ 0.6×). Not a put: the volume bar failed, and the put line was blocked by checklist item 1 (price above VWAP). No close above 726.62. Last 724.93; QQQ 644.95.
+- **Squeeze:** SPY 724.11–726.62 since 10:40 (2.51 wide), just over F's $2.50 limit; no breakout.
+- **Day (so far):** #63 −$45 (A2 swoop call, stopped); A2 put shadow ≈ −$120; no other signals. No open positions. No new entries after 11:30; EOD runs after the 1:00 close.
