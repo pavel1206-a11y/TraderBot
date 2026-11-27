@@ -9132,3 +9132,14 @@ Market data and analysis only, not investment advice.
 - **Events:** half day (close 1:00). No major scheduled release found in my notes; not checked against a live calendar.
 - **Half-day plan:** A2 window 9:45–10:15 unchanged (swoop stop past the wick, pending the owner). No new entries after 11:30; close all 0DTE by 12:30 (stricter than CLAUDE.md's 2:30/3:30 times because of the 1:00 close). ORB range = the 9:30–9:45 candle.
 - **Week:** −$64; **$186** left of the $250 weekly limit, enough for one A2 at ≤ $175.
+
+**9:42 check (opening range forming):**
+- **Forming 9:30–9:45 range (through 9:42):**
+  - SPY H 726.05 / L 720.92 (open 725.86, last 721.32)
+  - QQQ H 645.89 / L 637.98 (last 638.17)
+  - SPX H 7,271.43 / L 7,231.09 (5-min through 9:40)
+- **Read:** the gap is fading hard. SPY lost R1 (724.93) in the first 5 minutes and is pressing the range low on every bar. The PDH 718.43 is the next support (gap-fill target); PDL 695.45. QQQ is weaker: −7.7 from its open, toward its PDH 634.89.
+- **WATCH / ARMED (9:45–10:12, A2 first; final marks set at 9:45):**
+  - **A2 put:** a 1-min close below the final 9:45 low that holds. SPY $1.25–1.75 0DTE put (or SPXW). Stop = range midpoint + $0.10; half at +50%, trail; out by 11:00.
+  - **A2 call:** a 1-min close above the 9:45 high that holds (calls), or a **swoop**: a wick under the low that closes back inside, with the first closed candle after 9:45 green → calls; stop $0.10 past the wick.
+  - SPX/SPY/QQQ are read as one signal. QQQ confirms only (no QQQ contracts). Entries 9:45–10:15; half day, so all 0DTE out by 12:30.
