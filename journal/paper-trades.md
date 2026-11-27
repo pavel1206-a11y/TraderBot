@@ -9190,3 +9190,12 @@ Market data and analysis only, not investment advice.
   - SPY E call on a 5-min close > 726.05 (ORB high) within the band, on ≥ 1.0× volume, QQQ > 645.89; stop at the swing low 722.71; premium ≤ $100 (day budget $130).
   - SPY B call on a pullback within $0.15 of VWAP (≈ 722) that closes green.
   - QQQ confirms at 645.89.
+
+**10:57 check (replay 10:42–10:56): nothing fired.**
+- SPY: 5-min closes 725.59 / 725.20 / 724.93 (high 726.62 poked the ORB high 726.05 without a close above it) → no E call. No pullback to VWAP (≈ 722.5) → no B. QQQ high 646.61 > 645.89, but its closes stayed below.
+- A stall at the 9:30–9:45 high; volume ≈ 0.24–0.29M (below average).
+- **Half day:** new entries stop at 11:30, so this is the last full arming window.
+- **ARMED (to 11:12):**
+  - SPY E call on a 5-min close > 726.62 within the band on ≥ 1.0× volume, QQQ > 646.61; stop 724.48; premium ≤ $100.
+  - SPY B call on a pullback within $0.15 of VWAP that closes green.
+  - SPY E put on a 5-min close < 724.48 on ≥ 1.0×: no (checklist item 1, price above a rising VWAP).
