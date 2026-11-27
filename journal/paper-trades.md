@@ -9218,7 +9218,7 @@ Market data and analysis only, not investment advice.
   - 9:47 swoop (wick 720.50, green close 721.38) → **#63 SPY 723C @ $1.69, stopped 9:58 at ≈ $1.24 = −$45.**
   - The 9:59 put cross was a shadow (daily/weekly budget below the premium); stopped 10:20, ≈ −$120 shadow.
 - **Day:** a gap-up fade to 719.62 (held above the PDH 718.43), chop, then a slow recovery to 728.7 into the close. No other line fired (volume 0.5–0.9× all day; the extended-band 10:20 bar was 0.54×).
-- **Scoreboard:** **62 trades, 30W/32L, +$30.98.** SPY 56 +$43.91; QQQ 6 −$12.93. **A2 counted: 3, 0W/3L, −$171.** A2 shadows since 11/17: 11, ≈ +$198.
+- **Scoreboard:** **62 trades, 30W/32L, +$30.98.** SPY 56 +$43.91; QQQ 6 −$12.93. **A2 counted: 3, 0W/3L, −$171.** A2 shadows since 11/17: 11, ≈ +$122 (8 through 11/20 +$258; 11/24 −$76; 11/25 +$60; 11/27 −$120). Correction: the 11/25 EOD line "9, ≈ +$318" was wrong; it should have read 10, ≈ +$242.
 - **Week (11/23–11/27):** **−$109** (#62 −$64, #63 −$45); limit $250 (from 11/25), not hit.
 
 ## Weekly review: 2026-11-23 to 11-27 (playbook section 8)
