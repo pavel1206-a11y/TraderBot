@@ -9160,3 +9160,15 @@ Market data and analysis only, not investment advice.
   - #63: stop SPY 720.40; sell half at $2.54; after the half, trail at the prior 5-min bar's low; out by 11:00.
   - A2 put (other direction): a 1-min close below 720.92 that holds, by 10:15 → $1.25–1.75 put, stop mid + $0.10 (723.59). Only if #63 is stopped first (no opposite positions at once).
   - QQQ confirmation: 637.98 (low) / 645.89 (high).
+
+**10:12 check (replay 9:57–10:11): #63 STOPPED.**
+- **#63 closed:** SPY hit the 720.40 stop in the 9:58 bar (low 720.13). The 723C was ≈ $1.24 there (bar low 1.19 / close 1.23) → **−$45** (1.24 − 1.69). The swoop failed: price went back through the wick low.
+- **A2 put (armed, other direction):** 9:58 1-min close 720.33 < 720.92, held at 9:59 (720.09) → signal at 9:59. **Not counted, shadow only:**
+  - After #63, the day's budget left is $130 (< a $150–175 premium), and the week's is $141. A put right after a stopped call also edges toward the no-revenge rule.
+  - Shadow: SPY 719P @ ≈ $1.88 (just over the $1.75 band). It ran $1.83–2.02 to 10:05, then SPY reclaimed 721–722. Now ≈ $0.98 (−48%). Stop 723.59 (mid + $0.10) not hit. **Shadow open, losing**; both directions failed in the chop.
+- **Read:** SPY chops 719.6–722.4 around the 9:30–9:45 low; the half-day gap fill is stalling above the PDH 718.43. QQQ 636.7–640.4.
+- **Scoreboard:** **62 trades, 30W/32L, +$30.98.** A2 counted: 3 trades, 0W/3L, −$171. Day −$45 ($130 left of $175); week −$109 ($141 left of $250).
+- **ARMED (to 10:27; A2 window closed at 10:15):**
+  - SPY: E put on a 5-min close < 719.62 (day low) on ≥ 1.0× volume within the band, toward the PDH 718.43 / S1; premium ≤ $100.
+  - SPY: E call on a 5-min close > 722.98 (the 9:45 bar high) on ≥ 1.0× volume within the band; no calls under a falling VWAP (checklist item 1).
+  - QQQ confirms at 636.72 / 640.43.
