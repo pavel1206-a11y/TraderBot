@@ -9211,3 +9211,33 @@ Market data and analysis only, not investment advice.
 - SPY: the 11:10 bar closed 724.44, $0.04 under 724.48, on 155k (≈ 0.6×). Not a put: the volume bar failed, and the put line was blocked by checklist item 1 (price above VWAP). No close above 726.62. Last 724.93; QQQ 644.95.
 - **Squeeze:** SPY 724.11–726.62 since 10:40 (2.51 wide), just over F's $2.50 limit; no breakout.
 - **Day (so far):** #63 −$45 (A2 swoop call, stopped); A2 put shadow ≈ −$120; no other signals. No open positions. No new entries after 11:30; EOD runs after the 1:00 close.
+
+### 2026-11-27 EOD (half day; close 1:00, SPY 728.73)
+- **A2:**
+  - Range SPY 720.92–726.05.
+  - 9:47 swoop (wick 720.50, green close 721.38) → **#63 SPY 723C @ $1.69, stopped 9:58 at ≈ $1.24 = −$45.**
+  - The 9:59 put cross was a shadow (daily/weekly budget below the premium); stopped 10:20, ≈ −$120 shadow.
+- **Day:** a gap-up fade to 719.62 (held above the PDH 718.43), chop, then a slow recovery to 728.7 into the close. No other line fired (volume 0.5–0.9× all day; the extended-band 10:20 bar was 0.54×).
+- **Scoreboard:** **62 trades, 30W/32L, +$30.98.** SPY 56 +$43.91; QQQ 6 −$12.93. **A2 counted: 3, 0W/3L, −$171.** A2 shadows since 11/17: 11, ≈ +$198.
+- **Week (11/23–11/27):** **−$109** (#62 −$64, #63 −$45); limit $250 (from 11/25), not hit.
+
+## Weekly review: 2026-11-23 to 11-27 (playbook section 8)
+- **Trades:** 2 counted, both A2 calls, both losses (−$109). 4 sessions (Thanksgiving closed; Friday a half day).
+- **What worked:**
+  - Gates on range days (11/23, 11/24, 11/27 morning): they skipped every fake break.
+  - The 11/25 A2 swoop shadow (+$60).
+- **What didn't:**
+  - A2 cross/swoop entries on chop days (11/23 late cross, 11/27 swoop undone in 11 minutes).
+  - E on trend days (11/25: four afternoon legs missed; volume came after price).
+- **Changes this week:**
+  - Owner, 11/25: A2 $1.25–1.75, entries to 10:15, swoop VWAP exemption, limits $175/$250, A/D/QQQ contracts retired.
+  - Change 8 (E/F extended band at 1.0×): 0 qualifying signals yet (10:20 today at 0.54×). Review 12/9.
+  - Change 7 (A2 half + trail): today neutral (stopped before +50%). Tally 2 for / 2 against / 4 neutral.
+  - **Swoop record (shadow + counted): 11/18 win, 11/25 win, 11/27 loss** (2–1).
+- **Process fix:** armed E lines had used 1.5× volume instead of 1.0×; corrected 11/25.
+
+**Graduation check (CLAUDE.md):**
+- At least 10 paper trades ✓ (62).
+- A-grade trades profitable ✗: A-grade ORB 0W/2L (retired); A2 counted 0W/3L.
+- **Not passed:** keep paper trading.
+- Owner decisions open: rescore A / judge on A2, the swoop stop (wick − $0.10 in use, pending), swoops-only A2 (backtest supports, 10-signal trial proposed).

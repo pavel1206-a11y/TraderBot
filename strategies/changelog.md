@@ -198,3 +198,9 @@ Owner's decisions (CLAUDE.md and playbook), on 8 weeks of paper results:
 - Evidence: `journal/backtests/2026-11-25-e-trend-gates.md` (173 sessions). A $0.75 band at 1.0× gave +0.30R/trade in trend state and +0.15 in range state, positive in both halves. The current 1.2× gave +0.12 / +0.00. The QQQ condition is kept.
 - Review after 10 signals or 2 weeks (12/9). Revert if extended-band entries underperform in-band ones.
 - **Process correction (my error):** armed E lines have used a 1.5× volume bar (at least 11/20–11/25) instead of setup E's 1.0×. Today, the 1:25 SPY line (close 715.02, in band, 1.47×) should have fired. Played forward, the 1:30 low of 712.73 hit the 713.24 stop → about −1R. It is not added to the scoreboard (no option fill was recorded); it is noted for the owner. Section 10 now states the bar explicitly.
+
+## 2026-11-27 EOD + weekly — observations (no tuning change)
+- **A2 swoop (owner rule, 11/25):** today's swoop lost (#63 −$45): price went back through the wick within 11 minutes. Swoop record 2–1. The backtest (+$579 over 74 swoops) still supports it; 10-signal review.
+- **Change 8:** no qualifying extended-band signal (best 0.54×). Holiday volume makes today a poor test; not counted.
+- **Change 7:** neutral (stopped before +50%).
+- No new changes; holiday sessions are excluded from tuning evidence.

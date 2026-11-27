@@ -451,3 +451,10 @@ Pattern: two C-grade F shadows in a row have won (11/10 +0.96R, 11/12 +2.7R), bo
 | 11:55–12:15 | +$11 in 20 min (699.56 → 710.35) | A break above 701.36 from the 697.7–700.5 compression; QQQ the same | E call (F not yet 45 min) | 11:55 close in band on 0.98×; 12:00 at 1.23× but $2.45 past; 12:05 at 1.65× but $1.43 past (no-chase). The volume came after the price. |
 | 12:15–1:15 | +$7.4 in 60 min (707.2 → 714.7) | A staircase; each push through the last high | E call | 12:15 close $2.11 past on 1.42×; 12:40 close $0.35 past on 0.77× (extended band needs 1.2×). |
 | 1:15–1:50 | +$7.0 in 35 min (711.2 → 718.2) | The same staircase | E call | 1:15 $0.94 past on 1.15×; 1:25 in band on **1.47×** (near miss; the next bar would have stopped it); 1:40 $0.45 past on 0.85×; 1:45 1.63× but $2.38 past. |
+
+### 2026-11-27 (half day)
+| Time | Move | How it started | Setup that should catch it | Why it didn't |
+|---|---|---|---|---|
+| 9:47–10:05 | −$3.0 (722.4 → 719.62) | The A2 swoop call failed; the 9:59 put cross held | A2 put | Fired; **shadow only** (the day/week budget was below a $150–175 premium after #63). It reversed and the shadow was stopped (−$120), so the skip was right. |
+| 10:05–10:35 | +$6.0 (719.62 → 725.60) | A reclaim of the opening-range midpoint; QQQ led (> 640.43 at 10:20) | E call | 10:20 close $0.67 past 722.98 on 0.54×; 10:35 $1.56 past on 0.91× (no-chase). Low-volume holiday grind. |
+| 11:30–11:55 | +$3.9 (724.11 → 728.00) | A break of the 724.1–726.6 range | F/E call | After the 11:30 half-day entry cutoff; 11:45 close $0.39 past on ≈ 0.75×. |
